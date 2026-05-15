@@ -1,0 +1,577 @@
+[Page 1]
+    
+    
+Lecture 13 
+- Marine Hydrodynamics 
+Lecture 13 
+3.18 Unsteady Motion - Added Mass 
+D’Alembert: ideal, irrotational, unbounded, steady. 
+Example Force on a sphere accelerating (U = U(t), unsteady) in an unbounded ﬂuid that 
+is at at rest at inﬁnity. 
+θ
+ϕ 
+nˆ
+U(t) 
+3D Dipole 
+x 
+r 
+a 
+U(t) 
+∂φ 
+K.B.C on sphere: 
+= U(t) cos θ 
+∂r r=a 
+Solution: Simply a 3D dipole (no stream) 
+
+a 
+φ = −U(t) 
+cos θ 
+2r2 
+∂φ 
+Check: ∂r 
+= U(t) cos θ 
+r=a 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Hydrodynamic force: 
+∂φ 
+
+
+Fx = −ρ 
++ 
+|∇φ| 
+nxdS 
+∂t 
+
+B 
+On r = a, 
+∂φ  
+= − ˙ a3 
+1 ˙
+U 
+cos θ| 
+= − Ua cos θ 
+∂t  
+2r2 
+r=a 
+
+r=a 
+∂φ 1 ∂φ 
+
+∂φ 
+
+∇φ|
+= 
+,
+, 
+= U cos θ, U sin θ, 0 
+r=a 
+∂r r ∂θ r sin θ ∂ϕ  
+
+|∇φ|2 
+= U 2 cos 2 θ + 1 U 2 sin2 θ; ˆn = −eˆr, nx = − cos θ 
+r=a 
+
+π 
+dS =
+(adθ) (2πa sin θ) 
+B 
+
+x 
+a 
+θ
+θ
+ad
+θ
+sin
+a
+
+---PAGE BREAK---
+
+[Page 3]
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+Finally, 
+⎡
+⎤ 
+⎛
+⎞ 
+⎛
+⎞ 
+⎠ 
+˙ 
+1 ⎜ 2 
+⎟
+Fx = (−ρ) 2πa2 
+π 
+dθ (sin θ) ⎝−cos θ 
+⎢⎢⎢ 
+− 1 Ua cos θ + 
+⎜ 
+U cos 2 θ + 1 U 2 sin2 θ 
+⎟
+⎥⎥⎥ 
+   ⎣ 2 
+2 ⎝ 
+
+⎠⎦
+
+
+
+
+ 
+ 
+
+nx 
+∂φ 
+
+|∇φ|
+∂t 
+π
+π 
+Fx = −U˙ (ρa3)π
+ dθ
+ 
+sin θ cos 2 θ 
++
+(ρU 2)πa2 
+dθ sin θ cos θ cos 2 θ + 1 sin2 θ 
+
+
+
+
+
+ 
+
+
+ 
+2/3 
+= 0, D’alembert revisited 
+⎡
+⎤ 
+⎢ 
+
+⎥ 
+Fx 
+= − U˙ (t) ⎢ 
+ρ 
+πa3 
+⎥ 
+ 
+ ⎣  
+
+⎦ 
+   
+Hydrodynamic Force 
+Acceleration 
+Fluid Density 
+Volume =1/2∀sphere 
+Thus the Hydrodynamic Force on a sphere of diameter a moving with velocity U(t) in  
+an unbounded ﬂuid of density ρ is given by 
+Fx = −U˙ (t) ρ 2 πa3 
+
+Comments: 
+• If U˙ = 0  →Fx = 0, i.e., steady translation → no force (D’Alembert’s Condition ok). 
+• Fx ∝U˙ with a (−) sign, i.e., the ﬂuid tends to ‘resist’ the acceleration. 
+• [· · · ] has the units of (ﬂuid) mass ≡ma 
+• Equation of Motion for a body of mass M that moves with velocity U: 
+M
+U˙ = ΣF = 
+FH 
++ 
+FB 
+= −U˙ 
+ma 
++ FB ⇔ 
+ 
+ 
+ 
+ 
+Body mass 
+Hydrodynamic force 
+All other forces on body 
+Fluid mass 
+pˆndS
+S 
+(M + ma) U˙ = FB 
+i.e., the presence of ﬂuid around the body acts as an added or virtual mass to the 
+body.
+
+---PAGE BREAK---
+
+[Page 4]
+3.19 General 6 Degrees of Freedom Motions 
+3.19.1 Notation Review 
+(3D) U1, U2, U3: Translational velocities 
+U4 ≡ Ω1, U5 ≡ Ω2, U6 ≡ Ω3: Rotational velocities 
+
+
+
+
+
+
+(2D) U1, U2: Translational velocities 
+U6 ≡ Ω3: Rotational velocity 
+U3 = U4 = U5 = 0  
+
+
+
+3.19.2 Added Mass Tensor (matrix) 
+mij ; i, j = 1, 2, 3, 4, 5, 6 
+mij : associated with force on body in i direction due to unit acceleration in j 
+direction. For example, for a sphere: 
+m11 = m22 = m33 = 1/2ρ∀ = (mA) all other mij = 0
+
+---PAGE BREAK---
+
+[Page 5]
+3.19.3 Added Masses of Simple 2D Geometries 
+• Circle 
+a 
+
+
+m11 = m22 = ρ∀ = ρπa2 
+• Ellipse 
+m11 = ρπa2 , m22 = ρπb2 
+• Plate 
+
+a 
+b 
+
+
+2a 
+
+m11 = ρπa2 , m22 = 0
+
+---PAGE BREAK---
+
+[Page 6]
+• Square 
+
+2a 1 
+2a 
+m11 = m22 ≈ 4.754ρa2 
+A reasonable approximation to estimate the added mass of a 2D body is to 
+use the displaced mass (ρ∀) of an ‘equivalent cylinder’ of the same lateral 
+dimension or one that ‘rounds oﬀ’ the body. For example, consider a square 
+and approximate with an 
+(a) inscribed circle: mA = ρπa2 = 3.14ρa2 . 
+2a 
+√ 2 
+(b) circumscribed circle: mA = ρπ 
+2a 
+= 6.28ρa2 . 
+(√2)a 
+Arithmetic mean of (a) + (b) ≈ 4.71ρa2 .
+
+---PAGE BREAK---
+
+[Page 7]
+⃗ 
+3.19.4 Generalized Forces and Moments 
+In this paragraph we are looking at the most general case where forces and moments 
+are induced on rigid body moving with 6 DoF motions, in an unbounded ﬂuid that 
+is at rest at inﬁnity. 
+Body ﬁxed reference frame, i.e., OX1X2X3 is ﬁxed on the body. 
+x1 
+x2 
+o 
+x3 
+)t(
+Uv 
+)t(
+Ω
+v 
+U⃗(t) = (U1, U2, U3) , translational velocity 
+Ω(t) = (Ω1, Ω2, Ω3) ≡ (U4, U5, U6) , rotational velocity with respect to O 
+Consider a body with a 6 DoF motion (⃗ Ω), and a ﬁxed reference frame OX1X2X3.
+U, ⃗ 
+Then the hydrodynamic forces and moments with respect to O are given by the 
+following relations (JNN §4.13) 
+• Forces 
+Fj = −U˙ imji − Ejkl UiΩk mli 
+with 
+i = 1, 2, 3, 4, 5, 6 
+1. 
+2. 
+and 
+j, k, l = 1, 2, 3 
+• Moments 
+Mj = −U˙ imj+3,i − Ejkl UiΩk ml+3,i − Ejkl UkUi mli 
+with 
+i = 1, 2, 3, 4, 5, 6 
+3. 
+2. 
+3. 
+and 
+j, k, l = 1, 2, 3
+
+---PAGE BREAK---
+
+[Page 8]
+⇀ 
+⇀ 
+⇀ 
+
+ 
+  
+Einstein’s Σ notation applies. 
+Ejkl = ‘alternating tensor’ = 
+⎧ 
+⎪
+⎪
+⎪
+⎪
+⎨ 
+⎪
+⎪
+⎪
+⎪
+⎩ 
+
+ if
+ 
+any
+ 
+j, k, l are equal 
+
+ ifj, k, l are in cyclic order, i.e., 
+(1, 2, 3), (2, 3, 1), or (3, 1, 2) 
+−1
+ifj, k, l are not in cyclic order i.e., 
+(1, 3, 2), (2, 1, 3), (3, 2, 1) 
+Note: 
+(a) if Ωk ≡ 0 ,  Fj = −U˙ imji (as expected by deﬁnition of mij ). 
+Also if U˙ i ≡ 0, then Fj = 0 for any Ui, no force in steady translation. 
+(b) Bl ∼ Uimli ‘added momentum’ due to rotation of axes. 
+Then all the terms marked as 2. are proportional to ∼ Ω × B where B is linear 
+momentum (momentum from i coordinate into new xj direction). 
+(c) If Ωk ≡ 0 :  Mj = −U˙ m
+m − 
+E
+ 
+U U
+ 
+m 
+.
+i
+j+3,i 
+ij 
+jkl 
+k
+i 
+li 
+even with U
+Mj ̸
+˙ =0, 
+=0 due to this term 
+Moment on a body due to pure steady translation – ‘Munk’ moment.
+
+---PAGE BREAK---
+
+[Page 9]
+ 
+ 
+3.19.5 Example Generalized motions, forces and moments. 
+A certain body has non-zero added mass coeﬃcients only on the diagonal, i.e. mij = 
+δij . For a body motion given by U1 = t, U2 = − t, and all other Ui, Ωi = 0, the 
+forces and moments on the body in terms of mi are: 
+F1 = 
+, F2 = 
+, F3 = 
+, M1 = 
+, M2 = 
+, M3 = 
+Solution: 
+mij = δij 
+U1 = t
+U2 = − t
+Ui = 0  i = 3, 4, 5, 6
+Ωk = 0  k = 1, 2, 3 
+U˙ 1 = 1  U˙ 2 = − 1 
+U˙ i = 0  i = 3, 4, 5, 6 
+Use the relations from (JNN § 4.13): 
+Ωk=0 
+Fj = − U˙ imij − EjklUiΩkmil −→ 
+Fj = − U˙ imij 
+Ωk=0 
+Mj = − U˙ imi(j+3) − EjklUiΩkmi(l+3) − EjklUkUimli −→ 
+Mj = − U˙ imi(j+3) − EjklUkUimli 
+where i = 1, 2, 3, 4, 5, 6 and j, k, l = 1, 2, 3 
+For F1, F2, F3 use the previous relationship for Fj with j = 1, 2, 3 respectively: 
+F1 
+= 
+− U˙ 1 m11 − U˙ 2 m21 − U˙ 3 m31 − U˙ 4 m41 − U˙ 5 m51 − U˙ 6 m61 → F1 = − m11 
+ 
+ 
+ 
+ 
+ 
+ 
+=1 
+=0
+=0
+=0
+=0
+=0 
+Check 
+F2 
+= 
+− U˙ 2 m22 → F2 = m22 
+=−1 
+Check 
+˙
+F3 
+= 
+− U3 m33 → F3 = 0  
+=0
+
+---PAGE BREAK---
+
+[Page 10]
+ 
+ 
+ 
+ 
+For M1, M2, M3 use the previous relationship for Mj with j = 1, 2, 3 respectively: 
+M1 = −U˙ imi(1+3) − E1klUkUimli 
+= −U˙ imi4 − E1klUkUimli 
+= −U˙ 1 m14 −U˙ 2 m24 −U˙ 3 m34 − U˙ 4 m44 − U˙ 5 m54 −U˙ 6 m64 
+ 
+ 
+ 
+ 
+ 
+ 
+=0 
+=0 
+=0
+=0 
+=0 
+=0 
+−E123U2 U1 m13 +U2 m23 + U3 m33 + U4 m43 +U5 m53 +U6 m63 
+ 
+ 
+ 
+ 
+ 
+ 
+=0 
+=0
+=0 
+=0 
+=0 
+=0 
+−E132 U3 
+U1 m12 + U2 m22 + U3 m32 +U4 m42 +U5 m52 +U6 m62 
+→ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+=0 
+=0
+=−1 
+=0
+=0
+=0
+=0 
+M2 = −U˙ imi5 − E2klUkUimli 
+= U˙ 5m55 − E231U3Uim1i − E213U1Uim3i 
+= −E213U1U3m33 → M2 = 0  
+M3 = −U˙ imi6 − E3klUkUimli 
+= U˙ 6m66 − E312 U1Uim2i − E321 U2Uim1i 
+ 
+ 
+ 
+ 
++1 
+−1 
+= − U1 U2 m22 + U2 U1 m11 → M3 = t2(m22 − m11) 
+  
+  
+t 
+−t 
+−t
+t 
+M1 = 0
+
+---PAGE BREAK---
+
+[Page 11]
+ 
+ 
+ 
+3.19.6 Example Munk Moment on a 2D submarine in steady translation 
+U 
+
+θ
+
+U
+
+θ
+
+3 (out of page)
+ 
+U1 =U cos θ 
+U2 = − U sin θ 
+Consider steady translation motion: U˙ = 0; Ωk = 0. Then 
+M3 = −E3klUkUimli 
+For a 2D body, m3i = mi3 = 0, also U3 = 0, i, k, l  = 1, 2. This implies that: 
+M3 = − E312 U1 (U1m21 + U2m22) − E321 U2 (U1m11 + U2m12) 
+  
+ 
+=1 
+=−1 
+= −U1U2 (m22 − m11) 
+⎛
+⎞ 
+⎠
+= U 2 sin θ cos θ ⎝m22 − m11
+>0 
+Therefore, M3 > 0 for 0 < θ  < π/2 (‘Bow up’). Therefore, a submarine under 
+forward motion is unstable in pitch (yaw). For example, a small bow-up tends to 
+grow with time, and control surfaces are needed as shown in the following ﬁgure.
+
+---PAGE BREAK---
+
+[Page 12]
+B 
+G 
+H 
+• Restoring moment ≈ (ρg∀H)sinθ. 
+• critical speed Ucr given by: 
+(ρg∀) H sin θ ≥ U 2 sin θ cos θ (m22 − m11)
+cr 
+H 
+Ucr 
+θ
+θ 
+Usually m22 >> m11, m22 ≈ ρ∀. For small θ, cos θ ≈ 1. So, U 2 ≤ gH or Fcr ≡
+cr 
+√Ucr ≤ 1. Otherwise, control ﬁns are required. 
+gH

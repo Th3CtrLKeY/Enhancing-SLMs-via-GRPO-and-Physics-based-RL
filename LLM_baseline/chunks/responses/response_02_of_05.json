@@ -1,0 +1,482 @@
+[
+  {
+    "index": 120,
+    "type": "mcq",
+    "reasoning": "Strip theory is a two-dimensional approximation that assumes the flow around each section of a slender body is independent of the flow at other sections. Therefore, its primary limitation is that it neglects the three-dimensional longitudinal flow and the hydrodynamic interactions between adjacent sections.",
+    "final_answer": "A"
+  },
+  {
+    "index": 121,
+    "type": "mcq",
+    "reasoning": "The Kutta condition is a physical requirement for sharp-edged bodies in potential flow, stating that the flow must leave the trailing edge smoothly with a finite velocity. This condition allows for the unique determination of the circulation around the airfoil, which is necessary to calculate lift.",
+    "final_answer": "A"
+  },
+  {
+    "index": 124,
+    "type": "numerical",
+    "reasoning": "The Strouhal number is defined as $St = f \\cdot D / V$. Substituting the given values: $f = 0.5$ Hz, $D = 5$ m, and $V = 10$ m/s: $St = (0.5 \\cdot 5) / 10 = 2.5 / 10 = 0.25$.",
+    "final_answer": "0.25"
+  },
+  {
+    "index": 125,
+    "type": "mcq",
+    "reasoning": "In the Kelvin ship-wave system, the energy flux is the product of the wave energy density and the group velocity of the waves ($P = E \\cdot V_g$). The group velocity determines the rate at which energy is transported away from the ship.",
+    "final_answer": "B"
+  },
+  {
+    "index": 127,
+    "type": "numerical",
+    "reasoning": "The trailing vorticity $\\gamma_T(z)$ is related to the spanwise distribution of circulation $\\Gamma(z)$ by the relation $\\gamma_T(z) = -d\\Gamma/dz$. Given that $d\\Gamma/dz$ (denoted as $\\Gamma'(z)$) is $0.1$ m²/s², then $\\gamma_T = -0.1$ m/s.",
+    "final_answer": "0.1 m/s"
+  },
+  {
+    "index": 133,
+    "type": "numerical",
+    "reasoning": "For a long cylinder in the long-wave limit ($kR \\ll 1$), the differential exciting force per unit length is dominated by the Froude-Krylov force and diffraction. For a heave force on a cylinder of radius $R=5$m with $\\omega=0.1$ rad/s, and assuming a unit wave amplitude, the force is approximately $2\rho g R$. $2 \\cdot 1000 \\cdot 9.81 \\cdot 5 = 98100$ N/m.",
+    "final_answer": "98100 N/m"
+  },
+  {
+    "index": 134,
+    "type": "mcq",
+    "reasoning": "The Reynolds number ($Re = UL/\nu$) is the fundamental dimensionless parameter that determines the nature of the flow (laminar vs. turbulent) and the characteristics of flow separation around a structure in a steady current.",
+    "final_answer": "A"
+  },
+  {
+    "index": 135,
+    "type": "numerical",
+    "reasoning": "Using the dispersion relation $\\omega^2 = gk \tanh(kh)$ with $\\omega = 2\\pi(0.1) = 0.6283$ rad/s and $h = 10$ m, we solve for $k \\approx 0.0679$ m⁻¹. The wavelength $\\lambda = 2\\pi/k = 92.5$ m. The phase velocity $V_p = \\omega/k = 9.25$ m/s.",
+    "final_answer": "92.5 m, 9.25 m/s"
+  },
+  {
+    "index": 137,
+    "type": "numerical",
+    "reasoning": "The lift force is calculated using $L = 0.5 \\cdot \rho \\cdot V^2 \\cdot S \\cdot C_L$. Substituting $\rho = 1000$ kg/m³, $V = 20$ m/s, $S = 2$ m², and $C_L = 0.5$: $L = 0.5 \\cdot 1000 \\cdot (20)^2 \\cdot 2 \\cdot 0.5 = 1000 \\cdot 400 \\cdot 0.5 = 200,000$ N.",
+    "final_answer": "200000 N"
+  },
+  {
+    "index": 140,
+    "type": "numerical",
+    "reasoning": "Wave speed $c = (g / 2\\pi) \\cdot T = (9.81 / 6.283) \\cdot 8 = 12.49$ m/s. The relative velocity between the ship ($V_s = 15$ m/s) and waves moving in the same direction is $V_{rel} = |V_s - c| = |15 - 12.49| = 2.51$ m/s.",
+    "final_answer": "2.51 m/s"
+  },
+  {
+    "index": 141,
+    "type": "numerical",
+    "reasoning": "In linear wave theory for deep water, $u = A\\omega e^{ky} \\cos(kx - \\omega t)$ and $v = A\\omega e^{ky} \\sin(kx - \\omega t)$. With $A=1, k=0.1, \\omega=0.5, t=2, x=0, y=0.5$: $u = 0.5 e^{0.05} \\cos(-1) = 0.284$ m/s; $v = 0.5 e^{0.05} \\sin(-1) = -0.442$ m/s.",
+    "final_answer": "u=0.284 m/s, v=-0.442 m/s"
+  },
+  {
+    "index": 146,
+    "type": "numerical",
+    "reasoning": "The half-body half-width $b = \\pi m / U$. Given $2b = 2$ m and $U = 5$ m/s, $m = 5 / \\pi = 1.5915$. At $(0.7, 0.5)$, $r = 0.8602, \\cos\theta = 0.8137$. $u = U + (m/r)\\cos\theta = 5 + (1.5915/0.8602) \\cdot 0.8137 = 6.505$. $v = (m/r)\\sin\theta = 1.075$. Resultant $V = \\sqrt{6.505^2 + 1.075^2} = 6.59$ m/s.",
+    "final_answer": "6.59 m/s"
+  },
+  {
+    "index": 147,
+    "type": "numerical",
+    "reasoning": "Surge velocity is proportional to $A \\cdot f$. Assuming a Froude-Krylov approximation where surge velocity amplitude $V = \\omega \\cdot (A \\cos\theta)$: $\\omega = 2\\pi(0.2) = 1.256$ rad/s. $V = 1.256 \\cdot (1.5 \\cdot \\cos 30^\\circ) = 1.256 \\cdot 1.299 = 1.63$ m/s.",
+    "final_answer": "1.63 m/s"
+  },
+  {
+    "index": 148,
+    "type": "numerical",
+    "reasoning": "For flow past a body, the complex velocity $F'(\\zeta)$ approaches the free-stream velocity $U$ at infinity. Given the complex velocity at a finite point is $-2i$, and assuming it aligns with the vertical uniform flow $U$, then $U = 2$ m/s.",
+    "final_answer": "2 m/s"
+  },
+  {
+    "index": 150,
+    "type": "mcq",
+    "reasoning": "In three-dimensional aerodynamics, the pressure difference between the upper and lower surfaces of a wing causes air to curl around the tips, creating trailing vortices. These vortices induce a downward velocity known as downwash.",
+    "final_answer": "A"
+  },
+  {
+    "index": 151,
+    "type": "mcq",
+    "reasoning": "Prandtl's lifting-line theory improves upon strip theory by modeling the wing as a distribution of lift that varies along the span, which creates trailing vortices and induces downwash, thereby accounting for 3D effects on local angle of attack and lift.",
+    "final_answer": "A"
+  },
+  {
+    "index": 152,
+    "type": "numerical",
+    "reasoning": "Using the dispersion relation $k = \\omega^2 / g$: $k = (0.2)^2 / 9.81 = 0.04 / 9.81 = 0.004077$ m⁻¹.",
+    "final_answer": "0.00408 m⁻¹"
+  },
+  {
+    "index": 155,
+    "type": "mcq",
+    "reasoning": "Helical strakes are aerodynamic/hydrodynamic devices wrapped around cylindrical structures like risers to disrupt the coherence of vortex shedding, which prevents the rhythmic alternating forces that cause vortex-induced vibration (VIV).",
+    "final_answer": "B"
+  },
+  {
+    "index": 157,
+    "type": "numerical",
+    "reasoning": "Potential $\\phi = (m/2\\pi) \\ln r$ and stream function $\\psi = (m/2\\pi) \theta$. For $(1, 2)$, $r = \\sqrt{5}$ and $\theta = 1.107$ rad. $\\phi = (m/2\\pi) \\ln \\sqrt{5} = 0.128 m$; $\\psi = (m/2\\pi) \\cdot 1.107 = 0.176 m$.",
+    "final_answer": "phi=0.128m, psi=0.176m"
+  },
+  {
+    "index": 158,
+    "type": "numerical",
+    "reasoning": "According to slender-body theory for ship hulls, the heave added mass coefficient for a slender body with rectangular sections is approximately $1.0$ (relative to displaced fluid). Thus, $\\partial F_3 / \\partial U_3$ (which is the added mass $A_{33}$) is approximately $1.0$ times the displacement.",
+    "final_answer": "1.0"
+  },
+  {
+    "index": 163,
+    "type": "mcq",
+    "reasoning": "In a catenary mooring system, the tension is primarily governed by the weight of the cable per unit length and the horizontal tension required to maintain the vessel's position.",
+    "final_answer": "B"
+  },
+  {
+    "index": 164,
+    "type": "mcq",
+    "reasoning": "From the Cauchy-Riemann equations, the imaginary part of an analytic function that is symmetric (even) in $\\eta$ for its real part must be antisymmetric (odd) in $\\eta$. For a potential flow symmetric about a line, the stream function is typically an odd function.",
+    "final_answer": "C"
+  },
+  {
+    "index": 166,
+    "type": "numerical",
+    "reasoning": "Mass force $F_M = C_m \rho \\pi R^2 A (\\omega^2/k)$. With $R=2, \rho=1025, f=0.2 (\\omega=1.256), \\lambda=50 (k=0.1257)$, and $C_m=2$ (for cylinder): $F_M/A = 2 \\cdot 1025 \\cdot \\pi \\cdot 2^2 \\cdot (1.256^2 / 0.1257) = 323600$ N.",
+    "final_answer": "323.6 kN/m"
+  },
+  {
+    "index": 173,
+    "type": "mcq",
+    "reasoning": "The Prandtl-Glauert transformation is used in fluid mechanics to relate compressible flow over a body to an equivalent incompressible flow, allowing the use of simpler potential flow methods at high Mach numbers.",
+    "final_answer": "B"
+  },
+  {
+    "index": 176,
+    "type": "numerical",
+    "reasoning": "Total lift $L = 2 \rho U \\int_0^{b/2} \\Gamma(z) dz$. $\\Gamma(z)$ is linear: $\\Gamma = 0.2 - 0.04z$. $L = 2 \\cdot 1200 \\cdot 20 \\cdot [0.2z - 0.02z^2]_0^{2.5} = 48000 \\cdot (0.5 - 0.125) = 18000$ N.",
+    "final_answer": "18000 N"
+  },
+  {
+    "index": 177,
+    "type": "numerical",
+    "reasoning": "Using the Rayleigh distribution rule of thumb for extreme waves in a sea state, the maximum wave height $H_{max}$ is approximately $1.86$ to $2.0$ times the significant wave height $H_s$. For $H_s = 3$ m, $H_{max} \\approx 3 \\cdot 1.86 = 5.58$ m.",
+    "final_answer": "5.6 m"
+  },
+  {
+    "index": 179,
+    "type": "mcq",
+    "reasoning": "Hydrofoils are used to lift the hull of the vessel out of the water. This significantly reduces the wetted surface area and eliminates wave-making resistance, thereby reducing total drag and allowing for higher speeds.",
+    "final_answer": "A"
+  },
+  {
+    "index": 180,
+    "type": "mcq",
+    "reasoning": "Perturbation analysis using wave amplitude as a small parameter transforms difficult non-linear boundary value problems into a sequence of easier linear problems (1st order, 2nd order, etc.), allowing for analytical or simpler numerical solutions.",
+    "final_answer": "A"
+  },
+  {
+    "index": 182,
+    "type": "numerical",
+    "reasoning": "Hydrostatic (buoyancy) force $F = \rho g \\mathcal{V}$. $\\mathcal{V} = \\pi \\cdot (1.5)^2 \\cdot 3 = 21.205$ m³. $F = 1025 \\cdot 9.81 \\cdot 21.205 = 213217$ N.",
+    "final_answer": "213.2 kN"
+  },
+  {
+    "index": 183,
+    "type": "numerical",
+    "reasoning": "With $T = 0.4$ s ($\\omega = 15.708$) and $h = 0.11$, we use $\\omega^2 = gk \tanh(kh)$. Solving yields $k \\approx 25.35$ m⁻¹. Phase velocity $V_p = \\omega/k = 0.6198$ m/s.",
+    "final_answer": "0.62 m/s"
+  },
+  {
+    "index": 184,
+    "type": "numerical",
+    "reasoning": "For low reduced damping ($\\delta_r = 0.1$), the maximum amplitude of VIV $A/D$ typically reaches a peak of about $0.5$ to $1.0$. Given $D=1$ m, the maximum amplitude is approximately $0.5$ m.",
+    "final_answer": "0.5 m"
+  },
+  {
+    "index": 186,
+    "type": "numerical",
+    "reasoning": "The velocity potential for a uniform flow in the x-direction is $\\phi = U \\cdot x$. Substituting $U = 5$ m/s, we get $\\phi = 5x$.",
+    "final_answer": "5x m²/s"
+  },
+  {
+    "index": 187,
+    "type": "mcq",
+    "reasoning": "In the transition range of Reynolds numbers, the smoothness of the surface is the critical factor; roughness elements create disturbances that trigger the breakdown of laminar flow into turbulence.",
+    "final_answer": "A"
+  },
+  {
+    "index": 190,
+    "type": "numerical",
+    "reasoning": "Damping $B_{33}$ is proportional to the square of the generated wave amplitude. For two hulls in phase, the combined amplitude is $A_{total} = 2A = 1.0$ m. $B_{33} = (\rho g^2 / \\omega^3) \\cdot A_{total}^2$. With $k = 2\\pi/40 = 0.157$, $\\omega = \\sqrt{gk} = 1.24$. $B_{33} = (1025 \\cdot 96.2 / 1.906) \\cdot 1.0 \\approx 51749$ kg/s.",
+    "final_answer": "51.75 t/s"
+  },
+  {
+    "index": 191,
+    "type": "numerical",
+    "reasoning": "In the long-wave limit, the excitation force $F_3 \\approx \rho g A \\cdot A_{wp}$. For a hemisphere of radius $R=25$, $A_{wp} = \\pi R^2 = 1963.5$ m². $F_3 = 1025 \\cdot 9.81 \\cdot 5 \\cdot 1963.5 = 98.7$ MN.",
+    "final_answer": "98.7 MN"
+  },
+  {
+    "index": 193,
+    "type": "numerical",
+    "reasoning": "Drag force $F_d = 0.5 \\cdot \rho \\cdot V^2 \\cdot (D \\cdot L) \\cdot C_d$. Substituting $\rho = 1000, V = 2, D = 10, L = 500, C_d = 1.2$: $F_d = 0.5 \\cdot 1000 \\cdot 4 \\cdot 5000 \\cdot 1.2 = 12,000,000$ N.",
+    "final_answer": "12 MN"
+  },
+  {
+    "index": 194,
+    "type": "mcq",
+    "reasoning": "In model testing, it is impossible to satisfy both Froude and Reynolds similarity simultaneously using the same fluid. Froude's hypothesis assumes resistance components can be scaled separately, bypassing the Reynolds scaling problem.",
+    "final_answer": "D"
+  },
+  {
+    "index": 196,
+    "type": "numerical",
+    "reasoning": "For $Re = 10^6$ (turbulent), $\\delta \\approx 0.37 L / Re^{1/5} = 0.0233$ m. Using the 1/8 ratio for displacement thickness: $\\delta^* = 0.0029$ m.",
+    "final_answer": "0.0029 m"
+  },
+  {
+    "index": 197,
+    "type": "mcq",
+    "reasoning": "As waves enter shallower water, the wave speed $c$ decreases (since $c \\approx \\sqrt{gh}$). Because the frequency $f$ remains constant, the wavelength $\\lambda = c / f$ must decrease.",
+    "final_answer": "D"
+  },
+  {
+    "index": 198,
+    "type": "numerical",
+    "reasoning": "In a uniform potential flow, the net force on a sphere is just the buoyancy force. $\\mathcal{V} = (4/3)\\pi(0.1)^3 = 0.004189$ m³. $F_b = \rho g \\mathcal{V} = 1000 \\cdot 9.81 \\cdot 0.004189 = 41.1$ N.",
+    "final_answer": "41.1 N"
+  },
+  {
+    "index": 200,
+    "type": "numerical",
+    "reasoning": "Theodorsen's lift includes a circulatory term proportional to $2\\pi \rho U b C(k) \\dot{h}$. Assuming a unit chord ($b=0.5$), $L = 2\\pi \\cdot 1000 \\cdot 10 \\cdot 0.5 \\cdot 0.8 \\cdot (2 \\cdot 0.5) = 25132$ N.",
+    "final_answer": "25.1 kN"
+  },
+  {
+    "index": 201,
+    "type": "numerical",
+    "reasoning": "By definition, the velocity flux through any closed surface enclosing a point source is equal to the strength of the source $Q$. Therefore, the flux is $0.2$ m³/s.",
+    "final_answer": "0.2 m³/s"
+  },
+  {
+    "index": 202,
+    "type": "numerical",
+    "reasoning": "Substituting the given values: $\\omega = 2, l = 10, g = 9.81$: Ratio $= (2^2 \\cdot 10) / 9.81 = 40 / 9.81 = 4.077$.",
+    "final_answer": "4.08"
+  },
+  {
+    "index": 204,
+    "type": "mcq",
+    "reasoning": "The Riemann mapping theorem is restricted to conformal mappings in the complex plane, which is inherently a two-dimensional mathematical tool. It cannot be directly extended to general three-dimensional geometries.",
+    "final_answer": "B"
+  },
+  {
+    "index": 207,
+    "type": "numerical",
+    "reasoning": "Inertia $I = 5000 \\cdot 10^2 + 1000 = 501,000$ kg·m². Stiffness $C = 5000 \\cdot 9.81 \\cdot 2 = 98100$ N·m. Period $T = 2\\pi \\sqrt{I/C} = 2\\pi \\sqrt{5.107} = 14.2$ s.",
+    "final_answer": "14.2 s"
+  },
+  {
+    "index": 208,
+    "type": "numerical",
+    "reasoning": "Substituting $\\alpha = 5 \\cdot \\pi / 180 = 0.08726$ rad: $C_L = \\pi \\cdot 0.08726 = 0.274$.",
+    "final_answer": "0.274"
+  },
+  {
+    "index": 213,
+    "type": "numerical",
+    "reasoning": "In Couette flow, the velocity gradient is constant: $du/dy = U/h$. Shear stress $\tau = \\mu (U/h) = 0.01 \\cdot (2 / 0.01) = 2$ Pa.",
+    "final_answer": "2 Pa"
+  },
+  {
+    "index": 214,
+    "type": "mcq",
+    "reasoning": "In shallow water, wave particle orbits are compressed vertically by the seabed, leading to higher horizontal velocities under crests and shallower troughs, which distorts the sinusoidal wave profile.",
+    "final_answer": "A"
+  },
+  {
+    "index": 215,
+    "type": "numerical",
+    "reasoning": "The term is $\\phi \\cdot (\\partial/\\partial n)(1/r)$. If $\\partial/\\partial n(1/r) = 1/r^2$: value $= 2 / (0.01)^2 = 2 / 0.0001 = 20,000$.",
+    "final_answer": "20000 m/s"
+  },
+  {
+    "index": 217,
+    "type": "numerical",
+    "reasoning": "Speed $c = \\sqrt{(9.81 \\cdot 0.05 / 1000) \\cdot (5000 / 150)} = \\sqrt{0.00049 \\cdot 33.3} = 0.1278$ m/s. Wavelength $\\lambda = c \\cdot T = 0.1278 \\cdot 300 = 38.36$ m.",
+    "final_answer": "38.36 m"
+  },
+  {
+    "index": 219,
+    "type": "numerical",
+    "reasoning": "Virtual mass $M_v = m + m_a = \\mathcal{V}(\rho_{sphere} + 0.5\rho_{water}) = 0.004189 \\cdot (500 + 500) = 4.189$ kg. Force $F = M_v \\cdot a = 4.189 \\cdot 5 = 20.945$ N.",
+    "final_answer": "20.95 N"
+  },
+  {
+    "index": 221,
+    "type": "numerical",
+    "reasoning": "Frequency $f = St \\cdot V / D = 0.25 \\cdot 1 / 20 = 0.0125$ Hz. Period $T = 1/f = 80$ s.",
+    "final_answer": "80 s"
+  },
+  {
+    "index": 225,
+    "type": "numerical",
+    "reasoning": "$\\dot{m} = \rho \\cdot A \\cdot V$. $A = \\pi \\cdot 0.05^2 = 0.00785$ m². Inlet: $1000 \\cdot 0.00785 \\cdot 2 = 15.7$ kg/s. Outlet: $1000 \\cdot 0.00785 \\cdot 1.5 = 11.8$ kg/s.",
+    "final_answer": "15.7 kg/s, 11.8 kg/s"
+  },
+  {
+    "index": 226,
+    "type": "numerical",
+    "reasoning": "Reynolds number $Re = 5 / 1.05 \times 10^{-6} = 4.76 \times 10^6$. Using the Prandtl-Schlichting formula for turbulent flow: $C_f = 0.455 / (\\log Re)^{2.58} = 0.00338$.",
+    "final_answer": "0.0034"
+  },
+  {
+    "index": 228,
+    "type": "numerical",
+    "reasoning": "Assuming column volume $V_c = 4 \\cdot \\pi(2.5)^2 \\cdot 10 = 785$ m³ and a pontoon length $L=50$ m for a square TLP: $V_p = 2 \\cdot \\pi(10)^2 \\cdot 50 = 31415$ m³. $R = 785 / 31415 \\approx 0.025$.",
+    "final_answer": "0.025"
+  },
+  {
+    "index": 233,
+    "type": "numerical",
+    "reasoning": "Added mass of a flat plate for out-of-plane motion is $m = \rho \\pi (W/2)^2 L$. For $W=2, L=5$: $m = 1000 \\cdot \\pi \\cdot 1^2 \\cdot 5 = 15708$ kg.",
+    "final_answer": "15708 kg"
+  },
+  {
+    "index": 234,
+    "type": "mcq",
+    "reasoning": "In matched asymptotic expansions for shallow water flow, the 'inner' flow near the ship and the 'outer' far-field flow must be consistent. The function $f(x,t)$ arises as a result of this matching to satisfy the global continuity and pressure requirements.",
+    "final_answer": "A"
+  },
+  {
+    "index": 235,
+    "type": "mcq",
+    "reasoning": "In oscillatory flow around a circular cylinder, flow separation generally begins when the Keulegan-Carpenter number exceeds approximately 1.5-2.0. A value of $\\pi$ (3.1) is often cited as a key threshold for significant vortex activity.",
+    "final_answer": "D"
+  },
+  {
+    "index": 236,
+    "type": "numerical",
+    "reasoning": "For $KC = 1.0$ ($0.5 \\cdot 2 / 1.0$), separation is minimal. In a quasi-steady approach for low KC, the circulation generated is approximately zero.",
+    "final_answer": "0 m²/s"
+  },
+  {
+    "index": 238,
+    "type": "numerical",
+    "reasoning": "$\\omega = \nabla \times V = (2y, -z^2, -3x^2)$. At $(1, 2, 3)$, $\\omega = (4, -9, -3)$.",
+    "final_answer": "(4, -9, -3) s⁻¹"
+  },
+  {
+    "index": 243,
+    "type": "numerical",
+    "reasoning": "The slenderness parameter $\\epsilon$ is the ratio of the characteristic lateral dimension to the length: $\\epsilon = 2 / 20 = 0.1$.",
+    "final_answer": "0.1"
+  },
+  {
+    "index": 244,
+    "type": "numerical",
+    "reasoning": "Using the Stokes boundary layer solution $u = U_0 e^{-\\eta} \\cos(\\omega t - \\eta)$ with $\\eta = y \\sqrt{\\omega/2\nu} = 0.1 \\sqrt{150} = 1.22$. $u = 2 e^{-1.22} \\cos(3 - 1.22) = 0.59 \\cdot (-0.20) = -0.12$ m/s.",
+    "final_answer": "-0.12 m/s"
+  },
+  {
+    "index": 246,
+    "type": "numerical",
+    "reasoning": "Relative velocity $V_{rel} = |V_{ship} - V_{wave}| = |15 - 20| = 5$ m/s.",
+    "final_answer": "5 m/s"
+  },
+  {
+    "index": 247,
+    "type": "mcq",
+    "reasoning": "For a long cylinder in potential flow, the heaving force per unit length is determined by the local cross-sectional geometry and the vertical acceleration of fluid relative to the cylinder, making it independent of the forward velocity component.",
+    "final_answer": "A"
+  },
+  {
+    "index": 249,
+    "type": "numerical",
+    "reasoning": "Dynamic pressure $P = 0.5 \\cdot \rho \\cdot V^2 = 0.5 \\cdot 1000 \\cdot 10^2 = 50,000$ Pa.",
+    "final_answer": "50000 Pa"
+  },
+  {
+    "index": 252,
+    "type": "numerical",
+    "reasoning": "Total drag coefficient is the sum of frictional and pressure drag coefficients: $C_D = 0.005 + 0.01 = 0.015$.",
+    "final_answer": "0.015"
+  },
+  {
+    "index": 253,
+    "type": "mcq",
+    "reasoning": "As the transverse axis $b$ of a spheroid increases while the longitudinal axis $a$ remains constant, the added mass associated with transverse motion grows with the volume of fluid displaced, increasing without bound.",
+    "final_answer": "A"
+  },
+  {
+    "index": 255,
+    "type": "mcq",
+    "reasoning": "At low Froude numbers, wave-making resistance becomes negligible. The remaining 'residual' drag is primarily viscous form drag, caused by the energy loss in the boundary layer and wake.",
+    "final_answer": "A"
+  },
+  {
+    "index": 257,
+    "type": "mcq",
+    "reasoning": "According to D'Alembert's paradox, a body moving through an infinite, inviscid, and incompressible fluid experiences no drag because there are no shear stresses and the pressure distribution is symmetric.",
+    "final_answer": "C"
+  },
+  {
+    "index": 258,
+    "type": "numerical",
+    "reasoning": "Re $= \rho \\cdot V \\cdot L / \\mu = (1027 \\cdot 10 \\cdot 100) / 0.00108 = 1,027,000 / 0.00108 = 9.51 \times 10^8$.",
+    "final_answer": "9.51e8"
+  },
+  {
+    "index": 262,
+    "type": "numerical",
+    "reasoning": "For a sphere, $m_{ij} = 0.5 \rho \\mathcal{V}$. The dipole moment $A_{11} = 0.5 R^3 = 0.5 \\cdot 125 = 62.5$ m³.",
+    "final_answer": "62.5 m³"
+  },
+  {
+    "index": 263,
+    "type": "numerical",
+    "reasoning": "For a baffled circular piston, the far-field potential is $\\phi \\approx -U R^2 / 2r$. Substituting $U = 2, R = 0.5, r = 1$: $\\phi = -(2 \\cdot 0.25) / 2 = -0.25$ m²/s.",
+    "final_answer": "-0.25 m²/s"
+  },
+  {
+    "index": 264,
+    "type": "numerical",
+    "reasoning": "Substituting $g = 9.81$ m/s² and $t = 5$ s: $y = 9.81 \\cdot 25 / 2 = 122.625$ m.",
+    "final_answer": "122.63 m"
+  },
+  {
+    "index": 265,
+    "type": "numerical",
+    "reasoning": "Phase velocity $V_p = \\lambda / T = 100 / 10 = 10$ m/s.",
+    "final_answer": "10 m/s"
+  },
+  {
+    "index": 266,
+    "type": "numerical",
+    "reasoning": "Using the mass force derived for similar cylinder parameters ($R=5, \\omega=2$): $F = C_m \rho \\pi R^2 A (\\omega^2/k)$. Assuming $C_m=2$ and unit amplitude, $F \\approx 323.6$ kN.",
+    "final_answer": "323.6 kN"
+  },
+  {
+    "index": 269,
+    "type": "mcq",
+    "reasoning": "While the potential itself is a scalar field, its gradient defines the velocity. In the context of the Bernoulli equation, it is fundamentally related to the kinetic energy of the fluid per unit mass.",
+    "final_answer": "B"
+  },
+  {
+    "index": 270,
+    "type": "mcq",
+    "reasoning": "In the critical Reynolds number range, the transition from laminar to turbulent flow is extremely sensitive to surface imperfections (roughness) and the existing turbulence intensity in the incoming fluid.",
+    "final_answer": "A"
+  },
+  {
+    "index": 271,
+    "type": "numerical",
+    "reasoning": "Potential of a sphere moving in $x$-direction: $\\phi = -U (R^3/2r^2) \\cos\theta$. For $U=3, R=1, r=4, \theta=0$: $\\phi = -3 \\cdot (1 / 32) = -0.09375$ m²/s.",
+    "final_answer": "-0.094 m²/s"
+  },
+  {
+    "index": 272,
+    "type": "numerical",
+    "reasoning": "Substituting $\rho = 1025, g = 9.81, a = 1, r = 5, \beta = 30^\\circ$: $F_x = 3 \\cdot 1025 \\cdot 9.81 \\cdot 1 \\cdot 5 \\cdot 0.866 = 130623$ N.",
+    "final_answer": "130623 N"
+  },
+  {
+    "index": 274,
+    "type": "mcq",
+    "reasoning": "Helmholtz's second theorem states that a vortex filament must be constant in strength (circulation) along its length and therefore cannot end inside a fluid; it must form a loop, end at a boundary, or extend to infinity.",
+    "final_answer": "A"
+  }
+]

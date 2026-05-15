@@ -1,0 +1,2150 @@
+[Page 1]
+Boundary Layers
+
+SL.TIT CE
+
+---PAGE BREAK---
+
+[Page 2]
+FMS RL4
+
+Two-Dimensional Steady Boundary Layer Equations
+
+x is horizontal direction along direction of main flow velocity u. Velocity
+at outer edge of boundary layer is called U.. or Vo, or Ue or Ve.
+
+y is perpendicular to wall and velocity in this direction is v.
+
+The boundary layer begins, say, at x = 0 and the boundary layer thickness
+is 6. 6 < x. Because the boundary layer is thin, to leading order the
+pressure is constant through the thickness of the boundary layer, eo = 0.
+
+Also, v <u, and we < e,
+
+y V Outer flow
+Edge of 20 Velocity
+boundary | profile
+layer | ny,
+
+rn 4
+a, Wall shear
+L_ Stress (7,,)
+
+SSS NN
+
+/——__—- Streamlines
+
+of boundary
+layer flow
+
+Ou, Ov _
+Ox Oy
+
+fos)
+
+Oz "Oy — p Or
+
+"Oy pp Ox
+
+O*u
+
+| ie
+Oy?
+
+Lar
+poy
+
+Plate
+
+Boundary layer
+Velocity profile
+
+---PAGE BREAK---
+
+[Page 3]
+$mbhlr
+
+Boundary Layer Parameters
+
+5* Shifted streamline
+wea
+
+Streamline position without
+boundary layer
+
+| .
+VINA / LD ii ir Extra thickness
+SYNANANNAARAN
+
+6*
+
+Thickness of Boundary Layer defined as location where u is 99% of Ue.
+6 = Y\u/U-=0.99
+The wall shear stress 7,, is given by:
+
+===
+oS Vay) wan) \Oy y=0
+
+The skin friction coefficient, C's, is:
+1 2T, 2v (Ou
+
+The displacement thickness, 6* is the thickness of a flow of speed U, that.
+carries a flow rate equal to the deficit in the boundary layer because its
+speed is less than U,.
+
+6 6
+U8 = [Ue — way s= | (1- *) ay
+
+---PAGE BREAK---
+
+[Page 4]
+FmbbL 3
+
+Mass Fluxes
+
+—— Edge of boundary
+rare layer
+
+™Meft = right + ™Mtop
+. d (sy
+Mtop = i (/ pudy) Ox
+
+Momentum Equation in z direction
+
+Mright + Mtop + Mies, = F pressure + Fstress
+. Y
+Miett =, pu'dy
+Y 2 d(/Y 4
+Myight = [ pu“dy + adn (| pu dy) 6x
+
+. . d Y
+Miop = ™topUe = Ue (/ pudy) Ox
+
+---PAGE BREAK---
+
+[Page 5]
+dU.
+Fpressure = _ Py 55 = pU, U, You Fs= —TyOL
+dz dx
+
+One additional needed equation is:
+
+Y
+Y= I dy
+Then all the equations on the last two pages can be combined into:
+
+d dU. Tw
+= u(Ue — u) dx [ (Ue — uy =
+
+For y > 6 the integrands are zero so the upper limits can be changed to 6.
+
+d JO aU. Tw
+— —u\dy = —
+ah ue - U. u)dy = >
+
+This is Von Karman’s Momentum Integral Equation. It relates the integrals of the velocity profile in the boundary layer to the shear stress and
+U,. and U? whose x-derivative is proportional to the pressure gradient.
+
+The momentum thickness © is defined as:
+cu
+
+With this definition, the momentum integral equation can be written in
+the following two forms:
+
+d ,_» ep, We _
+a, Ue8| +4 U. Tz = Ty/p
+
+dO 8 i. _G oe
+
+---PAGE BREAK---
+
+[Page 6]
+Fm CL26a}
+
+A second boundary layer equation comes from equating the kinetic energy
+change along x in the boundary layer to the energy input or output from
+the pressure distribution and the energy dissipation due to shear stresses
+in the boundary layer.
+
+The kinetic energy thickness, 0* is defined as:
+x 6 u
+= [ U. (1 -*] dy
+
+The kinetic energy dissipation coefficient, Cp, is defines ad:
+
+D
+Co=—3
+pu
+where D is the dissipation per unit area (along and perpendicular to the
+surface).
+
+Using these definitions, the kinetic energy equation is:
+
+d}* +30 due
+dx . ar
+
+= 2Cp
+
+*
+
+The energy thickness ratio, H* is defined as: H* = r)
+
+It is common to combine the kinetic energy equation and Von Karman’s
+momentum equation to obtain:
+
+---PAGE BREAK---
+
+[Page 7]
+FMB ais
+
+Example of Solution of Momentum Integral BL Equation
+
+U, >
+
+eS 10 Meters >
+
+U.=2m/s  6(x) =0.01*(1—e°"*) wy) =(1- eWay)” p = 1000kg/m?
+
+Problem: Determine the shear stress, T, at x = 5 meters.
+Determination of kd from BL thickness:
+
+0.99 = (1—e*))”_, k(x)6(@) =5.3 k(x) = S—
+
+At x = 5m, k = 1347 m7}.
+
+T
+
+d__0.01{1—exp(—0.1z)] r _
+I U-(1 — e8)? [U, — U-(1 — e)?| dy + 0 = Fs
+
+dx
+
+0.01(1 — e~°!*°) = 0.01(1 — e~*) = 0.00393
+
+T _ Uz(1 _ e 53)? (1 _ (1 _ e753)? ) ‘ (0.01(1 _ e012)
+
+dz
+0.00393 d
+[ ay (Ue(d — eM)? Ue — Ue(1 — eo K)?) } dy
+
+= U;(0.000060 + 0.000100) = 0.00016 U2
+
+T = 1000 x 4 x 0.00016 = 0.64N/m?
+
+,
+— —"_ — 9.90032
+of 5pU?
+
+---PAGE BREAK---
+
+[Page 8]
+0.05
+
+0.04
+
+oO N
+° o
+fo) ©
+
+(SJ9}elW) BYEep
+
+0.01
+
+X (meters)
+
+---PAGE BREAK---
+
+[Page 9]
+O'}
+
+9°0
+
+n/n
+
+v0
+
+c 0
+
+v0
+
+O'}
+
+Q/A
+
+---PAGE BREAK---
+
+[Page 10]
+x
+
+. 000000
+.000000
+. 000000
+. 000000
+-000000
+.000000
+- 000000
+. 000000
+. 000000
+. 000000
+. 000000
+- 000000
+- 900000
+. 000000
+. 000000
+- 000000
+. 000000
+-000000
+. 000000
+. 000000
+.000000
+
+eel elelajoelololojlojoloeloelojlolojojejolol=)
+
+delta
+
+.000000
+.001643
+.005434
+.010179
+.015162
+.019979
+.024416
+.028381
+
+.034836
+. 037382
+.039534
+.041340
+
+
+
+.046007
+
+.047305
+.047788
+-048185
+
+deldata
+
+Page 1
+
+---PAGE BREAK---
+
+[Page 11]
+y/delta
+
+—WMolelololelololeloloelelolololelolojlolololololololololololelololololelelololojololojololojojolojojolejeior~
+
+. 000000
+.010000
+.020000
+.030000
+-040000
+.050000
+.060000
+.070000
+- 080000
+.090000
+. 100000
+. 110000
+. 120000
+. 130000
+- 140000
+. 150000
+. 160000
+. 170000
+. 180000
+.190000 ~
+. 200000
+. 210000
+. 220000
+. 230000
+. 240000
+- 250000
+. 260000
+- 270000
+. 280000
+- 290000
+. 300000
+- 310000
+- 320000
+. 330000
+. 340000
+. 350000
+. 360000
+. 370000
+. 380000
+. 390000
+- 400000
+- 410000
+- 420000
+. 430000
+- 440000
+- 450000
+. 460000
+- 470000
+- 480000
+- 490000
+. 500000
+. 510000
+. 520000
+. 530000
+
+Molo elololololololololololololelololelelololololeololololelolelolololojolololojolojlololojelolojoajejolosoeio)
+
+u/Ue
+
+. 000000
+- 422358
+-500261
+
+-590201
+-621605
+
+- 670886
+- 690975
+. 708884
+. 725018
+. 739674
+. 753079
+. 765409
+. 776804
+. 787378
+
+- 806423
+- 815038
+- 823127
+- 830737
+.837911
+- 844685
+- 851092
+.857160
+- 862915
+- 868379
+. 873573
+»878515
+-883221
+. 887707
+. 891986
+- 896072
+. 899974
+- 903705
+-907274
+.910689
+. 913960
+. 917093
+. 920096
+-922976
+
+- 928390
+. 930936
+. 933381
+. 935730
+- 937988
+-940158
+
+
+
+.948042
+- 949832
+.951554
+
+“udata
+
+y/delta
+
+hale el wlolalalololojol{ajlojojolojojojoeleioeloloeloloelololololalololoelolololololololelolololo)
+
+- 540000
+. 550000
+- 560000
+. 570000
+- 580000
+- 590000
+- 600000
+- 610000
+- 620000
+- 630000
+- 640000
+- 650000
+. 660000
+. 670000
+- 680000
+- 690000
+. 700000
+. 710000
+- 720000
+. 730000
+- 740000
+. 750000
+. 760000
+- 770000
+- 780000
+- 790000
+- 800000
+- 810000
+. 820000
+. 830000
+- 840000
+- 850000
+. 860000
+. 870000
+- 880000
+- 890000
+- 900000
+- 910000
+- 920000
+- 930000
+- 940000
+- 950000
+- 960000
+- 970000
+- 980000
+. 990000
+.000000
+
+waojalejelojeletololojlolelololelololejololeloleloelelelelojololololeloelelolololololololojlelole)
+
+u/Ue
+
+
+
+
+
+
+.961971
+
+
+
+
+
+
+
+.971039
+
+.972930-
+
+---PAGE BREAK---
+
+[Page 12]
+Calculation of Turbulent Boundary Layer
+when Pressure Distribution is Known
+
+Fm BBL ¢AG)
+
+This result is approximate since the boundary layer thickness will alter
+
+the pressure distribution.
+
+The principal unknowns (quantities to be determined) are: 0(x) and 6*(z).
+
+An equivalent set of unknowns is 6(z) and A(z).
+
+There are two fundamental equations:
+
+da Et Ode FO
+9 dH* 2p CG} 6 du.
+aa _ _~Yfa (Hy)
+da 72 (FOU
+
+(1)
+
+(2)
+
+To be able to integrate the unknowns along the boundary layer, the derivatives of each of them are required: d@/dx and dH/dz. Equation 1 is in
+the desired form. To put equation 2 in the desired form, use the chain rule:
+
+dH* dH dH*
+dx dx dH
+
+(3)
+
+Empirical “closure relations” for H*(H) and dH*/dH exist. Therefore we
+
+write the energy equation in the desired form as:
+
+dH Ht 1 [2Cp Cy
+
+0 due
+dx 0 aja | 2 7G,
+
+Ue Ax
+
+(4)
+
+---PAGE BREAK---
+
+[Page 13]
+6 SEG ALZ)
+
+To do the integrals numerically, we need a means of determining C;, Cp, H*
+and dH*/dH in terms of the principal quantities H and Rg, where Ry =
+U.0/v. These empirical ’closure relations” have been determined by assembling a large amount of experimental data.
+
+Laminar Closure Relations
+
+yt — {| 0-76(H - 4)?/H+1.515, H<4.0
+~ | 0.015(H — 4)?/H +1.515, H > 4.0
+
+C; = pout. — H)?/(H —1.0)] — 0.134] /Rp, H <7.4
+
+0.044/1.0 — 1.4/(H — 6)]* — 0.134] /Re, H>74
+2Cp _ f{ |0.00205(4 — H)>* + 0.207] / Ra, H <4.0
+H* — \ |-0.003(H — 4.0)?/(1 + 0.02(H — 4)?) + 0.207| /R», H > 4.0
+
+Turbulent Closure Relations
+
+H.= 3+ 400/ Re, Rg > 400
+0 A, Rg < 400
+
+Ry, —{ Be Ro > 200
+92 ~ ) 200, Ro < 200
+
+y= 1.505 + 4/Rg + (0.165 — 1.6//Ry) eo | H <H,
+~~ _ in( Rez
+(H — Hp)?(0.007 gp tteel e+ 0.015/H] + 1.505 + 4.0/Re, H > He
+
+Cr = 0.307134 In(Re) —(1.74+0.31H)
+_ 2.3026
+
+---PAGE BREAK---
+
+[Page 14]
+FAS: 3
+
+Sea Waves
+E z
+
+Dominated by inviscid irrotational solution (V7¢ = 0)
+
+Boundary Conditions
+
+06 OC , 1060 , 8680)
+Oz at OxO0nz Oy Oyl,—¢
+
+es + ; (32) + (24). + (5) a = constant (0) (dynamic)
+
+Linearized Boundary Conditions
+
+(kinematic)
+
+Case of onset flow velocity of —iU.
+Now ¢ is the perturbation potential and the total potential is —Ux + ¢.
+
+For steady flow with onset flow:
+
+06 8 _
+
+dz Ot ox
+
+a Vd
+
+I Oz —sog On?
+
+Case of 2D waves and zero onset flow so ¢ is the total potential.
+
+Od _ oe _
+Lacleco Bt Bilao 6 =°
+Dispersion Relations for waves of ciruclar frequency w = 27af and
+
+wavenumber = k = 27/X and zero onset flow.
+w? = gk deep water
+w? = gktanh kh water of depth h
+
+---PAGE BREAK---
+
+[Page 15]
+Mia sR)
+
+Fb] a 99) 1a¢
+de|_, at Ozlu0 «g OF |
+
+C= Ae“) and C= _106
+
+Deep Water
+
+o = Beke'(kt-“t) ~~ Traveling wave that satisfies Laplace’s Equation
+
+€
+
+Bke*? ei(kz—+t) _— 1 2 Bekzeilke—wt) k= 2
+
+1 .
+¢ _ — 5 (tw) B el(kz—uwt)
+
+Finite Depth
+¢ = Boosh k(z + h) et(#t—#)
+
+Bksinh khe'(*t-#) — Burt cosh kh et(*2-t)
+g
+
+Ww
+
+ktanh kh = a w* = gk tanh kh
+
+C= ~ Gm) B et(ka-wt) = B cosh(kh) etlkr—ut) A= ; cosh(kh) B
+
+---PAGE BREAK---
+
+[Page 16]
+waveclem.ep
+
+(S1I9}OUL) SOURISIC] [PJUOZILIOY
+
+09 OS OV O€ 0@ O! 0
+
+‘AYLIB[D SUIMAIIA JO} poovydsip ATfeomzsa 7 O€
+UMOYS SUOINGLYUOS SABM [ENPIAIPU] “URDU 019Z SABY SOAINO |TV
+
+sjusUOdWIOZD [eplosnulg WO, WU0,J sABA\ WOpuLY Jo UOIBIOUEy
+
+(SIOJOW) UOTJBAITY DOvjINS
+
+---PAGE BREAK---
+
+[Page 17]
+ASM QED
+
+Example of Simulation
+
+Suppose a two dimensional (long crested) wave is generated with a wavemaker in a wave tank with an elevation at a specified location given by
+
+z(t), where:
+2(t) = 0.97 sin(5.2t + 0.82) + 0.99 sin(7.8t + 1.24) + 1.08 sin(9.8¢ + 2.72)
+
+What is the maximum elevation that occurs in the time interval of 0 to 120
+seconds (2 minutes). The usual way of finding maxima of analytic functions
+by setting the derivative to zero is not practical here because there are a
+great many maxima and the largest of these must be determined. However,
+because of the great computational speed of common computers, this can
+be done numerically without much effort.
+
+MATLAB Version of program Sinmax
+
+0:0.01:120; Prog
+
+0.97*sin(5.2*t + 0.82) ...
+
++ 0.99*sin(7.8*t 41.24) 4+ 1.08*sin(9.8*t + 2.72):
+zmax = max(z);
+mmax= find(z == zmax);
+
+tmax =(t Cmmax) ) ; .
+
+printer (l. tmax = 7 .3F zmax = %48.4f\n',tmax, zmax):
+
+N et 3&
+
+[t;z];
+tid = fopen('zmaxm.dat', w');
+fprintt (rid, "%F7.2F %8. aia 1;
+ot(t,z)
+xlabelt* t');
+ylabel('z' );
+titleC"Sinmaxm' 3
+
+>> sinmaxm
+tmax = 118.490 zmax = 2.9447
+>>
+
+---PAGE BREAK---
+
+[Page 18]
+VUmed 4
+
+Sinmaxm
+
+---PAGE BREAK---
+
+[Page 19]
+Sinmaxm
+
+---PAGE BREAK---
+
+[Page 20]
+S Peel
+
+Sea Spectra
+
+We consider wave fields whose statistics are both stationary and homogeneous in the horizontal plane.
+
+A sea spectrum function S7(k,w, 0) is a partial description of the statistics
+of the wave field defined such that S7(k,w,0)dk dw 66 is the contribution
+to the average wave energy per unit surface area, EL, in the wavenumber,
+wave circular frequency and propagation angle bands; 6k dw 60.
+
+For surface elevation ¢(x,t) the average wave energy is defined as:
+E=<(C>
+where < > signifies the statistical, temporal or spatial average.
+
+Thus: < (>= [" [°° [°° Sr(k,w,0)dk bw 50
+
+Similar definitions apply when frequency, f, is used instead of circular frequency, w, and/or when spatial frequency, +, is used instead of wavenumber, k.
+
+For the frequently encountered case of linear, deep water gravity waves the
+circular frequency and the wavenumber are related to each other through
+the dispersion relation
+
+w* = gk
+
+so that w and k are not independent of each other. Then the spectrum is
+a function of only one or the other of these variables and can be written
+as: S:(w,0) or S,(k, 6). These functions are related by:
+
+S,(k, 0) = $-5,(w,8)
+Hence: <@>= [" [* s,(k,e)dkd0 = [" [* S.(w, 0)durdb
+
+For unidirectional (long crested) seas, all the waves are in a single direction
+and the spectra are described by 5;(w) or S,(k).
+
+<@>= | Sw)dw = [ S_(k)dk
+
+---PAGE BREAK---
+
+[Page 21]
+pom b 7s
+
+The fundamental linearized plane progressive wave is:
+¢ _ Aei(kr—“t)
+
+d —_ = eb? eilkr—wt)
+
+Random sea waves have spectrum S(w, 8).
+For the 2D case the spectrum is S(w).
+
+S(@)
+
+@
+
+JZ? S(w) dw is the contribution to C? of waves with circular frequencies
+between w, and w».
+
+---PAGE BREAK---
+
+[Page 22]
+S P&C. 2p
+
+(puodds/suvipes) © ‘Aouonbaly repNoD
+
+c (4
+
+(4
+
+( s/pes /_w) uinanoads
+
+---PAGE BREAK---
+
+[Page 23]
+0S-
+
+(seo) A
+
+OOL- OSt-
+
+WV SI9}9I\| 00S
+
+00c-
+
+9°0S'0v'0-
+€'0-
+& 0L*O-
+
+LO
+
+€'0
+v0
+ee)
+9°0
+
+UOI}EAS|A VOVUNS (Ssse}ow) 9
+
+---PAGE BREAK---
+
+[Page 24]
+9-
+
+S-
+
+(sue}eu) A
+
+Ol- cl- Dl-
+
+WV SJ8}8 OOS
+
+OL-
+
+SlL-
+
+Oc-
+
+CC"
+
+voL0'0-
+
+90'0S0'0v0'0-
+€0°0c0'0LO'0-
+
+} LOO
+c0'0
+€0°0
+v0'0
+S0'0
+90'0
+
+UOI}eEAR|y BOeUNS (sio}oWW) 9
+
+---PAGE BREAK---
+
+[Page 25]
+(suejow) A
+
+Gc Ol Gl- Oc Ge- O&- SE- Ob- Gh-  OSS0'0-
+
+v0'0-
+€0'0-
+
+WV S19}93\ OOO!
+
+Z0'0-
+
+LO'0-
+
+exe)
+c0'0
+€0'0
+| VO'O
+S0'0
+
+uOI}eADIA eoeNS (siajaW) 9
+
+---PAGE BREAK---
+
+[Page 26]
+(ssa}ouw) A
+
+O0l-
+
+HV SJ8}8W OOO!
+
+OS|-
+
+00¢-
+
+9'0-
+
+(UOHeARIa BOeNS sisajew) 9
+
+---PAGE BREAK---
+
+[Page 27]
+Fra
+
+Fourier Transforms
+
+Fourier Transforms are valuable tools in numerical hydrodynamics because a
+number of problems can be described in the form of Fourier transforms and they
+can be computed very quickly by the Fast Fourier Transform (FFT) method.
+Two of these problems are solving a certain class of differential equations, and
+in simulating sea waves.
+
+X(f) = Fa(t) = [~ a(t)e?rl*at
+a(t) =F X(f) = [~ X(fletaf
+
+As an example, consider a differential equation with constant coefficients of the
+form:
+
+d” m—1
+An—— + An ay
+dx”
+
+Consider Fourier Transforms from x to f where:
+
+Fly(z)] = ¥ (Ph) and Flg(x)] = G(f)
+
+Take the Fourier transform of the differential equation to get:
+
+(i2mf)"AnY (f) + (G2a fy” AnaY (f) +... + AoY (f) = G(f)
+
+This is an algebraic equation which can be numerically solved for Y(f):
+
+ViN=—p
+(i2n f)"A, + (i2af)"-1Ap_1 + Ag
+
+y(x) can be determined by inverse Fourier transformation. Not only is this
+
+less computationally intensive than solving the differential equation by direct
+
+numerical methods, but the error in the integration rule is avoided.
+
+---PAGE BREAK---
+
+[Page 28]
+FT 2.
+Fourier Transforms (continued)
+
+X(f) = Fa(t) = [~ x(t)e Prat
+x(t) = FX(f)= [- X (fea
+Suppose z(t) + 0 fort <0 and ¢t>T. Then:
+
+X(f)x [abe Pat
+
+Also, suppose x(t) is band limited such that: X(f) = 0 for |f| > Finaz- Then:
+Fmaz
+a(t) =F"X(f)= |, X (fleas
+
+Now, consider a periodic function having period ¢ that is identical to x(t) for
+0<t<T. This function has a Fourier series given by:
+
+~ L2TN 1 /T —120
+a(t)= S> Ane?rr/t , An = 7 [ ete Prat
+
+nm=-— OO
+
+The expression for A, is identical to - times the Fourier Transform evaluated at
+f = %. These Fourier coefficients, A, = 7x (2) can be numerically evaluated
+very quickly by an algorithm called the Fast Fourier Transform (FFT).
+
+From the A,’s, the function x(t) can be constructed over the t-range 0 < t <
+T. Outside this range the reconstruction is periodic whereas the real value of
+a(t) ~ 0
+
+Evaluate A, by the following rectangular rule integration:
+
+6t = t=jot jmaz=N T=No6t 2; = 2(jot)
+2F max
+1 Aa. i2nnjot 1 N- omni
+_ t _ _ e? ang iN
+An = ag D, Bd ew [HTP] b= 5 Ye
+
+---PAGE BREAK---
+
+[Page 29]
+F wan =
+
+ares M
+MT Frcs
+
+Sd mpi
+plin
+4 phe of 2 rn
+
+Fran =
+y= +
+
+= age YF
+
+a F Ha
+
+---PAGE BREAK---
+
+[Page 30]
+TT Mf oe i
+|
+
+—
+
+— a fo us — LL =
+man Mee= Ma =o Se AE
+
+nay - T [max = T 25¢ ~ Qo
+- 4 - 2 : Ww
+Gt= GF df= = Ae dth=
+
+---PAGE BREAK---
+
+[Page 31]
+FT 3
+
+Fourier Transforms (continued)
+
+X(f) = 0 for f 2 Fmaz = 55 and f ==, so 0f = 7 and maz = T fmax = >
+1 1 1
+t = = Cl Ol
+° 2Fmaz’ fot 2Fnaal N
+x2 iQnnjst} 1 Ne
+x(jot) = x; = TA exp | lz = >A eitnnj/N
+( ) J ae n Not T nahi) n
+
+Fast Computing
+
+Computing speed is minimized by minimizing the number of complex exponentials that must be computed.
+
+—i2n/N i2n/N
+
+Let: qi =e G2 =e
+
+e i2nng/N _ en 2n(n—1)5/N gi _— e t2an(j—-1)/N qe
+
+i2anj/N __ i2n(n—1)7/N ~j __ (i2an(j—1)/N on
+el2nng/N _ @i2n(n-1)3/N gi) — enn G-1)/ gf
+
+Even the powers of q can be avoided:
+
+en i2m(0)(0)/N _ 4
+
+eW2M(I()/N _. @#2m(O)(O)/N g
+en 2m(IQ)/N _ @A2M(I)/N g,
+e-2r(2)()/N _ 9-#2m(N()/N g
+e-PAM(IN _ p-i2m(N(2/N g,
+eH2m(2)(2)/N _ 9t2a(1)(3)/N g
+
+etc.
+
+---PAGE BREAK---
+
+[Page 32]
+FT 3
+
+Fourier Transforms (continued)
+
+‘Periodicity
+The actual integral transforms are of limited extent.
+z(t) =0 except forO <t<T
+
+X(f) =0 except for — Finaz < f < Finaz
+
+However, the mathematical constructions, while consistent with the integral
+transforms for: 0 <¢t < T, and —Fmax < f < Fmaz, are periodic outside
+these ranges.
+
+1% je 2m nN) i /N 1 ~i2nnj/N ian _ + Ne ge mn/N
+
+Lj4tN = > Ane2™rG+N)/N = > Ane2tralN ei2an = > A, ei2nng/N _
+n=—N/2 n=—N/2 n=—N/2
+
+Therefore: x; = cS Ane2rra/N
+n=0
+
+---PAGE BREAK---
+
+[Page 33]
+N" _t Aas
+Aah ee G
+
+Comeatationg§ FFT and TFET of rere NVuabers
+a nT 7
+
+its
+
+oe _WA sy
+MK PM EW = Hy eNE
+
+A J x FIG W
+I £ Ss aw
+
+Jo
+
+ales “if the x“ are real,
+
+A-n=y < ae — -
+
+ECW gio Wn)
+
+___Sinee 2
+Anat TOM “An eo ban Wi —
+
+~ TF x; 'S are real oo A #% is féal
+ae A ~I = An: { _ _ a _
+—_— =7 Avs A VaK _
+
+Ea
+
+N- -|
+
+tt arn
+
+“There fore, Kye ee — ae
+
+"a. pos os Mp
+
+Where Py = Bagi ns Uae oe
+
+Exam ay 98) ho
+
+---PAGE BREAK---
+
+[Page 34]
+eo €4
+
+Simulation of Random Waves
+
+Here we consider two-dimensional (long crested) waves. The waves are approximated as hydrodynamically linear in the sense that wave breaking and other
+nonlinear effects are neglected.
+
+
+00 2
+C(z,t) = > Z, cos (—“2s + Wyt + a]
+
+n=0
+
+where the Z,,’s are chosen to provide the desired wave spectrum and the a,,’s are
+random numbers uniformly distributed on 0 < a < 27.
+
+fore) 2
+An alternate expression is: ¢(z,t)= >> Z,exp t (-“e + Wyt + an)
+
+n=—0o
+
+Combining e’°" into Z,, the surface elevation vs time at x = 0 is:
+
+C(t)= Yo Zpeivnt
+
+n=—0Co
+
+---PAGE BREAK---
+
+[Page 35]
+0.05
+0.04 one-sided
+0.03
+0.02 two-sided
+0.01 -
+
+Spectrum (m’/ rad/s )
+
+Circular Frequency, o (radians/second)
+
+The region in the “almost trapezoid” is represented by a sinusoidal wave having
+frequency w, and the same energy, EF, of this region of the spectrum. The
+sinusoidal wave Ae» has energy |A?|. Thus,
+
+|A?| = S(w.)dw
+
+The waves are random processes and can be represented in two different ways.
+One way is to have stochastic waves and a stochastic spectrum whose expectation
+is equal to the spectrum being simulated (Type 1). The other way has stochastic waves and a deterministic spectrum equal to the spectrum being simulated
+(type 2).
+
+---PAGE BREAK---
+
+[Page 36]
+Ww$L-Cont
+
+Similarly, at t = 0 the surface elevation vs z is:
+
+(a)= %) Ze™*? = DY Zae™* where k, = —
+N=—00 g
+
+n=—CO
+
+With wy, = 2mndf, kn = 20ndb, (b= 1/A), t= 76t, x = jdx, and n limited
+to —# <n< x with df dt or 6béx equal to 1/N, the expressions for ¢ have
+the form of an inverse discrete Fourier transform. Hence, by first choosing the
+Zn’8 so they are consistent with the wave spectrum, the surface elevation for all
+values of t or for all values of x can be computed very rapidly by using an FFT
+program.
+
+Either set Z_, = Z7 or use non-negative n and take the real (or imaginary) part.
+We will use the method in which Z_, = Z>.
+
+This corresponds to a two-sided spectrum whose levels are half the levels of the
+corresponding 1-sided spectrum.
+
+---PAGE BREAK---
+
+[Page 37]
+WS
+Type 1
+At a fixed value of x, the sea elevation is C(t) which is a sample function of a
+random process having a 2-sided power density function, S,,(w). The associated
+1-sided spectrum is Syw(w) = 2S,(w) for w = 0. The fourier transform of ¢(t)
+
+is Z(w). The spectrum and the Fourier transform of ¢(t) are truncated at |w| =
+We = Wf.
+
+C(t) is discretized with the time interval 6t = 7/w, to satisfy the sampling theorem. Thus, C(t) is specified at the discrete times ¢; = ¢(jét), 7 = 0,1,2,..., N.
+
+The Fourier coefficient Z; corresponds to the circular frequency w; = jow,
+j= —* + 1,....,0, ae , where dw = ae. N is usually chosen as a power of 2
+for computational efficiency.
+
+For the Type 1 approach, each Fourier coefficient is separated into its real and
+imaginary parts and each of these is an uncorrelated Gaussian variate.
+
+Z;j = Lp, + 1%,
+Z,, and Z;, are identically distributed with the probability density function:
+1 Ze
+Zr,) = ——= exp |-~3
+He) = ae (—Fel
+From the physics of the modeling, where here & means “Expectation”:
+
+E [al = Sy(w;)dw
+
+[22] = B[z2] = 5Sulws)bu
+
+From the mathematics of the Gaussian pdf: oF =F |Z2,|
+
+1 1
+Oj = gow (wj)dw = Sw (|wj[)ow
+
+There are computer programs which give Gaussian distributed random numbers
+for which the user specifies o;.
+
+Type 2 Z; = 8% Sw (w;)dw = e'% 5 Sw (i) 50 ; w; > 0
+
+a; is uniformly distributed on 0 < a; < 27 and can be obtained from a random
+number computer program.
+
+---PAGE BREAK---
+
+[Page 38]
+WwS$3 @
+
+We truncate the spectrum at frequencies +N/2d6w.
+
+Thus the expression for a simulated two-dimensional (long-crested) random wave
+elevation at a point on the ocean surface is:
+
+C(t) = S24] =Sy(|ndw])dw erst
+_N/2 2
+
+where a” is a random number, < a, < 27, and ay, = —a_n.
+
+This can be extended to a long-crested wave field, dependent on x and ¢ as:
+
+nf2 |
+C(x,t) = S> |= Sy(|ndw|)bw ell(rdw)t—(ndw) bile /o)
+—N/2 2
+
+This is because |k| = w?/g.
+
+---PAGE BREAK---
+
+[Page 39]
+wavesims,m
+
+% Wavesims
+dt = 0.05;
+npts = 8192;
+nptsod = npts/2.
+
+dt* npts; sea * 8192 for 8192 total points
+t = O:dt: (tr- dt);
+(2 .0*pi) vA 4;
+
+Over
+d
+
+So
+Hous
+hol PO
+hus
+oo
+
+shh
+— Il
+oh
+
+f # L nptso2; *df * 4096 for 8192 total points
+ittold,
+
+O. "$081 *g*g/tp4;
+74 *(g/v5M4/ thd;
+
+0. seinel f/f F.A5 .* exp( -fac2 ./f .A 4);
+d (‘state’ -sum(100*clock));
+
+i * oranda, nptso2) ;
+Cnoeso2+15 = 44097 for 8192 total points
+oppo") a sqrt df);
+
+con (flipin eC :4096)))1:
+
+veta = L Feat t(zt))
+%The above gives same result as zeta = npts*real(Cifft(zt))
+plot (t,zeta);
+XlabelC'TIME (sec) ')
+ylabelC'SURFACE ELEVATION (m)');
+titleC'Simulated Sea waves at a Point');
+
+©
+T1Susua0an ie)
+Nore
+Hou te
+oo Il
+
+a
+
+NNOS TM Hoh hhoa< et
+
+---PAGE BREAK---
+
+[Page 40]
+SURFACE ELEVATION (m)
+
+'
+NO
+
+Oo
+
+'
+—_
+
+-3
+
+Simulated Sea Waves at a Point
+
+150 200 250 300
+TIME (sec)
+
+---PAGE BREAK---
+
+[Page 41]
+SURFACE ELEVATION (m)
+
+-3
+
+Simulated Sea Waves at a Point
+
+120 125 130
+TIME (sec)
+
+---PAGE BREAK---
+
+[Page 42]
+zt-mag
+
+0.18
+
+0.16
+
+0.14
+
+0.12 ff
+
+0.1
+
+0.08
+
+0.06
+
+0.04
+
+0.02
+
+
+4000 5000
+point number
+
+j 212
+
+---PAGE BREAK---
+
+[Page 43]
+zt-mag
+
+0.18
+
+0.16
+
+0.14
+
+0.12
+
+0.1
+
+0.08
+
+0.06
+
+0.04
+
+0.02
+
+frequency
+
+---PAGE BREAK---
+
+[Page 44]
+zt-mag
+
+0.18
+0.16
+0.14
+0.12
+
+0.1
+0.08
+0.06
+0.04
+
+0.02
+
+0 0.2 0.4 0.6 0.8 1 12. 14 1.6 18
+frequency
+
+---PAGE BREAK---
+
+[Page 45]
+Reyrew of. Fourier Transforms, Enverse Fearier
+
+Ta neers, FAFUS, Ke FUS and Wave.Simalation....
+
+xX GS) = =[ x x (oe Saha Ta xX 4 (e) = {4 "XG 2! See
+
+-Co
+
+a — Consicler CenetionS. - of the form: eee cece vente ve ern
+KX ltso0. EXte et Fer OS & LT
+— xe) = o exept for — ~ Fes Sf F.. ae
+
+oS te NHR ER oe EE i —
+
+Then.
+
+een emer arormanetnenmttn tenet Mia ve ~T-
+
+ao
+en enDnereS ee at ent nite eee ee ee ES. bey ax eect ennai tnaeece nme anc
+
+_C onSttuel. “Ce _Peciedia Fanari en; Xe (4). of pear
+Arles = A(t) Cor Ot KT
+
+xe | on Mss. a. Feucres 2 Ss erie. = Rimes enteton
+~ _ en Bie Ane pee Oe
+
+Nate thar Ee By. TA,
+
+Te. TT. iS very large, Malues 9 = SO) 42
+
+ave A wane Gf an NE Oy fy Poyr
+ACE lense Lo. xE). Can be. dekermmed. £rom. the
+- Fourier Coefficients qt Closely. Spaced fregaenci€s.
+
+Se rm we poe ae ee
+
+en REE IR ee i at tet eevee tes tee. ER alle oe eee - + on — eee — — pea
+ie pe tr hh Bega png = amen — ay _ te en
+
+re
+
+---PAGE BREAK---
+
+[Page 46]
+Note thet Ane + X(2) |
+
+_Sinee P= B |, An =o fer. tal 721 Fas sales}
+
+the range OStST X= ne’
+
+n=-T#,,
+
+T fn = ™M = r piette
+
+nw oe N-) . Lari,
+Pin aie ——
+S Ne- n=
+
+---PAGE BREAK---
+
+[Page 47]
+a _ Te. Simulate Cvaves | have NA Ae... ee
+__One- Ss; idle d. Pee $4 2neq S pectin. Se OY. on
+Ww hese 2. titalen de —tWwe. Side ef -S. pec#ram co
+
+the 2 leva tier n 3 a ) at @ Point § So ow...
+
+fat ee it nh annie a arate teeter
+
+where’ 1 dn se a@ ran n clara namber re
+___ rhe Ca Op SDT ca
+
+“inverse _ Fast Feurier. prans@rm
+
+---PAGE BREAK---
+
+[Page 48]
+http://www tay geta.com/randomygaussian. html
+
+j aussi Numbers
+Generating Gaussian Random wr S 4
+
+Generating Gaussian Random Numbers
+
+This note is about the topic of generating Gaussian pseudo-random numbers given a source of
+uniform pseudo-random numbers. This topic comes up more frequently than I would have expected,
+so I decided to write this up on one of the best ways to do this. At the end of this note there is a list
+of references in the literature that are relevant to this topic. You can see some code examples that
+implement the technique, and a step-by-step example for generating Weibull distributed random
+numbers.
+
+There are many ways of solving this problem (see for example Rubinstein, 1981, for an extensive
+discussion of this topic) but we will only go into one important method here. If we have an equation
+that describes our desired distribution function, then it is possible to use some mathematical trickery
+based upon the fundamental transformation law of probabilities to obtain a transformation function
+for the distributions. This transformation takes random variables from one distribution as inputs and
+outputs random variables in a new distribution function. Probably the most important of these
+transformation functions is known as the Box-Muller (1958) transformation. It allows us to
+transform uniformly distributed random variables, to a new set of random variables with a Gaussian
+(or Normal) distribution.
+
+The most basic form of the transformation looks like:
+
+sqrt( - 2 1ln(x1) ) cos( 2 pi x2 )
+sqrt( - 2 ln(xl) ) sin( 2 pi x2 )
+
+yl
+y2
+
+We start with two independent random numbers, x1 and x2, which come from a uniform distribution
+(in the range from 0 to 1). Then apply the above transformations to get two new independent random
+numbers which have a Gaussian distribution with zero mean and a standard deviation of one.
+
+This particular form of the transformation has two problems with it,
+
+1. It is slow because of many calls to the math library.
+
+2. It can have numerical stability problems when x1 is very close to zero.
+These are serious problems if you are doing stochastic modelling and generating millions of
+numbers. ,
+
+The polar form of the Box-Muller transformation is both faster and more robust numerically. The
+algorithmic description of it is:
+
+float x1, x2, w, yl, y2;
+
+x1
+x2
+
+w = sqrt( (-2.0 * log( w) ) /w);
+yi = xl * w;
+y2 =
+
+where ranf() is the routine to obtain a random number uniformly distributed in [0,1]. The polar form
+is faster because it does the equivalent of the sine and cosine geometrically without a call to the
+trigonometric function library. But because of the possiblity of many calls to ranf(Q), the uniform
+
+1 of 3 7126199 5:49 PM
+
+---PAGE BREAK---
+
+[Page 49]
+Generating Gaussian Random Numbers
+
+2 of 3
+
+random number generator should be fast (I generally recommend R250 for most applications).
+
+Probability transformations for Non Gaussian distributions
+
+Finding transformations like the Box-Muller is a tedious process, and in the case of empirical
+distributions it is not possible. When this happens, other (often approximate) methods must be
+resorted to. See the reference list below (in particular Rubinstein, 1981) for more information.
+
+There are other very useful distributions for which these probability transforms have been worked
+out. Transformations for such distributions as the Erlang, exponential, hyperexponential, and the
+Weibull distribution can be found in the literature (see for example,MacDougall, 1987).
+
+Useful References
+Box, G.E.P, M-E. Muller 1958; A note on the generation of random normal deviates, Annals Math.
+Stat, V. 29, pp. 610-611
+
+Carter, E.F, 1994; The Generation and Application of Random Numbers , Forth Dimensions Vol] XVI
+Nos 1 & 2, Forth Interest Group, Oakland California
+
+Knuth, D.E., 1981; The Art of Computer Programming, Volume 2 Seminumerical Algorithms,
+Addison-Wesley, Reading Mass., 688 pages, ISBN 0-201-03822-6
+
+MacDougall,M.H., 1987; Simulating Computer Systems, M.I.T. Press, Cambridge, Ma., 292 pages,
+ISBN 0-262-13229-X
+
+Press, W.H., B.P. Flannery, S.A. Teukolsky, W.T. Vetterling, 1986; Numerical Recipes, The Art of
+Scientific Computing, Cambridge University Press, Cambridge, 818 pages, ISBN 0-512-30811-9
+
+Rubinstein, R.Y., 1981; Simulation and the Monte Carlo method, John Wiley & Sons, ISBN
+0-47 1-08917-6
+
+See Also: A Reference list of papers on Random Number Generation.
+
+Everett (Skip) Carter
+
+Taygeta Scientific Inc.
+UUCP: ...fuunet!taygeta!skip
+WWW: http://www.taygeta.com/
+
+http://www.taygeta.com/random/gaussian. html
+
+wIss
+
+7/26/99 5:49 PM
+
+---PAGE BREAK---
+
+[Page 50]
+/* boxmuller.c
+
+*/
+
+Implements the Polar form of the Box-Muller
+
+Transformation
+
+(c) Copyright 1994, Everett F. Carter Jr.
+Permission is granted by the author to use
+this software for any application provided this
+copyright notice is preserved.
+
+#include <math.h>
+
+extern float ranf({);
+
+float box_muller(float m,
+
+{
+
+float x1, x2, w, yl;
+static float y2;
+static int use_last
+
+if (use_last)
+
+x1 = 2.0 * ranf() - 1.
+2.0 * ranf() - 1.
+xl * xl + x2 * x2;
+
+/* rvanf() is uniform in 0..1 */
+
+float s) /* normal random variate generator */
+
+= 0;
+
+/* mean m, standard deviation s */
+
+/* use value from previous call */
+
+0;
+QO;
+
+,
+
+w= sqrt( (-2.0 * log( w) ) /w);
+
+{
+yl = y2;
+use_last = 0;
+}
+else
+{
+do {
+x2 =
+wa
+} while ( w >= 1.0);
+yl = xl * w;
+y2 = x2 * w;
+use_last = 1;
+}
+
+return( m+ yl * s )
+
+i
+
+bi
+
+ty
+
+%?
+
+---PAGE BREAK---
+
+[Page 51]
+SURFACE ELEVATION (m)
+
+Simulated Sea Waves at a Point
+
+150 200 250 300
+TIME (sec)
+
+---PAGE BREAK---
+
+[Page 52]
+SURFACE ELEVATION (m)
+
+Simulated Sea Waves at a Point
+
+-2
+
+-3
+
+100 105 110 115 120 125 130 135 140 145 150
+TIME (sec)
+
+---PAGE BREAK---
+
+[Page 53]
+Ws 7
+Wave Statistics
+One way to calculate wave statistics is directly from long-term simulations.
+
+Example What is the expected value of the largest wave elevation in a day?
+
+Solution by simulation from a known wave spectrum.
+
+1. Simulate waves for many days.
+2. List the largest elevation in each day.
+
+3. Calculatethe average of the values in the list.
+
+Another Example What is the probability that the largest wave elevation in
+one day is less than the value V. Solution by simulation.
+
+1. Simulate waves for many days.
+
+2. Determine the fraction of days that the elevation does not exceed V.
+
+3. This fraction is an estimate of the desired probability.
+The above direct approach is cumbersome and computationally intensive. Many
+
+wave statistics have been theoretically determined in terms of the wave specturm.
+The associated formulae can be determined using numerical integration.
+
+---PAGE BREAK---
+
+[Page 54]
+STATA
+
+Results from Theory
+
+The spectral moments, mn, are defined in terms of the one-sided spectrum,
+Sw (w), as:
+[oe]
+Mn = [ Sw(w)dw
+
+The following results apply when the surface elevation is a gaussian random
+process.
+
+SURFACE ELEVATION
+
+TIME
+Number of Waves per Unit Time
+
+The average number of times the wave elevation, ¢, crosses the mean sea
+level (¢ = 0) per unit time while increasing is called f, and given by:
+
+1 mg
+fo = 574 mo
+
+The average number of wave crests per unit time is called f, and is given
+by:
+1 m4
+
+fe
+
+27 \ m2
+
+The bandwidth, «¢, is given by:
+
+e=vl—fo/f
+
+---PAGE BREAK---
+
+[Page 55]
+STAT 2-
+
+Definition of a gaussian random process For any number of variables,
+the joint probability density (pdf) of all the variables is a joint gaussian
+random variable at each time for a gaussian random process. This probability density function is given by:
+
+Lara -i
+— (XIX
+
+P(X1,L2,..-,Ln) = Tamra] exp
+
+[X] is the column vector of the variables. A is the n-by-n covariance matrix
+whose elements are given by:
+
+Ai; = Elziz;]
+For most wave statistics of interest, the doubly joint pdf between surface
+
+elevation, ¢ and vertical surface velocity, ¢, and the triply joint pdf where
+the surface acceleration, ¢, is included are all that are needed.
+
+2 19
+p(¢,¢) = = mat ee
+
+,/MomMs <P 2MpM2
+
+2(6,6,0) = : exp| manad? + (morng — m3)C? + momn2e? + 2m3¢C
+
+(27)3/24/r(mgm4 — m3) Qma (magma — m3)
+
+---PAGE BREAK---
+
+[Page 56]
+STATR
+
+The normalized Gaussian probability distribution function (pdf), U(x), is:
+1 fe 2
+_ 2° /2
+
+Call the crest height €.
+
+The normalized crest height, 7, is defined by: 7 = wa
+mo
+
+The probability distribution function for 7 is:
+
+P(n) = (2) ~Vi-é@e"y (A==,)
+
+and the pdf for 7 is:
+
+2 /1 — 2
+P(N) = 5 oP -2| +V¥i- ene"? w (A=)
+€ E
+
+FigureZ,5 Probability density function of TN for various
+values of the band width e.
+
+Typically, ¢ = 0.6.
+
+For engineering purposes we are interested in large seas (n >> 1). This
+corresponds to the tail of the pdf for 7. In this region:
+
+p(n) = VI~@ ne"? P(n)=1-V1-@e"??
+
+---PAGE BREAK---
+
+[Page 57]
+STAT 4
+
+Average Amplitude of the 1/n’th Highest waves
+
+Call the smallest normalized wave amplitude in the 1/n’th highest Waves
+™M/n-
+
+n =1 — P(mn)
+
+Example: n = 10.
+
+1 - (probability that a wave amplitude is less than the smallest of the 10%
+largest waves) is 1/10.
+
+This is because the probability that a (random) wave is smaller than 10%
+is 90%.
+
+For n >> 1, use the approximate P.
+
+—=vV1-€exp
+n
+
+Mn = ¥2In(nv1 — e*)
+Amongst the 1/n’th highest waves, the conditional pdf is:
+
+Pn>mjr(M) = P(N) = nV 1 — en exp(—7"/2), Mn <7 < 00
+
+The expectation of these amplitudes is the average of the 1/n’th highest _
+
+waves. xo
+Mn = nv1—@ [ me dn
+l/n
+
+Let n' = /1—e? n. Then, n’ is the number of zero up-crossings in a record
+with n crests. The result of the integration is:
+
+oe
+
+an + V2r | — U(v2inn’)|
+
+M/n =n
+
+---PAGE BREAK---
+
+[Page 58]
+STATES Gj
+
+Extreme Waves
+Consider n non-dimensional random wave Amplitudes. Each has same pdf.
+What are the probabilities of the largest waves in the set?
+
+Aproach
+
+Order the waves from smallest to largest.
+
+¢; is the smallest and @¢, is the largest wave amplitude. Now, each of the
+¢’s has a different pdf.
+
+We want to find the pdf for ¢n.
+
+Probability that @, is less than a particular value ¢,, is equal to the probability that all the waves are smaller than @p,.
+
+Po,(bno) = [Pa(Pne]”
+
+The amplitude that has a probability, a, of being exceeded by ¢, is called
+aPn-
+
+Pn(aPn) = [Prladn)|” =l-a
+
+Meaning of the Nomenclature
+
+Suppose a = 0.01. Then the amplitude whose probability of being
+exceeded by ¢,, is 0.01 is named 9.9;¢n.-
+
+The probability that @, is less than o.91¢, is 0.99.
+
+Pylabn) = (A - a)/"
+
+---PAGE BREAK---
+
+[Page 59]
+Sr AVS /2j
+
+Since we are interested large waves, we can use the expressions for the tails
+of the probability functions:
+
+P(n)=1-v1-@é en l?
+
+Then, 1— V1 —e?exp
+
+= 568] = (1-0)!
+
+Solve for adn : $, = j2n(-—Yi= 8
+ve for a@n: adn = T=@-a)im
+
+Note: The value of n for a given period of time T' can be obtained from:
+
+1 M4
+fo= 5 my
+
+---PAGE BREAK---
+
+[Page 60]
+CA-G2.
+
+STIFF E ge qtios
+
+ol =—100y F100} initral Condition, 4 (o)= 9,
+
+le
+Exact Solution y (x) = CY, -)2
+
+This IS stab le in Seance that Small. Chinge my .
+
+Initial Cond;ton Ceaaeses Smeail Chang c.
+Bxameole, tf J Co) = 4 $e, |
+y (eC greener" tl
+
+F . ~f(ocoXx
+Change in Solution, 5, ms Eee
+
+MH. Se lution.
+
+Solution ba the forward Euler method
+
+x
+Ht 3%
+
+4 gt Cioeg, reel Ci-00 $4) Jn rier 9x
+
+This olifference a2 gZuakion has Gan @xXact So ly tr om.
+
+Yo = (4, -')(1- 1080 sx)" 4
+
+~100X
+
+Fer Ckample rf Joh, an Ce
+= (1-100 5x)” Mn
+
+NotZ! Mi 3x 7 0.02 J che Solution (numerical) diverges
+(1- F0o sx)" IS am aPPloKimatin to e fe" tt is
+a Poet a PP CORK em ate om unless SX «tS Vert Sma]
+
+2 Ve. n thea he
+
+K x
+°° haraly Contributes to the Selation
+Feo xX>. ol
+
+---PAGE BREAK---
+
+[Page 61]
+This problem iS eften
+
+CVE ree me b+ rmplrart |
+methods One rs
+
+the backward Euler meted
+
+Snee =4,¢ £ (Xan, Inve) ox
+
+Fer out Ekam Ql e F(Anny 4 ar) = Grseg,,, los )
+
+} Aan Yt (-102 Gnu + loo) $x -
+
+[ +100 §x)= #100 GF ‘ _ dnrlee ea
+Ant (‘ dn xX ) Jor ~ PT eOOSx
+
+The exact Solution te thes rs:
+|
+
+Jn wa Ploo gx)”
+
++ |
+
+This 1S Not Unstable for ang 5x
+
+---PAGE BREAK---
+
+[Page 62]
+Cabi ck)
+
+Dynamics of Horizontal Shallow Sag Cables in Water
+
+Static Solution
+
+A is the horizontal component of the Tension.
+w is the weight in water/unit length.
+
+T is the tension.
+
+L is the static length.
+
+H w H Ww
+y = — cosh =a S cosh 7-«
+For T > wl
+T, To
+y= = 1+ 570 +..)-— T=T,=H
+(6)
+dy wax
+dz -T;,
+dy w
+a = a =a static curvature = @
+oO
+
+---PAGE BREAK---
+
+[Page 63]
+CALIG
+
+Dynamics
+
+q(t) Val
+
+a
+
+vertical mechanical force/unit length = (To + T) (a + me)
+
+T<+—
+
+q is the displacement normal to the cable towards the inside of the static
+curvature.
+
+dynamic vertical mechanical force/unit length = (T, + T) (a + x3) —T,a
+. . , q |dq
+hydrodynamic vertical force/unit length = oo aed
+
+where: b = spCaD, p is the density of water, Cg is the drag coefficient and
+D is the diameter of the cable.
+
+Equation of Motion
+
+mod a4 dq |dq
+may = (T +7) (c +54 — oF Fl Toa
+
+Strain Compatibility
+
+Tension increase due to g = increased length x Tr
+
+F is the elastic modulus and A is the cross sectional Area of the cable.
+
+~ EA 2
+T= ; p.- af” qds + sh (= 2) as
+where: p, is the sum of the tangential extensions of the ends of the cable.

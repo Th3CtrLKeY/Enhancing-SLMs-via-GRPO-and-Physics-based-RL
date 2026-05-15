@@ -1,0 +1,76 @@
+us suppose that the two walls occupy the planes y = 0 and y = h, and that the motion is in the x-direction, driven either by a pressure gradient or by the imposed uniform motion of one wall relative to the other or by a combination of these two effects. Let us suppose that the boundary y = 0 is at rest, while the boundary y = h moves in the positive x-direction with velocity U. (Such a situation
+
+Chapter 3
+can be realized in general by means of a coordinate transformation that 
+brings the lower boundary to rest.) Since the motion is independent of 
+both the x- and z-coordinates, it follows from the continuity equation that 
+∂v/∂y = 0; thus, since v must equal zero at the two boundaries, this velocity 
+must be identically zero throughout the flow region 0 < y < h. The velocity 
+component w is considered to vanish since there is no driving mechanism 
+for a flow in the z-direction.
+It follows that the fluid velocity vector is parallel to the x-direction, that 
+is, u is the only nonzero component of the velocity vector and the flow is 
+everywhere parallel to the x-axis. In addition, since the flow is independent 
+of the x-coordinate, the convective acceleration terms of the Navier-Stokes 
+equations are all equal to zero, and these equations reduce to the relatively 
+simple system
+
+
+
+
+
+ρ
+ν
+∂
+∂
+=
+∂
+∂
+∂
+∂
+=
+∂
+∂
+=
+p
+x
+u
+y
+p
+y
+p
+z
+,
+,
+, 	
+(26)
+subject to the boundary conditions u(0) = 0 and u(h) = U. From (26) the 
+pressure is independent of y and z, and ∂p/∂x = dp/dx is constant since u is 
+independent of x. The solution, obtained by integration, is
+u
+dp
+dx y y
+h
+U
+h y
+=
+−
++
+
+2µ
+(
+)
+. 	
+(27)
+The pressure gradient gives rise to a parabolic profile, and the relative veloc­
+ity between the two walls generates a linear shear flow. In general, a combi­
+nation of these two flows will exist, as shown in figure 3.3.
+3.11  The Flow through a Pipe (Poiseuille Flow)
+A similar solution can be obtained for the flow in a tube of circular crosssection; for laminar flows, this solution is physically important for the 
+determination of pressure drops in pipes. Strictly speaking, the solution 
+should be obtained in circular cylindrical coordinates. To avoid the details 
+of transforming the Navier-Stokes equations into such a coordinate system, 
+we shall find the solution from the Cartesian form of the Navier-Stokes 
+equations, with the x-axis coincident with the axis of the tube; we assume 
+that u = u(r) depends only on the radial coordinate r, and hence on the 
+combination y2 + z2, while v = w = 0. The reduction of the Navier-Stokes and

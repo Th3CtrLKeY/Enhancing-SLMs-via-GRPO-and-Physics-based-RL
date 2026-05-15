@@ -1,0 +1,71 @@
+{
+  "chunks": [
+    {
+      "file": "chunk_01_of_05.json",
+      "question_count": 80,
+      "indices": [
+        0,
+        119
+      ],
+      "type_distribution": {
+        "mcq": 29,
+        "numerical": 51
+      },
+      "gemini_response_file": "responses/response_01_of_05.json"
+    },
+    {
+      "file": "chunk_02_of_05.json",
+      "question_count": 80,
+      "indices": [
+        120,
+        274
+      ],
+      "type_distribution": {
+        "mcq": 26,
+        "numerical": 54
+      },
+      "gemini_response_file": "responses/response_02_of_05.json"
+    },
+    {
+      "file": "chunk_03_of_05.json",
+      "question_count": 80,
+      "indices": [
+        275,
+        407
+      ],
+      "type_distribution": {
+        "numerical": 47,
+        "mcq": 33
+      },
+      "gemini_response_file": "responses/response_03_of_05.json"
+    },
+    {
+      "file": "chunk_04_of_05.json",
+      "question_count": 80,
+      "indices": [
+        408,
+        527
+      ],
+      "type_distribution": {
+        "mcq": 21,
+        "numerical": 59
+      },
+      "gemini_response_file": "responses/response_04_of_05.json"
+    },
+    {
+      "file": "chunk_05_of_05.json",
+      "question_count": 11,
+      "indices": [
+        530,
+        551
+      ],
+      "type_distribution": {
+        "numerical": 10,
+        "mcq": 1
+      },
+      "gemini_response_file": "responses/response_05_of_05.json"
+    }
+  ],
+  "total_questions": 331,
+  "dataset": "grpo_eval.jsonl"
+}

@@ -1,0 +1,96 @@
+subsequent derivation we shall perform the surface integration of (71) with respect to the coordinates of the source point ξ. This requires that the potential ϕ and the normal derivative ∂ϕ/∂n be defined with respect to (ξ, η, ζ) by a simple change of the dummy variable of integration. Physi­ cally we shall integrate over a continuous distribution of sources and nor­ mal dipoles that are located on the surface S, with a fixed value of the field point x.
+
+The Motion of an Ideal Fluid 
+
+Substituting (72) in (71) requires caution, for the source potential does 
+not satisfy the Laplace equation at the singular point r = 0, and thus (71) is 
+not valid when the source point is situated within . This difficulty can be 
+circumvented by surrounding the source point by a small sphere of radius 
+r = ε with surface Sε as shown in figure 4.6 (a). Then S + Sε is a closed2 surface 
+surrounding the volume of fluid interior to S but exterior to Sε; within this 
+volume, (72) is regular. Thus, (71) can be replaced by
+
+
+
+
+
+π
+φ
+φ
+ε
+∂
+∂
+−
+∂
+∂
+
+
+
+
+=
++∫∫
+n r
+r
+n dS
+S S
+, 	
+(73)
+or
+
+
+
+
+
+
+
+
+π
+φ
+φ
+π
+φ
+φ
+ε
+∂
+∂
+−
+∂
+∂
+
+
+
+
+= −
+∂
+∂
+−
+∂
+∂
+
+
+
+
+∫∫
+∫∫
+n r
+r
+n dS
+n r
+r
+n dS
+S
+S
+. 	
+(74)
+In the limit ε → 0, the contribution from the integral over Sε in (74) can be 
+evaluated under the assumption that the velocity potential and its normal 
+derivative on Sε are both regular. The area of Sε is 4πr2, while the normal 
+derivative of 1/r is −∂/∂r(1/r) = 1/r2. (Note that the normal is positive when 
+pointing out of the fluid volume and hence in the direction opposite to r on 
+Sε.) Thus the first term in the integrand on the right side of (74) is singular 
+in proportion to 1/r2, and when it is multiplied by the area 4πr2, a finite 
+limit will result as ε → 0, whereas the weaker singularity of the second term 
+Figure 4.6
+Surfaces of integration for Green’s theorem. In (a) the field point is interior to S, 
+surrounded by a small spherical surface Sε; in (b) the field point is on the boundary 
+surface S and Sε is a hemisphere.

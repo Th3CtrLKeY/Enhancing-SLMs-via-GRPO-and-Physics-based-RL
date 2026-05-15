@@ -1,0 +1,100 @@
+wavenumber. This relationship is displayed explicitly in an alter­ native derivation of the stationary-phase approximation given by Lighthill (1965). 4. It is clear that if the horizontal coordinates of the source position and observa­ tion point are reversed, the flow will be unchanged provided the direction of the stream velocity U is also reversed. The dependence on the vertical coordinate and source position is less elementary, but in the asymptotic approximation used here both of these are in fact exponential.
+
+Notes 
+
+5.  The condition S13 = 0 is satisfied automatically for a body with a vertical plane of 
+symmetry, such as a ship, provided one of the horizontal coordinates lies in this 
+plane.
+6.  For finite depth h, these relations are still valid as ω → ∞, since for any fixed 
+depth the wavelength will be short compared to h. The symbol “o” in (175–176) 
+denotes that the order of magnitude of the exciting force is much smaller than that 
+of the quantity in parentheses.
+7.  Since nz is an odd function of z, the even part of ϕ7, which contributes to the 
+forces in the vertical plane, is a small first-order quantity.
+8.  Observed wave spectra, such as the Pierson-Moskowitz spectrum shown in figure 
+6.25, do not appear to satisfy this condition. Nevertheless the statistical distribution 
+of observed wave amplitudes tends to follow the Rayleigh distribution with suffi­
+cient accuracy to justify the conclusions that follow.
+Chapter 7: Hydrodynamics of Slender Bodies
+1.  The weighted head of an arrow and the forward placement of automobile engines 
+are two common examples.
+2.  In the first-order solution, the appropriate radiation condition is that the waves 
+far from the body section should be outgoing. The situation is more complicated in 
+the higher-order solution, as discussed by Ogilvie and Tuck (1969).
+3.  This complication can be circumvented by introducing a mean effective depth 
+for each section, where the scattering pressure acts, and evaluating the exponential 
+factor for this particular depth, as outlined by, Gerritsma and Beukelman (1967).
+4.  Note that if (130) is extended to the subcritical case, one concludes that the 
+solution of (126) is a function of the transformed complex variable x′ + iz′ and its 
+conjugate.
+
+Index
+I
+n
+d
+e
+x
+I
+n
+d
+e
+x
+© Massachusetts Institute of TechnologyAll Rights Reserved
+Abbott, I. H., 25, 26, 184
+Abkowitz, M. A., 368
+Abramowitz, M., 74, 237
+Accelerating body, unsteady force on, 
+37–40, 38, 40
+Acceleration, flat plate, in viscous fluid, 
+72–75, 75
+Acosta, A. J., 218
+Added mass
+analogy with body mass, 147
+of cylinder, 151–152, 153
+definition, 147
+Added-mass coefficients, 146
+of circular cylinders, 151–152, 153
+of ellipse, 152, 163(11)
+of finned body, 163(10)
+of flat plate, 152, 153, 162(5)
+of floating body, 301
+double-body, 309–310
+high- and low-frequency limits, 
+309–310
+of particular body forms, 310, 311, 
+
+symmetry, 308
+flow past, 161
+general properties, 147–154
+relation to dipole moment, 149–151
+relation to exciting force, 315
+(Italicized page numbers denote reference to material in figures. Italicized numbers 
+in parentheses denote problem numbers.)
+relation to kinetic energy, 148
+of simple forms, 151–154, 152
+of slender body, 153
+of sphere, 151
+of spheroid, 152, 153, 154, 163(8)
+of square, 152, 153, 163(10)
+symmetry, 148, 153
+of two-dimensional bodies, 144–154, 
+153, 162 (7), 163(10), 163(11), 
+163(12)
+Added-mass tensor, 146
+Added moment of inertia
+of circle, 152, 152
+of flat plate, 152, 152, 163(9)
+spheroid, 153, 154, 163(9)
+of square, 152
+Adee, B. H., 47
+Advance ratio, 26, 28
+Air, density and viscosity coefficients, 
+3–4
+Aircraft carriers, motion in waves, 
+48–49, 49, 374
+Air-water interface, 14
+Alternating tensor, 145
+Amplitude dispersion, 260
+Analytic function, 123–129, 124, 162(6)
+Angle of attack
+flat plate, 243(6)

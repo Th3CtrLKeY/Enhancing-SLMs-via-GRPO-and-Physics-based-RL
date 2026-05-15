@@ -1,0 +1,86 @@
+in the calculation of the pressure. Care should be shown in evaluating velocities close to the body. One reason is that the velocities are singular at the edges of the element. Experience has shown that one has to be of the order of a characteristic element length outside the body in order to always obtain satisfactory estimations of fluid velocities. Further, the velocity potential should not be evaluated at places on the element other than at the geometrical area centre.
+
+118 NUMERICAL METHODS
+
+Source methods have been used in practical calculations of wave loads
+on large volume offshore structures for about twenty years. However,
+recent comparative studies performed by ISSC and ITTC have shown
+large variations in results by different computer programs with the same
+theoretical foundation. Causes of differences can be grid shape, size and
+distribution, geometry approximation, singularity density distribution
+over each panel, Green function calculation, and how singularities are
+integrated over panels. However, a well documented source method
+represents a valuable tool in engineering analysis of offshore structures.
+
+ALTERNATIVE SOLUTION PROCEDURES
+
+It is not necessary to use plane quadrilateral elements and assume
+constant source density over each element. A different procedure is to
+use triangular elements and assume a linear variation over each element
+(Bai & Yeung, 1974). This has the advantage of obtaining a better
+approximation of the hull surface. The body boundary conditions are
+satisfied at the vertices of the elements, which requires special care.
+
+There exist panel methods other than the source technique. One
+method uses Green’s second identity which states
+
+J[Jovw-wemar=[f(vsr-e 5.) 43
+
+where S is the surface enclosing the fluid volume Q. It is necessary that
+@ and w have continuous derivatives of first and second order in Q. The
+normal direction 7 is into the fluid region.
+
+Example 1
+If V2 =0 and V?y =0 everywhere in the fluid domain it follows from
+
+equation (4.32) that
+
+[os on 0) ds=0 (4.33)
+
+Example 2
+If V2 = 0 everywhere in the fluid domain,
+
+VOI 85 XN 2) = {x — mY + (yy + wa HF
+(4.34)
+
+and the point (x,,1, 2, is inside the fluid volume (see Fig. 4.8), we
+have to be careful how we handle the singular point (x), 31,21) in
+equation (4.32). We note that p is the velocity potential for a source of
+strength —4z with a source at point (x,,y1, 21). Outside the singular
+point w satisfies the Laplace equation. Equation (4.33) applies therefore
+
+ALTERNATIVE SOLUTION PROCEDURES 119
+
+if we integrate over S + Sj, i.e.
+
+ic vse- 65 SY) ds=0 (4.35)
+
+where S, is the surface of a sphere with small radius r enclosing the point
+(x1, 01,21). At S, we can write Oy/dn = dw/dr = —1/r’, ice.
+
+ff oa =~ 4zr( - =) (e159, 21) . . (4.36)
+Si
+
+[Farveno (4.37)
+
+That means we can write the velocity potential in three-dimensional flow
+as
+
+: ) _1 ee ds (4.38)
+
+anocnnad=[[ 0S, (R) Roo
+Ss
+
+Here S has to be a closed surface. If we apply the formula to the wave
+load problem, the surface S consists of the mean body surface Sg, a
+vertical circular cylindrical surface S.. away from the body, the mean free
+surface Sp; and sea bottom So inside S., (see Fig. 4.9). Equation (4.38)
+states that the velocity potential can be represented by a distribution of
+sources R=! (also called Rankine sources) and dipoles (8/8n)(1/R) over
+the closed surface S=Sg+Sp+S.4-So. In the differentiation
+(@/an\(1/R) = 8/dn[(x — x1 + (y—m YP +(e —2))17? it is x, y and z
+that are considered as variables. The dipole density on S is given by
+¢(s) and the source density is given by 0@/dn.
+
+Fig. 4.8. Integration surfaces used in applying Green’s second identity.
+((%1) 91 2.) = Singular point of equation (4.34).)

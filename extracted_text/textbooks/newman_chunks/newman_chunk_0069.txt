@@ -1,0 +1,218 @@
+, (68) since ∂u/∂y → 0 outside the boundary layer. Next we integrate the continu­ ity equation in a similar manner to obtain ∂ ∂ + ∂ ∂     = ∫ u x v y dy y (69) or, since v = 0 on the boundary y = 0, v x y u x dy y ( , ) . = −∂ ∂∫ (70) Substituting this expression for v in (68), and integrating by parts, we obtain
+
+The Motion of a Viscous Fluid 
+
+−
+=
+∂
+∂
+−∂
+∂
+∂
+∂
+
+
+
+−
+
+
+
+
+
+
+=
+∂
+∂
++
+∂
+∫
+∫
+τ
+ρ
+δ
+xy
+y
+u u
+x
+u
+y
+u
+x dy
+U dU
+dx dy
+u u
+x
+u u
+
+
+∂
+−
+
+
+
+
+−
+∂
+∂
+=
+∂
+∂
+−
+∂
+∂
+−
+
+
+
+
+∫
+∫
+x
+U dU
+dx dy
+U
+u
+x dy
+u u
+x
+U
+u
+x
+U dU
+dx dy
+
+
+
+δ
+δ
+
+
+
+
+δ
+δ
+δ
+δ
+∫
+∫
+∫
+∫
+= −
+∂
+∂
+−
+−
+−
+= −
+−
+−
+x u U
+u dy
+dU
+dx U
+u dy
+d
+dx u U
+u dy
+dU
+dx
+[ (
+)]
+(
+)
+(
+)
+(
+)
+.
+U
+u dy
+−
+∫
+
+δ
+	
+(71)
+Recalling that the upper limit of integration δ is a point outside of the 
+boundary layer, and using the definitions of the displacement and momen­
+tum thickness from (55) and (57), we obtain the following result:
+τ
+ρ
+θ
+δ
+xy
+d
+dx U
+U
+dU
+dx
+=
++
+(
+)
+.
+
+*
+	
+(72)
+For the flat plate with zero pressure gradient, the last term of this equa­
+tion is zero, and (72) can be integrated with respect to x to give a relation 
+between the drag coefficient and the momentum thickness. This relation is 
+consistent with equations (58) and (61) and expresses the physical relation­
+ship that exists between the hydrodynamic force acting on the plate and 
+the loss of momentum in the fluid.
+Finally, we shall describe a scheme, due to Pohlhausen, for computing 
+the characteristics of a two-dimensional laminar boundary layer with a 
+pressure gradient. We suppose that the velocity distribution in the bound­
+ary layer can be approximated by a fourth-degree polynomial, in the form
+( /
+)
+( / )
+( / )
+( / )
+( / ) .
+u U
+a y
+y
+c y
+d y
+=
++
++
++
+δ
+δ
+δ
+δ
+
+
+
+(73)
+Here the condition that u = 0 on the boundary y = 0 has been satisfied 
+by eliminating the constant term in the polynomial. The remaining four 
+boundary conditions that can be imposed on physical grounds are that on 
+the inner boundary y = 0, the boundary layer equation (46) holds, or
+ν
+ρ
+∂
+∂
+=
+∂
+∂
+= −
+=
+
+
+
+
+u
+y
+p
+x
+U dU
+dx
+y
+,
+,
+on 
+and that, on the outer boundary,

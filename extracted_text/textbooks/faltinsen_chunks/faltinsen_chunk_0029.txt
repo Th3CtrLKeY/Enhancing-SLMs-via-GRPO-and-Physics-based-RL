@@ -1,0 +1,82 @@
+a relatively small body can be written as F=iF | +jF,+kF; (3.35) where F,= -[f pn; ds + Aja, + Aja2 + Aj3a3 (3.36) s Here p is the pressure in the undisturbed wave field and n= (n,, 22, 73) is the unit vector normal to the body surface defined to be positive into the fluid. The integration is over the average wetted surface of the body. Further, a), a2 and a; are acceleration components along the x-, y- and
+
+62 LINEAR WAVE-INDUCED MOTIONS
+
+a-axes of the undisturbed wave field and are to be evaluated at the
+geometrical mass centre of the body.
+
+The first term in equation (3.36) is the Froude—Kriloff force. The
+other terms physically represent the fact that the undisturbed pressurefield is changed due to the presence of the body (diffraction force),
+
+If the body is totally submerged, the body is small relative to the
+wavelength and the whole body surface is wetted we can show that:
+
+Qa
+
+ny
+Wr: nz | ds= pV} az (3.37)
+S a3
+
+assumptions not valid for a structure (for instance a tank) standing on the
+sea bed where the bottom of the structure is not wetted. However, in the
+case of a horizontal sea bed, the fact there is no fluid pressure on the
+bottom of the structure does not affect the horizontal forces. Equation
+(3.37) is therefore only invalid for the vertical force in this case.
+Equation (3.36) is often used together with strip theory to predict wave
+excitation forces on semi-submersibles and TLPs when the wavelength is
+large relative to the cross-sectional dimensions. Special care should be
+taken’ at nat. junctions between _ columns and pontoons in. evaluating. the
+
+then have to integrate the Froude— Kriloff pressure force directly.
+
+We will illustrate this by considering the vertical excitation force F'3(t)
+on a TLP (see Fig. 3.15) for long wavelengths. A similar analysis applies
+for a conventional semi-submersible drilling platform. A main contribution to F3(¢) comes from the pressure forces acting on the pontoons. A
+strip theory approach may be used to estimate these pressure forces
+because the pontoons can be treated as slender members. Then, the
+vertical wave excitation load on a strip of length, ds, that is remote from
+the columns can be written as:
+
+F3= (pA, + A33?) ds a3 (3.38)
+
+where A, is the cross-sectional area, A337” is the two-dimensional
+added mass in heave in an infinite fluid, and a3 is the vertical
+undisturbed fluid acceleration at the geometrical centre of the crosssectional area. Equation (3.38) is based on a long wavelength assumption
+relative to the cross-section. The first term represents the Froude—Kriloff
+force (i.e. the pressure force on the cross-section due to the undisturbed
+fluid flow). It should be stressed that in equation (3.38) the Froude—
+Kriloff representation is valid only when the whole circumference of the
+cross-section is wetted. When this is not satisfied, the contribution to the
+Froude—Kriloff force should be obtained by properly integrating the
+undisturbed pressure p.
+
+RESPONSE IN REGULAR WAVES 63
+
+To derive an expression for F'3(t), we will write
+a;= —w’C,e™ sin(wt — kx) (3.39)
+_ p= pebse™ sin(oot — kx) (3.40)
+
+where €, is the incident wave amplitude. On the pontoons oriented in the
+x-direction we obtain the following vertical force contribution.
+
+— w?t,e""2(pA, + Ass) in sin(wt — kx) dx
+B/2
+where
+
+B2
+[ sin(wt — kx) dx = (2/k) sin wt sin kB/2
+
+~B/2
+
+and z,, is the 2-coordinate of the geometrical centre of the cross-sectional
+area. B is explained in Fig. 3.15. On the pontoons oriented in the
+y-direction we obtain the following vertical | force contribution,
+
+—w?l,e""(pA, + A33?)B(sin(we — RL,/2) + sin(wt + RL,/2))
+
+where L, is explained in Fig. 3.15. By using only the Froude—Kriloff
+
+25 Jf
+
+Fig. 3.15. Tension leg platform (ASM600). Dimensions are given in metres. Its
+main characteristics are presented in Table 5.1.

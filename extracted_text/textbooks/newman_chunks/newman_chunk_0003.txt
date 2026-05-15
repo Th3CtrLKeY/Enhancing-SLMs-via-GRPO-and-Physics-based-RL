@@ -1,0 +1,40 @@
+floats on a spar buoy. The current target wing span of these geometries is twice that of an Airbus A380! Other geometries in offshore engineer­ ing include cages for aquaculture, which may be either closed or open. Making them larger and sufficiently strong enough to be placed in harsh ocean environments is a new development in the fish farming industry. New development of coastal infrastructure would require road crossings of fjords. Proposed bridges would be supported by floating, moored pontoons;
+
+John Grue 
+xiii
+submerged floating tunnels are another alternative. Wave power devices 
+are another example of structures where the subject of marine hydrody­
+namics is relevant, and where the design of successful structures must be 
+based on this subject.
+This textbook is ideal for a masters- or PhD-level course. Students using 
+this book should also have completed courses in introductory mathematics, 
+classical physics, and field theory. Additionally, a course in fluid mechanics 
+provides a foundation to build upon with the material contained herein. 
+Most introductory courses in mathematics have some components of com­
+plex theory and provide a sufficient background for the more advanced 
+exercises in the book; a full course in complex analysis may help the reader 
+but is not required for a good learning outcome.
+The highlight of the book is the second half of chapter 6, which intro­
+duces the subject of wave effects. The primary goal is to calculate the 
+responses of a floating body exposed to incoming waves in the six degrees 
+of freedom: heave, sway, surge, roll, pitch, and yaw. Chapter 6, much like 
+the rest of the book, is self-consistent, with the required background of 
+wave theory—including concepts like superposition, group velocity, mass 
+and energy flux, and third-order Stokes wave theory—given in the first half 
+of the chapter. On the basis of potential theory, the matrix equation of the 
+body responses includes the forces and moments due to added mass, wave 
+damping, hydrostatics, and wave excitation. Perturbation-wise, the wavebody interaction problem is linearized and the forces and motions are mod­
+eled at each spectral frequency, a common assumption and decomposition 
+that is used in marine hydrodynamics. The method provides a platform for 
+a rich mathematical analysis in which the wave effects and responses are 
+analyzed at the fundamental frequency. The resonance frequencies in the 
+vertical modes of motion where the hydrostatic forces balance the inertia 
+forces are defined. The linear analysis corresponds to the basic calculation 
+method used in offshore engineering. Quadratic and higher-order wave 
+effects may be studied using other texts.
+The introduction of Morison’s equation—a coefficient-based force for­
+mulation, particularly suitable for slender geometries—is motivated by the 
+dimensional analysis in chapter 2. It is directly related to the long-wave 
+analysis of the wave effects part of chapter 6. The viscous drag term included 
+in Morison’s equation is not modeled by the potential theory analysis of 
+chapter 6, however. Chapter 2 introduces the concept of added mass—an

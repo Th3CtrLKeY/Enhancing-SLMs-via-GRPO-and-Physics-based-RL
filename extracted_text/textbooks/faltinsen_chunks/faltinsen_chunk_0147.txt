@@ -1,0 +1,73 @@
+generalized to irregular long-crested ‘seas by writing N w= >, @,A, cos(a,t — kix + €,) (9.45) t=1 ‘where A, is determined from the sea spectrum and e;, are random phase angles (see equation (2.22)). It is necessary that the wavelength of each wave component in (9.45) is large relative to the cross-sectional dimension of the structure. Equation (9.45) can also be generalized to short-crested seas. : WATER ENTRY PROBLEMS : —> Current Fig. 9.13. Lifting operations of subsea modules.
+
+Signe reer ge
+
+i
+
+impulse
+
+308 WATER IMPACT AND ENTRY
+
+To evaluate the hydrodynamic forces we_need to. know. the infinite
+frequency added mass in heave Ag3 as a function of submergence... This
+can be calculated independently of the wave field calculation. What
+matters is the submergence relative to the water level. This 1s exactly the
+same type of calculation we presented in Fig. 9.11 fora circular cylinder.
+Miloh (1981) presents similar results for a sphere.
+
+We should not use equation (9.43) when the structure is fully
+submerged and close to the free-surface. The reason is that the
+free-surface condition @, = 0 used in calculating oy is questionable and
+influences the results. When the body is deeply. submerged, we may
+again use equation (9.43). In this case dA33/dt = 0. For the exit problem
+it is not possible to use equation (9.43). Some exact calculations within
+potential flow theory with correct non-linear free-surface conditions have
+been given by Greenhow (1988) and Telste (1987). We should note the
+very different flow pictures between an exit and an entry of a cyli der.
+Fig. 9.14 shows an example of flow visualizations of an exit of a cylinder.
+The water above the cylinder is lifted with the cylinder. In the last
+picture the free-surface breaks spontaneously under the cylinder.
+
+During the first phase of the impact we may underestimate the forces
+(see Fig. 9.11). However, what is important for the global response, of
+
+IT ti is the
+
+the structure during a small time increment Ac after the impa
+
+Ac
+I=| F,(e)de (9.46)
+
+‘0
+
+small time relative to a natural period. Typically the interesting natural
+periods will be 1-2 s. However, this depends on the stiffness properties
+
+relative to the mass of the structure. A small time increment means a
+
+of the crane. Equation (9.43) is a good approximation in the calculation -
+
+of the impulse.
+Equation (9.43) can be further generalized and applied for a ship at
+
+forward speed (see exercise 9.4). An example is the evaluation of ©
+
+hydrodynamic forces on bow flare sections. This can cause large midship
+stresses with resulting damage to deck and bottom plates. Loss of bow
+parts has been reported.
+
+EXERCISES
+
+9.1 Impact loads on horizontal bracing
+
+A horizontal member (of a jacket) with diameter D =0.5m is in the
+splash zone (Fig. 9.15), Regular sinusoidal waves of period 15s and
+
+height H = 30m _ propagate in deep water in the positive x-direction.
+
+Find the vertical slamming force (i.e. the force when the wave hits the-
+
+EXERCISES
+
+Fig. 9.14. Flow visualizations from exit studies of a circular cylinder.
+(Greenhow & Lin, 1983.)

@@ -1,0 +1,40 @@
+based on rational mechanics. Ultimately, therefore, we must expect both experi­ ments and theory to be used and to be supplemented by full-scale observa­ tions to verify the original predictions. In the theoretical approach the motion of the fluid is defined at each point in time and space by a kinematic description, usually of the vectorial velocity of the fluid particles or alternatively of the three scalar compo­ nents of the velocity. This unknown velocity function is related by means
+
+Chapter 1
+of Newton’s equations to the forces that act upon the fluid; this yields a 
+system of partial differential equations. For a fluid with conventional stress 
+relations, the resulting system of governing equations is the Navier-Stokes 
+equations, supplemented by the continuity equation expressing conserva­
+tion of fluid mass. In principle, one can solve these equations, subject to 
+boundary conditions on the boundary surfaces of the fluid. If this proce­
+dure could actually be carried out, it would be possible to calculate desired 
+answers for arbitrary values of the Reynolds number and Froude number, 
+and the scaling dilemma of model testing would be circumvented. In prac­
+tice, however, it has not been possible to solve the Navier-Stokes equations 
+exactly, except for a few cases involving very simple geometries that at first 
+glance have no relation to the shape of marine vessels.
+Considerably more analytical progress can be made if the viscous forces 
+are ignored in the Navier-Stokes equations and the fluid is assumed to be 
+inviscid or ideal. It is then feasible to construct mathematical solutions for 
+the flow past bodies of realistic form and even to include the effects of wave 
+motions on the free surface, albeit only after further idealizations. Clearly, 
+however, neglecting viscosity will lead to results of only academic interest, 
+unless the justification is more relevant than the mathematical desire to 
+simplify a system of partial differential equations. For predictions of ship 
+resistance, this justification was initially provided by Froude’s hypothesis 
+that the resistance could be composed of two separate components, fric­
+tional and residual. The frictional component is related to a much sim­
+pler geometry, a deeply submerged flat plate, and thus depends only on 
+the Reynolds number. The residual component is assumed to depend only 
+on the Froude number. This hypothesis was essentially an empirical one; 
+its principal justification was that it led to a workable procedure for mak­
+ing model tests and obtaining full-scale predictions not totally at variance 
+with the actual full-scale results. The neglect of viscosity in treating certain 
+aspects of the flow, and Froude’s assumption that the frictional resistance 
+of a ship hull could be related to that of a flat plate of the same length 
+and area, found a more rational justification after Prandtl developed the 
+boundary-layer theory. Thus it became evident that at the relatively large 
+Reynolds numbers of interest to naval architects and aerodynamicists, vis­
+cous stresses are significant only within the very thin layer of the fluid 
+adjoining the rigid surfaces such as the ship’s hull or the airplane. Out­
+side this layer the fluid is essentially inviscid, not because its viscosity has

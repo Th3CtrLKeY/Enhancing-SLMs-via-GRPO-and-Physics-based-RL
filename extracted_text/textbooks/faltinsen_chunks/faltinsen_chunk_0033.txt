@@ -1,0 +1,97 @@
+the range of the ship length, equation (3.51) means that the resonant wavelength is of the same order of magnitude as the ship length. If the ship has a forward speed it is a different wavelength that causes the resonant heave oscillations. The requirement for resonance is that the encounter period T, is equal to 7,3. This means To Ty3= 2n( (3.50) 1D np =T,3 (3.52) To8 This is illustrated in Fig. 3.16. The figure tells for instance that period
+
+70 LINEAR WAVE-INDUCED MOTIONS
+
+Ty = 12s causes heave resonance when the vessel is heading with a speed
+10ms~' (19.4 knots) against the waves. At zero speed, resonance is
+caused by a period of 7.8s. For head seas it means that the wavelength
+that creates resonance increases with the forward speed. If the vessel
+changes direction, for instance to bow sea (6 = 45° heading), a resonant
+heave oscillation will not occur for a speed of 10 ms™! and wave period
+Ty = 12s. It would occur if the ship had a speed of 10 ms~'/cos 45°=
+14ms!.
+
+The natural period in heave for a tension leg platform can be written as
+
+M+ An)
+EA/lI
+
+where E, A and / are respectively modulus of elasticity, cross-section
+area of the tendons and length of the tendons. The stiffness due to the
+waterplane area is negligible in comparison with the restoring effect of
+the tendons. We note from equation (3.53) that the heave natural period
+increases with increasing tendon length (i.e. the water depth). Similar
+considerations apply for the pitch and roll natural periods. Generally
+speaking, the natural periods in heave, pitch, and roll of a TLP will be
+low relative to most wave periods occurring in the open sea. However,
+they may be excited by non-linear second-order effects (see chapter 5).
+
+Ty3= 2x( (3.53)
+
+SPEED (ms
+
+~ 6000 a0 40000 ~ 12000
+
+—>
+NATURAL PERIOD OF
+VESSEL MOTION (S)
+
+Fig. 3.16. Relation between resonance period, wave period, forward speed and
+wave propagation direction.
+
+DISCUSSION ON NATURAL PERIODS - FI
+
+The uncoupled natural. period in pitch for a freely floating body like a
+ship or a semi-submersible can be written as
+
+Mrss + Ass) (3.54)
+
+n= 2a
+Bos = 2m\ "VGN,
+
+where rs, is the pitch radius of gyration with respect to an axis parallel
+with the y-axis through the centre of gravity, Ass is the pitch added
+moment and GM, is the longitudinal metacentric height. For a ship, 155
+can be approximated as 0.25 times the ship length. The order of
+magnitude of 7,,; for a ship is the same as 7,3.
+
+The uncoupled natural period in roll is
+
+Mra? + Agg\}
+a) (3.55)
+
+pP& VGMr
+
+where 144 is the roll radius of gyration with respect to an axis parallel
+with the x-axis through the centre of gravity, Ay, is the roll added
+moment and GM, is the transverse metacentric height. For a ship, r44 is
+typically 0.35 times the beam. The transverse metacentric height
+depends on the loading condition. A design rule/recommendation for a
+ship is to try to select natural periods in roll larger than 10s. In this way
+rolling is not a problem in small and moderate sea states. The parameter
+which has most influence on the natural period is the metacentric height.
+Tn4 is typically 4-6s for small fishing vessels, 8-12 for conventional
+merchant vessels and up to 20-25s for specialized heavy lift vessels.
+Semi-submersibles have 7,4 in the range of 35-50s. T,4 depends very
+much on the stability requirements and how the ship is built with respect
+to damage stability.
+
+Ships without roll stabilization equipment are exposed to strong
+resonance effects in roll. The amplitude at resonance depends on the
+damping level. The damping in roll for a ship at zero Froude number,
+i.e. zero forward speed, is due to wave generation, viscous effects and
+roll stabilization equipment. At high Froude numbers the lifting effect of
+the hull and the rudders is important. By lift we do not mean that there
+is a vertical force, but that the ship and the rudders act as lifting surfaces
+in a hydrodynamic sense. The roll wave damping is due to the waves
+created by the roll motion and is frequency dependent. When the
+frequency goes to zero or infinity, the roll damping goes to zero. Since
+the roll damping dominates the roll motion around roll resonance, the
+natural period in roll will have an important influence on the effect of the
+roll wave damping. The roll wave damping has a tendency to be small
+due to cancellation effects for normal midship sections. By cancellation
+we mean that the roll moment caused by the pressure forces on the ship
+sides tend to counteract the roll moment caused by the pressure forces on
+the shin hottom. For a circular cross-section the rall damning will he
+
+Twa = 2n(

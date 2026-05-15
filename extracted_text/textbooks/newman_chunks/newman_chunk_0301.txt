@@ -1,0 +1,115 @@
+7.7–7.8, and would become progres­ sively more serious at higher speeds. In this case the practical value of the long-wavelength slender-body theory is diminished, and a complementary approach must be developed where the magnitude of the oscillation fre­ quency is in the range of resonant motions, of order ε−1/2. 7.7 Strip Theory for Ship Motions The problem of a slender ship moving with forward velocity in a seaway is one of the most important topics in ship hydrodynamics. Here, by
+
+Hydrodynamics of Slender Bodies 
+
+Figure 7.7
+Heave motions predicted from (89–90) and compared with experiments. The wave 
+frequency ω0 is defined with reference to the fixed coordinate system, as in (91). 
+(Adapted from Newman and Tuck 1964)
+
+Chapter 7
+Figure 7.8
+Pitch motions predicted from (89–90) and compared with experiments. (Adapted 
+from Newman and Tuck 1964)
+
+Hydrodynamics of Slender Bodies 
+
+comparison to the simpler problem of a slender body in waves without for­
+ward speed, hydrodynamic interactions will exist between the steady-state 
+flow field due to the ship’s forward motions and the oscillatory flow associ­
+ated with the unsteady motions. Since complete analysis of these interac­
+tions is beyond the present state of knowledge in this field, we must adopt 
+a pragmatic approach, justified by experimental confirmation.
+Two important effects of the ship’s forward velocity can be analyzed 
+without major difficulty. One is the change in the frequency of encounter, 
+which is an elementary feature of the ship-motion problem but one with 
+far-reaching consequences. The second effect is the longitudinal convec­
+tion of momentum, which changes the oscillatory force distribution along 
+the hull, as in the simpler case of a slender body in an unbounded fluid.
+The effect of the forward speed on the frequency of encounter is iden­
+tical to the Doppler shift in other fields of wave motion. Restricting our 
+attention to harmonic motions in deep water, the velocity potential of 
+the incident wave system given by (6.16) can be written in the complex 
+form
+φ
+ω
+θ
+θ
+ω
+=
+−
++
++
+(
+/
+) exp[
+(
+cos
+sin )
+],
+igA
+ky
+ik x
+z
+i
+t
+
+
+
+
+
+(91)
+where the real part is implied wherever an exponential time-dependence 
+is displayed. Here A is the amplitude of the incident wave, θ is the direc­
+tion of propagation relative to the x-axis (see figure 6.6), ω0 is the wave 
+frequency with respect to a fixed reference frame (x0, y0, z0), and k
+g
+= ω0
+2 /
+ 
+is the wavenumber.
+In a reference frame (x, y, z) moving with the steady forward motion of 
+a ship, the transformations (2–4) apply if the ship moves in the positive 
+x-direction. Thus, (91) can be expressed in the form
+φ
+ω
+θ
+θ
+ω
+θ
+=
+−
++
++
+−
+(
+/
+)exp[
+( cos
+sin )
+(
+cos ) ].
+igA
+ky
+ik x
+z
+i
+kU
+t
+
+
+(92)
+The wave amplitude A and wavenumber k are unchanged from (91), but the 
+frequency of encounter in the moving reference frame is given by
+ω
+ω
+θ
+=
+−
+
+kU cos . 	
+(93)
+For following waves (θ = 0), ω < ω0, but in head waves (θ = π), the converse is 
+true. The same conclusions apply to a lesser extent for quartering (0 < θ < π/2) 
+and bow (π/2 < θ < π) waves, whereas for beam waves (θ = π/2), the two fre­
+quencies coincide.

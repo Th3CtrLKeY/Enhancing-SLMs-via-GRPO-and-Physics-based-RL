@@ -1,0 +1,147 @@
+Loss of bow parts has been reported. EXERCISES 9.1 Impact loads on horizontal bracing A horizontal member (of a jacket) with diameter D =0.5m is in the splash zone (Fig. 9.15), Regular sinusoidal waves of period 15s and height H = 30m _ propagate in deep water in the positive x-direction. Find the vertical slamming force (i.e. the force when the wave hits the- EXERCISES Fig. 9.14. Flow visualizations from exit studies of a circular cylinder. (Greenhow & Lin, 1983.)
+
+a
+
+nS
+
+”n
+w
+a =
+oO
+i §
+a &
+=
+gz
+(3)
+
+~
+x
+in
+pe
+[coy
+~
+ta
+Zz
+iQ
+Qa
+Zz
+<
+oO
+<
+[a3
+=
+= yz
+[-4 s
+rs) 3
+& Bs
+= :
+S 8
+<<
+x
+a
+2 bb
+on em
+
+EXERCISES 313
+312 WATER IMPACT AND ENTRY
+
+member) as a function of d. (d is the height of the centre of the member
+from the still water level).
+
+9.2 Impact loads on a vertical cylinder
+Consider a situation where a vertical face of a wave hits a vertical
+cylinder (see Fig. 9.1). Assume the waves are long-crested before impact
+(see Fig. 9.16). Set the horizontal velocity of the wave front equal to
+(g/(2x))T (i.e. the phase velocity of small amplitude deep-water waves
+with period T). Choose T = 10s and cylinder radius 10m.
+Calculate the impact pressure as a function of time and space.
+
+9.3 Lifting operations
+
+Consider a watertight circular cylinder of length L = 10m and diameter
+D=2m that is lowered horizontally from a crane ship (see Fig. 9.17).
+The mass of the cylinder is 2: 10*kg. The stiffness of the crane-wire
+system is 2000 KN m7! when the cylinder is given a forced displacement
+in the vertical direction. When the cylinder goes through the water
+surface, the waves hit the cylinder with a vertical velocity 2ms"!.
+Assume the water surface is horizontal at the time of impact and that the
+cylinder and the crane top have no vertical motion before impact.
+
+Assume the vertical motion 73 of the cylinder can be described by a
+
+Fig. 9.16. Impact pressure from waves breaking against a vertical cylinder.
+
+Fig. 9.14. (continued) Fig. 9.17. Crane operations.
+
+314 WATER IMPACT AND ENTRY
+
+linear differential equation of the form
+
+: d?n3 dn3
+M—>+B— = .
+ae t Bap + Cm=FO 0.47)
+with initial conditions 73;=0 and dn3/dt=0. Use the fact that the
+solution of this equation system can be written as
+
+n3(t) = [ h(t — t)F(t) dt (9.48)
+
+where
+Laos:
+h(t) = Mo.° Awe sin Wot,
+
+@)=(C/M)! and A= B/(2Ma@ )<«1. Set M equal to the mass of the
+cylinder, B =0 and C equal to the stiffness of the crane-wire system.
+Use equation (9.40) to calculate the slamming. Neglect the influence of
+the body velocity on the slamming force.
+
+Calculate numerically the dynamic tension in the wire during a period
+22/wy just after the cylinder hits the water. Compare the maximum wire
+tension during the impact period with the tension in the wire before
+impact. Compare the results with a quasi-static solution where the
+impact force at t = 0 is applied as a static force.
+
+9.4 Wave loads on bow-flare sections
+Equations (9.37) can be generalized and applied for a ship at forward
+speed. An example is hydrodynamic forces on bow-flare sections. The
+hydrodynamic analyses will be based on strip theory. In this reference
+frame the forward speed of the ship appears as an incident steady flow
+with velocity U along the positive x-axis (see Fig. 9.18). We will start
+with the momentum equation (9.29). The control surfaces S can be
+selected as shown in Fig. 9.18. There are two lateral planes So separated
+by a distance dx exterior to the ship. The intersection curve between the
+planes and the ship is called )ip(x). We will limit ourselves to consider
+forced heave motion and no incident waves.
+(a) Show that the vertical force on the ship cross-section can be
+
+written as
+d
+P3=—-eG {I gn; ds — {I pgen; ds
+b sca Sp SytSp
+—p | { (vsVa-SIMins ds (9.49)
+SaotSo
+
+(Positive normal direction is out of the fluid domain).
+
+EXERCISES 315
+
+(b) Show that the integral over So in equation (9.49) can be
+written as
+
+fo]
+—pU dx [ ds
+pU des | om (9.50)
+
+(c) Show that the vertical hydrodynamic force F;? per unit
+length can be written as
+
+-_(4_y2 dn
+FM = — (= -U a (4:2) 2) + peA(x) (9.51)
+
+where A(x) is the submerged cross-sectional area.
+
+(d) How would you propose to generalize the formula by
+including the effect of incident waves and pitch motion.
+(Hint: See equations (9.19) and (9.43)).
+
+Fig. 9.18. Use of momentum equation to calculate wave loads on bow-flare
+sections of ships (see exercise 9.4.)

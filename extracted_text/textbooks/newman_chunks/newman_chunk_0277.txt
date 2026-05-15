@@ -1,0 +1,49 @@
+of matched asymptotic expansions will be employed in sec­ tion 7.2 to solve the longitudinal-flow problem. Subsequently, in section 7.3, we shall return to the lateral-flow problem, which is in some respects simpler and more useful, to analyze the lateral force acting along the body length. Before treating the longitudinal-flow problem in detail, it should be noted that the need for a three-dimensional outer solution does not arise for the lateral flow. Essentially this distinction occurs because no net flux
+
+Chapter 7
+is associated with the boundary condition (18) for lateral motion, and thus 
+there is no source term in the local solution of the lateral flow problem. 
+The potential Φ3 behaves for large r as a two-dimensional dipole, as in (20) 
+for a body of revolution or (4.129) for arbitrary body profiles. This dipole 
+potential vanishes at infinity, and thus is consistent with (8). Strictly, this 
+behavior is not identical to the more appropriate three-dimensional dipole 
+(4.123), but the distinction does not affect the leading-order slender-body 
+solution for the lateral-flow problem.
+7.2  Longitudinal Motion
+The longitudinal problem, associated with the steady forward motion 
+of the body, can be solved most readily in the moving coordinate system 
+(x, y, z). Here the body is in its stretched-straight position and is rigid. In 
+accordance with (4.101), the potential due to the body disturbance will be 
+of the form
+Φ = U
+x y z
+φ1( , , ). 	
+(23)
+We shall seek a solution of this problem using the method of matched 
+asymptotic expansions, where the inner and outer solutions are treated as 
+complementary approximations, each of which is valid in its own domain. 
+Thus the inner solution Φ1 is governed by the two-dimensional Laplace 
+equation (12) and the body boundary condition (17), but not by the con­
+dition (8) at infinity. Conversely, the outer solution φ1 is governed by the 
+three-dimensional Laplace equation and by the condition (8) at infinity, 
+but need not satisfy the body boundary condition. These two solutions will 
+be consistent provided they can be matched in an overlap region εl ≪ r ≪ l 
+far from the body in the inner region but very close to the body in the outer 
+region. Thus the matching requirement
+ϕ
+ε
+
+
+≪
+≪
+Φ ,
+,
+l
+r
+l 	
+(24)
+effectively replaces the missing boundary condition at infinity in the inner 
+problem and at the body in the outer problem.
+This method is useful because the two separate problems are simpler 
+to solve, compared to the exact solution valid everywhere throughout 
+the fluid. The inner solution is simplified because it is two dimensional,

@@ -1,0 +1,70 @@
+the streaming flow at infinity is positive downward with magnitude equal to 1/2. Transforming to the ζ-plane requires that (53) be substituted in (55). Thus the complex potential for flow normal to the flat plate is given by F i i i ( ) [ ( ) ] [ ( ) ] ( ) . / / / ζ ζ ζ ζ ζ ζ = + − − + − = − − 1 2 1 2 1 2 (56)
+
+Chapter 4
+In the ζ-plane the complex velocity is F'(ζ), and at infinity (56) gives a 
+downward streaming velocity of unit magnitude past the horizontal plate. 
+The complex potential can be multiplied by any real constant to change 
+the value of the stream velocity; for the general case of flow at normal inci­
+dence with stream velocity U, past a flat plate of width 2a, the appropriate 
+generalization of (56) is
+F
+iU
+a
+( )
+(
+)
+.
+/
+ζ
+ζ
+=
+−
+
+2 1 2 	
+(57)
+Differentiating (57) gives the complex velocity
+u
+iv
+iU
+a
+−
+=
+−
+ζ
+ζ
+(
+)
+.
+/
+
+2 1 2
+	
+(58)
+As in the case of the flow around a semi-infinite flat plate, the velocity is 
+infinite at the sharp edges with a square-root singularity. More generally 
+one can expect the singular behavior of the flow near a sharp corner to 
+depend only on the local shape near the corner.
+Since the general conformal mapping (51) maps concentric circles in the 
+z-plane onto confocal ellipses in the ζ-plane, the flow past an ellipse can be 
+obtained in a similar manner.
+Certain fundamental characteristics of conformal mapping transforma­
+tions that we have taken for granted should be stated explicitly. The fol­
+lowing three properties apply to any conformal transformation given by an 
+analytic function:
+1.	
+The mapping is one-to-one, so that to each point in the physical 
+domain, there is one and only one corresponding point in the mapped 
+domain.
+2.	
+Closed curves map to closed curves.
+3.	
+Angles are preserved between the intersections of any two lines in the 
+physical domain and in the mapped domain.
+The last property obviously is violated in the case of the flat plate, at the 
+two ends of the plate, because the mapping function is not analytic at these 
+points. This feature is exploited in the Schwarz-Christoffel transformation, 
+where polygonal profiles of arbitrary form are mapped onto a straight line, 
+utilizing products of corner mappings analogous to (50). An extensive treat­
+ment of conformal mapping is given by Milne-Thomson (1968).
+Finally, the Riemann mapping theorem, which states that an arbitrary 
+closed profile can be mapped onto the unit circle, enables the solution for

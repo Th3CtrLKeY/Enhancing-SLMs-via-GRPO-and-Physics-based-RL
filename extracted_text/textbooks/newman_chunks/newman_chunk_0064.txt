@@ -1,0 +1,150 @@
+by u u x v u y u y ′ ∂′ ∂′ + ′ ∂′ ∂′ −∂ ′ ∂′ = 0, (50) ∂′ ∂′ + ∂′ ∂′ = u x v y 0, (51) with the boundary conditions u v y ′ = ′ = ′ = on , u y ′ → ′ →∞ for . Since (50–51) do not involve the viscosity coefficient or Reynolds number explicitly, the solution of these equations will be a similarity solution valid
+
+Chapter 3
+for all Reynolds numbers, in the regime where the laminar boundary-layer 
+equations (48–49) are valid.
+To reduce these partial differential equations to ordinary differential 
+equations, let us assume that the length l is large compared to the distance 
+downstream x and that the flow is unaffected locally by the actual length l.4 
+The solution of these equations then must be independent of l, so that the 
+dependence on the space coordinates x' and y' can only involve the ratio 
+y'/√x' = y (U/νx)1/2. Similarly, to remove the dependence on l in the defini­
+tion of v', it follows that v' √x' must depend only on the ratio y'/√x'. Thus, 
+we seek a solution in the form
+u
+U
+F
+v x U
+G
+=
+=
+( ),
+( /
+)
+( ),
+/
+η
+ν
+η
+1 2
+where η = y(U/νx)1/2. With these substitutions the resulting mathematical 
+problem is
+−
++
+−
+=
+
+
+
+
+
+η
+η
+η
+η
+F dF
+d
+G dF
+d
+d F
+d
+, 	
+(52)
+−
++
+=
+
+
+
+η η
+η
+dF
+d
+dG
+d
+, 	
+(53)
+F
+F
+G
+( )
+,
+( )
+,
+( )
+.
+
+
+
+
+
+=
+∞=
+=
+These are coupled, ordinary differential equations for the two unknowns 
+F and G. The continuity equation (53) can be used to eliminate one 
+unknown, and in this manner we seek a stream function f(η) such that
+F
+df
+d
+G
+df
+d
+f
+=
+=
+−
+
+
+
+
+/
+,
+.
+η
+η η
+
+
+Then the continuity equation is satisfied automatically, and the resulting 
+problem is as follows:
+f d f
+d
+d f
+d
+f
+df
+d
+df
+d
+
+
+
+
+
+
+
+
+
+η
+η
+η
+η
+η
+η
++
+=
+=
+=
+=
+=
+= ∞
+,
+,
+.
+on
+at
+	
+(54)
+Further progress requires that this nonlinear differential equation be 
+integrated numerically. The resulting solution is identified with Blasius, 
+who computed the boundary-layer solution for a flat plate in 1908. The

@@ -1,0 +1,169 @@
+cos , sin sin , θ θ α θ α Laplace’s equation takes the form r r r r r r ∂ ∂ ∂ ∂    + ∂ ∂ ∂ ∂    + ∂ ∂ = φ θ θ θ φ θ θ φ α sin sin sin . (59) Assume that the uniform stream at infinity is in the positive x-direction and that the sphere is centered about the origin; then the velocity potential will
+
+Chapter 4
+be independent of the coordinate α. The resulting boundary-value problem 
+for ϕ(r, θ) is stated as follows:
+
+
+
+
+
+
+
+r
+r r
+r
+r
+r
+r
+∂
+∂
+∂
+∂
+
+
+
++
+∂
+∂
+∂
+∂
+
+
+
+=
+>
+φ
+θ
+θ
+θ
+φ
+θ
+sin
+sin
+,
+, 	
+(60)
+∂
+∂=
+=
+φ /
+,
+,
+r
+r
+r
+
+
+on 
+	
+(61)
+φ
+θ
+→
+→∞
+Ur
+r
+cos ,
+.
+as 
+	
+(62)
+Here r = r0 is the radius of the sphere, (60) states that the velocity potential 
+satisfies the Laplace equation in the fluid domain, (61) is the kinematic 
+boundary condition on the sphere, and (62) states that the flow tends to a 
+uniform stream at large radial distances from the sphere.
+This problem is solved, by the method of separation of variables, by 
+assuming a solution of (60–62) in the form
+φ
+θ
+θ
+( , )
+( ) ( ).
+r
+R r
+=
+Θ
+	
+(63)
+Then, from (60),
+r
+R
+d
+dr r R
+d
+d
+
+
+
+
+
+
+
+φ
+φ
+θ
+θ
+θ
+−∇
+=
+′ +
+′ =
+(
+)
+sin
+(sin
+)
+,
+Θ
+Θ
+	
+(64)
+where a prime denotes the derivative with respect to the appropriate vari­
+able. The first term on the right side of (64) depends only on r, and the 
+second only on θ; if the two are to be equal and opposite for all values of 
+r and θ, they must each be a constant. Thus R and Θ satisfy the ordinary 
+second-order differential equations
+d
+dr r R
+RC
+(
+)
+,
+
+
+′ −
+=
+	
+(65)
+d
+d
+C
+θ
+θ
+θ
+(sin
+)
+sin
+.
+′ +
+=
+Θ
+Θ
+
+(66)
+Solutions of the second equation are the Legendre functions
+P
+C
+n n
+n(cos ),
+(
+),
+θ
+where 
+=
++ 1
+and the Legendre functions of the second kind Qn(cos θ). If we require the 
+solution to be regular for 0 ≤ θ ≤ π, only the first functions can be allowed, 
+and n must then be zero or a positive integer. The first equation now takes 
+the form

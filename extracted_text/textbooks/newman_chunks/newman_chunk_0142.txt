@@ -1,0 +1,39 @@
+of thick­ ness yu − yl, at zero angle of attack. On the other hand, from (21), ϕo is the potential of an asymmetric flow, past an arc of zero thickness defined by the curve y y y u t = + 2 ( ), or the mean-camber line. Both problems are illustrated in figure 5.8. The original problem has now been decomposed into two parts, one rep­ resenting the effects of thickness and the other representing the effects of
+
+Chapter 5
+camber and angle of attack. Because the pressure distribution is symmetric 
+in the thickness problem, there can be no lift force or moment in this case; 
+hence thickness has no direct effect on the lift and moment. Thickness has 
+practical effects only when modifications of the pressure distribution affect 
+separation or cavitation. In particular, the effect of thickness will be impor­
+tant near the leading edge, where the mean-camber line contains a sharp 
+edge, not present in the real foil with finite leading-edge radius. Thus, in 
+the flow past the mean-camber line we must anticipate an infinite velocity 
+at the leading edge which will not occur in practice because of thickness 
+effects, but which, if it did occur, would be devastating from the stand­
+points of separation and cavitation. It is therefore permissible, in the lifting 
+problem of the mean-camber line, to ignore an infinite velocity at the lead­
+ing edge, on the premise that this singularity will be removed by the effects 
+of thickness. An entirely different situation will occur at the sharp trailing 
+edge; an infinite velocity here is prevented by viscous effects in a real fluid 
+and by the Kutta condition in the ideal-fluid problem.
+Since the thickness and lifting problems can be separated, and since the 
+lift force and moment are independent of the thickness, we will examine 
+primarily the solution of the lifting problem. The corresponding solution 
+of the thickness problem, in terms of a source distribution, will be described 
+briefly in section 5.6.
+5.3  The Lifting Problem
+Here we focus our attention on the flow past the mean-camber line and 
+the resulting lift force and moment. It is convenient to denote the vertical 
+coordinate of the mean-camber line by η =
++
+
+2 (
+)
+y
+y
+u
+l . The corresponding 
+boundary condition on the cut is
+Figure 5.8
+Definitions of thickness and lifting problems.

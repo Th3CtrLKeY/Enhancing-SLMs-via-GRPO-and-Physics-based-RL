@@ -1,0 +1,110 @@
+unchanged from (91), but the frequency of encounter in the moving reference frame is given by ω ω θ = − kU cos . (93) For following waves (θ = 0), ω < ω0, but in head waves (θ = π), the converse is true. The same conclusions apply to a lesser extent for quartering (0 < θ < π/2) and bow (π/2 < θ < π) waves, whereas for beam waves (θ = π/2), the two fre­ quencies coincide.
+
+Chapter 7
+The pressure field of the incident wave system (91–92) can be derived in 
+either reference frame. Using the linearized form of the Bernoulli equation 
+(6.3), it follows from (91) that
+p
+t
+i
+gA
+ky
+ik x
+z
+i
+t
+= −
+∂
+∂
+= −
+=
+−
++
++
+ρ φ
+ρ ω
+φ
+ρ
+θ
+θ
+ω
+(
+)
+exp[
+(
+cos
+sin )
+].
+
+
+
+
+
+(94)
+Here the hydrostatic component of the pressure is neglected because this 
+is not affected by the incident waves. In the moving reference frame, the 
+time-derivative must be transformed, in a manner analogous to (19); thus
+p
+t
+U
+x
+i
+ikU
+gA
+ky
+ik x
+z
+= −
+∂
+∂−
+∂
+∂
+
+
+
+
+= −
++
+=
+−
++
+ρ
+φ
+φ
+ρ ω
+θ φ
+ρ
+θ
+(
+cos )
+exp[
+( cos
+sinθ
+ω
+)
+].
++ i t
+	
+(95)
+The results of (95) are identical to (94), except for the change in frequency 
+of encounter. Thus the incident-wave pressure field is not affected by the 
+choice of reference frame.
+We shall restrict our attention to the heave and pitch motions of a ship, 
+in incident waves of the form (92). As noted at the end of section 7.6, the 
+resonant frequencies in these modes are of order ε−1/2, implying that the 
+frequency of encounter ω is of the same order of magnitude in the regime 
+where significant motions occur. For ω to be large relative to the wave fre­
+quency ω0, it follows that the incident wave angles of greatest importance 
+are head waves and bow waves. Thus we shall consider this regime, with the 
+assumption that ω = O(ε–1/2) or, in terms of the ship’s beam B, ω2B/g = O(1). 
+As in section 6.15, the results are linearized in terms of the small oscillatory 
+amplitudes of the incident wave and resulting body motions. On this basis, 
+added-mass and damping coefficients can be derived for forced motions of 
+the ship in otherwise calm water, and the exciting force and moment can 
+be analyzed with the heave and pitch oscillations suppressed. In both prob­
+lems the Froude number U/(gl)1/2 is assumed to be O(1).
+First we consider the forced heave and pitch motions in calm water, in 
+the frequency regime where ω2B/g = O(1). Under this circumstance, and 
+unlike the low-frequency regime of section 7.6, both terms must be retained 
+in the linearized free-surface condition (6.6). The motion is periodic in the 
+moving reference frame, where (6.6) takes the form

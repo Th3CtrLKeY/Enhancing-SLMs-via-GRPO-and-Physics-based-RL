@@ -1,0 +1,280 @@
+the oscillatory motion assumed in (214–215) violates the assumption of an initial state of rest. One technique for avoiding this difficulty is to make ω and k slightly complex, with negative imaginary parts, so that (214) and (215) vanish for t → −∞. An equivalent but simpler approach is to assume that the motion starts abruptly from a state of rest at some time t0 ≪ t. The vorticity (215) is replaced by zero if x < (t0 − t)U,
+
+Lifting Surfaces 
+
+and the infinite lower limit of the integral in the denominator of (216) is 
+replaced by (t0 − t)U.
+With the latter interpretation, the denominator of (216) becomes
+ξ
+ξ
+ξ
+ξ
+ξ
+ξ
+ξ
+−
++
+
+
+
+
+=
++
+−
+−
+−
+−
+∫
+
+
+
+
+1 2
+
+
+1 2
+
+
+e
+d
+id dk
+d
+e
+ik
+t
+t U
+ik
+t
+t
+(
+)
+(
+(
+)
+(
+)
+)
+.
+U
+−
+∫
+
+(217)
+In the limit t0 → −∞, the integral on the right-hand side of (217) is propor­
+tional to the Hankel function H0
+(2)(k), where Hn
+(2)(k) = Jn(k) − iYn(k) defines 
+the Hankel function in terms of the Bessel functions of the first and second 
+kinds. The necessary properties of these functions are given by Abramowitz 
+and Stegun (1964). Thus it follows that
+lim
+(
+)
+( )
+(
+)
+( )
+t
+ik
+t
+t U
+e
+d
+i
+id dk H
+k
+
+
+
+
+
+
+1 2
+
+
+
+→∞
+−
+−
+−
++
+
+
+
+
+= −
++
+∫
+ξ
+ξ
+ξ
+π
+ξ
+= −
++
+π
+
+
+
+
+
+[
+( )
+( )].
+( )
+( )
+iH
+k
+H
+k
+	
+(218)
+If this result is substituted in (216), the parameter γ0 is determined as
+γ
+π
+ξ
+ξ
+ξ
+ξ
+
+1 2
+
+
+
+
+
+
+
+
+
+
+= −
+−
++
+
+
+
+
++
+−∫
+v
+d
+iH
+k
+H
+k
+( )
+{
+( )
+( )}.
+( )
+( )
+	
+(219)
+The wake integral in (210) can be evaluated in a similar manner, with (215) 
+and (219) used for γ(ξ + Ut). The lift force is given by the expression
+L
+U e
+H
+k
+H
+k
+iH
+k
+i t
+= −
++
+
+
+
+
+
+−
++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ρ
+ξ
+ξ
+ω
+( )
+( )
+( )
+( )
+( )
+( )
+
+
+
+
+2 1 2
+
+
+
+
+v
+d
+ik
+v
+d
+( )
+(
+)
+( )
+.
+ξ
+ξ
+ξ
+ξ
+ξ
+−
+−
+∫
+∫
++
+−
+
+
+
+	
+(220)
+Thus, for sinusoidal time dependence, the memory effects of the wake 
+can be expressed as frequency-dependent force coefficients proportional to 
+the ratio of the Hankel functions:
+C k
+H
+k
+H
+k
+iH
+k
+( )
+( )
+( )
+( ).
+( )
+( )
+( )
+=
++
+
+
+
+
+
+
+(221)
+This ratio is called the Theodorsen function and is plotted in an Argand 
+diagram in figure 5.33. For low frequencies, the limiting value of the

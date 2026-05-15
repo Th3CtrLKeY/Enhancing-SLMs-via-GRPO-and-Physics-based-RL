@@ -1,0 +1,79 @@
+= Ty t+ ueet+h cos @ i.e. T=Tytwht+ (we pgda)z (8.12) The vertical component T, of the tension is found by using aT,’ = d(T’ sin ®)= dT’ sin@ + T’ cos dg =w sin? @ ds + w cos’ ds This means T,' = ws, which in the waterplane says T,=ws (8.13) We will show how we can use the formulas in a practical context. Let us consider the example illustrated in Fig. 8.3 and try to find the
+
+262 STATIONKEEPING
+
+minimum length Ji, of the chain. We will assume gravity anchors are
+used. These are commonly used when floating units like ships and
+drilling platforms are moored. A requirement is that a gravity anchor
+cannot be exposed to vertical forces from the anchor lines. We will use
+this to determine Jin. However, it should be noted that for practical
+design cases the line length is determined from a set of different
+conditions considering both an intact mooring system and broken line
+situations.
+
+To find the minimum length of the cable lines we will first use
+equations (8.10) and (8.11), i.e.
+
+=a sinh(*) (8.14)
+
+h = a cosh (=) - | (8.15)
+where
+galt (8.16)
+
+By combining equations (8.14) and (8.15) we see that
+12 =h? + 2ha (8.17)
+
+From equation (8.12) we see that the maximum tension in the cable
+line can be written as
+
+Tinax = Ty + wh (8.18)
+
+By combining equations (8.15), (8.17) and (8.18) we see that the
+minimum length of the cable is
+
+}
+bain = h( 2-82 — t) (8.19)
+wh
+
+Anchor
+
+Fig. 8.3. Vessel moored with one anchor line.
+
+MOORING SYSTEMS 263
+
+We will set Tmax equal to T,,, i.e. the breaking strength of the cable. For
+instance if T,,=1510kN, w=828N/m and h=25m we find that
+Lnin = 301 m.
+
+If we want to find the mean position of the vessel in wind, waves and
+current we have to know the horizontal force T,, from the cable on the
+vessel as a function of the horizontal distance X between the anchor and
+the point where the anchor line is connected to the vessel. We can write
+the horizontal distance X as (see Fig. 8.3)
+
+X=l—-l+x (8.20)
+By using equation (8.17) to express /, and equation (8.15) to express x we
+see the following relation between X and Ty
+
+X=1-H(1+24) +a.cosh"(1 +") (8.21)
+a
+
+where a = T};/w.
+
+Calculations based on equation (8.21) are illustrated in Fig. 8.4. The
+weight per unit length of the chain in water is w = 828 N m7!, the water
+depth = 25 m and the length / of the chain outside the ship is 100 m.
+
+Ty (KN)
+150 ——+
+
+50 1
+
+80 85 90 95 X(m)
+
+Fig. 8.4. Example of the horizontal force from an anchor line on a vessel as a
+function of the horizontal distance X between the anchor and the
+point where the anchor line is connected to the vessel. (The vessel
+and the anchor line configuration is shown in Fig. 8.3.) Water
+depth: 25 m. Weight per unit length of chain in water: 828 N m™?.
+Chain length: 100 m.

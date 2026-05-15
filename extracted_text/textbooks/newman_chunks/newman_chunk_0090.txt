@@ -1,0 +1,119 @@
+nates, we have in general that u x i i = ∂ ∂ φ / , (15) or V = ∇φ. (15a) Thus, one can assume the existence of a velocity potential, subject only to the requirement that the fluid motion is irrotational. If (15) is substituted for the velocity vector in the continuity equation (1), it follows that ∂ ∂ ∂ ∂ = ∂ ∂∂ = x x x x i i i i φ φ 0, (16) or
+
+Chapter 4
+∇
+≡∂
+∂
++ ∂
+∂
++ ∂
+∂
+=
+
+
+
+
+
+
+
+
+φ
+φ
+φ
+φ
+x
+y
+z
+. 	
+(16a)
+This is the Laplace equation which expresses conservation of fluid mass for 
+potential flows and provides the governing partial differential equation to 
+be solved for the function ϕ.
+It can be confirmed that the fluid motion defined by the velocity (15) is 
+irrotational, by recalling from vector analysis that the curl of a gradient is 
+identically zero or simply by substituting (15) in (12).
+4.3  Bernoulli’s Equations
+We have not yet exploited Euler’s equations or conservation of momen­
+tum, except to prove Kelvin’s theorem. Nor have we discussed the pressure, 
+which is related to the fluid velocity by the three Euler equations (2).
+In two important cases the Euler equations can be integrated to give an 
+explicit equation for the pressure known as the Bernoulli integral, or simply 
+Bernoulli’s equation. The first result is perhaps the most familiar one from 
+elementary courses in fluid mechanics and pertains to steady flow without 
+assumption about the vorticity. The second case is irrotational flow, but it 
+includes the possibility of unsteadiness. The two proofs are different and 
+will be presented separately.
+First we consider steady, but possibly rotational, flow. Here Euler’s equa­
+tions take the form
+u
+u
+x
+x
+p
+gx
+j
+i
+j
+i
+∂
+∂
+= −∂
+∂
++
+(
+/
+).
+ρ
+
+(17)
+Multiplying both sides by the velocity components ui and summing over 
+i gives
+u u
+u
+x
+u
+x
+p
+gx
+i
+j
+i
+j
+i
+i
+∂
+∂
+= −
+∂
+∂
++
+(
+/
+).
+ρ
+
+(18)
+The left side of this equation can be rewritten as
+
+
+
+
+u
+x u u
+u
+x u u
+j
+j
+i
+i
+i
+i
+j
+j
+∂
+∂
+=
+∂
+∂
+. 	
+(19)

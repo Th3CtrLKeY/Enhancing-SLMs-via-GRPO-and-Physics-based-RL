@@ -1,0 +1,38 @@
+of viscosity for many problems of engineering interest is confined to a thin layer adjacent to boundary surfaces. Furthermore, if the radii of curvature of these surfaces are large compared to the boundary-layer thickness, the flow will appear locally plane in the boundary layer. There are exceptions to this convenient state of affairs; for example, in low-Reynolds-number flows, the role of viscosity is not confined to a thin boundary layer. This situation would hold for bodies of microscopic size, as
+
+Chapter 3
+in fluid suspensions or the swimming of microorganisms, but these are out­
+side the usual scope of ocean engineering and naval architecture. A more 
+significant exception here is separation, for flows past bodies not suitably 
+streamlined. Separated flows are practically impossible to analyze. When 
+these exist, the boundary-layer theory is useful only for predicting the flow 
+upstream of the separation point and ultimately for predicting the occur­
+rence of separation.
+3.1  Description of the Flow
+Adopting the Eulerian approach, we define a velocity vector V(x, y, z, t) to 
+be equal to the velocity of the fluid particle at the point x = (x, y, z) in a Car­
+tesian, rectangular coordinate system at time t. In this coordinate system 
+the three components of V will be denoted by u, v, and w. Other physical 
+parameters that will be required are the fluid density ρ, which ultimately 
+will be assumed constant; the external force field F acting on the fluid par­
+ticles, notably the gravitational force ρg; and the surface stresses, or forces 
+per unit area, which act upon adjacent surfaces of the fluid.
+Each component of the surface stress must be defined not only by the 
+direction in which it acts but also by the orientation of the surface upon 
+which it is acting; hence, a total of 3 × 3 = 9 stress components must be 
+defined on a cubical surface aligned with the coordinate system, as shown 
+in figure 3.1. Thus, for example, the stress τyx acts in the y-direction upon a 
+surface of constant x.
+This characterization of the stress components is actually too restrictive, 
+since it does not account for the more general situation where the orienta­
+tion of the surface differs from one of the three principal planes of a Car­
+tesian coordinate system. By a familiar argument that plays a similar role 
+in structural mechanics, however, the cube in figure 3.1 can be replaced by 
+an infinitesimal tetrahedron, with three orthogonal faces normal to the 
+Cartesian coordinates and one oblique face of arbitrary orientation. The 
+tetrahedron is assumed to be sufficiently small that the stresses are effec­
+tively constant along each face, and since the volume will be negligible 
+compared with the surface area, the surface forces will dominate the body 
+forces. Thus, the forces exerted on the four faces of the tetrahedron by the 
+surface stress components must balance. If n = (nx, ny, nz) denotes the unit 
+normal vector on the oblique face, each of its three components equals the

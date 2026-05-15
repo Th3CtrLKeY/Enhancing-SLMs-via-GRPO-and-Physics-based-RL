@@ -1,0 +1,87 @@
+sinusoidal incident waves. When the added resistance is at its maximum, a dominant contribution in the formula is the relative motion term t | Due to bow !' ! Due to 1 wave reflection; shipmotions | ! 0.5 1.0 A/L Fig. 5.11. Typical wavelength dependence of added resistance Raw of a ship at moderate Froude number in regular head sea waves. (€, = wave ‘amplitude of incident waves, A = wavelength, L = ship length, B =beam of the ship.)
+
+148 SECOND-ORDER NON-LINEAR PROBLEMS
+
+where the integration is with respect to the waterline curve, c, m is the
+longitudinal component of the outward normal to c, op is the relative
+vertical motion along c.
+
+“In the case of a ship with a constant cross-section, we can re-express
+this formula in the form
+
+P= Bea? ~ Ean?) (5.24)
+where B is the beam of the ship and pn and Cx, are the relative vertical
+motions at the bow and the stern respectively. This formula does not
+imply that the added resistance is linearly dependent on B, since the
+relative motion €, is also dependent on B (see discussion in chapter 3).
+Equation (5.24) can be used to discuss how the added resistance in the
+‘ship motion’ range depends on main hull characteristics (see exercise
+5.3).
+
+Irregular sea calculations
+When the results of mean wave loads in regular waves are known, it is
+easy to obtain results in an irregular sea. We will show a formula for the
+loads. We assume long-crested seas that can be described by a sea
+spectrum S(w). In deep water we can write the velocity potential of the
+incident waves correctly to first order in wave amplitude as
+
+N
+g=>d a e** cos(w,t — kx cos B — ky sin B + 6) (5.25)
+jal Wy
+Here f is the angle between the wave propagation direction and the
+x-axis, «, the circular frequency of oscillation and k; the wave number of
+wave component number j, w,; and k; are connected through the
+dispersion: relationship «;’/g=k,;. The phase angles €, may be considered as random phase angles and the amplitudes A; may be
+determined by the wave spectrum S(w) characterizing the sea state. If
+the major part of the wave energy is concentrated between the circular
+frequencies Win tO Wmaxs We divide the frequency interval Win tO Wmax
+into N equal sub-intervals and call the mid-points of the jth interval a;
+(see Fig. 5.12). A; is then determined by
+A? = Main
+
++ =S(w @;) aaa
+
+2 (5.26)
+
+In principle we should let N>%, @pin—>0 and Wmax—> © So that the
+sum in equation (5.25) becomes an integral. If N is kept finite and we
+want to use equation (5.25) to simulate an irregular sea, the signal repeats
+itself after a period 2%N/(@max ~ Wmin). To avoid this we can choose a;
+randomly in each sub-interval Aq, in Fig. 5.12.
+
+“MEAN WAVE (DRIFT) FORCES AND MOMENTS 149
+
+Let us now imagine that we want to find the mean wave loads on the
+structure by using the direct pressure integration method. One part of
+the procedure is to study the effect of the quadratic velocity term in
+Bernoulli’s equation, i.e. equation (5.1). In equations (5.2) and (5.3) we
+studied the consequence of using an idealized sea state with two wave
+components. The results in equation (5.3) show that we can linearly add
+together the mean force contribution from each wave component. This
+may be surprising since we talk about a system that is non-linear in the
+wave amplitude. The same would have happened if we had used N wave
+components. Similar summation can be done for the other contributions
+to the mean wave loads. What we now say is that the mean wave load can
+
+be _written-as..
+
+i= 3 (Soe a 2 i=l,...56 (5.27)
+
+15:00
+11-25
+a
+Nn
+— 7-50
+
+“wu
+3-75
+fe)
+
+min AwWs
+
+w(rad s!)
+
+Fig. 5.12. Illustration of how the energy in a wave spectrum S(@) can be
+distributed into energy of regular wave components of circular
+frequency w. (ISSC-spectrum, Hy = 8 m, T, = 10s, number of
+wave components N = 22.) See also Fig. 2.5.

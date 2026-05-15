@@ -1,0 +1,119 @@
+x x x x U t x x t (96) will be independent of time. On the body surface SB, the unit normal also will be independent of time, but not the cross-product r n r n × = − − − = ′ × + − ( , , ) ( , , ). x n x n x n x n x n x n U tn U tn (97) More generally, if U is the body velocity,
+
+The Motion of an Ideal Fluid 
+
+r
+n
+r
+n
+U
+n
+×
+= ′ ×
++
+×
+t(
+). 	
+(98)
+Hence, for steady translation, the moment (95) is given by
+M
+U
+n
+U
+n
+= −
+×
+= −
+×
+∫∫
+∫∫
+ρ
+φ
+ρ
+φ
+(
+)
+,
+dS
+dS
+S
+S
+B
+B
+	
+(99)
+and it is perpendicular to the velocity vector of the body. This moment is 
+equal to zero if the body is symmetrical with respect to the two directions 
+normal to U. Thus, for example, a submarine in steady forward motion 
+with port-starboard symmetry may experience only a pitching moment 
+(bow up or bow down).
+Now let us consider the most general case—unsteady motion with six 
+degrees of freedom. If the translational velocity is U(t) and the body is rotat­
+ing with angular velocity Ω(t) about an origin that moves with the body, 
+the velocity potential must satisfy the boundary condition
+∂
+∂
+=
+⋅
++
+⋅
+′ ×
+φ
+n
+U n
+r
+n
+Ω(
+) 	
+(100)
+on the body surface. Here r' is the radius vector from the center of rotation. 
+It is convenient to define the six velocity components by the redundant 
+notation
+U
+U U
+U
+U
+U U
+=
+=
+≡
+(
+,
+,
+),
+(
+,
+,
+)
+(
+,
+,
+).
+
+
+
+
+
+
+
+
+
+W
+ΩΩ
+Ω
+Thus, U1, U2, and U3 denote the three components of translational velocity 
+(surge, heave, and sway), and Ω1 = U4, Ω2 = U5, and Ω3 = U6 denote the cor­
+responding rotational velocity components (roll, yaw, and pitch).
+The boundary condition (100) suggests that the total potential be 
+expressed as the sum
+φ
+φ
+= Ui
+i. 	
+(101)
+Here the summation convention applies, with i = 1, 2, …, 6. Physically, 
+each ϕi represents the velocity potential due to a body motion with unit 
+velocity in the ith mode. Note that the dimensions of ϕ are L2T−1, whereas 
+those of U and Ω are LT−1 and T−1, respectively. Therefore the potentials ϕi in 
+(101) are not dimensionally homogeneous; the units are L and L2, respec­
+tively, for i = 1, 2, 3, and i = 4, 5, 6.

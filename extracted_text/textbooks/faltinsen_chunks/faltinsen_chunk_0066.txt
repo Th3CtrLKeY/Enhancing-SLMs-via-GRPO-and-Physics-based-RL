@@ -1,0 +1,105 @@
+the body has no constant speed. The velocity potential for the incident waves is written as (see Fig. 5.4) hoa Sete cos(wt — ky) (5.11) with €, being the amplitude of the waves. Due to the presence of the body there will be generated waves. The velocity potential of the INCIDENT REFLECTED TRANSMIT TED WAVES WAVES WAVES ~—T T © =S; Fig. 5.4, Definition of control surfaces and wave systems in the analysis of drift forces on a two-dimensional body.
+
+138 SECOND-ORDER NON-LINEAR PROBLEMS
+
+reflected waves is written as
+Ar ;
+baa Se cos(wt + ky + €) (5.12)
+
+where the wave amplitude Ap and phase angle ¢€ are functions of the
+body form and motion. The velocity potential of the transmitted waves is
+written as
+
+A
+or =o tee cos(wt — ky + 5) (5.13)
+
+ry is a combination of the incident waves and the waves generated at
+y—> by the body.
+
+When the two-dimensional version of equation (5.9) is used to find the
+horizontal drift-force F,, it is convenient to divide S, into two parts.
+One part S,” is from the mean free-surface level z= 0 to the instantaneous position €., of the free-surface (see Fig. 5.4). Since ¢.. is a
+first-order quantity and we are evaluating the integral correctly to second
+order in wave amplitude, it is only necessary to evaluate the integrand
+correctly to first order when we integrate along S,”. This means the term
+pV,’ can be neglected and the pressure p approximated by
+
+abr
+~ pez - po Lt
+pgs — p at leno
+along S,”. The result is a contribution — 4pgé..2 = — 4pgA,?.
+
+In the integration from z = —® to zg = 0 we have to keep second-order
+terms in the integrand. The linear terms give a zero mean value. The
+hydrostatic pressure —pgz will result in a force contribution that is
+balanced out by a similar contribution at the control surface at y = —%,
+The integration along S_.. is performed in a similar way as the
+integration over S.,. The total result is
+
+P= Be + An? Ar’) (5.14)
+
+Longuet-Higgins (1977) has generalized equation (5.14) to finite water
+depth. The right hand side should then be multiplied by
+(1 + 2kh/sinh 2kh), where h is the water depth.
+
+Maruo’s formula follows by assuming the average energy flux is zero
+through Sg. This means
+
+bP = AR t+ Ar’ (5.15)
+
+We can show this by using equation (3.21) and noting that there is no
+work done on the body during one period of oscillation. This means
+SJs,(P —PoUnds=0. By using dE/dt=0, it follows from equation
+
+MEAN WAVE (DRIFT) FORCES AND MOMENTS 139
+
+(3.22) that JJs.45_, (06/8t)(Ap/dn) ds =0. From this condition we can
+show equation (5.15) by using equations (5.11), (5.12) and (5.13).
+Equation (5.14) can then be written as
+
+Pan pA (5.16)
+According to the formula the wave-drift force will always act in the wave
+propagation direction. Due to condition (5. 15) Maruo’s formula (equa-
+
+tion (5716)) is not valid if the body is an active wave power device.
+
+Equation (5.16) shows that wave-drift forces are connected with a
+structure’s ability to cause waves. The waves due to the body are the sum
+of (a) the radiating. waves when the body is forced to oscillate in each
+mode of motion, and (&) the diffraction waves when the body is
+restrained from oscillating and subject to incident waves. For long
+wavelengths relative to the cross-sectional dimensions the body will not
+disturb the wave field. This means the reflected wave amplitude Ap and
+the wave drift force become negligible.
+
+When the wavelengths are very short, the incident waves are totally
+reflected from a surface-piercing body with vertical hull surface in the
+wave zone. This means Ap=£, and F,=(pg/2)f,7. According to
+equation (5.15) the reflected wave amplitude can never be larger than ¢,.
+This means the wave-drift force can never be larger than (pg/2)€,’.
+
+When the body motions are large, for instance due to heave resonance,
+Ag is likely to be large. This means that the wave-drift force may show a
+peak in a frequency range around the resonance frequency. This can be
+seen in Fig. 5.5.
+
+For a submerged body Ag will go to zero when the wavelength goes to
+zero. In the special case of a submerged circular cylinder that is either
+restrained from oscillating or whose centre follows a circular orbit
+Ogilvie (1963) showed that Ap is zero for all frequencies and all depths of
+submergence.
+
+The order of magnitude of wave-drift forces F, on a free-surfacepiercing two- dimensional body relative to current forces F, on the same
+structure when there are no waves present can be estimated by
+
+F 2 0.5 pgAR” gAR’
+
+F, 0.5pCpDUZ CpDU2Z
+
+Here Cp is the drag coefficient for the current flow, D is the draught and
+U, is the current velocity. For instance, in a current velocity of lms ',a
+draught D = 10m and Cp = 1.0 the ratio is simply Ap’ in square metres.
+This illustrates the importance of wave-drift forces on large volume
+structures like ships. However, one must not be misled by this
+
+discussion into believing that the effect of current and waves can be

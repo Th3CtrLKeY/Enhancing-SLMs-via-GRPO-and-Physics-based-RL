@@ -1,0 +1,84 @@
+∂ + ∂ ∂ + ∇⋅∇∇⋅∇ = + φ φ φ φ φ φ t g y O ( ) ( ). (38) The first-order solution (16) will satisfy this third-order boundary condition provided the dispersion relation (17) is corrected for a second-order effect of the form ω2 = + + gk k A O k A ( ) ( ). (39) The relation (8) can be utilized with (39) to obtain the corresponding cor­ rection for the phase velocity,
+
+Chapter 6
+V
+k
+g
+k
+k A
+O k A
+g
+k
+k A
+O k
+p =
+=
++
++
+=
++
++
+ω /
+(
+/ )
+(
+)
+(
+)
+(
+/ )
+(
+)
+(
+/
+/
+/
+1 2
+
+2 1 2
+
+
+1 2
+
+
+
+
+
+
+
+A3). 	
+(40)
+Thus the phase velocity depends weakly on the wave amplitude, and waves 
+of large height travel faster than small waves. By analogy with the more sig­
+nificant dependence of the phase velocity on wavelength, this dependence 
+on amplitude is known as amplitude dispersion.
+If (39) is used to replace the linear dispersion relation (17), the linear­
+ized velocity potential (16) and (35) is accurate up to and including terms 
+of order A3—that is, the error in this simple velocity potential is O(A4). 
+The absence of second- and third-order terms in the potential holds 
+only for deep water, however. The nonlinear corrections for finite depth, 
+including the effects of surface tension, are given by Wehausen and Laitone 
+(1960).
+Nonlinear solutions for plane waves based on systematic power series in 
+the wave amplitude are known as Stokes’ expansions. The most extensive of 
+these is due to Schwartz (1974), who utilized a digital computer to carry out 
+the infinite-depth expansion to order A117 and the finite-depth results to a 
+more modest point. Ultimately one might be concerned with the conver­
+gence of these power series. In 1918–1924 it was established by Levi-Civita 
+and Struik that these power series converged, at least for sufficiently small 
+wave amplitudes. Almost fifty years later it has been shown that nonlinear 
+plane waves are unstable if they are contaminated by side-band waves of 
+slightly different frequencies.
+Thus, in practice, it is impossible to propagate a plane wave system in 
+a long wave tank, and waves that appear stable near the wavemaker will 
+deteriorate completely after traveling several hundred wavelengths. Further 
+details of this and related topics are contained in Lighthill (1967).
+A complementary approach to nonlinear waves has been the study of 
+the highest wave. It can be shown that the limiting form for a plane wave 
+system has a sharp crest, with a local stagnation point at the crest, and with 
+the free surface inclined 30 degrees from the horizontal on each side of the 
+crest. In deep water this will occur when the ratio of wave height to wave­
+length is approximately 0.14, or about 1/7, as shown in figure 6.5. Details of 
+this analysis are summarized by Wehausen and Laitone (1960).
+A description of nonlinear progressive waves was first derived in 1802 by 
+Gerstner, who showed that the free-surface boundary conditions could be

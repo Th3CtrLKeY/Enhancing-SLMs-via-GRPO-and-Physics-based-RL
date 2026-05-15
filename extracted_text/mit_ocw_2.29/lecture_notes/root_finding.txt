@@ -1,0 +1,792 @@
+[Page 1]
+Root Finding
+
+---PAGE BREAK---
+
+[Page 2]
+Root Finding
+
+Suppose you wish to find the wave number, k, of gravity water waves with a
+frequency, f, of 0.2 Hz. in water that is 5 meters deep. The circular frequency
+of 0.2 Hz. waves is w = 2x f = 1.2566 radians/second. The dispersion relation
+
+for gravity water waves is:
+kg tanh kh = w”
+
+g is the acceleration of gravity, 9.81 m/s? and h is the water depth, 5 m.
+This equation can be written as:
+
+kgtanh kh — w? = 0
+
+If we write an equation: y(k) = kgtanhkh —w”,
+
+The problem at hand is the same as asking: ” What is the value of k such that
+y(k) = 0? The value of a quantity that makes another equal to zero is called a
+root and the question above is called Root Finding.
+
+---PAGE BREAK---
+
+[Page 3]
+aa
+
+Bisection Method
+
+0.25
+
+0.21
+
+---PAGE BREAK---
+
+[Page 4]
+% biseck program to find k given omega
+% using the bisection root finding method
+om = 1.2566;
+g = 9.81;
+h = 5.0;
+k1 = 0.0;
+k2 = 0.5;
+k3 = 0.25;
+y = k3*g*tanh(k3*h) - om‘2;
+for m = 1:50
+y = k3*g*tanh(k3*h) - om‘’2;
+if (y*y < 1.0e-8);
+break
+end
+if(y >= 0.0);
+k2 = k3;
+k3 = 0.5*(k1+k2);
+elseif (y <= 0.0) ;
+k1 = k3;
+k3 = 0.5*(k1_ + k2);
+else;
+fprintf(1,'‘there was no root’)
+end;
+end ;
+fprintf(1,' k = %8.4f\n',k3);
+fprintf(1," Number of iterations =%3.0f\n',m);
+
+>> biseck
+
+k= 0.2073
+
+Number of iterations = 15
+>>
+
+CFR -Cont
+
+---PAGE BREAK---
+
+[Page 5]
+RF2Z@
+
+— o00s1-
+
+---PAGE BREAK---
+
+[Page 6]
+RE 2b
+
+OLO0}-
+
+OS-
+
+OS
+
+OOl
+
+---PAGE BREAK---
+
+[Page 7]
+y=44+3x-6x"°+4x?-x?
+
+0.00000 —_4.00000000
+-1.00000 -10.00000000
+-0.50000 —_0.43750000
+-0.75000 _—_-3.62890625
+-0.62500 _-1.347900391
+-0.56250 _-0.39796447
+
+-0.53125 —_ 0.03350734
+| -0.54688 _-0.17879242
+-0.53906 __-0.07170661
+
+2.28910 -0.050608813 -0.53516 -0.01895136
+
+(o)
+
+\<e)
+
+-0.53418  -0.00576263
+-0.53369 —_0.00082156
+-0.53345 _0.004044001
+-0.53381 — -0.00079026
+-0.53363 _0.00162732
+-0.53354 — 0.00283577
+-0.53368 —_0.00095586
+-0.53374  0.00015001
+
+2.28520  -0.013441856 -0.53320 0.00739897
+
+oO)
+
+2.28378 _0.000015764 -0.53378 _-0.000387271
+po 0.53376 -0.0001 18622
+po -0.53375 _ 0.000015699
+
+---PAGE BREAK---
+
+[Page 8]
+~
++
+
+Newton’s Method for Finding Roots of y(z)
+
+The approach taken in Newton’s method is to take an estimate of the location
+of a root of y(x) and then improve upon it. Thus, it is iterative, starting with
+a“guess” for x with each successive iteration being the result of the last iteration.
+The basic formula for each iteration is:
+
+Yi-1 dy
+
+where yj, =
+
+Li = Ti-1 —
+
+Yi-1 dx
+
+I=2Zj-1
+
+---PAGE BREAK---
+
+[Page 9]
+RE3@
+
+LOL8LE8SC c
+
+L-4e€00'¢
+
+9SPBLLEOV 6- 000000000'0
+
+ZO-3L69°L |OOSL8LE9r'6- 009100000'0- C8lLBLE8cc
+cc0v000'0 |9I88ELlZy 6- 99€608E00'0- pOV8LYSc'c
+rser610'0 |Z
+
+Gcv610'0 |Zz996E198°6- ss |vssesslél'o- |v K609E0E"e
+gzseel'o |esezesosz’cl-_—|9Z09vPEE9'l- —9CLBIL EY’
+Q41€0 — |osgisiieree-—|k6vOEOSZI'L- vcdee6rl'c
+ZLGO61S°0 |LVESLP6LZ Zt- OOc6ZL69Z've-  —« |zevessozv'e
+|L900SEZ'0_| ‘|9622r6rcr'08-___—|S0L68E00"F
+
+a
+
+6801966'0 [000000000°2S2- —_ |000000000"9Sz- 00000000°S
+lv- 1000000000" }- 000000000°r 00000000’ |}
+es On GG
+Xp/ADAA) | PAD POA
+
+Xb - X2b +X2l- =A yX> Xb + XO -XE t+ P=A
+
+---PAGE BREAK---
+
+[Page 10]
+Review of Matrix Algebra
+
+An m x n matrix (m rows, n columns) ia said to be of order m x n and
+is written symbolically as:
+
+Q11 @12 °° + Gin
+
+@21 422 °° + Gn
+A=a= .
+
+Aml Gm2 °* * * Amn
+
+Each a,j; represents a numerical value. If the a;;’s are real numbers, the
+matrix is called a real matriz. If the a;;’s are complex numbers, the matrix
+is called a compler matriz.
+
+The matrix is called square if m =n. Matrices A and B are called equal
+if aj; = bi; for all i and j and they have the same number of rows and the
+same number of columns.
+
+If A and B are both order m x n matrices, the matrix C = A + Bis
+defined by the relations:
+Cig = Giz + big
+
+The matrix D = yA is defined by the relations:
+dig = Yai
+An important relation is the the matriz product, of two matrices A (m x n)
+
+and B (n x p) which is denoted by C = AB whose elements are defined
+by:
+
+a .
+k=1
+
+When A and B are square and of the same order, both AB and BA are
+defined, but except under special circumstances, AB # BA.
+
+---PAGE BREAK---
+
+[Page 11]
+An m x 1 matrix (m rows, 1 column) is called a column vector or a vector
+and is written symbolically as:
+
+Zi
+Z2
+
+Im
+Each x; represents a numerical value.
+The standard form for a set of linear equations is:
+Ax =b
+
+where A is an m X n matrix called the coefficient matrix and x is an
+unknown vector of length n. b is a known vector of length n.
+
+Let a; denote the jt* column of A. Then the set of equations can be
+written as:
+ria, + Xgag +--+ +2,a,=b
+
+The vectors aj, 7 = 1,2,...,n are linearly dependent if there is a set of
+numbers 21, 2, ...-£n, with at least one z; being non zero such that:
+
+ga, +@aagt-:-:- + Znay, = 0
+
+In this instance, at least one a; is a linear combination of the remaining
+a]
+a,’s.
+
+The vectors aj, 7 = 1,2,...,n are linearly independent if they are not
+linearly dependent.
+
+If each of the m linear equations is independent then there is an exact
+solution if m = n. If m > n, there are more equations than unknowns
+and there is no exact solution. Rather, there is an approximate solution
+for x which is usually chosen to achieve minimum sum of the squared
+errors from each equation.
+
+---PAGE BREAK---
+
+[Page 12]
+Mes 24
+
+Exam ple ?
+
+BAtX, HES | iff * ps
+Xt 4x2 = -3 4{| x,]) — | 73
+-2X,+3%,=-¢ 3 - 6
+
+Neel Te fine Y . Errert Veater is /@ = .
+—~ 2
+&s
+
+Som eof Sguares of arrors
+
+C= S-34-Jn
+€42=~-3-4,-T92 F =
+
+2, =-C494, -395
+
+Q. u we
+é, res + Cs
+
+E-= (S-34,-4, re -4, 749.) + (K-C424, -392)
+
+gE and GE =0
+
+We Seex | ‘Svch that ba 7? Jy
+1 JE
+
+COh> ‘ *h S ag: LE _ — 2
+hich is +he Same Sy oe = ° Cn ef > Dy 7°
+
+5 oo -3 (634,- Ja )-1C3- J “4G, ) +2 (~642-9,-392)
+IS +9q) +39,
+
+3 Fy, bE
+24 Fl4g, + Ga
+
+---PAGE BREAK---
+
+[Page 13]
+MAG 24
+
+JOE _,
+Bog, = 2574, +269
+
+O=-eG HY Yd L496 4 = ey
+OTS +9, +269 4 l bP-6y = 7 4-S~
+
+I 2-6 | 4 >| eS
+
+2-5-5, 3637 + 1438032 O.¢eey
+C= -3 17877 + 4m = -0. 6667
+
+é 25 7 OHS. S7EY ~3 09092 70,6667
+
+---PAGE BREAK---
+
+[Page 14]
+UASS
+
+Consider a square n X n matrix, A. It is called the identity matrix of order
+n, 1, ( or simply I) if
+
+ft, ifi=z
+%i =) 0, otherwise
+
+This is often written as: ai; = bij
+
+If B is ann X p matrix,
+
+I,B = B and BI, =B
+
+The j** column of I is called the j unit vector and denoted by e;. Any
+n-vector b can be written as:
+
+b = S b;e;
+j=l
+
+The j** column of a matrix B is given by Be;. Therefore, if C = AB, the
+j column of C, called c; is obtained as:
+
+A collection V of linearly independent vectors in R” ( this means that the
+vectors are 1 x 7) is called a basis for R” if every n-vector can be written
+as a linear combination of the vectors in V. Obviously, the columns of I,,
+which are the e;’s form a basis for R”. However, this is not the only set V
+of basis vectors. Any basis in R” contains exactly n vectors.
+
+THEOREM: The linear system Ax = b has a unique solution if and only
+if the only solution to Ax = 0 is x = 0.
+
+THEOREM: If the homogeneous linear system Ax = 0 has fewer equations
+than unknowns, it has nonzero (non trivial) solutions.
+
+THEOREM: A is an m x n matrix. If the linear system Ax = b has a
+solution for every m-vector b, then m < n.
+
+---PAGE BREAK---
+
+[Page 15]
+Meh yb
+
+Consider a square n xX n matrix, A. If there is a square n x n matrix,
+B such that AB =I, B is called the inverse of A and denoted by A7!.
+If A has an inverse A is called nonsingular and if it does not have an
+inverse, A is called singular.
+
+Fact: If A and B are invertible, then, (AB)~! = B7! A
+
+Suppose there is a linear system of equations Ax = b where A is invertible and b is a known vector and x is an unknown vector to be determined.
+Pre-multiplying the equation by A7! gives:
+
+A'Ax=A™'!b
+x=A'!b
+
+Thus, if the inverse of A is determined, the solution to the system of
+equations can be obtained by straightforward matrix multiplication. This
+is not a numerically efficient way to solve sets of linear equations, but it
+demonstrates theoretically that a solution exists of the coefficient matriz
+is nonsingular.
+
+The principle of obtaining the inverse of a matrix can be demonstrated
+as follows: An n xX n matrix A exists and the goal to to determine its
+inverse B = A7! whose 3" column is called b;. Ab; = e; is a system
+of n linear equations for the n elements of b;. Finding A™~’ in this way
+requires solving a set of n equations for each of the n column vectors bj.
+
+A more computationally efficient way to find the inverse of a nonsingular
+matrix will be shown subsequently.
+
+---PAGE BREAK---
+
+[Page 16]
+MAA Ss
+Determinant of a Matrix
+
+A matrix A has a determinant which is denoted by det(A) or |A|. The determinant of a matrix plays a large theoretical role in linear algebra and a practical
+role in determining the inverse of a matrix. The determinant is defined as the
+sum of all signed elementary products from the matrix. An elementary product
+is the product of n elements all of which are from different rows and different
+columns. The sign is + if the number of inversions of the indices is even and
+— if the number of invertsions is odd.
+
+nr .
+[AJ= SO (-1)'ay; a2% a31--- Ang
+j,k, l,....g=1
+
+where 7,k,l,...,q are all different and 2 is the number of inversions in the sequence j,j,1,...,q.
+
+A recursive definition of |A| which includes a “prescription” of how to calculate
+it is as follows:
+1. IfR is al x1 matrix, R = [r], det(R) =r.
+
+2. Aj; is the submatrix of A obtained by deleting the 7 row and j column
+of A. The minor mj; (associated with the matrix A) is the determinant
+Miz = det(A,;)
+
+3. The cofactor cj; is defined by cj; = (—1)'? mi;
+nr
+det(A) = lac; for any i = 1,2,...,n, or
+j=l
+nr
+det(A) = SCaijc; for any j =1,2,...,n
+i=1
+
+e Adding a constant times one row of a matrix to another row does not
+change the determinant.
+
+e Adding a constant times one column of a matrix to another column does
+not does not change the determinant.
+
+---PAGE BREAK---
+
+[Page 17]
+Transpose of a Matrix
+
+The transpose of a matrix A is called A? and is obtained by making each row
+of A? the corresponding column of A. For example, if we define C = A’,
+
+Cij = a5;
+
+Calculating the Inverse of a Matrix
+
+Consider a matrix A. It’s cofactors are cj;. The matrix C is the matrix whose
+17 element is c;;.
+
+The matrix C7 is called the adjugate or the adjoint of A and is denoted by
+adj(A).
+
+The inverse a A is given by:
+
+Cramer’s Rule
+
+Consider the system of linear equations, Ax = b. Define A’ as the matrix
+formed by replacing the j** column of A by the column vector b.
+
+|A?|
+Cramer’s Rule is: 2; = ——
+
+|A|
+
+---PAGE BREAK---
+
+[Page 18]
+mah 6
+
+9 Fou
+
+‘saomeu [eroads
+
+*SJUDUWIZTA O19Z JOUSP 7 @) oy} pur
+SJUDWI9]9 OIOZUOU JjJOUSP SOUT] JYSTeIYS 9) puL r>°4 oul
+
+yejnsuew Joddq IE[NZULL) IOMO'T] jeuosviq
+
+O O
+O O
+
+---PAGE BREAK---
+
+[Page 19]
+Mak 5
+
+Matrix Norms
+
+First we define vector norms N(x) of the vector x in n dimensional space..
+A vector norm has the following properties:
+
+1. N(x) > 0 for all n-vectors x.
+2. N(x) = 0 if and only ifx = 0.
+3. N(ax) = |a|N(x) for all real a and n-vectors x.
+
+4. N(x+y).< N(x) + N(y) for all n-vectors x and y.
+
+Norms are denoted by || - |].
+
+nr nr
+lich, = D0 fail, xla= S22 IIZI]oo = max |2i|
+
+An operator norm N(A) of a real valued n x n matrix A is a real valued
+function having the following properties:
+
+1. N(A) > 0.
+
+. N(A) = 0 if and only if all the elements of A are zero.
+. N(a@A) = |a| N(A) for all real a.
+
+. N(A+B) < N(A)+N(B).
+
+. N(AB) < N(A) N(B).
+
+oo FF WC WD
+
+There are a number of equivalent definitions for the v-norm of A, N(A) =
+||A||,. One of them is:
+
+For all n-vectors z such that ||z||, < 1,
+
+|All, = max || Az|»
+
+I|z<1||
+
+---PAGE BREAK---
+
+[Page 20]
+MAGS
+
+The Condition Number of A Matrix
+
+Consider a set of linear equations, Ax = b which is to be solved numerically. The exact solution is x = A~'b. How sensitive is the accuracy of the
+solution to numerical errors? After obtaining an approximate numerical
+solution X, we can always compute the residual r as:
+
+r=b—-—Ax
+
+We would like to find some relationship between the computable residual
+r and the error e = x — x.
+
+r=b—Ax=Ax— Ax = A(x—%) = Ae
+
+Since |[r|| < |[Allell, [lel] 2
+
+, _ el| 1 r
+Then, since [xl] <ATHIbII F > al
+
+Now we use: |le|| < ||A~"|||[r]] and ||bj| < || Al] ||x/|
+
+ve: lel vy, [ell
+These give: —— AT
+1 [fell — lel vy, lel
+Hence: —W——_-__ < —_— < ||A]| ||A7
+TANIA T[lbl] < fix] = MANA Tip yy
+
+---PAGE BREAK---
+
+[Page 21]
+1 dtl. Hel 4 el
+TAN A= I IIbll S [if] SAMA ey
+
+The condition number of an n x n matrix, A, with respect to the operator
+norm ||-|| is called «(A) and defined by:
+
+K(A) = ||Al] ||A~“||
+
+The condition number multiplied by the norm of the relative residual is an
+upper bound on the norm of the relative error. 1/«(A) multiplied by the
+relative residual is a lower bound on the norm of the relative error.
+
+For a large condition number, the relative residual is a poor indicator of
+the relative error. For « + 1, the relative residual is a good measure of the
+relative error.
+
+---PAGE BREAK---
+
+[Page 22]
+GAUSSIAN ELIMINATION
+
+Triangular Systems
+
+UypX1 + yoke te + Man —1tn-1 FM inkn = fi
+
+U72X2 + Ua n—1Xn—-1 FH InXn = fr
+back substitution
+
+Un—1.n—-1Xn—1 + Un-1,nXn = fn-1
+
+UnnXn = fn
+
+Solve the following upper triangular system by using back substitution.
+2x, — 5x2 +2x3 = 3
+3x2 —-xX3= 7
+
+4x3 = 8
+
+Gaussian Elimination. This general solution technique is based on the following
+basic properties of linear systems:
+
+1.
+
+Multiplying an equation by a constant does not alter the solution to the system.
+Replacing an equation by a linear combination of itself with some other equations
+(one or more) in the system does not alter the solution to the system.
+Interchanging the order of equations in the system does not affect the solution to
+the system.
+
+These Elementary Row Operations are used to form an equivalent
+triangular system of equations from an original system of equations
+to be solved.
+
+{™
+
+---PAGE BREAK---
+
+[Page 23]
+3x) —x2+2x3=-3
+Xytx2+%x3=-4
+
+2x) + x2 — 43 = —3
+
+Use 1% equation to eliminate x; from 2"¢ and 3” equation
+
+3x1 — X2 42x; =-3
+
+4 1
+=—x7 + =x3 = —3
+
+3 3
+5 7
+372 _- 33 =—l
+
+Use 2"4 equation to eliminate rz from 37¢ equation
+
+3x, —x2+2x3 = —3
+4 yiy = —3
+3% 3 3
+
+Wu
+“4 4
+
+---PAGE BREAK---
+
+[Page 24]
+Seg 3
+
+Gaussian Elimination Operation Count for n Equations
+
+The number of multiplications and divisions is called M.
+
+The number of additions and subtractions is called A.
+
+= 27
+M gt” 3
+n> mn? 5n
+A= z+ 77%
+
+---PAGE BREAK---
+
+[Page 25]
+SLE YR
+
+Errors in Numerical Solutions of Sets of Linear Equations
+
+When terms that are subtracted from each other in a solution method have nearly the same
+magnitude, computational round off errors can result in large relative errors in the solution.
+
+Computational errors are generally reduced if each equation is scaled as follows:
+
+413 412 °- * * Gln Ly by
+Qq1 @22 - * - Gan XQ be
+Qnl On2 °* * * Ann Lm bin
+Let s; = max|a;;|, i=1,2,....,n
+j
+
+Divide the i” row of the A and b matrices by ;.
+This is called scaling.
+
+In a Gaussian Elimination the element that is used to eliminate its column in
+the equations that do not contain it is called the pivot element
+
+Errors in numerical solutions are generally reduced if pairs of equations are
+interchanged so the magnitude of the pivot element is the largest one possible.
+
+Scaled Partial Pivoting Rule
+
+Both of the above error-reduction steps can be incorporated in what is called
+the Scaled Partial Pivoting Rule.
+
+1. Start by determining s; for each row as explained above.
+
+2. At the start of the k’;th elimination step, scan the k** column of A and
+determine the integer p such that:
+
+Vaoel sal pk etd un
+Sp S]
+
+3. If p# k, then interchange rows p and k.
+
+This procedure removes the need to do the scaling explicitly which can be
+another source of round off error.
+
+---PAGE BREAK---
+
+[Page 26]
+SlLESR
+
+---PAGE BREAK---
+
+[Page 28]
+§ ¢ ,
+Scaled Partist Riveting “TE
+
+ancl u* wows Cogan
+fu ' rows (egaatrens)
+
+— Entecchengs |
+tne change | __ ane
+
+---PAGE BREAK---
+
+[Page 29]
+Solution of Linear Equations by LU Decomposition
+Equation to Solve: Ax=b
+
+A is presumed to be non-singular. Suppose we can decompose A into A = LU
+
+where L is lower triangular with diagonal elements equal to 1 and U is upper
+triangular. Then the solution is straightforward.
+
+LUx=b
+Define: y = Ux Ly =b°
+Iy 1 Of} | yo | =| be
+Lz, L3. 1] | ys bs
+yi = by
+Days + y2 = bg Yy2 = be — Loyd,
+
+L3iy1 + L32y2 + y3 = 63 y3 = bz — Lsiy, — Leye
+
+Ux=y
+Uj Uji2 U13 Z1 Y1
+O Uu22 U3 | | Ze | = | Ye
+0 O uz} | x3 ¥3
+
+r3 >= y3/ U33
+r2 > (ye _ 12323) /U29
+ty = (y1 — Uz2L%2 — U13%3) /Ur4
+
+---PAGE BREAK---
+
+[Page 30]
+Procedure for Factorization of A
+
+A is a nonsingular n x n matrix. A = LU. As an example, suppose:
+
+3 -1 3
+A= 6 0 9
+—12 0 —10
+From the second row we subtract ms) = 2 times the first row.
+From the third row we subtract m$) = —4 times the first row.
+The result is”:
+3-1 3
+U=/0 2 3
+0 -4 2
+From the third row we subtract mY? = —2 times the second row.
+
+The result is the desired upper triangular matrix:
+
+U=
+
+oOo Ww
+
+-—1 3
+
+
+The lower triangular matrix with 1’s on the diagonal is given by the formula
+
+1 00
+L= 2 10
+-4 -2 1
+
+This results in A = LU
+
+S$ LEG

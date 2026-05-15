@@ -1,0 +1,131 @@
+forms, as functions of frequency. The majority of this work pertains to two-dimensional cylinders in deep water. Several references and examples are given by Wehausen (1971). For the two-dimensional case, Vugts (1968) has made extensive calcula­ tions; some of these are reproduced by Wehausen (1971) and in a revised form in figure 6.23. In three dimensions systematic calculations have been Figure 6.22 The high-frequency limit ω → ∞ for surge, sway, or yaw (left), and heave, roll, or pitch (right).
+
+Waves and Wave Effects 
+
+Figure 6.23
+Added-mass and damping coefficients for a family of two-dimensional rectangular 
+cylinders, heaving in deep water, based on the computations of Vugts (1968). In­
+cluded below is the thin-ship approximation given by (179) and labeled B/T = 0. Also 
+shown here by the scale on the right is the heave exciting-force coefficient, obtained 
+in accordance with (174).
+
+Chapter 6
+carried out by Kim (1966) for a series of ellipsoids, including the special 
+case of a floating hemisphere. The latter was first considered by Havelock 
+(1963), and the damping and added-mass coefficient for heave are repro­
+duced in figure 6.24.
+Since the complex force coefficient fij is an analytic function of ω in the 
+lower half-plane, the damping and added-mass coefficients can be related 
+by integral transforms known as the Kramers-Kronig relations. Further 
+details may be found in the surveys of Ogilvie (1964) and Wehausen (1971). 
+In addition, relations exist between the damping coefficients and exciting 
+forces; these will be discussed in the next section and utilized to derive the 
+damping coefficients for a thin ship.
+Figure 6.24
+Added-mass and damping coefficients for a sphere of diameter d, half submerged in 
+deep water. ∀ is the displaced volume πd
+3/12. Also shown is the heave-response ratio 
+(190).
+
+Waves and Wave Effects 
+
+6.18  Wave-Exciting Force and Moment
+The last term in (130) gives the exciting force and moment proportional to 
+the incident-wave amplitude,
+F
+M
+n
+r
+n
+ex
+ex
+i t
+S
+i Ae
+dS
+B
+
+= −
++
+×
+
+
+
+
+∫∫
+ρ
+ω
+φ
+φ
+ω
+Re
+(
+)
+.
+
+
+(160)
+It will be convenient to define the six components of (160) in the form
+F
+Ae
+X
+i
+ex
+i t
+i
+i =
+=
+Re{
+},
+, ,
+, .
+ω
+1 2
+
+…
+	
+(161)
+Thus Xi is the complex amplitude of the exciting force or moment, in the 
+direction i, for an incident wave of unit amplitude. Using (160) and the 
+boundary conditions (120–121) it follows that
+X
+n dS
+i
+i
+SB
+= −
++
+∂
+∂
+∫∫
+ρ
+φ
+φ
+φ
+(
+)
+.
+
+
+(162)
+For a prescribed incident wave, the potential ϕ0 can be found from (16) 
+or (23) for infinite or finite depth, respectively. The diffraction potential 
+ϕ7 must be determined as the solution of the boundary-value problem 
+(124–128).
+Since the wave amplitude A is a first-order quantity, the surface integrals 
+in (160–162) can be evaluated on the mean position of the body surface, 
+with the neglected factor a second-order quantity proportional to A2. More­
+over, none of the boundary conditions governing the potentials ϕ0 or ϕ7 
+is affected by the body motions. Thus, the linearized exciting force and 
+moment are independent of the body motions, just as the damping and 
+added mass are independent of the incident-wave amplitude. In particular, 
+(160–162) can be used to find the exciting force either for a fixed body or 
+for one free to respond to the waves. The distinction between these is a 
+second-order effect.
+Since the boundary-value problem (124–128) differs from that for the 
+potentials ϕj, j = 1, 2, …, 6, only with regard to the boundary condition 
+(124) on the body surface, the diffraction potential ϕ7 can be considered 
+the disturbance associated with a forced normal velocity on the body sur­
+face equal and opposite to that of the incident wave. This suggests the 
+long-wave approximation where, if the body is small compared to the wave­
+length, the induced velocity field from the incident wave can be assumed

@@ -1,0 +1,74 @@
+scale effects. Aarsnes (1984) (see also Aarsnes et al. 1985) has shown that the drag coefficient may be substantially different depending on laminar or turbulent separation. This is also evident from Delany & Sorensen’s (1953) results. Aarsnes’ results were for ship cross-sectional forms. The ship body plan is shown in Fig. 6.15. The results are presented in Fig. 6.16, both for subcritical and transcritical flow. Estimates for the drag coefficients for other cross-sections along the ship in subcritical flow are
+
+194 CURRENT AND WIND LOADS
+
+also shown in Fig. 6.16. In general there is a significant difference
+between the drag coefficient in subcritical and transcritical flow. The
+reason is that the flow separates more easily in subcritical flow. This is
+illustrated in Figs. 6.17 and 6.18 for the midship cross-section. In
+subcritical flow where the boundary layer flow is laminar, the flow
+separates at the ‘leading’ bilge. However, a turbulent boundary layer
+which occur in transcritical flow, can sustain a larger adverse pressure
+gradient without separating. This is the reason why there is no separation
+at the ‘leading’ bilge for transcritical flow. If separation occurs at both
+corners it seems as if the drag coefficient is roughly speaking twice the
+value compared to the case when separation occurs only at one corner.
+
+0-16
+Base line
+
+Fig. 6.15. Body plan of the ship examined in Fig. 6.16 (see also Table 6.3).
+Numbering of sections explained in Fig. 6.12.
+
+Co Full-load
+2-0 © Subcritical
+16 calculation } x Transcritica!
+~--Estimation
+
+: a ee es Oe oe
+AP 2.3 4 5 6 7 B 9 10 11 12 13 14 15 16 17 18 19 20
+FP
+
+Fig. 6.16. Calculated and estimated drag coefficients Cp for two-dimensional
+cross-flow past cross-sections along the ship presented in Fig. 6.15.
+(Adapted from Aarsnes et al., 1985.)
+
+Fe SSPE
+
+CURRENT LOADS ON SHIPS 195
+
+_ Bilge keel effects
+
+One important effect of bilge keels is that the separation points are fixed
+along the bilge keel and are not scale dependent. The length of bilge keels
+is typically half the ship length. A consequence of this is probably that
+ships with a bilge keel avoid the serious problems associated with scaling
+of transverse current force from model scale to full scale. Since the bilge
+keels are centered midships, we are more uncertain about the scaling of
+yaw current moment. The drag coefficient is not very sensitive to the
+breadth of the bilge keel.
+
+Table 6.3. Main particulars of ship presented in Fig. 6.15
+
+Symbol = Unit Model
+
+Length between perpendiculars Lop m 5.785
+Beam B m 0.794
+Draught D ._ m 0.305
+Block coefficient C3 0.84
+
+Wetted surface area Ss m? 7.096
+
+Length scale ratio of ship to model: 40.62.
+| t"=0.8
+| t”=1.9
+*=3.3
+
+t
+
+Fig. 6.17. Wake development for cross-section 10 of the ship presented in Fig.
+6.15 (subcritical). The calculations are shown for different time
+instants t and are based on numerical calculations by Aarsnes (1984)
+with a thin free shear layer model. (¢* = U.t/D, U. = current
+velocity, t = 0 corresponds to start time of the calculations, D =
+draught.) (Aarsnes, 1984.)

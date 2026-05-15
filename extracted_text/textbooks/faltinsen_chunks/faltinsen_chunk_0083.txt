@@ -1,0 +1,79 @@
+a ship can vary for realistic combinations of Hy and 7). (d) Consider an infinitely long horizontal cylinder of arbitrary cross-section in beam sea regular waves. Assume the cylinder has no mean velocity and the current velocity is zero. Use Gerritsma & Beukelman’s formula (equation (5.23)) and show that it can be written in the same form as Maruo’s formula (equation (5.16)). (Hint: Use equation (3.26).) What effects are included in Maruo’s formula, but not in Gerritsma & Beukelman’s formula?
+
+6 CURRENT AND WIND LOADS
+
+Analyses of current and mean wind loads have many similarities even
+though water and air have different physical properties and typical
+current and wind velocities differ significantly in magnitude (see Table
+6.1).
+
+The main factors influencing the flow can be characterized in terms of
+the Reynolds number Rn=UD/v (U = characteristic free-stream velocity, D=characteristic length of the body, v=kinematic viscosity
+coefficient), and the roughness number =k/D (k = characteristic dimension of the roughness on the body surface). Also important are body form,
+free-surface effects, sea floor effects, nature and direction of ambient flow
+relative to the structure’s orientation, and reduced velocity (=U/(f,D) for an
+elastically mounted cylinder with natural frequency f,). With nature of
+ambient flow we mean, for instance, that the turbulence level in the
+incident flow can affect the forces on the body.
+
+All full-scale cases of practical interest for our purpose are high
+Reynolds number flow. For instance, the Reynolds number for current
+flow with velocity 1ms~! past a column of a semi-submersible with
+diameter 15 m is 1.4: 107 at 20°C. The Reynolds number for wind flow
+with velocity 40ms7 past a structural part with characteristic length
+20 m is 5.3: 107 at 20°C.
+
+It is difficult to predict theoretically current and wind loads with
+sufficient accuracy. This is often true for three-dimensiona! flow and in
+_-turbulent incoming flow. The latter occurs for instance for pipelines close
+to the sea floor and for structures in the wake of other structures like
+jackets and flare towers.
+
+In the following text we will summarize the important physical
+characteristics of separated flow around structures in incident steady
+flow. In chapter 7 we will discuss the effect of unsteady ambient flow.
+We begin by examining steady incident flow past a circular cylinder.
+
+STEADY INCIDENT FLOW PAST A CIRCULAR
+CYLINDER
+A classic problem in non-separated potential theory is steady flow past a
+fixed circular cylinder. The tangential velocity U, around the cylinder
+
+STEADY INCIDENT FLOW PAST A CIRCULAR CYLINDER 175
+
+Table 6.1. Mass density (@) and kinematic viscosity (v) of water and air
+
+Salt water
+Fresh water (salinity 3.5%) Dry air
+p v-10° p v: 10° p v- 10°
+Temperature (kgm?) (m?s74)  (kgm™3) (ms) (kgm™>)_— (m’s™')
+0°C 999.8 1.79 1028.0 1.83 1.29 13.2
+5°C 1000.0 1,52 1027.6 1.56 1.27 13.6
+10°C 999.7 1.31 1026.9 1.35 1.25 14.1
+15°C 999.1. 1.14 1025.9 1.19 1.23 14.5
+20°C 998.2 1.00 1024.7 1.05 1.21 15.0
+
+ato tia
+
+Fig. 6.1. Definition of steady incident flow past a circular cylinder.
+
+surface is then 7
+
+U.=2U. sin 6 AP 6.1)
+where U,, is the incident flow velocity and 6 is.an angular coordinate
+with 6 =0 corresponding to the forward stagnation point on the cylinder
+surface (see Fig. 6.1). The pressure p on the body follows from
+Bernoulli’s equation, i.e.
+
+p+4pU2=po +f Ue (6.2)
+
+where po is the ambient pressure. The resulting pressure coefficient C,
+can be written as
+
+P—Po +2
+C,= =1-—4sin° @ (6.3)
+P 4pU..
+This is shown in Fig. 6.2, where experimental data for three different
+Reynolds numbers are also plotted. In reality the problem is unsteady.
+This means the experimental pressure values in Fig. 6.2 are time
+averaged data. The data are only presented for @-values between 0 and

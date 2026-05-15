@@ -1,0 +1,295 @@
+are shown in figure 5.25. The problem statement is completed by requiring that Laplace’s equation must be satisfied in the fluid, the pertur­ bation velocity and pressure should vanish at infinity, and the velocity at the trailing edge of the foil is finite. The latter condition, like the Kutta condition for the fully wetted lifting foil, is necessary to ensure a smooth transition of the flow from the body surface to the cavity, with continuous slope between these two boundaries.
+
+Lifting Surfaces 
+
+Since this problem is symmetrical about y = 0, it is logical to seek the 
+solution as a source distribution q(x), which represents the thickness effects 
+of both the strut and the cavity. From (54) the resulting velocity compo­
+nents on the boundary surfaces (−l < x < 1) are
+u
+x
+q
+d
+x
+±
+−
+= −
+−
+∫
+( )
+( )
+,
+
+
+
+
+π
+ξ
+ξ
+ξ
+−
+	
+(159)
+v
+x
+q x
+±
+= ±
+( )
+( ).
+
+
+(160)
+Figure 5.24
+Cavity flow past a symmetrical strut.
+Figure 5.25
+Linearized boundary conditions for cavity flow past a symmetric strut.
+
+Chapter 5
+From the boundary condition on the strut, it follows that
+v
+Uy
+x
+q x
+x
+± =
+′
+= ±
+<
+<
+∓
+
+
+
+
+
+( )
+( ),
+. 	
+(161)
+This determines the source strength on the strut, in a manner identical to 
+the fully wetted thickness problem. Imposing the cavity boundary condi­
+tion gives the integral equation
+−
+= −
+−
+−<
+<
+−∫
+
+
+
+
+
+
+
+U
+q
+x d
+l
+x
+σ
+π
+ξ
+ξ
+ξ
+( )
+,
+,
+−
+	
+(162)
+or using (161),
+−
+−
+′
+−
+= −
+−
+−<
+<
+∫
+∫
+−
+
+
+
+
+
+
+
+
+
+
+U
+U
+y
+x d
+q
+x d
+l
+x
+l
+σ
+π
+ξ
+ξ
+ξ
+π
+ξ
+ξ
+ξ
+( )
+( )
+,.
+−
+	
+(163)
+This is essentially the same integral equation as (60), which relates the vor­
+tex distribution γ of the fully wetted foil to its normal velocity v. The only 
+difference is that the interval (−1, 1) must be replaced by (−l, 0). The appro­
+priate solution satisfying the Kutta condition at x = 0 is obtained from (73), 
+in the form
+q x
+x
+l
+x
+l
+U
+U
+y
+t
+t
+dt
+l
+( )
+( )
+=
+−
++
+
+
+
+
++
+−
+
+
+
+
+×
+−
+−
+′
+−
+−∫
+
+
+
+
+1 2
+1 2
+
+
+
+
+π
+ξ
+ξ
+σ
+π
+ξ
+∫
+
+
+
+
+
+
+−
+−<
+<
+d
+x
+l
+x
+ξ
+ξ
+,
+.
+
+−
+	
+(164)
+Here the dummy variable t has been substituted for x in the inner integral.
+The integrals with respect to ξ in (164) can be evaluated using the Hilbert 
+transforms derived in section 5.7. The treatment of the first term in braces 
+is straightforward, using (81) and (83); in the second term, however, the 
+order of integration must be inverted, the denominator expanded in partial 
+fractions, and (88) used with (82). The final result is
+q x
+U
+x
+l
+x
+U
+x
+l
+x
+l
+t
+t
+y
+t
+t
+x d
+( )
+( )
+= −
+−
++
+
+
+
+
+−
+−
++
+
+
+
+
+
+
+×
++
+
+
+
+
+′
+−
+σ
+π
+1 2
+1 2
+1 2
+
+
+t
+l
+x
+
+
+
+∫
+
+
+−<
+<
+,
+.
+	
+(165)
+Substitution of the source strength (165) in (159) and (160) gives the 
+velocity and pressure distribution on the strut and the cavity surface. The

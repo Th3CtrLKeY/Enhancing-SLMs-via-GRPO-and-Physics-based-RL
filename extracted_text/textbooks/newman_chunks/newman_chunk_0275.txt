@@ -1,0 +1,197 @@
+with respect to the scale of the cross section ∑B. From this viewpoint, d = O(l) whereas l = O(l/ε). As ε → 0, the transverse scale remains fixed while the body length tends to infinity. The fluid velocity field then appears nearly constant in the longitudinal direc­ tion, with ∂/∂x0 = O(ε). In this inner region it follows that ∂ ∂ ∂ ∂ ∂ ∂     φ φ φ x y z ≪ , , (11)
+
+Hydrodynamics of Slender Bodies 
+
+with a similar result for the second derivatives. Thus Laplace’s equation 
+reduces to the two-dimensional form
+∂
+∂
++ ∂
+∂
+=
+
+
+
+
+
+
+
+φ
+φ
+y
+z
+, 	
+(12)
+and ϕ can be replaced by a two-dimensional potential, say
+φ = Φ(
+,
+;
+).
+y
+z
+x
+
+
+
+(13)
+Here the dependence on x0 is included to emphasize that this potential will 
+vary slowly along the body length, as a result of the change in the body 
+geometry and lateral motion.
+Since ζ and ε are both small, the body potential must be small in some 
+sense, and if the forward velocity U = O(l), then
+∂
+∂
+φ
+x
+U
+
+≪
+. 	
+(14)
+With these approximations the boundary condition (7) can be replaced by
+∂
+∂
+=
++
+∂
+∂−
+∂
+∂
+
+
+
+
+Φ
+Σ
+N
+Un
+t
+U
+x n
+x
+z
+B
+ζ
+ζ
+,
+.
+on 
+	
+(15)
+Here N denotes the two-dimensional unit vector normal to ∑B in the y-z 
+plane. Note that the longitudinal-flow term Unx has been retained, in spite 
+of (10), since ε and ζ are independent small parameters.
+From the boundary condition (15) and the linearity of the boundaryvalue problem, it is logical to express the solution as the sum of two 
+potentials, one due to the longitudinal motion and the other to the lateral 
+motion. With a notation suggested by (4.101–102), we shall write
+Φ
+Φ
+Φ
+=
++
+U
+W
+
+3, 	
+(16)
+where, on ∑B
+∂
+∂
+=
+Φ1
+N
+nx, 	
+(17)
+∂
+∂
+=
+Φ3
+N
+nz, 	
+(18)
+and
+
+Chapter 7
+W x t
+t
+U
+x
+( , )
+.
+= ∂
+∂−
+∂
+∂
+ζ
+ζ
+	
+(19)
+Physically, W(x, t) is the lateral velocity of the body section, as observed 
+in a fixed frame of reference. A similar form may be recalled for the bound­
+ary condition (5.193) on an unsteady lifting surface. The potentials Φ1 and 
+Φ3 satisfy the two-dimensional Laplace equation and the boundary condi­
+tions (17–18), and they correspond to the solutions of two-dimensional 
+flow problems at each section along the body length.
+The lateral-flow problem for the potential Φ3 can be identified pre­
+cisely with the lateral translation of a two-dimensional body, with profile 
+∑B, moving in the positive z-direction with velocity W. In the special but 
+important case of a body of revolution, with local radius R(x), the solution 
+follows from table 4.2 in the form
+Φ3
+
+= −(
+/ )cos ,
+R
+r
+θ 	
+(20)
+where r = (y2 + z2)1/2 and θ = tan−1(y/z). This solution holds at each section 
+along the body length, where R(x) is equal to the local radius. For other 
+body profiles the solution can be obtained by conformal mapping or other 
+techniques. The lateral force acting on the body at each section is related 
+to the two-dimensional added-mass coefficient in a manner which will be 
+derived in section 7.3.
+The longitudinal flow and the two-dimensional potential Φ1 are more 
+complicated. The boundary condition (17) does not correspond to a twodimensional rigid-body motion but to a dilation of the body profile. Inte­
+grating (17) around the body section to obtain the local flux Q, we get
+Q
+N dl
+n dl
+S
+B
+B
+x
+= −
+∂
+∂
+= −
+= −′
+∫
+∫
+Φ
+Σ
+Σ
+
+, 	
+(21)
+where S′ denotes the derivative of the sectional area S(x). Physically, (21) 
+may be anticipated from the fact that longitudinal motion of the body 
+displaces the surrounding fluid, with outward flux equal to the change in 
+sectional area of the body.
+For large radial distances from the body axis, the two-dimensional 
+potentials are of the general form (4.70), and from flux considerations Φ1 
+must include a source term with strength −S′. Thus,
+Φ1
+
+≫
+−
+′S
+r
+l
+r
+d
+π log( / ),
+,
+for 
+	
+(22)

@@ -1,0 +1,99 @@
+periods by the substitution T, = 0.8347) = 1.073T2 (2.31) The JONSWAP spectrum is shown in Fig. 2.6. We note that the peak value of the modified Pierson—Moskowitz (ISSC) spectrum occurs at a different (w7/2)-value than the JONSWAP spectrum. This can be seen from equations (2.29) and (2.31). A good approximation to the probability density function for the maxima (peak values) A of the wave elevation can be obtained from the Rayleigh distribution given by p(A) =f erm (2.32) Mo
+
+26 SEA ENVIRONMENT
+
+where mp is related to Hy by equation (2.26). Strictly speaking the
+Rayleigh distribution depends on the wave spectrum being narrowbanded, which is an approximation for the spectra we have discussed. In
+deriving the Rayleigh distribution, it is also assumed that the instantaneous value of the wave elevation is Gaussian distributed.
+
+We can simulate a seaway by using equation (2.22), but this expression
+repeats itself after a time 27/Aw. A large number N of wave components
+are therefore needed. A practical way to avoid this is to choose a random
+frequency in each frequency interval (w;— Aw/2, a; + Aw/2) and
+calculate the wave spectrum with those frequencies. The number of wave
+components ought to be about 1000. This depends partly on the selection
+of the minimum and maximum frequency component. The minimum
+
+0,040
+
+0.035
+
+Sty)
+Hus Te
+
+0.025
+
+0.020
+
+0.015
+
+0.010
+
+0.005
+
+0 ~
+0 05 10 15 20 27
+
+_ 21
+roe 20s ts 50
+(= 10s) vs
+
+Fig. 2.6. Examples of wave spectra. (74 = significant wave height, 7, = mean
+wave period). Modified Pierson—Moskowitz spectrum (see
+equation (2.24)), JONSWAP spectrum .. - (see equation
+(2.30)).
+
+STATISTICAL DESCRIPTION OF WAVES 27
+
+frequency component @,;, is easier to select than the maximum
+frequency component @,mpax. For instance if a Pierson—Moskowitz
+spectrum is used Win ~ %/T2. The wave energy drops off more slowly
+for larger frequencies than for small frequencies. We should therefore
+investigate the results for different values of wax, to ensure that the
+results do not depend on the selection of @max. We have only shown how
+we can simulate the wave elevation €. For instance, if we want to
+simulate the horizontal fluid velocity u and acceleration a, we can write
+
+N
+u=> wA,e¥ sin(at —kxte) . (2.33)
+j=l
+N
+a, = > w/A,e** cos(ajt — kx + 6) (2.34)
+j=l
+
+by superposition of the results for regular waves given in Table 2.1. The
+random phase angles ¢; are the same for both €, u and a.
+
+Fig. 2.7 shows some examples of simulations of the wave elevation.
+The same sea spectrum and the same duration is used in each simulation.
+The reason for the differences in the results is the random selection of
+frequencies and phase angles. We note that the largest amplitude in each
+simulation (realization) is different. By selecting a large number of
+realizations we find that the extreme values have their own probability
+distribution. This is, for instance, discussed by Ochi (1982). In practice
+the most probable largest value A,,,, is often used. This can be
+approximated as
+
+Armax = (2m log =) (2.35)
+T2
+
+where 1 is the time duration and ‘log’ is the natural logarithm. We should
+note that A,,,, is the most probable largest value. With that we imply that
+there is a probability for Ajax to be exceeded during the time ¢ (Ochi,
+1982). The most probable maximum crest-to-trough wave height Hinax
+during the same time period is simply 2A,,.x-
+
+The effect of short-crestedness may be important. A short-crested sea
+is characterized by a two-dimensional wave spectrum, which in practice
+is often written as
+
+S(@, 0) = S(w)f(@) (2.36)
+
+where @ is an angle measuring wave propagation direction of elementary
+wave components in the sea. An example of f(@) might be
+
+—cos? 0, —2/2<O0<2/2
+
+f(O)=4 2% (2.37)
+
+0; elsewhere

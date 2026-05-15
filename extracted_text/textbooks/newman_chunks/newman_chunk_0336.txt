@@ -1,0 +1,176 @@
+of laminar flow, 70 local, 81, 98 relation to form drag, 31, 31 relation to Strouhal number, 41 of unsteady force, 37 wave force effects on, 42 Reynolds stress, 90–91, 93–95 Riemann mapping theorem, 128–129 Riemann sheet, 226 Right-hand rule, 201, 208 Rigid body, 141–147 Rigid-body motion, oscillatory, 238 Rigid-wall boundary condition, Ripples, 247 Robinson, A., 210 Roll definition sketch, 298 high-frequency limit, 310 low-frequency limit, 309, 309 of ship, 48–49, 49 static stability, 306 Roshko, A., 41 Pressure (cont.)
+
+Index 
+
+Roughness
+allowance, 34, 101
+effect on turbulent boundary layers, 
+100–101, 101
+Roze, N. V., 153
+Rudder, slender-body theory of motion, 
+361–362
+Rudder angle, 358, 363, 365
+Rudder force and moment, 361–363
+Rudnick, P., 333
+Salt water, effect on boundary-layer 
+thickness, 103(7)
+Salvesen, N., 382, 386, 387, 388
+Sarpkaya, T., 40, 40
+Scalar, 122
+Scale models, for full-scale phenomenon 
+prediction, 3
+Scattering effect, 299
+Scattering potential, strip-theory 
+approximation, 383–384, 386
+Schlichting, H., 81, 88, 95–96
+Schoenherr formula, 99
+Schoenherr frictional-drag coefficient, 
+18, 19
+Schoenherr line, 31, 32, 33
+Schwartz, L. W., 260
+Schwarz-Christoffel transformation, 128
+Schwarz reflection principle, 226
+Screw propeller. See Propeller
+Seakeeping. See Body motions; Ship 
+motions in waves
+Sears function, 240, 240
+Sedov, L. I., 10, 161
+Self-propelled test, 34–36, 36
+Separation
+of circular disc, 21
+effect of turbulence on, 17
+effect on drag, 15, 16, 17, 21
+of flow, 56
+around hydrofoil, 169–170, 170
+pressure gradient-related, 82–83, 83
+relation to stall, 24, 25
+of variables, 129–132
+viscous, 358
+Shallow-water, effect on ships, 388–397
+Shallow-water waves, 255–256, 257, 389
+Shape factor Λ, 86, 97
+Sharma, S., 296
+Shear flow, 63
+Shear stress, 86
+viscous, 46
+on wall, 97
+Ship maneuvering, 357–388
+equations of motion, 363–368
+experimental comparison, 360–361, 
+
+force coefficients, 360
+notation, 360
+rudder force, 361–362
+slender-body theory, 358–362, 360
+steady turn, 363–365, 364
+Ship motions in waves, 369–388
+strip theory, 374–397
+Ship waves
+drag
+relation to energy radiation, 290–292
+thin-ship theory, 292–294
+wave breaking-related, 296
+energy flux, 290–292
+stationary phase, 285–290, 292
+three-dimensional, 282–286, 290–292
+two-dimensional, 277–281
+Shoaling coefficient, 276
+Similarity parameter, 74
+Similarity solution, of boundary-layer 
+equations, 78–79
+Singularity, 116–120. See also Sink; 
+Source
+distributions, 133–138
+two-dimensional, 120
+Sink, 116–118
+differentiated from source, 117
+relation to stream function, 123
+Sinkage and trim, in shallow water, 396,
+
+Index
+Slender-body theory, 341–401
+added-mass coefficients, 153
+for body in infinite fluid, 369
+boundary conditions, 343–344, 345
+lateral flow, 342–344, 346, 347, 
+351–357
+lateral force, 346, 351–357
+longitudinal flow, 344, 345–346
+low-aspect-ratio lifting-surface theory, 
+356, 359
+of rudder motion, 361–362
+in shallow water, 388–397
+for ship maneuvering, 358–362, 
+
+unbounded ideal fluid, 342–348
+Slenderness parameter, 342, 379–380
+Smith, A. M. O., 102
+Smith, W. E., 388
+Smoke ring, 197
+Society of Naval Architects of Japan, 
+294, 296
+Söding, H., 48
+Soh, W. K., 357
+Source
+differentiated from sink, 117
+distribution, 188
+potential, 116–120
+related to Green function, 137–138
+relation to stagnation point, 117–118, 
+
+relation to stream function, 123
+strength, 117, 134
+on symmetric strut, 220
+Source distribution, as defined by 
+Green’s theorem, 127–138
+Source point, 134
+Source-sink combinations. See Rankine 
+ovoid
+Span, hydrofoil, 23
+Spar buoy, motions in waves, 46, 47, 
+53(15), 102(2), 333–334, 370, 371, 
+371–373
+Spectral energy density, 326
+Sphere
+added-mass coefficients, 151, 312
+damping coefficients, 312
+drag, 14–17, 16
+drag coefficient, 102
+ideal flow on, 129–132, 133, 133
+laminar flow on, 16, 17
+moving near wall, 160
+Spheroid
+added-mass coefficients, 152, 153, 
+154, 163(8)
+added moment of inertia, 153, 154, 
+163(9)
+body-mass force, 164(14), 164(15)
+Splitter plates, 41
+Square
+added-mass coefficient of, 163(10)
+added-mass coefficients, 152, 153
+added moment of inertia of, 152
+Squat, 396
+Stability
+directional, of ship, 365–367
+excessive, 367
+indices, 365–366, 366
+of submarines, 368
+of supertankers, 368
+Stagnation, relation to source, 117–118, 
+
+Stagnation point, 15, 17, 117–118
+relation to stream function, 123
+Stall, 181
+relation to separation, 24, 25
+Standing waves, 335(2), 335(4)
+Starting vortex, 203, 230, 233, 235
+Stationary bodies, wave force on, 41–44
+Stationary phase approximation, 285, 
+286–290, 316
+Stationary waves, 325
+Steady-state drag coefficient, 37, 39
+Steady-state flow, past a flat plate, 75–81
+Steady translation problems, 142–143
+Stegun, I. A., 74, 237
+Stoker, J. J., 268, 289, 301

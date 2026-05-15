@@ -1,0 +1,78 @@
+motion is zero when es ee i. OF = emt One) or cos(kB/2)=0, i.e. A=2B/(2n+1) (n=0,1,2...). The highest period where the theoretical heave value is zero is normally found from equation (3.67). For instance, if T,,= 22s and |z,,| = 20m, we find the cancellation period corresponding to (3.67) is 20.1 sec. Equation (3.65) tells us that the heave response in beam sea in the mass—force domain is mainly a function of the dimensionless parameters w/w, and @,” |2ml/g (3.67)
+
+78 LINEAR WAVE-INDUCED MOTIONS
+
+13 |
+
+Icos(kB/2 )
+
+a
+
+1.0
+
+0s
+
+0.0
+
+0.0 0.5 1.0 15 2.0
+
+Fig. 3.19. Heave amplitude |75| in beam sea of the semi-submersible described
+
+in the figure. The results presented as a function of main parameters.
+
+(@, = 2/T,, = Natural heave frequency (rad/s), z,, = 2-coordinate
+of the geometrical centre of the pontoons, B = distance between the
+centre planes of the pontoons, 7' = oscillation period, 6, = incident
+wave amplitude.) Infinite water depth.
+
+Fig. 3.20. Semi-submersible. Dimensions in metres. (G = centre of gravity).
+
+HEAVE MOTION OF A SEMI-SUBMERSIBLE 79
+
+(see Fig. 3.19). The simplicity of equation (3.65) makes it a good starting
+point for choosing main platform dimensions that minimize heave motion
+for extreme weather conditions. In practical semi-submersible design
+one normally wants to have the heave period above 20s so that there is
+seldom any wave energy to excite resonant heave oscillations. Stability
+and requirements of load carrying capacity governs the requirement on B
+and the waterplane area A,,. Thus, with selected w,, the only parameter
+that will influence the heave response is the draught z,,. Variation of
+pontoon geometry will change A33 and w, (see equation (3.66)).
+
+Example. Heave and pitch motion of a semi-submersible in
+
+head sea
+Fig. 3.20 shows a semi-submersible with rectangular pontoons and
+circular vertical columns. The dimensions are in metres. The platform is
+moored in deep water. Assume the mooring system has no influence on
+the motions and disregard the. effect of damping. Regular sinusoidal
+waves of period 10s and amplitude 1m propagate along the negative
+x-axis. Calculate the pitch motion and the heave of the centre of gravity
+G of the platform.
+
+Solution
+We disregard the coupling effect from surge. Due to the symmetry of the
+submerged part of the platform, it is possible to show that the coupling
+terms A3;,.As53, C3, and C53 are equal to zero. We may write the heave
+equation of the centre of gravity of the semi-submersible as
+
+d?
+(M + Ay) Ft Cams = FAO (3.68)
+
+From strip theory it follows that
+A33= 2LA33?™
+
+where L is the length and A;;°” is the two-dimensional added mass in
+heave for one pontoon. A337”) will be set equal to 2.3 - pA where A is the
+cross-sectional area of one pontoon. It now follows that
+
+M + Ag3 = p(2LA + || Ay) + 2° 2.3 pAL = 7.59 - 10” (kg)
+The restoring coefficient
+
+C33 = pgAy = 3.16 - 10° (kg s~”)
+The vertical excitation force is obtained by strip theory. We may write
+A
+
+Li2 A
+F,=2] (pA'+ 2.3 pA)az dx + p,—+ pp —
+~L/2 2 2

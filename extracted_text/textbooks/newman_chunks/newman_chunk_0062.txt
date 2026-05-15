@@ -1,0 +1,164 @@
+quite rapid; for example, the nondimensional velocity at a value of y/2(νt)1/2 = η = 2.0 is approximately u/U = 0.005, a very difficult velocity to measure experimentally. A common engineering criterion for the boundary-layer thickness is the distance from the plate where the velocity is reduced to 0.01 of its value on the boundary. This thickness is found from the above tables to be approximately δ ν = 3 64 1 2 . ( ) . / t (42)
+
+The Motion of a Viscous Fluid 
+
+Again, the boundary-layer thickness is relatively small except over extremely 
+large time scales where, ultimately, the effects of diffusion are more wide­
+spread. For example, the boundary-layer thickness predicted from (42) for 
+water is 0.4 cm after one second and 0.24 m after one hour!
+3.14  Laminar Boundary Layers: Steady Flow Past a Flat Plate
+Let us turn now to the complementary problem of steady-state flow past a 
+flat plate of finite length l. Once again the motion is assumed two dimen­
+sional, independent of the z-coordinate, and the plate is taken to coincide 
+with the portion 0 < x < l of the plane y = 0. With w = 0, the continuity 
+equation and (steady-state) Navier-Stokes equations take the form
+∂
+∂
++ ∂
+∂
+=
+u
+x
+v
+y
+0, 	
+(43)
+u u
+x
+v u
+y
+p
+x
+u
+x
+u
+y
+∂
+∂
++
+∂
+∂
+= −
+∂
+∂
++
+∂
+∂
++ ∂
+∂
+
+
+
+
+
+
+
+
+
+ρ
+ν
+, 	
+(44)
+Figure 3.4
+Velocity distribution near an impulsively accelerated wall. (From Schlichting 1968)
+
+Chapter 3
+u v
+x
+v v
+y
+p
+y
+v
+v
+x
+v
+y
+∂
+∂
++
+∂
+∂
+= −
+∂
+∂
++
+∂
+∂
++ ∂
+∂
+
+
+
+
+
+
+
+
+
+ρ
+. 	
+(45)
+The boundary conditions require that u = v = 0 on the portion of the 
+plane y = 0 occupied by the plate, say 0 < x < l, and that the velocity at 
+large distances from the plate must be equal to the undisturbed flow u = U, 
+v = 0.
+The above equations are exact, regardless of the magnitudes of the 
+dimensional parameters U, l, and ν or the Reynolds number Ul/ν. Our inter­
+est is focused now on the approximate solution of these equations when 
+the Reynolds number is large, anticipating that the boundary layer will 
+be very thin under this circumstance. We begin by making a qualitative 
+estimate of the boundary-layer thickness, based on the unsteady solution 
+of the preceding section. If the characteristic time during which viscous 
+effects act on a fluid particle is t = l/U, the corresponding boundary-layer 
+thickness obtained from (40) will be δ = 3.64 (νl/U)1/2, or in nondimensional 
+form, δ/l = 3.64 R−l/2. A more careful analysis will reveal that the form of this 
+equation is correct, but the constant is slightly less than 5.0. Nevertheless, 
+the above estimate is sufficient for our present purposes because it suggests 
+the order of magnitude of the boundary-layer thickness.
+Since u ≃ U immediately outside the boundary layer, it follows that 
+the horizontal velocity component u must increase from 0 to U over the 
+very small transverse distance δ. Therefore, the derivative ∂u/∂y will be 
+large, of order (U/δ), compared with changes parallel to the plate, of order 
+(U/l). Thus ∂u/∂y ≫ ∂u/∂x. From the continuity equation it follows that 
+∂u/∂y ≫ ∂v/∂y, or that the change in normal velocity v is relatively small in 
+passing across the boundary layer. Since v = 0 on the plate it follows that 
+this component of the velocity must be small throughout the boundary 
+layer, or u ≫ v.
+As a result of these inequalities, the Navier-Stokes equations can be 
+simplified to the forms
+u u
+x
+v u
+y
+p
+x
+u
+y
+∂
+∂
++
+∂
+∂
+= −
+∂
+∂
++
+∂
+∂
+
+
+
+ρ
+ν
+, 	
+(46)
+
+
+=
+∂
+∂
+ρ
+p
+y . 	
+(47)

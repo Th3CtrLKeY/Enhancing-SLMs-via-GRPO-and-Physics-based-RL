@@ -1,0 +1,66 @@
+includes an additional “buoyancy” force proportional to the displaced volume of fluid ∀ and associated with the pressure gradient of the fluid in the absence of the body. For l/λ ≪ 1 it follows that C m gl M ( )/ , + ∀ ρ ρ (46) Cd 0. (47) Thus, in the special case where A ≪ l ≪ λ, the wave force is given by the approximation F m U ( ) . 11 + ∀ ρ (48)
+
+Chapter 2
+When the body is small compared to the wave amplitude, however, 
+the situation is fundamentally different. From (43) and (37) viscous drag 
+forces will be dominant, and an obvious representation of the wave force is 
+given by
+F
+l U U C
+R
+D
+= 1
+
+
+ρ
+| |
+( ). 	
+(49)
+In this expression the square of the velocity U has been replaced by the 
+product U|U| to ensure that the viscous drag force (49) acts in the same 
+direction as the fluid velocity. The utility of the approximation (49) is 
+diminished because the Reynolds number is itself a function of the instan­
+taneous velocity. However, (49) is relatively useful for bluff bodies, where 
+the viscous drag coefficient is not sensitive to the Reynolds number.
+The intermediate case, where A/l is a quantity of order one, is one of the 
+most important and least understood problems of this field. It is impor­
+tant because many structures, such as the risers of offshore platforms and 
+other cylindrical pilings, have diameters of about the same magnitude as 
+the typical wave amplitude. In this regime viscous and inertial effects are 
+of comparable magnitude, and one must return to the exact force coeffi­
+cient (41). However, the inherent interactions between viscous and inertial 
+effects have not prevented engineers from simplifying expressions for the 
+wave force. The most common approximation is Morison’s formula, which 
+assumes that the total wave force is the sum of the inertial force (48) and 
+the viscous force (49),
+F
+m
+U
+l C U U
+D
+=
++ ∀
++
+(
+)
+.
+
+
+
+
+ρ
+ρ
+
+| | 	
+(50)
+Since the validity of each term in (50) is restricted to a regime where A/l is 
+respectively small or large, the justification for Morison’s formula is strictly 
+pragmatic and must rest with experimental confirmation.
+Considerable experimental effort has been devoted to validating Mori­
+son’s formula (50). For submerged bodies an approximation similar to (50) 
+appears valid for engineering purposes, provided the coefficients are deter­
+mined experimentally and for appropriate values of the Reynolds number 
+and the parameter A/l. For bodies such as vertical surface-piercing pilings, 
+no satisfactory experimental confirmation of (50) exists; the reasons for this 
+are not understood adequately. Surveys of this subject have been made by 
+Hogben (1974) and Milgram (1976).

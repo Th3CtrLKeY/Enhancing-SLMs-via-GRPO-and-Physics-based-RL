@@ -1,0 +1,79 @@
+streamlined body is generally unstable when moving with constant velocity parallel to its long axis. Use the same argument to show that leaves falling from trees will generally be horizontal. 13. The velocity potentials for internal motions within the interior of a closed surface S, enclosing a volume of fluid, can be defined as in (101–103). Show that the solutions of the three internal translational potentials are given simply by ϕi = xi, whereas the solutions for rotational motions are
+
+Chapter 4
+more complicated. By writing Green’s theorem for the region exterior to 
+the surface S, show that if ϕI and ϕE are solutions of Laplace’s equation in 
+the interior and exterior domains, respectively, then the exterior potential 
+can be expressed as a distribution of sources on S, of strength (∂/∂n) (ϕI − 
+ϕE), provided ϕI satisfies the boundary condition ϕI = ϕE on S. Show that the 
+exterior potential can also be represented as a dipole distribution normal to 
+S, of moment ϕI − ϕE, provided ∂ϕI/∂n = ∂ϕE/∂n on S. Use the latter representa­
+tion to derive (128).
+14. Compare the relative magnitudes of the forces acting on a stationary 
+prolate spheroid, with length-diameter ratio equal to 5.0, in the presence 
+of an accelerating stream that is (1) parallel and (2) perpendicular to the 
+longitudinal axis of the spheroid.
+15. Using equation (90), derive an integral expression for the attraction 
+force that occurs when a body moves with steady translation parallel to an 
+infinite plane rigid wall, in terms of the pressure force on the wall. Show 
+that this force always acts on the body in the direction toward the wall. 
+If the body is sufficiently far from the wall so that the potential can be 
+approximated by the dipole (123) plus an image dipole on the opposite side 
+of the wall, show that the attraction force is given by
+F
+U A
+d
+U
+d
+m
+=
+=
+∀+
+
+
+
+
+
+
+
+
+
+
+
+
+π ρ
+π
+ρ
+ρ
+(
+/
+) ,
+provided A12 = A13 = 0. Here d is the distance from the body axis to the wall. 
+Derive from this equation and (133) the special case
+F
+U R
+d
+= 3
+
+
+
+
+π ρ
+/
+for a sphere of radius R, and
+F
+U
+d
+=
+∀
+
+
+
+
+
+π ρ
+/
+for a slender prolate spheroid moving in the longitudinal direction.
+References
+Cummins, W. E. 1957. The force and moment on a body in a time-varying potential 
+flow. J. Ship Res. 1 (1): 7–18.

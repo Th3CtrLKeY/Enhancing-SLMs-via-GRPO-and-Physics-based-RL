@@ -1,0 +1,100 @@
+unstretched length J, (see Fig. 8.3) of the cable from the point where cable first touches the bottom to the attachment point can be written T, i= 3 (8.32) By integrating equation (8.31) in a similar way as in equation (8.7) it follows that h= 1}+- 2 w Leos dy 2AE i Environmental horizontal force =THA-THB 660 al 25m 5 displocement Fig. 8.8. Mean environmental horizontal force on the vessel described in Fig. 8.6 as a function of horizontal displacement.
+
+270 STATIONKEEPING
+
+where cos gy at the attachment point can be written T'y/(Ty? + TZ).
+From this equation we can find an explicit expression for Ty, i.e.
+
+(8.33)
+
+We should note that the tension 7 at the attachment point is simply
+T =(Ty + Tt (8.34)
+
+Finally, by integrating equation (8.30) in a similar way to equation
+(8.6) we find that
+
+Tu (ae +7 2h + Ts) Tu
+
+= — log| ~—__+*—= } +5 .
+
+x D log Ta AE 1, (8.35)
+
+We can now use equations (8.32) to (8.35) in the following way. We start
+
+out by assuming a value of 7, then calculate /, from equation (8.32), Ty
+
+from equation (8.33), T from equation (8.34) and finally x from equation
+
+(8.35).
+
+If we want to find the mooring line characteristics for a given value of
+Ty, we have to perform the calculation procedure above for several
+assumed values of 7, and then afterwards interpolate the data.
+
+The equations that we have found for cable lines can also be used for
+analysis of towing cables. The water depth in the formulas have then to
+be replaced by the sag sg of the cable. Further, J, is the same as half the
+cable length.
+
+THRUSTER FORCES
+Thrusters may be used in combination with a mooring system or alone to
+keep a vessel in position. From open water testing one can get a first
+estimate of the thruster performance, but a thruster may lose efficiency
+due to interaction with other thrusters, the hull, current and waves. One
+example of the hull interaction effect is the Coanda effect. This means
+that the propeller (thruster) slip stream is attracted by the hull (see Fig.
+8.9). A consequence of this is loss of thrust. The Coanda effect can be
+explained by representing the propeller slip stream by a circular jet,
+which acts like a line of sinks. This means that the water is entrained in
+
+the jet from outside the jet. (For analysis of circular jet flow see -
+
+Schlichting, 1979: pp. 747-50). If the boundary had not been there, the
+entrainment velocity would have been directed radially toward the centre
+
+of the jet. The entrained velocity is only a function of the radius. Ifa -
+
+boundary is present, the velocity will be at a maximum between the jet
+and the boundary. High velocity means low pressure. This means a
+
+THRUSTER FORCES 271
+
+)
+pi = B
+pressure difference across the jet with a /resutan force towards the
+boundary. The force will attract the jet towards the wall. The attraction
+force has to be in balance with the centrifugal force of the jet flow. This
+determines the position of the jet relative to the wall. This is illustrated in
+Fig. 8.10. For a thin jet initially at a distance / from an infinitely long
+wall, it takes roughly 6-h to hit the wall if the jet is initially parallel to
+
+the plane wall. This information. can be used as a rough tool for avoiding
+
+stream by a thin jet. The jet must have a radius comparable to the
+propeller radius. Close to the propeller the flow is not jet-like. It actually
+takes a distance of about six times the diameter from the thruster before
+the propeller slip stream develops into a fully turbulent jet-like flow. The
+jet will spread as a function of the distance from the thruster. If we
+consider a free jet, i.e. a jet not in presence of a boundary, the points in a
+jet where the velocity is half the maximum velocity will spread with an
+
+-angle of about 5°. This spreading may cause the propeller slip stream to
+
+be in contact with the hull before the above attraction effect has fully
+developed. When the propeller stream clings to the hull, it behaves like a
+wall jet. The wall jet may very well separate from the hull again. This
+depends on the local radius of curvature of the hull. If a sharp corner is
+present the propeller stream will separate and there will be no significant
+thrust loss. It is difficult to estimate theoretically what the loss due to the
+
+Deflection
+of jet stream
+
+Higher velocities than
+h| opposite side of
+
+Centrifugal
+force balanced
+by pressure forces
+
+Fig. 8.10. Deflection of propeller slip stream. (Coanda effect.)

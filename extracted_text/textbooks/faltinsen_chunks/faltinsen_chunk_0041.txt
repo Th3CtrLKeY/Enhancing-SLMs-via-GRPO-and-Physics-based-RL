@@ -1,0 +1,68 @@
+note that heave and pitch motions are not sensitive to small changes in hull form. However, we should be careful in generalizing the findings to relative vertical motions between the ship and the waves. The phases of heave and pitch motions are then important in the evaluation. ROLL STABILIZATION Rolling of a ship can be a problem and roll amplitudes of 30 and 40° have occurred on ships. Large roll angles make it difficult for the crew to do =
+
+FREE SURFACE TANK
+
+tank breadth, h
+
+U-TUBE TANK
+(l= “effective” cross-dimensional length)
+
+mean water depth)
+
+(b=
+
+Fig. 3.23. Passive anti-roll tank stabilisers.
+
+ROLL STABILIZATION 87
+
+_ their job. Many ships have therefore been equipped with roll stabi-
+
+lization equipment, to avoid a strong resonance effect in roll.
+
+The importance of bilge keels to damp roll motion is well known. The
+bilge keel damping is due both to the resistance of the bilge keel through
+the water and the effect of bilge keels on the pressure distribution around
+the body. Empirical formulas for the bilge keel damping can be found in
+Kato (1966) and Ikeda et al. (1976, 1977b). In this context we will
+concentrate on describing passive anti-roll tanks as means to dampen roll
+motions.
+
+Passive anti-roll tanks
+Passive anti-rolling tanks have been installed on many ships. Principles
+for the free-surface tank and the U-tube tanks are shown in Fig. 3.23.
+By changing the water level it is possible to change the resonance
+frequency of the free-surface tank. This type of rolling tank is therefore
+especially well suited for ships operating with a broad spectrum of
+metacentric heights.
+
+A major problem with anti-roll tanks is saturation. When the ship
+motions become large, the water motion may hit the tank top. This
+reduces the effect of the system.
+
+In order for the anti-rolling tank to work satisfactorily, it is necessary
+for the natural period of the water motion in the tank to be close to the
+natural period of roll motion. Some people choose to set these two
+eigenfrequencies to be equal, while others prefer to set the eigenfrequency for the passive tank to be 6~10% higher than the eigenfrequency
+in rolling. The tank’s damping effect will be improved by an increased
+ratio between the tank’s and the ship’s metacentric height. Typical
+passive tanks have a ratio of 6GM,/GMy between 0.15 to 0.3, where
+OGM, means a decrease in the ship’s metacentric height due to
+anti-rolling ‘tanks. By means of the tank’s natural period and the
+metacentric height ratio 6GM7/GMr it is possible to determine the tank
+dimensions.
+
+The highest natural period of a rectangular free surface tank of infinite
+
+length can be written as
+
+Ty = 2a / (= tanh( (3.75)
+
+where h is the water depth in the tank and b is the breadth of the tank
+(see equation (2.42)). This is the natural period that is most likely to be
+in the vicinity of the roll natural period.
+
+The waterdepth h will in practice be small compared to b. We can then
+write
+
+2b
+Tr= Gh (3.76)

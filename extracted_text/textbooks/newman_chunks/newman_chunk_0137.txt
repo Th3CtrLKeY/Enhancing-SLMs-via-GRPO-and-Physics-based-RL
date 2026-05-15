@@ -1,0 +1,54 @@
+s S = 2 / , (1) where S is the projected area of the lifting surface on the plane y = 0. The aspect ratio is an important measure of the effect of threedimensionality. A large aspect ratio implies that the flow will be nearly inde­ pendent of the transverse coordinate z, and a two-dimensional strip-theory approach is valid. This situation is exemplified by older aircraft wings, as well as by some hydrofoil configurations and deep narrow centerboards on
+
+Chapter 5
+small sailing craft. On the other hand, if the aspect ratio is smaller, as in the 
+case of most rudders and control surfaces, three-dimensional flow effects 
+will be important and must be included in our analysis.
+Lifting surfaces of the type described are planar. Excluded from this cate­
+gory is the screw propeller illustrated in figure 2.8. The results to be derived 
+for planar foils are qualitatively applicable to the blades of a propeller. In 
+particular, the two-dimensional theory can be used in a strip-theory sense 
+to describe the flow past each section of a propeller blade, and the threedimensional flow past a propeller will include trailing vortex sheets similar 
+to those existing in the planar case. The principal distinctions are that the 
+propeller blades and associated vortex sheets are roughly helical, and the 
+blades affect each other in a manner analogous to a cascade of planar foils 
+operating in proximity. Detailed descriptions of propeller theory are given 
+by Cox and Morgan (1972) and Kerwin (1973).
+The case of two-dimensional flow past a lifting surface or hydrofoil will 
+be considered first to provide a quantitative understanding of lifting sur­
+faces of high aspect ratio, as well as qualitative understanding of the more 
+general case. Subsequently, we shall consider the more complicated threedimensional case of finite aspect ratio planar lifting surfaces. Throughout 
+our discussion we will assume that viscous effects are confined to a thin 
+boundary layer along the surface of the hydrofoil and that the foil surface 
+is itself thin and situated at a small angle of attack relative to the incident 
+Figure 5.1
+Three-dimensional lifting surface.
+
+Lifting Surfaces 
+
+flow. Thus, in the jargon of aerodynamics, we shall restrict our discussion 
+to the case of linearized thin-wing theory.
+5.1  Two-Dimensional Hydrofoil Theory
+Let us consider the steady flow of fluid past a thin streamlined section 
+asymmetrical about y = 0. This asymmetry may be due either to a small 
+angle of attack a between the axis of the hydrofoil and the x-axis, or to the 
+existence of curvature or camber of the hydrofoil, or to a combination of 
+these two effects. Under these circumstances the streamlines will appear 
+roughly as shown in figure 5.2. In particular, viscous effects are confined to 
+a thin boundary layer adjacent to the surface of the foil, and the flow will 
+leave the trailing edge in a smooth tangential manner.
+For viscous effects to be confined to a thin boundary layer, not only 
+must the Reynolds number be reasonably large but also the body must be 
+sufficiently thin and streamlined that separation does not occur. If the body 
+is not thin or if the angle of attack is too large, the flow will be typified by 
+the sketches shown in figure 5.3. Thus, there are practical limits to both the 
+body shape and the angle of attack.
+The additional assumption that the flow leaves the trailing edge in a 
+smooth tangential manner (as shown in figure 5.2) is fundamental to the 
+theory of lifting surfaces. Another possibility that can be envisaged is shown 
+in figure 5.4; this involves an infinite velocity around the trailing edge and 
+a stagnation point on the upper (or possibly the lower) surface of the foil. 
+In fact, the streamlines as drawn in figure 5.4 correspond to a potential flow 
+without circulation, whereas the expected situation shown in figure 5.2 
+Figure 5.2
+Assumed flow past foil.

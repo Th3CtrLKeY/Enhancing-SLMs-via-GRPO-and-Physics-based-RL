@@ -1,0 +1,65 @@
+in table 4.3 and behaves correctly at infinity. Using equation (114) and inte­ grating by parts, verify that m x x dx a x F x dx a a a a a = − + = − − ′ = − − ∫ ∫ ρ φ ρ π ρ ( , ) ( ) ( ) . 7. Two common approximations for the added-mass coefficient m11 or m22 of two-dimensional bodies are (1) the displaced mass and (2) the displaced
+
+The Motion of an Ideal Fluid 
+
+mass of a circle with the same projected width normal to the direction 
+of acceleration. Compare these for the bodies shown in table 4.3. Which 
+approximation is, in general, the most accurate?
+8. A naive ocean engineer, infatuated with strip theory and ignorant of 
+three-dimensional effects, is required to compute the added-mass coeffi­
+cients for a circular disc of radius b and negligible thickness. Using the cor­
+rect result shown in figure 4.8, show that m11 will be overestimated by a 
+factor of about 1.6, and the error for the added moment of inertia depends 
+on whether the “strips” are parallel or normal to the axis of rotation.
+9. By resolving the translation of a flat plate into components normal and 
+tangential to its plane, show that if it is inclined at an angle θ from the 
+x-axis, the added-mass coefficients are
+m
+a
+m
+a
+m
+m
+a
+
+
+
+
+
+
+
+
+
+
+
+=
+=
+=
+=
+πρ
+θ
+πρ
+θ
+π ρ
+θ
+sin
+cos
+sin
+What is the added moment of inertia?
+10. Show that the added mass coefficients m11 and m22 in table 4.3 for a 
+crossed fin and square are unchanged, if the body is rotated through an 
+arbitrary angle, and that m12 = m21 = 0.
+11. Show that the conformal transformation (51), with U = 1, maps the 
+circle of radius r0 onto an ellipse in the ζ-plane, with semi-axes r0 + A/r0 and 
+r0 − A/r0. Using the complex potential for the flow past a circle, determine 
+the effective dipole moments for the ellipse, and use (130) to derive the 
+added-mass coefficients m11 and m22.
+12. From qualitative estimates of the relative magnitudes of the added 
+mass coefficients and from (116), show that a streamlined body is generally 
+unstable when moving with constant velocity parallel to its long axis. Use 
+the same argument to show that leaves falling from trees will generally be 
+horizontal.
+13. The velocity potentials for internal motions within the interior of a 
+closed surface S, enclosing a volume of fluid, can be defined as in (101–103). 
+Show that the solutions of the three internal translational potentials are 
+given simply by ϕi = xi, whereas the solutions for rotational motions are

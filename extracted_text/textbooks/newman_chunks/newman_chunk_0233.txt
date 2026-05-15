@@ -1,0 +1,50 @@
+resistance without recourse to Froude’s hypothesis. This approach is known as wave pattern analysis. A sig­ nificant feature of this technique is that the measured quantity A(θ) is lin­ ear in the ship’s disturbance, as compared to the quadratic wave resistance. By relating changes in the wave amplitude to changes in hull form, a linear optimization of the hull shape can be achieved more directly than is pos­ sible by studying the effects of shape on the total wave resistance.
+
+Waves and Wave Effects 
+
+The wave pattern analysis requires a relatively complex survey of the 
+wake region to determine the amplitude function A(θ) for all relevant wave 
+angles. By comparison, Froude’s approach only requires a simple measure­
+ment of the total drag force on the model. Furthermore, the Froude approach 
+accounts for the possibility of other contributions to the total resistance, 
+such as the viscous form drag. Unless these additional contributions are 
+Figure 6.18
+Comparison of the wave resistance coefficient calculated from Michell’s integral 
+(117) with the residual drag coefficient as measured from model tests. (From Graff, 
+Kracht, and Weinblum 1964; reproduced by permission of the Society of Naval 
+Architects and Marine Engineers)
+
+Chapter 6
+known or can be neglected, the wave resistance component as given by 
+(115) is of limited interest from the standpoint of predicting the total drag 
+on a full-scale ship.
+On the other hand, the wave-pattern analysis is a valuable diagnostic 
+tool, particularly when used with a measurement of the momentum defect 
+in the viscous-wake region. These techniques have led to the discovery of 
+an additional drag component associated with wave breaking, and to a bet­
+ter understanding of the bulbous bows of supertankers and other ships with 
+low Froude number.
+In fine high-speed vessels such as destroyers and passenger liners, a bul­
+bous bow promotes beneficial interference between the waves generated at 
+different points along the length of the hull. Thus, for such vessels, the bow 
+bulb reduces the wave resistance. Originally, bulbous bows of a similar form 
+were fitted to supertankers on the basis of experimental measurements indi­
+cating significant reductions in the total drag, but these reductions often 
+exceed the total estimated wave resistance.
+This apparent paradox has been reconciled by careful experimental mea­
+surements of the wave-energy flux and of the momentum defect in the 
+wake due to the viscous form drag. The latter measurement has revealed 
+the existence of momentum associated with the breaking waves that are 
+apparent in figures 6.16 and 6.17. Thus the wave-breaking resistance results 
+from the breaking of waves near the ship, predominantly at the bow. The 
+energy lost in this manner is convected downstream in the form of largescale turbulence or eddies.
+For supertankers and similar vessels, the bulbous bow is effective in 
+reducing the magnitude of the bow wave and thereby in avoiding wave 
+breaking. For predicting the total drag, one may argue that it makes little 
+difference whether the energy is wasted in wave radiation or in wave break­
+ing, but only through an understanding of the mechanisms involved can 
+the total drag be reduced intelligently and systematically.
+An extensive discussion of wave-pattern analysis is given by Eggers, 
+Sharma, and Ward (1967). More recent references on this topic and on 
+wave-breaking resistance are contained in the symposium volume issued 
+by the Society of Naval Architects of Japan (1976).

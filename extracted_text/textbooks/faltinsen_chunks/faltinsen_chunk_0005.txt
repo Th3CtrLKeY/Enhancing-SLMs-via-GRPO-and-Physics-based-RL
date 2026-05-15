@@ -1,0 +1,98 @@
+than 4m. It is therefore important to design structures with low heave motion so that it is possible to drill in as high a percentage of the time as possible. Semi-submersibles are examples of structures with very low heave motion in the actual frequency domain. Rolling may also be an important motion mode to evaluate, for example for operation of crane vessels or for transportation of jackets and semi-submersibles on ships and barges. Rolling, pitching and accelerations may represent limiting
+
+10 INTRODUCTION
+
+factors for the operation of process equipment on board a floating
+production platform.
+
+In the design of mooring systems for offshore structures loads due to
+current, wind, wave-drift forces and wind- and wave-induced motion
+are generally of equal importance. There are two important design
+parameters. One is the breaking strength of the mooring lines. The other
+is the flexibility of the riser system which means, in practice, for a rigid
+riser system that the extreme horizontal offsets of the platform relative to
+the connection point of the riser to the sea floor should be less than say
+10% of the water depth.
+
+Wind, current, mean wave drift forces and slowly varying wave drift
+forces are also important in the design of thrusters and in station keeping
+of crane vessels, diving vessels, supply ships, offshore loading tankers
+and pipelaying vessels. Interaction of thrusters with other thrusters, the
+free-surface and structures may also be important for dynamic positioning systems, towing and marine operations in waves.
+
+Examples of the main objectives of the hydrodynamic analysis of a
+tension leg platform are, to calculate the vertical dynamic loads on the
+platform with the purpose of estimating axial forces in the tethers and to
+calculate the wave elevation in order to evaluate the air gap between the
+waves and the underside of the platform. The minimum air gap is also an
+important consideration for other types of platforms.
+
+HYDRODYNAMIC CLASSIFICATION OF
+
+STRUCTURES
+Both viscous effects and potential flow effects may be important in
+determining the wave-induced motions and loads on marine structures.
+Included in the potential flow is the wave diffraction and radiation
+around the structure. In order to judge when viscous effects or different
+types of potential flow effects are important, it is useful to refer to a
+simple picture like Fig. 1.6. This drawing is based on results for
+horizontal wave forces on a vertical circular cylinder standing on the sea
+floor and penetrating the free surface. The incident waves are regular. H
+is the wave height and A is the wavelength of the incident waves. D
+is the cylinder diameter. The results are based on the use of
+Morison’s equation (see chapter 7) with a mass coefficient of 2 and a drag
+coefficient of 1. The linear McCamy & Fuchs (1954) theory has been
+used in the wave diffraction regime.
+
+Let us try to use the figure for offshore structures. We will consider a
+regular wave of wave height 30m and wavelength 300m. This corresponds to an extreme wave condition. Let us consider wave loads on
+the caisson of a gravity platform where typical cross-sectional dimensions
+are 100m. This implies equivalent H/D- and A/D-values of 0.3 and 3,
+respectively. This means that wave diffraction is most important. If we
+
+ENGINEERING TOOLS II!
+
+consider the columns of a semi-submersible, a relevant diameter would
+be approximately 10 m. This implies A/D = 30, H/D = 3, which means
+that the hydrodynamic forces are mainly potential flow forces in phase
+with the undisturbed local fluid acceleration. Wave diffraction and
+viscous forces are of less significance.
+
+For the legs of a jacket a relevant diameter is approximately 1 m. This
+implies that viscous forces are most important. By viscous forces we do
+not mean shear forces, but pressure forces due to separated flow. The
+examples above are for an extreme wave condition. In an operational
+wave condition the relative importance of viscous and potential flow
+effects are different. We should bear in mind that Fig. 1.6 only provides
+a very rough classification. For instance, resulting forces may be small
+due to the cancelling out of effects of loads from different parts of the
+structure. ,
+
+ENGINEERING TOOLS
+
+Both numerical calculations, model tests and full-scale trials are used to
+assess wave-induced motions and loads. From an ideal point of view
+full-scale tests are desirable but expensive and difficult to perform under
+controlled conditions. It may also be unrealistic to wait for the extreme
+weather situations to occur. Model tests are therefore needed. A
+drawback with model tests is the difficulty of scaling test results to full
+scale results when viscous hydrodynamic forces matter. The geometrical
+dimensions and equipment of the model test facilities may also limit the
+experimental possibilities.
+
+Due .to the rapid development of computers with large memory
+capacity and high computational speed, numerical calculations have
+
+VISCOUS
+FORCES
+
+40 WAVE BREAKING — —
+* LIMIT
+
+MASS
+FORCES
+
+=5 Dd
+
+Fig. 1.6. Relative importance of mass, viscous drag and diffraction forces on
+marine structures.

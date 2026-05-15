@@ -1,0 +1,105 @@
+equation (5.6)). By using e=0 ‘on the still water level and neglecting free-surface waves, we get no contribution from the free-surface integration in equations (9.29) and e 30). Further, by replacing the pressure p at S.. by Bernoulli’s Ship speed (knots) Head sea long-crested waves 20 Ship length L =170 m Involuntary speed reduction Voluntary speed reduction 3 6 9 12 Significant wave height (m) Fig. 9.10. Ship speed in various sea states due to involuntary and voluntary speed reduction.
+
+298 WATER IMPACT AND ENTRY
+
+equation, it follows that
+
+F= -e< || gnds— | { gem ds
+de
+Sp Sp
+—p [| [VV,—3]V|?n] ds (9.31)
+Se
+
+It is important to note that d/de in equation (9.31) is an ordinary time
+derivative. The integral over S.. in equation (9.31) can be neglected. This
+follows by studying how the disturbance from the body dies out far away
+from the body. One way to find this out is by representing the flow by a
+‘distribution of sources (and sinks) over, the wetted body surface (see
+
+chapter 4). This means we write ~ :' cf
+
+sy
+
+90,92) [[ OMG -sOF +0 - NOP +@- EO)
+Sg
+
+— (x — Es)? + (y — ns)? + @ + ES) ds
+(9.32)
+
+The term in the brackets satisfies the free-surface condition ¢ =0 on
+z=0. The source density Q(s) is determined by satisfying the body
+boundary condition. If we let r = (x? +? + 2”)} be large we can simplify
+the term in the brackets. By considering it as a function of
+(E(s), (s), €(s)) and making a Taylor expansion about (0, 0, 0) we find
+the dominant term to be
+
+—2bzr-? (9.33)
+
+This means the term in the brackets of equation (9.32) behaves like a
+dipole with a vertical axis. By differentiating (9.32) with respect to x, y
+‘and @ we see that the velocity due to the body decays far away at least as
+fast as r~>. Going now back to equation (9.31) it means that the order of
+“magnitude of the integrand of the integral over S.. is r_®. Since the
+
+surface element ds is proportional to 7’, it means that the integral over S.. :
+
+is zero in equation (9.31).
+
+The first term in equation (9.31) can be written in terms of added i
+mass. We will illustrate this by limiting ourselves to studying the vertical ;
+‘force due to vertical motion. This means the velocity potential @ satisfies .
+
+the body boundary condition
+
+on
+
+WATER ENTRY PROBLEMS 299
+
+In addition the velocity potential satisfies the free-surface condition
+~g=0 on z=0 (9.35)
+
+For a general body this problem can be solved as outlined by equation
+
+(9.32). This is the same boundary-value problem we solved to find the
+
+added mass in heave when the frequency of oscillation w—>, This
+means we can use results from. that problem and write
+
+p fl on; ds = —VAzy (9.36)
+Sp
+
+The second term in equation (9.31) is the buoyancy term. This means
+we have shown that the hydrodynamic (including hydrostatic) vertical
+force on a body penetrating the free-surface with a downward velocity V
+can be written as
+
+d
+F3= 4 AsV) + pe (9.37)
+
+where Q is submerged volume and As3; is the high-frequency added mass
+in heave for the body as a function of submergence relative to calm water
+level. The same result applies in two dimensions. Fig. 9.11 shows some
+results for an infinitely long horizontal circular cylinder. Twodimensional added mass values in heave A;;°™ are shown as a function
+of h/R. R is the cylinder radius and h is the submergence as defined in
+the figure. The asymptotic value of A33?>/(pR?) for large h/R is x.
+A33° has been calculated numerically by source technique, but can also
+be calculated by analytical expressions (see the review article by
+Greenhow & Li 1987). The two force terms in equation (9.37) are
+also shown in Fig. 9.11 in the case when the forced velocity is
+constant. We can then write
+
+d dA;;?”
+q, As°POV} = — Vv? (9.38)
+and define a C,-value by equating
+dA33;7> 2_P
+rat y? .
+ah! 2 CORY 09)
+
+The experimental values by Campbell & Weynberg (1980) for a smooth
+circular cylinder have also been shown in Fig. 9.11. The experimental
+values can be represented by the formula
+
+C,=5.15/(1 + 8.54/R) + 0.275h/R (9.40)
+
+Buoyancy effects have not been deducted from this formula. Campbell &
+Weynberg estimated the error in/equation (9.40) due to buoyancy effects

@@ -1,0 +1,73 @@
+] = A B 0. Since dΓ/dt = 0, the circulation must be a constant. We shall assume hereafter that the fluid motion started from an initial state of rest, say when t = −∞, so that Γ = 0 for all time and for all material contours within the fluid. Finally, we invoke Stokes’ theorem for a continuous differentiable vector V, ( ) , ∇× ⋅ = ⋅ ∫∫ ∫ V S V x d d S C (11)
+
+Chapter 4
+where the surface integral is taken over any surface S bounded by the con­
+tour C. The line integral is by definition the circulation, which must equal 
+zero for any material contour lying within the fluid. Thus, the surface inte­
+gral must vanish for any surface S, situated in the fluid, and this can be true 
+only if the integrand is identically zero. Hence the motion of the fluid is 
+irrotational,
+∇×
+=
+V
+0, 	
+(12)
+or, in Cartesian components,
+∂
+∂
+−∂
+∂
+=
+∂
+∂
+−∂
+∂
+=
+∂
+∂
+−∂
+∂
+=
+u
+y
+v
+x
+v
+z
+w
+y
+w
+x
+u
+z
+
+
+
+,
+,
+. 	
+(12a)
+The left side of (12) is the vorticity, or the curl of the velocity, and (12a) 
+gives the Cartesian components of the vorticity. To say that the flow is 
+irrotational is equivalent to saying that the vorticity is zero throughout 
+the fluid. This conclusion is important because an irrotational vector can 
+be represented as the gradient of a scalar. This statement is the result of 
+Helmholtz' theorem in vector analysis, which states that any continuous 
+and finite vector field can be expressed as the sum of the gradient of a scalar 
+function ϕ plus the curl of a zero-divergence vector A. The vector A vanishes 
+identically if the original vector field is irrotational. The general proof of 
+this theorem can be found in Morse and Feshbach (1953). For our present 
+purposes, a simpler approach will suffice to show that if the velocity field is 
+irrotational, it can be represented simply as the gradient of the scalar func­
+tion ϕ, or the velocity potential.
+4.2  The Velocity Potential
+Here we wish to show that if the fluid motion is irrotational, the velocity 
+vector V can be represented by the gradient of a scalar potential ϕ which 
+will depend generally on the three space coordinates xi and time t. Replac­
+ing the velocity by its potential may at first seem an unnecessary com­
+plication, since we can envisage the velocity and measure it with suitable 
+instruments in the laboratory, whereas the velocity potential is no more 
+than a mathematical abstraction. However, the velocity is a vector quantity 
+with three unknown scalar components, whereas the velocity potential is 
+a single scalar unknown from which all three velocity components may be 
+computed.

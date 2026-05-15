@@ -1,0 +1,35 @@
+thus to have a very different form from the fully wetted foil shapes. The latter difference is particularly important at the leading edge where, to avoid both cavitation and separation, a fully wetted foil is designed with a substantial radius of curvature, whereas a supercavitating foil is designed with a sharp leading edge. 5.15 Unsteady Hydrofoil Theory In general, unsteady motions will be accompanied by correspond­ ing changes in the circulation about the foil or about each section of a
+
+Chapter 5
+three-dimensional lifting surface. We shall confine our attention here to 
+the two-dimensional case, since the situation in three dimensions is quali­
+tatively similar except for the addition of suitable trailing vortices. Apply­
+ing Kelvin’s theorem to a large contour surrounding the foil and its wake 
+during the entire history of its motion, as in figure 5.6, we find that the 
+circulation about this contour must be zero. Thus any change in the circula­
+tion Γ(t) about the foil must be balanced by an equal and opposite change 
+in the vorticity shed into the wake. The starting vortex shown in figure 
+5.6 is a particular example where the unsteady effects are restricted to the 
+initial acceleration of the foil, but in the more general case vorticity will be 
+continuously supplied into the wake.
+The existence of a vortex distribution throughout the wake is reminis­
+cent of the three-dimensional steady lifting problem of section 5.9. As in 
+that case, the vortices in the wake are responsible both for a drag force act­
+ing on the foil and for a downwash which affects the lift. However, unlike 
+the steady lifting-surface problem with its trailing vortices, the present 
+case is purely two-dimensional, and the vortices in the wake must be ori­
+ented in the same manner as the bound vorticity on the foil, as shown in 
+figure 5.32.
+The downwash induced at the foil by the wake is time-dependent; each 
+individual vortex element induces a contribution to the downwash which 
+diminishes with time as the vortex moves downstream. In this respect, a 
+memory is associated with the motion of the foil: the lift force at a given 
+moment will depend on the integrated downwash from the entire wake and 
+thus on the previous time-history of the motion. This memory effect is one 
+of the principal features of the unsteady hydrofoil problem. An analogous 
+situation will be encountered in chapter 6, where the unsteady motions of 
+Figure 5.32
+Unsteady vortex wake behind an oscillating foil. The case shown is for heaving mo­
+tion of the foil, with a reduced frequency k = 1.0. The orientation and length of each 
+arrow denotes the sign and strength of the vorticity at the corresponding position 
+in the wake.

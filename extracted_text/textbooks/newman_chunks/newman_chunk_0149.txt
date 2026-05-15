@@ -1,0 +1,52 @@
+force vector is equal in magnitude to the product ρUΓ, with Γ the total circulation about the foil; it also states that this force is normal to the direction of the streaming flow. A more elementary proof of zero drag follows from an energy analysis. The velocity field induced by the foil is steady state in a coordinate system moving with the foil and vanishes at large distances from the foil. The Figure 5.12 Mean-camber lines for NACA a series.
+
+Chapter 5
+kinetic energy of the fluid surrounding the foil will move with the foil, and 
+there can be no net build-up of energy in the fluid downstream. Thus, no 
+work is done in propelling the foil in a steady-state manner, and there can 
+be no drag force.
+A curious paradox arises in conjunction with the drag force acting on a 
+flat-plate foil. Given the geometry of this case, it might be expected that the 
+pressure force acts normal to the plate; in that event the drag force must 
+equal the product of the lift force and the tangent of the angle of attack. 
+However, an additional contribution to the hydrodynamic force in this case 
+results from the infinite velocity at the leading edge and the occurrence of 
+a corresponding leading-edge suction force. The magnitude of the leadingedge suction force can be calculated from a momentum analysis carried out 
+locally near the leading edge, and the magnitude of the resulting upstream 
+force is such that the drag component of the normal force is precisely can­
+celed. Thus, despite the suggestive geometry, the total hydrodynamic drag 
+force is indeed zero, and the force vector is precisely normal to the direction 
+of the incident stream.
+5.6  Two-Dimensional Source and Vortex Distributions
+In the previous sections, vortex distributions have been utilized to represent 
+the two-dimensional lifting problem; similarly, source distributions can be 
+used to solve the thickness problem. These two problems are related—both 
+the source and the vortex are conjugate functions, equal to the real and 
+imaginary parts of the complex logarithm. This relationship will be pursued 
+here, not only to derive the corresponding solution of the thickness prob­
+lem, but also as a necessary first step toward deriving the solution (32) of 
+the integral equation (30).
+Complex variables will be used here, as in section 4.7, with z = x + iy. 
+The complex potential of a source is given in table 4.1, and that of a vortex 
+by (23). The combination of these two singularities, situated at the point 
+(ξ, 0), is
+φ
+ψ
+π
+γ
+ξ
++
+=
+−
+−
+i
+q
+i
+z
+
+2 (
+)log(
+). 	
+(50)
+Here q is the source strength and γ is the vortex strength. Differentiation 
+with respect to z gives the corresponding complex velocity

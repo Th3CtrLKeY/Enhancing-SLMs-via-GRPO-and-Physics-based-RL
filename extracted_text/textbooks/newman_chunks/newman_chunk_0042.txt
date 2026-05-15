@@ -1,0 +1,61 @@
+in the form y A f h l U gl t / ( / , / , , /( ) )cos( ). / = + 1 2 λ λ β ω ε (54) Similar nondimensional expressions hold for the other five degrees of freedom. Typical experimental results are shown in figure 2.17 for roll (angular motion about the longitudinal axis) and pitch (about the lateral axis) of an aircraft carrier in deep water. Here the Froude number is 0.23, corresponding
+
+Model Testing 
+
+Figure 2.17
+Roll and pitch response of a 319 m ship at 25 knots. The motions are nondimen­
+sionalized in terms of the maximum wave slope 2πA/λ. (From Wachnik and Zarnick 
+1965; reproduced by permission of the Society of Naval Architects and Marine 
+Engineers.)
+to a full-scale speed of 25 knots. The roll amplitude is a maximum in beam 
+seas and, except for small experimental errors, is zero in head and follow­
+ing seas. For a given angle of incidence, the roll response is similar to the 
+buoy response shown in figure 2.16, although in some cases the resonance 
+is outside the range of frequencies shown. Similar comments apply to pitch, 
+except that the maxima now occur in head and following seas with zero 
+response in beam seas.
+
+Chapter 2
+Comprehensive discussions of this subject are given by KorvinKroukovsky (1961), Vossers (1962), and Lewis (1967). More recent contri­
+butions are included in Bishop and Price (1975).
+Problems
+1. In shallow water (h/λ ≪ 1), waves of small amplitude propagate with 
+a phase velocity independent of the wavelength. From a dimensional 
+analysis show that under these circumstances V
+gh
+P ∝(
+) /
+1 2 and thus that 
+T
+gh
+∝
+−
+λ(
+)
+/
+1 2. Deduce the qualitative change in wavelength that will occur 
+as waves of constant period move toward a beach of gradually decreasing 
+depth.
+2. Find the maximum density and weight of a spherical instrument package 
+of diameter 0.5 m whose terminal velocity does not exceed 0.3 m/s when 
+it is dropped in salt water at a constant temperature of 5°C. What are the 
+terminal velocities if this density is in error by ± 1%?
+3. The drag of an oceanographic research submarine 9 m long is to be esti­
+mated from wind tunnel tests with a scale model of length 1.5 m and wet­
+ted surface area 1.2 m2. The measured drag force in the wind tunnel is 7.9 
+N at a wind speed of 30 m/s and air temperature of 25°C. If the full-scale 
+submarine is deeply submerged in salt water at 15°C, at what speed can its 
+drag be most accurately predicted? What is the best estimate of its drag at 
+a speed of 2 m/s? Can this estimate be refined by raising or lowering the 
+temperature in the wind tunnel?
+4. A hydrofoil vessel weighing 100,000 N is supported by two identical 
+hydrofoils, with NACA 63–412 sections, set at a 3-degree angle of attack. 
+If the lift coefficients of these hydrofoils are as shown in figure 2.6 and the 
+chord length is 0.5 m, what must their span be to support the vessel at a 
+velocity of 20 knots?
+5. A propeller is operating initially at J = 1.0. For the blade section at 70 
+percent of the maximum radius, find the value of the advance ratio where 
+the angle of attack is reduced by 5 degrees.
+6. A motorboat with a drag of 8,000 N at the design speed of 6 m/s is 
+to be powered by an engine that can deliver 100 kw at a shaft speed of 
+1800 revolutions per minute. The maximum propeller diameter that can be

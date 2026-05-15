@@ -1,0 +1,81 @@
+(15) confirms that this is indeed the potential of a flow with velocity components (U, V, W). This streaming flow will be disturbed by the presence of a body or bod­ ies or of some other type of boundary geometry such as the variable form of a flow channel. From the mathematical viewpoint such a disturbance requires the introduction of singularities; the simplest of these are the source potential and its compatriot, the sink. Since these singularities are literally a
+
+The Motion of an Ideal Fluid 
+
+source or sink of fluid, they violate the continuity condition and Laplace’s 
+equation locally at the point where they are located. This is permissible pro­
+vided the singularity is situated within the body, or at most on the bound­
+ary surfaces, and is not allowed within the interior of the fluid.
+The velocity potential of a source, situated at the origin, is
+φ
+π
+π
+= −
++
++
+(
+)
+= −
+−
+m x
+y
+z
+m
+r
+
+
+
+
+
+1 2
+/
+, 	
+(31)
+where r is the radial distance from the origin, or from the position of the 
+source, and m is a constant. Since the source potential (31) depends only 
+on the coordinate r, its gradient will be a vector in the radial direction, 
+and hence the velocity field will consist of radial streamlines. It is straight­
+forward to confirm that (31) is a solution of the Laplace equation (16) for 
+r ≠ 0; hence this radial flow satisfies the requirement of conservation of 
+fluid mass everywhere except at the singular point r = 0.
+If the source potential (31) is differentiated with respect to r to obtain the 
+radial velocity and integrated over the surface of a sphere centered upon 
+the origin, it follows that the rate of flux Q of fluid emitted from the source 
+is precisely equal to m. This parameter is known as the source strength. If m 
+is negative, the flux direction is reversed, and the singularity is called a sink. 
+Mathematically, the distinction between a source and a sink is simply the 
+sign of the strength m; generally we shall use the term “source” without 
+distinction.
+The streaming flow past a semi-infinite half-body can be developed by 
+superposing the source potential (31) and a free stream so that
+φ
+π
+=
+−
++
++
+−
+Ux
+m x
+y
+z
+
+
+
+
+1 2
+(
+)
+.
+/
+	
+(32)
+The resulting flow is axisymmetric about the x-axis, and the streamlines 
+in the x-y plane are as shown in figure 4.1. Differentiation of (32) with 
+respect to x indicates a stagnation point at x = −(m/4πU)1/2, where V = 0. Here 
+the flow is deflected around the source; thereafter the outer flow upstream 
+of the stagnation point continues downstream, but with a permanent 
+deflection from the x-axis due to the fluid emanating from the source. 
+Although the inner flow does not correspond to the physical domain of the 
+fluid, it is of interest because it reveals how the source serves to generate 
+the body. Thus, fluid originally emitted from the source tends to oppose

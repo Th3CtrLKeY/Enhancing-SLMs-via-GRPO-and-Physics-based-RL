@@ -1,0 +1,203 @@
+to the wave amplitude. It is valid if the wave amplitude is small relative to a characteristic wavelength and body dimension. By a Taylor expansion we can transfer the free-surface conditions from the free-surface position z = &(x,¥, t) to the mean free-surface at z= 0. By keeping linear terms in the wave amplitude we find from equations (2.10) and (2.11) that a _ 26 on z=0 (kinematic condition) (2.12) ot OZ got+ = =0 on z=0 (dynamic condition) (2.13)
+
+Zs
+
+C43
+
+Table 2.1. Velocity potential, dispersion relation, wave profile, pressure, velocity and acceleration for regular sinusoidal
+
+propagating waves on finite and infinite water depth according to linear theory
+
+°Z
+
+Ah 4
+
+Infinite water depth
+
+Finite water depth
+
+gf, cosh k(z + h)
+
+@
+
+@ = 82 cos( wt — kx)
+
+cosh kh cos(aot — kx)
+
+o=
+
+Velocity potential
+
+.
+ww
+
+7 OS
+nN ll
+3| %0 ~<
+aN
+
+ale
+
+< s
+S ns
+By Nw
+
+7 (OR
+n. Il
+
+Q| be
+
+Connection between wave number
+kand circular frequency w
+
+Connection between wavelength
+
+A and wave period T
+
+€, sin(wt — kx)
+
+C=
+
+€., sin(wt — kx)
+
+t=
+
+Wave profile
+
+Po = pgt.e™ sin(wt — kx)
+
+sin(wt — kx)
+
+cosh kh
+
+cosh k(z + h)
+cosh k(z + h)
+
+Po= pela
+
+Dynamic pressure
+
+u= wl,e™ sin(wt — kx)
+
+sin(wt — kx)
+
+sinh kh
+sinh k(z + h)
+
+u=o,
+
+x-component of velocity
+
+w£,e™ cos(wt — kx)
+
+w=
+
+sinh Bh CO @¢ ~ Bx)
+
+of,
+
+w=
+
+z-component of velocity
+
+w*£,e" cos(wt — kx)
+
+a>
+
+cos(wt — kx)
+
+wt, cosh k(z + h)
+
+a=
+
+x-component of acceleration
+
+(wt — kx)
+
+* sini
+
+~ w Ce”
+
+a,=
+
+sin(wt — kx)
+
+sinh k(z + h)
+—w°l,
+sinh kh
+
+a>
+
+z-component of acceleration
+
+Acceleration of gravity,
+
+Wave amplitude, g=
+
+Wavelength, ¢,
+
+Wave period, A=
+
+=2n/A, T=
+
+2n/T, k
+t= Time variable, x
+
+o=
+
+0 mean
+
+direction of wave propagation, z= vertical coordinate, z positive upwards, z=
+
+atmospheric pressure).
+
+waterlevel, h = average waterdepth. Total pressure in the fluid: pp — pgz + Po (Po
+
+REGULAR WAVE THEORY 17
+
+We should note that the free-surface elevation € can be found from
+equation (2.13) when the velocity potential @ is known.
+Equations (2.12) and (2.13) can be combined to give
+ro oo
+ae g Be on 2=0 (2.14)
+When the velocity potential @ is oscillating harmonically in time with
+circular frequency @ we can write equation (2.14) as
+
+co}
+—wp+gse=0 on 2=0 (2.15)
+
+REGULAR WAVE THEORY
+By assuming a horizontal sea bottom and a free-surface of infinite
+horizontal extent we can derive linear wave theory (sometimes called
+Airy theory) for propagating waves. The free-surface condition (2.15) is
+then used together with the Laplace equation (2.3) and the sea bottom
+condition
+
+99 9 on z=-hA (2.16)
+oz
+where h is the mean water depth.
+
+The derivation of linear wave theory for propagating waves can be
+found in many textbooks in fluid mechanics (for instance Newman, 1977,
+chapter 6). Table 2.1 presents the results for both finite and infinite water
+depths.
+
+We will show how we can derive the results for infinite water depth.
+The derivation for finite water depth is similar. We assume that the
+velocity potential can be represented as a product of functions each of
+which depend on just one independent variable. This means we use the
+method of ‘separation of variables’ to solve the Laplace equation. The
+following solution will satisfy the Laplace equation:
+
+= e(A cos kx + B sin kx) cos(wt + a) (2.17)
+
+The quantities A, B and o are arbitrary constants. There also exist other
+solutions that are proportional to e~**, coskz and sin kz. However, we
+must disregard them since there should not be any fluid disturbance far
+down in the fluid, i.e. when z—> —®. From the free-surface condition
+(2.15) we can find that there exists a connection between the wave
+number & and the circular frequency @ used in equation (2.17). We find
+the dispersion relation:
+
+o'- (2.18)
+g

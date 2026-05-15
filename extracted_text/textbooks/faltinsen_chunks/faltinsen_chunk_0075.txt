@@ -1,0 +1,95 @@
+if @; is close to the natural frequency of heave motion and the heave damping is low. The reason for this is that the mean wave force T,°C,? depends strongly on the linear wave-induced motions. This was discussed earlier in connection with Fig. 5.5. Newman’s approximation implies that Tyai® = Thi = 0.5 (Ty + Tre’) (5.42) Tyyi* = Ty =0 (5.43) The direct summation of equation (5.39) is still relatively time consuming. Newman (1974) proposed to approximate equation (5.39)
+
+158 SECOND-ORDER NON-LINEAR PROBLEMS
+
+further by approximating the double summation by the square of a single
+series. This implies that only N terms should be added together at each
+
+time step compared to N? terms by equation (5.39). The formula can be
+written as
+
+N ; 2
+Fs¥ = (> A(T, ) cos(a;t + ¢)) (5.44)
+if
+
+This equation includes high-frequency effects that have no physical
+background. In studying the slow-drift response these terms have no
+influence. Obviously equation (5.44) requires T;'* to be positive. A
+modification can be done if some of the 7;;*-values are zero.
+
+The selection of the number of wave components N requires some
+
+3-0
+
+Sle as ce
+aie Ly HULL)
+L
++0 MI, {)
+os
+
+0-9 5
+1 08 W; | ry
+
+0:7
+Fig. 5.18. Calculated values of the second-order transfer function T;,”* (see
+equation (5.39)) for the difference frequency horizontal force on a
+two-dimensional circular cross-section with an axis in the mean
+free-surface and radius R. No effect of roll. Infinite water depth.
+The data are presented as a function of the circular frequencies «,
+and w,. (Faltinsen & Zhao, 1989.)
+
+SLOW DRIFT MOTIONS IN IRREGULAR WAVES 159
+
+care. We must require that (@max— @min)/N is a small fraction of the
+natural frequency of the response we want to excite. To avoid the signal
+repeating itself too soon, it is necessary to choose A; at random values of
+«, (see discussion following equation (5.25)).
+
+Instead of writing the slow-drift excitation force in a time series, it
+may be convenient to write it in spectral form. According to”Pinkster
+(1975) we may calculate the spectral density of the low frequency part as
+
+Sxuy=8 | S(w)S(o+ w\ a
+0 a
+
+where F,(w + u/2) is the mean wave load in direction i for frequency
+w+ p/2.
+
+Let us now study the response to the slow-drift excitation force and
+assume that the slow-drift response x can be described by a mass—spring
+system with linear damping, i.e. a
+
+m& + bx + cx = F;(t) (5.46)
+The slow-drift excitation force F(t) is a random time process. The
+variable x could for instance be the surge motion. We can write the mean
+square value of x as
+
+aan Spr(u) du
+ca 0 (c — mp?y + b?p?
+
+do (5.45)
+
+(5.47)
+
++0
+
+a @ 06 Zn>
+&] . a QO
+wi O04 SELON LLG RES
+
+02 SERS NNER ESS
+
+‘ %
+O7
+DO
+
+"I o-8
+
+0-7
+
+Fig. 5.19. Calculated values of the second-order transfer function Ty’* (see
+equation (5.39)) for the difference frequency horizontal force on a
+two-dimensional circular cross-section with an axis in the mean free
+surface and radius R. No effect of roll. Infinite water depth. The
+data are presented as a function of the circular frequencies @; and
+@,. (Faltinsen & Zhao, 1989.)

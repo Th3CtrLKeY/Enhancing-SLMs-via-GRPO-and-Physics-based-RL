@@ -1,0 +1,576 @@
+[
+  {
+    "index": 0,
+    "type": "mcq",
+    "question": "What is the primary assumption underlying the derivation of the momentum equation for a turbulent boundary layer?",
+    "options": {
+      "A": "Laminar flow assumption",
+      "B": "Turbulent flow assumption",
+      "C": "Isotropic relation",
+      "D": "Reynolds number independence"
+    }
+  },
+  {
+    "index": 1,
+    "type": "numerical",
+    "question": "Calculate the trailing vorticity γ_T(z) for a lifting surface with a circulation distribution given by Γ(z) = 0.2 * (1 - z^2) m^2/s. Assume that the derivative of the circulation distribution with respect to z is dΓ/dz = -0.4z m^2/s^2."
+  },
+  {
+    "index": 3,
+    "type": "numerical",
+    "question": "Calculate the tidal velocity component U_t at a depth of 20 meters below the sea surface, given the tidal velocity at the surface U_t(0) = 0.5 m/s and the water depth h = 50 meters."
+  },
+  {
+    "index": 4,
+    "type": "numerical",
+    "question": "Determine the momentum thickness of a boundary layer with a free stream velocity of 20 m/s, a local frictional-drag coefficient of 0.001, and a boundary layer thickness of 0.1 meters. Assume the fluid density is 1000 kg/m^3."
+  },
+  {
+    "index": 5,
+    "type": "mcq",
+    "question": "What is the primary reason for the added mass of a slender body in longitudinal motion being negligible compared to the body mass?",
+    "options": {
+      "A": "The small radius of the body compared to its length",
+      "B": "The high density of the fluid",
+      "C": "The low velocity of the body",
+      "D": "The large volume of the body"
+    }
+  },
+  {
+    "index": 6,
+    "type": "mcq",
+    "question": "What is the primary factor that determines the frequency of vortex shedding behind a bluff body?",
+    "options": {
+      "A": "The velocity of the flow",
+      "B": "The Strouhal number",
+      "C": "The viscosity of the fluid",
+      "D": "The density of the fluid"
+    }
+  },
+  {
+    "index": 7,
+    "type": "numerical",
+    "question": "Calculate the hydrostatic spring constant (C33) for a ship section with a waterplane area (Awp) of 50 m^2 and a beam (b) of 10 m, given that the density of water (ρ) is 1025 kg/m^3 and the acceleration due to gravity (g) is 9.81 m/s^2."
+  },
+  {
+    "index": 8,
+    "type": "numerical",
+    "question": "Calculate the wave amplitude for a wave component with a circular frequency of 0.5 rad/s, a wave number of 0.1 m^-1, and a random phase angle of 30 degrees, given that the wave spectrum S(w) is 0.1 m^2s at the frequency of interest."
+  },
+  {
+    "index": 9,
+    "type": "numerical",
+    "question": "Calculate the wave resistance coefficient using Michell's integral, given that the ship's speed is 20 m/s, the wavelength is 50 m, and the amplitude of the wave is 1.5 m."
+  },
+  {
+    "index": 10,
+    "type": "numerical",
+    "question": "Calculate the standard deviation of the slow-drift surge motion due to wind for a tension leg platform with a wind speed of 40 m/s. Assume the damping is due to drag forces and the mass of the platform is 50000 kg."
+  },
+  {
+    "index": 12,
+    "type": "mcq",
+    "question": "What is the added-mass coefficient for a vertical flat plate situated midway between two parallel horizontal walls, given that the breadth of the plate is 0.5 and the distance between the walls is 1?",
+    "options": {
+      "A": "0.5 * ρ * π",
+      "B": "0.663 * ρ * π",
+      "C": "1.0 * ρ * π",
+      "D": "2.0 * ρ * π"
+    }
+  },
+  {
+    "index": 16,
+    "type": "numerical",
+    "question": "Calculate the period T of a simple pendulum with a length of 1 meter, given that the gravitational acceleration g is 9.81 m/s^2 and the maximum angle of its swinging motion θ0 is very small."
+  },
+  {
+    "index": 17,
+    "type": "mcq",
+    "question": "What is the primary assumption regarding the Froude number in the analysis of a ship's motion?",
+    "options": {
+      "A": "The Froude number is assumed to be O(1).",
+      "B": "The Froude number is assumed to be much less than 1.",
+      "C": "The Froude number is assumed to be much greater than 1.",
+      "D": "The Froude number is not considered in the analysis."
+    }
+  },
+  {
+    "index": 18,
+    "type": "numerical",
+    "question": "Calculate the phase velocity of a wave with an amplitude of 0.5 meters and a wavelength of 10 meters, given that the acceleration due to gravity is 9.81 m/s^2."
+  },
+  {
+    "index": 21,
+    "type": "numerical",
+    "question": "A ship is moving at a velocity of 15 m/s through water with a density of 1000 kg/m^3. Calculate the wave energy per unit area of the wave front, assuming the wavelength is 50 meters and the amplitude is 2 meters."
+  },
+  {
+    "index": 24,
+    "type": "numerical",
+    "question": "Calculate the vertical lift force L acting on a hydrofoil given that the fluid density ρ = 1000 kg/m³, the horizontal perturbation velocity component u = 5 m/s, and the total circulation around the foil Γ = 10 m²/s. Assume the hydrofoil is moving at a constant velocity U = 20 m/s."
+  },
+  {
+    "index": 25,
+    "type": "numerical",
+    "question": "Calculate the value of the constant of proportionality in the radiation condition for a two-dimensional problem, given that the wavenumber k = 0.1 m^-1 and the frequency ω = 2 rad/s."
+  },
+  {
+    "index": 26,
+    "type": "mcq",
+    "question": "What is the primary effect of bilge keels on a ship?",
+    "options": {
+      "A": "Fixing separation points along the bilge keel",
+      "B": "Increasing the drag coefficient",
+      "C": "Reducing the wetted surface area",
+      "D": "Enhancing the block coefficient"
+    }
+  },
+  {
+    "index": 27,
+    "type": "numerical",
+    "question": "Calculate the Keulegan-Carpenter number for a circular cylinder with a diameter of 1 meter, oscillating at a frequency of 0.5 Hz in a flow with a velocity amplitude of 0.2 m/s."
+  },
+  {
+    "index": 28,
+    "type": "numerical",
+    "question": "Calculate the propeller jet velocity of a thruster given a thrust of 150 kN and a propeller disk area of 2.5 m^2."
+  },
+  {
+    "index": 30,
+    "type": "numerical",
+    "question": "Calculate the hydrodynamic force acting on a rigid body moving in an unbounded fluid, given that the fluid's density is 1000 kg/m^3, the body's surface area is 10 m^2, and the potential due to the body's motion is φ = 5x^2 + 3y^2 + 2z^2 m^2/s."
+  },
+  {
+    "index": 32,
+    "type": "mcq",
+    "question": "What is the primary application of the Transport Theorem in fluid dynamics?",
+    "options": {
+      "A": "To calculate the pressure forces on an object",
+      "B": "To derive the equations of motion for fluids, including the Navier-Stokes equations",
+      "C": "To determine the velocity of a fluid at a given point",
+      "D": "To find the density of a fluid"
+    }
+  },
+  {
+    "index": 33,
+    "type": "mcq",
+    "question": "What is the primary reason for the difference in behavior between submerged horizontal cylinders in waves and those in planar ambient flow?",
+    "options": {
+      "A": "The ability of the flow to rotate around the cylinder in circular ambient flow.",
+      "B": "The density of the fluid.",
+      "C": "The frequency of the waves.",
+      "D": "The diameter of the cylinder."
+    }
+  },
+  {
+    "index": 35,
+    "type": "mcq",
+    "question": "What is the primary characteristic of a Newtonian fluid?",
+    "options": {
+      "A": "Linear relationship between stress tensor and velocity gradients",
+      "B": "Non-linear relationship between stress tensor and velocity gradients",
+      "C": "Constant viscosity",
+      "D": "Zero viscosity"
+    }
+  },
+  {
+    "index": 36,
+    "type": "numerical",
+    "question": "Calculate the total number of stress components required to describe the state of stress on a cubical surface aligned with a Cartesian coordinate system."
+  },
+  {
+    "index": 38,
+    "type": "numerical",
+    "question": "Given a hydrofoil with a chord length of 2 m and an angle of attack of 5 degrees, calculate the lift force per unit span if the fluid density is 1025 kg/m^3 and the free stream velocity is 10 m/s. Assume a lift curve slope of 2pi."
+  },
+  {
+    "index": 39,
+    "type": "numerical",
+    "question": "Calculate the added-mass coefficient for a body of revolution with a length of 10 meters, a radius of 0.1 meters, and a density of 1000 kg/m^3. Assume the slenderness ratio ε = 0.01."
+  },
+  {
+    "index": 40,
+    "type": "mcq",
+    "question": "What is the primary assumption of slender body theory in hydrodynamics?",
+    "options": {
+      "A": "The body is long and thin, with a small cross-sectional area",
+      "B": "The body is short and wide, with a large cross-sectional area",
+      "C": "The fluid is inviscid and incompressible",
+      "D": "The flow is turbulent and unsteady"
+    }
+  },
+  {
+    "index": 41,
+    "type": "numerical",
+    "question": "A fluid has a velocity of 5 m/s and a pressure of 1000 Pa. If the fluid is flowing through a pipe with a diameter of 0.1 m, calculate the velocity potential using the Bernoulli equation."
+  },
+  {
+    "index": 42,
+    "type": "numerical",
+    "question": "Calculate the Reynolds number for a ship moving at a speed of 20 m/s in seawater with a kinematic viscosity of 1.2 x 10^-6 m^2/s and a length of 100 m."
+  },
+  {
+    "index": 43,
+    "type": "mcq",
+    "question": "What is the primary cause of the drag force on a sphere moving through a fluid?",
+    "options": {
+      "A": "Pressure difference between the front and back of the sphere",
+      "B": "Viscous friction at the surface of the sphere",
+      "C": "Turbulence in the flow",
+      "D": "Compressibility of the fluid"
+    }
+  },
+  {
+    "index": 44,
+    "type": "numerical",
+    "question": "Calculate the Reynolds number for a hydrofoil with a chord length of 2 meters, operating at a velocity of 10 m/s in water with a kinematic viscosity of 1.05 × 10^(-6) m^2/s."
+  },
+  {
+    "index": 45,
+    "type": "numerical",
+    "question": "Calculate the velocity potential at a point (x, y, z) = (1, 2, 3) due to a unit source located at (ξ, η, ζ) = (0, 0, 0)."
+  },
+  {
+    "index": 46,
+    "type": "numerical",
+    "question": "A propeller has a pitch-diameter ratio of 1.2 and operates at an advance ratio J = 0.8. If the thrust coefficient is 0.05, calculate the torque coefficient."
+  },
+  {
+    "index": 47,
+    "type": "mcq",
+    "question": "What is the primary reason a vertical spar buoy of circular cylindrical form can be considered sufficiently slender to neglect added mass and damping coefficients in comparison to its mass for the purpose of estimating its natural frequency in heave?",
+    "options": {
+      "A": "The buoy's small cross-sectional area relative to its length reduces the effect of added mass and damping.",
+      "B": "The material of the buoy is highly dense, making its mass dominate over hydrodynamic effects.",
+      "C": "The buoy operates in very shallow water, which alters the hydrodynamic regime.",
+      "D": "The frequency of the waves is very high, making added mass and damping negligible."
+    }
+  },
+  {
+    "index": 48,
+    "type": "numerical",
+    "question": "Calculate the velocity components u and v for a flow described by the complex potential F(z) = z^2, given z = x + iy."
+  },
+  {
+    "index": 50,
+    "type": "mcq",
+    "question": "What is the primary mechanism of energy loss in a turbulent boundary layer?",
+    "options": {
+      "A": "Viscous forces acting on the surface",
+      "B": "Pressure forces acting on the surface",
+      "C": "Heat transfer from the surface",
+      "D": "Dissipation of kinetic energy due to turbulent eddies"
+    }
+  },
+  {
+    "index": 51,
+    "type": "numerical",
+    "question": "Calculate the lift coefficient CL for a lifting surface with a mean camber line given by η(θ) = 0.1 * sin(2 * θ), using the formula CL = (1 / (π * U^2)) * ∫[0, π] ρ * γ * sin(θ) * dθ, where ρ = 1.2 kg/m^3, γ = 10 m^2/s, and U = 50 m/s."
+  },
+  {
+    "index": 52,
+    "type": "mcq",
+    "question": "What is the primary factor that determines the cavitation number for a hydrofoil?",
+    "options": {
+      "A": "Pressure difference and fluid velocity",
+      "B": "Fluid viscosity and surface tension",
+      "C": "Fluid density and temperature",
+      "D": "Propeller pitch and angle of attack"
+    }
+  },
+  {
+    "index": 53,
+    "type": "mcq",
+    "question": "What is the primary mechanism for the introduction of vorticity into a flat-plate boundary layer?",
+    "options": {
+      "A": "Velocity gradient and pressure gradient interaction",
+      "B": "Turbulence and flow separation",
+      "C": "Viscous dissipation and heat transfer",
+      "D": "Compressibility and acoustic effects"
+    }
+  },
+  {
+    "index": 54,
+    "type": "mcq",
+    "question": "What is the primary factor that determines the significance of roughness in a turbulent boundary layer?",
+    "options": {
+      "A": "The magnitude of the roughness elements relative to the boundary layer thickness",
+      "B": "The Reynolds number of the flow",
+      "C": "The free-stream velocity",
+      "D": "The kinematic viscosity of the fluid"
+    }
+  },
+  {
+    "index": 56,
+    "type": "mcq",
+    "question": "What is the primary method used in the offshore industry for solving scattering and radiation problems in theoretical physics, as related to wave Green functions?",
+    "options": {
+      "A": "Integral equations",
+      "B": "Differential equations",
+      "C": "Finite element method",
+      "D": "Boundary element method"
+    }
+  },
+  {
+    "index": 57,
+    "type": "numerical",
+    "question": "Determine the momentum thickness θ for a laminar boundary layer over a flat plate, given that the free-stream velocity U = 10 m/s, the distance from the leading edge x = 0.2 m, and the kinematic viscosity ν = 1.0 × 10^(-5) m^2/s. Assume a Blasius boundary layer profile."
+  },
+  {
+    "index": 58,
+    "type": "mcq",
+    "question": "What is the relationship between the damping coefficients and the amplitude of the waves generated by a body moving in a fluid with a free surface?",
+    "options": {
+      "A": "The damping coefficients are inversely proportional to the wave amplitude.",
+      "B": "The damping coefficients are unrelated to the wave amplitude.",
+      "C": "The damping coefficients are proportional to the square of the wave amplitude.",
+      "D": "The damping coefficients are directly proportional to the wave amplitude."
+    }
+  },
+  {
+    "index": 62,
+    "type": "numerical",
+    "question": "A ship moves through the water with a speed of 20 m/s. The density of the water is 1025 kg/m^3. Assuming the flow around the ship is inviscid and incompressible, and using the equation for the pressure gradient in the direction of motion (∂p/∂x = -ρ u ∂u/∂x), calculate the pressure gradient if the velocity gradient ∂u/∂x is 0.05 s^-1."
+  },
+  {
+    "index": 63,
+    "type": "numerical",
+    "question": "Calculate the Reynolds number for a flow with a mean velocity of 10 m/s, a characteristic length of 0.1 m, and a kinematic viscosity of 0.001 m^2/s."
+  },
+  {
+    "index": 64,
+    "type": "numerical",
+    "question": "Calculate the new pseudo-velocity function u − iv for z = 2 + 3i, given the transformation function (1 − z^2)^1/2."
+  },
+  {
+    "index": 65,
+    "type": "mcq",
+    "question": "What is the primary reason for the reduction in thrust of a propeller operating near the free surface?",
+    "options": {
+      "A": "Change in water density near the surface",
+      "B": "Increase in propeller submergence",
+      "C": "Decrease in wave amplitude",
+      "D": "Increase in ship's speed"
+    }
+  },
+  {
+    "index": 67,
+    "type": "mcq",
+    "question": "What is the relationship between the group velocity (Vg) and the phase velocity (Vp) of deep water waves?",
+    "options": {
+      "A": "Vg = Vp",
+      "B": "Vg = Vp / 2",
+      "C": "Vg = 2 * Vp",
+      "D": "Vg = Vp^2"
+    }
+  },
+  {
+    "index": 69,
+    "type": "numerical",
+    "question": "Given a hydrofoil with a length of 2 units, calculate the complex velocity at a point z = 0.5 + 0.2i, with a source strength q(ξ) = 2 and vortex strength γ(ξ) = 1, distributed continuously along the cut -1 < x < 1 of the x-axis."
+  },
+  {
+    "index": 70,
+    "type": "mcq",
+    "question": "What is the main reason for the yaw moment on a ship in a current being zero for a circular cross-section?",
+    "options": {
+      "A": "The pressure is symmetric about the z-axis",
+      "B": "The velocity potential is antisymmetric about the z-axis",
+      "C": "The current velocity is zero",
+      "D": "The ship is not moving"
+    }
+  },
+  {
+    "index": 71,
+    "type": "numerical",
+    "question": "Given that the KC number is defined as KC = U*T/D, where U is the ambient oscillatory flow velocity amplitude, T is the oscillation period, and D is the projected width, calculate the KC number for a ship section with U = 2 m/s, T = 10 s, and D = 5 m."
+  },
+  {
+    "index": 72,
+    "type": "mcq",
+    "question": "What happens to the induced drag of a lifting surface as the aspect ratio increases?",
+    "options": {
+      "A": "The induced drag increases",
+      "B": "The induced drag remains constant",
+      "C": "The induced drag decreases, but only for small aspect ratios",
+      "D": "The induced drag decreases, approaching zero for very high aspect ratios"
+    }
+  },
+  {
+    "index": 74,
+    "type": "numerical",
+    "question": "Calculate the value of Ox_ for a given wind speed U=40m/s, frequency fn=0.1Hz, and fraction p=0.1, assuming the Harris wind spectrum applies."
+  },
+  {
+    "index": 76,
+    "type": "mcq",
+    "question": "What is the primary reason for introducing a sink in the generation of a closed, finite-length body in potential flow?",
+    "options": {
+      "A": "To increase the free-stream velocity",
+      "B": "To decrease the source strength",
+      "C": "To absorb the fluid emitted by the source",
+      "D": "To change the direction of the flow"
+    }
+  },
+  {
+    "index": 77,
+    "type": "mcq",
+    "question": "What is the primary factor influencing the choice of reference frame when analyzing wave-ship interactions?",
+    "options": {
+      "A": "Ship's velocity",
+      "B": "Wave frequency",
+      "C": "Angle of incidence",
+      "D": "Wave amplitude"
+    }
+  },
+  {
+    "index": 79,
+    "type": "numerical",
+    "question": "Calculate the value of the constant C in the equation p/ρ + g*x + (1/2)*V^2 = C, given that the pressure p = 101325 Pa, the density ρ = 1000 kg/m^3, the acceleration due to gravity g = 9.81 m/s^2, the height x = 10 m, and the velocity V = 5 m/s."
+  },
+  {
+    "index": 80,
+    "type": "numerical",
+    "question": "Calculate the substantial derivative of the velocity field v(x,y,t) = (2x+t, y^2) for a fluid particle moving with this velocity at the point (1,2) and time t=1."
+  },
+  {
+    "index": 81,
+    "type": "mcq",
+    "question": "What is the primary factor that determines the amplitude variation in a wave system with a reflection coefficient R?",
+    "options": {
+      "A": "Wavenumber k",
+      "B": "Angular frequency ω",
+      "C": "Amplitude A",
+      "D": "Reflection coefficient R"
+    }
+  },
+  {
+    "index": 82,
+    "type": "numerical",
+    "question": "Calculate the group velocity of a wave given its angular frequency ω = 2 rad/s and wave number k = 0.5 m^-1. Use the formula Vg = dω/dk and assume a linear dispersion relation ω = ck, where c is a constant."
+  },
+  {
+    "index": 84,
+    "type": "numerical",
+    "question": "Calculate the velocity profile for a flow between two parallel walls, where the lower wall is stationary and the upper wall moves at a velocity of 5 m/s. The distance between the walls is 0.1 m, the dynamic viscosity of the fluid is 0.01 Pa·s, and the pressure gradient is 100 Pa/m."
+  },
+  {
+    "index": 87,
+    "type": "mcq",
+    "question": "What is the primary purpose of the Hilbert transforms derived in section 5.7?",
+    "options": {
+      "A": "To evaluate the integrals with respect to ξ in the expression for q(x)",
+      "B": "To derive the Kutta condition for cavity flow",
+      "C": "To calculate the velocity and pressure distribution on the strut",
+      "D": "To determine the source strength on the strut"
+    }
+  },
+  {
+    "index": 89,
+    "type": "numerical",
+    "question": "Calculate the wave load on a submerged horizontal circular cylinder using Morison's equation, given that the wave-induced velocity is 2 m/s, the wave-induced acceleration is 0.5 m/s^2, the density of the fluid is 1025 kg/m^3, the inertia coefficient is 1.5, the drag coefficient is 0.7, the diameter of the cylinder is 1 m, and the length of the cylinder is 10 m."
+  },
+  {
+    "index": 90,
+    "type": "numerical",
+    "question": "A bow thruster has a radius of 1.5 m and is operating at 10 revolutions per second. If the propeller axis submergence is 2 m, calculate the thrust reduction factor using the formula 2 = number of propeller revolutions per second, and assuming a linear relationship between submergence and thrust reduction."
+  },
+  {
+    "index": 94,
+    "type": "mcq",
+    "question": "What is the primary purpose of using segmented anchor lines in a mooring system?",
+    "options": {
+      "A": "To achieve greater stiffness and lighter anchor lines",
+      "B": "To reduce the cost of the mooring system",
+      "C": "To increase the complexity of the mooring system",
+      "D": "To decrease the stability of the structure"
+    }
+  },
+  {
+    "index": 95,
+    "type": "mcq",
+    "question": "What is the primary purpose of the Kutta condition in the context of foil aerodynamics?",
+    "options": {
+      "A": "To ensure a smooth flow at the trailing edge and calculate the circulation",
+      "B": "To calculate the lift coefficient directly",
+      "C": "To determine the angle of attack",
+      "D": "To find the moment axis"
+    }
+  },
+  {
+    "index": 100,
+    "type": "numerical",
+    "question": "Calculate the phase velocity of a wave with a wavelength of 10 meters and a period of 2 seconds."
+  },
+  {
+    "index": 101,
+    "type": "numerical",
+    "question": "Calculate the rudder force for a ship with a velocity of 10 m/s, a rudder angle of 10 degrees, and a fluid density of 1000 kg/m^3. Assume the added-mass coefficient is approximately 1."
+  },
+  {
+    "index": 103,
+    "type": "numerical",
+    "question": "Calculate the added mass coefficient A33 for a ship with a length of 100 meters, given that A33°(x) = 0.5 * (1 - x/L), where x is the distance from the bow and L is the length of the ship."
+  },
+  {
+    "index": 104,
+    "type": "numerical",
+    "question": "Calculate the phase velocity Vp of a wave with a wavelength λ = 100 m, given that the acceleration due to gravity g = 9.81 m/s^2."
+  },
+  {
+    "index": 107,
+    "type": "mcq",
+    "question": "What is the correct form of the Laplace equation in cylindrical coordinates?",
+    "options": {
+      "A": "∂²φ/∂r² + 1/r * ∂φ/∂r + 1/r² * ∂²φ/∂θ² + ∂²φ/∂z² = 0",
+      "B": "1/r * ∂/∂r(r * ∂φ/∂r) + 1/r² * ∂²φ/∂θ² + ∂²φ/∂z² = 0",
+      "C": "∂²φ/∂r² + 1/r * ∂φ/∂r + ∂²φ/∂θ² + 1/r² * ∂²φ/∂z² = 0",
+      "D": "1/r * ∂/∂r(r * ∂φ/∂r) + ∂²φ/∂θ² + 1/r² * ∂²φ/∂z² = 0"
+    }
+  },
+  {
+    "index": 108,
+    "type": "numerical",
+    "question": "Calculate the two-dimensional added-mass coefficient for a body section in a channel of total depth 2h, given that the body section has a width of 5 meters and the channel has a depth of 10 meters."
+  },
+  {
+    "index": 109,
+    "type": "numerical",
+    "question": "Calculate the drift force on a vertical wall due to incident regular deepwater waves with a wavelength of 100 meters and an amplitude of 2 meters. Assume the density of the water is 1025 kg/m^3."
+  },
+  {
+    "index": 110,
+    "type": "numerical",
+    "question": "Calculate the probability of slamming for a ship with a threshold velocity of 3.5 m/s, using the formula P(slamming) = exp(- (vs + a')), where vs = 3.5 m/s and a' = 1.2. Assume that the relative velocity between the ship and the wave follows a normal distribution with a mean of 4.0 m/s and a standard deviation of 1.5 m/s."
+  },
+  {
+    "index": 111,
+    "type": "numerical",
+    "question": "Calculate the change in circulation about a foil if the vorticity shed into the wake is 0.5 m^2/s and the time over which this shedding occurs is 2 seconds."
+  },
+  {
+    "index": 112,
+    "type": "numerical",
+    "question": "Calculate the energy density per unit area of the mean free surface for a plane progressive wave in infinite depth, given that the amplitude of the wave is 2 meters, the density of water is 1025 kg/m^3, and the acceleration due to gravity is 9.81 m/s^2."
+  },
+  {
+    "index": 116,
+    "type": "numerical",
+    "question": "Given the vorticity definition ω = ∂u/∂y - ∂v/∂x, calculate the vorticity at a point in the flow where the velocity components are u = 2 m/s and v = 1 m/s, with gradients ∂u/∂y = 0.5 s^-1 and ∂v/∂x = 0.2 s^-1."
+  },
+  {
+    "index": 117,
+    "type": "numerical",
+    "question": "Calculate the mean square value of the surge motion due to wind gusts given a mean wind velocity of 20 m/s and a gust spectrum of 0.05."
+  },
+  {
+    "index": 118,
+    "type": "numerical",
+    "question": "Determine the dimensionless parameter ω/ωn for a semi-submersible platform with a natural circular frequency of 6.48 rad/s, given that the wave frequency is 0.42 rad/s."
+  },
+  {
+    "index": 119,
+    "type": "numerical",
+    "question": "Calculate the acceleration of a fluid particle using the substantial derivative, given that the velocity field is described by u(x,t) = 2x + 3t, where x is in meters and t is in seconds."
+  }
+]

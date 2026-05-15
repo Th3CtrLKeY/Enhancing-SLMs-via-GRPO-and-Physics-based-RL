@@ -1,0 +1,711 @@
+[Page 1]
+⋆ 
+Lecture 6 
+ - Marine Hydrodynamics 
+Lecture 6 
+2.2 Similarity Parameters from Governing Equations and 
+Boundary Conditions 
+In this paragraph we will see how we can specify the SP’s for a problem that is governed by 
+the Navier-Stokes equations. The SP’s are obtained by scaling, non-dimensionalizing 
+and normalizing the governing equations and boundary conditions. 
+1. Scaling First step is to identify the characteristic scales of the problem. 
+For example: Assume a ﬂow where the velocity magnitude at any point in space or 
+time |⃗x, t) is  about equal to a velocity U, i.e. |v(⃗
+|
+v(⃗
+| 
+⃗x, t) =  α U, where α is such that 
+0 ≤α ∼O(1). Then U can be chosen to be the characteristic velocity of the ﬂow 
+and any velocity ⃗v can be written as: 
+⃗v = U⃗v ⋆ 
+where it is evident that ⃗v⋆ is: 
+(a) dimensionless (no units), and 
+(b) normalized (|⃗v⋆| ∼O(1)). 
+Similarly we can specify characteristic length, time, pressure etc scales: 
+Characteristic scale 
+Dimensionless and 
+Dimensional quantity 
+normalized quantity in terms of characteristic scale 
+Velocity 
+U 
+⃗v⋆ 
+⃗v = U⃗v⋆ 
+Length 
+L 
+⃗x⋆ 
+⃗x = L⃗x⋆ 
+t⋆
+Time 
+T 
+t = Tt⋆ 
+Pressure 
+po −pv 
+p 
+p = (po −pv)p⋆ 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+2. Non-dimensionalizing and normalizing the governing equations and bound­
+ary conditions 
+Substitute the dimensional quantities with their non-dimensional expressions (eg. 
+substitute ⃗v with U⃗v⋆ , ⃗x with L⃗x⋆, etc) into the governing equations, and boundary 
+conditions. The linearly independent, non-dimensional ratios between the character­
+istic quantities (eg. U, L, T, po −pv) are the SP’s. 
+(a) Substitute into the Continuity equation (incompressible ﬂow) 
+∇· ⃗v =
+
+⇒ 
+U 
+⋆
+⋆
+∇· ⃗v 
+=
+
+⇒ 
+L 
+∇⋆ · ⃗v ⋆ =
+
+Where all the ()⋆ quantities are dimensionless and normalized (i.e., O(1)), 
+v
+for example, ∂⃗⋆ = O(1).
+∂x⋆ 
+(b) Substitute into the Navier-Stokes (momentum) equations 
+∂⃗v 
+
++ (⃗v · ∇) ⃗v = −∇p + ν∇2⃗v −gˆj ⇒ 
+∂t 
+ρ 
+U ∂⃗v⋆ 
+U 2 
+po −pv 
+νU 
++
+(⃗v ⋆ · ∇⋆) ⃗v ⋆ = −
+∇⋆ p ⋆ +
+(∇⋆)2⃗v ⋆ −gˆj
+T ∂t⋆ 
+L 
+ρU 2 
+L2 
+divide through by U
+L 
+2 , i.e., order of magnitude of the convective inertia term ⇒ 
+
+L  ∂⃗⋆ 
+
+⋆ 
+p 
+ν 
+⋆ 
+gL
+ 
+v 
+o −pv
+⋆ 
+  
+ 
++
+(⃗v · ∇)⃗v 
+= − 
+(∇p) +  
+∇2⃗v 
+− 
+ˆj
+UT
+∂t 
+ρU 2 
+UL 
+U 2 
+The coeﬃcients (  ) are SP’s.
+
+---PAGE BREAK---
+
+[Page 3]
+⋆ 
+ 
+Since all the dimensionless and normalized terms ()⋆ are of O(1), the SP’s 
+(  ) measure the relative importance of each term compared to the con­
+vective inertia. Namely, 
+L 
+Eulerian inertia 
+∂⃗v 
+•
+≡S = Strouhal number ∼
+∼ 
+∂t 
+UT 
+convective inertia 
+(⃗v · ∇)⃗v 
+The Strouhal number S is a measure of transient behavior. 
+For example assume a ship of length L that has been travelling with velocity 
+U for time T. If the T is much larger than the time required to travel a ship 
+length, then we can assume that the ship has reached a steady-state. 
+L << T ⇒ 
+U 
+L = S
+<<
+ 1 ⇒ 
+UT 
+∂⃗v 
+ignore 
+→ 
+assume steady-state 
+∂t 
+• po −pv ≡σ = cavitation number. 
+1 ρU 2 
+
+The cavitation number σ is a measure of the likelihood of cavitation. 
+If σ >>  1, no cavitation. If cavitation is not a concern we can choose po 
+as a characteristic pressure scale, and non-dimensionalize the pressure p as 
+p = pop 
+• 
+po 
+≡Eu = Euler number ∼ pressure force 
+1 ρU 2 
+inertia force 
+
+UL 
+inertia force 
+•
+≡Re = Reynold’s number ∼ 
+ν 
+viscous force 
+If Re >> 1, ignore viscosity. 
+U 2 
+U 
+
+• 
+= √
+≡Fr = Froude number ∼ 
+inertia force 
+
+gL 
+gL 
+gravity force
+
+---PAGE BREAK---
+
+[Page 4]
+⋆ 
+⋆ 
+⋆ 
+⋆ 
+⃗ ⋆ 
+ 
+ 
+ 
+ 
+ 
+
+(c) Substitute into the kinematic boundary conditions 
+⃗u = U⃗ boundary ⇒ 
+⃗u 
+= Uboundary 
+(d) Substitute into the dynamic boundary conditions 
+
+
+R=LR⋆ 
+p = pa + Δp = pa +
++ 
+=⇒ 
+R1 
+R2 
+p=(po−pv )p⋆ 
+Δp 
+
+
+ 
+
+ 
+
+
+
+/ρ 
+p 
+= pa + 
++
+= pa + 
+(po − pv) L
+R1 
+⋆ 
+R2 
+⋆ 
+σ
+U 2L 
+U 2L 
+•  
+≡ We = Weber number ∼ 
+inertial forces 
+/ρ 
+surface tension forces 
+• Some SP’s used in hydrodynamics (the table is not exhaustive): 
+SP 
+Deﬁnition 
+Reynold’s number 
+Re 
+UL 
+ν 
+∼ 
+inertia 
+viscous 
+Froude number 
+Fr 
+ 
+U2 
+gL 
+∼ 
+inertia 
+gravity 
+Euler number 
+Eu 
+po 
+
+2 ρU2 
+∼ 
+pressure 
+inertia 
+Cavitation number σ 
+po−pv 
+
+2 ρU2 
+∼ 
+pressure 
+inertia 
+Strouhal number 
+S 
+L 
+UT 
+∼ 
+Eulerian inertia 
+convective inertia 
+Weber number 
+We 
+U2L 
+Σ/ρ 
+∼ 
+inertia 
+surface tension
+
+---PAGE BREAK---
+
+[Page 5]
+ 
+	 
+
+ 
+2.3 Similarity Parameters from Physical Arguments 
+Alternatively, we can obtain the same SP’s by taking the dimensionless ratios of signiﬁcant 
+ﬂow quantities. Physical arguments are used to identify the signiﬁcant ﬂow quantities. 
+Here we obtain SP’s from force ratios. We ﬁrst identify the types of dominant forces acting 
+on the ﬂuid particles. The SP’s are merely the ratios of those forces. 
+1. Identify the type of forces that act on a ﬂuid particle: 
+1.1 Inertial forces ∼ mass × acceleration ∼ (ρL3) 
+U
+L 
+
+= ρU 2L2 
+∂u 
+
+ 
+1.2 Viscous forces ∼ μ 
+× area ∼ 
+μ U
+L (L2) =  μUL 
+∂y 
+shear stress 
+1.3 Gravitational forces ∼ mass × gravity ∼ 
+(ρL3)g 
+1.4 Pressure forces ∼ 
+(po − pv)L2 
+2. For similar streamlines, particles must be acted on forces whose resultants are in the 
+same direction at geosimilar points. Therefore, the following force ratios must be 
+equal: 
+inertia 
+ρU 2L2 
+UL 
+•
+∼ 
+= 
+≡ Re
+viscous 
+μUL 
+ν 
+
+1/2 
+
+1/2
+inertia 
+ρU 2L2 
+U 
+•
+∼ 
+= √
+≡ Fr
+gravity 
+ρgL3 
+gL 
+ 1 inertia −1 
+(po − pv)L2 
+po − pv 
+• 
+
+∼ 
+= 
+≡ σ 
+pressure 
+
+2 ρU 2L2 
+
+2 ρU 2
+
+---PAGE BREAK---
+
+[Page 6]
+ 
+ 
+2.4 Importance of SP’s 
+• The SP’s indicate whether diﬀerent systems have similar ﬂow properties. 
+• The SP’s provide guidance in approximating complex physical problems. 
+Example A hydrofoil of length L is submerged in a known ﬂuid (density ρ, kinematic 
+viscosity ν). Given that the hydrofoil is travelling with velocity U and the gravitational 
+acceleration is g, determine the hydrodynamic force F on the hydrofoil. 
+ρ,ν
+F 
+g 
+U 
+L 
+SP’s for this problem: 
+L
+po − pv 
+U 2L
+U
+ UL
+ 
+S = 
+,
+σ
+ 
+= 
+
+,
+We =  
+,
+Fr = √ 
+,
+Re = 
+UT
+2 ρU 2 
+/ρ
+gL
+ν 
+We deﬁne the dimensionless force coeﬃcient: 
+F 
+CF ≡ 1 ρU 2L2 
+
+The force coeﬃcient must depend on the other SP’s: 
+CF = CF 
+ (S, σ, We, Fr, Re)
+or
+ CF = CF S, σ−1, We 
+−1, Fr, Re 
+−1 
+Procedure We will ﬁrst study under what conditions each SP → 0. 
+We will estimate CF for the case that all of the SP’s → 0.
+
+---PAGE BREAK---
+
+[Page 7]
+ 
+ 
+ 
+ 
+1. Signiﬁcance of the Strouhal number S = L/UT. 
+Change S keeping all other SP’s (σ−1 , We 
+−1 , Fr, Re 
+−1) ﬁxed. 
+Steady-State 
+transient
+CF 
+Steady-State
+transient
+CF
+S-1 = UT / L
+ 
+S~O(
+1) 
+Exact position of the cut
+ 
+depends on the problem and 
+the quantities of interest.
+ 
+∂
+For S << 1, assume steady-state: ∂t = 0  
+For S >> 1, unsteady eﬀect is dominant. 
+For example, for the case L = 10m and U = 10m/s we can neglect the unsteady 
+eﬀects when: 
+L
+L 
+S <<  1 
+⇒ 
+<< 1 
+⇒ 
+T >>  
+⇒ 
+T >> 1s 
+UT 
+U 
+Therefore for T >>  1s we can approximate S ≃ 1 and we can assume steady state. 
+In the case of a steady ﬂow: 
+CF 
+= CF S ≃ 0, σ−1, We 
+−1, Fr, Re 
+−1 ⇒ 
+∼ 
+−1
+CF 
+= CF σ−1, We 
+−1, Fr, Re
+
+---PAGE BREAK---
+
+[Page 8]
+po − pv
+2. Signiﬁcance of the cavitation number σ = 
+
+. 
+ρU 2 
+
+Change σ−1 keeping all other SP’s (S ≃ 0, We 
+−1 , Fr, Re 
+−1) ﬁxed. 
+Some comments on cavitation 
+pv 
+: 
+Vapor pressure, the pressure at which water boils 
+po ≤ pv 
+: 
+State of ﬂuid changes from liquid to gas ⇒ CAVITATION 
+Consequences : 
+Unsteady → Vibration of structures, which may lead to fatigue, etc 
+Unstable → Sudden cavity collapses 
+→ Large force acting on the structure surface 
+→ Surface erosion 
+CF
+ 
+Strong 
+cavitation 
+No cavitation 
+σ 
+Strong
+cavitation
+No cavitation
+σ
+Strong
+cavitation
+No cavitation
+σ
+σinception 
+For σ <<  1, cavitation occurs. 
+For σ >>  1 ⇒ σ−1 << 1, cavitation will not occur. 
+In general cavitation occurs when we have large velocities, or when po ∼ pv
+
+---PAGE BREAK---
+
+[Page 9]
+ 
+ 
+ 
+ 
+ 
+For example, assume a hydrofoil travelling in water of density ρ = 103kg/m3 . 
+The characteristic pressure is po = 105N/m2 and the vapor pressure is pv = 103N/m2 . 
+Cavitation will not occur when: 
+1 ρU 2 
+po − pv
+σ−1 << 1 
+⇒ 
+
+<< 1 
+⇒ 
+U <<  
+
+⇒ 
+U << 14m/s 
+po − pv 
+2 ρ 
+Therefore for U << 14m/s it is σ >> 1 ⇒ σ−1 ≃ 0 and cavitation will not occur. 
+In the case of a steady, non-cavitating ﬂow: 
+CF 
+= CF 0, σ−1 ≃ 0, We 
+−1, Fr, Re 
+−1 ⇒ 
+∼ 
+−1
+CF 
+= CF We 
+−1, Fr, Re
+
+---PAGE BREAK---
+
+[Page 10]
+ 
+ 
+ 
+ 
+ 
+U 2L 
+3. Signiﬁcance of the Weber number We =
+. 
+Σ/ρ 
+Change We 
+−1 keeping the other SP’s (S ≃ 0, σ−1 ≃ 0, Fr, Re 
+−1) ﬁxed. 
+For We << 1, surface tension is signiﬁcant. 
+For We >> 1 ⇒ We 
+−1 << 1, surface tension is not signiﬁcant. 
+For example, assume a hydrofoil travelling with velocity U = 1m/s near an air/water 
+interface (water density ρ = 103kg/m3, surface tension coeﬃcient 
+= 0.07N/m). 
+Surface tension can be neglected when: 
+Σ
+Σ 
+W −1 << 1 
+⇒ 
+ρ 
+<< 1 
+⇒ 
+L >>  ρ 
+⇒
+· 
+m
+L >>  7 10−5 
+e 
+
+U 2L
+U 
+Therefore for L >>  7 10−5 m it is  We >> 1We 
+−1 ≃ 1 and surface tension eﬀects can 
+· 
+be neglected. 
+So in the case of a steady, non-cavitating, non-surface tension ﬂow: 
+CF 
+= CF 0, 0, We 
+−1 ≃ 0, Fr, Re 
+−1 ⇒ 
+∼
+CF 
+= CF Fr, Re 
+−1
+
+---PAGE BREAK---
+
+[Page 11]
+U 
+4. Signiﬁcance of the Froude number Fr = √ 
+, which measures the ‘gravity eﬀects’. 
+gh
+Change Fr keeping the other SP’s (S ≃ 0, σ−1 ≃ 0, We 
+−1 ≃ 0, Re 
+−1) ﬁxed. 
+‘Gravity eﬀects’, hydrostatic pressure do not create any ﬂow (isotropic) nor do they 
+change the ﬂow dynamics unless Dynamic Boundary Conditions apply. 
+√
+√ 
+‘Gravity eﬀects’ are not signiﬁcant when U <<  gh ⇒ Fr ≃ 0, or U >>  gh ⇒ 
+Fr 
+−1 ≃ 0. Physically, this is the case when the free surface is 
+• absent or 
+• far away or 
+• not disturbed, i.e., no wave generation. 
+The following ﬁgures (i - iv) illustrate cases where gravity eﬀects are not signiﬁcant.
+
+---PAGE BREAK---
+
+[Page 12]
+ 
+ 
+ 
+ 
+In any of those cases the gravity eﬀects are insigniﬁcant and equivalently Fr is not 
+important (i.e. Fr ≃ 0 or  Fr 
+−1 ≃ 0). 
+So in the case of a steady, non-cavitating, non-surface tension, with no gravity 
+eﬀects ﬂow: 
+CF 
+= CF 0, 0, 0, Fr ≃ 0 or  Fr 
+−1 ≃ 0, R−
+e 
+1 ⇒ 
+∼ 
+−1
+CF 
+= CF Re 
+A look ahead: Froude’s Hypothesis 
+Froude’s Hypothesis states that 
+CF = CF (Fr, Re) =  C1 (Fr) +  C2 (Re) 
+Therefore dynamic similarity requires 
+(Re)1 = (Re)2, and 
+(Fr)1 = (Fr)2 
+Example: Show that if ν and g are kept constant, two systems 
+(1, 2) can be both geometrically and dynamically similar only 
+if: 
+L1 = L2, and 
+U1 = U2
+
+---PAGE BREAK---
+
+[Page 13]
+ 
+ 
+UL 
+5. Signiﬁcance of the Reynolds number Re =
+. 
+ν 
+Change Re keeping the other SP’s (S ≃0, σ−1 ≃0, We 
+−1 ≃0, Fr ≃0 or  Fr 
+−1 ≃0) 
+ﬁxed. 
+Recall that for a steady, non-cavitating, non-surface tension, with no gravity 
+eﬀects ﬂow: 
+CF = CF Re 
+−1 
+CF
+ 
+Re
+ 
+Sphere 
+Plate 
+(Re)cr 
+Sphere
+Plate
+(Re)cr
+Laminar 
+Turbulent 
+Transition 
+Re << 1, 
+Stokes ﬂow (creeping ﬂow) 
+Re < (Re)cr, Laminar ﬂow 
+Re > (Re)cr, Turbulent ﬂow 
+Re →∞, 
+Ideal ﬂuid 
+For example, a hydrofoil of cord length L = 1m travelling in water (kinematic vis­
+cosity ν = 10−1m2/s) with velocity U = 10m/s has a Reynolds number with respect 
+to L: 
+ν 
+Re = 
+= 107 →ideal ﬂuid, and Re 
+−1 ≃0 
+UL
+
+---PAGE BREAK---
+
+[Page 14]
+Therefore for a steady, non-cavitating, non-surface tension, with no-gravity 
+eﬀects ﬂow in an ideal ﬂuid: 
+CF = CF (0, 0, 0, 0, 0) = constant = 0 
+→D’Alembert’s Paradox 
+No drag force on moving body in ideal ﬂuid.

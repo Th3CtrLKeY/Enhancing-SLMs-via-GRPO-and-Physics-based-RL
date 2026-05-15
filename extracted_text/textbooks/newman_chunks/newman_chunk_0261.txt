@@ -1,0 +1,206 @@
+, , , , . 0 1 2 … (205) Statistics for the wave height H = 2A can be derived using the probability density function (204). Thus the average wave height H is given by H Ap d m = = ∞ ∫ 1 2 ( ) ( ) . / ζ ζ π (206) For most purposes, however, we are interested primarily in the larger waves. The most common parameter that takes this into account is the significant
+
+Waves and Wave Effects 
+
+wave height H1 3
+/ , defined as the average of the highest one third of all the 
+waves. This can be computed as the ratio
+H
+Ap
+d
+p
+d
+m
+1 3
+
+1 2
+
+4 0
+
+
+/
+/
+( )
+( )
+. (
+)
+,
+=
+=
+∞
+∞
+∫
+∫
+ζ
+ζ
+ζ
+ζ
+ζ
+ζ
+	
+(207)
+where the lower limit of the integrals is defined such that
+p
+d
+( )
+.
+ζ
+ζ
+ζ0
+1 3
+∞
+∫
+= /
+	
+(208)
+Averages that focus upon less frequent maxima can be defined in a corre­
+sponding manner; for example, the average of the highest one tenth of all 
+waves can be defined as
+H
+m
+1 10
+
+1 2
+5 1
+/
+/
+. (
+)
+.
+=
+	
+(209)
+Figure 6.25
+The Pierson-Moskowitz frequency spectrum (201–203) for the wind speeds in knots 
+as listed in table 6.1. The peak value for 50 knots is at S = 54 m
+2-s. The curve for 10 
+knots cannot be shown on this scale, its peak value being S = 0.02 m
+2-s.
+
+Chapter 6
+The average frequency of the spectrum can be defined as the expected num­
+ber of zero upcrossings per unit time, that is, the number of times the wave 
+elevation passes through zero with positive slope. The derivation is given 
+by Price and Bishop (1974), and the final result is
+ω
+ω
+ω
+ω
+ω
+ω
+≡
+
+
+
+= 
+
+
+
+∞
+∞
+∫
+∫
+
+
+
+1 2
+
+
+1 2
+S
+d
+S
+d
+m
+m
+( )
+( )
+.
+/
+/
+	
+(210)
+The moments m0 and m2 can be computed without difficulty for the twoparameter spectrum (201), and it follows that
+H
+U
+g
+1 3
+
+1 2
+2 0
+/
+/
+( . )
+,
+=
+
+
+
+
+α
+β
+	
+(211)
+and
+ω
+πβ
+= (
+)
+(
+).
+/
+1 4 g U
+/
+	
+(212)
+Substituting the values (202–203) for the Pierson-Moskowitz spectrum gives 
+the results shown in table 6.1. Also shown in this table is the approximate 
+Beaufort scale of the sea state for each wind speed and the average value 
+of the period, as derived by Neumann and Pierson (1966). The last column 
+shows the average wavelength corresponding to each wave period, based 
+on the dispersion relation for plane progressive waves.
+The results shown in table 6.1 are based on the assumption of a fully 
+developed sea. It is unusual for a storm of 50 knots’ intensity to last long 
+enough for the sea to develop fully. Thus, while wind speeds of this inten­
+sity are not uncommon, the corresponding wave height and length shown 
+in table 6.1 are rare.
+Table 6.1
+Statistical Parameters and Approximate Sea State of the Pierson-Moskowitz Spec­
+trum, for the Wind Speeds Shown in Figure 6.25
+Wind Speed
+(knots)
+Sea State
+(approx.)
+Significant 
+Wave Height
+(meters)
+Average 
+Period
+(seconds)
+Average 
+Wavelength
+(meters)
+
+
+0.6
+2.7
+
+
+
+2.2
+5.3
+
+
+
+5.0
+8.0
+
+
+
+8.9
+10.7
+
+
+
+13.9
+13.4

@@ -1,0 +1,81 @@
+the waves are left downstream of a ship when t > 4 can be understood in terms of the group velocity or the energy propagation velocity of the different wave systems. If we regard the problem from an earth-fixed coordinate system, all the waves have a smaller group velocity than the ship speed U when t>4 and can therefore not propagate ahead of the ship. At t = 4 the group velocities of parts of the unsteady ship-generated waves are
+
+124 NUMERICAL METHODS
+
+precisely equal to U. For r<} some of the waves can propagate out
+ahead of the ship. In the two-dimensional flow case this is discussed in
+more detail in exercise 4.4(b). The two-dimensional case is also
+discussed by Grue & Palm (1985).
+
+The effect of current on a structure is similar to the effect of forward
+speed on a ship. However, practical cases often occur for t = w,.U/g < }.
+The t-value is so small that the free-surface condition (4.45) can be
+approximated by
+
+-o2or 2iwa.U oor +¢ “fs
+
+Ox 7 =0 on z=0 (4.46)
+
+A consequence of using (4.46) in combination with the radiation
+condition is that there is only one wave system present. This is illustrated
+in Fig. 4.13. We note that the wavelength becomes longest when the
+local wave propagation direction coincides with the current direction and
+
+DEEP WATER
+Velocity U= 2-50 ms"'wWe:0-5rad s7!
+t= 01274
+
+Wave systems
+
+Y(m)
+°
+
+-500
+
+~500 le) 500 1000
+X (m)
+
+Fig. 4.10. Picture of the wave field caused by a harmonically oscillating source
+with mean forward speed U in deep water when t<}, (t= @,U/g,
+@, = circular frequency of oscillation). The crest numbers shown for
+wave system AA are 92 and 138, for wave system D1, 168 and 252
+and for wave system D2, 2 and 3. (Bgrresen, 1984.)
+
+FORWARD SPEED AND CURRENT EFFECTS 125
+
+shortest when the local wave propagation direction is opposite to the
+current direction. It should be noted that the analysis is based on
+t = w,U/g being small and below }.
+
+Analysis of wave—current interaction on offshore structures is presented by Zhao et al. (1988b). Satisfactory agreement between experimental and numerical values was documented. In the forward motion
+problem of ships at + >4 there are still many unsolved problems and
+three-dimensional panel methods with combined forward speed and
+wave effects do not give any better agreement with experimental values
+for vertical ship motions than strip theories. To make further improvements in ship motion predictions at moderate and high Froude
+number it is felt that one first has to study the steady wave potential
+problem in more detail. This is referred to as the wave resistance
+problem in ship hydrodynamics and is known to be a difficult numerical
+and physical problem. It is fair to say that there exists at present no
+general practical numerical method for the wave resistance problem.
+
+DEEP WATER
+Velocity U= 10:00 ms"! wez0-S rads“!
+t s0‘5097
+
+Wave systems
+
+D4
+1000 “~~ p2
+E
+~ °
+>
+-1000
+° 1000 2000 3000
+
+xX (m)
+
+Fig. 4.11. Picture of the wave field caused by a harmonically oscillating source
+with mean forward speed in deep water when t > }. For notation see
+Fig. 4.10. The crest numbers shown for wave system AA are 2 and
+3, for wave system D1 34 and 51 and for wave system D2 2 and 3.
+(Berresen, 1984.)

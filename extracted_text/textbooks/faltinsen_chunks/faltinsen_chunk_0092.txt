@@ -1,0 +1,92 @@
+PLAN Body plan of tanker model Fig. 6.12. Body plan of tanker model described in Table 6.2. F.P. = forward perpendicular. A.P. = aft perpendicular. The numbering of sections on the bottom part follows a standard numbering of ship crosssections; it starts with section | on the aft part of the ship and ends with section 20 on the forward part of the ship. The figure shows only half of a cross-section. The other part is symmetric about the centre-line.
+
+192 CURRENT AND WIND LOADS
+
+coefficient can partly be given by means of Fig. 6.14. The shed vorticity
+is represented by one single vortex of strength I, which is a function of
+time. To account for the free-surface effect one has to introduce an image
+vortex. This ensures zero normal velocity on the free-surface. If the
+splitter plate (free-surface) had not been there, instabilities would cause a
+Karman vortex street to develop behind the double body. The image
+vortex illustrated in Fig. 6.14 has a stronger effect on the motion of the
+
+Px
++0.05
+7 LOADED
+4 BALLASTED
+_|— \
+
+Cora Coo
+
+Lt
+-oos +11} LH am
+L
+
+t
+
+EXPERIMENTS \\
+
+—-—-- CALCULATIONS
+
+-0.10 5 *
+o° 90° 180°
+DRIFT ANGLE B
+
+Fig. 6.13. Current yaw moment J*,° on the ship presented in Table 6.2 and
+Fig. 6.12. Notation defined in Fig. 6.11. Positive yaw moment
+implies rotation of the ship towards smaller B-angles. Moment is
+with respect to vertical axis through the centre of gravity of the ship.
+(Faltinsen et al., 1979.)
+
+“yr
+
+Fig. 6.14. Simple vortex system with an image flow above the free-surface so
+that the rigid free-surface condition is satisfied.
+
+CURRENT LOADS ON SHIPS 193
+
+real vortex than the vortices in a Karman vortex street.behind the double
+body have on each other. Since there is a connection between the
+velocities of the shed vortices and the force on the body we can
+understand why the free-surface influences the drag coefficient. In the
+case of oscillating flow at low amplitudes, which has relevance for
+eddy-making slow-drift damping, the eddies will stay symmetric for the
+double body without a splitter plate. This means the free-surface has
+little effect in this case.
+
+Beam-—draught ratio effects
+Experimental results by Tanaka et al. (1982) show little effect of the.
+height-length ratio on the drag coefficient for two-dimensional crosssections of rectangular forms. One exception was for small height—length
+ratios. If one translates the results to midship cross-sections, it implies
+that the beam—draught B/D has small influence on the drag coefficient
+when B/D > 0.8.
+
+Bilge radius effects
+Experimental results by Tanaka ez al. (1982) show a strong effect of the
+bilge radius r on the drag coefficient. Increasing the bilge radius means
+decreasing the drag coefficient. What we mean by strong effects can be
+seen by writing Cp = C,e7"""? + C2, where C, and C; are constants of
+similar magnitude and D is the draught. As an example k may be 6.
+
+Effect of laminar or turbulent flow
+The classical results for a circular cylinder show that there_is_a critical
+Reynolds number, Below the critical Reynolds number the boundary
+layer is laminar. In the supercritical and transcritical range the boundary
+layer is turbulent. The consequence of this is quite different separation in
+the stibcritical and transcritical Reynolds number ranges. A further
+
+consequence is a difference in drag coefficient. For a smooth cylinder the
+critical Reynolds number is at 2 ° 10°. By increasing the roughness of the
+cylinder surface, the critical Reynolds number will decrease. For marine
+structures one often has the situation that model tests have to be
+performed in the subcritical range, while the full-scale situation is in the
+transcritical range. However, when the separation occurs from sharp
+corners one would expect less severe scale effects.
+
+Aarsnes (1984) (see also Aarsnes et al. 1985) has shown that the drag
+coefficient may be substantially different depending on laminar or
+turbulent separation. This is also evident from Delany & Sorensen’s
+(1953) results. Aarsnes’ results were for ship cross-sectional forms. The
+ship body plan is shown in Fig. 6.15. The results are presented in Fig.
+6.16, both for subcritical and transcritical flow. Estimates for the drag
+coefficients for other cross-sections along the ship in subcritical flow are

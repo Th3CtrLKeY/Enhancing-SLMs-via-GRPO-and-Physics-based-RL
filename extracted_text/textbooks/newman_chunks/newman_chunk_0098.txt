@@ -1,0 +1,73 @@
+2 1 2 π µ π log( ) ( ), ( ). / + + source dipole Once again, a source will combine with a uniform stream to generate a half-body, a source and equal sink will generate an elongated closed body, and a point dipole will give the limiting and important case of the flow past a circle of radius R = (μ/2πU)1/2 in the form φ µ π = + + Ux x x y ( ). (39)
+
+The Motion of an Ideal Fluid 
+
+4.6  The Stream Function
+In the preceding sections the concept of the velocity potential has been 
+used exclusively, as a functional representation of the flow field, and justi­
+fied on the basis that the fluid velocity field is irrotational. Alternatively, 
+the velocity vector can be represented in terms of the stream function, whose 
+existence is instead a consequence of the continuity equation. For any 
+incompressible fluid, with or without viscosity, the velocity vector V must 
+satisfy the condition that its divergence is equal to zero; a well-known result 
+of vector analysis is that any divergence-free vector can be written in the 
+form
+V = ∇×Ψ, 	
+(40)
+where Ψ is the vector stream function. In general, this is not a very useful 
+concept, since the new unknown function is also a vector. However, in the 
+special cases of two-dimensional plane flow and three-dimensional axisym­
+metric flow, the vector stream function has only one component; thus it 
+becomes a scalar unknown, with the same resulting simplification as the 
+velocity potential.
+First, let us consider two-dimensional plane motion in the x-y plane. The 
+velocity component w = 0 and the stream function should be independent 
+of z. These conditions can be met only if Ψ = (0,0,ψ) and the scalar stream 
+function ψ determines the velocity components u and v in accordance with 
+the relations
+u
+y
+v
+x
+= ∂
+∂
+= −∂
+∂
+ψ
+ψ
+/
+,
+/
+. 	
+(41)
+The axisymmetric case follows from analogous reasoning. Thus, if we 
+introduce circular cylindrical coordinates (R,θ,x) and assume that the flow 
+is independent of θ, it follows that the stream function vector consists only 
+of a component in the θ-direction, which is independent of that coordi­
+nate. It is desirable in this case to define Ψ = (0, ψ/R, 0) so that the radial 
+and axial velocity components are given by
+u
+R
+x
+u
+R
+R
+R
+x
+= −
+∂
+∂
+=
+∂
+∂
+
+
+ψ
+ψ
+/
+,
+/
+. 	
+(42)
+(The form of the curl operator, in circular cylindrical coordinates, is given 
+in Hildebrand, 1976, section 6.18.)

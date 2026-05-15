@@ -1,0 +1,360 @@
+[Page 1]
+2.20 Problem Set #1
+ Name: _______________________
+Purpose: This is a multiple choice/short answer type of exercise prepared to give the 
+teaching staff a “snapshot” of the level of knowledge of the class at the start. No number 
+grade will be assigned, but a note will be made of whether you did it or not.
+Rules for Completion: This is a closed book exercise. No collaboration is allowed with 
+others – this is a test of your knowledge. Try to do the exercise without interruption. 
+When you are done, please note below roughly how long you actually spent on the 
+exercise.
+Approximate Time to Complete: _______  minutes (to nearest 15 minutes)
+________________________________________________________________________
+For the following, circle the letter of the correct answer or fill in the blank:
+1. Which of the following would describe a constitutive relation for a material?
+a) As pressure increases, temperature increases
+b) As volume decreases, pressure increases
+c) As the rate of stretching increases, tensile stress increases
+2. In a conservative mechanical system, external forces can be represented as
+a) the curl of a vector potential
+b) the gradient of a scalar potential
+c) the divergence of a vector potential
+3. When we state for a system 
+a
+m
+F
+v
+v
+=
+, it is implied that the frame of reference is
+a) fixed in space
+b) accelerating with respect to a fixed frame
+c) either fixed or translating at a constant velocity with respect to a fixed frame
+4. The following equation gives the acceleration of a point P with respect to a fixed 
+frame OXYZ using an intermediate frame oxyz: 
+(
+)
+r
+r
+dt
+d
+v
+a
+dt
+R
+d
+a
+rel
+rel
+o
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+×
+ω
+×
+ω
++
+×
+ω
++
+×
+ω
++
++
+=
+
+---PAGE BREAK---
+
+[Page 2]
+where
+o
+R
+v
+is the position of the origin of oxyz with respect to OXYZ, 
+rel
+vv
+is the velocity of 
+P with respect to oxyz, 
+rel
+av
+is the acceleration of P with respect to oxyz, and ωv is the 
+angular velocity of oxyz with respect to OXYZ.
+The Coriolis acceleration term is __________ .  The centripetal acceleration term is 
+__________ .
+5. For a system of particles, the linear impulse is equal to
+a) the difference between the initial and final kinetic energy
+b) the difference between the initial and final linear momentum
+c) the product of the total mass and acceleration of the center of gravity
+6. The natural frequency of an undamped spring-mass system having mass m and spring 
+constant k is
+a)
+m
+k
+b)
+km
+c)
+k
+m
+d) none of the above
+7. The moment of inertia of a solid sphere of mass m and radius r about any centroidal 
+axis is 
+a) (
+)
+
+
+
+mr
+b) (
+)
+
+
+
+mr
+c)
+
+mr
+8. The angular momentum of a object with a moment of inertia I about the spin axis and 
+an angular velocity ω is ________ .
+9. The angular momentum principle
+dt
+H
+d
+B
+B
+v
+v =
+τ
+where
+B
+τv  is the total external torque acting on the rigid body and
+B
+H
+v
+is the angular 
+momentum about a moment center B is valid when
+a) The point B has zero velocity with respect to the inertial reference frame\
+b) The point B has a velocity parallel to the velocity of the body’s centroid
+c) a) or b)
+d) never
+
+---PAGE BREAK---
+
+[Page 3]
+10. The work done on a particle by all forces acting on the particle is equal to the change 
+of ___________________ of the particle.
+11. Which of the following is not conserved in a fluid system?
+a) mass
+b) pressure
+c) energy
+d) momentum
+12. The assumption of a material continuum would be appropriate for the following fluid 
+flows:
+a) water in a pipe
+b) air flowing through a fan
+c) lava flowing down a mountainside
+d) all of the above
+e) a ) and b) only
+13. Which of the following is not in general a characteristic of a flow with velocity due
+to a velocity potential ?
+a)
+
+2 =
+φ
+∇
+b)
+φ
+∇
+=
+v
+v
+V
+c)
+
+v
+v
+=
+V
+on any solid boundary of the fluid flow
+14. The Reynolds number represents the ratio of the following forces in a fluid flow:
+a) inertia force to gravity force
+b) pressure force to inertia force
+c) inertia force to viscous force
+d) inertia force to surface tension force
+15. The symmetry of the fluid stress tensor results from all of the following except
+a) conservation of linear momentum
+b) conservation of angular momentum
+c) the continuum hypothesis
+d) conservation of energy
+16. In a Newtonian fluid, the stress due to fluid motion is
+a) independent of strain rate
+b) a linear function of strain rate
+c) a quadratic function of strain rate
+
+---PAGE BREAK---
+
+[Page 4]
+17. If energy input to a viscous flow ceases, then any existing vorticity must
+a) remain constant since angular momentum is conserved
+b) eventually decay to zero
+c) be converted into kinetic energy
+18. In an incompressible flow where 
+
+=
+ρ Dt
+D
+, the densityρin general
+a) may vary in time at a particular point in the flow field
+b) must be a constant at all points in the flow field
+c) may vary in space but not in time throughout the flow field
+19. The Bernoulli equation for unsteady potential flow applies 
+a) only along a streamline of the flow
+b) at any point in the fluid domain
+c) only along the boundary of the fluid domain
+20. A boundary layer is formed near the surface of a moving submarine due to 
+a) density variation
+b) viscosity
+c) surface tension
+d) pressure variation
+For the following, show any steps taken in obtaining your answer:
+21. Evaluate 
+dx
+x
+x∫
+−
++
+
+
+
+
+
+22. Evaluate ∫
+xdx
+
+sin
+
+---PAGE BREAK---
+
+[Page 5]
+23. Evaluate 
+(
+)
+x
+e
+dx
+d
+x ln
+
+24. Consider a function 
+( ) ( ) ( )
+(
+)t
+t
+z
+t
+y
+t
+x
+V
+V
+,
+,
+,
+v
+v =
+. Write an expression for the total 
+derivative
+dt
+V
+d
+v
+.
+25. Evaluate 
+dx
+x
+x∫
+π 2
+
+cos
+26. For a function 
+θ
+=
+cos
+2r
+f
+, evaluate f
+∇
+v
+in polar coordinates:
+27. For fluid velocity
+(
+)
+w
+v
+u
+V
+,
+,
+=
+v
+, expand 
+V
+v
+v
+×
+∇
+in rectangular coordinates:
+This quantity is known as fluid __________ .
+
+---PAGE BREAK---
+
+[Page 6]
+28. Find the general solution of the differential equation: 
+
+
+
+
+=
+−
++
+y
+dx
+dy
+dx
+y
+d
+29. Solve the following differential equation:
+x
+y
+x
+dx
+dy
+
+
+=
++
+( )
+
+1 =
+y
+30. Complete the expression on the right hand side: 
+dS
+dV
+F
+V
+S
+∫∫∫
+∫∫
+=
+⋅
+∇
+____
+v
+v

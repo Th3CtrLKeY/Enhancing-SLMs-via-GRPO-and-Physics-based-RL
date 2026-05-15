@@ -1,0 +1,87 @@
+span. Using (19) to evaluate W, and denoting the slope ∂ζ/∂x at the tail by the local angle of attack αT, it follows that there will be a transverse “lift” force F U s z T = π ρ α . (45) The yaw moment about the vertical axis of the body can be obtained from (39) in a manner similar to that used to obtain the force. For steady motion, we obtain the following expression in place of (43):
+
+Hydrodynamics of Slender Bodies 
+
+M
+U x x W x m
+x dx
+U W x m
+x dx
+Ux W x
+m
+x
+y
+l
+l
+T
+T
+T
+= −
+∂
+∂
+=
++
+∫
+∫
+[
+( )
+( )]
+( )
+( )
+(
+)
+(
+).
+
+
+
+Using (19) for W, and (45) in the last term,
+M
+U
+x m
+x dx
+x F
+y
+l
+T
+z
+= −
+∂
+∂
+−
+∫
+
+
+ζ
+( )
+. 	
+(47)
+The last term is associated with the moment due to the lift force on the tail 
+fin and vanishes for a body with a pointed tail. The remaining integral in 
+(47) gives a contribution for a body moving at an angle of attack, regardless 
+of whether the tail is pointed. This Munk moment acts on a nonlifting body 
+in steady translation, as noted in section 4.13.
+The orders of magnitude of the velocity potential Φ3 and lateral force 
+F3, in terms of the slenderness parameter ε, can be deduced from the above 
+expressions. In terms of the inner solution of the problem, where the length 
+scales are referred to the transverse dimensions of the body and where the 
+body length is very large, the two-dimensional quantities Φ3 and F3' are 
+quantities of order one.
+On the other hand, if the body length l = O(1) and the transverse dimen­
+sions are regarded as O(ε), then the potential Φ3 is O(ε) and the lateral force 
+is O(ε2). The latter results can be deduced from dimensional arguments, 
+based on the fact that these are quantities of order one in the inner frame 
+of reference. From either standpoint, the lateral force is of the same order as 
+the body mass, and both will be of comparable importance in the equations 
+of motion for an unrestrained body subject to a lateral disturbance. This 
+situation contrasts with that of the longitudinal force.
+This analysis of the lateral force on a slender body is based on the assump­
+tion that the flow is irrotational at each section along the body length. 
+Thus, vortex sheets and separation are excluded in the fluid alongside the 
+body. However, the flow downstream of the body does not affect this analy­
+sis, and a trailing vortex sheet may originate from the abrupt trailing edge 
+at the tail. From the viewpoint of lifting-surface theory, this vortex sheet is 
+associated directly with the lift force (45).
+These results can be applied to planar lifting surfaces of small aspect 
+ratio, where the body profile ∑B is a flat plate of local span s(x), provided no 
+vorticity is shed upstream of the tail. This restriction requires the trailing

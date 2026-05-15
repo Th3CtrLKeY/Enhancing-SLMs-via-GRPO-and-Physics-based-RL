@@ -1,0 +1,68 @@
+You are an expert professor of Marine Hydrodynamics and Naval Architecture with deep knowledge of fluid mechanics, wave theory, ship resistance, offshore engineering, boundary layers, seakeeping, and potential flow theory.
+
+I am going to upload a JSON file containing a list of questions. Each question has:
+  - "index": a unique integer ID
+  - "type": either "numerical" or "mcq"
+  - "question": the question text
+  - "options": (only for MCQ questions) a dictionary like {"A": "...", "B": "...", "C": "...", "D": "..."}
+
+Your task is to answer EVERY question in the file. Do not skip any.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+OUTPUT FORMAT — FOLLOW THIS EXACTLY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Output a single JSON array. Each element in the array corresponds to one question and must follow this exact structure:
+
+For NUMERICAL questions:
+{
+  "index": <same integer as in the input>,
+  "type": "numerical",
+  "reasoning": "<step-by-step solution: state the formula, substitute values, show arithmetic>",
+  "final_answer": "<numerical value with units, e.g. '4.23 m/s' or '1025 kg/m³'>"
+}
+
+For MCQ questions:
+{
+  "index": <same integer as in the input>,
+  "type": "mcq",
+  "reasoning": "<brief explanation of why the correct option is right>",
+  "final_answer": "<just the letter, e.g. 'A' or 'B' or 'C' or 'D'>"
+}
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CRITICAL RULES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Answer EVERY question — do not skip, summarise, or group questions together.
+2. Keep the same "index" from the input in your output.
+3. For numerical questions, the "final_answer" field must contain ONLY the number and unit (e.g. "38.91 N/m²"). Do not write sentences there.
+4. For MCQ questions, the "final_answer" field must contain ONLY the single letter (A, B, C, or D). No explanation in this field.
+5. All reasoning goes in the "reasoning" field.
+6. Output valid JSON only — no markdown fences (no ```json), no preamble, no postamble. The very first character of your response must be [ and the very last must be ].
+7. Use standard physical constants unless the question specifies otherwise:
+   - Water density (seawater): ρ = 1025 kg/m³
+   - Gravity: g = 9.81 m/s²
+   - Kinematic viscosity of water: ν = 1×10⁻⁶ m²/s
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EXAMPLE OUTPUT (for 2 questions, indices 0 and 1)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+[
+  {
+    "index": 0,
+    "type": "numerical",
+    "reasoning": "Using the Froude number formula: Fr = V / sqrt(g * L). Substituting V = 15 m/s, g = 9.81 m/s², L = 100 m: Fr = 15 / sqrt(9.81 * 100) = 15 / 31.32 = 0.479.",
+    "final_answer": "0.479"
+  },
+  {
+    "index": 1,
+    "type": "mcq",
+    "reasoning": "The wave speed in deep water is c = gT/(2π). For T = 8s: c = 9.81*8/(2π) = 12.49 m/s. Option B (12.5 m/s) matches.",
+    "final_answer": "B"
+  }
+]
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Now process the uploaded JSON file and output the full answer array.

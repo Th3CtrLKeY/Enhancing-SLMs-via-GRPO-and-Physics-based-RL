@@ -1,0 +1,108 @@
+the drag and inertia term as a function of KC-number. P1=2.221.10" fog Xe y P2=1.506-10" P3=5.823.10° 0.006 0,004 0.002 16 Xn 3S” Tm 0. 01 O02 03 O04 O58 O06 ig. 7.18. Ilustration of how the damping coefficients p, and p2 (see equation (7.40)) are obtained from a free decay test. The free decay test is the calm water motion decay test in surge presented in Fig. 5.20. (The ar and the abscissa are defined in connection with equation 41).
+
+254 VISCOUS WAVE LOADS AND DAMPING
+
+7.2 Lift-forces for high KC-number flow
+
+Equation (7.35) presents a formula for oscillatory lift forces
+on a two-dimensional body in planar oscillatory flow. Use the
+fact that cos(xcos¢) and sin(xcos¢) can be expressed by
+infinite series of Bessel’s functions 7, of the first kind
+
+(a
+
+Vw
+
+(Abramowitz & Stegun, 1964 (equations 9.1.44 and 9.1.45 on .
+
+page 361)) to express the lift force in frequency components.
+Discuss how the frequency components depend on the
+KC-number. (Hint: It is possible to show that
+
+Fy(t) = Re{0.5pUy’C, De
+
+x [702 +2 S (-i)*7,(z) cos 10 |}sin?e
+k=l
+
+where zg = KC: St, 0 = 2at/T. This can be further rewritten
+
+in frequency components k2zt/T.)
+
+Study a fixed vertical circular cylinder in deep water regular
+
+waves. The cylinder is standing on the sea floor and
+
+penetrating the free-surface.. Assume the vortex shedding is
+
+uncorrelated along the cylinder axis. Show how equation
+
+(7.35) can be applied to simulate the lift force distribution
+
+along the cylinder axis.
+
+(c) Consider a vertical riser in deep water regular waves. Discuss
+‘lock-in’ (vortex-induced oscillations).
+
+(b
+
+Rar
+
+7.3 Separated flow at small KC-numbers
+Consider a fixed circular cylinder in planar ambient flow velocity.
+
+U..= Uy sin wt (7.42)
+
+(see Fig. 7.19). The velocity potential @y for the non-separated flow can
+be written as
+
+R 3
+do = Um sin wt(r + ~~) cos 0 (7.43)
+
+The KC-number is assumed small, but sufficiently large for the flow to °
+separate. We will simulate the effect of the separated flow by introducing =
+two time-dependent discrete vortices with circulations ['(¢) and —I(t) at :
+the positions (r,, @,) and (r,, —6,). Fig. 7.19 shows that one has to add 4
+
+‘image’ vortices inside the cylinder with circulations —[ and [I at the
+positions (R?/r,, 6,) and (R*/r,, —@,) in order to satisfy zero normal
+flow through the body surface. We will assume that a pair of vortices
+generated during one half cycle do not survive into the next half cycle. It
+
+EXERCISES 255
+
+has therefore sufficient generality for us to study the flow in the time
+interval 0S wt <2.
+
+(a) Validate that the body boundary condition is satisfied when r,
+is close to R.
+
+(b) Neglect the interaction effect of the two separated vortices on
+each other and show that the angular velocity component of
+the vortex at @ = 0, can be written as
+
+R?2
+Vo= -———— — Uy sin wt (1 +=5)sin é (7.44)
+
+v
+
+(c) Calculate by equation (6.14). Assume for simplicity when T°
+is integrated that the separation point (R, @,) is fixed and that
+the influence of the separated vortices on the tangential
+velocity U,, in equation (6.14) can be neglected. (Answer:
+T= —U,’ sin?6, (wt — 0.5 sin(2wt))/w).
+
+(d) Assume that a separated vortex follows the angular position of
+the separation point. Assume the radial position r, is close to
+R and the motion of the separation point is negligible. Show
+by means of equation (7.44) that this means
+
+R? r
+
+rV-— =
+
+ry ~ 4xU sin(wt)sin 6,
+
+Fig. 7.19. Flow around a circular cylinder at small KC-numbers. The
+separated flow is represented by two discrete vortices. (£T =
+circulations of the shed vortices. Vortex positions (7,, 9,) and
+(ty, — 9y).)

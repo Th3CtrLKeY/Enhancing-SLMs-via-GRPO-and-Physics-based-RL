@@ -1,0 +1,53 @@
+introduction of the concept of added mass and the coefficient-based force formulation included in Mori­ son’s equation. Problem 14 illustrates how the contributions from the inertia term and the drag term depend on the cylinder diameter. Froude’s hypothesis for the drag on a ship hull is one of my favorites; I frequently use the ITTC-line in figure 2.12 to estimate the frictional resistance on ships. I used this curve as well as equation (23) of chapter 2 when advising the
+
+xvi 
+Foreword
+kayaker Eirik Verås Larsen as he prepared for the 2012 London Olympics. 
+His question was how to reduce frictional and wave resistance. I suggested 
+that the only variable to play with was the wet area of the kayak—the por­
+tion touching the water, which should be minimal. Larsen and his team 
+eventually discovered that he could reduce his weight—which he eventu­
+ally reduced by 10 percent—and won the gold medal on the K1 1000m 
+event.
+John Grue
+University of Oslo
+March 16, 2017
+
+Preface to the 40th Anniversary Edition
+Preface 
+to 
+the 
+40th 
+Anniversary 
+Edition
+Preface 
+to 
+the 
+40th 
+Anniversary 
+Edition
+© Massachusetts Institute of TechnologyAll Rights Reserved
+The field of marine hydrodynamics has broadened greatly over the past 
+40 years, with applications to a wide variety of vessels and structures. 
+These include systems for converting energy from the wind, waves, and 
+currents; yachts, high-speed vessels, aquaculture facilities, and various 
+types of submerged vessels; and traditional applications to ships and off­
+shore platforms. The support for education and research has grown accord­
+ingly; it is gratifying that the term “marine hydrodynamics” has become 
+ubiquitous for university departments, research laboratories, conferences, 
+and publications.
+The basic topics of the field are unchanged, corresponding broadly to 
+the chapters of this text. Numerical methods that extend the applications 
+of the theory have been developed. Practicing engineers and naval archi­
+tects are now making routine use of well-established programs to optimize 
+their designs and predict performance. These programs include Navier–
+Stokes solvers, which analyze viscous effects including turbulence, and 
+“panel” programs based on boundary-integral equations to solve potentialflow problems including lifting and wave effects. This evolution has been 
+accelerated by the universal access to computers of increasing capacity 
+and convenience. Nevertheless, it is essential to understand the underlying 
+principles covered in this text, and to compare the results of computations 
+with simpler approximations to be confident of their validity.
+I am grateful to the MIT Press for suggesting this special edition and 
+for making it available economically, both as a paperback and as an open 
+access e-book. I am especially grateful to Professor John Grue for the fore­
+word, which reflects his long experience using this text.

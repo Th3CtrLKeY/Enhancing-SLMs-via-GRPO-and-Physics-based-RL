@@ -1,0 +1,114 @@
+The negative derivative of (214) gives the probability density of the extreme value in N cycles, in the form g N P p N ( ) ( )[ ( )] . ζ ζ ζ = −1 (215) The wave amplitude for which this probability density function is a maximum can be found by setting the derivative of (215) equal to zero. Simplifying the resulting expression for N ≫ 1, the most probable extreme value in N waves is given by
+
+Chapter 6
+A
+m
+N
+= (
+log
+)
+.
+/
+
+
+1 2 	
+(216)
+Ochi (1973) has shown that the probability of exceeding (216), for large 
+N, is 1 − e−1 = 0.632. Thus a more conservative criterion is required, and for 
+this purpose we define the design extreme value as the wave amplitude that 
+will be exceeded in N encounters with a probability of only 1 percent. From 
+(214) it follows that
+
+0 01
+−
+=
+PN
+.
+, 	
+(217)
+and thus
+P
+e
+e
+N
+N
+N
+N
+=
+=
+−
+−
+( .
+)
+.
+/
+.
+/
+( /
+)log( .
+)
+.
+/
+0 99
+
+0 01
+
+
+0 99
+0 01
+
+
+	
+(218)
+Combining the last result with (213) and solving for the wave amplitude, 
+gives
+A
+m
+N
+= 
+
+
+
+
+0 01
+
+1 2
+log
+.
+.
+/
+	
+(219)
+This is the design extreme value, or the maximum wave amplitude in N 
+encounters that will not be exceeded with probability 0.99. Note from 
+(216) that this result is equal to the most probable extreme value in 100N 
+encounters.
+Since the significant wave amplitude is half the wave height (207), the 
+design extreme value exceeds the significant value by the ratio
+Design Extreme
+Significant
+= 
+
+
+
+
+
+0 01
+1 2
+log
+.
+.
+/
+N
+	
+(220)
+This factor is not sensitive to the value of N, nor to the arbitrary choice 
+of 0.01 as the probability that the extreme wave will exceed this value. 
+For example, with N = 100, (220) is equal to 2.15; for N = 104 this factor 
+increases to 2.63. Since (219) is much more sensitive to the value of m0 than 
+to (N/0.01), the most important factor to estimate correctly is the total wave 
+energy.
+In a comprehensive derivation of the extreme-value statistics, Ochi 
+(1973) shows that the amplitude of the design extreme wave is reduced if 
+the wave spectrum is not of narrow bandwidth. However, the net reduction 
+is less than 10 percent in all cases.

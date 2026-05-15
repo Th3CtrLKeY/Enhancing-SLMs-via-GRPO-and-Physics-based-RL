@@ -1,0 +1,206 @@
+with hull interactions neglected. The lifting surface theory or experimental data can be used to estimate the rudder force and moment, in a manner outlined by Mandel (1967). In practice there are significant interactions with the hull and with the slipstream from the pro­ peller if this is upstream of the rudder. It is difficult to predict these interac­ tions from model tests with Froude scaling, since the Reynolds number of the rudder is reduced significantly from its full-scale value.
+
+Hydrodynamics of Slender Bodies 
+
+7.5  Ship Maneuvering: The Equations of Motion
+In the absence of external forces, the sway and yaw motions of a ship can be 
+determined by equating the hydrodynamic force and moment derived in 
+the preceding section to the body-mass force and moment. The body-mass 
+contributions can be obtained by replacing the added-mass coefficients 
+in table 7.1 by the body-mass coefficients Mij defined in equation (4.141). 
+Using the slender-body results of table 7.1 for the hydrodynamic forces on 
+the hull, and using (58–59) to estimate the rudder force and moment, the 
+equations of motion follow in the form
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+πρ
+δ
+T U
+U m U
+U
+x m
+m
+m
+m U
+m
+M
+R
+T
+T
+T
+S
+S
+=
+−
++
++
++
++
++
+(
+)
+(
+)
+(
+)
+,
+Ω
+Ω
+
+
+	
+(60)
+−
+= −
++
+−
++
+−
++
+
+
+
+
+
+
+
+
+
+
+
+
+
+πρ
+δ
+T U
+x
+U m
+x m
+U
+U m
+M
+x
+m
+m
+R
+T
+S
+T
+T
+S
+T
+T
+(
+)
+[
+(
+)
+]
+,
+(
+Ω
+
+
+
+
+
+
+S
+S
+M
+U
+m
+M
++
++
++
+)
+(
+)
+.
+
+Ω
+	
+(61)
+Equations (60–61) are a pair of coupled linear differential equations for 
+the sway and yaw velocities; they can be solved for prescribed rudder angles 
+if the hydrodynamic and body-mass coefficients are specified. Generally a 
+digital or analog computer must be used for this purpose, but a few qualita­
+tive conclusions can be drawn here without elaborate analysis. To simplify 
+the discussion as much as possible, we shall assume that the longitudinal 
+position of the origin is chosen such that
+M
+M
+S
+
+
+
++
+=
+. 	
+(62)
+For a ship in steady-state motion, with the initial conditions U3 = Ω2 = 
+0, the response to a sudden change of rudder angle can be approximated 
+by considering only the acceleration terms in (60–61). Thus for the initial 
+period of time before the sway and yaw velocities develop substantial val­
+ues, it follows that
+U
+T U
+m
+m
+t
+S
+R
+
+
+
+
+
+
+
+=
++
+
+
+
+
+πρ
+δ ( ), 	
+(63)
+Ω2
+
+
+
+
+
+
+
+=
+−
++
+
+
+
+
+πρ
+δ
+T U x
+m
+M
+t
+T
+S
+R( ). 	
+(64)

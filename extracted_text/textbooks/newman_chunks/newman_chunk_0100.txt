@@ -1,0 +1,91 @@
+R ( ) [( ) ] ( ) [( ) ] . / / (47) In particular, setting x = 0 gives equation (36) for the maximum radius of the body, and it is apparent that the stream function was used implicitly in (36). 4.7 The Complex Potential In the case of plane two-dimensional flows, analytic functions of a complex variable can be used to represent the velocity field. This allows us to exploit a wide variety of mathematical tools.
+
+Chapter 4
+Let us assume that the flow depends only on the coordinates x and y, 
+which are taken to be the real and imaginary parts of the complex variable 
+z = x + iy. We define the complex potential F(z) to be
+F z
+i
+( )
+,
+=
++
+φ
+ψ
+	
+(48)
+where ϕ is the velocity potential and ψ the stream function. Since the two 
+velocity components can be determined by differentiating either of these 
+real functions, it follows that
+u
+x
+y
+v
+y
+x
+= ∂
+∂
+= ∂
+∂
+= ∂
+∂
+= −∂
+∂
+φ
+ψ
+φ
+ψ
+/
+/
+,
+/
+/
+,
+or the real and imaginary parts of F satisfy the Cauchy-Riemann equations. 
+Therefore the complex potential F is an analytic function of the complex 
+variable z, and its derivative is
+dF
+dz
+u
+iv
+=
+−
+. 	
+(49)
+Conversely, any analytic function defines a complex potential, and its 
+derivative is a plausible velocity field. Some simple analytic functions with 
+corresponding velocity fields are listed in table 4.1.
+An example of particular interest in two dimensions is the corner flow 
+F(z) = zn, which gives the flow interior to a sector of included angle π/n. This 
+can be verified by using polar coordinates, z = reiθ, and writing the com­
+plex potential as F(z) = rneinθ. Since the imaginary part is zero on θ = 0 and 
+θ = π/n, these are streamlines of the flow. Special cases of particular inter­
+est are n = 2, or the flow interior to a right angle, and n = 1/2 which gives 
+the exterior flow around the edge of a semi-infinite flat plate. Both cases 
+are illustrated in figure 4.4. A significant difference between these is the 
+local behavior near the origin. The case n = 2 has a stagnation point. This is 
+Table 4.1
+Simple Examples of Complex Potentials and the Corresponding Velocity Fields
+F(z)
+u − iv
+Type of Flow
+Uz
+U
+Stream
+log z
+1/z
+Source
+1/z
+−1/z
+
+Dipole
+Uz + A/z
+U − A/z
+
+Stream of velocity U flowing past a circle of radius (A/U)
+1/2
+z
+n
+n z
+n−1
+Corner flow within a sector of angle π/n.

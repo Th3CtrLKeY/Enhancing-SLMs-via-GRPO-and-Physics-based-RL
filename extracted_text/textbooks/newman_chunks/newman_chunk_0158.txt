@@ -1,0 +1,165 @@
+ξ ξ ξ (85) Recalling the discussion following figure 5.13, the limiting behavior of (85) on the cut is given by H z i x 1 2 ( ) ( ) , →± − − π (86) for z → x ± i0, where the real part, H0(x), vanishes by virtue of (81). Since (85) is an analytic function of z, it follows that H z z 1 2 ( ) ( ) , = − − − π (87)
+
+Lifting Surfaces 
+
+since this is the only analytic function consistent with (86). Here the 
+branch of the square root is prescribed so that H0(z) ≃ −π/z at infinity, a 
+result which can be derived independently from (85) using (79). For z = x 
+outside the cut, the desired result follows in the form
+H
+x
+x
+x
+x
+
+
+1 2
+
+
+
+( )
+(
+)
+,
+=
+−
+>
+< −
+
+−
+∓π
+	
+(88)
+Analogous expressions for Hn(x) can be deduced from (82).
+The family of integrals (80) can be expressed in an alternative and par­
+ticularly useful form, by making the substitutions x = cos χ. ξ = cos θ. Since 
+cosnθ can be expressed as a finite Fourier series involving typical terms of 
+the form cos mθ, m ≤ n, we consider the family
+G
+n d
+n( )
+cos
+cos
+cos
+;
+χ
+θ θ
+θ
+χ
+π
+=
+−
+∫
+
+−
+	
+(89)
+these are known as Glauert integrals. From (81), (83), and (84) it is apparent 
+that the first three members are
+G0
+
+=
+, 	
+(90)
+G1 = π, 	
+(91)
+G2
+
+=
+π
+χ
+cos . 	
+(92)
+More generally,
+G
+n
+n = π
+χ
+χ
+sin
+sin
+. 	
+(93)
+This simple result can be confirmed by using the addition formula
+cos(
+)
+cos(
+)
+cos
+cos ,
+n
+n
+n
++
++
+−
+=
+
+
+
+θ
+θ
+θ
+θ
+	
+(94)
+to derive from (89) the recursion relation
+G
+G
+G
+n d
+n
+n
+n
+n
++
+−
++
+−
+=
+=
+≥
+∫
+
+
+
+
+
+
+cos
+cos
+,
+.
+χ
+θ θ
+π
+	
+(95)
+Using the addition formula
+sin(
+)
+sin(
+)
+cos
+sin
+,
+n
+n
+n
++
++
+−
+−
+=
+
+
+
+
+χ
+χ
+χ
+χ
+	
+(96)
+we find that (93) satisfies (95). Since it is consistent with (90–92), it must 
+hold in general.

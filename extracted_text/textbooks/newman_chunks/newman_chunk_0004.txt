@@ -1,0 +1,41 @@
+in offshore engineering. Quadratic and higher-order wave effects may be studied using other texts. The introduction of Morison’s equation—a coefficient-based force for­ mulation, particularly suitable for slender geometries—is motivated by the dimensional analysis in chapter 2. It is directly related to the long-wave analysis of the wave effects part of chapter 6. The viscous drag term included in Morison’s equation is not modeled by the potential theory analysis of chapter 6, however. Chapter 2 introduces the concept of added mass—an
+
+xiv 
+Foreword
+inertia effect due to the accelerated mass of the surrounding fluid. It con­
+tributes in a similar way to the mass of a body in classical mechanics. In 
+chapter 4—also directly related to the wave effects part of chapter 6—the 
+forces and moments on a geometry moving in the six degrees of freedom, 
+in unbounded fluid, are derived on exact form, expressed in terms of the 
+six-by-six added mass matrix. This elegant, exact analysis is directly suit­
+able as a model of the motion of a remotely operated underwater vehicle 
+(ROV).
+The ways in which animals swim and fly, airplanes and ski jumpers con­
+trol their flight, and a yacht sails across the water are the result of flow at 
+thin streamlined bodies. Chapter 5 introduces the fundamentals of the flow 
+and force on a lifting surface. Moreover, it describes the propulsive force 
+created by a wing’s flapping motion. The lift problem of a two-dimensional 
+foil section is analyzed in the beginning of the chapter—a starting point 
+in the training of candidates for the growing wind power industry. The 
+sharp trailing edge of the wing enforces the flow velocity to be finite, 
+imposed mathematically by the Kutta condition, controlling the initial 
+flow separation.
+The mathematical modeling in this book is represented by partial differ­
+ential equations (PDEs). The solution methods of field equations in marine 
+hydrodynamics—commonly the Laplace equation—differ fundamentally 
+from the common solution methods of PDEs. The main reason is this: The 
+cause of the motion (the geometry) is local whereas the motion is global 
+(the infinite extension of the wave field). Popular methods for solving 
+partial differential equations are often based on volume methods, either 
+difference methods or variants of the finite element method. The special 
+method of separation of variables employs sets of orthogonal functions 
+particularly fitted to geometries of special shape. However, for floating or 
+submerged large-volume geometries of arbitrary shape, use of integral equa­
+tions is unsurpassed and is a standard method in marine hydrodynamics. 
+This method is extensively used in the offshore industry. The formulation, 
+in terms of integral equations, is directly related to the scattering and radia­
+tion problems in theoretical physics, although the wave Green functions 
+differ. The application of multipole expansions including the surface wave 
+effects is an efficient, accurate, and convergent method that has found a 
+lesser application in the industry. Thus, chapter 4 involves solving PDEs 
+for the flow in an unbounded fluid by use of integral equations expressed

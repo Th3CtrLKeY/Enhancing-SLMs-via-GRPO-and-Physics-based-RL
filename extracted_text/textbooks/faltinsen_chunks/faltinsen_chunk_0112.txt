@@ -1,0 +1,72 @@
+downstream stagnation point of the body. For bodies with a sharp corner d@/dx is infinite. From equation (7.11) it follows that separation occurs immediately at sharp corners. Let us study a circular cylinder. This means . x P(x) =2 sing with x =0 and x = 2R corresponding to the forward and aft stagnation - points on the cylinder. The separation condition for a circular cylinder can then be written as au x afi tf KC cos 5 = 0
+
+232 VISCOUS WAVE LOADS AND DAMPING
+
+This means that the separation angles + |9,| are found from
+
+x, - fi wu
+aatioooe | 2] |
+R cos fr IKC (7.12)
+From this it follows that separation starts at the aft stagnation point when
+fia
+—--=KC 7.13
+f2 (7.13)
+
+The left-hand side of (7.13) is a function of wet and U,/Uy. This
+function has been plotted in Fig. 7.3 for Uc/Uy=0. Equation (7.13)
+tells us directly at what time a flow with a given KC-value and U,/U,
+ratio will start to separate. Equation (7.12) can be used to find the
+separation angles as a function of time. Results from a numerical
+example are shown in Fig. 7.4 for KC = 3.1 and U./Uy=0. We note
+that the separation starts at time wt = 1.045. This can also be seen from
+Fig. 7.3. The limiting KC-values KC,,, for separation to occur, will be
+
+204 f
+
+N|A
+
+UL
+
+0.5 1.0 1.5 2.0 wt
+Fig. 7.3. Calculation of the laminar boundary layer functions f, and f (see
+equation (7.11)) for sinusoidal ambient velocity start-up flow. The
+data are presented as a function of non-dimensionalized time wt.
+The current velocity is zero.
+
+FLOW SEPARATION 233
+
+the KC-value where separation starts at wt = 2/2 +a. When U.,/Um=0
+this will be the value of 0.5f;/f. at wt = 2/2 (see equation (7.13) and
+Fig. 7.3). Thus KCjm equals 1.2.
+
+This procedure can be generalized to axisymmetric flow. Values for
+KC;,,,, are presented in Fig. 7.5 for a circle and a sphere as a function of
+U,/Um,. The results presented in Fig. 7.5 do not depend on Reynolds
+number. The reason is that the separation point determination expressed
+by (7.12) is Reynolds number independent. This is based on the
+assumption of laminar, high Reynolds number start up flow.
+
+In the case of a sphere we may compare the KC-values for which
+separation occurs with the experimental values observed by Zhao et al.
+(1988). They investigated a hemisphere of diameter 1 m. In calm water
+the centre of the hemisphere was at the still water free-surface level.
+Visualization tests were performed to study the occurrence of flow
+separation around the hemisphere in combined current and regular
+waves. The model was restrained from oscillating. Only the flow at the
+free-surface was examined by placing confetti with a diameter of 3 mm
+on the water surface and taking photographs. When the separated region
+is very close to the body the confetti technique may not be effective
+
+Os
+
+T (1.045, 1c )
+
+T/2
+
+rr —
+41 1.2 1.3 1.4 1.5 1.6 wt
+Fig. 7.4. Time development of separation angle @, around a circular cylinder.
+(@ = 0 corresponds to the upstream stagnation point on the
+cylinder.) The ambient flow velocity is sinusoidal and zero at wt = 0,
+KC = 3.1. U./Uy = 0. (KC and U,/U defined in the beginning of
+the chapter.) .

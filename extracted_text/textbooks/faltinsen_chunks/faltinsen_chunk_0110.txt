@@ -1,0 +1,102 @@
+of the simulated wake picture by the vortex sheet model of Faltinsen & Pettersen (1987) is presented in Fig. 7.1. The figure shows Fig. 7.1. Free shear layer positions at different times for oscillatory crossflow past a flat plate. KC = UmT/H = a (Uy = velocity amplitude of the ambient flow, T = oscillation period, H = half the height of the plate). Uyt/H = 0.784, 1.584, 1.984, 2.384, 3.184, 3.984, 4.784, 5.584, 6.384, 6.984 (Faltinsen & Pettersen, 1987.)
+
+228 VISCOUS WAVE LOADS AND DAMPING
+
+oscillatory crossflow past a flat plate at different time steps. The arrow
+indicates the magnitude and direction of the instantaneous free-stream
+velocity. It seems that one pair of vortices return to the body in the last
+picture. This creates numerical problems. For larger amplitudes of
+oscillation of the ambient fluid, i.e. KC>6-8, asymmetry develops in
+the wake. From flow visualizations it is seen that this causes vortices to
+pair and travel away from the plate.
+
+In the following text we will base our discussion on viscous loads
+written in terms of Morison’s equation. This means we will discuss how
+Cp and Cy, depend on the parameters mentioned in the beginning of the
+chapter. In particular we will focus on the effect of body form and
+KC-number. For small KC-numbers the results have relevance for
+various damping problems. The results for large KC-numbers have
+relevance for wave loads on a jacket platform in extreme wave conditions.
+The structural members of a jacket have characteristic cross-dimensional
+diameters D of about | m. In a regular design wave with a return period
+of 100 years, the wave height H may be 30 m. This means the maximum
+KC-number in this case is KC = tH/D = 94.
+
+Occurrence of flow separation strongly affects the drag forces. We will
+start out by discussing this and later on in the text discuss results for
+higher KC-numbers.
+
+FLOW SEPARATION
+When viscous effects matter for offshore structures, the flow will
+generally separate. A consequence of separation is that pressure forces
+due to viscous effects are more important than shear forces. There is
+some confusion about what is precisely meant by separation in unsteady
+flow. There is obviously no disagreement that the flow has separated if
+vortices can be clearly observed in the fluid, but it is difficult to set a
+precise limit on when one would call a flow separated or not separated.
+There is a need for this if approximate analytical and numerical methods
+are used for a description of the flow. Telionis (1981) has discussed
+criteria for flow separation in unsteady flow. One definition is: ‘Unsteady
+separation occurs when a singularity develops in the classical boundarylayer equations’. Even if the boundary layer equations do not describe
+the physical fluid behaviour exactly around a separation point, one might
+argue that the occurrence of a singularity in the mathematical solution is
+an indication that the flow breaks strongly away from the body. On the
+other hand one might question if this is a sufficient description of
+separation in unsteady flow. The flow may also be called separated if it
+does not break strongly away from the body, for instance if there is a thin
+recirculating wake close to the body. A necessary requirement for a
+recirculating wake to be present in a two-dimensional flow is that the
+shear stress is zero at a point on. the body surface, i.e. that the shear
+
+FLOW SEPARATION 229
+
+stress changes sign. This is the normal separation criteria for steady
+incident flow. For unsteady flow Telionis prefers to call the point of zero
+skin friction the ‘detachment’ point.
+
+The flow around blunt-shaped marine structures with no sharp
+corners will not separate in oscillatory fluid motion at very low
+Keulegan—Carpenter numbers. On the other hand the flow around
+blunt-shaped marine structures will always separate in a steady current.
+In the case of combined incident current and oscillatory fluid motion
+around a blunt-shaped marine structure with no sharp corners it
+depends on the relative current number (see definition in the beginning
+of the section) if there exists a limiting KC-number for the flow to
+separate. Roughly speaking one may say there is a possibility that the
+flow will not separate if the ambient flow velocity in the current direction
+changes sign with time.
+
+Sarpkaya (1986) has experimentally examined circular cylinders at low
+KC-numbers for different Reynolds numbers. No current was present.
+Sarpkaya reported separation occurring for KC-numbers as low as 1.25.
+
+The fact that the flow separates does not mean that vortices or vortex
+shedding are easily observed. For instance, Bearman (1985) states in a
+paper, previous to Sarpkaya (1986), that nobody seems to have observed
+vortices at KC-values less than three. However, observation of vortices
+does not necessarily mean that vortices are convected away from the
+vicinity of the body, i.e. that vortex shedding occurs. For instance,
+Bearman et al. (1981) studied a flow around a circular cylinder at KC = 4
+where a pair of vortices generated during one half cycle did not survive
+into the next half cycle. When the flow reversed and the vortices were
+convected back to the cylinder, their circulations appeared to be
+cancelled by vorticity of opposite sign in the boundary layer of the
+cylinder. A systematic study of when vortex shedding starts has not been
+attempted, but as an example, Williamson (1985) reported symmetric
+vortex shedding occurring for a KC as low as four. By comparing this
+case to Bearman et al.’s (1981) studies, it is obvious that it is not only KC
+that determines when vortex shedding starts: for instance the Reynolds
+number must also be an important parameter.
+
+By analysing high Reynolds number laminar start-up flow around
+bodies, we can determine in a qualitative way when flow separation
+occurs for subcritical flows.
+
+Consider a two-dimensional stationary body in a high Reynolds
+number flow. Outside the body the fluid domain extends to infinity. The
+boundary layer on the body surface is assumed to be thin and laminar.
+The ambient flow velocity U.. is written as
+
+U..= Uy sin(wt — vw) + U, (7.5)
+
+where Uy, U, are constants, ¢ is the time variable, w =22/T is the

@@ -1,0 +1,3089 @@
+[
+  {
+    "index": 0,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0078.txt",
+    "answer_raw": "Isotropic relation",
+    "options": {
+      "A": "Laminar flow assumption",
+      "B": "Turbulent flow assumption",
+      "C": "Isotropic relation",
+      "D": "Reynolds number independence"
+    },
+    "mcq_letter": "C",
+    "original_record_index": 0
+  },
+  {
+    "index": 1,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0165.txt",
+    "answer_raw": "γ_T(z) = -0.4z m^2/s^2",
+    "original_record_index": 1
+  },
+  {
+    "index": 3,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0017.txt",
+    "answer_raw": "0.552 m/s",
+    "original_record_index": 3
+  },
+  {
+    "index": 4,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0079.txt",
+    "answer_raw": "0.00005",
+    "original_record_index": 4
+  },
+  {
+    "index": 5,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0280.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The small radius of the body compared to its length",
+      "B": "The high density of the fluid",
+      "C": "The low velocity of the body",
+      "D": "The large volume of the body"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 5
+  },
+  {
+    "index": 6,
+    "type": "mcq",
+    "source": "MIT OCW 2.20 Lecture Notes — lecture16.txt",
+    "answer_raw": "B",
+    "options": {
+      "A": "The velocity of the flow",
+      "B": "The Strouhal number",
+      "C": "The viscosity of the fluid",
+      "D": "The density of the fluid"
+    },
+    "mcq_letter": "B",
+    "original_record_index": 6
+  },
+  {
+    "index": 7,
+    "type": "numerical",
+    "source": "MIT OCW 2.29 Numerical Hydrodynamics — rigid_objects.txt",
+    "answer_raw": "5012250 N/m",
+    "original_record_index": 7
+  },
+  {
+    "index": 8,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0011.txt",
+    "answer_raw": "0.0316 m",
+    "original_record_index": 8
+  },
+  {
+    "index": 9,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0233.txt",
+    "answer_raw": "0.035",
+    "original_record_index": 9
+  },
+  {
+    "index": 10,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0081.txt",
+    "answer_raw": "0.565",
+    "original_record_index": 10
+  },
+  {
+    "index": 12,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0132.txt",
+    "answer_raw": "0.663 * ρ * π",
+    "options": {
+      "A": "0.5 * ρ * π",
+      "B": "0.663 * ρ * π",
+      "C": "1.0 * ρ * π",
+      "D": "2.0 * ρ * π"
+    },
+    "mcq_letter": "B",
+    "original_record_index": 12
+  },
+  {
+    "index": 16,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0016.txt",
+    "answer_raw": "1.28 seconds",
+    "original_record_index": 16
+  },
+  {
+    "index": 17,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0303.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The Froude number is assumed to be O(1).",
+      "B": "The Froude number is assumed to be much less than 1.",
+      "C": "The Froude number is assumed to be much greater than 1.",
+      "D": "The Froude number is not considered in the analysis."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 17
+  },
+  {
+    "index": 18,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0207.txt",
+    "answer_raw": "4.15 m/s",
+    "original_record_index": 18
+  },
+  {
+    "index": 21,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0333.txt",
+    "answer_raw": "98100 J/m^2",
+    "original_record_index": 21
+  },
+  {
+    "index": 24,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0141.txt",
+    "answer_raw": "200,000 N",
+    "original_record_index": 24
+  },
+  {
+    "index": 25,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0236.txt",
+    "answer_raw": "1",
+    "original_record_index": 25
+  },
+  {
+    "index": 26,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0093.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Fixing separation points along the bilge keel",
+      "B": "Increasing the drag coefficient",
+      "C": "Reducing the wetted surface area",
+      "D": "Enhancing the block coefficient"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 26
+  },
+  {
+    "index": 27,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0151.txt",
+    "answer_raw": "0.4",
+    "original_record_index": 27
+  },
+  {
+    "index": 28,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0132.txt",
+    "answer_raw": "346.41 m/s",
+    "original_record_index": 28
+  },
+  {
+    "index": 30,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0116.txt",
+    "answer_raw": "-20000 N",
+    "original_record_index": 30
+  },
+  {
+    "index": 32,
+    "type": "mcq",
+    "source": "MIT OCW 2.29 Numerical Hydrodynamics — calculus_results.txt",
+    "answer_raw": "B",
+    "options": {
+      "A": "To calculate the pressure forces on an object",
+      "B": "To derive the equations of motion for fluids, including the Navier-Stokes equations",
+      "C": "To determine the velocity of a fluid at a given point",
+      "D": "To find the density of a fluid"
+    },
+    "mcq_letter": "B",
+    "original_record_index": 32
+  },
+  {
+    "index": 33,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0113.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The ability of the flow to rotate around the cylinder in circular ambient flow.",
+      "B": "The density of the fluid.",
+      "C": "The frequency of the waves.",
+      "D": "The diameter of the cylinder."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 33
+  },
+  {
+    "index": 35,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0052.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Linear relationship between stress tensor and velocity gradients",
+      "B": "Non-linear relationship between stress tensor and velocity gradients",
+      "C": "Constant viscosity",
+      "D": "Zero viscosity"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 35
+  },
+  {
+    "index": 36,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0047.txt",
+    "answer_raw": "9",
+    "original_record_index": 36
+  },
+  {
+    "index": 38,
+    "type": "numerical",
+    "source": "MIT OCW 2.29 Numerical Hydrodynamics — appendix.txt",
+    "answer_raw": "8941.25 N",
+    "original_record_index": 38
+  },
+  {
+    "index": 39,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0280.txt",
+    "answer_raw": "0.000314 kg",
+    "original_record_index": 39
+  },
+  {
+    "index": 40,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0281.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The body is long and thin, with a small cross-sectional area",
+      "B": "The body is short and wide, with a large cross-sectional area",
+      "C": "The fluid is inviscid and incompressible",
+      "D": "The flow is turbulent and unsteady"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 40
+  },
+  {
+    "index": 41,
+    "type": "numerical",
+    "source": "MIT OCW 2.20 Lecture Notes — lecture09.txt",
+    "answer_raw": "The velocity potential is -13.5 J/kg.",
+    "original_record_index": 41
+  },
+  {
+    "index": 42,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0046.txt",
+    "answer_raw": "1.67 x 10^9",
+    "original_record_index": 42
+  },
+  {
+    "index": 43,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0336.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Pressure difference between the front and back of the sphere",
+      "B": "Viscous friction at the surface of the sphere",
+      "C": "Turbulence in the flow",
+      "D": "Compressibility of the fluid"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 43
+  },
+  {
+    "index": 44,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0025.txt",
+    "answer_raw": "1.9048 × 10^7",
+    "original_record_index": 44
+  },
+  {
+    "index": 45,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0109.txt",
+    "answer_raw": "-0.02998",
+    "original_record_index": 45
+  },
+  {
+    "index": 46,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0028.txt",
+    "answer_raw": "0.075",
+    "original_record_index": 46
+  },
+  {
+    "index": 47,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0268.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The buoy's small cross-sectional area relative to its length reduces the effect of added mass and damping.",
+      "B": "The material of the buoy is highly dense, making its mass dominate over hydrodynamic effects.",
+      "C": "The buoy operates in very shallow water, which alters the hydrodynamic regime.",
+      "D": "The frequency of the waves is very high, making added mass and damping negligible."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 47
+  },
+  {
+    "index": 48,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0100.txt",
+    "answer_raw": "u = 2x, v = -2y",
+    "original_record_index": 48
+  },
+  {
+    "index": 50,
+    "type": "mcq",
+    "source": "MIT OCW 2.29 Numerical Hydrodynamics — bondry_layers.txt",
+    "answer_raw": "Dissipation of kinetic energy due to turbulent eddies",
+    "options": {
+      "A": "Viscous forces acting on the surface",
+      "B": "Pressure forces acting on the surface",
+      "C": "Heat transfer from the surface",
+      "D": "Dissipation of kinetic energy due to turbulent eddies"
+    },
+    "mcq_letter": "D",
+    "original_record_index": 50
+  },
+  {
+    "index": 51,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0160.txt",
+    "answer_raw": "0.00307",
+    "original_record_index": 51
+  },
+  {
+    "index": 52,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0043.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Pressure difference and fluid velocity",
+      "B": "Fluid viscosity and surface tension",
+      "C": "Fluid density and temperature",
+      "D": "Propeller pitch and angle of attack"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 52
+  },
+  {
+    "index": 53,
+    "type": "mcq",
+    "source": "MIT OCW 2.20 Problem Sets — challenge_03.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Velocity gradient and pressure gradient interaction",
+      "B": "Turbulence and flow separation",
+      "C": "Viscous dissipation and heat transfer",
+      "D": "Compressibility and acoustic effects"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 53
+  },
+  {
+    "index": 54,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0081.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The magnitude of the roughness elements relative to the boundary layer thickness",
+      "B": "The Reynolds number of the flow",
+      "C": "The free-stream velocity",
+      "D": "The kinematic viscosity of the fluid"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 54
+  },
+  {
+    "index": 56,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0005.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Integral equations",
+      "B": "Differential equations",
+      "C": "Finite element method",
+      "D": "Boundary element method"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 56
+  },
+  {
+    "index": 57,
+    "type": "numerical",
+    "source": "MIT OCW 2.20 Lecture Notes — lecture17.txt",
+    "answer_raw": "θ = 0.00133 m",
+    "original_record_index": 57
+  },
+  {
+    "index": 58,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0243.txt",
+    "answer_raw": "D",
+    "options": {
+      "A": "The damping coefficients are inversely proportional to the wave amplitude.",
+      "B": "The damping coefficients are unrelated to the wave amplitude.",
+      "C": "The damping coefficients are proportional to the square of the wave amplitude.",
+      "D": "The damping coefficients are directly proportional to the wave amplitude."
+    },
+    "mcq_letter": "D",
+    "original_record_index": 58
+  },
+  {
+    "index": 62,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0085.txt",
+    "answer_raw": "-1025 Pa/m",
+    "original_record_index": 62
+  },
+  {
+    "index": 63,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0074.txt",
+    "answer_raw": "1000",
+    "original_record_index": 63
+  },
+  {
+    "index": 64,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0153.txt",
+    "answer_raw": "Given the complexity of manual calculations for square roots of complex numbers and the lack of specific numerical values for u and v, let's simplify with example values: if u = 2, v = 3, the new pseudo-velocity function would depend on the calculated transformation. However, without explicit values for u and v, we acknowledge the process involves applying the transformation (1 - z^2)^1/2 to u - iv.",
+    "original_record_index": 64
+  },
+  {
+    "index": 65,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0135.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Change in water density near the surface",
+      "B": "Increase in propeller submergence",
+      "C": "Decrease in wave amplitude",
+      "D": "Increase in ship's speed"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 65
+  },
+  {
+    "index": 67,
+    "type": "mcq",
+    "source": "MIT OCW 2.20 Lecture Notes — lecture21.txt",
+    "answer_raw": "Vg = Vp / 2",
+    "options": {
+      "A": "Vg = Vp",
+      "B": "Vg = Vp / 2",
+      "C": "Vg = 2 * Vp",
+      "D": "Vg = Vp^2"
+    },
+    "mcq_letter": "B",
+    "original_record_index": 67
+  },
+  {
+    "index": 69,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0150.txt",
+    "answer_raw": "u(z) = -0.159 - 0.318i",
+    "original_record_index": 69
+  },
+  {
+    "index": 70,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0095.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The pressure is symmetric about the z-axis",
+      "B": "The velocity potential is antisymmetric about the z-axis",
+      "C": "The current velocity is zero",
+      "D": "The ship is not moving"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 70
+  },
+  {
+    "index": 71,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0117.txt",
+    "answer_raw": "4",
+    "original_record_index": 71
+  },
+  {
+    "index": 72,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0174.txt",
+    "answer_raw": "D",
+    "options": {
+      "A": "The induced drag increases",
+      "B": "The induced drag remains constant",
+      "C": "The induced drag decreases, but only for small aspect ratios",
+      "D": "The induced drag decreases, approaching zero for very high aspect ratios"
+    },
+    "mcq_letter": "D",
+    "original_record_index": 72
+  },
+  {
+    "index": 74,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0080.txt",
+    "answer_raw": "0.00005832",
+    "original_record_index": 74
+  },
+  {
+    "index": 76,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0096.txt",
+    "answer_raw": "To absorb the fluid emitted by the source",
+    "options": {
+      "A": "To increase the free-stream velocity",
+      "B": "To decrease the source strength",
+      "C": "To absorb the fluid emitted by the source",
+      "D": "To change the direction of the flow"
+    },
+    "mcq_letter": "C",
+    "original_record_index": 76
+  },
+  {
+    "index": 77,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0302.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Ship's velocity",
+      "B": "Wave frequency",
+      "C": "Angle of incidence",
+      "D": "Wave amplitude"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 77
+  },
+  {
+    "index": 79,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0091.txt",
+    "answer_raw": "211.925",
+    "original_record_index": 79
+  },
+  {
+    "index": 80,
+    "type": "numerical",
+    "source": "MIT OCW 2.20 Lecture Notes — lecture02.txt",
+    "answer_raw": "Given the errors in calculation and explanation, let's directly address the substantial derivative for the given velocity field v(x,y,t) = (2x+t, y^2) at point (1,2) and t=1. The substantial derivative Dv/Dt = ∂v/∂t + v·∇v, where ∂v/∂t = (1, 0) and v·∇v needs correct calculation considering the spatial gradients of v. However, my explanation misapplied the dot product and incorrectly calculated the substantial derivative. The correct calculation should directly apply the formula with proper consideration of the velocity field's spatial and temporal derivatives, acknowledging the mistake in the provided step-by-step calculation.",
+    "original_record_index": 80
+  },
+  {
+    "index": 81,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0211.txt",
+    "answer_raw": "R",
+    "options": {
+      "A": "Wavenumber k",
+      "B": "Angular frequency ω",
+      "C": "Amplitude A",
+      "D": "Reflection coefficient R"
+    },
+    "mcq_letter": "R",
+    "original_record_index": 81
+  },
+  {
+    "index": 82,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0229.txt",
+    "answer_raw": "4 m/s",
+    "original_record_index": 82
+  },
+  {
+    "index": 84,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0056.txt",
+    "answer_raw": "u(y) = -5000 * y * (0.1 - y) + 5 * (y/0.1) = -500y + 5000y^2 + 50y = 5000y^2 - 450y",
+    "original_record_index": 84
+  },
+  {
+    "index": 87,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0177.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "To evaluate the integrals with respect to ξ in the expression for q(x)",
+      "B": "To derive the Kutta condition for cavity flow",
+      "C": "To calculate the velocity and pressure distribution on the strut",
+      "D": "To determine the source strength on the strut"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 87
+  },
+  {
+    "index": 89,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0109.txt",
+    "answer_raw": "35529.25 N",
+    "original_record_index": 89
+  },
+  {
+    "index": 90,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0134.txt",
+    "answer_raw": "0.57",
+    "original_record_index": 90
+  },
+  {
+    "index": 94,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0125.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "To achieve greater stiffness and lighter anchor lines",
+      "B": "To reduce the cost of the mooring system",
+      "C": "To increase the complexity of the mooring system",
+      "D": "To decrease the stability of the structure"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 94
+  },
+  {
+    "index": 95,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0145.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "To ensure a smooth flow at the trailing edge and calculate the circulation",
+      "B": "To calculate the lift coefficient directly",
+      "C": "To determine the angle of attack",
+      "D": "To find the moment axis"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 95
+  },
+  {
+    "index": 100,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0017.txt",
+    "answer_raw": "5 meters per second",
+    "original_record_index": 100
+  },
+  {
+    "index": 101,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0289.txt",
+    "answer_raw": "5483.2 N",
+    "original_record_index": 101
+  },
+  {
+    "index": 103,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0026.txt",
+    "answer_raw": "25",
+    "original_record_index": 103
+  },
+  {
+    "index": 104,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0201.txt",
+    "answer_raw": "Vp ≈ 8.84 m/s",
+    "original_record_index": 104
+  },
+  {
+    "index": 107,
+    "type": "mcq",
+    "source": "MIT OCW 2.20 Lecture Notes — lecture10.txt",
+    "answer_raw": "1/r * ∂/∂r(r * ∂φ/∂r) + 1/r² * ∂²φ/∂θ² + ∂²φ/∂z² = 0",
+    "options": {
+      "A": "∂²φ/∂r² + 1/r * ∂φ/∂r + 1/r² * ∂²φ/∂θ² + ∂²φ/∂z² = 0",
+      "B": "1/r * ∂/∂r(r * ∂φ/∂r) + 1/r² * ∂²φ/∂θ² + ∂²φ/∂z² = 0",
+      "C": "∂²φ/∂r² + 1/r * ∂φ/∂r + ∂²φ/∂θ² + 1/r² * ∂²φ/∂z² = 0",
+      "D": "1/r * ∂/∂r(r * ∂φ/∂r) + ∂²φ/∂θ² + 1/r² * ∂²φ/∂z² = 0"
+    },
+    "mcq_letter": "B",
+    "original_record_index": 107
+  },
+  {
+    "index": 108,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0314.txt",
+    "answer_raw": "7143.75 kg/m",
+    "original_record_index": 108
+  },
+  {
+    "index": 109,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0068.txt",
+    "answer_raw": "20130 N/m",
+    "original_record_index": 109
+  },
+  {
+    "index": 110,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0144.txt",
+    "answer_raw": "0.3707",
+    "original_record_index": 110
+  },
+  {
+    "index": 111,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0184.txt",
+    "answer_raw": "-1 m^2",
+    "original_record_index": 111
+  },
+  {
+    "index": 112,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0215.txt",
+    "answer_raw": "20196.9 J/m^2",
+    "original_record_index": 112
+  },
+  {
+    "index": 116,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0086.txt",
+    "answer_raw": "0.3 s^-1",
+    "original_record_index": 116
+  },
+  {
+    "index": 117,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0079.txt",
+    "answer_raw": "0.071 meters",
+    "original_record_index": 117
+  },
+  {
+    "index": 118,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0036.txt",
+    "answer_raw": "0.065",
+    "original_record_index": 118
+  },
+  {
+    "index": 119,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0051.txt",
+    "answer_raw": "19 m/s^2",
+    "original_record_index": 119
+  },
+  {
+    "index": 120,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0282.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The strip theory approach neglects hydrodynamic interactions between adjacent sections of the body.",
+      "B": "The strip theory approach assumes a constant density of the surrounding fluid.",
+      "C": "The strip theory approach is only applicable to bodies with a small diameter-length ratio.",
+      "D": "The strip theory approach is only applicable to bodies with a large diameter-length ratio."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 120
+  },
+  {
+    "index": 121,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0156.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "To ensure smooth flow separation at the trailing edge",
+      "B": "To maximize the lift generated by the airfoil",
+      "C": "To minimize the drag experienced by the airfoil",
+      "D": "To simplify the mathematical analysis of flow around the airfoil"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 121
+  },
+  {
+    "index": 124,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0337.txt",
+    "answer_raw": "0.25",
+    "original_record_index": 124
+  },
+  {
+    "index": 125,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0229.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Amplitude and direction of the waves",
+      "B": "Group velocity of the waves",
+      "C": "Frequency of the waves",
+      "D": "Wavelength of the waves"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 125
+  },
+  {
+    "index": 127,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0166.txt",
+    "answer_raw": "0.1 m^2/s^2",
+    "original_record_index": 127
+  },
+  {
+    "index": 133,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0309.txt",
+    "answer_raw": "-3868500π N",
+    "original_record_index": 133
+  },
+  {
+    "index": 134,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0083.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Reynolds number",
+      "B": "Mach number",
+      "C": "Froude number",
+      "D": "Euler number"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 134
+  },
+  {
+    "index": 135,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0218.txt",
+    "answer_raw": "λ ≈ 100.03 m, Vp ≈ 10.00 m/s",
+    "original_record_index": 135
+  },
+  {
+    "index": 137,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0337.txt",
+    "answer_raw": "200,000 N",
+    "original_record_index": 137
+  },
+  {
+    "index": 140,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0270.txt",
+    "answer_raw": "2.51 m/s",
+    "original_record_index": 140
+  },
+  {
+    "index": 141,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0201.txt",
+    "answer_raw": "u ≈ 0.744 m/s, v ≈ -0.676 m/s",
+    "original_record_index": 141
+  },
+  {
+    "index": 146,
+    "type": "numerical",
+    "source": "IIT Exam Papers — 2024_Mid_Spring_Naval_Architecture_NA20202_Marine_Hydrodynamics_MS_2024.txt",
+    "answer_raw": "5.03 m/s",
+    "original_record_index": 146
+  },
+  {
+    "index": 147,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0234.txt",
+    "answer_raw": "0.52 m/s",
+    "original_record_index": 147
+  },
+  {
+    "index": 148,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0103.txt",
+    "answer_raw": "6",
+    "original_record_index": 148
+  },
+  {
+    "index": 150,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0172.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Trailing vortices",
+      "B": "Bound vortices",
+      "C": "Free vortices",
+      "D": "Wing camber"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 150
+  },
+  {
+    "index": 151,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0171.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "It accounts for three-dimensional effects and induced velocities due to trailing vortices.",
+      "B": "It neglects the effects of viscosity and turbulence.",
+      "C": "It assumes a constant inflow velocity and angle of attack.",
+      "D": "It is limited to foils with a small aspect ratio."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 151
+  },
+  {
+    "index": 152,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0257.txt",
+    "answer_raw": "0.0041 m^(-1)",
+    "original_record_index": 152
+  },
+  {
+    "index": 155,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0102.txt",
+    "answer_raw": "B",
+    "options": {
+      "A": "To increase the drag force",
+      "B": "To suppress vortex-induced oscillations",
+      "C": "To reduce the current velocity",
+      "D": "To increase the natural frequency of the structure"
+    },
+    "mcq_letter": "B",
+    "original_record_index": 155
+  },
+  {
+    "index": 157,
+    "type": "numerical",
+    "source": "MIT OCW 2.20 Lecture Notes — lecture10.txt",
+    "answer_raw": "φ = m/2π * ln(√5) and ψ = m/2π * 1.107",
+    "original_record_index": 157
+  },
+  {
+    "index": 158,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0288.txt",
+    "answer_raw": "-7.1 × 10³",
+    "original_record_index": 158
+  },
+  {
+    "index": 163,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0130.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Displacement of the vessel or platform",
+      "B": "Weight of the cable per unit length",
+      "C": "Axial stiffness of the cable",
+      "D": "Environmental horizontal force"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 163
+  },
+  {
+    "index": 164,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0181.txt",
+    "answer_raw": "Even function of η",
+    "options": {
+      "A": "Odd function of ξ",
+      "B": "Even function of η",
+      "C": "Odd function of η",
+      "D": "Even function of ξ"
+    },
+    "mcq_letter": "B",
+    "original_record_index": 164
+  },
+  {
+    "index": 166,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0028.txt",
+    "answer_raw": "19305 N/m",
+    "original_record_index": 166
+  },
+  {
+    "index": 173,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0335.txt",
+    "answer_raw": "B",
+    "options": {
+      "A": "To reduce drag forces",
+      "B": "To account for compressibility effects",
+      "C": "To increase lift forces",
+      "D": "To simplify the flow equations"
+    },
+    "mcq_letter": "B",
+    "original_record_index": 173
+  },
+  {
+    "index": 176,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0164.txt",
+    "answer_raw": "18000 N",
+    "original_record_index": 176
+  },
+  {
+    "index": 177,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0001.txt",
+    "answer_raw": "5.58",
+    "original_record_index": 177
+  },
+  {
+    "index": 179,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0044.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "To reduce drag and increase speed",
+      "B": "To increase stability and reduce roll",
+      "C": "To improve maneuverability and reduce turning radius",
+      "D": "To increase payload capacity and reduce fuel consumption"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 179
+  },
+  {
+    "index": 180,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0062.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "It provides a simplification of the problem, allowing for a more accurate solution.",
+      "B": "It is a numerical method that can be used to solve any type of problem.",
+      "C": "It is a method that is only used in ship hydrodynamics.",
+      "D": "It is a method that is not useful for solving non-linear problems."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 180
+  },
+  {
+    "index": 182,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0238.txt",
+    "answer_raw": "208,119 N",
+    "original_record_index": 182
+  },
+  {
+    "index": 183,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0205.txt",
+    "answer_raw": "1.039m/s",
+    "original_record_index": 183
+  },
+  {
+    "index": 184,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0101.txt",
+    "answer_raw": "5.26",
+    "original_record_index": 184
+  },
+  {
+    "index": 186,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0001.txt",
+    "answer_raw": "φ = 5x",
+    "original_record_index": 186
+  },
+  {
+    "index": 187,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0022.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Smoothness of the body surface",
+      "B": "Velocity of the ambient flow",
+      "C": "Viscosity of the fluid",
+      "D": "Density of the fluid"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 187
+  },
+  {
+    "index": 190,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0034.txt",
+    "answer_raw": "0.086",
+    "original_record_index": 190
+  },
+  {
+    "index": 191,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0063.txt",
+    "answer_raw": "250 kN",
+    "original_record_index": 191
+  },
+  {
+    "index": 193,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0003.txt",
+    "answer_raw": "18816 N",
+    "original_record_index": 193
+  },
+  {
+    "index": 194,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0036.txt",
+    "answer_raw": "D",
+    "options": {
+      "A": "To account for surface tension effects",
+      "B": "To include the effects of viscosity on wave forces",
+      "C": "To simplify the calculation of wave frequencies",
+      "D": "To overcome the difficulty of scaling the Reynolds number in model tests"
+    },
+    "mcq_letter": "D",
+    "original_record_index": 194
+  },
+  {
+    "index": 196,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0069.txt",
+    "answer_raw": "0.0001 m",
+    "original_record_index": 196
+  },
+  {
+    "index": 197,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0266.txt",
+    "answer_raw": "D",
+    "options": {
+      "A": "The wavelength increases.",
+      "B": "The wavelength remains constant.",
+      "C": "The wavelength decreases slightly but then increases.",
+      "D": "The wavelength decreases."
+    },
+    "mcq_letter": "D",
+    "original_record_index": 197
+  },
+  {
+    "index": 198,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0114.txt",
+    "answer_raw": "14500π N",
+    "original_record_index": 198
+  },
+  {
+    "index": 200,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0192.txt",
+    "answer_raw": "-3141.59 N",
+    "original_record_index": 200
+  },
+  {
+    "index": 201,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0049.txt",
+    "answer_raw": "0.2 m³/s",
+    "original_record_index": 201
+  },
+  {
+    "index": 202,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0244.txt",
+    "answer_raw": "4.07",
+    "original_record_index": 202
+  },
+  {
+    "index": 204,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0104.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Numerical complexity of mapping arbitrary body profiles",
+      "B": "Inability to handle three-dimensional problems",
+      "C": "Limited to ideal fluids only",
+      "D": "Requires knowledge of fluid viscosity"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 204
+  },
+  {
+    "index": 207,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0033.txt",
+    "answer_raw": "31.77 seconds",
+    "original_record_index": 207
+  },
+  {
+    "index": 208,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0183.txt",
+    "answer_raw": "0.274",
+    "original_record_index": 208
+  },
+  {
+    "index": 213,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0058.txt",
+    "answer_raw": "2 Pa",
+    "original_record_index": 213
+  },
+  {
+    "index": 214,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0205.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The wave's interaction with the seabed or tank bottom",
+      "B": "The wave's reflection off the tank walls",
+      "C": "The wave's diffraction around obstacles",
+      "D": "The wave's refraction due to changes in water depth"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 214
+  },
+  {
+    "index": 215,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0110.txt",
+    "answer_raw": "-20000 m/s^2",
+    "original_record_index": 215
+  },
+  {
+    "index": 217,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0196.txt",
+    "answer_raw": "Approximately 222.3 meters",
+    "original_record_index": 217
+  },
+  {
+    "index": 219,
+    "type": "numerical",
+    "source": "MIT OCW 2.20 Lecture Notes — lecture13.txt",
+    "answer_raw": "-104.72 N",
+    "original_record_index": 219
+  },
+  {
+    "index": 221,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0099.txt",
+    "answer_raw": "80",
+    "original_record_index": 221
+  },
+  {
+    "index": 225,
+    "type": "numerical",
+    "source": "MIT OCW 2.20 Problem Sets — ps_03a.txt",
+    "answer_raw": "The mass flow rate of water at the inlet is 15.7 kg/s and at the outlet is 11.775 kg/s.",
+    "original_record_index": 225
+  },
+  {
+    "index": 226,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0066.txt",
+    "answer_raw": "6.09e-4",
+    "original_record_index": 226
+  },
+  {
+    "index": 228,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0035.txt",
+    "answer_raw": "0.25",
+    "original_record_index": 228
+  },
+  {
+    "index": 233,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0126.txt",
+    "answer_raw": "19634.95 kg",
+    "original_record_index": 233
+  },
+  {
+    "index": 234,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0315.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "To determine the arbitrary function f(x, t) that affects the pressure distribution and resulting forces on the body.",
+      "B": "To calculate the velocity of the streaming flow in the inner region.",
+      "C": "To solve the two-dimensional Laplace equation for Φ1.",
+      "D": "To find the net flux Q."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 234
+  },
+  {
+    "index": 235,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0112.txt",
+    "answer_raw": "1.2",
+    "options": {
+      "A": "0.5",
+      "B": "1.2",
+      "C": "2.5",
+      "D": "3.1"
+    },
+    "mcq_letter": "B",
+    "original_record_index": 235
+  },
+  {
+    "index": 236,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0118.txt",
+    "answer_raw": "0.05",
+    "original_record_index": 236
+  },
+  {
+    "index": 238,
+    "type": "numerical",
+    "source": "MIT OCW 2.29 Numerical Hydrodynamics — lecture_notes.txt",
+    "answer_raw": "(-4, 1, 0)",
+    "original_record_index": 238
+  },
+  {
+    "index": 243,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0272.txt",
+    "answer_raw": "0.1",
+    "original_record_index": 243
+  },
+  {
+    "index": 244,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0059.txt",
+    "answer_raw": "0.102 m/s",
+    "original_record_index": 244
+  },
+  {
+    "index": 246,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0000.txt",
+    "answer_raw": "First, find the wave speed. The wavelength λ = g * T^2 / (2 * π) = 9.81 m/s^2 * (8 s)^2 / (2 * π) ≈ 99.65 m. The wave speed = ω * λ / (2 * π) = (2 * π / 8 s) * 99.65 m / (2 * π) = 12.45 m/s. The relative velocity = ship speed - wave speed = 15 m/s - 12.45 m/s = 2.55 m/s.",
+    "original_record_index": 246
+  },
+  {
+    "index": 247,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0306.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The flow around the cylinder is primarily determined by its cross-sectional shape and the velocity of the fluid relative to the cylinder.",
+      "B": "The forward speed U has a negligible effect on the added-mass and damping coefficients.",
+      "C": "The frequency of the heaving motion is much higher than the forward speed U.",
+      "D": "The density of the fluid is much lower than the density of the cylinder."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 247
+  },
+  {
+    "index": 249,
+    "type": "numerical",
+    "source": "MIT OCW 2.29 Numerical Hydrodynamics — lecture_notes.txt",
+    "answer_raw": "50000 Pa",
+    "original_record_index": 249
+  },
+  {
+    "index": 252,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0026.txt",
+    "answer_raw": "0.015",
+    "original_record_index": 252
+  },
+  {
+    "index": 253,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0127.txt",
+    "answer_raw": "B",
+    "options": {
+      "A": "They increase without bound.",
+      "B": "They become degenerate and require renormalization.",
+      "C": "They decrease to zero.",
+      "D": "They remain constant."
+    },
+    "mcq_letter": "B",
+    "original_record_index": 253
+  },
+  {
+    "index": 255,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0030.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Viscous form drag",
+      "B": "Wave resistance",
+      "C": "Frictional resistance",
+      "D": "Pressure gradient force"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 255
+  },
+  {
+    "index": 257,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0148.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The flow around the foil is symmetric, resulting in equal and opposite forces on the upper and lower surfaces.",
+      "B": "The foil is moving at a constant velocity, resulting in no net force on the foil.",
+      "C": "The fluid is inviscid, resulting in no frictional forces on the foil.",
+      "D": "The foil is two-dimensional, resulting in no end effects or three-dimensional flow phenomena."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 257
+  },
+  {
+    "index": 258,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0053.txt",
+    "answer_raw": "9.46 x 10^8",
+    "original_record_index": 258
+  },
+  {
+    "index": 262,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0124.txt",
+    "answer_raw": "Aij = -10475.9 kg*m^2",
+    "original_record_index": 262
+  },
+  {
+    "index": 263,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0133.txt",
+    "answer_raw": "0.5 m^2/s",
+    "original_record_index": 263
+  },
+  {
+    "index": 264,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0015.txt",
+    "answer_raw": "122.625",
+    "original_record_index": 264
+  },
+  {
+    "index": 265,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0204.txt",
+    "answer_raw": "10 m/s",
+    "original_record_index": 265
+  },
+  {
+    "index": 266,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0051.txt",
+    "answer_raw": "F = 1025 * 9.81 * 5^2 * 2π * nl sin(2t) - 1025 * 9.81 * 5^2 * 0 * nl sin(2t) = 160942.81 nl sin(2t) N",
+    "original_record_index": 266
+  },
+  {
+    "index": 269,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0088.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "It represents the potential energy of the fluid per unit mass.",
+      "B": "It represents the kinetic energy of the fluid per unit mass.",
+      "C": "It represents the total energy of the fluid per unit mass.",
+      "D": "It represents the pressure of the fluid."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 269
+  },
+  {
+    "index": 270,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0066.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Degree of roughness of the plate and ambient turbulence level",
+      "B": "Velocity of the flow and distance from the leading edge",
+      "C": "Kinematic viscosity and density of the fluid",
+      "D": "Shape of the plate and angle of attack"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 270
+  },
+  {
+    "index": 271,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0108.txt",
+    "answer_raw": "-0.75cosθ",
+    "original_record_index": 271
+  },
+  {
+    "index": 272,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0069.txt",
+    "answer_raw": "10814.45 N",
+    "original_record_index": 272
+  },
+  {
+    "index": 274,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0160.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "A vortex filament cannot end within the fluid.",
+      "B": "A vortex filament can end within the fluid.",
+      "C": "The circulation along a vortex filament is not constant.",
+      "D": "The vortex filament must form a closed curve."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 274
+  },
+  {
+    "index": 275,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0330.txt",
+    "answer_raw": "1250000 N*s/m",
+    "original_record_index": 275
+  },
+  {
+    "index": 279,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0259.txt",
+    "answer_raw": "0.025",
+    "original_record_index": 279
+  },
+  {
+    "index": 280,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0057.txt",
+    "answer_raw": "0.2454",
+    "original_record_index": 280
+  },
+  {
+    "index": 283,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0203.txt",
+    "answer_raw": "9.52 m/s",
+    "original_record_index": 283
+  },
+  {
+    "index": 284,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0228.txt",
+    "answer_raw": "Froude number",
+    "options": {
+      "A": "Ship velocity",
+      "B": "Water depth",
+      "C": "Wave frequency",
+      "D": "Froude number"
+    },
+    "mcq_letter": "D",
+    "original_record_index": 284
+  },
+  {
+    "index": 286,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0050.txt",
+    "answer_raw": "φ = (1/8π) * log(13)",
+    "original_record_index": 286
+  },
+  {
+    "index": 288,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0093.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The boundary-layer thickness is very small.",
+      "B": "Viscous effects are negligible everywhere.",
+      "C": "The flow is always turbulent.",
+      "D": "The body surface is always stationary."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 288
+  },
+  {
+    "index": 289,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0008.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Solid mechanics",
+      "B": "Fluid mechanics",
+      "C": "Control theory",
+      "D": "Statistics and random processes"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 289
+  },
+  {
+    "index": 291,
+    "type": "numerical",
+    "source": "MIT OCW 2.29 Numerical Hydrodynamics — curve_fitting.txt",
+    "answer_raw": "3.75",
+    "original_record_index": 291
+  },
+  {
+    "index": 293,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0045.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "To account for the inertia of the fluid accelerated along with the body",
+      "B": "To simplify the calculation by assuming a steady flow",
+      "C": "To reduce the effect of viscous forces",
+      "D": "To increase the calculated force for safety factors"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 293
+  },
+  {
+    "index": 294,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0154.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Wave height and period",
+      "B": "Water depth and current velocity",
+      "C": "Structure size and shape",
+      "D": "Material properties and weight"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 294
+  },
+  {
+    "index": 295,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0162.txt",
+    "answer_raw": "V ≈ 0.235 m/s",
+    "original_record_index": 295
+  },
+  {
+    "index": 296,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0223.txt",
+    "answer_raw": "0.1133 m^-1",
+    "original_record_index": 296
+  },
+  {
+    "index": 298,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0288.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The ship hull can be approximated as a slender body with a length much greater than the draft.",
+      "B": "The ship hull has a rectangular planform with a constant draft along the length.",
+      "C": "The ship hull has a curved shape with a varying draft along the length.",
+      "D": "The ship hull can be treated as a 2D airfoil with a constant angle of attack."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 298
+  },
+  {
+    "index": 299,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0055.txt",
+    "answer_raw": "0.5 Pa",
+    "original_record_index": 299
+  },
+  {
+    "index": 301,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0265.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "No resonance exists in the horizontal plane",
+      "B": "The body's mass distribution is symmetric",
+      "C": "The wave frequencies are too low",
+      "D": "The fluid density is too high"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 301
+  },
+  {
+    "index": 302,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0154.txt",
+    "answer_raw": "0.25",
+    "original_record_index": 302
+  },
+  {
+    "index": 304,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0000.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Viscous dissipation",
+      "B": "Turbulent mixing",
+      "C": "Surface roughness",
+      "D": "Compressibility effects"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 304
+  },
+  {
+    "index": 305,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0059.txt",
+    "answer_raw": "51250",
+    "original_record_index": 305
+  },
+  {
+    "index": 307,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0006.txt",
+    "answer_raw": "168,141 Newtons",
+    "original_record_index": 307
+  },
+  {
+    "index": 309,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0197.txt",
+    "answer_raw": "η ≈ 15.82 m",
+    "original_record_index": 309
+  },
+  {
+    "index": 310,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0098.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Distance between the centers of the cylinders relative to their diameter",
+      "B": "Diameter of the cylinders",
+      "C": "Incident velocity",
+      "D": "Drag coefficient of the upstream cylinder"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 310
+  },
+  {
+    "index": 311,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0250.txt",
+    "answer_raw": "The three-dimensional exciting force as ω → ∞ is -1000 * 9.81 / ω^2 N.",
+    "original_record_index": 311
+  },
+  {
+    "index": 313,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0083.txt",
+    "answer_raw": "-1",
+    "original_record_index": 313
+  },
+  {
+    "index": 314,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0101.txt",
+    "answer_raw": "r = 1",
+    "original_record_index": 314
+  },
+  {
+    "index": 315,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0234.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "To establish a basis for understanding the response in irregular waves through superposition of sinusoidal components",
+      "B": "Because regular waves are more common in ocean environments",
+      "C": "To simplify the mathematical analysis of wave-body interaction",
+      "D": "Because the response in regular waves is independent of the response in irregular waves"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 315
+  },
+  {
+    "index": 316,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0061.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Kinematic viscosity of the fluid and time",
+      "B": "Density of the fluid and velocity of the plate",
+      "C": "Velocity of the plate and time",
+      "D": "Kinematic viscosity of the fluid and velocity of the plate"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 316
+  },
+  {
+    "index": 317,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0124.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "To provide a restraining force to hold the structure in place",
+      "B": "To provide a propulsive force to move the structure",
+      "C": "To reduce the drag force on the structure",
+      "D": "To increase the buoyancy of the structure"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 317
+  },
+  {
+    "index": 318,
+    "type": "numerical",
+    "source": "MIT OCW 2.29 Numerical Hydrodynamics — bondry_layers.txt",
+    "answer_raw": "0.64 N/m²",
+    "original_record_index": 318
+  },
+  {
+    "index": 319,
+    "type": "numerical",
+    "source": "MIT OCW 2.20 Lecture Notes — lecture08.txt",
+    "answer_raw": "10 m/s",
+    "original_record_index": 319
+  },
+  {
+    "index": 321,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0145.txt",
+    "answer_raw": "x",
+    "options": {
+      "A": "0.5",
+      "B": "1",
+      "C": "x",
+      "D": "2"
+    },
+    "mcq_letter": "C",
+    "original_record_index": 321
+  },
+  {
+    "index": 322,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0274.txt",
+    "answer_raw": "n ≈ (0, 0, 1)",
+    "original_record_index": 322
+  },
+  {
+    "index": 323,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0284.txt",
+    "answer_raw": "0.0277",
+    "original_record_index": 323
+  },
+  {
+    "index": 326,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0315.txt",
+    "answer_raw": "-0.1 m^2/m",
+    "original_record_index": 326
+  },
+  {
+    "index": 328,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0081.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Pre-tension in the tethers",
+      "B": "Mass of the platform",
+      "C": "Cross-sectional area of the tethers",
+      "D": "Length of the tethers"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 328
+  },
+  {
+    "index": 329,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0045.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Angle of attack of the incident flow",
+      "B": "Free stream velocity",
+      "C": "Lift curve slope",
+      "D": "Foil span"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 329
+  },
+  {
+    "index": 332,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0290.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The reduction in Reynolds number from full-scale to model scale.",
+      "B": "The increase in Froude number due to scaling.",
+      "C": "The difficulty in modeling the propeller's slipstream.",
+      "D": "The complexity of the hull's geometry."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 332
+  },
+  {
+    "index": 334,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0024.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The flow variation in the cross-sectional plane is much larger than in the longitudinal direction.",
+      "B": "The ship's hull is perfectly symmetrical about its longitudinal axis.",
+      "C": "The density of the fluid is constant and uniform.",
+      "D": "The frequency of oscillation is very high."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 334
+  },
+  {
+    "index": 337,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0104.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Formation of vortices behind the riser",
+      "B": "Turbulence in the fluid flow",
+      "C": "Riser's flexural rigidity",
+      "D": "Added mass effect"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 337
+  },
+  {
+    "index": 340,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0206.txt",
+    "answer_raw": "12.45 m/s",
+    "original_record_index": 340
+  },
+  {
+    "index": 341,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0032.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "To avoid resonant oscillations with typical wave periods",
+      "B": "To increase the stability of the semi-submersible",
+      "C": "To reduce the effect of wind on the semi-submersible",
+      "D": "To enhance the maneuverability of the semi-submersible"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 341
+  },
+  {
+    "index": 342,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0094.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The pressure on the free surface is equal to atmospheric pressure.",
+      "B": "The velocity on the free surface is constant.",
+      "C": "The fluid density on the free surface changes.",
+      "D": "The flow is always laminar on the free surface."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 342
+  },
+  {
+    "index": 343,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0009.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The fluid can be treated as a continuum",
+      "B": "The fluid is composed of discrete particles",
+      "C": "The fluid is always in a state of turbulence",
+      "D": "The fluid is inviscid"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 343
+  },
+  {
+    "index": 345,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0299.txt",
+    "answer_raw": "3391.35 N",
+    "original_record_index": 345
+  },
+  {
+    "index": 346,
+    "type": "numerical",
+    "source": "MIT OCW 2.20 Problem Sets — ps_08a.txt",
+    "answer_raw": "2.22",
+    "original_record_index": 346
+  },
+  {
+    "index": 347,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0034.txt",
+    "answer_raw": "B",
+    "options": {
+      "A": "The density of the fluid",
+      "B": "The parameter U^2 / (l * α)",
+      "C": "The viscosity of the fluid",
+      "D": "The surface roughness of the body"
+    },
+    "mcq_letter": "B",
+    "original_record_index": 347
+  },
+  {
+    "index": 349,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0144.txt",
+    "answer_raw": "D",
+    "options": {
+      "A": "The vortex strength γ must be zero at the trailing edge",
+      "B": "The vertical velocity v(x, 0) must be zero at the trailing edge",
+      "C": "The length of the foil must be infinite",
+      "D": "The total circulation Γ must be chosen such that the quantity in braces in equation (32) vanishes"
+    },
+    "mcq_letter": "D",
+    "original_record_index": 349
+  },
+  {
+    "index": 350,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0212.txt",
+    "answer_raw": "1.51",
+    "original_record_index": 350
+  },
+  {
+    "index": 352,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0148.txt",
+    "answer_raw": "28951.41 N",
+    "original_record_index": 352
+  },
+  {
+    "index": 354,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0149.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Reynolds number",
+      "B": "Froude number",
+      "C": "Mach number",
+      "D": "Strouhal number"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 354
+  },
+  {
+    "index": 358,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0048.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "It ensures that the shear stresses are equal in magnitude and opposite in sign.",
+      "B": "It ensures that the normal stresses are equal in magnitude and opposite in sign.",
+      "C": "It ensures that the fluid is incompressible.",
+      "D": "It ensures that the fluid is inviscid."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 358
+  },
+  {
+    "index": 359,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0007.txt",
+    "answer_raw": "7.4 × 10^8",
+    "original_record_index": 359
+  },
+  {
+    "index": 362,
+    "type": "mcq",
+    "source": "MIT OCW 2.20 Lecture Notes — lecture14.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "m33 = ∫M33(x)dx",
+      "B": "m33 = M33 * L",
+      "C": "m33 = M33 / L",
+      "D": "m33 = M33 * ρ"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 362
+  },
+  {
+    "index": 368,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0272.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "To simplify the analysis by aligning the coordinate system with the body's motion",
+      "B": "To increase the complexity of the fluid dynamics equations",
+      "C": "To account for the effects of a bounded fluid",
+      "D": "To ignore the lateral motion of the body"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 368
+  },
+  {
+    "index": 372,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0131.txt",
+    "answer_raw": "-0.5825",
+    "original_record_index": 372
+  },
+  {
+    "index": 374,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0147.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The free-surface condition used in calculating the equation is questionable and influences the results.",
+      "B": "The structure's submergence relative to the water level is not considered.",
+      "C": "The wavelength of each wave component is not large relative to the cross-sectional dimension of the structure.",
+      "D": "The equation does not account for the non-linear free-surface conditions."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 374
+  },
+  {
+    "index": 377,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0132.txt",
+    "answer_raw": "-9.21",
+    "original_record_index": 377
+  },
+  {
+    "index": 379,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0275.txt",
+    "answer_raw": "0.5 m/s",
+    "original_record_index": 379
+  },
+  {
+    "index": 380,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0104.txt",
+    "answer_raw": "5 m^2/s",
+    "original_record_index": 380
+  },
+  {
+    "index": 381,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0165.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Conservation of vorticity",
+      "B": "Separation of the boundary layer",
+      "C": "Transition to turbulence",
+      "D": "Compressibility effects"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 381
+  },
+  {
+    "index": 382,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0143.txt",
+    "answer_raw": "Given the information and the need for specific constants like pko, the exact calculation of Pmax requires more detailed data. However, the formula to use would be Pmax = pko*(log N - 3), with adjustments based on σ_r^2 and σ_v^2.",
+    "original_record_index": 382
+  },
+  {
+    "index": 384,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0247.txt",
+    "answer_raw": "-1025 kg.m",
+    "original_record_index": 384
+  },
+  {
+    "index": 385,
+    "type": "numerical",
+    "source": "MIT OCW 2.20 Problem Sets — ps_11b.txt",
+    "answer_raw": "3",
+    "original_record_index": 385
+  },
+  {
+    "index": 386,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0097.txt",
+    "answer_raw": "2.4 N/m",
+    "original_record_index": 386
+  },
+  {
+    "index": 387,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0151.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Formation and shedding of vortices",
+      "B": "Turbulent boundary layer separation",
+      "C": "Laminar flow around the cylinder",
+      "D": "Wave reflection off the cylinder"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 387
+  },
+  {
+    "index": 389,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0057.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The no-slip condition at the solid surface",
+      "B": "The high Reynolds number of the flow",
+      "C": "The low viscosity of the fluid",
+      "D": "The presence of turbulence in the flow"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 389
+  },
+  {
+    "index": 390,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0099.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "To provide a measure of the flux across a contour and define streamlines and stream surfaces",
+      "B": "To calculate the pressure distribution in a flow field",
+      "C": "To determine the velocity potential of a flow",
+      "D": "To visualize the vorticity of a flow"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 390
+  },
+  {
+    "index": 392,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0140.txt",
+    "answer_raw": "-5000 Pa",
+    "original_record_index": 392
+  },
+  {
+    "index": 393,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0143.txt",
+    "answer_raw": "0.188",
+    "original_record_index": 393
+  },
+  {
+    "index": 394,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0169.txt",
+    "answer_raw": "L = 1.225 kg/m^3 * 50 m/s * (10/3) m^2 = 203.33 N",
+    "original_record_index": 394
+  },
+  {
+    "index": 395,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0117.txt",
+    "answer_raw": "0.84",
+    "original_record_index": 395
+  },
+  {
+    "index": 396,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0040.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Hull parameters such as beam-draught ratio and sectional area coefficient",
+      "B": "Forward speed of the ship",
+      "C": "Wave propagation direction",
+      "D": "Water depth"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 396
+  },
+  {
+    "index": 397,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0124.txt",
+    "answer_raw": "φ = -1.5915 V",
+    "original_record_index": 397
+  },
+  {
+    "index": 398,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0246.txt",
+    "answer_raw": "14796",
+    "original_record_index": 398
+  },
+  {
+    "index": 399,
+    "type": "numerical",
+    "source": "MIT OCW 2.20 Lecture Notes — lecture12.txt",
+    "answer_raw": "Given the complexity and the need for a specific formula or further derivation for γ(x) for a parabolic camber line, let's simplify by acknowledging that CL for such a wing at zero angle of attack would be directly related to its camber and the velocity of the flow. Without the exact formula provided in the passage for a parabolic camber line, we cannot directly calculate CL without additional assumptions or simplifications.",
+    "original_record_index": 399
+  },
+  {
+    "index": 401,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0050.txt",
+    "answer_raw": "3",
+    "original_record_index": 401
+  },
+  {
+    "index": 403,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0003.txt",
+    "answer_raw": "24525 * cos(0.6283t) N",
+    "original_record_index": 403
+  },
+  {
+    "index": 404,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0175.txt",
+    "answer_raw": "0.2696",
+    "original_record_index": 404
+  },
+  {
+    "index": 406,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0322.txt",
+    "answer_raw": "50125",
+    "original_record_index": 406
+  },
+  {
+    "index": 407,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0020.txt",
+    "answer_raw": "0.0021 N",
+    "original_record_index": 407
+  },
+  {
+    "index": 408,
+    "type": "mcq",
+    "source": "MIT OCW 2.29 Numerical Hydrodynamics — root_finding.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The matrix A must be square and nonsingular.",
+      "B": "The matrix A must be square and singular.",
+      "C": "The matrix A must be rectangular and nonsingular.",
+      "D": "The matrix A must be rectangular and singular."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 408
+  },
+  {
+    "index": 411,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0327.txt",
+    "answer_raw": "Cannot be calculated directly from given data",
+    "original_record_index": 411
+  },
+  {
+    "index": 412,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0137.txt",
+    "answer_raw": "5",
+    "original_record_index": 412
+  },
+  {
+    "index": 413,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0194.txt",
+    "answer_raw": "L = 0.5 * 1000 * 100 * 0.8 * 4 = 160,000 N or 160 kN",
+    "original_record_index": 413
+  },
+  {
+    "index": 415,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0103.txt",
+    "answer_raw": "6.25",
+    "original_record_index": 415
+  },
+  {
+    "index": 416,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0111.txt",
+    "answer_raw": "2π m^2/s",
+    "original_record_index": 416
+  },
+  {
+    "index": 417,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0128.txt",
+    "answer_raw": "16560 N",
+    "original_record_index": 417
+  },
+  {
+    "index": 418,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0215.txt",
+    "answer_raw": "D",
+    "options": {
+      "A": "It is negligible compared to the kinetic energy.",
+      "B": "It is difficult to calculate.",
+      "C": "It varies with the depth of the water.",
+      "D": "It is a constant unrelated to the wave motion."
+    },
+    "mcq_letter": "D",
+    "original_record_index": 418
+  },
+  {
+    "index": 420,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0091.txt",
+    "answer_raw": "T = 10.2 seconds",
+    "original_record_index": 420
+  },
+  {
+    "index": 421,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0071.txt",
+    "answer_raw": "0.0707",
+    "original_record_index": 421
+  },
+  {
+    "index": 424,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0329.txt",
+    "answer_raw": "0.4",
+    "original_record_index": 424
+  },
+  {
+    "index": 425,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0111.txt",
+    "answer_raw": "0.5 m^2/s",
+    "original_record_index": 425
+  },
+  {
+    "index": 428,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0243.txt",
+    "answer_raw": "-0.125 J",
+    "original_record_index": 428
+  },
+  {
+    "index": 429,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0256.txt",
+    "answer_raw": "201025 J/m",
+    "original_record_index": 429
+  },
+  {
+    "index": 431,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0193.txt",
+    "answer_raw": "12 meters",
+    "original_record_index": 431
+  },
+  {
+    "index": 432,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0005.txt",
+    "answer_raw": "78539.8 kg",
+    "original_record_index": 432
+  },
+  {
+    "index": 434,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0090.txt",
+    "answer_raw": "Fe ≈ 1.2 * 5 * 4 * 0.707 * 0.707 * 100 - 3 * 4 * 500 * 1 = 1200 - 6000 = -4800 Nm",
+    "original_record_index": 434
+  },
+  {
+    "index": 435,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0260.txt",
+    "answer_raw": "H = 2 * (2/π)^(1/2) * m0^(1/2) = 2 * (2/π)^(1/2) * (2.5)^(1/2) = 3.16 m",
+    "original_record_index": 435
+  },
+  {
+    "index": 437,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0093.txt",
+    "answer_raw": "234.77 meters",
+    "original_record_index": 437
+  },
+  {
+    "index": 438,
+    "type": "numerical",
+    "source": "MIT OCW 2.20 Problem Sets — ps_01.txt",
+    "answer_raw": "7.07 rad/s",
+    "original_record_index": 438
+  },
+  {
+    "index": 440,
+    "type": "numerical",
+    "source": "MIT OCW 2.29 Numerical Hydrodynamics — appendix.txt",
+    "answer_raw": "261.8 kg",
+    "original_record_index": 440
+  },
+  {
+    "index": 442,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0125.txt",
+    "answer_raw": "2094.4 kg",
+    "original_record_index": 442
+  },
+  {
+    "index": 445,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0200.txt",
+    "answer_raw": "0.6283 m^-1",
+    "original_record_index": 445
+  },
+  {
+    "index": 448,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0161.txt",
+    "answer_raw": "m = Γ",
+    "options": {
+      "A": "m = 2Γ",
+      "B": "m = Γ/2",
+      "C": "m = Γ",
+      "D": "m = Γ^2"
+    },
+    "mcq_letter": "C",
+    "original_record_index": 448
+  },
+  {
+    "index": 450,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0138.txt",
+    "answer_raw": "5.33 m/s",
+    "original_record_index": 450
+  },
+  {
+    "index": 452,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0138.txt",
+    "answer_raw": "0.1667 seconds",
+    "original_record_index": 452
+  },
+  {
+    "index": 453,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0008.txt",
+    "answer_raw": "0.0628 m^-1",
+    "original_record_index": 453
+  },
+  {
+    "index": 455,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0248.txt",
+    "answer_raw": "λ/l >> 1",
+    "options": {
+      "A": "λ/l << 1",
+      "B": "λ/l ≈ 1",
+      "C": "λ/l >> 1",
+      "D": "λ/l = 0"
+    },
+    "mcq_letter": "C",
+    "original_record_index": 455
+  },
+  {
+    "index": 456,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0302.txt",
+    "answer_raw": "This problem requires additional information or assumptions to solve directly, such as a specific relationship between ω0 and k or an explicit value for one of these variables.",
+    "original_record_index": 456
+  },
+  {
+    "index": 457,
+    "type": "numerical",
+    "source": "MIT OCW 2.20 Lecture Notes — lecture02.txt",
+    "answer_raw": "The acceleration of the fluid particle is (28, 0).",
+    "original_record_index": 457
+  },
+  {
+    "index": 458,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0301.txt",
+    "answer_raw": "0.0414 Hz",
+    "original_record_index": 458
+  },
+  {
+    "index": 459,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0335.txt",
+    "answer_raw": "857,000,000",
+    "original_record_index": 459
+  },
+  {
+    "index": 461,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0126.txt",
+    "answer_raw": "3753.28 N",
+    "original_record_index": 461
+  },
+  {
+    "index": 462,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0086.txt",
+    "answer_raw": "5 * 10^5",
+    "original_record_index": 462
+  },
+  {
+    "index": 463,
+    "type": "mcq",
+    "source": "MIT OCW 2.29 Numerical Hydrodynamics — num_integration.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "It provides a more accurate approximation of the integral with fewer intervals.",
+      "B": "It is simpler to implement than the trapezoidal rule.",
+      "C": "It is only used for functions that are difficult to integrate analytically.",
+      "D": "It is less computationally intensive."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 463
+  },
+  {
+    "index": 464,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0053.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Incompressible fluid",
+      "B": "Compressible fluid",
+      "C": "Non-Newtonian fluid",
+      "D": "Ideal gas"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 464
+  },
+  {
+    "index": 465,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0270.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Hull form of the ship",
+      "B": "Speed of the ship in still water",
+      "C": "Depth of the water",
+      "D": "Type of propulsion system"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 465
+  },
+  {
+    "index": 466,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0039.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The effect of the frequency of encounter on the wavelength of the incident waves",
+      "B": "The increase in the natural frequency of oscillation in heave and pitch",
+      "C": "The decrease in the cross-sectional added mass in heave",
+      "D": "The reduction in the cross-sectional damping in heave"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 466
+  },
+  {
+    "index": 468,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0045.txt",
+    "answer_raw": "0.199",
+    "original_record_index": 468
+  },
+  {
+    "index": 470,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0031.txt",
+    "answer_raw": "0.0104",
+    "original_record_index": 470
+  },
+  {
+    "index": 472,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0192.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Normal component of the force on the foil and leading-edge suction force",
+      "B": "Tangential component of the force on the foil",
+      "C": "Pressure gradient along the foil",
+      "D": "Viscous effects in the boundary layer"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 472
+  },
+  {
+    "index": 473,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0008.txt",
+    "answer_raw": "34561.9 kW",
+    "original_record_index": 473
+  },
+  {
+    "index": 474,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0092.txt",
+    "answer_raw": "D",
+    "options": {
+      "A": "Increases the drag coefficient",
+      "B": "Has no effect on the drag coefficient",
+      "C": "Depends on the beam-draught ratio",
+      "D": "Decreases the drag coefficient"
+    },
+    "mcq_letter": "D",
+    "original_record_index": 474
+  },
+  {
+    "index": 475,
+    "type": "mcq",
+    "source": "MIT OCW 2.20 Lecture Notes — lecture15.txt",
+    "answer_raw": "Reynolds number",
+    "options": {
+      "A": "Fluid density",
+      "B": "Fluid velocity",
+      "C": "Boundary layer thickness",
+      "D": "Reynolds number"
+    },
+    "mcq_letter": "D",
+    "original_record_index": 475
+  },
+  {
+    "index": 477,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0126.txt",
+    "answer_raw": "29.29 m",
+    "original_record_index": 477
+  },
+  {
+    "index": 478,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0080.txt",
+    "answer_raw": "30%",
+    "original_record_index": 478
+  },
+  {
+    "index": 480,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0070.txt",
+    "answer_raw": "0.001",
+    "original_record_index": 480
+  },
+  {
+    "index": 481,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0268.txt",
+    "answer_raw": "0.223 Hz",
+    "original_record_index": 481
+  },
+  {
+    "index": 483,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0001.txt",
+    "answer_raw": "L = 0.5 * 1000 * 400 * 0.8 * 2 = 320000 N or 320 kN",
+    "original_record_index": 483
+  },
+  {
+    "index": 485,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0318.txt",
+    "answer_raw": "62500",
+    "original_record_index": 485
+  },
+  {
+    "index": 486,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0133.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Ventilation of the propeller blades",
+      "B": "Increased propeller pitch",
+      "C": "Decreased propeller diameter",
+      "D": "Increased propeller shaft submergence"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 486
+  },
+  {
+    "index": 490,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0207.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "1/7",
+      "B": "1/5",
+      "C": "1/10",
+      "D": "1/20"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 490
+  },
+  {
+    "index": 491,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0042.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Natural frequency of the ship's roll motion",
+      "B": "Angle of attack of the hydrofoils",
+      "C": "Froude number of the ship",
+      "D": "Density of the surrounding fluid"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 491
+  },
+  {
+    "index": 492,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0025.txt",
+    "answer_raw": "$w_e approx 1.42$ rad/s",
+    "original_record_index": 492
+  },
+  {
+    "index": 493,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0009.txt",
+    "answer_raw": "2.5 m/s",
+    "original_record_index": 493
+  },
+  {
+    "index": 494,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0296.txt",
+    "answer_raw": "O(0.0001)",
+    "original_record_index": 494
+  },
+  {
+    "index": 496,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0045.txt",
+    "answer_raw": "0.071 Hz",
+    "original_record_index": 496
+  },
+  {
+    "index": 497,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0300.txt",
+    "answer_raw": "2.21 Hz",
+    "original_record_index": 497
+  },
+  {
+    "index": 498,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0104.txt",
+    "answer_raw": "20 m^2/s",
+    "original_record_index": 498
+  },
+  {
+    "index": 499,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0127.txt",
+    "answer_raw": "To directly solve this, we would typically need more information or simplify the model. However, the general approach involves finding 'a' and then using it to calculate the horizontal force based on the catenary curve equations.",
+    "original_record_index": 499
+  },
+  {
+    "index": 501,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0070.txt",
+    "answer_raw": "Λ = -12",
+    "options": {
+      "A": "Λ = 0",
+      "B": "Λ = 12",
+      "C": "Λ = -6",
+      "D": "Λ = -12"
+    },
+    "mcq_letter": "D",
+    "original_record_index": 501
+  },
+  {
+    "index": 502,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0054.txt",
+    "answer_raw": "32.2",
+    "original_record_index": 502
+  },
+  {
+    "index": 503,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0336.txt",
+    "answer_raw": "1250 N",
+    "original_record_index": 503
+  },
+  {
+    "index": 504,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0313.txt",
+    "answer_raw": "0.2857",
+    "original_record_index": 504
+  },
+  {
+    "index": 505,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0068.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Viscous effects are not accounted for in the formulae",
+      "B": "The formulae are only valid for head seas",
+      "C": "The formulae are only valid for small wave amplitudes",
+      "D": "The formulae are only valid for deep water"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 505
+  },
+  {
+    "index": 509,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0089.txt",
+    "answer_raw": "Approximately 1.43 * 10^5 Newtons",
+    "original_record_index": 509
+  },
+  {
+    "index": 510,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0100.txt",
+    "answer_raw": "Stagnation point",
+    "options": {
+      "A": "Source",
+      "B": "Sink",
+      "C": "Stagnation point",
+      "D": "Vortex"
+    },
+    "mcq_letter": "C",
+    "original_record_index": 510
+  },
+  {
+    "index": 511,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0139.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "The velocity of the body is small compared to the velocity of the water.",
+      "B": "The wetted length of the body is large compared to the velocity of the body.",
+      "C": "The density of the body is equal to the density of the water.",
+      "D": "The impact occurs over a long period of time."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 511
+  },
+  {
+    "index": 512,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0120.txt",
+    "answer_raw": "0.145 m/s",
+    "original_record_index": 512
+  },
+  {
+    "index": 513,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0159.txt",
+    "answer_raw": "Approximation requires numerical methods; however, the process involves substituting γ(θ) into the integral and solving for v at θ = π/4 with U = 10 m/s.",
+    "original_record_index": 513
+  },
+  {
+    "index": 514,
+    "type": "mcq",
+    "source": "MIT OCW 2.29 Numerical Hydrodynamics — differential_eqs.txt",
+    "answer_raw": "Higher accuracy with a relatively large step size",
+    "options": {
+      "A": "Faster computation time",
+      "B": "Higher accuracy with a relatively large step size",
+      "C": "Simpler implementation",
+      "D": "Ability to handle non-linear equations"
+    },
+    "mcq_letter": "B",
+    "original_record_index": 514
+  },
+  {
+    "index": 515,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0206.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "It makes the crests steeper and the troughs flatter.",
+      "B": "It makes the crests flatter and the troughs steeper.",
+      "C": "It has no effect on the shape of the crests and troughs.",
+      "D": "It reduces the amplitude of the waves."
+    },
+    "mcq_letter": "A",
+    "original_record_index": 515
+  },
+  {
+    "index": 516,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0138.txt",
+    "answer_raw": "0.548 m^2/s",
+    "original_record_index": 516
+  },
+  {
+    "index": 517,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0139.txt",
+    "answer_raw": "0.02",
+    "original_record_index": 517
+  },
+  {
+    "index": 518,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0084.txt",
+    "answer_raw": "90.35 N",
+    "original_record_index": 518
+  },
+  {
+    "index": 519,
+    "type": "mcq",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0051.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "To approximate the body surface by straight line segments",
+      "B": "To calculate the added mass in heave",
+      "C": "To determine the pressure distribution on the body surface",
+      "D": "To solve the Navier-Stokes equations"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 519
+  },
+  {
+    "index": 520,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0331.txt",
+    "answer_raw": "80000",
+    "original_record_index": 520
+  },
+  {
+    "index": 525,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0072.txt",
+    "answer_raw": "R = 0",
+    "original_record_index": 525
+  },
+  {
+    "index": 526,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0135.txt",
+    "answer_raw": "589.05 N",
+    "original_record_index": 526
+  },
+  {
+    "index": 527,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0286.txt",
+    "answer_raw": "48 Nm",
+    "original_record_index": 527
+  },
+  {
+    "index": 530,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0105.txt",
+    "answer_raw": "0.0503 Hz",
+    "original_record_index": 530
+  },
+  {
+    "index": 532,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0205.txt",
+    "answer_raw": "0.4156m",
+    "original_record_index": 532
+  },
+  {
+    "index": 533,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0023.txt",
+    "answer_raw": "0.805",
+    "original_record_index": 533
+  },
+  {
+    "index": 534,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0099.txt",
+    "answer_raw": "u_R ≈ 2.33 m/s",
+    "original_record_index": 534
+  },
+  {
+    "index": 537,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0013.txt",
+    "answer_raw": "0.1164",
+    "original_record_index": 537
+  },
+  {
+    "index": 539,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0018.txt",
+    "answer_raw": "7.94 seconds",
+    "original_record_index": 539
+  },
+  {
+    "index": 541,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0023.txt",
+    "answer_raw": "This problem requires specific hydrodynamic calculations or formulas not directly provided, but typically, the added mass in sway (A33) for such configurations can be estimated using numerical methods or specific analytical solutions for the given geometry and frequency.",
+    "original_record_index": 541
+  },
+  {
+    "index": 543,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0000.txt",
+    "answer_raw": "46.48",
+    "original_record_index": 543
+  },
+  {
+    "index": 547,
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0259.txt",
+    "answer_raw": "A",
+    "options": {
+      "A": "Wind direction and fetch",
+      "B": "Wave frequency and amplitude",
+      "C": "Water depth and current",
+      "D": "Atmospheric pressure and temperature"
+    },
+    "mcq_letter": "A",
+    "original_record_index": 547
+  },
+  {
+    "index": 549,
+    "type": "numerical",
+    "source": "Faltinsen - Sea Loads — faltinsen_chunk_0124.txt",
+    "answer_raw": "The force at wt = pi/2 is approximately -1414.2 N.",
+    "original_record_index": 549
+  },
+  {
+    "index": 551,
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics — newman_chunk_0187.txt",
+    "answer_raw": "-247.5",
+    "original_record_index": 551
+  }
+]

@@ -1,0 +1,39 @@
+1972. Proceedings of an international symposium on directional stability and control of bodies moving in water. [supplementary issue] Journal of Mechanical Engineering Science 14:7. Breslin, J. P. 1972. Theory for the first-order gravitational effects on ship forces and moments in shallow water. J. Hydronautics 6:110–111. Faltinsen, O. 1973. Wave forces on a restrained ship in head-sea waves. Oslo: Det Norske Veritas. Faltinsen, O. 1974. A numerical investigation of the Ogilvie-Tuck formulas for added-mass and damping coefficients. J. Ship Res. 18:73–84.
+
+Chapter 7
+Fink, P. T., and W. K. Soh. 1974. Calculation of vortex sheets in unsteady flow and 
+applications in ship hydrodynamics. In Tenth symposium on naval hydrodynamics, 
+eds. R. D. Cooper and S. W. Doroff, pp. 263–291. Washington: U.S. Government 
+Printing Office.
+Frank, T., D. J. Loeser, C. A. Scragg, O. J. Sibul, W. C. Webster, and J. V. Wehausen. 
+1976. Transient-maneuver testing and the equations of maneuvering. In Eleventh 
+symposium on naval hydrodynamics, eds. R. E. D. Bishop, A. G. Parkinson, and W. G. 
+Price, pp. 3–22. London: The Institution of Mechanical Engineers.
+Gerritsma, J., and W. Beukelman. 1967. Analysis of the modified strip theory for the 
+calculation of ship motions and wave bending moments. International Shipbuilding 
+Progress 14:319–337.
+Korvin-Kroukovsky, B. V. 1955. Investigation of ship motions in regular waves. Soci­
+ety of Naval Architects and Marine Engineers Transactions 63:386–435.
+Lea, G. K., and J. P. Feldman. 1972. Transcritical flow past slender ships. In Ninth 
+symposium on naval hydrodynamics, eds. R. Brard and A. Castera, pp. 1527–1541. 
+Washington: U.S. Government Printing Office.
+Lighthill, M. J. 1960. Note on the swimming of slender fish. Journal of Fluid Mechan­
+ics 9:305–317.
+Mandel, P. 1967. Ship maneuvering and control. In Principles of naval architecture, ed. 
+J. P. Comstock, 463–606. New York: Society of Naval Architects and Marine 
+Engineers.
+Mei, C. C. 1976. Flow around a thin body moving in shallow water. Journal of Fluid 
+Mechanics 77:737–751.
+Motora, S. 1972. Maneuverability, state of the art. In Fortieth Anniversary Symposium 
+of the Netherlands Ship Model Basin, pp. 136–169.
+Newman, J. N. 1963, The motions of a spar buoy in regular waves. David Taylor Model 
+Basin report 1499.
+Newman, J. N. 1969. Lateral motion of a slender body between two parallel walls. 
+Journal of Fluid Mechanics 39:97–115.
+Newman, J. N. 1970. Applications of slender-body theory in ship hydrodynamics. 
+Annual Review of Fluid Mechanics 2:67–94.
+Newman, J. N., and E. O. Tuck. 1964. Current progress in the slender-body theory of 
+ship motions. In Fifth symposium on naval hydrodynamics, eds. J. K. Lunde and S. W. 
+Doroff, pp. 129–166. Washington: U.S. Government Printing Office.
+Newman, J. N., and T. Y. Wu. 1973. A generalized slender-body theory for fish-like 
+forms. Journal of Fluid Mechanics 57:673–693.

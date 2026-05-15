@@ -1,0 +1,43 @@
+water, the thickness of the boundary layer, or the acceleration of a buoy in waves). First it is necessary to list, from a qualitative knowledge of the underlying physical mechanisms involved, the significant parameters that affect the value of Q (length, velocity, den­ sity, viscosity, and so forth). In general, some or all of these parameters can be used to make Q nondimensional, and any not needed for this purpose can themselves be rendered nondimensional. We then assert that when
+
+Chapter 2
+expressed in nondimensional form, the quantity of interest must depend 
+only on the remaining nondimensional parameters. This assertion is equiv­
+alent to the statement that the event in question is not affected by the 
+choice of units of measurement.
+We are concerned exclusively with problems where the three fundamen­
+tal units are mass (M), length (L), and time (T); hence the unknown Q and 
+the significant parameters upon which it depends can be expressed in terms 
+of these units. If Q depends on N − 1 significant parameters, there will be a 
+total of N interrelated dimensional quantities, including Q. The number of 
+interrelated nondimensional quantities is always smaller, hence the result­
+ing simplification of the problem. Since there are three fundamental units 
+(M, L, T), the number of independent nondimensional parameters will be 
+reduced by the same number. Hence a total of N − 3 nondimensional quan­
+tities must be interrelated.
+This statement is essentially an intuitive one. A careful mathematical 
+proof is possible; the end result, known as the Pi theorem, is derived by 
+Birkhoff (1955) and Sedov (1959). Our approach here will be more prag­
+matic; it will illustrate the procedure of dimensional analysis and the con­
+clusions that follow from the Pi theorem by considering a sequence of 
+progressively more complicated physical problems.
+2.1  Falling Body in a Vacuum
+Let us consider first the problem of a body falling freely in a vacuum. The 
+unknown quantity Q will be taken as the vertical position y, with dimen­
+sion L. The unknown y might depend on time t, body mass m, and the 
+gravitational acceleration g which has units L/T2. Since the body is falling 
+in a vacuum, its size and shape cannot affect the descent. The vertical posi­
+tion y can be nondimensionalized by dividing by the quantity gt2 to form 
+the unknown y/gt2. However, there is no way of forming the significant 
+parameters t, m, g into nondimensional parameters, since neither g nor t 
+contains the units of mass. Thus we conclude that
+y
+gt
+C
+/
+,
+2 =
+	
+(1)
+where C is a pure constant, a nondimensional function of nonexistent, 
+nondimensional parameters involved in the problem. The constant C is

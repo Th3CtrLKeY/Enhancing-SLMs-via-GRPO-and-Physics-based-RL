@@ -1,0 +1,103 @@
+find the added mass and damping coefficients of most of the cross-sectional forms of ships. This implies that the beam—draught ratio B/D and the sectional area WAVE PROPAGATION DIRECTION A= 95.6m Te =7.8s WAVE PROPAGATION U=10ms~! DIRECTION —— A= 225m Te = 7.8s Fig. 3.21. Illustration to show that the frequency of encounter corresponds to different wavelengths for zero and non-zero forward speed of a ship in head sea. (7, = encounter period, A = wavelength, U = forward speed.)
+
+84 LINEAR WAVE-INDUCED MOTIONS
+
+coefficient o = A/(B « D) are sufficient hull parameters to determine the
+added mass and damping coefficients. However, this is not true for bulb
+sections for instance. By using results from Tasai (1959) for the added
+mass and damping coefficient in heave we can evaluate equation (3.74).
+The natural frequency w,3 in equation (3.74) depends on the added mass
+coefficient. This means @,3 will not be the same for different crosssectional forms of our ship. The results for heave at resonance in beam
+sea as a function of beam-—draught ratio B/D and sectional area
+coefficient o = A/(B - D) = Cy are plotted in Fig. 3.22. We can conclude
+that the heave motion decreases with increasing beam—draught ratio and
+increases with increasing sectional area coefficient. In reality the sectional
+area coefficient corresponds to the block-coefficient for our particular
+choice of ship.
+
+From the discussion above one may be tempted to conclude that as
+long as the cancellation effects of the wave loads along the ship are not
+pronounced, the heave and pitch motion in head sea at resonance
+decrease with increasing beam—draught ratio and decreasing blockcoefficient. On the other hand, if the cancellation effects are pronounced
+we should be careful in making such a statement. The reason is that the
+natural periods in heave and pitch are dependent on the hull parameters
+and we will get different cancellation effects at the heave and pitch
+natural periods of the different hulls. In addition the heave and pitch
+
+3 13
+Cal at resonance a Jat resonance
+BL
+\ sp = 0.666
+'
+\
+2 \ 20 8B.
+\ --- Cy ~1.0 ap 79
+BL
+B.
+! 10 sp 7!
+ie}
+0 2 4 6 8 B/D 0 05 1.0 Ca
+
+Fig. 3.22. Heave amplitude |7,| at resonance of a ship in beam sea as a function
+of beam—draught ratio and block coefficient. The ship has a constant
+cross-section along its length. (€, = incident wave amplitude,
+
+B = beam, D = draught, C, = block coefficient.) Infinite water
+depth.
+
+ROLL STABILIZATION 85
+
+motion increase with increasing Froude number within certain limits.
+The conclusions above are based on discussions of transfer functions.
+
+If we combine the transfer functions with a sea spectrum it is obvious
+that the root mean square values of the vertical motions will depend on
+the ship length L. In addition it is expected that the vertical ship motions
+as a general trend decrease with increasing ship length. We do not say
+that this always occurs. This depends on the peak period of the wave
+spectrum and the ship length.
+
+The vertical motions may depend on hull parameters other than Cx,
+B/D and L. Since the waterplane area coefficient Cy can be thought of
+as representing the local beam—draught ratio along the ship we may be
+tempted to conclude that increasing Cy and keeping draught constant
+means decreasing heave and pitch motions. Based on our simplified
+theoretical model it would be speculative to include any new parameters,
+
+‘but we should be aware that there is no coupling between heave and
+
+pitch in our simplified model. One reason is that we have selected a ship
+model with fore- and aft-symmetry. It is known that coupling effects
+between heave and pitch are of some importance. It would therefore be
+fogical to introduce a hull parameter characterizing the fore- and
+aft-symmetry of the hull, for instance LCB—LCF where LCB and LCF
+are respectively the longitudinal centre of buoyancy and floatation.
+
+If we compare our conclusions with Schmitke & Murdey’s (1980)
+conclusions from a systematic investigation of frigate hulls in different sea
+states, we are in agreement about the influence of L, B/D, Cw and Cy.
+Gerritsma et al. (1974) did a series of tests and calculations for regular
+waves where the length, draught and block coefficient were kept
+constant. The beam and the Froude number were varied. Their results
+seem to be in agreement with our conclusions that heave and pitch at
+resonance decrease with increasing beam—draught ratio, and increase
+with increasing Froude number. , ##.4 **/
+
+It has been reported in the Uterature that the vertical ship motions
+
+depend on the bulb, transom stern, and the pitch radius of gyration. *
+
+Further, ships with U-form seem to have different heave and pitch
+motions than ships with V-form. Our simplified theoretical model is not
+able to explain this.
+
+We should note that heave and pitch motions are not sensitive to small
+changes in hull form. However, we should be careful in generalizing the
+findings to relative vertical motions between the ship and the waves. The
+phases of heave and pitch motions are then important in the evaluation.
+
+ROLL STABILIZATION
+Rolling of a ship can be a problem and roll amplitudes of 30 and 40° have
+occurred on ships. Large roll angles make it difficult for the crew to do
+
+=

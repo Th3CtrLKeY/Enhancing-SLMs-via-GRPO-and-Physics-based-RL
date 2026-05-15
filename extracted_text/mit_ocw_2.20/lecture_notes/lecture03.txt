@@ -1,0 +1,604 @@
+[Page 1]
+Lecture 3 
+ – Marine Hydrodynamics 
+Lecture 3 
+1.7 Stress Tensor 
+1.7.1 Stress Tensor τij 
+The stress (force per unit area) at a point in a ﬂuid needs nine components to be completely 
+speciﬁed, since each component of the stress must be deﬁned not only by the direction in 
+which it acts but also the orientation of the surface upon which it is acting. 
+The ﬁrst index i speciﬁes the direction in which the stress component acts, and the second 
+index j identiﬁes the orientation of the surface upon which it is acting. Therefore, the ith 
+component of the force acting on a surface whose outward normal points in the jth direction 
+is τij . 
+X1 
+X2 
+X3 
+
+
+
+
+
+
+
+
+
+Figure 1: Shear stresses on an inﬁnitesimal cube whose surfaces are parallel to the coordinate 
+system. 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+ 
+ 
+ 
+X2 
+
+A1 
+X3 
+
+A2 
+
+A3 
+area A0
+X1 
+nˆ
+P 
+Q 
+R 
+Figure 2: Inﬁnitesimal body with surface PQR that is not perpendicular to any of the Cartesian 
+axis. 
+Consider an inﬁnitesimal body at rest with a surface PQR that is not perpendicular to any 
+of the Cartesian axis. The unit normal vector to the surface PQR is ˆn = n1xˆ1 +n2xˆ2 +n3xˆ3. 
+The area of the surface = A0, and the area of each surface perpendicular to Xi is Ai = A0ni, 
+for i = 1, 2, 3. 
+Newton’s law: 
+Fi = (volume force)i for i = 1, 2, 3  
+on all 4 faces 
+Note: If δ is the typical dimension of the body : surface forces ∼ δ2 
+: volume forces ∼ δ3 
+An example of surface forces is the shear force and an example of volumetric forces is the 
+gravity force. At equilibrium, the surface forces and volumetric forces are in balance. As 
+the body gets smaller, the mass of the body goes to zero, which makes the volumetric 
+forces equal to zero and leaving the sum of the surface forces equal zero. So, as δ → 
+0, 
+all4faces Fi = 0 for i = 1, 2, 3 and ∴ τiA0 = τi1A1 + τi2A2 + τi3A3 = τij Aj . But the area 
+of each surface ⊥ to Xi is Ai = A0ni. Therefore τiA0 = τij Aj = τij (A0nj ), where τij Aj is 
+the 
+notation (represents the sum of all components). Thus τi = τij nj 
+for i = 1, 2, 3, 
+where τi is the component of stress in the ith direction on a surface with a normal ⃗n . We  
+call τ i the stress vector and we call τij the stress matrix or tensor.
+
+---PAGE BREAK---
+
+[Page 3]
+ 
+ 
+ 
+1.7.2 Example: Pascal’s Law for Hydrostatics 
+In a static ﬂuid, the stress vector cannot be diﬀerent for diﬀerent directions of the surface 
+normal since there is no preferred direction in the ﬂuid. Therefore, at any point in the 
+ﬂuid, the stress vector must have the same direction as the normal vector ⃗n and the same 
+magnitude for all directions of ⃗n . 
+no summation 
+Pascal’s Law for hydrostatics: 
+τij = 
+− (pi) (δij ) 
+⎡
+⎤ 
+−p1 
+
+
+⎣
+⎦
+τ =
+
+−p2 
+
+
+
+−p3 
+where pi is the pressure acting perpendicular to the ith surface. If p0 is the pressure acting 
+perpendicular to the surface PQR, then τi = −nip0 , but: 
+τi = τij nj = −(pi)δij nj = −(pi)(ni) 
+Therefore po = pi , i = 1, 2, 3 and ⃗n is arbitrary.
+
+---PAGE BREAK---
+
+[Page 4]
+ 
+ 
+1.7.3 Symmetry of the Stress Tensor 
+To prove the symmetry of the stress tensor we follow the steps: 
+j 
+o 
+i 
+ji 
+ij 
+ji 
+ij 
+Figure 3: Material element under tangential stress. 
+1. The 
+of surface forces = body forces + mass× acceleration. Assume no symmetry. 
+Balance of the forces in the ith direction gives: 
+(δ)(τij )TOP − (δ)(τij )BOTTOM = O(δ2), 
+since surface forces are ∼ δ2, where the O(δ2) terms include the body forces per unit 
+depth. Then, as δ → 0, (τij )TOP = (τij )BOTTOM . 
+2. The 
+of surface torque = body moment + angular acceleration. Assume no sym­
+metry. Balance of moments about o gives: 
+(τjiδ)δ − (τij δ)δ = O(δ3), 
+since the body moment is proportional to δ3. As  δ → 0 ,  τij = τji.
+
+---PAGE BREAK---
+
+[Page 5]
+1.8 Mass and Momentum Conservation 
+Consider a material volume ϑm and recall that a material volume is a ﬁxed mass of mate­
+rial. A material volume always encloses the same ﬂuid particles despite a change in size, 
+position, volume or surface area over time. 
+1.8.1 Mass Conservation 
+The mass inside the material volume is: 
+M(ϑm) =  
+ρdϑ 
+ϑm(t) 
+Sm(t) 
+)t(
+m 
+ϑ 
+Figure 4: Material volume ϑm(t) with surface Sm(t). 
+Therefore the time rate of increase of mass inside the material volume is: 
+d
+d 
+M(ϑm) =  
+ρdϑ = 0,
+dt 
+dt 
+ϑm (t) 
+which is the integral form of mass conservation for the material volume ϑm.
+
+---PAGE BREAK---
+
+[Page 6]
+1.8.2 Momentum Conservation 
+The ﬂuid velocity inside the material volume in the ith direction is denoted as ui. Linear 
+momentum of the material volume in the ith direction is 
+ρuidϑ 
+ϑm(t) 
+Newton’s law of motion: The time rate of change of momentum of the ﬂuid in the material 
+control volume must equal the sum of all the forces acting on the ﬂuid in that volume. 
+Thus: 
+d (momentum)i =(body force)i + (surface force)i
+dt 
+d 
+ρuidϑ = 
+Fidϑ 
++ 
+τij nj dS 
+dt 
+ 
+ϑm(t) 
+ϑm(t) 
+Sm(t) 
+τi 
+ 
+ 
+Divergence Theorems 
+For vectors: 
+∇·  ⃗vdϑ = ⊂⊃ ⃗v.nˆ dS 
+ 
+ 
+ϑ 
+∂vj 
+S
+vjnj 
+∂xj 
+∂τij
+For tensors: 
+dϑ = ⊂⊃ τij nj dS 
+∂xj 
+ϑ
+S 
+Using the divergence theorems we obtain 
+ 
+  
+ 
+d 
+∂τij
+ρuidϑ = 
+Fi + 
+dϑ 
+dt 
+∂xj 
+ϑm(t) 
+ϑm(t) 
+which is the integral form of momentum conservation for the material volume ϑm.
+
+---PAGE BREAK---
+
+[Page 7]
+1.8.3 Kinematic Transport Theorems 
+Consider a ﬂow through some moving control volume ϑ(t) during a small time interval Δt. 
+Let f (⃗x, t) be any (Eulerian) ﬂuid property per unit volume of ﬂuid (e.g. mass, momentum, 
+etc.). Consider the integral I(t): 
+I(t) =  
+f (⃗x, t) dϑ 
+ϑ(t) 
+According to the deﬁnition of the derivative, we can write 
+d
+I(t + Δt) − I(t)
+I(t) = lim 
+dt 
+Δt→0 
+Δt 
+⎧
+⎫ 
+⎪ 
+ 
+⎪ 
+1 ⎨
+⎬ 
+= lim 
+f(⃗x, t + Δt)dϑ − 
+f(⃗x, t)dϑ 
+Δt→0 Δt ⎪
+⎪ 
+⎩
+⎭ 
+ϑ(t+Δt) 
+ϑ(t) 
+S(t+Δt) 
+)t
+t( 
+Δ
++
+ϑ 
+)t(
+ϑ
+S(t) 
+Figure 5: Control volume ϑ and its bounding surface S at instants t and t + Δt.
+
+---PAGE BREAK---
+
+[Page 8]
+Next, we consider the steps 
+1. Taylor series expansion of f(⃗x, t + Δt) about (⃗x, t). 
+∂f 
+f(⃗x, t + Δt) =  f(⃗x, t) + Δt 
+(⃗x, t) +  O((Δt)2)
+∂t 
+2. 
+dϑ = 
+dϑ + 
+dϑ 
+ϑ(t+Δt) 
+ϑ(t)
+Δϑ 
+where, 
+dϑ =
+[Un(⃗x, t)Δt] dS and Un(⃗x, t) is the normal velocity of S(t). 
+Δϑ
+S(t) 
+S(t) 
+dS
+
+n 
+)t
+(
+O
+t
+)t,x
+(
+U 
+Δ
++
+Δ
+v
+S(t+Δt) 
+Figure 6: Element of the surface S at instants t and t + Δt. 
+Putting everything together: 
+⎧
+⎫ 
+⎪ 
+ 
+ 
+ 
+⎪ 
+d 
+1 ⎨ 
+∂f 
+⎬ 
+I(t) = lim 
+dϑf + Δt
+ dϑ
+ 
++ Δt
+ dSUnf − 
+dϑf + O(Δt)2 
+(1)
+dt 
+Δt→0 Δt ⎪ 
+∂t
+ 
+⎪ 
+⎩
+⎭ 
+ϑ(t) 
+ϑ(t) 
+S(t) 
+ϑ(t)
+
+---PAGE BREAK---
+
+[Page 9]
+From Equation (1) we obtain the Kinematic Transport Theorem (KTT), which is equivalent 
+to Leibnitz rule in 3D. 
+d 
+∂f(⃗x, t)
+f(⃗x, t)dϑ = 
+dϑ + 
+f(⃗x, t)Un(⃗x, t)dS 
+dt 
+∂t 
+ϑ(t) 
+ϑ(t) 
+S(t) 
+For the special case that the control volume is a material volume it is ϑ(t) =  ϑm(t) and Un 
+= ⃗v n
+v is the ﬂuid particle velocity. The Kinematic Transport Theorem (KTT), 
+· ˆ, where ⃗
+then takes the form 
+d 
+∂f(⃗x, t)
+f(⃗x, t)dϑ = 
+dϑ + 
+f(⃗x, t)(⃗v n
+· ˆ)dS 
+dt 
+∂t 
+
+ 
+ 
+ 
+ϑm(t) 
+ϑm(t) 
+Sm(t) 
+f(vini) 
+(Einstein Notation) 
+Using the divergence theorem, 
+∇· α⃗dϑ = ⊂⊃ α⃗
+n
+· ˆdS 
+   
+  
+∂ 
+αini
+ϑ 
+∂xi αi 
+S 
+we obtain the 1st Kinematic Transport Theorem (KTT) 
+ 
+  
+ 
+d 
+∂f(⃗x, t)
+f (⃗x, t) dϑ =
++ ∇· (f⃗v) dϑ,
+dt 
+∂t 
+   
+∂
+ϑm(t) 
+ϑm(t) 
+∂xi (fvi) 
+where f is some ﬂuid property per unit volume.
+
+---PAGE BREAK---
+
+[Page 10]
+
+ 
+ 
+ 
+1.8.4 Continuity Equation for Incompressible Flow 
+• Diﬀerential form of conservation of mass for all ﬂuids Let the ﬂuid property 
+per unit volume that appears in the 1st KTT be mass per unit volume ( f = ρ): 
+ 
+  
+ 
+d 
+∂ρ 
+
+= 
+ρdϑ 
+=
++ ∇· (ρ⃗v) dϑ 
+↑ 
+dt 
+↑ 
+∂t 
+conservation 
+ϑm(t) 
+1stKTT ϑm(t)
+of mass 
+But since ϑm is arbitrary the integrand must be ≡0 everywhere. 
+Therefore: 
+∂ρ + ∇· (ρ⃗v) = 0
+∂t 
+∂ρ + [⃗v · ∇ρ + ρ∇· ⃗v] = 0
+∂t 
+Dρ 
+Dt 
+Leading to the diﬀerential form of 
+Dρ 
+Conservation of Mass: 
++ ρ∇· ⃗v = 0  
+Dt
+
+---PAGE BREAK---
+
+[Page 11]
+• Continuity equation ≡ Conservation of mass for incompressible ﬂow In 
+general it is ρ = ρ(p, T, . . .), but we consider the special case of an incompressible 
+ﬂow, i.e. Dρ = 0 (Lecture 2). 
+Dt 
+Note: For a ﬂow to be incompressible, the density of the entire ﬂow need not be 
+constant (ρ(⃗
+̸
+x, t) =  const). As an example consider a ﬂow of more than one incom­
+pressible ﬂuids, like water and oil, as illustrated in the picture below. 
+Constant ρ
+fluid particle 
+oil 
+water 
+fluid particle 
+ρ1 
+ρ2 
+Figure 7: Interface of two ﬂuids (oil-water) 
+Since for incompressible ﬂows Dρ = 0, substituting into the diﬀerential form of the 
+Dt 
+conservation of mass we obtain the 
+∂vi
+Continuity Equation: 
+∇· ⃗v 
+≡ 
+= 
+
+∂xi 
+
+ 
+ 
+ 
+rate of volume dilatation
+
+---PAGE BREAK---
+
+[Page 12]
+1.8.5 Euler’s Equation (Diﬀerential Form of Conservation of Momentum) 
+• 2nd Kinematic Transport Theorem ≡1st KTT + diﬀerential form of conservation 
+of mass for all ﬂuids. If G = ﬂuid property per unit mass, then ρG = ﬂuid property 
+per unit volume 
+ 
+  
+ 
+d 
+∂ 
+ρGdϑ 
+=
+(ρG) +  ∇· (ρG⃗v) dϑ 
+dt 
+↑ 
+∂t 
+ϑm(t)
+1stKTT 
+ϑm(t) ⎡
+⎤ 
+ ⎢
+ 
+
+ 
+⎥ 
+⎢ 
+∂ρ 
+∂G 
+⎥ 
+⎢ 
+⎥
+= 
+G 
++ ∇· ρ⃗v 
++ ρ 
++ ⃗v · ∇G 
+dϑ
+ 
+⎢ 
+∂t 
+∂t 
+⎥ 
+⎣ 
+⎦ 
+ϑm(t) 
+
+
+ 
+ 
+
+
+ 
+ 
+DG
+=0 from mass conservation 
+= Dt 
+The 2nd Kinematic Transport Theorem (KTT) follows: 
+d 
+DG 
+ρGdϑ = 
+ρ
+ dϑ
+ 
+dt 
+Dt 
+ϑm 
+ϑm 
+Note: The 2nd KTT is obtained from the 1st KTT (mathematical identity) and the 
+only assumption used is that mass is conserved.
+
+---PAGE BREAK---
+
+[Page 13]
+ 
+• Euler’s Equation 
+We consider G as the ith momentum per unit mass (vi). Then, 
+  
+ 
+ 
+ 
+Fi + ∂τij 
+dϑ 
+= 
+d 
+ρvidϑ 
+= 
+Dvi
+ρ
+ dϑ
+ 
+∂xj 
+↑ 
+dt 
+↑ 
+Dt 
+ϑm(t) 
+conservation 
+ϑm(t) 
+2ndKTT ϑm(t)
+of momentum 
+But ϑm(t) is an arbitrary material volume, therefore the integral identity gives 
+Euler’s equation: 
+⎛
+⎞ 
+Dvi 
+⎜∂vi 
+⎟ 
+∂τij
+⎜
+⎟
+ρ 
+≡ρ 
++ ⃗v · ∇vi 
+= Fi + 
+Dt 
+⎝ ∂t 
+    ⎠ 
+∂xj 
+∂vi
+vj ∂xj 
+And in vector tensor form: 
+ρD⃗v ≡ρ ∂⃗v + ⃗v · ∇⃗v 
+= F⃗ + ∇·  τ 
+Dt 
+∂t

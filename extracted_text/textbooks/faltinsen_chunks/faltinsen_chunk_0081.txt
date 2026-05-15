@@ -1,0 +1,87 @@
+the forcing function in the free-surface boundary condition, Newman (1990) showed that the second-order harmonic potential is inversely proportional to the depth and not exponentially decaying for large depth. This is in agreement with Kim & Yue’s numerical results. In the case of two linear frequency components w, and @, the 2w,- and 2q,-terms decay inversely proportional to the depth. The (w; + @2)-term decays inversely proportional to the depth if the two frequency components are close to each other.
+
+170 SECOND-ORDER NON-LINEAR PROBLEMS
+
+Table 5.1. Main characteristics of a TLP
+presented in Fig. 3.15
+
+Water depth, m 600
+Displacement, tonnes 52.000
+Distribution, tonnes
+Deck structures 6.000
+Facilities 10.000
+Ballast 1.000
+Hull 16.000
+(Subtotal) (33.000)
+Top tension
+= Risers 2.000
+= Tethers 17.000
+Dimensions, m
+Length overall 87
+Column spacing 70
+Draught 32
+Under deck clearance 25
+Column diameter 17
+Natural period, s
+Sway, surge 107
+Heave 2.2
+Pitch, roll 2.4
+Yaw 87
+EXERCISES
+
+5.1 Tension leg platform
+A tension leg platform is shown in Fig. 3.15. Main characteristics are
+given in Table 5.1.
+(a) Show that the natural periods of surge and heave motion of a
+tension leg platform can be approximated as
+
+_ M+ An)’
+Ta = 2a
+
+_ Mt As)!
+Toa = 2 EA/I
+
+where Py is the pre-tension in the tethers, / the length of the
+tethers and A is the cross-sectional dimensions of the tethers.
+(b) Consider incident regular waves propagating in the positive
+x-direction. The mean wave-drift forces in surge are given in
+Fig. 5.24 as a function of w. Viscous effects are excluded.
+
+EXERCISES I7I
+
+Discuss the ‘behaviour of the wave-drift forces, particularly
+asymptotic values and cancellation effects. Compare with the
+asymptotic formulas for small wavelengths.
+
+(c) Discuss in a qualitative way the importance of viscous effects
+on the mean wave-drift forces.
+
+(d) Calculate the standard deviation of the slow-drift surge
+motion due to wind when the wind speed is 40 ms~!. Make
+your own choices when necessary data are not given. Give an
+explanation of your choices. You may assume that the
+damping is due to drag forces.
+
+(e) Discuss in a qualitative sense the importance of wave-drift
+damping on slow-drift surge motion due to wind.
+
+5.2 Moored ship
+Consider a moored ship of length L in long-crested head sea waves that
+can be described by a wave spectrum S(w). In the following calculations
+use
+
+S(@) J (@2x)7! 05<etey 5
+HeT, an
+pel 0 for other frequencies
+F
+zi (Nm)
+a
+f3.o-10°
+p25-10°
+£20-10°
+
+0.4 0.6 08 1.0 12 14 w (rad s’)
+
+Fig. 5.24. Wave-drift force F, of the TLP described in Fig. 3.15 and Table
+5.1. 0° wave heading. (w = circular frequency of oscillations,
+¢, = wave amplitude of the incident waves.)

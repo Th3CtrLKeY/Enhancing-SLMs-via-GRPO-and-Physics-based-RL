@@ -1,0 +1,103 @@
+of the motion. This memory effect is one of the principal features of the unsteady hydrofoil problem. An analogous situation will be encountered in chapter 6, where the unsteady motions of Figure 5.32 Unsteady vortex wake behind an oscillating foil. The case shown is for heaving mo­ tion of the foil, with a reduced frequency k = 1.0. The orientation and length of each arrow denotes the sign and strength of the vorticity at the corresponding position in the wake.
+
+Lifting Surfaces 
+
+a floating body will generate waves which, in turn, affect the body over a 
+subsequent period of time.
+Our discussion of unsteady hydrofoil theory will be limited to the sim­
+plest two-dimensional case—linearized flow with constant forward veloc­
+ity. The linear restriction implies not only that the foil is thin and at a small 
+angle of attack, but that the unsteady motions are small. As in the steady 
+case, the foil can be collapsed onto a cut in the x-axis, and similarly the vor­
+tex sheet in the wake is confined to the x-axis. Elsewhere the fluid motion 
+is irrotational, with the perturbation velocity field defined by a velocity 
+potential that vanishes at infinity. Other conditions to be imposed include 
+a kinematic boundary condition on the foil, a Kutta condition at the trail­
+ing edge, and a dynamic boundary condition on the vortex wake. Finally, 
+on the assumption that the motion has arisen from an initial state of rest, 
+the total circulation about the foil plus its wake must vanish.
+As in sections 5.6 and 5.7, it will be convenient to assume that the coor­
+dinates are nondimensionalized on the basis of the half-chord 1
+2 l, with the 
+leading and trailing edges of the foil at x = ±1, respectively, and the wake 
+confined to the line x < −1.
+Thickness and lifting effects can be treated separately because of linear­
+ization. Unless the thickness is variable in time the unsteady effects will 
+be confined to the lifting problem. Thus we consider an unsteady meancamber line, or a foil of zero thickness with camber and angle of attack that 
+vary with time in some prescribed manner.
+If the vertical coordinate of the mean-camber line is denoted by y = η(x, 
+t), the kinematic boundary condition on the foil takes the form
+0 =
+−
+=
+∂
+∂−
+∂
+∂
++ ∇⋅∇
+
+
+
+
+−
+= ∂
+∂
+−∂
+∂+
+∂
+∂
+D
+Dt y
+t
+U
+x
+y
+y
+t
+U
+x
+(
+)
+(
+)
+,
+η
+φ
+η
+φ
+η
+η
+	
+(192)
+where second-order terms in ϕ and η are neglected. Applying this condi­
+tion on the cut gives an equation for the vertical velocity component on 
+y = 0,
+v x
+t
+t
+U
+x
+v
+x t
+x
+( , , )
+( , ),
+.
+
+
+
+
+= ∂
+∂−
+∂
+∂
+≡
+−
+<
+<
+η
+η
+	
+(193)
+This is the appropriate generalization of the boundary condition (22) for 
+the steady-state lifting problem.

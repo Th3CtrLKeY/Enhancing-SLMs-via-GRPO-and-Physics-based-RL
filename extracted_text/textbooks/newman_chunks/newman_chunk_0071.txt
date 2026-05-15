@@ -1,0 +1,156 @@
+following results: δ δ δ * , = −     = −     ∫1 u U dy Λ (75) θ δ δ = −     = − −     ∫ u U u U dy 9 072 Λ Λ , , (76) τ µ µ δ xy y u y U = ∂ ∂     = +     =0 Λ . (77)
+
+The Motion of a Viscous Fluid 
+
+If these values are substituted in the momentum equation (72), we obtain 
+a differential equation involving both Λ(x) and δ(x), but the latter can be 
+eliminated by using the definition (74). The final result of these substitu­
+tions is the following differential equation for Λ:
+d
+dx
+dU
+dx
+U
+g
+d U
+dx
+dU
+dx h
+Λ
+Λ
+Λ
+=
++
+/
+(
+)
+/
+/
+(
+),
+
+
+(78)
+where
+g(
+)
+.
+.
+.
+.
+.
+.
+,
+Λ
+Λ
+Λ
+Λ
+Λ
+Λ
+=
+−
++
++
+−
+−
+7257 6
+1336 32
+37 92
+0 8
+213 12
+5 76
+
+
+
+h(
+)
+.
+.
+.
+.
+.
+.
+Λ
+Λ
+Λ
+Λ
+Λ
+Λ
+=
+−
+−
+−
+−
+213 12
+1 92
+0 2
+213 12
+5 76
+
+
+
+Further progress requires that this differential equation be integrated 
+numerically with respect to x, for any given inviscid velocity function 
+U(x), starting upstream at the stagnation point where the boundary layer 
+commences on the body surface. At the stagnation point, we must have 
+U = 0, while dU/dx > 0; to avoid a singularity at this point from the first 
+Figure 3.8
+Pohlhausen velocity profiles, for various values of the shape factor Λ.
+
+Chapter 3
+term on the right side of equation (78), g(Λ) must be zero. Of the three pos­
+sible roots, the appropriate one is Λ = 7.052, and this criterion determines 
+the initial value of the shape factor Λ for numerical integration of the dif­
+ferential equation (78). The corresponding initial velocity distribution is 
+indicated in figure 3.8.
+As a simple estimate of the accuracy of this method, the results may 
+be compared with Blasius’ solution for the flat plate, corresponding to the 
+curve Λ = 0 in the above method. The displacement and momentum thick­
+nesses from Pohlhausen’s approximation are found to be
+δ
+ν
+*
+.
+(
+/
+)
+,
+/
+= 1 75
+1 2
+x U
+	
+(79)
+θ
+ν
+= 0 685
+1 2
+.
+(
+/
+)
+.
+/
+x U
+	
+(80)
+Thus, the error incurred in this case by assuming the polynomial profile 
+(73) is, by comparison with equations (56) and (58), approximately 2 to 3 
+percent.
+3.16  Laminar Boundary Layers: Closing Remarks
+Three-dimensional laminar boundary layers are complicated not only by 
+the changes in the external pressure gradient but also by cross-flow com­
+ponents in the third dimension within the boundary layer, and simple 
+qualitative conclusions cannot be made. An exceptional case is the axi­
+symmetric flow past a body of revolution, where a transformation due to 
+Mangler reduces the continuity equation to its two-dimensional form and 
+preserves the form of the boundary-layer equation. Unsteadiness is another 
+complication, but it is of less practical concern for most problems of marine 
+hydrodynamics. Discussions of these and other aspects of laminar bound­
+ary layers can be found in the references by Landau and Lifshitz (1959), 
+Batchelor (1967), Schlichting (1968), Yih (1969), and White (1974).
+3.17  Turbulent Flow: General Aspects
+Turbulence is characterized by the superposition of a highly irregular and 
+oscillatory velocity pattern upon an otherwise “smooth” flow. Thus, flows 
+that would otherwise be steady in time and slowly varying in space become 
+unsteady and rapidly fluctuating. If the Navier-Stokes equations are to

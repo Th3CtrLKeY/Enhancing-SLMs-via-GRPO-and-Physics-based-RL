@@ -1,0 +1,142 @@
+effect, 114 Virtual-mass coefficients, 156 Viscosity of air and water, 4 coefficient of, 64 Viscosity coefficient, 5 kinematic, 65 Viscous drag, as residual drag component, 30 Viscous drag force, 44 Viscous flow, laminar, 16, 17 Viscous fluid motion, 55–105 description of flow, 56–58 effect of stress on, 52–64 flow between two parallel walls, 67–68 transport theorem of, 59–61, 62 Viscous force, 42 on axisymmetric bodies, 47 orders of magnitude, 2–3 relation to inertial force, 42, 44 Viscous force damping, 46
+
+Index 
+
+Viscous shear, 70
+Viscous shear coefficient, 64
+Viscous shear stress, 81
+Viscous stress, 6–7, 37, 63–64
+Viscous sublayer, 91, 98
+Vortex, 40–41
+complex potential, 243(12)
+distribution, 177–180, 186, 187–189, 
+197–200
+for flat plate, 180–184, 181
+on unsteady hydrofoil, 233
+filament, 197, 197–200, 198, 200
+horseshoe, 204, 205, 205–206
+in linearized lifting problem, 177–180
+shed from bluff body, 40–41, 170–171
+sheet, 201
+bound, 201
+shedding, 357
+slender-body, 355, 357
+trailing (free), 201, 202, 203–206, 
+204, 355–356
+unsteady hydrofoil, 232
+three-dimensional, 197–200
+trailing (free), 211–212
+two-dimensional, 177–180, 197
+Vorticity, 110
+conservation on vortex sheets, 202
+trailing (free), 203–208
+Vossers, G., 50
+Vugts, J. H., 310, 316, 387
+Wagner function, 241, 242, 323
+Wake
+retardation, 35
+in unsteady force, 38–39
+of unsteady hydrofoil, 230, 230–231, 
+232–236, 237
+Wake fraction, 35
+Walls
+ideal fluid motion between, 160–161
+near-wall approximation, 96, 97
+parallel, flow between, 67–68, 69
+Wang, S., 382
+Ward, T. M., 296
+Water, density and viscosity coefficients, 
+3–4
+Waterplane, area and moments, 304, 
+371, 373, 374
+Wave(s)
+amplitude, 12, 13, 42–43, 50(1), 252, 
+260, 266, 279
+relation to damping coefficient, 308
+carrier, 268, 269
+dimensional analysis, 12–14
+dispersive, 13–14
+diverging, 285, 285, 286, 290
+drag, 30, 278–281, 281, 283
+breaking wave–related, 286
+definition, 248
+in full-scale speed, 31
+relation to Reynolds numbers, 33–34
+of thin ships, 138
+wave pattern analysis, 294–296
+energy. (see energy, of waves)
+equation, 389
+following, 317, 377
+force, on stationary bodies, 41–44
+frequency, 42
+front, 270, 270–271
+generation by moving vessels. See Ship 
+waves
+generation by wind, 14, 261
+group velocity, 268–271, 269, 270, 
+272, 276–277, 283
+head, 317
+height, 260
+average, 329–330
+significant, 328–329, 331
+of steepest wave, 260, 261
+incident, 265, 266
+linearized, 13
+long-crested, 327
+oblique, 265–266, 267, 318
+oscillatory, 12–14
+phase velocity, 12, 12
+progressive, 12
+
+Index
+reflected, 265, 265, 266
+resistance. (see wave, drag)
+short-crested, 327
+side-band, 260
+slender bodies in, 369–387
+spectrum, 13–14, 247, 327–330, 331
+relation to wind speed, 328, 329, 
+330, 330–331
+standing, 264–266, 265
+superposition, 263–268
+transverse, 285, 285, 286, 290
+wind-generated, 14
+Wave diffraction problem, 299
+Wavelength, 50(1)
+linearized, 13
+phase velocity of, 252, 255
+relation to phase velocity, 13–14
+in shallow water, 388–389
+Wavemaker theory, 319, 335(6)
+Wavenumber, 250, 251–252, 282, 325
+in shallow water, 388–389
+Wave pattern analysis, 294–296
+Wehausen, J. V., 260, 261, 268, 277, 
+281, 293, 310, 311, 312, 316
+Wetted-surface area, 29, 51(8), 51(10)
+White, F. M., 88
+Whitham, G. B., 277
+Whitney, A. K., 222
+Wiegel, R., 255, 263
+Wille, R., 41
+Wind, wave generation by, 14, 261
+Wind speed, relation to wave spectrum, 
+328, 329, 330, 330–331
+Wind tunnels, 50(3)
+wall corrections, 161
+Woods, L. C., 234, 241
+Wu, T. Y., 218, 222, 239, 357
+Yaglom, A. M., 95–96, 96, 97, 325, 326
+Yaw, 297, 357, 357
+definition sketch, 298
+determination, 363
+high-frequency limit, 310
+low-frequency limit, 309
+slender body, 354
+velocity, 358, 363
+Yaw moment, 359, 362
+cross-coupling, 360
+Yeung, R. W., 342
+Yih, C. S., 88, 141
+Zakay, A., 32
+Wave(s) (cont.)

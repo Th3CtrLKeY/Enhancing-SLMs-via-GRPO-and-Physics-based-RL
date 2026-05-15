@@ -1,0 +1,48 @@
+the only effect of the velocity fluctuations is to contribute an additional stress system. By comparison with Euler’s equations (18), this Reynolds stress is equal to − ′ ′ ρu u i j. In other words, the total stress tensor can be written in the form τ δ µ ρ ij ij i j j i i j p u x u x u u = − + ∂ ∂ + ∂ ∂    − ′ ′. (91)
+
+The Motion of a Viscous Fluid 
+
+Physically, the Reynolds stress can be identified with the transport of 
+momentum associated with the fluctuating components of the velocity. If 
+this stress were known, equation (91) could be solved for the mean veloc­
+ity ūi in a manner analogous to the solution of the Navier-Stokes equa­
+tions for laminar flow. However, there is no rational method of determining 
+the Reynolds stress system, for example by imposing additional boundary 
+conditions, and so it is necessary to resort to empirical methods based on 
+experimental observations.
+In general, Reynolds stresses are more important than the ordinary 
+viscous stresses. This is apparent from (91) since the Reynolds number is 
+inversely proportional to the viscosity coefficient μ. Thus, the Reynolds 
+stress system will be dominant at high Reynolds numbers, except in the 
+viscous sublayer very close to the boundaries, where the mean velocity gradi­
+ent is large and, simultaneously, the fluctuating components are forced to 
+vanish by the boundary condition ′ =
+ui
+0 on the wall.
+The increased stress level due to the Reynolds stress suggests that the 
+frictional drag on a body will be greater in the turbulent regime than is 
+the case for laminar flow, and this is confirmed by experimental data, as 
+shown in figure 2.3. An alternative physical explanation is suggested by 
+the convection of momentum, represented by the Reynolds stress. Since 
+this momentum convection will cause the velocity profile to become more 
+uniform, as shown in figure 3.9, it must result ultimately in a larger velocity 
+gradient and shear stress on the body surface.
+3.18  Turbulent Boundary Layer on a Flat Plate
+Now let us consider the characteristics of the mean velocity distribution for 
+the flow in a turbulent boundary layer. To keep this very complex problem 
+as simple as possible, we shall assume a flat plate with zero pressure gradi­
+ent. Also, we shall be concerned only with the mean velocity ū, and the bar 
+will be deleted with the understanding that the average value is implied.
+The tangential velocity component u is assumed to be of the form
+u
+f x y
+U
+=
+( , , , ,
+),
+ρ µ
+	
+(92)
+where x and y are the usual space coordinates with the plate occupying the 
+positive x-axis, ρ and μ are the density and viscosity of the fluid, and U is 
+the velocity of the free stream outside the boundary layer. The subsequent

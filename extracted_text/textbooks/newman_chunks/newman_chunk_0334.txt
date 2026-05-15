@@ -1,0 +1,87 @@
+elliptic planform, 214–215, 215 flat plate, 243(5) hydrofoil, 23, 24 supercavitating flow, 223–236 two-dimensional, 243(7) of uncambered foil, 181 Lift-drag ratio, 208–210 Lift force horizontal, 22 oscillatory, 41 sectional, 24, 25, 26 slender body, 354–357 for unsteady hydrofoil, 234–235 in vortex shedding, 40–41 Lifting-line equation, 213 Lifting-line theory, 210–216 for slender body, 356 Lifting problem, 189–197 hydrofoils, 176, 176–184 relation to vortex distribution, 177–180 three-dimensional planar surface, 200–206 unsteady hydrofoil, 230–236 Lifting surfaces, 1–2, 167–245 chord length, 167 definition, 167
+
+Index
+dimensional analysis, 22, 22–24, 25
+span, 167
+three-dimensional, 168, 168
+Lighthill, M. J., 260, 353
+Linearization
+of Bernoulli equation, 218
+of body motion in waves, 46, 48, 300
+of body motions in water, 43
+of cavity flow, 218, 219
+of free-surface boundary condition, 
+248–250
+of paddlewheels, 103(8)
+thin-wing theory, 159
+of wavelength, 13
+of waves, 13
+Long-crested waves, 327
+Longuet-Higgins, M. S., 263
+Long-wave approximation, 313–314
+Low-aspect ratio lifting-surface theory, 
+
+Low-Froude-number asymptomatic 
+tendency, 31, 32
+Lucy Ashton drag coefficient, 32
+Lumley, J. L., 64
+Mach cone, 290
+Mach number, 4, 390
+Mair, W. A., 41
+Mandel, P., 358, 360, 361
+Manen, J. D., 28
+Mangler, W., 88
+Mariner class ship, motion in waves, 
+387, 388
+Maskell, S. F., 323
+Mass, conservation of, 55, 58–59, 61
+Mass transport, 261–263, 335(3)
+Matched asymptotic expansions, 
+94–95
+in lifting-line theory, 214
+in slender-body theory, 347, 348–351
+Material volume, 58
+Matheson, N., 99
+Mean-camber line, 175–177, 178, 180, 
+182, 184, 185, 231
+oscillatory, 238
+Mean velocity profile, 95–96, 96
+Mechanical oscillator, comparison with 
+floating body, 322
+Mei, C. C., 263, 397
+Memory effect
+on floating body, 322
+on unsteady hydrofoil, 230–231, 235, 
+
+Metacentric height, 306
+Michell’s integral, 293–294, 295, 319
+Michell theory, 138
+Milgram, J. H., 44
+Milne-Thomson, L. M., 128, 141
+Michell, J. H., 292
+Michell’s integral, 293–294, 295
+Moment. See also Force
+on body in waves, 313–315, 316–317
+hydrofoil, 175
+of wave spectrum, 328, 330
+Momentum, conservation of, 55, 58–59, 
+62, 65, 67, 83–84
+Momentum thickness, 80, 85, 86–87, 
+97–98, 99–100
+Monin, A. S., 95–96, 96, 326
+Moore, C. S., 306
+Moored-body motions, 48, 52(12), 151, 
+
+Morgan, W. B., 168
+Morison’s formula, 44, 51(14)
+Morse, P. M., 110, 132
+Motion of bodies in fluid. See Body 
+motions
+Motora, S., 361, 362
+Multipoles, 132, 149
+Munk moment, 355, 367
+Muskhelishvili, N. I., 189, 221
+NACA a series hydrofoils, 184, 184, 185
+Navier-Stokes equations, 6, 65–69, 
+75–76, 107
+Lifting surfaces (cont.)

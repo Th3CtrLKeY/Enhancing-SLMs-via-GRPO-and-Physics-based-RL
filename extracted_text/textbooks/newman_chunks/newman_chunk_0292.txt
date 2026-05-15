@@ -1,0 +1,172 @@
+resulting inward force, to main­ tain the centripetal acceleration. The radius of the steady-state turn is equal to U1/Ω2, to first order in the sway and yaw velocities. The quantitative validity of (67–68) is limited because the denomina­ tor, or the determinant of (65–66), is close to zero for practical vessels. For example, using the approximations indicated in the second column of table 7.2, this determinant is equal to Figure 7.5 Trajectory of a ship in a steady-state turning maneuver.
+
+Hydrodynamics of Slender Bodies 
+
+
+
+
+
+
+
+πρ
+π
+lT
+BC
+T
+B
+
+
+
+
+−
+
+
+
+,
+where C
+lBT
+B = ∀/
+ is the block coefficient and B is the beam. For a ship with 
+block coefficient 0.7, this estimate of the determinant vanishes if B/T = 2.2. 
+For wider ships the determinant will be negative, and (68) predicts a turn 
+opposite to that associated with the normal action of the rudder. Under 
+these circumstances, where small changes in the values of the hydrody­
+namic forces affect the value of the determinant substantially, more accu­
+rate theoretical or experimental methods must be employed.
+The vanishing of the determinant of (65–66) is related to the directional 
+stability of the ship, which can be analyzed in terms of the homogeneous 
+solutions of (60–61) with the rudder angle set equal to zero. Since (60–61) 
+are coupled first-order differential equations with constant coefficients, the 
+solutions for the sway and yaw velocities must be of the general form
+U
+c e
+c e
+t
+t
+
+
+
+
+
+=
++
+{
+}
+Re
+,
+σ
+σ
+	
+(69)
+Ω2
+
+
+
+
+=
++
+{
+}
+Re
+,
+c e
+c e
+t
+t
+σ
+σ
+	
+(70)
+where the constants cj and stability indices σj are complex.
+Dynamic stability requires that the homogeneous solutions (69–70) 
+decay to zero exponentially with time, or that
+Re(
+)
+.
+,
+σ1 2
+
+<
+	
+(71)
+The resulting motion will then appear as shown in figures 7.6 (a—b). If 
+either or both indices violate this inequality, the vessel will be unstable, as 
+in figure 7.6 (c).
+Quadratic equations for the stability indices can be obtained by substi­
+tuting (69–70) in (60–61). With the rudder angle set equal to zero, the only 
+nontrivial solutions of (60–61) will occur when the determinant of the coef­
+ficients on the right side of these equations is zero. With the origin chosen 
+in accordance with (62), it follows that
+U m
+m
+m
+U m
+x m
+U m
+x m
+U
+x
+m
+m
+M
+T
+S
+j
+T
+T
+S
+T
+T
+T
+T
+S
+
+
+
+
+
+
+
+
+
++
++
+−
++
+−
++
++
++
+(
+)
+(
+)
+(
+)
+(
+)
+(
+σ
+
+
+)
+.
+σ j
+=
+	
+(72)
+The resulting quadratic equation is of the form
+A
+B
+C
+j
+j
+σ
+σ
+
+
++
++
+=
+, 	
+(73)

@@ -1,0 +1,96 @@
+process. This means in practice that we are talking about a limited time period in the range from 4 hour to maybe 10 hours. In the literature this is often referred to as a short-term description of the sea. Recommended sea spectra from ISSC (International Ship and Offshore Structures Congress) and ITTC 5 (International Towing Tank Conference) are often used to calculate S(w). For instance, for open sea conditions the 15th ITTC recommended the use of ISSC spectral formulation for
+
+24 SEA ENVIRONMENT
+
+fully developed sea
+
+S(w) _ 0.11 /@T,\~* wT ,\~*
+HeT, 2x (S) exp| —0.44(ST) | (2.24)
+
+where H is the significant wave height defined as the_mean of the one
+
+third highést waves and T, is a mean wave period defined as
+T, =22m,/m, )
+
+where
+
+m= | w*S(w)d
+ke [ (w) dw (2.25)
+Hy is often redefined as
+
+Hy= 4Vmo (2.26)
+
+which gives a value which is usually close to the H 4 defined above.
+
+; Equation (2.24) satisfies equation (2.26). Strictly speaking this relation
+is only true for a narrow-banded spectrum and when the instantaneous
+value of the wave elevation is Gaussian distributed.
+
+The spectrum given by equation (2.24) is the same as the modified
+
+ERI NCY_ DOMAIN
+WAVE SPECTRUM
+
+REGULAR WAVE
+COMPONENTS WITH
+RANDOM PHASE
+ANGLES
+
+TIME _QOMAIN
+RANOOM WAVE ELEVATION
+
+Fig. 2.5. Figure illustrating the connection between a frequency domain and
+time domain representation of waves in a long-crested short term sea
+state.
+
+STATISTICAL DESCRIPTION OF WAVES 25
+
+Pierson—Moskowitz. spectrum, where it is more usual to use the mean
+wave period T, defined as
+T, = 22(mo/m,)} (2.27)
+
+The following relation exists between T, and T, for the spectrum given
+by equation (2.24) :
+
+Ty = 1.0867, _ (2.28)
+The period Ty corresponding to the peak frequency of the spectrum can
+for the same spectrum be written as “ _
+
+To = 1.40872 (2.29)
+
+To is also referred to as the modal period.
+
+The spectrum formulation given by equation (2.24) is shown in Fig.
+2.6. We note that there is little energy density when wT ,/(27) <0.5. For
+large frequencies the wave spectrum decays like wo.
+
+The 17th ITTC recommended the following JONSWAP (Joint North
+Sea Wave Project) type spectrum for limited fetch: .
+
+- Ay ( a y 2
+S(@) = 155 Tio exp Tito (3.3)*  (m’s) (2.30)
+where
+_ _ olen.)
+y= exp( ( eo
+and
+
+o=0.07 for w<5.24/T,
+=0.09 for w>5.24/T,
+
+This formulation can be used with the other characteristic periods by the
+substitution
+
+T, = 0.8347) = 1.073T2 (2.31)
+
+The JONSWAP spectrum is shown in Fig. 2.6. We note that the peak
+value of the modified Pierson—Moskowitz (ISSC) spectrum occurs at a
+different (w7/2)-value than the JONSWAP spectrum. This can be
+seen from equations (2.29) and (2.31).
+
+A good approximation to the probability density function for the
+maxima (peak values) A of the wave elevation can be obtained from the
+
+Rayleigh distribution given by
+
+p(A) =f erm (2.32)
+Mo

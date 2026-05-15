@@ -1,0 +1,144 @@
+in chapter 4, we define three translational motions parallel to (x, y, z) = (x1, x2, x3) as surge, heave, and sway, and three rotational motions about the same axes as roll, yaw, and pitch, respectively. The corresponding velocities Uj(t) will be sinusoidal in time, with the same frequency as the incident waves, and thus U t i e j j j i t ( ) Re( ), , , , . = = ωξ ω 1 2 … (118)
+
+Chapter 6
+Here the complex amplitude is employed in preference to the body 
+velocity, since the hydrostatic restoring forces that will be encountered 
+are proportional to the amplitudes of heave, roll, and pitch. These restor­
+ing forces are analogous to the familiar “spring constant” of a mechanical 
+oscillator.
+If the incident wave is sufficiently small in amplitude and the body is 
+stable, the resulting motions will be proportionally small. The velocity 
+potential ϕ can then be written in the form
+φ
+ξ φ
+φ
+ω
+( , , , )
+Re
+( , , )
+( , , )
+x y z t
+x y z
+A
+x y z
+e
+j
+j
+j
+A
+i t
+=
++
+
+
+
+
+
+
+
+
+
+=∑
+
+
+
+. 	
+(119)
+This decomposition of the total potential may be compared with equation 
+(4.101), for the motions of a rigid body in an infinite unbounded fluid. 
+The most important difference here is the presence of an additional term 
+due to the incident waves. A more subtle difference is that in chapter 4 the 
+coordinates (xi) were fixed with respect to the body, and velocity potentials 
+ϕj for each mode of motion were expressed without approximation in terms 
+of that moving reference frame. Here, because of the free surface, we adopt 
+a fixed coordinate system. Under the assumption that (119) is a small firstorder quantity, the distinction between the inertial coordinate system and 
+one fixed in the body will be a source of second-order effects that can be 
+neglected.
+Figure 6.19
+Definition sketch of body motions in six degrees of freedom.
+
+Waves and Wave Effects 
+
+In (119), the function ϕj represents the velocity potential of a rigidbody motion with unit amplitude, in the absence of the incident waves. 
+For example, if the body is forced by an external mechanism to oscillate 
+in heave with unit amplitude, in otherwise calm water, the resulting fluid 
+motion will be represented by the potential ϕ2. A similar interpretation 
+applies for each mode of rigid-body motion. The appropriate boundary 
+conditions to be imposed on the body surface SB are obtained by equating 
+the normal derivative of (119) to the normal component of the body veloc­
+ity, as in equations (4.102–4.103). Since the amplitudes ξj are independent 
+parameters, it follows that
+∂
+∂
+=
+=
+φ
+ω
+j
+j
+n
+i n
+j
+,
+, , ,
+1 2 3 	
+(120)
+∂
+∂
+=
+×
+=
+−
+φ
+ω
+j
+j
+n
+i
+j
+(
+)
+,
+, , ,
+r
+n
+
+4 5 6 	
+(121)
+on SB. Here n is the unit normal vector on the body surface, directed into 
+the body, and r is the position vector (x, y, z). The forced motion poten­
+tials ϕj, j = 1, 2, …, 6, are generally known as solutions of the radiation 
+problem.
+The remaining potential represented by the last term in (l19) is due to 
+the incident waves and their interaction with the body. Given the assump­
+tion of linear superposition, this potential is independent of the body 
+motions and may be defined with the body fixed in position. The appropri­
+ate boundary condition on the body surface is
+∂
+∂
+=
+φA
+B
+n
+S
+0,
+.
+on
+	
+(122)
+The problem so defined is known as a wave diffraction problem.
+The presence of the body in the fluid results in diffraction of the inci­
+dent wave system and the addition of a disturbance to the incident wave 
+potential associated with the scattering effect of the body. This process can 
+be emphasized by the additional decomposition
+φ
+φ
+φ
+A =
++
+
+7, 	
+(123)
+where ϕ0 is the incident wave potential and ϕ7 is the scattering potential 
+that must be introduced to represent the disturbance of the incident waves 
+by the fixed body. The incident wave potential may be regarded as known,

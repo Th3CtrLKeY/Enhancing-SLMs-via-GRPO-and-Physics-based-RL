@@ -1,0 +1,216 @@
+−∂ ∂ + ( / ). ρ (17) Multiplying both sides by the velocity components ui and summing over i gives u u u x u x p gx i j i j i i ∂ ∂ = − ∂ ∂ + ( / ). ρ (18) The left side of this equation can be rewritten as u x u u u x u u j j i i i i j j ∂ ∂ = ∂ ∂ . (19)
+
+The Motion of an Ideal Fluid 
+
+In the last step, we have interchanged the two indices i and j; this has no 
+effect on the summation over both. Combining the last two equations and 
+collecting terms on one side gives the result
+u
+x
+p
+u u
+gx
+i
+i
+j
+j
+∂
+∂
++
++
+
+
+
+=
+/
+.
+ρ
+
+
+
+
+(20)
+The differential operator ui∂/∂xi in (20) is the steady form of the substan­
+tial derivative, or the rate of change following a fluid particle with velocity 
+V. Thus along any streamline, whose tangent is everywhere parallel to V, the 
+quantity in parentheses in (20) is constant, and
+p
+V
+gx
+C
+= −
+−
++
+
+
+
+
+ρ
+ρ
+, 	
+(21)
+where
+V
+u u
+u
+v
+w
+i
+i
+
+
+
+
+=
+=
++
++
+. 	
+(22)
+In this result the constant C may vary for different streamlines, and a steady 
+motion independent of time has been assumed.
+The alternative form of Bernoulli’s equation, valid for unsteady irrota­
+tional flows, is more useful since the flow of an inviscid fluid is generally 
+irrotational but may be unsteady. In this case we utilize the velocity poten­
+tial, substituting (15) in the general form of Euler’s equations (3),
+∂
+∂
+∂
+∂
++ ∂
+∂
+∂
+∂
+∂
+∂
+= −
+∂
+∂
++
+t
+x
+x
+x
+x
+x
+p
+gx
+i
+j
+j
+i
+i
+φ
+φ
+φ
+ρ
+ρ
+
+
+(
+). 	
+(23)
+Direct differentiation shows that
+∂
+∂
+∂
+∂
+∂
+∂
+=
+∂
+∂
+∂
+∂
+∂
+∂
+φ
+φ
+φ
+φ
+x
+x
+x
+x
+x
+x
+j
+j
+i
+i
+j
+j
+
+
+. 	
+(24)
+Thus (23) can be rewritten in the form of a perfect differential
+∂
+∂
+∂
+∂+
+∂
+∂
+∂
+∂
+
+
+
+= −
+∂
+∂
++
+x
+t
+x
+x
+x
+p
+gx
+i
+j
+j
+i
+φ
+φ
+φ
+ρ
+ρ
+
+
+
+
+(
+). 	
+(25)
+Integrating this with respect to the three space variables xi gives
+∂
+∂+
+∂
+∂
+∂
+∂
+= −
++
++
+φ
+φ
+φ
+ρ
+ρ
+t
+x
+x
+p
+gx
+C t
+j
+j
+
+
+
+
+(
+)
+( ). 	
+(26)

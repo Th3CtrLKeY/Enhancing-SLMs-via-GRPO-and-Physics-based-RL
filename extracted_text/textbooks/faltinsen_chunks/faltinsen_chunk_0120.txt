@@ -1,0 +1,102 @@
+vortices. The average velocity at the cylinder centre can be estimated from 1 1 ed AN n 2 w=7 J, dae tk (5-8) +R where we have used the potential flow solution for the velocity induced , wt=n/2 A . eS) ——> B wt=371/2 Fig. 7 14, Illustration to show that two returning vortices created half a period previously represent an increase in effective incident flow at present time. (41 = circulations of vortices, w = circular frequency of oscillation.)
+
+248 VISCOUS WAVE LOADS AND DAMPING
+
+by a vortex and //2 is the horizontal distance between the vortices.
+Equation (7.30) can be integrated analytically. We find
+
+l
+- 4b if te
+car hal (xR)
+According to von Karman’s analysis 2R/l = 0.281 (see equation (6.16)).
+This means
+
+i =0.83T/l =0.58U ye 9 2KO™ (7.31)
+
+The effective incident flow to the cylinder is Uy tia. We will assume
+that the effect of eddies generated in previous cycles is negligible. This
+means
+
+Cp (Um+iay
+rs ~$ a = (1+ 0.58e79Ky (7.32)
+D
+
+This is in good agreement with the results in Fig. 7.12. It even agrees
+with the experimental values at KC=10. Due to the quasi-static
+assumptions one should not expect agreement for KC-values below 25.
+One should be careful in applying equation (7.32) to new situations since
+several major assumptions were made, for example equation (7.29) for
+the reduction of vortex circulation.
+
+Lift forces
+For large KC-numbers Verley (1982) and Bearman et al. (1984b)
+proposed a quasi-steady model to calculate the vortex-induced transverse force on a unit length of a fixed circular cylinder in oscillatory flow.
+They used the force in steady flow as a basis, i.e.
+
+F(t) = 3pU.’DC,, cos(2f,t + Wo) (7.33)
+
+Here f,= vortex shedding frequency, which can be found from the
+Strouhal number, St=/,D/U.. and C,, = amplitude of transverse force
+coefficient. wo is a constant, dependent on the history of the flow, that
+gives the phase of the transverse force. C;, and St are generally functions
+of Reynolds number.
+For an oscillatory flow velocity
+U., = Uy sin(") (7.34)
+T
+
+equation (7.33) is applied quasi-steady. The instantaneous vortex shedding
+frequency is proportional to the absolute value of the instantaneous velocity, i.e. to [Uysin(@at/T)|. The magnitude of the instantaneous
+iift force is assumed proportional to the square of the instantaneous
+
+velocity. In finding the phase of the instantaneous lift force we have to
+
+EXPERIMENTAL TOOLS 249
+
+generalize the expression cos(27f,t + Wo) for steady flow. This expression shows that during the time interval:t to ¢ + dt there is an increase in
+the phase angle dw = 2zf, dt. For unsteady flow this means
+St 2nt
+dy = 20> Um sin) de
+
+By integration we can find the instantaneous value of y. For 0<t/T <
+0.5 we can write
+
+Yr Wo= [ay =St- Kc(1 - cos(=))
+
+During the second half cycle we can use the same expression if ¢ is
+replaced by.t — $7. We can now write the following quasi-steady model
+for the lift force.
+
+F,(t)= 5 Ux? sin? (2t/T) CD
+
+2 ,
+xcos| St . KC(I - cos( ==) + Yo| (7.35)
+where
+r=|! for 0<¢t/T <0.5
+“Lte-T/2 for 0.5<t/T<1.0
+
+Further, C, and St are lift coefficients and Strouhal number for steady
+flow. The equation is valid for any body shape where the steady lift force
+can be expressed by equation (7.33) and the ambient oscillatory flow
+velocity is given by equation (7.34). The phase angle wp in equation
+(7.35) need not be the same in different half cycles. A 180° phase change
+may occur. :
+
+EXPERIMENTAL TOOLS
+
+Oscillatory flow tests in a U-tube
+Sarpkaya has, in a series of publications (Sarpkaya & Isaacson, 1981),
+
+~ shown that the U-tube is an excellent experimental tool for measuring
+
+Cm, Cp; Cz, and Strouhal number for plane harmonically oscillatory flow
+
+past two-dimensional cross-sections. Bearman and Graham have also
+
+used a U-tube extensively at Imperial College, London. A U-tube has
+also been built at the Norwegian Institute of Technology. (Sortland,
+1986). The Norwegian U-tube is described in Fig. 7.15. Forces in both
+
+*. lift and drag direction on cylinders of different shapes in oscillating flow
+
+can be measured. The force measurement system is illustrated in Fig.
+7.16. Measurements on different configurations of cylinders like risers

@@ -1,0 +1,61 @@
+α, between the orienta­ tion of the hydrofoil and the free-stream direction. Figure 2.5 Flow past a hydrofoil section. The angle of attack α is generally defined with respect to the “nose-tail line,” between the center of the minimum radius of curvature of the leading edge and the sharp trailing edge. L and D denote the lift and drag com­ ponents of the total force F, and are defined respectively to be perpendicular and parallel to the free-stream velocity vector.
+
+Model Testing 
+
+In this section the dimensional analysis of lifting surfaces is outlined in 
+a form that can be used with model tests to predict the lift and drag forces 
+acting on full-scale hydrofoils. Geometrical similarity is assumed, as in the 
+earlier sections of this chapter.
+For the two-dimensional case shown in figure 2.5, the length scale of 
+the hydrofoil or its model can be described by the chord length l. In three 
+dimensions, the lateral extent of the hydrofoil is its span s. For geomet­
+rically similar hydrofoils, either l or s can be used as the characteristic 
+length for dimensional analysis of the lift and drag force. However, as in 
+the case of the viscous drag on a flat plate, the results will be more general 
+if we anticipate that the force acting on a lifting surface is approximately 
+proportional to the planform area S. For a planar hydrofoil this can be 
+defined as the projected area of the foil in the direction of the lift force, 
+with α = 0.
+We shall assume that the hydrofoil operates in a steady-state manner 
+with constant velocity and angle of attack, in an unbounded fluid, and 
+that the ambient pressure is sufficiently high to preclude cavitation. Thus 
+the relevant physical parameters affecting the hydrodynamic forces are the 
+planform area S, velocity U, angle of attack α, fluid density ρ and the kine­
+matic viscosity υ). The lift and drag forces can be expressed in the nondi­
+mensional forms
+L
+U S
+C
+R
+L
+
+
+
+ρ
+α
+=
+( , ), 	
+(16)
+D
+U S
+C
+R
+D
+
+
+
+ρ
+α
+=
+( , ). 	
+(17)
+As in the case of the flat plate, viscous effects depend primarily on the 
+length scale of the body parallel to the free-stream direction. For this reason 
+the chord length l is used to define the Reynolds number R = Ul/υ.
+Values of the lift and drag coefficients can be obtained experimentally 
+by placing a scale model in a wind tunnel or water tunnel. The angle of 
+attack can be varied by a suitable arrangement and the force components 
+measured with dynamometers. Here again, however, there is a practical 
+difficulty in preserving the full-scale Reynolds number. Thus the drag is 
+generally treated as for a streamlined nonlifting body, accounting for the 
+Reynolds number dependence simply in terms of the frictional drag of a

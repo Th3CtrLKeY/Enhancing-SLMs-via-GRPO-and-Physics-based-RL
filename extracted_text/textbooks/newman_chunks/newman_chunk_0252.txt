@@ -1,0 +1,69 @@
+heave-exciting force, per unit length, is given by X g d dy e dy ky T ρ ζ −∫ , (179) where T is the draft, and the integral is over the vertical extent of the body. Substituting the exciting force (178) in (173) gives the heave-damping coefficient for a thin ship in the form b gk V y e dxdy d g ky ikx = ∂ ∂ − ∫∫ ∫ ρ π ζ θ θ π cos . (180)
+
+Waves and Wave Effects 
+
+Similar expressions can be derived for surge and pitch, and the analogy 
+with Michell’s integral (117) should be noted.
+For the two-dimensional cylinder, we use (174) and (179), to get
+b
+g
+V
+y e dy
+g
+ky
+T
+
+
+
+
+=
+∂
+∂
+−∫
+ρ
+ζ
+. 	
+(181)
+From this result one can deduce the wavemaker theory, for the waves gener­
+ated by a vertical wavemaker oscillating horizontally at one end of a wave 
+tank (see problem 16). The wavemaker theory, as well as the damping coef­
+ficients (180) and (181), can be derived directly from solutions of the cor­
+responding forced-motion potentials ϕi, as noted in Wehausen and Laitone 
+(1960). However, the Haskind relations (172–174) can be used to deduce 
+these results much more simply.
+The proof of the Haskind relations is independent of the water depth, 
+and (178–181) can be generalized to the case of finite depth simply by 
+replacing the exponential factor eky by the ratio of hyperbolic cosines 
+in (22).
+6.19  Motion of Floating Bodies in Regular Waves
+In sections 6.16–6.18 the various components of the total pressure force 
+and moment (130) have been discussed, as well as the force and moment 
+due to the weight of the body. We are now in a position to derive the equa­
+tions of motion for free oscillations of the body in waves by equating the 
+above forces to the inertial forces associated with acceleration of the body 
+mass. Here we assume that the body is rigid, unrestrained, and in a state of 
+stable equilibrium when in calm water.
+The six components of the inertial force, associated with the body mass, 
+can be obtained from section 4.16. With the assumption of linearized 
+motions it follows that
+F
+M U
+i
+i
+ij
+j
+j
+=
+=
+=∑
+
+…
+
+
+1 2
+
+,
+, ,
+, , 	
+(182)
+where the matrix Mij is defined by

@@ -1,0 +1,97 @@
+. η η η Then the continuity equation is satisfied automatically, and the resulting problem is as follows: f d f d d f d f df d df d η η η η η η + = = = = = = ∞ , , . on at (54) Further progress requires that this nonlinear differential equation be integrated numerically. The resulting solution is identified with Blasius, who computed the boundary-layer solution for a flat plate in 1908. The
+
+The Motion of a Viscous Fluid 
+
+resulting plot of the velocity distribution in the boundary layer is shown 
+in figure 3.5.
+This figure is qualitatively similar to figure 3.4, for the velocity 
+distribution on an accelerating plate. Blasius’ solution predicts the value 
+u/U = 0.99 when η = 4.9, and the boundary-layer thickness as defined before 
+is approximately δ = 4.9(νx/U)1/2. An alternative definition of the boundarylayer thickness, which can be defined unambiguously, is the displacement 
+thickness
+δ*
+(
+/
+)
+.
+=
+−
+∞
+∫1
+
+u U dy 	
+(55)
+Calculations reveal that
+δ
+ν
+*
+.
+(
+/
+)
+.
+/
+= 1 72
+1 2
+x U
+	
+(56)
+This value is shown as a dotted line in figure 3.5 and corresponds graphi­
+cally to the top edge of the rectangle, which has the same enclosed area as 
+the total area under the curve.
+Figure 3.5
+Velocity distribution in a Blasius laminar boundary layer. The total area under the 
+curve is equal to the area under the dashed line, corresponding to the flux defect and 
+the displacement thickness δ*.
+
+Chapter 3
+Physically, the displacement thickness is a useful concept since it defines 
+a region of width equal to the retardation of fluid flux in the boundary 
+layer, divided by the stream velocity U. Thus δ* represents the effective 
+amount by which the body is “thickened” because of the boundary layer, 
+and in this sense adding δ* to the body thickness will correct the body 
+shape to account for viscous effects. Corresponding to this loss in flux will 
+also be a loss in momentum, which defines the momentum thickness
+θ =
+−
+∞
+∫
+u
+U
+u U dy
+(
+/
+)
+.
+
+
+(57)
+Numerical evaluation results in a value for the flat plate of
+θ
+ν
+= 0 664
+1 2
+.
+(
+/
+)
+.
+/
+x U
+	
+(58)
+This description of the velocity distribution and boundary-layer thick­
+nesses is independent of the x-coordinate and Reynolds number, by virtue 
+of the nondimensionalization of the y-coordinate as shown in figure 3.5. 
+Figure 3.6 shows these results in a dimensional form but with a greatly 
+magnified lateral scale. Here the development of the boundary layer with 
+distance downstream is more apparent. Upstream of the plate the velocity 
+profile is uniform, whereas downstream of the leading edge the velocity 
+profile of the boundary layer grows in the lateral direction proportional to 
+x1/2. The outer limit of the boundary layer is defined roughly by the 0.99 
+thickness parameter, whereas the displacement thickness represents the 
+outward displacement of the inviscid streamlines. In this figure, the lateral 
+scale is distorted by an amount that depends on the Reynolds number. To 
+Figure 3.6
+Development of laminar boundary layer along a flat plate. The lateral scale is magni­
+fied as explained in the text.

@@ -1,0 +1,90 @@
+as the carrier wave. This type of wave motion is illustrated in figure 6.8, which shows a group of carrier waves enclosed by a slowly-varying envelope. The wavelength and period of the carrier are the usual parameters λ = 2π/k1 and T = 2π/ω1. By analogy, the wavelength of the group is 2π/δk, and its period in time is 2π/δω. Of particular interest is the group velocity Vg, given by the ratio V k g = δω δ . (61)
+
+Waves and Wave Effects 
+
+In the limiting case where δω → 0, δk → 0, (60) will tend to a mono­
+chromatic plane wave, but if x and t are large, the amplitude modulation 
+in (60) will persist so long as the products xδk and tδω are finite. Under this 
+circumstance the group velocity (61) will approach the finite limit
+V
+d
+dk
+g =
+ω , 	
+(62)
+in accordance with the classical definition of a derivative. Thus, a group of 
+waves of nearly equal frequency and wavenumber will propagate with the 
+velocity (62), as opposed to the phase velocity Vp = ω/k of the individual 
+wave components in the group.
+In general, the phase and group velocities differ, unless ω/k = dω/dk, 
+which will occur only if the frequency and wavenumber are directly pro­
+portional and the phase velocity is constant. This exception occurs in the 
+shallow-water limit kh ≪ 1.
+In deep water, the group velocity can be evaluated by solving the disper­
+sion relation (17) for ω(k) and substituting this in (62). Thus
+V
+g
+k
+k
+V
+g
+p
+=
+=
+=
+
+
+1 2
+
+
+
+
+(
+/ )
+/
+,
+/
+ω
+	
+(63)
+and the group velocity is precisely half of the phase velocity. In finite depth, 
+the dispersion relation (24) can be combined with (62) to give
+V
+kh
+kh V
+g
+p
+=
++
+
+
+
+
+
+
+
+sinh
+. 	
+(64)
+This expression reduces to (63) if kh is large, whereas in the shallow-water 
+limit the factor in parenthesis in (64) reduces to unity. The value of the 
+Figure 6.8
+Wave group resulting from the superposition of two nearly equal plane waves as in 
+(60). The individual waves travel with the phase velocity, while the envelope travels 
+with the group velocity (61).
+
+Chapter 6
+group velocity is plotted in figure 6.9, as a ratio of the infinite-depth phase 
+velocity. This figure shows that the group velocity is less than the phase 
+velocity; their ratio decreases from one to one-half as the water depth 
+increases. The curve in figure 6.9 also shows that for fixed frequency and 
+increasing depth, the group velocity attains a maximum value somewhat 
+greater than its infinite-depth limit, at an intermediate depth where h/λ is 
+about 0.2.
+That individual waves move faster than the group implies that in a 
+wave system with a front, propagating into otherwise calm water, the 
+individual waves will overtake the front and vanish. This phenomenon 
+can be observed in a wave tank by starting the wavemaker from rest at a 
+Figure 6.9
+Phase velocity and group velocity ratios for a plane progressive wave as a function 
+of the depth.

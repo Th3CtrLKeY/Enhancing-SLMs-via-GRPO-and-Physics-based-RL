@@ -1,0 +1,107 @@
+the bound vortices is defined as positive about the z-axis and that of the free vortices positive about the x-axis. These planar distributions of vortices are known generally as vortex sheets, and we may refer separately to the bound vortex sheet and the free vortex sheet. These are not independent, however, since the velocity field adjacent to the sheets must be irrotational. Using (115) and (116) to com­ pute the y-component of the vorticity adjacent to the foil, we get
+
+Chapter 5
+∂
+∂
+−∂
+∂
+=
+u
+z
+w
+x
+0, 	
+(117)
+or
+∂
+∂
+−∂
+∂
+=
+γ
+γ
+B
+F
+z
+x
+0. 	
+(118)
+This is essentially the extension to a vortex sheet of the result in section 
+5.8 for a vortex filament. Each element of bound vorticity cannot change 
+in the z-direction, unless the change in its circulation is balanced by a cor­
+responding change in the free vorticity.
+The linearized pressure induced by these vortex sheets can be computed 
+from (14), since the additional velocity component w does not give a linear 
+contribution. Thus, on the upper or lower surface of the vortex sheet,
+p
+p
+uU
+U
+x z
+B
+−
+=
+∞
+∓
+ρ
+ρ γ
+
+
+( , ). 	
+(119)
+Therefore, the pressure jump across the sheet is proportional to γB. and the 
+pressure associated with the free vortex sheet is continuous.
+The absence of a pressure jump for the free vortex sheet is an important 
+feature of this component of the total vortex distribution, which is respon­
+sible for its name. A free vortex sheet, composed of vortex elements parallel 
+to the free stream, can exist in a state of dynamic equilibrium within the 
+free stream, whereas bound vortices with axes perpendicular to the free 
+stream induce a pressure jump that requires an external balancing force, 
+that is, the force acting on the lifting surface.
+Now we apply these results to the lifting-surface problem by distributing 
+sheets of bound and trailing vorticity on the plane y = 0 throughout the 
+projection of the lifting surface planform. Integration of (119) along the 
+chord, at a section of constant z, gives the sectional lift force
+L z
+U
+x z dx
+U
+z
+B
+x
+z
+x
+z
+T
+L
+( )
+( , )
+( ).
+( )
+( )
+=
+=
+∫
+ρ
+γ
+ρ Γ
+	
+(120)
+Here Γ(z) is the total circulation of the section, and the limits of integration 
+denote the x-coordinates of the trailing and leading edges. A second inte­
+gration in the spanwise direction gives the total lift
+L
+U
+z dz
+s
+s
+=
+−∫
+ρ
+Γ( )
+.
+/
+/
+
+
+(121)

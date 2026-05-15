@@ -1,0 +1,87 @@
+very close to the body the confetti technique may not be effective Os T (1.045, 1c ) T/2 rr — 41 1.2 1.3 1.4 1.5 1.6 wt Fig. 7.4. Time development of separation angle @, around a circular cylinder. (@ = 0 corresponds to the upstream stagnation point on the cylinder.) The ambient flow velocity is sinusoidal and zero at wt = 0, KC = 3.1. U./Uy = 0. (KC and U,/U defined in the beginning of the chapter.) .
+
+234 VISCOUS WAVE LOADS AND DAMPING
+
+enough to detect the separated flow. There was no way to confirm that
+the flow always stayed laminar in the boundary layer. The current was
+simulated by towing the model against the wave propagation direction.
+The results are presented in Fig. 7.6. The free-surface effect and the
+circular motion of the ambient flow makes the experimental conditions
+different from our theoretical assumptions. On the other hand, the
+free-surface wave parameter w(D/g)3(g = acceleration of gravity, D =
+diameter) did not seem to influence the observations significantly.
+Furthermore, circular ambient fluid motion may not be very different
+from planar ambient fluid motion when the wake is prevented from
+rotating around the body. This seems to be the experience from vertical
+cylinders in waves, while submerged horizontal cylinders in waves will
+behave quite differently in planar ambient flow and in circular ambient
+flow (Chaplin, 1984).
+
+In a qualitative sense, one may say that the theoretical results show
+good agreement with experiments; but obviously one should be critical of
+the theoretical predictions close to U,/U = 1.0.
+
+OSCILLATORY NON-SEPARATED FLOW
+We will discuss how to predict forces on bodies in non-separated flow.
+In order to evaluate the shear forces for laminar flow we will use a
+solution found in many textbooks on fluid dynamics (see for instance
+Schlichting, 1979: pp. 428-9). We will assume that the outer flow U,
+outside the boundary layer can be written as
+
+UAx, t) = Uo(x) cos wt (7.14)
+
+It is assumed that the oscillatory amplitudes are small. This means we
+may neglect quadratic terms in the boundary layer equations. For
+
+1.0
+
+0.5 Circle
+
+T ——1 77
+0.0 0.5 10 —~
+
+Fig. 7.5. KC-number when the flow separated at the time of zero ambient
+flow acceleration following a sinusoidal start-up flow. (KC and
+U-/U x, are defined at the beginning of the chapter.)
+
+OSCILLATORY NON-SEPARATED FLOW 235
+
+laminar flow we cari write
+
+dus Ou =—-AU~"
+SSS (7.15)
+
+A steady-state solution of this equation with the boundary conditions
+u=Oaty=0 and U=U, aty—>~ is
+
+u = Uj(x)[cos wt — e~" cos(wt — 7)] (7.16)
+
+KC
+
+© KCtim ( Theory)
+
+G FLOW SEPARATION
+CLEARLY OBSERVED
+
+6 NO FLOW SEPARATION
+
+ad DIFFICULT TO DECIDE
+
+1.0
+
+0.5
+
+oo a0 Q
+
+0.0
+0.5 1.0 15 Be
+M
+
+Fig. 7.6. Comparison between theory and experimentally observed flow
+separation around a hemisphere in regular waves and current. The
+centre of the hemisphere is in the mean free-surface. A vertical
+cylinder is fitted to the hemisphere above the free-surface to avoid
+sharp corners on the body. (KC = Um7T/D, Uy = maximum
+velocity of ambient oscillatory flow, T = oscillation period, D =
+diameter of the sphere, U, = current velocity in the same direction as
+incident oscillatory velocity.) (Zhao et al., 1988).

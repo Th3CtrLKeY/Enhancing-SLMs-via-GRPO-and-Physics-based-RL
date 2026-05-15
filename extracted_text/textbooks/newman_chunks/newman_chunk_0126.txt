@@ -1,0 +1,152 @@
+as slender pilings, ship hulls, and mooring cables, the three-dimensional added-mass coefficients can be approximated by a strip theory synthesis, in which the flow at each section is assumed to be locally two dimensional. Thus, the simpler two-dimensional added-mass coefficients are of practi­ cal importance. The case of a circular cylinder is given by (132), and the corresponding results for an elliptical cylinder can be derived in a similar manner, taking advantage of the conformal transformation (51) to map the
+
+Chapter 4
+ellipse onto a circle. The added-mass coefficients of an ellipse are closely 
+related to those of a circle, as shown in table 4.3. For acceleration parallel 
+to either of the principal axes of the ellipse, the added mass is equal to that 
+of a circle having the same radius as the semiaxis normal to the motion. 
+The same results hold for a flat plate, or an ellipse of vanishing minor axis, 
+where the added mass for motion normal to the plate is equal to the dis­
+placed mass of the circumscribed circle.
+The last result can be confirmed from the complex potential (57), either 
+by direct integration over the plate using (114) or by computing the effec­
+tive dipole moment and using (130). For acceleration in the plane of the 
+plate there is no added-mass force, in the absence of viscous effects. Simi­
+larly, the added moment of inertia of the circle is zero, but nonzero for all 
+other cases.
+Table 4.3
+Added-Mass Coefficients for Various Two-Dimensional Bodies.
+m11:
+πρa
+
+πρb
+
+
+m22:
+πρa
+
+πρa
+
+πρa
+
+m66:
+
+
+
+
+2 2
+πρ(
+)
+a
+b
+−
+
+
+
+πρa
+m11:
+πρ[a
+2 + (b
+2 − a
+2)
+2/b
+2]
+πρa
+
+4.754 ρa
+
+m22:
+πρa
+
+πρa
+
+4.754 ρa
+
+m66:
+*
+
+
+π ρa
+0.725 ρa
+
+*For the finned circle the added moment of inertia is given by the formula 
+m
+a
+
+
+
+
+
+
+
+
+
+
+
+
+=
+−
++
+−
+−
+ρ
+π
+α
+α
+α
+α
+α
+π
+(
+csc
+[
+sin
+sin
+]
+)
+/
+, where sin α = 2ab/(a
+2 + b
+2) and 
+π/2 < α < π. The derivations of this result, and of m66 for the crossed fin and square, 
+are given by Newman (1978). Derivations of the remaining coefficients in this table 
+are given or cited by Kennard (1967).
+
+The Motion of an Ideal Fluid 
+
+Table 4.3 lists the added-mass coefficients for several two-dimensional 
+bodies including the circle, ellipse, flat plate, finned circle, crossed flat 
+plates, and square. The symmetry of these bodies is such that the remain­
+ing added-mass coefficients are zero. Thus in these cases there is no coupling 
+between the three principal modes of motion of the body. The results shown 
+in table 4.3 can be derived by appropriate conformal mappings, some of 
+which are illustrated in the problems listed at the end of this chapter.
+In three dimensions, ellipsoids are the most general bodies where com­
+parable analytical results are available. Since there are three planes of sym­
+metry, the only nonzero added-mass coefficients are the six values of mij 
+where i = j. These will depend on the two nondimensional ratios defining 
+the shape of the ellipsoid; appropriate graphs may be found in Kochin, 
+Kibel, and Roze (1964).
+A simpler three-dimensional body is the spheroid, or ellipsoid of revolu­
+tion. If the coordinate x1 is chosen to coincide with the axis of revolution, 
+with a the semilength of this axis, and b the radius at the equatorial plane 
+x1 = 0, three nonzero coefficients must be considered, including the longi­
+tudinal added mass m11, the lateral added mass m22 = m33, and the rotational 
+added mass m55 = m66. These will depend on the ratio b/a or the beamlength ratio of the body.
+Graphs of the three added-mass coefficients for a spheroid are shown in 
+figure 4.8. The upper half of this figure shows the coefficients nondimen­
+sionalized in terms of the mass and moment of inertia of the displaced vol­
+ume of fluid. In the limiting case where b/a → 0, or a slender spheroid, the 
+longitudinal added-mass coefficient tends to zero in a manner analogous to 
+the flat plate moving in its own plane. On the other hand, the correspond­
+ing limits for the lateral added-mass coefficient and added moment of iner­
+tia are both equal to 1.0, as one would predict using the strip theory and 
+the added mass of a circular cylinder. For increasing values of b/a, the lon­
+gitudinal added mass becomes significant, whereas the lateral added-mass 
+coefficient decreases because of the three-dimensional effects. The case b/a 
+= 1 coincides with the sphere, where the translational added-mass equals 
+one half of the displaced mass, and the rotational coefficients vanish. For 
+b/a > 1, the spheroid is flattened, or oblate. For b/a → ∞, corresponding to 
+a circular disc, the coefficients based on displaced mass and mass-moment 
+are degenerate; to avoid this difficulty the coefficients are renormalized in 
+the lower half of figure 4.8.

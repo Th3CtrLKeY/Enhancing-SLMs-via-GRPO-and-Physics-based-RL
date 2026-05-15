@@ -1,0 +1,83 @@
+physical conditions on these boundaries to appropriate math­ ematical statements. As in chapter 3, two different types of boundary conditions must be dis­ cussed: a kinematic condition corresponding to a statement regarding the velocity of the fluid on the boundary and a dynamic boundary condition corresponding to a statement about the forces on the boundary. Unlike the viscous case, there are now fewer conditions to impose, because in the present case there are no shear stresses acting within the fluid.
+
+The Motion of an Ideal Fluid 
+
+A kinematic boundary condition is appropriate on any boundary surface 
+with a specified geometry and position. In the simplest case the boundary 
+may be fixed and rigid, as at the sides and bottom of a stationary container 
+of fluid. In the more general instance, say of a rigid body moving with pre­
+scribed velocity U through the fluid, the velocity of this surface is nonzero. 
+In either case the physically relevant boundary condition for the fluid flow 
+at the boundary is that the normal component V·n of the fluid velocity 
+must be equal to the normal velocity U·n of the boundary surface itself. In 
+other words, no fluid can flow through the boundary surface. Expressed in 
+terms of the velocity potential, this condition becomes
+∂
+∂
+=
+⋅
+φ /
+,
+n
+U n 	
+(28)
+where ∂/∂n denotes the derivative in the direction of the unit normal n 
+directed out of the fluid.
+In the absence of viscous shear stresses, only the normal component of 
+the fluid velocity is prescribed on the boundary. A tangential velocity differ­
+ence between the fluid and the boundary surface is not only permitted but 
+also expected. In a real fluid the conditions described are relevant imme­
+diately outside the boundary layer, as opposed to the actual body surface. 
+However, the distinction between these two positions is not significant to 
+the formulation of the inviscid flow problem, on the presumption that the 
+boundary-layer thickness is very small.
+If the normal velocity (28) is prescribed on all the boundary surfaces 
+of a simply-connected fluid domain and the position of these surfaces is 
+known, then the solution of Laplace’s equation for the velocity potential is 
+specified uniquely except for an additive constant. The proof of this state­
+ment is sufficiently simple to repeat here. Let us suppose that two solutions 
+ϕ1 and ϕ2 both satisfy the same boundary condition (28) and Laplace’s equa­
+tion throughout the fluid. The difference, ϕ3 = ϕ1 −ϕ2, is a homogeneous 
+solution with zero normal derivative on the boundary surface S and also a 
+solution of Laplace’s equation throughout the fluid volume . By a wellknown consequence of the divergence theorem (3.5),
+φ φ
+φ φ
+φ φ
+φ
+φ
+φ
+φ
+∂
+∂
+=
+∇
+⋅
+=
+∇⋅
+∇
+=
+∇⋅∇+ ∇
+∫∫
+∫∫
+∫∫∫
+∫∫∫
+n dS
+d
+d
+d
+S
+S
+(
+)
+(
+)
+[
+]
+.
+S
+
+
+
+
+
+(29)

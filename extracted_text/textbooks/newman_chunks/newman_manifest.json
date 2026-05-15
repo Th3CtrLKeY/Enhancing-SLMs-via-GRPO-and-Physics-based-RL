@@ -1,0 +1,2722 @@
+[
+  {
+    "source": "newman",
+    "start_page": 3,
+    "end_page": 10,
+    "text": null,
+    "token_estimate": 627,
+    "file": "newman_chunk_0000.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 10,
+    "end_page": 13,
+    "text": null,
+    "token_estimate": 908,
+    "file": "newman_chunk_0001.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 13,
+    "end_page": 14,
+    "text": null,
+    "token_estimate": 648,
+    "file": "newman_chunk_0002.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 14,
+    "end_page": 15,
+    "text": null,
+    "token_estimate": 630,
+    "file": "newman_chunk_0003.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 15,
+    "end_page": 16,
+    "text": null,
+    "token_estimate": 639,
+    "file": "newman_chunk_0004.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 16,
+    "end_page": 17,
+    "text": null,
+    "token_estimate": 656,
+    "file": "newman_chunk_0005.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 17,
+    "end_page": 19,
+    "text": null,
+    "token_estimate": 577,
+    "file": "newman_chunk_0006.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 19,
+    "end_page": 22,
+    "text": null,
+    "token_estimate": 1015,
+    "file": "newman_chunk_0007.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 22,
+    "end_page": 25,
+    "text": null,
+    "token_estimate": 607,
+    "file": "newman_chunk_0008.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 25,
+    "end_page": 26,
+    "text": null,
+    "token_estimate": 569,
+    "file": "newman_chunk_0009.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 26,
+    "end_page": 27,
+    "text": null,
+    "token_estimate": 633,
+    "file": "newman_chunk_0010.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 27,
+    "end_page": 28,
+    "text": null,
+    "token_estimate": 651,
+    "file": "newman_chunk_0011.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 28,
+    "end_page": 29,
+    "text": null,
+    "token_estimate": 655,
+    "file": "newman_chunk_0012.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 29,
+    "end_page": 30,
+    "text": null,
+    "token_estimate": 672,
+    "file": "newman_chunk_0013.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 30,
+    "end_page": 33,
+    "text": null,
+    "token_estimate": 899,
+    "file": "newman_chunk_0014.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 33,
+    "end_page": 34,
+    "text": null,
+    "token_estimate": 583,
+    "file": "newman_chunk_0015.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 34,
+    "end_page": 35,
+    "text": null,
+    "token_estimate": 546,
+    "file": "newman_chunk_0016.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 35,
+    "end_page": 36,
+    "text": null,
+    "token_estimate": 508,
+    "file": "newman_chunk_0017.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 36,
+    "end_page": 37,
+    "text": null,
+    "token_estimate": 620,
+    "file": "newman_chunk_0018.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 37,
+    "end_page": 38,
+    "text": null,
+    "token_estimate": 621,
+    "file": "newman_chunk_0019.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 38,
+    "end_page": 39,
+    "text": null,
+    "token_estimate": 613,
+    "file": "newman_chunk_0020.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 39,
+    "end_page": 41,
+    "text": null,
+    "token_estimate": 674,
+    "file": "newman_chunk_0021.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 41,
+    "end_page": 42,
+    "text": null,
+    "token_estimate": 594,
+    "file": "newman_chunk_0022.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 42,
+    "end_page": 44,
+    "text": null,
+    "token_estimate": 712,
+    "file": "newman_chunk_0023.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 44,
+    "end_page": 46,
+    "text": null,
+    "token_estimate": 738,
+    "file": "newman_chunk_0024.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 46,
+    "end_page": 47,
+    "text": null,
+    "token_estimate": 620,
+    "file": "newman_chunk_0025.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 47,
+    "end_page": 48,
+    "text": null,
+    "token_estimate": 650,
+    "file": "newman_chunk_0026.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 48,
+    "end_page": 50,
+    "text": null,
+    "token_estimate": 569,
+    "file": "newman_chunk_0027.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 50,
+    "end_page": 52,
+    "text": null,
+    "token_estimate": 751,
+    "file": "newman_chunk_0028.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 52,
+    "end_page": 54,
+    "text": null,
+    "token_estimate": 867,
+    "file": "newman_chunk_0029.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 54,
+    "end_page": 55,
+    "text": null,
+    "token_estimate": 652,
+    "file": "newman_chunk_0030.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 55,
+    "end_page": 58,
+    "text": null,
+    "token_estimate": 1017,
+    "file": "newman_chunk_0031.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 58,
+    "end_page": 59,
+    "text": null,
+    "token_estimate": 595,
+    "file": "newman_chunk_0032.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 59,
+    "end_page": 61,
+    "text": null,
+    "token_estimate": 884,
+    "file": "newman_chunk_0033.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 61,
+    "end_page": 63,
+    "text": null,
+    "token_estimate": 752,
+    "file": "newman_chunk_0034.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 63,
+    "end_page": 65,
+    "text": null,
+    "token_estimate": 963,
+    "file": "newman_chunk_0035.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 65,
+    "end_page": 66,
+    "text": null,
+    "token_estimate": 660,
+    "file": "newman_chunk_0036.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 66,
+    "end_page": 67,
+    "text": null,
+    "token_estimate": 592,
+    "file": "newman_chunk_0037.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 67,
+    "end_page": 68,
+    "text": null,
+    "token_estimate": 603,
+    "file": "newman_chunk_0038.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 68,
+    "end_page": 69,
+    "text": null,
+    "token_estimate": 638,
+    "file": "newman_chunk_0039.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 69,
+    "end_page": 70,
+    "text": null,
+    "token_estimate": 676,
+    "file": "newman_chunk_0040.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 70,
+    "end_page": 72,
+    "text": null,
+    "token_estimate": 754,
+    "file": "newman_chunk_0041.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 72,
+    "end_page": 74,
+    "text": null,
+    "token_estimate": 794,
+    "file": "newman_chunk_0042.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 74,
+    "end_page": 75,
+    "text": null,
+    "token_estimate": 642,
+    "file": "newman_chunk_0043.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 75,
+    "end_page": 76,
+    "text": null,
+    "token_estimate": 638,
+    "file": "newman_chunk_0044.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 76,
+    "end_page": 77,
+    "text": null,
+    "token_estimate": 540,
+    "file": "newman_chunk_0045.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 77,
+    "end_page": 79,
+    "text": null,
+    "token_estimate": 884,
+    "file": "newman_chunk_0046.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 79,
+    "end_page": 80,
+    "text": null,
+    "token_estimate": 651,
+    "file": "newman_chunk_0047.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 80,
+    "end_page": 82,
+    "text": null,
+    "token_estimate": 981,
+    "file": "newman_chunk_0048.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 82,
+    "end_page": 83,
+    "text": null,
+    "token_estimate": 542,
+    "file": "newman_chunk_0049.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 83,
+    "end_page": 84,
+    "text": null,
+    "token_estimate": 678,
+    "file": "newman_chunk_0050.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 84,
+    "end_page": 86,
+    "text": null,
+    "token_estimate": 916,
+    "file": "newman_chunk_0051.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 86,
+    "end_page": 88,
+    "text": null,
+    "token_estimate": 893,
+    "file": "newman_chunk_0052.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 88,
+    "end_page": 89,
+    "text": null,
+    "token_estimate": 634,
+    "file": "newman_chunk_0053.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 89,
+    "end_page": 90,
+    "text": null,
+    "token_estimate": 586,
+    "file": "newman_chunk_0054.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 90,
+    "end_page": 91,
+    "text": null,
+    "token_estimate": 652,
+    "file": "newman_chunk_0055.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 91,
+    "end_page": 92,
+    "text": null,
+    "token_estimate": 613,
+    "file": "newman_chunk_0056.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 92,
+    "end_page": 94,
+    "text": null,
+    "token_estimate": 868,
+    "file": "newman_chunk_0057.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 94,
+    "end_page": 95,
+    "text": null,
+    "token_estimate": 664,
+    "file": "newman_chunk_0058.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 95,
+    "end_page": 96,
+    "text": null,
+    "token_estimate": 586,
+    "file": "newman_chunk_0059.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 96,
+    "end_page": 97,
+    "text": null,
+    "token_estimate": 643,
+    "file": "newman_chunk_0060.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 97,
+    "end_page": 98,
+    "text": null,
+    "token_estimate": 577,
+    "file": "newman_chunk_0061.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 98,
+    "end_page": 100,
+    "text": null,
+    "token_estimate": 865,
+    "file": "newman_chunk_0062.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 100,
+    "end_page": 101,
+    "text": null,
+    "token_estimate": 520,
+    "file": "newman_chunk_0063.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 101,
+    "end_page": 102,
+    "text": null,
+    "token_estimate": 533,
+    "file": "newman_chunk_0064.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 102,
+    "end_page": 104,
+    "text": null,
+    "token_estimate": 712,
+    "file": "newman_chunk_0065.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 104,
+    "end_page": 105,
+    "text": null,
+    "token_estimate": 626,
+    "file": "newman_chunk_0066.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 105,
+    "end_page": 106,
+    "text": null,
+    "token_estimate": 659,
+    "file": "newman_chunk_0067.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 106,
+    "end_page": 108,
+    "text": null,
+    "token_estimate": 783,
+    "file": "newman_chunk_0068.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 108,
+    "end_page": 109,
+    "text": null,
+    "token_estimate": 665,
+    "file": "newman_chunk_0069.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 109,
+    "end_page": 110,
+    "text": null,
+    "token_estimate": 575,
+    "file": "newman_chunk_0070.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 110,
+    "end_page": 112,
+    "text": null,
+    "token_estimate": 819,
+    "file": "newman_chunk_0071.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 112,
+    "end_page": 113,
+    "text": null,
+    "token_estimate": 603,
+    "file": "newman_chunk_0072.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 113,
+    "end_page": 114,
+    "text": null,
+    "token_estimate": 533,
+    "file": "newman_chunk_0073.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 114,
+    "end_page": 115,
+    "text": null,
+    "token_estimate": 630,
+    "file": "newman_chunk_0074.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 115,
+    "end_page": 117,
+    "text": null,
+    "token_estimate": 926,
+    "file": "newman_chunk_0075.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 117,
+    "end_page": 118,
+    "text": null,
+    "token_estimate": 691,
+    "file": "newman_chunk_0076.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 118,
+    "end_page": 119,
+    "text": null,
+    "token_estimate": 681,
+    "file": "newman_chunk_0077.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 119,
+    "end_page": 121,
+    "text": null,
+    "token_estimate": 633,
+    "file": "newman_chunk_0078.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 121,
+    "end_page": 122,
+    "text": null,
+    "token_estimate": 551,
+    "file": "newman_chunk_0079.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 122,
+    "end_page": 123,
+    "text": null,
+    "token_estimate": 585,
+    "file": "newman_chunk_0080.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 123,
+    "end_page": 124,
+    "text": null,
+    "token_estimate": 573,
+    "file": "newman_chunk_0081.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 124,
+    "end_page": 126,
+    "text": null,
+    "token_estimate": 874,
+    "file": "newman_chunk_0082.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 126,
+    "end_page": 127,
+    "text": null,
+    "token_estimate": 646,
+    "file": "newman_chunk_0083.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 127,
+    "end_page": 128,
+    "text": null,
+    "token_estimate": 530,
+    "file": "newman_chunk_0084.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 128,
+    "end_page": 131,
+    "text": null,
+    "token_estimate": 601,
+    "file": "newman_chunk_0085.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 131,
+    "end_page": 132,
+    "text": null,
+    "token_estimate": 594,
+    "file": "newman_chunk_0086.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 132,
+    "end_page": 133,
+    "text": null,
+    "token_estimate": 631,
+    "file": "newman_chunk_0087.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 133,
+    "end_page": 134,
+    "text": null,
+    "token_estimate": 612,
+    "file": "newman_chunk_0088.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 134,
+    "end_page": 135,
+    "text": null,
+    "token_estimate": 525,
+    "file": "newman_chunk_0089.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 135,
+    "end_page": 136,
+    "text": null,
+    "token_estimate": 503,
+    "file": "newman_chunk_0090.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 136,
+    "end_page": 137,
+    "text": null,
+    "token_estimate": 579,
+    "file": "newman_chunk_0091.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 137,
+    "end_page": 138,
+    "text": null,
+    "token_estimate": 568,
+    "file": "newman_chunk_0092.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 138,
+    "end_page": 139,
+    "text": null,
+    "token_estimate": 638,
+    "file": "newman_chunk_0093.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 139,
+    "end_page": 140,
+    "text": null,
+    "token_estimate": 592,
+    "file": "newman_chunk_0094.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 140,
+    "end_page": 141,
+    "text": null,
+    "token_estimate": 670,
+    "file": "newman_chunk_0095.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 141,
+    "end_page": 143,
+    "text": null,
+    "token_estimate": 764,
+    "file": "newman_chunk_0096.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 143,
+    "end_page": 144,
+    "text": null,
+    "token_estimate": 557,
+    "file": "newman_chunk_0097.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 144,
+    "end_page": 145,
+    "text": null,
+    "token_estimate": 564,
+    "file": "newman_chunk_0098.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 145,
+    "end_page": 147,
+    "text": null,
+    "token_estimate": 1084,
+    "file": "newman_chunk_0099.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 147,
+    "end_page": 148,
+    "text": null,
+    "token_estimate": 586,
+    "file": "newman_chunk_0100.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 148,
+    "end_page": 150,
+    "text": null,
+    "token_estimate": 726,
+    "file": "newman_chunk_0101.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 150,
+    "end_page": 151,
+    "text": null,
+    "token_estimate": 621,
+    "file": "newman_chunk_0102.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 151,
+    "end_page": 152,
+    "text": null,
+    "token_estimate": 583,
+    "file": "newman_chunk_0103.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 152,
+    "end_page": 153,
+    "text": null,
+    "token_estimate": 555,
+    "file": "newman_chunk_0104.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 153,
+    "end_page": 154,
+    "text": null,
+    "token_estimate": 568,
+    "file": "newman_chunk_0105.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 154,
+    "end_page": 155,
+    "text": null,
+    "token_estimate": 582,
+    "file": "newman_chunk_0106.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 155,
+    "end_page": 156,
+    "text": null,
+    "token_estimate": 607,
+    "file": "newman_chunk_0107.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 156,
+    "end_page": 157,
+    "text": null,
+    "token_estimate": 582,
+    "file": "newman_chunk_0108.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 157,
+    "end_page": 158,
+    "text": null,
+    "token_estimate": 670,
+    "file": "newman_chunk_0109.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 158,
+    "end_page": 159,
+    "text": null,
+    "token_estimate": 531,
+    "file": "newman_chunk_0110.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 159,
+    "end_page": 160,
+    "text": null,
+    "token_estimate": 640,
+    "file": "newman_chunk_0111.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 160,
+    "end_page": 161,
+    "text": null,
+    "token_estimate": 703,
+    "file": "newman_chunk_0112.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 161,
+    "end_page": 162,
+    "text": null,
+    "token_estimate": 585,
+    "file": "newman_chunk_0113.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 162,
+    "end_page": 164,
+    "text": null,
+    "token_estimate": 1010,
+    "file": "newman_chunk_0114.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 164,
+    "end_page": 165,
+    "text": null,
+    "token_estimate": 635,
+    "file": "newman_chunk_0115.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 165,
+    "end_page": 166,
+    "text": null,
+    "token_estimate": 617,
+    "file": "newman_chunk_0116.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 166,
+    "end_page": 167,
+    "text": null,
+    "token_estimate": 579,
+    "file": "newman_chunk_0117.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 167,
+    "end_page": 168,
+    "text": null,
+    "token_estimate": 572,
+    "file": "newman_chunk_0118.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 168,
+    "end_page": 169,
+    "text": null,
+    "token_estimate": 664,
+    "file": "newman_chunk_0119.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 169,
+    "end_page": 170,
+    "text": null,
+    "token_estimate": 601,
+    "file": "newman_chunk_0120.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 170,
+    "end_page": 171,
+    "text": null,
+    "token_estimate": 625,
+    "file": "newman_chunk_0121.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 171,
+    "end_page": 172,
+    "text": null,
+    "token_estimate": 575,
+    "file": "newman_chunk_0122.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 172,
+    "end_page": 173,
+    "text": null,
+    "token_estimate": 651,
+    "file": "newman_chunk_0123.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 173,
+    "end_page": 174,
+    "text": null,
+    "token_estimate": 535,
+    "file": "newman_chunk_0124.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 174,
+    "end_page": 175,
+    "text": null,
+    "token_estimate": 544,
+    "file": "newman_chunk_0125.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 175,
+    "end_page": 177,
+    "text": null,
+    "token_estimate": 1068,
+    "file": "newman_chunk_0126.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 177,
+    "end_page": 179,
+    "text": null,
+    "token_estimate": 669,
+    "file": "newman_chunk_0127.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 179,
+    "end_page": 181,
+    "text": null,
+    "token_estimate": 1085,
+    "file": "newman_chunk_0128.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 181,
+    "end_page": 182,
+    "text": null,
+    "token_estimate": 711,
+    "file": "newman_chunk_0129.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 182,
+    "end_page": 183,
+    "text": null,
+    "token_estimate": 618,
+    "file": "newman_chunk_0130.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 183,
+    "end_page": 184,
+    "text": null,
+    "token_estimate": 566,
+    "file": "newman_chunk_0131.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 184,
+    "end_page": 185,
+    "text": null,
+    "token_estimate": 560,
+    "file": "newman_chunk_0132.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 185,
+    "end_page": 186,
+    "text": null,
+    "token_estimate": 661,
+    "file": "newman_chunk_0133.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 186,
+    "end_page": 187,
+    "text": null,
+    "token_estimate": 588,
+    "file": "newman_chunk_0134.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 187,
+    "end_page": 188,
+    "text": null,
+    "token_estimate": 539,
+    "file": "newman_chunk_0135.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 188,
+    "end_page": 191,
+    "text": null,
+    "token_estimate": 761,
+    "file": "newman_chunk_0136.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 191,
+    "end_page": 193,
+    "text": null,
+    "token_estimate": 841,
+    "file": "newman_chunk_0137.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 193,
+    "end_page": 195,
+    "text": null,
+    "token_estimate": 708,
+    "file": "newman_chunk_0138.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 195,
+    "end_page": 196,
+    "text": null,
+    "token_estimate": 581,
+    "file": "newman_chunk_0139.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 196,
+    "end_page": 198,
+    "text": null,
+    "token_estimate": 954,
+    "file": "newman_chunk_0140.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 198,
+    "end_page": 199,
+    "text": null,
+    "token_estimate": 614,
+    "file": "newman_chunk_0141.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 199,
+    "end_page": 200,
+    "text": null,
+    "token_estimate": 512,
+    "file": "newman_chunk_0142.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 200,
+    "end_page": 202,
+    "text": null,
+    "token_estimate": 973,
+    "file": "newman_chunk_0143.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 202,
+    "end_page": 203,
+    "text": null,
+    "token_estimate": 643,
+    "file": "newman_chunk_0144.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 203,
+    "end_page": 204,
+    "text": null,
+    "token_estimate": 538,
+    "file": "newman_chunk_0145.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 204,
+    "end_page": 206,
+    "text": null,
+    "token_estimate": 884,
+    "file": "newman_chunk_0146.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 206,
+    "end_page": 207,
+    "text": null,
+    "token_estimate": 587,
+    "file": "newman_chunk_0147.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 207,
+    "end_page": 209,
+    "text": null,
+    "token_estimate": 772,
+    "file": "newman_chunk_0148.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 209,
+    "end_page": 210,
+    "text": null,
+    "token_estimate": 599,
+    "file": "newman_chunk_0149.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 210,
+    "end_page": 211,
+    "text": null,
+    "token_estimate": 588,
+    "file": "newman_chunk_0150.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 211,
+    "end_page": 212,
+    "text": null,
+    "token_estimate": 583,
+    "file": "newman_chunk_0151.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 212,
+    "end_page": 213,
+    "text": null,
+    "token_estimate": 577,
+    "file": "newman_chunk_0152.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 213,
+    "end_page": 214,
+    "text": null,
+    "token_estimate": 508,
+    "file": "newman_chunk_0153.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 214,
+    "end_page": 215,
+    "text": null,
+    "token_estimate": 613,
+    "file": "newman_chunk_0154.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 215,
+    "end_page": 216,
+    "text": null,
+    "token_estimate": 633,
+    "file": "newman_chunk_0155.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 216,
+    "end_page": 217,
+    "text": null,
+    "token_estimate": 659,
+    "file": "newman_chunk_0156.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 217,
+    "end_page": 218,
+    "text": null,
+    "token_estimate": 616,
+    "file": "newman_chunk_0157.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 218,
+    "end_page": 219,
+    "text": null,
+    "token_estimate": 504,
+    "file": "newman_chunk_0158.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 219,
+    "end_page": 220,
+    "text": null,
+    "token_estimate": 503,
+    "file": "newman_chunk_0159.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 220,
+    "end_page": 222,
+    "text": null,
+    "token_estimate": 841,
+    "file": "newman_chunk_0160.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 222,
+    "end_page": 223,
+    "text": null,
+    "token_estimate": 520,
+    "file": "newman_chunk_0161.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 223,
+    "end_page": 224,
+    "text": null,
+    "token_estimate": 503,
+    "file": "newman_chunk_0162.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 224,
+    "end_page": 225,
+    "text": null,
+    "token_estimate": 631,
+    "file": "newman_chunk_0163.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 225,
+    "end_page": 226,
+    "text": null,
+    "token_estimate": 578,
+    "file": "newman_chunk_0164.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 226,
+    "end_page": 227,
+    "text": null,
+    "token_estimate": 588,
+    "file": "newman_chunk_0165.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 227,
+    "end_page": 229,
+    "text": null,
+    "token_estimate": 562,
+    "file": "newman_chunk_0166.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 229,
+    "end_page": 230,
+    "text": null,
+    "token_estimate": 611,
+    "file": "newman_chunk_0167.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 230,
+    "end_page": 231,
+    "text": null,
+    "token_estimate": 611,
+    "file": "newman_chunk_0168.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 231,
+    "end_page": 232,
+    "text": null,
+    "token_estimate": 635,
+    "file": "newman_chunk_0169.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 232,
+    "end_page": 234,
+    "text": null,
+    "token_estimate": 968,
+    "file": "newman_chunk_0170.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 234,
+    "end_page": 235,
+    "text": null,
+    "token_estimate": 690,
+    "file": "newman_chunk_0171.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 235,
+    "end_page": 236,
+    "text": null,
+    "token_estimate": 627,
+    "file": "newman_chunk_0172.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 236,
+    "end_page": 237,
+    "text": null,
+    "token_estimate": 587,
+    "file": "newman_chunk_0173.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 237,
+    "end_page": 238,
+    "text": null,
+    "token_estimate": 556,
+    "file": "newman_chunk_0174.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 238,
+    "end_page": 240,
+    "text": null,
+    "token_estimate": 794,
+    "file": "newman_chunk_0175.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 240,
+    "end_page": 242,
+    "text": null,
+    "token_estimate": 833,
+    "file": "newman_chunk_0176.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 242,
+    "end_page": 244,
+    "text": null,
+    "token_estimate": 782,
+    "file": "newman_chunk_0177.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 244,
+    "end_page": 245,
+    "text": null,
+    "token_estimate": 640,
+    "file": "newman_chunk_0178.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 245,
+    "end_page": 246,
+    "text": null,
+    "token_estimate": 763,
+    "file": "newman_chunk_0179.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 246,
+    "end_page": 249,
+    "text": null,
+    "token_estimate": 573,
+    "file": "newman_chunk_0180.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 249,
+    "end_page": 250,
+    "text": null,
+    "token_estimate": 534,
+    "file": "newman_chunk_0181.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 250,
+    "end_page": 251,
+    "text": null,
+    "token_estimate": 581,
+    "file": "newman_chunk_0182.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 251,
+    "end_page": 253,
+    "text": null,
+    "token_estimate": 997,
+    "file": "newman_chunk_0183.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 253,
+    "end_page": 254,
+    "text": null,
+    "token_estimate": 587,
+    "file": "newman_chunk_0184.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 254,
+    "end_page": 255,
+    "text": null,
+    "token_estimate": 652,
+    "file": "newman_chunk_0185.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 255,
+    "end_page": 256,
+    "text": null,
+    "token_estimate": 507,
+    "file": "newman_chunk_0186.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 256,
+    "end_page": 257,
+    "text": null,
+    "token_estimate": 670,
+    "file": "newman_chunk_0187.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 257,
+    "end_page": 258,
+    "text": null,
+    "token_estimate": 570,
+    "file": "newman_chunk_0188.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 258,
+    "end_page": 259,
+    "text": null,
+    "token_estimate": 648,
+    "file": "newman_chunk_0189.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 259,
+    "end_page": 260,
+    "text": null,
+    "token_estimate": 614,
+    "file": "newman_chunk_0190.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 260,
+    "end_page": 261,
+    "text": null,
+    "token_estimate": 659,
+    "file": "newman_chunk_0191.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 261,
+    "end_page": 263,
+    "text": null,
+    "token_estimate": 969,
+    "file": "newman_chunk_0192.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 263,
+    "end_page": 265,
+    "text": null,
+    "token_estimate": 980,
+    "file": "newman_chunk_0193.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 265,
+    "end_page": 267,
+    "text": null,
+    "token_estimate": 858,
+    "file": "newman_chunk_0194.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 267,
+    "end_page": 268,
+    "text": null,
+    "token_estimate": 525,
+    "file": "newman_chunk_0195.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 268,
+    "end_page": 271,
+    "text": null,
+    "token_estimate": 869,
+    "file": "newman_chunk_0196.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 271,
+    "end_page": 272,
+    "text": null,
+    "token_estimate": 607,
+    "file": "newman_chunk_0197.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 272,
+    "end_page": 273,
+    "text": null,
+    "token_estimate": 562,
+    "file": "newman_chunk_0198.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 273,
+    "end_page": 274,
+    "text": null,
+    "token_estimate": 557,
+    "file": "newman_chunk_0199.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 274,
+    "end_page": 275,
+    "text": null,
+    "token_estimate": 513,
+    "file": "newman_chunk_0200.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 275,
+    "end_page": 276,
+    "text": null,
+    "token_estimate": 617,
+    "file": "newman_chunk_0201.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 276,
+    "end_page": 278,
+    "text": null,
+    "token_estimate": 830,
+    "file": "newman_chunk_0202.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 278,
+    "end_page": 280,
+    "text": null,
+    "token_estimate": 618,
+    "file": "newman_chunk_0203.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 280,
+    "end_page": 281,
+    "text": null,
+    "token_estimate": 557,
+    "file": "newman_chunk_0204.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 281,
+    "end_page": 282,
+    "text": null,
+    "token_estimate": 646,
+    "file": "newman_chunk_0205.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 282,
+    "end_page": 283,
+    "text": null,
+    "token_estimate": 562,
+    "file": "newman_chunk_0206.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 283,
+    "end_page": 284,
+    "text": null,
+    "token_estimate": 676,
+    "file": "newman_chunk_0207.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 284,
+    "end_page": 286,
+    "text": null,
+    "token_estimate": 943,
+    "file": "newman_chunk_0208.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 286,
+    "end_page": 287,
+    "text": null,
+    "token_estimate": 588,
+    "file": "newman_chunk_0209.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 287,
+    "end_page": 289,
+    "text": null,
+    "token_estimate": 626,
+    "file": "newman_chunk_0210.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 289,
+    "end_page": 290,
+    "text": null,
+    "token_estimate": 618,
+    "file": "newman_chunk_0211.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 290,
+    "end_page": 291,
+    "text": null,
+    "token_estimate": 661,
+    "file": "newman_chunk_0212.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 291,
+    "end_page": 292,
+    "text": null,
+    "token_estimate": 574,
+    "file": "newman_chunk_0213.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 292,
+    "end_page": 294,
+    "text": null,
+    "token_estimate": 678,
+    "file": "newman_chunk_0214.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 294,
+    "end_page": 295,
+    "text": null,
+    "token_estimate": 608,
+    "file": "newman_chunk_0215.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 295,
+    "end_page": 297,
+    "text": null,
+    "token_estimate": 772,
+    "file": "newman_chunk_0216.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 297,
+    "end_page": 298,
+    "text": null,
+    "token_estimate": 629,
+    "file": "newman_chunk_0217.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 298,
+    "end_page": 300,
+    "text": null,
+    "token_estimate": 1068,
+    "file": "newman_chunk_0218.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 300,
+    "end_page": 301,
+    "text": null,
+    "token_estimate": 622,
+    "file": "newman_chunk_0219.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 301,
+    "end_page": 303,
+    "text": null,
+    "token_estimate": 854,
+    "file": "newman_chunk_0220.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 303,
+    "end_page": 304,
+    "text": null,
+    "token_estimate": 633,
+    "file": "newman_chunk_0221.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 304,
+    "end_page": 306,
+    "text": null,
+    "token_estimate": 887,
+    "file": "newman_chunk_0222.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 306,
+    "end_page": 307,
+    "text": null,
+    "token_estimate": 588,
+    "file": "newman_chunk_0223.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 307,
+    "end_page": 309,
+    "text": null,
+    "token_estimate": 702,
+    "file": "newman_chunk_0224.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 309,
+    "end_page": 311,
+    "text": null,
+    "token_estimate": 551,
+    "file": "newman_chunk_0225.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 311,
+    "end_page": 312,
+    "text": null,
+    "token_estimate": 546,
+    "file": "newman_chunk_0226.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 312,
+    "end_page": 313,
+    "text": null,
+    "token_estimate": 630,
+    "file": "newman_chunk_0227.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 313,
+    "end_page": 314,
+    "text": null,
+    "token_estimate": 605,
+    "file": "newman_chunk_0228.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 314,
+    "end_page": 315,
+    "text": null,
+    "token_estimate": 586,
+    "file": "newman_chunk_0229.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 315,
+    "end_page": 316,
+    "text": null,
+    "token_estimate": 624,
+    "file": "newman_chunk_0230.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 316,
+    "end_page": 317,
+    "text": null,
+    "token_estimate": 618,
+    "file": "newman_chunk_0231.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 317,
+    "end_page": 318,
+    "text": null,
+    "token_estimate": 607,
+    "file": "newman_chunk_0232.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 318,
+    "end_page": 320,
+    "text": null,
+    "token_estimate": 720,
+    "file": "newman_chunk_0233.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 320,
+    "end_page": 321,
+    "text": null,
+    "token_estimate": 629,
+    "file": "newman_chunk_0234.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 321,
+    "end_page": 323,
+    "text": null,
+    "token_estimate": 943,
+    "file": "newman_chunk_0235.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 323,
+    "end_page": 324,
+    "text": null,
+    "token_estimate": 616,
+    "file": "newman_chunk_0236.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 324,
+    "end_page": 325,
+    "text": null,
+    "token_estimate": 616,
+    "file": "newman_chunk_0237.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 325,
+    "end_page": 327,
+    "text": null,
+    "token_estimate": 861,
+    "file": "newman_chunk_0238.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 327,
+    "end_page": 328,
+    "text": null,
+    "token_estimate": 599,
+    "file": "newman_chunk_0239.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 328,
+    "end_page": 329,
+    "text": null,
+    "token_estimate": 660,
+    "file": "newman_chunk_0240.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 329,
+    "end_page": 330,
+    "text": null,
+    "token_estimate": 585,
+    "file": "newman_chunk_0241.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 330,
+    "end_page": 331,
+    "text": null,
+    "token_estimate": 547,
+    "file": "newman_chunk_0242.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 331,
+    "end_page": 332,
+    "text": null,
+    "token_estimate": 637,
+    "file": "newman_chunk_0243.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 332,
+    "end_page": 333,
+    "text": null,
+    "token_estimate": 553,
+    "file": "newman_chunk_0244.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 333,
+    "end_page": 334,
+    "text": null,
+    "token_estimate": 590,
+    "file": "newman_chunk_0245.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 334,
+    "end_page": 337,
+    "text": null,
+    "token_estimate": 876,
+    "file": "newman_chunk_0246.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 337,
+    "end_page": 338,
+    "text": null,
+    "token_estimate": 592,
+    "file": "newman_chunk_0247.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 338,
+    "end_page": 339,
+    "text": null,
+    "token_estimate": 634,
+    "file": "newman_chunk_0248.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 339,
+    "end_page": 340,
+    "text": null,
+    "token_estimate": 582,
+    "file": "newman_chunk_0249.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 340,
+    "end_page": 341,
+    "text": null,
+    "token_estimate": 627,
+    "file": "newman_chunk_0250.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 341,
+    "end_page": 342,
+    "text": null,
+    "token_estimate": 565,
+    "file": "newman_chunk_0251.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 342,
+    "end_page": 343,
+    "text": null,
+    "token_estimate": 517,
+    "file": "newman_chunk_0252.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 343,
+    "end_page": 345,
+    "text": null,
+    "token_estimate": 978,
+    "file": "newman_chunk_0253.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 345,
+    "end_page": 346,
+    "text": null,
+    "token_estimate": 677,
+    "file": "newman_chunk_0254.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 346,
+    "end_page": 347,
+    "text": null,
+    "token_estimate": 604,
+    "file": "newman_chunk_0255.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 347,
+    "end_page": 348,
+    "text": null,
+    "token_estimate": 655,
+    "file": "newman_chunk_0256.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 348,
+    "end_page": 349,
+    "text": null,
+    "token_estimate": 651,
+    "file": "newman_chunk_0257.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 349,
+    "end_page": 350,
+    "text": null,
+    "token_estimate": 631,
+    "file": "newman_chunk_0258.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 350,
+    "end_page": 351,
+    "text": null,
+    "token_estimate": 643,
+    "file": "newman_chunk_0259.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 351,
+    "end_page": 352,
+    "text": null,
+    "token_estimate": 538,
+    "file": "newman_chunk_0260.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 352,
+    "end_page": 354,
+    "text": null,
+    "token_estimate": 764,
+    "file": "newman_chunk_0261.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 354,
+    "end_page": 355,
+    "text": null,
+    "token_estimate": 586,
+    "file": "newman_chunk_0262.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 355,
+    "end_page": 356,
+    "text": null,
+    "token_estimate": 548,
+    "file": "newman_chunk_0263.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 356,
+    "end_page": 357,
+    "text": null,
+    "token_estimate": 627,
+    "file": "newman_chunk_0264.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 357,
+    "end_page": 358,
+    "text": null,
+    "token_estimate": 613,
+    "file": "newman_chunk_0265.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 358,
+    "end_page": 359,
+    "text": null,
+    "token_estimate": 715,
+    "file": "newman_chunk_0266.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 359,
+    "end_page": 360,
+    "text": null,
+    "token_estimate": 583,
+    "file": "newman_chunk_0267.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 360,
+    "end_page": 361,
+    "text": null,
+    "token_estimate": 611,
+    "file": "newman_chunk_0268.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 361,
+    "end_page": 362,
+    "text": null,
+    "token_estimate": 548,
+    "file": "newman_chunk_0269.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 362,
+    "end_page": 363,
+    "text": null,
+    "token_estimate": 579,
+    "file": "newman_chunk_0270.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 363,
+    "end_page": 365,
+    "text": null,
+    "token_estimate": 863,
+    "file": "newman_chunk_0271.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 365,
+    "end_page": 366,
+    "text": null,
+    "token_estimate": 552,
+    "file": "newman_chunk_0272.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 366,
+    "end_page": 367,
+    "text": null,
+    "token_estimate": 504,
+    "file": "newman_chunk_0273.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 367,
+    "end_page": 368,
+    "text": null,
+    "token_estimate": 614,
+    "file": "newman_chunk_0274.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 368,
+    "end_page": 370,
+    "text": null,
+    "token_estimate": 945,
+    "file": "newman_chunk_0275.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 370,
+    "end_page": 371,
+    "text": null,
+    "token_estimate": 624,
+    "file": "newman_chunk_0276.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 371,
+    "end_page": 372,
+    "text": null,
+    "token_estimate": 564,
+    "file": "newman_chunk_0277.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 372,
+    "end_page": 373,
+    "text": null,
+    "token_estimate": 620,
+    "file": "newman_chunk_0278.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 373,
+    "end_page": 374,
+    "text": null,
+    "token_estimate": 626,
+    "file": "newman_chunk_0279.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 374,
+    "end_page": 375,
+    "text": null,
+    "token_estimate": 616,
+    "file": "newman_chunk_0280.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 375,
+    "end_page": 377,
+    "text": null,
+    "token_estimate": 839,
+    "file": "newman_chunk_0281.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 377,
+    "end_page": 378,
+    "text": null,
+    "token_estimate": 616,
+    "file": "newman_chunk_0282.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 378,
+    "end_page": 379,
+    "text": null,
+    "token_estimate": 685,
+    "file": "newman_chunk_0283.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 379,
+    "end_page": 380,
+    "text": null,
+    "token_estimate": 612,
+    "file": "newman_chunk_0284.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 380,
+    "end_page": 382,
+    "text": null,
+    "token_estimate": 968,
+    "file": "newman_chunk_0285.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 382,
+    "end_page": 383,
+    "text": null,
+    "token_estimate": 661,
+    "file": "newman_chunk_0286.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 383,
+    "end_page": 384,
+    "text": null,
+    "token_estimate": 552,
+    "file": "newman_chunk_0287.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 384,
+    "end_page": 385,
+    "text": null,
+    "token_estimate": 551,
+    "file": "newman_chunk_0288.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 385,
+    "end_page": 386,
+    "text": null,
+    "token_estimate": 624,
+    "file": "newman_chunk_0289.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 386,
+    "end_page": 387,
+    "text": null,
+    "token_estimate": 598,
+    "file": "newman_chunk_0290.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 387,
+    "end_page": 388,
+    "text": null,
+    "token_estimate": 505,
+    "file": "newman_chunk_0291.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 388,
+    "end_page": 389,
+    "text": null,
+    "token_estimate": 613,
+    "file": "newman_chunk_0292.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 389,
+    "end_page": 391,
+    "text": null,
+    "token_estimate": 806,
+    "file": "newman_chunk_0293.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 391,
+    "end_page": 392,
+    "text": null,
+    "token_estimate": 585,
+    "file": "newman_chunk_0294.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 392,
+    "end_page": 393,
+    "text": null,
+    "token_estimate": 646,
+    "file": "newman_chunk_0295.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 393,
+    "end_page": 394,
+    "text": null,
+    "token_estimate": 664,
+    "file": "newman_chunk_0296.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 394,
+    "end_page": 395,
+    "text": null,
+    "token_estimate": 618,
+    "file": "newman_chunk_0297.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 395,
+    "end_page": 396,
+    "text": null,
+    "token_estimate": 559,
+    "file": "newman_chunk_0298.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 396,
+    "end_page": 397,
+    "text": null,
+    "token_estimate": 643,
+    "file": "newman_chunk_0299.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 397,
+    "end_page": 398,
+    "text": null,
+    "token_estimate": 622,
+    "file": "newman_chunk_0300.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 398,
+    "end_page": 401,
+    "text": null,
+    "token_estimate": 738,
+    "file": "newman_chunk_0301.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 401,
+    "end_page": 402,
+    "text": null,
+    "token_estimate": 656,
+    "file": "newman_chunk_0302.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 402,
+    "end_page": 403,
+    "text": null,
+    "token_estimate": 561,
+    "file": "newman_chunk_0303.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 403,
+    "end_page": 404,
+    "text": null,
+    "token_estimate": 639,
+    "file": "newman_chunk_0304.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 404,
+    "end_page": 405,
+    "text": null,
+    "token_estimate": 637,
+    "file": "newman_chunk_0305.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 405,
+    "end_page": 406,
+    "text": null,
+    "token_estimate": 629,
+    "file": "newman_chunk_0306.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 406,
+    "end_page": 407,
+    "text": null,
+    "token_estimate": 630,
+    "file": "newman_chunk_0307.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 407,
+    "end_page": 408,
+    "text": null,
+    "token_estimate": 583,
+    "file": "newman_chunk_0308.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 408,
+    "end_page": 409,
+    "text": null,
+    "token_estimate": 670,
+    "file": "newman_chunk_0309.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 409,
+    "end_page": 410,
+    "text": null,
+    "token_estimate": 711,
+    "file": "newman_chunk_0310.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 410,
+    "end_page": 411,
+    "text": null,
+    "token_estimate": 611,
+    "file": "newman_chunk_0311.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 411,
+    "end_page": 413,
+    "text": null,
+    "token_estimate": 900,
+    "file": "newman_chunk_0312.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 413,
+    "end_page": 414,
+    "text": null,
+    "token_estimate": 585,
+    "file": "newman_chunk_0313.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 414,
+    "end_page": 415,
+    "text": null,
+    "token_estimate": 705,
+    "file": "newman_chunk_0314.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 415,
+    "end_page": 416,
+    "text": null,
+    "token_estimate": 627,
+    "file": "newman_chunk_0315.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 416,
+    "end_page": 417,
+    "text": null,
+    "token_estimate": 620,
+    "file": "newman_chunk_0316.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 417,
+    "end_page": 418,
+    "text": null,
+    "token_estimate": 629,
+    "file": "newman_chunk_0317.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 418,
+    "end_page": 419,
+    "text": null,
+    "token_estimate": 595,
+    "file": "newman_chunk_0318.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 419,
+    "end_page": 421,
+    "text": null,
+    "token_estimate": 820,
+    "file": "newman_chunk_0319.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 421,
+    "end_page": 422,
+    "text": null,
+    "token_estimate": 633,
+    "file": "newman_chunk_0320.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 422,
+    "end_page": 423,
+    "text": null,
+    "token_estimate": 553,
+    "file": "newman_chunk_0321.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 423,
+    "end_page": 424,
+    "text": null,
+    "token_estimate": 582,
+    "file": "newman_chunk_0322.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 424,
+    "end_page": 425,
+    "text": null,
+    "token_estimate": 516,
+    "file": "newman_chunk_0323.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 425,
+    "end_page": 427,
+    "text": null,
+    "token_estimate": 587,
+    "file": "newman_chunk_0324.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 427,
+    "end_page": 429,
+    "text": null,
+    "token_estimate": 817,
+    "file": "newman_chunk_0325.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 429,
+    "end_page": 430,
+    "text": null,
+    "token_estimate": 595,
+    "file": "newman_chunk_0326.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 430,
+    "end_page": 433,
+    "text": null,
+    "token_estimate": 794,
+    "file": "newman_chunk_0327.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 433,
+    "end_page": 434,
+    "text": null,
+    "token_estimate": 518,
+    "file": "newman_chunk_0328.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 434,
+    "end_page": 435,
+    "text": null,
+    "token_estimate": 504,
+    "file": "newman_chunk_0329.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 435,
+    "end_page": 436,
+    "text": null,
+    "token_estimate": 520,
+    "file": "newman_chunk_0330.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 436,
+    "end_page": 438,
+    "text": null,
+    "token_estimate": 871,
+    "file": "newman_chunk_0331.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 438,
+    "end_page": 439,
+    "text": null,
+    "token_estimate": 505,
+    "file": "newman_chunk_0332.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 439,
+    "end_page": 441,
+    "text": null,
+    "token_estimate": 876,
+    "file": "newman_chunk_0333.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 441,
+    "end_page": 442,
+    "text": null,
+    "token_estimate": 516,
+    "file": "newman_chunk_0334.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 442,
+    "end_page": 444,
+    "text": null,
+    "token_estimate": 884,
+    "file": "newman_chunk_0335.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 444,
+    "end_page": 446,
+    "text": null,
+    "token_estimate": 881,
+    "file": "newman_chunk_0336.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 446,
+    "end_page": 448,
+    "text": null,
+    "token_estimate": 873,
+    "file": "newman_chunk_0337.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 448,
+    "end_page": 450,
+    "text": null,
+    "token_estimate": 744,
+    "file": "newman_chunk_0338.txt"
+  },
+  {
+    "source": "newman",
+    "start_page": 450,
+    "end_page": 450,
+    "text": null,
+    "token_estimate": 104,
+    "file": "newman_chunk_0339.txt"
+  }
+]

@@ -1,0 +1,120 @@
+hydrostatic forces on the element. From Fig. 8.2 we find that dT — pgA dz = [w sin @ — F(1+ T/(AE))] ds T dp — pgAz dd =[w cos $ +DU + T /(AE))] ds These equations are non-linear and it is in general not possible to find an explicit solution. However, for many operations it is a good approximation to neglect the effect of the current forces F and D. We will also MOORING SYSTEMS Anchor Seafloor T+dT-pgzA-pgAdz
+
+260 STATIONKEEPING
+
+neglect the effect of elasticity. This simplifies the analysis. However, in
+extreme conditions elasticity should be accounted for. We will later show
+how this can be done in an approximate way. We will assume the cable
+line has constant weight per unit length.
+
+Solutions of the inelastic cable line (catenary) equations
+By introducing
+
+T'=T — pgzA (8.1)
+we can write
+
+dT' =w sin ¢ ds (8.2)
+
+T' dd =weos ds (8.3)
+By dividing these two equations we see that
+
+aT’ | sin @ dg
+
+T' coso
+ie. :
+
+cos Po .
+'=T,' —— (8.4)
+r ° cos
+
+By integrating equation (8.3) we find that
+
+7 t ,
+s—s=2 Po £08 Po yg — Fo 605 Po tan p — tan oo]
+W Jy, Cos O cos @ w
+(8.5)
+
+Since dx = cos @ ds we can write
+
+1 £?T ’ cos do
+x-Xy=- | —?_
+© w Jog COs O
+
+_ Ty’ cos do (io2(
+w
+
+dé
+
++ tan ¢)
+
+cos p
+
+- loot tan #0)) (8.6) :
+
+Since dz = sin @ ds we find that
+
+%T, in @
+2-2 =— | To' cos po Si 40
+
+bo cos’@
+__ To’ cos bo [ 1 | 1 | (8.7)
+7 w cos @ cos Po
+
+We choose ¢o to be the point of contact between the cable line and the |
+
+sea bed, i.e. @o = 0. From equation (8.4) we see that
+
+To) =T' cos? (8.8)
+
+MOORING SYSTEMS 261
+
+The horizontal component of the tension at the waterplane may be
+written as
+
+Ty=T cos d, (8.9)
+By comparing equations (8.1), (8.8) and (8.9) we find that
+To =Ty
+
+This is also consistent with a global balance of forces. By the way, we
+have chosen the coordinate system x) =0 and z9= —h. Further, we set
+
+ S0= 0. The angle ¢ can be eliminated from equation (8.5) and (8.7) by
+
+equation (8.6) which can be written as
+
+xw = log(+ + sin 2)
+
+Ty ~ cos
+
+Le.
+. , (Wx 1/l+sing cos ®
+ge) -3 (eee)
+sm Ty/ 2\ cos@ 1+sin ® tan }
+cosh(=*) _l (- + sin an cos ) _ 1
+Ty/ 2\ cos 1+sing/ cos@
+We may now write
+T.
+= Bsinh( Fx) (8.10)
+a l=i(7) 1]
+=— —x)-1
+
+eth D cosh qT," (8.11)
+
+The line tension can be found by combining equations (8.1), (8.7) and
+: (8.8), ie.
+Ty
+T — pgzA =—— = Ty t+ ueet+h
+cos @
+
+i.e.
+
+T=Tytwht+ (we pgda)z (8.12)
+
+The vertical component T, of the tension is found by using
+aT,’ = d(T’ sin ®)= dT’ sin@ + T’ cos dg
+=w sin? @ ds + w cos’ ds
+This means T,' = ws, which in the waterplane says
+T,=ws (8.13)
+
+We will show how we can use the formulas in a practical context. Let
+us consider the example illustrated in Fig. 8.3 and try to find the

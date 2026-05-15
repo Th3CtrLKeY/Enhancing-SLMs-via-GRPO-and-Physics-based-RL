@@ -1,0 +1,54 @@
+used to analyze semisub­ mersible platforms supported by horizontal buoyancy hulls, as well as the wave forces on slender vertical structures. In a very simple form, slenderbody theory has been applied successfully to spar buoys. We shall begin our development of slender-body theory by discussing two relatively simple problems—the longitudinal and lateral motion of a slender body in an unbounded ideal fluid. These are problems that were first treated in aerodynamics, and our study of the lateral motion will lead
+
+Chapter 7
+to a derivation of the low-aspect-ratio theory for planar lifting surfaces. The 
+results will be applied to the problem of ship maneuvering in the horizon­
+tal plane, where free-surface effects are generally small and the double-body 
+approximation can be used to avoid the complications of waves. Subse­
+quently, wave effects on the free surface will be considered, first for a slen­
+der body with no forward velocity and then for a moving ship.
+Slender-body approximations can be applied to analyze the effects of 
+shallow or restricted water on ships, as will be discussed in section 8, and 
+to predict the interactions between adjacent ships. The latter problem is 
+treated by Tuck and Newman (1974) and Yeung (1978). The applications 
+of slender-body theory to ship hydrodynamics are reviewed by New­
+man (1970) and Ogilvie (1974, 1977). A survey of ship hydrodynamics in 
+restricted waters is given by Tuck (1978).
+7.1  Slender Body in an Unbounded Fluid
+Let us consider the problem of a slender body, moving in an unbounded 
+ideal fluid, with the fundamental assumption that the transverse dimen­
+sions of the body are small compared to its length. To formalize this 
+assumption, we define the slenderness parameter
+d l
+/
+,
+= ε 	
+(1)
+where d is the maximum lateral dimension of the body, and l is its length. 
+The nondimensional parameter ε is assumed small, and on this basis an 
+approximate solution is sought for the hydrodynamic quantities of interest.
+The body motions are assumed to consist of a constant forward velocity 
+U, parallel to the x0-axis of a space-fixed coordinate system (x0, y0, z0), and a 
+small lateral motion in the z0-direction. (Vertical motions in the y0-direction 
+can be treated in an identical manner.) A moving coordinate system (x, y, z) 
+is defined by the transformations
+x
+x
+Ut
+=
+−
+
+, 	
+(2)
+y
+y
+=
+0, 	
+(3)
+z
+z
+=
+0. 	
+(4)
+The lateral motion of the body is described by its displacement ζ(x, t) 
+from the x0-axis, as shown in figure 7.1. For rigid-body motions ζ will be a

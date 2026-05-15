@@ -1,0 +1,60 @@
+that of a flat plate of the same length and area, found a more rational justification after Prandtl developed the boundary-layer theory. Thus it became evident that at the relatively large Reynolds numbers of interest to naval architects and aerodynamicists, vis­ cous stresses are significant only within the very thin layer of the fluid adjoining the rigid surfaces such as the ship’s hull or the airplane. Out­ side this layer the fluid is essentially inviscid, not because its viscosity has
+
+Introduction 
+
+suddenly changed but because viscous stresses are a consequence of large 
+gradients in the fluid velocity and these large gradients are restricted to the 
+immediate vicinity of the boundary. Moreover, the flow within the bound­
+ary layer is relatively insensitive to the form of the boundary, provided the 
+body’s radii of curvature are large compared to the thickness of the bound­
+ary layer. The consequences of Prandtl’s boundary-layer theory would 
+appear to be fundamental to Froude’s hypothesis, and it is remarkable that 
+Froude predated Prandtl by thirty years.
+In the chapters to follow, model testing will be discussed first, with 
+emphasis on the use of dimensional analysis to preserve dynamic similarity 
+between the model and full-scale flows. This glimpse of the “real-world” 
+will serve to introduce the theories that follow in subsequent chapters. The 
+theoretical approach will commence with a study of viscous flows so that 
+the importance of viscosity can be set in proper perspective.
+Each chapter begins with a general treatment of the essentials and pro­
+gresses to more specialized and advanced material. The order in which this 
+is studied can be varied to suit one’s interests and background. Readers anx­
+ious to proceed to their favorite subject, but lacking the prerequisites to do 
+so directly, should find most of their needs met in sections 3.1 to 3.9 and 
+4.1 to 4.5. In the references listed at the end of each chapter, preference has 
+been given to recent surveys and papers with comprehensive bibliographies 
+where additional information on each topic may be sought.
+
+2  Model Testing
+Chapter 
+
+Model 
+Testing
+© Massachusetts Institute of TechnologyAll Rights Reserved
+For most of us, toy boats and models are a useful childhood introduction 
+to the subject of hydrodynamics. Given a block of wood, a sharp knife, and 
+the plans of a ship or small boat, few would resist the impulse to produce 
+a model. Our choice of scale ratio would be determined by the dimensions 
+of the block of wood. Perhaps future engineering interests are indicated if 
+a ruler is used to ensure a “true scale model.” If the model is subsequently 
+operated in its natural medium, the builder must determine the proper 
+weight and, in the most refined examples, an appropriate power system 
+to drive the model at the “true” speed of the real ship. The weight may be 
+determined by an application of Archimedes’ principle in the bathtub or 
+sink, but the questions pertaining to speed and power are more complex 
+and, strictly speaking, impossible to answer. Superficial bathtub observa­
+tions might reveal that the flow of water around the model is reasonably 
+like that of a large ship, meaning that the observed waves look realistic, if 
+the model speed is on the order of half a meter per second, or one knot. 
+On the other hand, if we could observe the viscous flow very close to the 
+surface of the hull and in the wake immediately behind the stern, gross dif­
+ferences would be apparent between the ship and its scale model.1
+This situation can be better understood by a dimensional analysis. 
+Denote the physical quantity of interest by Q (for example, the resistance 
+of a body moving through the water, the thickness of the boundary layer, 
+or the acceleration of a buoy in waves). First it is necessary to list, from a 
+qualitative knowledge of the underlying physical mechanisms involved, 
+the significant parameters that affect the value of Q (length, velocity, den­
+sity, viscosity, and so forth). In general, some or all of these parameters can 
+be used to make Q nondimensional, and any not needed for this purpose 
+can themselves be rendered nondimensional. We then assert that when

@@ -1,0 +1,16 @@
+[Page 1]
+2.20 Problem Set 8B 
+Name: ____________________ 
+1. Supplementary Problem Aa2.  
+x 2 
+x 1 
+            (0,0,L) 
+x 3 
+Added mass coefficients are defined with respect to the given coordinate system. 
+2. Supplementary Problem Aa4 (a). Assume U = U = 0 . 
+
+
+3. Supplementary Problem Aa6 
+4. Supplementary Problem A1 except part (g). 
+5. Supplementary Problem A4. Assume the heave motion y is small. Write (a) in the form 
+ y + ... = .0

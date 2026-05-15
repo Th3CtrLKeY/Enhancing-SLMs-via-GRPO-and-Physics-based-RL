@@ -1,0 +1,39 @@
+propeller is operating initially at J = 1.0. For the blade section at 70 percent of the maximum radius, find the value of the advance ratio where the angle of attack is reduced by 5 degrees. 6. A motorboat with a drag of 8,000 N at the design speed of 6 m/s is to be powered by an engine that can deliver 100 kw at a shaft speed of 1800 revolutions per minute. The maximum propeller diameter that can be
+
+Model Testing 
+
+used is 0.6 m. (1) What is the optimum choice of propeller from the series 
+shown in figure 2.10 for operation at 1800 rpm? (Extrapolate if necessary.) 
+(2) What is the optimum if a reduction gear is used, and what is the result­
+ing increase in propeller efficiency? (3) What percentage of the available 
+engine power is used in each case, assuming no mechanical losses in the 
+shaft or reduction gear?
+7. A small motor vessel has the following drag at corresponding veloci­
+ties: velocity, m/s: 2.0 3.0 4.0 5.0 6.0; drag force, N: 1200 2700 4800 9500 
+19,500.
+An optimum propeller is to be chosen for this vessel with three blades, 
+diameter 0.6 m, and a fixed rotation rate of 10 revolutions per second. Plot 
+the required thrust coefficient as a function of the advance ratio J on the 
+same scale as figure 2.10. By observing the equilibrium points where this 
+thrust coefficient is equal to that of different pitch propellers, determine 
+the propeller pitch for maximum velocity. Discuss this choice from the 
+standpoint of propeller efficiency.
+8. The total drag of a ship 200 m long, moving at 20 knots in salt water 
+(15°C), is to be determined from towing-tank tests of a 2 m model in fresh 
+water (15°C). The ship’s wetted surface is 6000 m2, and its displacement is 
+190 MN. (1) Find the weight of the model. (2) What is the wetted-surface 
+area of the model? (3) What speed should be used in the model test? (4) If 
+the model drag at this speed is 1.6 N, what is the predicted full-scale drag 
+based on the ITTC friction line? (5) What model speed would preserve the 
+full-scale Reynolds number?
+9. For a hydrofoil submerged 1.0 m beneath the free surface, what is the 
+minimum velocity at which cavitation can be anticipated, if the cavitation 
+number for inception of cavitation is σ = 0.1. For a 1/10 scale model of 
+the same hydrofoil, operating at the same Froude number, find the atmop­
+sheric pressure in a “vacuum towing tank” necessary to produce the same 
+cavitation number. Assume the temperature range 0–30°C, with the worst 
+possible temperature full scale and the best possible temperature in the 
+towing tank.
+10. A model of a sailing yacht is towed with a small angle of attack, or 
+leeway angle, about the vertical axis. The drag force and side force are 
+measured separately. If the yacht hull operating in this manner can be

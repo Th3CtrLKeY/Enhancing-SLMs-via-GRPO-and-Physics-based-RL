@@ -1,0 +1,81 @@
+added moment of inertia for yaw acceleration, and ms denotes the cross-coupling added mass between sway and yaw. The latter vanishes if the body is symmetrical about x = 0. The superscript s in (42) is inserted to distinguish these strip-theory results. In this approximation, the local force at any section of the body is not affected by the shape of the body elsewhere; that is, there are no hydro­ dynamic interactions between adjacent sections of the body. The resulting
+
+Chapter 7
+simplification is significant. For example, the results for a slender spheroid 
+can be deduced in terms of the added-mass coefficient for a circle with­
+out the complexity of solving the complicated three-dimensional problems 
+represented by figure 4.8. Of course, a price must be paid for this simplifica­
+tion, and it is apparent from figure 4.8 that the sway added-mass coefficient 
+will be overpredicted in the strip theory by a factor of 10 percent when the 
+diameter-length ratio is 0.2, and by 100 percent in the extreme case of a 
+sphere. A larger error results for the added moment of inertia, as empha­
+sized by the fact that this coefficient vanishes for a sphere but is nonzero in 
+the strip theory! (See problem 2.) It would be naive to suggest that a sphere 
+is slender, and in general a diameter-length ratio of 0.1 to 0.2 is a reasonable 
+upper limit for the slender-body approximation.
+The total force acting on a slender body in steady motion can be derived 
+by integrating the differential force (39),
+F
+U
+x W x m
+x dx
+U W x m
+x
+z
+l
+x
+x
+T
+N
+=
+∂
+∂
+=
+∫
+[
+( )
+( )]
+[
+( )
+( )]
+.
+
+
+(43)
+For a slender body, the nose is a point of zero transverse dimensions, and 
+thus m33(xN) = 0. The same will be true at the tail for a pointed body, without 
+a tail fin; in accordance with D’Alembert’s paradox, the lateral force acting 
+on such a body in steady motion is zero.
+For a body with a tail fin, such as that shown in figure 7.1, the situation 
+is fundamentally different. Using the flat-plate result from table 4.3, the 
+added-mass coefficient of the tail is given by
+m
+x
+s
+T
+
+
+
+(
+)
+,
+= π ρ
+	
+(44)
+where s is the tail span. Using (19) to evaluate W, and denoting the slope 
+∂ζ/∂x at the tail by the local angle of attack αT, it follows that there will be 
+a transverse “lift” force
+F
+U s
+z
+T
+= π ρ
+α
+
+
+
+. 	
+(45)
+The yaw moment about the vertical axis of the body can be obtained 
+from (39) in a manner similar to that used to obtain the force. For steady 
+motion, we obtain the following expression in place of (43):

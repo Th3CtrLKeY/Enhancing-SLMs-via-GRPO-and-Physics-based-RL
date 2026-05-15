@@ -1,0 +1,82 @@
+confirmation. Considerable experimental effort has been devoted to validating Mori­ son’s formula (50). For submerged bodies an approximation similar to (50) appears valid for engineering purposes, provided the coefficients are deter­ mined experimentally and for appropriate values of the Reynolds number and the parameter A/l. For bodies such as vertical surface-piercing pilings, no satisfactory experimental confirmation of (50) exists; the reasons for this are not understood adequately. Surveys of this subject have been made by Hogben (1974) and Milgram (1976).
+
+Model Testing 
+
+2.14  Body Motions in Waves
+If ocean waves are incident upon a freely floating body, the unsteady wave 
+force discussed in section 2.13 causes the body to oscillate. The body motion 
+is often more important than the components of the hydrodynamic force, 
+although a study of the forces is essential to the theoretical prediction of 
+the body motions.
+In this section we focus our attention on the vertical heave oscillations 
+of an unrestrained body in waves. The body may be floating on the surface, 
+or it may be submerged beneath the surface; but in both cases, the unre­
+strained body is neutrally buoyant, and the body mass m is equal to the 
+displaced mass of water ρ∀.
+If coupling effects are neglected, the heave motion y(t) results from equi­
+librium between the vertical hydrodynamic force and the product of the 
+body mass multiplied by the vertical acceleration ÿ. Thus, the body mass m 
+must be added to the nine physical parameters upon which the force (40) 
+depends. In nondimensional form, it follows that
+y
+A
+f A
+h
+l
+R
+t m
+pl
+/
+(
+/
+,
+/
+, /
+, , ,
+,
+/
+).
+=
+λ
+λ
+λ β
+ω
+
+(51)
+Since m =
+∀
+ρ , the last parameter in (51) is equal to ∀/ l3. For a prescribed 
+body shape this parameter is independent of the length scale; thus the last 
+parameter in (51) may be deleted in our study of unrestrained bodies.
+The dependence of (51) on the Reynolds number is once again a source 
+of fundamental problems for model testing, as well as for making theo­
+retical predictions of body motions. For large bodies, where A/l is small, 
+it follows from (43) that viscous effects are negligible. Moreover, for small 
+bodies where A/l is of order one, or large compared to one, the situation 
+is considerably simpler than that discussed in conjunction with the wave 
+force on a fixed structure. Here, a small unrestrained body will bob up and 
+down like a cork upon the sea, with little or no relative motion between 
+itself and the surrounding fluid. Thus, there will be no significant viscous 
+drag for small unrestrained bodies in waves, and viscosity may be neglected 
+in general.
+Subject to these assumptions, (51) reduces to the simpler form
+y
+A
+f A
+h
+l
+t
+/
+(
+/
+,
+/
+, /
+, ,
+).
+=
+λ
+λ
+λ β ω
+	
+(52)

@@ -1,0 +1,75 @@
+duration of the motion. Alternatiyely, for steady-state flows, the length of the plate should be finite to limit the elapsed time during which a single particle of fluid is traveling past the plate. The latter problem is the most important and relevant one for us to consider, but it is also the more math­ ematically complicated. Thus, we shall first solve the unsteady problem for a plate of infinite length, which is not without some practical interest in any event.3
+
+Chapter 3
+3.13  Unsteady Motion of a Flat Plate
+As we have assumed above, the plate coincides with the plane y = 0 and 
+the fluid occupies the half-space y > 0. If the plate moves in its own plane 
+parallel to the x-axis with prescribed velocity U(t), then the flow is again 
+independent of the x- and z-coordinates and the z-component of the 
+fluid velocity is zero. From continuity and the boundary condition on 
+the plate, it follows that ν = 0 and the velocity field is a parallel flow in 
+the x-direction which depends only on the coordinate y and on time t. 
+Thus from the Navier-Stokes equations, in the absence of any external 
+pressure gradients, the unknown velocity u(y, t) is governed by the partial 
+differential equation
+∂
+∂
+=
+∂
+∂
+u
+t
+u
+y
+ν
+
+2 . 	
+(31)
+This equation is called the diffusion equation, or heat equation, since it 
+governs the diffusion of heat in a conducting medium.
+Appropriate boundary conditions are the no-slip condition on the plate,
+u
+t
+U t
+y
+( , )
+( )
+
+
+=
+=
+on 
+	
+(32)
+and, in addition, the condition that the fluid motion tends to zero far away 
+from the plate,
+u y t
+y
+( , )
+.
+→
+→∞
+
+as 
+	
+(33)
+The last condition is somewhat pragmatic; it may be replaced by the initial 
+condition that the fluid is at rest everywhere, at some initial time before the 
+plate is set in motion. But (33) enables us to consider as the simplest pos­
+sible example sinusoidal time dependence, which in fact violates the initial 
+condition. We shall return to this point subsequently.
+For the simplest unsteady motion, assume that the motion of the plate 
+is sinusoidal, say U(t) = U0 cos ωt where ω is the radian frequency. The 
+resulting flow is thus sinusoidal, and it is convenient to write the unknown 
+velocity u(y, t) in the complex form
+u y t
+f y ei t
+( , )
+Re[ ( )
+],
+=
+ω
+	
+(34)
+where the real part of f is the velocity component in phase with cos ωt, 
+and the imaginary part is in phase with sin ωt. Substituting (34) in the

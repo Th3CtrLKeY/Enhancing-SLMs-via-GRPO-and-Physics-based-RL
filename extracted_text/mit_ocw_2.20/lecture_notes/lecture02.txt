@@ -1,0 +1,394 @@
+[Page 1]
+Lecture 2 
+ – Marine Hydrodynamics 
+Lecture 2 
+Chapter 1 - Basic Equations 
+1.1 Description of a Flow 
+To deﬁne a ﬂow we use either the ‘Lagrangian’ description or the ‘Eulerian’ description. 
+• Lagrangian description: Picture a ﬂuid ﬂow where each ﬂuid particle caries its own 
+properties such as density, momentum, etc. As the particle advances its properties 
+may change in time. The procedure of describing the entire ﬂow by recording the 
+detailed histories of each ﬂuid particle is the Lagrangian description. A neutrally 
+buoyant probe is an example of a Lagrangian measuring device. 
+The particle properties density, velocity, pressure, . . . can be mathematically repre­
+sented as follows: ρp(t),⃗vp(t), pp(t), . . .  
+The Lagrangian description is simple to understand: conservation of mass and New­
+ton’s laws apply directly to each ﬂuid particle . However, it is computationally 
+expensive to keep track of the trajectories of all the ﬂuid particles in a ﬂow and 
+therefore the Lagrangian description is used only in some numerical simulations. 
+)
+(t
+p 
+υr 
+p 
+Lagrangian description; snapshot 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+• Eulerian description: Rather than following each ﬂuid particle we can record the 
+evolution of the ﬂow properties at every point in space as time varies. This is the 
+Eulerian description. It is a ﬁeld description. A probe ﬁxed in space is an example 
+of an Eulerian measuring device. 
+This means that the ﬂow properties at a speciﬁed location depend on the location 
+and on time. For example, the density, velocity, pressure, . . . can be mathematically 
+represented as follows: ⃗v(⃗x, t), p(⃗x, t), ρ(⃗x, t), . . .  
+The aforementioned locations are described in coordinate systems. In 13.021 we use 
+the cartesian, cylindrical and spherical coordinate systems. 
+The Eulerian description is harder to understand: how do we apply the conservation 
+laws? However, it turns out that it is mathematically simpler to apply. For this 
+reason, in Fluid Mechanics we use mainly the Eulerian description. 
+)
+,
+( t
+x r
+y 
+x 
+)
+,
+(
+t
+x r
+rυ 
+Eulerian description; Cartesian grid
+
+---PAGE BREAK---
+
+[Page 3]
+1.2 Flow visualization - Flow lines 
+• Streamline: A line everywhere tangent to the ﬂuid velocity ⃗v at a given instant (ﬂow 
+snapshot). It is a strictly Eulerian concept. 
+• Streakline: Instantaneous locus of all ﬂuid particles that have passed a given point 
+(snapshot of certain ﬂuid particles). 
+• Pathline: The trajectory of a given particle P in time. The photograph analogy would 
+be a long time exposure of a marked particle. It is a strictly Lagrangian concept. 
+Can you tell whether any of the following ﬁgures ( [1] Van Dyke, An Album of Fluid Motion 
+1982 (p.52, 100)) show streamlines/streaklines/pathlines?
+
+---PAGE BREAK---
+
+[Page 4]
+1.3 Some Quantities of Interest 
+• Einstein Notation 
+– Range convention: Whenever a subscript appears only once in a term, the sub­
+script takes all possible values. E.g. in 3D space: 
+xi 
+(i = 1, 2, 3) 
+→ 
+x1,
+x2,
+x3 
+– Summation convention: Whenever a subscript appears twice in the same term 
+the repeated index is summed over the index parameter space. E.g. in 3D space: 
+aibi = a1b1 + a2b2 + a3b3 
+(i = 1, 2, 3) 
+Non repeated subscripts remain ﬁxed during the summation. E.g. in 3D space 
+ai = xij nˆj denotes three equations, one for each i = 1, 2, 3 and j is the dummy 
+index. 
+Note 1: To avoid confusion between ﬁxed and repeated indices or diﬀerent re­
+peated indices, etc, no index can be repeated more than twice. 
+Note 2: Number of free indices shows how many quantities are represented by 
+a single term. 
+Note 3: If the equation looks like this: (ui) (ˆxi) , the indices are not summed. 
+– Comma convention: A subscript comma followed by an index indicates partial 
+diﬀerentiation with respect to each coordinate. Summation and range conven­
+tions apply to indices following a comma as well. E.g. in 3D space: 
+∂ui 
+∂u1 
+∂u2 
+∂u3 
+ui,i =
+=
++
++ 
+∂xi 
+∂x1 
+∂x2 
+∂x3 
+• Scalars, Vectors and Tensors 
+Scalars 
+magnitude 
+Vectors (aixi) 
+magnitude 
+direction 
+density ρ (⃗x, t) 
+pressure p (⃗x, t) 
+velocity ⃗v (⃗x, t) /momentum 
+mass ﬂux 
+
+Tensors (aij ) 
+magnitude 
+direction 
+orientation 
+momentum ﬂux 
+stress τij (⃗x, t)
+
+---PAGE BREAK---
+
+[Page 5]
+1.4 Concept and Consequences of Continuous Flow 
+For a ﬂuid ﬂow to be continuous, we require that the velocity ⃗v(⃗x, t) be a ﬁnite and con­
+tinuous function of ⃗x and t. 
+v
+i.e. ∇· ⃗v and ∂⃗are ﬁnite but not necessarily continuous. 
+∂t 
+Since ∇· ⃗v and ∂⃗v < ∞, there is no inﬁnite acceleration i.e. no inﬁnite forces , which is 
+∂t 
+physically consistent. 
+1.4.1 Consequences of Continuous Flow 
+• Material volume remains material. No segment of ﬂuid can be joined or broken apart. 
+• Material surface remains material. The interface between two material volumes al­
+ways exists. 
+• Material line remains material. The interface of two material surfaces always exists. 
+Material 
+surface 
+fluid a 
+fluid b 
+• Material neighbors remain neighbors. To prove this mathematically, we must prove 
+that, given two particles, the distance between them at time t is small, and the 
+distance between them at time t + δt is still small.
+
+---PAGE BREAK---
+
+[Page 6]
+ 
+∂⃗v
+Assumptions At time t, assume a continuous ﬂow (∇· ⃗v, ∂t << ∞) with ﬂuid velocity 
+⃗v(⃗x, t). Two arbitrary particles are located at ⃗x and ⃗x + δ⃗x(t), respectively. 
+Result If δ⃗x(t) ≡δ⃗x →0 then δ⃗x(t + T ) →0, for all subsequent times t + T . 
+Proof 
+v 
+x v +{υr(x v)δt}
+x
+δ x v 
+δx v (t + δt) 
+x v +δ x v 
+x v + 
+r 
+δ x v + 
+r
+{(υ (x v ) +δ x v ⋅∇υ (x v ))δt}
+After a small time δt: 
+• The particle initially located at ⃗x will have travelled a distance ⃗v(⃗x)δt and at time 
+t + δt will be located at ⃗x + {⃗v(⃗x)δt}. 
+• The particle initially located at ⃗x+δ⃗x will have travelled a distance (⃗v(⃗x) +  δ⃗x · ∇⃗v(⃗x)) δt. 
+(Show this using Taylor Series Expansion about(⃗x, t)). Therefore after a small time 
+δt this particle will be located at ⃗x + δ⃗x + {(⃗v(⃗x) +  δ⃗x · ∇⃗v(⃗x))δt}. 
+• The diﬀerence in position δ⃗x(t + δt) between the two particles after a small time δt 
+will be: 
+δ⃗x(t + δt)
+=
+ ⃗x + δ⃗x + {(⃗v(⃗x) +  δ⃗x · ∇⃗v(⃗x))δt} −(⃗x + {⃗v(⃗x)δt}) 
+⇒ δ⃗x(t + δt)
+=
+ δ⃗x + (δ⃗x · ∇⃗v(⃗x))δt ∝ δ⃗x 
+Therefore δ⃗x(t + δt) ∝δ⃗x because ∇⃗v is ﬁnite (from continuous ﬂow assumption). 
+Thus, if δ⃗x →0 , then δ⃗x(t + δt) →0. In fact, for any subsequent time t + T: 
+t+T 
+δ⃗x(t + T) ∝δ⃗x + 
+δ⃗x · ∇⃗vdt ∝ δ⃗x, 
+t 
+and δ⃗x(t+T) →0 as  δ⃗x →0. In other words the particles will never be an inﬁnite distance 
+apart. Thus, if the ﬂow is continuous two particles that are neighbors will always remain 
+neighbors.
+
+---PAGE BREAK---
+
+[Page 7]
+(x
+f r
+)
+, 
+t
+t
+t 
+δ
+υ δ 
++
++ r
+p 
+p 
+Df(−→ 
+xp(t), t) = lim f(−→ 
+xp + −→ 
+vp δt, t + δt) −f(−→ 
+xp, t) (1) 
+(
+f 
+t
+t
+x 
+p
+p 
+υ δ
+r
+r ( ) + 
+Dt 
+δt→0 
+δt 
+particle 
+p 
+)
+,t
+x p 
+r
+)
+(t
+x r
+1.5 Material/Substantial/Total Time Derivative: D/Dt 
+A material derivative is the time derivative – rate of change – of a property following a 
+ﬂuid particle ‘p’. The material derivative is a Lagrangian concept. 
+By expressing the material derivative in terms of Eulerian quantities we will be able to 
+apply the conservation laws in the Eulerian reference frame. 
+Consider an Eulerian quantity f(⃗x, t). The time rate of change of f as experienced by a 
+→
+particle ‘p’ travelling with velocity −vp is the substantial derivative of f and is given by: 
+→
+→
+Performing a Taylor Series Expansion about (−, t) and taking into account that −δt = δ⃗x,
+xp
+vp 
+we obtain: 
+−→ 
+−
+∂f(⃗x, t)
+→
+f(xp + vp δt, t + δt) =  f(⃗x, t) +  δt 
++ δ⃗x · ∇f(⃗x, t) +  O(δ2)(higher order terms)(2)
+∂t 
+From Eq.(1, 2) we see that the substantial derivative of f as experienced by a particle 
+→
+travelling with −vp is given by: 
+Df 
+∂f 
+−→ 
+=
++ vp · ∇f 
+Dt 
+∂t 
+The generalized notation: 
+D
+∂ 
+−→
+≡ 
++ vp · ∇ 
+Dt 
+∂t 
+ 
+
+
+ 
+Lagrangian 
+Eulerian
+
+---PAGE BREAK---
+
+[Page 8]
+Example 1: Material derivative of a ﬂuid property G⃗(⃗x, t) as experienced by a ﬂuid par­
+ticle. 
+Let ‘p’ denote a ﬂuid particle. A ﬂuid particle is always travelling with the local ﬂuid 
+velocity ⃗vp(t) =  ⃗v(⃗xp, t). The material derivative of a ﬂuid property G⃗(⃗x, t) as experienced 
+by this ﬂuid particle is given by: 
+D ⃗G 
+= 
+∂ ⃗G 
++ 
+⃗v · ∇⃗G 
+Dt 
+∂t 
+   
+ 
+ 
+Convective 
+Lagragian 
+rate of change 
+Eulerian 
+rate of change 
+rate of change 
+Example 2: Material derivative of the ﬂuid velocity ⃗v(⃗x, t) as experienced by a ﬂuid par­
+ticle. This is the Lagrangian acceleration of a particle and is the acceleration that appears 
+in Newton’s laws. It is therefore evident that its Eulerian representation will be used in 
+the Eulerian reference frame. 
+Let ‘p’ denote a ﬂuid particle. A ﬂuid particle is always travelling with the local ﬂuid 
+D⃗v(⃗x,t)
+velocity ⃗vp(t) =  ⃗v(⃗xp, t). The Lagrangian acceleration 
+Dt 
+as experienced by this ﬂuid 
+particle is given by: 
+D⃗v 
+∂⃗v 
+=
++ 
+⃗v · ∇⃗v 
+Dt 
+∂t 
+   
+ 
+ 
+Convective 
+Lagragian 
+Eulerian 
+acceleration 
+acceleration 
+acceleration
+
+---PAGE BREAK---
+
+[Page 9]
+1.6 Diﬀerence Between Lagrangian Time Derivative and 
+Eulerian Time Derivative 
+Example 1: Consider an Eulerian quantity, temperature, in a room at points A and B 
+where the temperature is diﬀerent at each point. 
+Point A: 10o 
+Point C: ∂
+∂ 
+T
+t 
+Point B: 1o
+At a ﬁxed in space point C, the temperature rate of change is ∂T which is an Eulerian time 
+∂t 
+derivative. 
+Example 2: Consider the same example as above: an Eulerian quantity, temperature, in 
+a room at points A and B where the temperature varies with time. 
+DT 
+∂ T 
+= 
++ υ
+v ⋅∇ T
+fly 
+Point A: 10o 
+Dt 
+∂ t 
+Point B: 1o 
+Following a ﬂy from point A to B, the Lagrangian time derivative would need to include 
+DT 
+∂T
+the temperature gradient as both time and position changes: Dt = ∂t + ⃗vfly · ∇T
+
+---PAGE BREAK---
+
+[Page 10]
+1.6.1 Concept of a Steady Flow ( ∂ ≡ 0)
+∂t 
+A steady ﬂow is a strictly Eulerian concept. 
+Assume a steady ﬂow where the ﬂow is observed from a ﬁxed position. This is like watching 
+∂
+D
+from a river bank, i.e. ∂t = 0 . Be careful not to confuse this with Dt which is more like 
+following a twig in the water. Note that D = 0 does not mean steady since the ﬂow could 
+Dt 
+speed up at some points and slow down at others. 
+∂ = 0 
+∂t 
+Dρ
+1.6.2 Concept of an Incompressible Flow ( Dt ≡ 0) 
+An incompressible ﬂow is a strictly Lagrangian concept. 
+Assume a ﬂow where the density of each ﬂuid particle is constant in time. Be careful not 
+to confuse this with ∂ρ = 0, which means that the density at a particular point in the ﬂow 
+∂t 
+is constant and would allow particles to change density as they ﬂow from point to point. 
+Also, do not confuse this with ρ = const , which for example does not allow a ﬂow of two 
+incompressible ﬂuids.

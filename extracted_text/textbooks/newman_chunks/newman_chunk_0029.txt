@@ -1,0 +1,97 @@
+the cavitating regime, have been developed for use in high-speed vessels. As a rule, these propellers are somewhat less efficient than a con­ ventional subcavitating propeller but more efficient than a conventional propeller that is cavitating. Supercavitating propellers are discussed by Ven­ ning and Haberman (1962) and Todd (1967). Charts for the characteris­ tics of conventional propellers, operating in both regimes are given by van Lammeren, Troost, and Konig (1948), and extended by van Lammeren, van Manen, and Oosterveld (1969).
+
+Model Testing 
+
+2.9  Drag on a Ship Hull
+Next we consider a ship hull moving with constant velocity U on the free 
+surface. As in the previous examples, geometrical similarity is assumed 
+with the geometry of the hull characterized by its length l. Since the steady 
+motion of a ship on the free surface generates a system of waves dependent 
+on the gravitational acceleration g, this parameter must be included in the 
+dimensional analysis along with the drag D, length l, velocity U, density ρ, 
+and kinematic viscosity υ. These six dimensional quantities can be reduced 
+to three nondimensional ratios; the usual form for the drag coefficient is 
+given by
+D
+SU
+C
+R F
+D
+
+
+
+ρ
+=
+( , ). 	
+(23)
+Here S is the wetted-surface area of the hull, and the Froude number 
+F = U/(gl)1/2 represents the effect of gravity.
+Figure 2.10
+Thrust, torque, and efficiency coefficients for a series of three-bladed propellers 
+with pitch/diameter ratios 0.6, 0.8, 1.0, 1.2, and 1.4. (Adapted from van Lammeren, 
+Troost, and Konig 1948)
+
+Chapter 2
+Aside from the practical difficulty of testing small models at the full­
+scale Reynolds number, it is impossible now to scale simultaneously both 
+the Reynolds and Froude numbers, as noted in chapter 1. Therefore, one 
+cannot determine the drag of a ship hull from a suitable experiment with 
+a small-scale model, unless additional assumptions are made. We assume 
+that the drag coefficient (23) can be expressed as the sum of a frictionaldrag coefficient, depending on the Reynolds number, plus a residual-drag 
+coefficient which now must depend on the Froude number. Thus, we adopt 
+Froude’s hypothesis in the form
+C
+R F
+C
+R
+C
+F
+D
+F
+R
+( , )
+( )
+( ).
+
++
+	
+(24)
+Here CF is the flat-plate frictional-drag coefficient, and CR is the residualdrag coefficient. Without such an assumption, one can express CD as the 
+sum of a flat-plate frictional-drag coefficient CF, which is a function only of 
+the Reynolds number, plus a residual-drag coefficient CR defined as
+C
+R F
+C
+R F
+C
+R
+R
+D
+F
+( , )
+( , )
+( ),
+=
+−
+	
+(25)
+but it is an approximation to assume that the resulting CR is independent 
+of the Reynolds number.
+Before testing Froude’s hypothesis experimentally, one might consider 
+the physical motivations for this decomposition of the total drag. In sec­
+tion 2.6 a similar assumption was made; the additional component was a 
+constant independent of Reynolds number and associated with the form 
+drag or normal pressure force. Here the pressure force is augmented sig­
+nificantly by the drag associated with the formation of waves on the free 
+surface. Work must be done by the ship hull on the surrounding fluid to 
+generate the waves, and there is an associated drag component known 
+as the wave resistance. Since the characteristics of the waves are governed 
+by gravity, the wave drag will depend on the Froude number; hence, the 
+residual drag is not a constant but a function of the additional nondimen­
+sional parameter F.
+Part of the residual drag may be due to viscous form drag, which should 
+not depend on the Froude number; but since this part is a constant, it can 
+be added to the residual drag without violating the assumption that the 
+latter is independent of the Reynolds number. Moreover, as we shall see, 
+on all but the slowest of ships the dominant portion of the residual drag is 
+associated with wave resistance rather than viscous pressure forces.

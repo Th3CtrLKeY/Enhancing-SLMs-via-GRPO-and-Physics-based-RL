@@ -1,0 +1,99 @@
+m. Ty (KN) 150 ——+ 50 1 80 85 90 95 X(m) Fig. 8.4. Example of the horizontal force from an anchor line on a vessel as a function of the horizontal distance X between the anchor and the point where the anchor line is connected to the vessel. (The vessel and the anchor line configuration is shown in Fig. 8.3.) Water depth: 25 m. Weight per unit length of chain in water: 828 N m™?. Chain length: 100 m.
+
+i
+i
+ie
+
+264 STATIONKEEPING
+
+To find X for a vessel that is moored with a mooring system as
+described above we have to know the environmental forces on the vessel.
+Let us say that the x-component of the average wave, current and wind
+force on the vessel was 50 kN. From Figure 8.4 or equation (8.21) we
+find that the average distance X from the anchor line to the point where
+the anchor line is connected to the vessel will be 93 m. However, due to
+the vessel’s motions in waves the distance X will oscillate around 93 m.
+From the figure we note that the horizontal force from the anchor line on
+the vessel will also oscillate. If the horizontal motions are not too large,
+we may write
+
+Tu=(THmt+Cum
+
+Here (T'4)m is the average horizontal force from the anchor line on the
+vessel, i.e. 50 KN in our example, and 7, is the horizontal motion in the
+x-direction of the point on the vessel where the cable line is connected to
+the vessel. We can find C,, from Fig. 8.4 as the derivative of Ty with
+respect to X at (T'y)m. We may also find an analytical expression of Cy).
+By differentiating equation (8.21) it follows that
+
+—2 hy |!
+C oT _,, = + cosh™(1 +2) (8.22)
+ax ~"l (1428) @
+h
+where a = (7'y)m/w. From this example it is evident that the anchor line
+
+has a spring effect on the vessel.
+If we denote the horizontal motion in the x-direction of the centre of
+
+gravity of the ship as 7, we may approximate the surge equation of
+
+motion of the ship as
+
+d d
+Shy E+ Cum = Fo
+
+a d
+(M +A) SP + Bug, + Bp
+
+(8.23)
+
+where M is the mass of the ship, A,, is added mass in surge, By, isa |
+linear damping coefficient, By is a quadratic damping coefficient and -
+
+F(t) is the dynamic excitation force due to waves and wind. From
+
+equation (8.23) we find that resonance in surge will occur when the :
+
+circular frequency of oscillation
+
+w= (St) 2),
+
+M+Ai,
+
+In a practical case resonance oscillations in surge may be excited by
+
+slowly-varying excitation forces due to waves and wind. The mos
+
+important linear damping By, for slow-drift oscillation of a large volume ©
+
+MOORING SYSTEMS 265
+
+structure is due to the wave-drift damping (see chapter 5). The quadratic
+damping is due to drag forces on the hull (see chapter 7) and drag
+damping from the anchor lines. Strictly speaking we should have
+included the effect of the relative velocity between the vessel and linear
+incident wave field when we formulated equation (8.23).
+
+Analysis of a spread mooring system
+
+The above procedure for one cable line can be generalized to a spread
+mooring system consisting of several cable lines. The relationship
+between mean external loads on the vessel and its position can be found
+by considering contributions from each cable line separately. We can
+write the horizontal forces F,M, F,” and the yaw moment F'.™ from the
+mooring lines as
+
+FM = > Ty COS Yj
+i=1
+FyM= > Ty Sin (8.25)
+
+FM=> Tuilx; sin yj —y, cos wid
+i=1
+
+Here 7}; is the horizontal force from anchor line number i. Its direction
+is from the attachment point of the anchor line towards the anchor.
+Further, x; and y; are respectively the x- and y-coordinate of the
+attachment point of the anchor line to the vessel and wp, is the angle
+between the anchor line and the x-axis as defined in Fig. 8.5. In order
+
+Fig. 8.5. Example of spread mooring system for a drilling platform.

@@ -1,0 +1,49 @@
+will affect both the lift and drag forces on the foil. To account for these effects appro­ priately for large aspect ratios, Prandtl developed the lifting-line theory. With boundary-layer theory, this must be regarded as an outstanding exam­ ple of the use of asymptotic approximations to simplify a more complicated problem. The lifting-line approach of Prandtl can be regarded as a second approximation, correcting the strip-theory approach, in the same sense that boundary-layer theory corrects the assumption of inviscid flow.
+
+Lifting Surfaces 
+
+If the span of the foil is much larger than the chord length, the flow can 
+be described as it would appear to both an observer in the inner region, with 
+length scales comparable to the chord, and an observer in the outer region, 
+with length scales comparable to the span. The corresponding domains are 
+essentially as sketched in figures 5.2 and 5.21, respectively. Thus, the inner 
+solution appears to be two dimensional, with an appropriate section geom­
+etry for the foil and a corresponding inflow velocity and angle of attack. 
+From the standpoint of this inner flow, the three-dimensional effects are 
+slowly varying on the scale of the span, and hence locally constant. This 
+is not to suggest that three-dimensional effects are negligible in the inner 
+region; but being locally constant, these can be allowed for by suitably 
+correcting the inflow velocity vector. Thus, a two-dimensional problem is 
+anticipated for the inner flow, identical to that treated in sections 5.2 to 5.4, 
+but modified in the second approximation by an inflow velocity and direc­
+tion unknown in advance. Once these are given, the inner solution can be 
+obtained in terms of the two-dimensional foil characteristics, notably the 
+total circulation Γ(z) at each section.
+Next we consider the corresponding outer solution, as sketched in fig­
+ure 5.21. Here one is too far away to be concerned about details of the foil 
+geometry, such as its local camber and angle of attack. Instead, the impor­
+tant features are the presence of a bound vortex Γ(z) and corresponding 
+trailing vortices with density Γ'′(z), which govern the outer flow. The trail­
+ing vortex sheet, which is absent from the two-dimensional inner solution, 
+induces a significant three-dimensional effect on the inner flow, notably 
+the downwash velocity. To account for this effect, we must calculate the 
+downwash velocity induced by the trailing vortex sheet.
+The problem is simplified considerably by restricting our attention to 
+lifting surfaces, as shown in figure 5.21, where there is no sweepback angle. 
+In the outer view of this problem, the foil occupies a straight line or a finite 
+segment −(
+)
+
+
+
+
+s
+s
+,
+ of the z-axis. The trailing vortices are situated in the 
+portion of the plane y = 0 downstream of this segment, and each individual 
+trailing vortex element coincides with a semi-infinite line −∞ < x < 0, y = 
+0, z = ζ. The computation of the induced velocity at points on the z-axis is 
+facilitated by noting from symmetry that a semi-infinite vortex filament, 
+extending from x = −∞ upstream to the plane x = 0, will induce in this plane 
+precisely half of the velocity that would result from an infinite line vortex

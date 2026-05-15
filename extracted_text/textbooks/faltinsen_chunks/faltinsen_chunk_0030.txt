@@ -1,0 +1,104 @@
+wt sin kB/2 ~B/2 and z,, is the 2-coordinate of the geometrical centre of the cross-sectional area. B is explained in Fig. 3.15. On the pontoons oriented in the y-direction we obtain the following vertical | force contribution, —w?l,e""(pA, + A33?)B(sin(we — RL,/2) + sin(wt + RL,/2)) where L, is explained in Fig. 3.15. By using only the Froude—Kriloff 25 Jf Fig. 3.15. Tension leg platform (ASM600). Dimensions are given in metres. Its main characteristics are presented in Table 5.1.
+
+64 LINEAR WAVE-INDUCED MOTIONS
+
+force on the columns it now follows that
+
+i
+F(t) = pater sin wt| - (4 sin + 2kB cos =)
+
+Axx hL |
+x (4, + o—) + Aye*="=™ cos | (3.41)
+
+where zg is the z-coordinate of the bottom of the platform, and A,, is the
+total waterplane area of the platform. A3;°” can, for instance, be
+calculated by the Frank close fit method (see Frank, 1967). Strictly
+speaking, we should also introduce a correction to the added mass due to
+the columns but this is not possible to do in a simple manner and will be
+neglected herein.
+
+We note that the force is either in-phase or 180° out-of-phase with the
+
+undisturbed wave elevation at x =0. Furthermore, the excitation force -
+
+can be zero for certain frequencies. For long wavelengths, this happens
+when the last term in the brackets cancels the first two terms in the
+brackets. Physically it means that the force on the columns cancels the
+force on the pontoons.
+
+The most convenient way to calculate the wave excitation loads on a
+ship is to use a coordinate system fixed with respect to the forward speed
+of the ship. We can then write the incident wave potential as
+
+oy = 82 cos(@,t — kx cos B — ky sin B) (3.42)
+
+where k = ,”/g. By using the linearized Bernoulli’s equation (similar to
+equation (3.31)) we find that the dynamic pressure is
+
+= pgt,e™ sin(w,.t — kx cos B — ky sin B) (3.43)
+
+By the nature of the Froude~Kriloff force its amplitude has to_be
+independent of the ship’s speed. This is consistent with equation (3.43).
+However, the amplitude of the diffraction force will in general be
+speed- -dependent. For more details as to how the diffraction force can be
+calculated within a strip theory approximation one may, for instance,
+consult Salvesen et al. (1970). Their approach is based on using Green’s
+second identity. The formulas use the velocity potentials due to forced
+motion of the structure instead of the diffraction potential of the
+structure. The advantage of introducing the velocity potentials due to
+forced motion is that it is generally more correct to use a strip theory
+approximation and neglect hydrodynamic interaction between the crosssections for the forced-motion potentials than for the diffraction potentials. We illustrate this by considering head sea incident waves on a ship.
+As the waves propagate along the ship they will be continuously
+
+RESPONSE IN REGULAR WAVES 65
+
+modified. This is particularly true if the wavelength is. small relative to
+the ship length (Faltinsen, 1972). This means hydrodynamic interaction
+between the cross-sections has to be accounted for when the diffraction
+potential is solved. We should note that the use of Green’s second
+identity to calculate wave excitation forces and moments implies that we
+do not find the pressure distribution along the ship.
+
+If we want to apply an approximate method valid for long wavelengths
+relative to the cross-section of the ship, we could argue as we did for the
+vertical cylinder in the beginning of this section. We will show this for
+zero ship speed. The Problem of finding the vertical diffraction force on a
+cross-section (strip) of a ship is equivalent to a problem where the strip is
+forced to oscillate with a vertical velocity
+
+—w =—wl,e" cos( wt — kx cos B)
+
+This velocity is minus the incident vertical velocity at the area centre
+(x, 0, 2) of the strip. From the section on added mass and damping we
+know that the vertical hydrodynamic force on the strip due to the forced
+velocity —w is
+
+A33° a3 + B33? w
+where
+
+—a;= w*l,e" sin(wt — kx cos B)
+
+‘This is a force per unit length. Since the body is restrained from
+
+oscillating, we should not include any restoring forces due to buoyancy.
+The added mass and damping coefficients are frequency dependent. Due
+to the long wavelength assumption, the damping term is small compared
+to the added mass term. However, we must not evaluate A;3” for zero
+frequency. The reason is that A;;°” diverges for a surface piercing body
+when the frequency goes to zero. 4 Bo:
+By properly integrating the diffraction loads over the length L of the
+ship and including the Froude—Kriloff force we can write the vertical
+excitation force F'; and the pitch moment Fs as ,
+
+[rol> [fal J
+
+-f ‘a ote ef {A332 ay sin(ot — kx cos B)
+LR
+
+—B33?” cos(wt — kx cos B)} (3.44)
+
+Here p; is given by equation (3.43) and Sg, is the mean wetted body
+surface.
+
+Newman (1962) has derived simple formulas for beam sea incident
+waves on an infinitely long horizontal cylinder and for incident waves on

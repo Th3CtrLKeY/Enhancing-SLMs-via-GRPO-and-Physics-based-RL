@@ -1,0 +1,136 @@
+speaking, the solution should be obtained in circular cylindrical coordinates. To avoid the details of transforming the Navier-Stokes equations into such a coordinate system, we shall find the solution from the Cartesian form of the Navier-Stokes equations, with the x-axis coincident with the axis of the tube; we assume that u = u(r) depends only on the radial coordinate r, and hence on the combination y2 + z2, while v = w = 0. The reduction of the Navier-Stokes and
+
+The Motion of a Viscous Fluid 
+
+continuity equations is then identical to that carried out for plane Couette 
+flow. Hence the axial velocity satisfies the equation
+
+
+
+
+
+ρ
+ν
+dp
+dx
+u
+y
+u
+z
+=
+∂
+∂
++ ∂
+∂
+
+
+
+, 	
+(28)
+subject to the boundary condition u(r0) = 0.
+The appropriate solution of (28) is given by
+u r
+dp
+dx r
+y
+z
+dp
+dx r
+r
+( )
+(
+)
+(
+).
+= −
+−
+−
+= −
+−
+
+
+
+
+
+
+
+
+
+
+
+µ
+µ
+	
+(29)
+Once again, the pressure gradient dp/dx drives a flow parabolic in profile 
+across the tube. It is simple to compute the volume rate-of-flow or flux Q of 
+fluid through the pipe, by integrating across the circular cross-section from 
+y = 0 to y = r0,
+Q
+u r r dr
+r
+dp
+dx
+r
+=
+=
+−
+
+
+
+
+∫
+
+
+
+
+
+
+π
+π
+µ
+( )
+. 	
+(30)
+Figure 3.3
+Couette flow between two parallel walls. The curves are labeled with values of the 
+nondimensional pressure gradient P = −(h
+2/2μU)(dp/dx). Note the occurrence of a 
+secondary backflow, analogous to separation, when this parameter is less than −1. 
+(From Schlichting 1968)
+
+Chapter 3
+Reynolds and others have determined experimentally that such a flow 
+will exist in practice only if the Reynolds number based upon the diam­
+eter of the tube is less than a critical value.2 Otherwise, the flow becomes 
+unsteady or turbulent and is characterized by rapid velocity fluctuations in 
+both space and time. The comparatively smooth flow existing at Reynolds 
+numbers less than the critical value is a laminar flow.
+3.12  External Flow Past One Flat Plate
+The solutions obtained above illustrate steady laminar internal flow where 
+the fluid is restricted in width. In our subsequent consideration of external 
+flow, for example past a streamlined body in two or three dimensions, the 
+situation is significantly different. Not only may the form of the body be 
+relatively complicated, but also the fluid domain is unbounded in the direc­
+tion normal to the body surface.
+A technique for dealing with this type of problem was provided by 
+Prandtl’s introduction of the boundary-layer approximation. For suffi­
+ciently large values of the Reynolds number, it is reasonable to suppose 
+that within the bulk of the fluid, viscous forces will be negligible by com­
+parison with inertial forces, and the corresponding flow may be considered 
+inviscid. This is a significant simplification, for as we shall see in the fol­
+lowing chapters, various techniques can be employed to analyze inviscid 
+flows. Nevertheless, a consequence of viscous shear stresses is that however 
+large the Reynolds number may be, the fluid velocity on any rigid bound­
+ary of the fluid must still be equal to the velocity of the boundary. Thus, 
+there must exist significant viscous shear in a thin boundary layer at the 
+surface of any body that moves relative to the bulk of the fluid. To simplify 
+the Navier-Stokes equations, however, we can exploit the thinness of this 
+region.
+This approach provides a scheme for calculating viscous effects, at least 
+for unseparated flows at high Reynolds number; equally important, it gives 
+a rationale for neglecting viscous stresses outside the boundary layer. More­
+over, if the body is sufficiently regular in shape, its radii of curvature will be 
+much larger than the boundary-layer thickness, and the local flow within 
+the boundary layer will be effectively plane. Thus, if one imagines looking 
+at the boundary-layer flow, say by enlarging it with a magnifying glass or

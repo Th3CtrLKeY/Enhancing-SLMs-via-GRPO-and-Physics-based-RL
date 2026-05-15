@@ -1,0 +1,83 @@
+Laplace equation in the cross-sectional plane. The body boundary condition can be written as ap 3N™ —n,U, sin B (6.31) 3-D Reduction factor EEE nn ee eee Sees en ee ee ap 2 3 4 5 6 7 8 9 10 Nt 12 13 16 15 16 17 18 19 FF Fig. 6.20. Three-dimensional reduction factor of local drag coefficient due to the vertical vortex system at ship ends described in Fig. 6.19. (Adapted from Aarsnes et al. , 1985.)
+
+i
+
+198 CURRENT AND WIND LOADS
+
+where N is the two-dimensional normal in the cross-sectional plane. We
+can write
+
+g=—U, sin B $2 (6.32)
+
+where 2 is the normalized two-dimensional sway velocity potential at
+zero-frequency. By ‘zero’-frequency we mean a very small frequency.
+Due to the zero-frequency assumption @, will satisfy the rigid freesurface condition. From 2 we can derive the added mass in sway. The
+‘zero-frequency’ two-dimensional sway added mass for one cross-section
+can be written as
+
+AnPe)=—p | bamads (6.33)
+Ce)
+
+where C(x) is the wetted cross-sectional surface.
+
+Let us now pursue the calculation of the current yaw moment. The
+pressure follows from Bernoulli’s equation and can be written as
+(hydrostatic pressure is excluded)
+
+8 |(Z) + (SS) + (G2) |evor tone
++=1(—] +(—] +(—} |= .
+p 71\ ae ay 32 Pot 2pU, (6.34)
+Since the constant ambient pressure pp does not contribute to the force,
+we simply set it equal to zero in the following text. This means
+
+=— og | . 25D
+p = —pU, cos B 3x pU, sin B ay
+(+2
+2 l( ax) *\ay) *\Ge
+=P ry rein 2p 2%? 2 gin? {S22 _ 1 *}
+The yaw moment can be written as
+F.=Su2sin26 | dxx | SP? ny ds
+2 IL c
+
++ pU? sin’ B [ dxx | {9e2- 3 IVoal* fe ds (6.36)
+L coy | Oy
+This expression can be further simplified. We will illustrate this by an
+example where the sum of the ship and the ‘image’ hull above the
+free-surface has circular cross-sections with radius R(x) (see Fig. 6.21).
+The velocity potential @2 can be written
+
+$2 = -K fa cos 6 (6.37)
+
+CURRENT LOADS ON SHIPS 199
+
+This expression satisfies the body boundary condition 02/ON =n;
+which can be written. 0@,/8r=cos 6. Further, it satisfies the rigid
+free-surface condition 0@,/dz2=0 on z=0 and the two-dimensional
+Laplace equation for each cross-section of the ship. In evaluating the
+pressure on the body (see equation (6.35)) we need to know 0¢,/0x,
+3¢,/ ay and |V¢z2|", as follows
+
+Ox dx r
+te)
+292 = cos 20
+oy r=R(x)
+
+dR 2
+
+When calculating the yaw moment we need to evaluate
+
+ob2 1 *)
+—=—--27/V nz ds
+[(G2-d vent)
+
+2a dR 2
+=| (cos 20 -5 (1 + 4(—) cos? @)) cos @R dé
+
+Since both 9@2/ay and 4 |V@,|? are symmetric about the z-axis and 7, is
+antisymmetric about the z-axis, it follows that the integral is zero. This is
+true for any cross-sectional surface that is symmetric about the z-axis.
+Hence the last term in equation (6.36) is zero.
+
+For a ship with circular cross-section we can write the integral over
+
+Fig. 6.21. Cross-section of a ship hull and image hull above the free-surface.

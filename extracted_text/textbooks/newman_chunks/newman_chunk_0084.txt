@@ -1,0 +1,37 @@
+result for a 200 m ship moving at 10 m/s. 7. Given the differences between salt and fresh water at the same tempera­ ture, how would the boundary-layer thickness and shear stress of a ship change as it moves from salt water into fresh water, if the ship’s velocity and the water temperature are unchanged? 8. A common speed-measuring device for small boats is a paddlewheel that protrudes about 1cm from the hull surface and rotates about an axis flush
+
+Chapter 3
+with the hull surface in response to the fluid moving past the hull. If such 
+a paddlewheel is mounted 3 m downstream from the bow, estimate the 
+linearity of this device over speeds ranging between 1 and 10 m/s.
+9. Comment on the validity of the following statement: Barnacles and simi­
+lar marine growth are unimportant on the surface of a ship, since the size 
+of these organisms is negligible relative to the size of the ship. Using figures 
+2.11 and 3.12, estimate the effects of barnacles, of typical scale k = 1 mm, 
+on the full-scale resistance of the Lucy Ashton at a speed of 15 knots. How 
+much will this speed be reduced assuming equal total drag in the smooth 
+and rough conditions?
+References
+Abramowitz, M., and I. A. Stegun, eds. 1964. Handbook of mathematical functions. 
+Washington: U.S. Government Printing Office.
+Bark, F. H., E. J. Hinch, and M. T. Landahl. 1975. Drag reduction in turbulent 
+flow due to additives: A report on Euromech 52. Journal of Fluid Mechanics 
+68:129–138.
+Batchelor, G. K. 1967. An introduction to fluid dynamics. Cambridge: Cambridge 
+University Press.
+Cebeci, T., and A. M. O. Smith. 1974. Analysis of turbulent boundary layers. New York: 
+Academic.
+Granville, P. S. 1975. Drag and turbulent boundary layer of flat plates at low Reynolds 
+numbers. David W. Taylor Naval Ship Research and Development Center Report 
+4682.
+Huang, T. T., and C. H. von Kerczek. 1972. Shear stress and pressure distribution on 
+a surface ship model: Theory and experiment. In Ninth symposium on naval hydrody­
+namics, eds. R. Brard and A. Castera, pp. 1963–2010. Washington: U.S. Government 
+Printing Office.
+Kux, J. 1974. Three-dimensional turbulent boundary layers. In Tenth symposium on 
+naval hydrodynamics, eds. R. D. Cooper and S. W. Doroff, pp. 685–703. Washington: 
+U.S. Government Printing Office.
+Landau, L. D., and E. M. Lifshitz. 1959. Fluid mechanics. English translation. London: 
+Pergamon.
+Lumley, J. L. 1969. Drag reduction by additives. Annual Review of Fluid Mechanics 
+1:367–384.

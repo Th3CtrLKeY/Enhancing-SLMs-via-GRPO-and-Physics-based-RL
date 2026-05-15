@@ -1,0 +1,151 @@
+[Page 1]
+Lecture 1 
+ – Marine Hydrodynamics 
+Lecture 1 
+Introduction 
+Marine Hydrodynamics is the branch of Fluid Mechanics that studies the motion of incom­
+pressible ﬂuids (liquids) and the forces acting on solid bodies immersed in them. 
+Marine hydrodynamics is a large and diverse subject and only a limited number of topics 
+can be covered in an introductory course. The topics that will be covered throughout the 
+semester include: 
+• Model testing and similitude 
+• Interaction between bodies and ideal ﬂuids 
+• Viscosity and boundary layers 
+• Eﬀect of waves on resistance and ship motion 
+Why study Marine Hydrodynamics? 
+Studying Marine Hydrodynamics provides a greater understanding of a wide range of phe­
+nomena of considerable complexity involving ﬂuids. Another beneﬁt is that it allows pre­
+dictions to be made in many areas of practical importance. 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+Fluids vs. Solids 
+In brief, Fluid Mechanics studies the kinematics and dynamics of a group of particles with­
+out having to study each particle separately. 
+Most of us have taken some courses on solids or related to solids. Even those who haven’t 
+can get an intuitive feeling about some physical properties of a solid. Thus a comparison 
+of solids and ﬂuids will give some guidelines as to which properties can be translated to 
+ﬂuids and on what terms. 
+Similarities 
+1. Fundamental laws of mechanics apply to both ﬂuids and solids 
+Conservation of mass 
+Conservation of momentum (Newton’s law of motion) 
+Conservation of energy (First law of thermodynamics) 
+2. Continuum hypothesis is used for both ﬂuids and solids 
+local value 
+measured property 
+length scale 
+“particle” size 
+variations due to 
+variations due to 
+molecular fluctuations 
+varying flow 
+O(10-10 – 10-8)m 
+e.g. The smallest measurement scales are in the order of ℓM ∼ 10−5m → VM ∼ 10−15m3 . 
+This corresponds to ∼ 3 × 1010 molecules of air in STP or ∼ 1013 molecules of water.
+
+---PAGE BREAK---
+
+[Page 3]
+•• 
+    
+ 
+ 
+ 
+ 
+ 
+Diﬀerences 
+1. Shape 
+Solids have deﬁnite shape 
+Fluids have no preferred shape 
+2. Constitutive laws 
+Constitutive laws are empirical formulas that relate certain unknown variables. 
+The constitutive laws used in 13.021 relate: 
+dynamics (force, stress ...) to kinematics (position, displacement, velocity ...) 
+Diﬀerent constitutive laws are used for solids and diﬀerent for ﬂuids. 
+For solids Hooke’s law is used to relate stress and strain 
+stress 
+    
+= f 
+(strain) 
+    
+force/area 
+relative displacement/length 
+ 
+N/m2  
+[m/m] 
+• For solid mechanics ‘statics’ is a dominant aspect 
+For ﬂuids stress is related to rate of strain 
+stress 
+= f (rate of strain) 
+force/area 
+velocity gradient 
+N/m2 
+[1/s] 
+• 
+•• Fluids at rest cannot sustain shear force. Fluids have to be moving to be non-trivial. 
+The branch of Fluid Mechanics that studies ﬂuids at rest is referred to as ‘Hydrostatics’. 
+(Archimedes, c 200 BC) 
+Hydrostatics study the trivial case where no stresses due to ﬂuid motion exist. 
+Sometimes distinction between liquids and solids is not a sharp one(honey, jelly, paint, . . . ).  
+Fortunately most common ﬂuids, such as air and water are very close to ”ideal” ﬂuids.
+
+---PAGE BREAK---
+
+[Page 4]
+Liquids vs. Gasses 
+Liquids and gasses are two categories of ﬂuids. 
+A ﬂuid is ‘a body whose particles move easily among themselves. Fluid is a generic term, 
+including liquids and gasses as species. Water, air, and steam are ﬂuids.’ [1]. 
+A liquid is ‘Being in such a state that the component parts move freely among themselves, 
+but do not tend to separate from each other as the particles of gases and vapors do; neither 
+solid nor aeriform.’[1] 
+A gas is ‘The state of matter distinguished from the solid and liquid states by relatively low 
+density and viscosity, relatively great expansion and contraction with changes in pressure 
+and temperature, the ability to diﬀuse readily, and the spontaneous tendency to become dis­
+tributed uniformly throughout any container.’[2] 
+In brief, a liquid is generally incompressible and does not ﬁll a volume by expanding into 
+it while on the other hand, a gas is compressible and expands to ﬁll any volume containing it. 
+The science that studies the dynamics of liquids is referred to as ‘Hydrodynamics’, while 
+the science that studies the dynamics of gasses is referred to as ‘Aerodynamics’. 
+The main diﬀerence between the study of ‘Hydrodynamics’ and the study of ‘Aerodynam­
+ics’ is the property of incompressibility. In general hydrodynamic ﬂows are treated as 
+incompressible while aerodynamic ﬂows are treated as compressible. 
+[1] Webster Dictionary 
+[2] American Heritage Dictionary
+
+---PAGE BREAK---
+
+[Page 5]
+Why is a liquid ﬂow incompressible? 
+It can be shown that the ratio of the characteristic ﬂuid velocities U in a ﬂow to the 
+speed of sound C in the medium gives a measure of compressibility of the medium for that 
+particular ﬂow. This ratio is called the Mach number M. Although the speed of sound 
+in water is of comparable magnitude to the speed of sound in air, the characteristic ﬂuid 
+velocities in water are signiﬁcantly smaller. Thus in the case of water, the Mach number 
+is very small, indicating that water is virtually incompressible. 
+U : Characteristic ﬂuid ﬂow velocity 
+C : Speed of sound in the medium 
+U 
+M ≡ 
+: Mach number 
+C 
+The average speed of sound in air and water is: 
+Cair ∼ 300m/s = 984ft/sec = 583knots 
+Cwater ∼ 1200m/s = 3, 937ft/sec = 2, 333knots 
+Therefore the average ratio of the speed of sound in water to air is Cwater ∼ 4. Further on, 
+Cair 
+because the average water to air density ratio is ρwater ∼ 
+1kg/m3 = 103, it is ‘harder’ to 
+ρair 
+103kg/m3 
+move in water and therefore, typically, it is: 
+Uwater<<Uair 
+giving thus typical values of Mach numbers in the order of: 
+Mair ∼ O(1) ⇒ COMPRESSIBLE ﬂow 
+Mwater<<1 ⇒ INCOMPRESSIBLE ﬂow 
+Note: An incompressible ﬂow does not mean constant density.

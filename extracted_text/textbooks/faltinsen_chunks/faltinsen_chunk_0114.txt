@@ -1,0 +1,95 @@
+between theory and experimentally observed flow separation around a hemisphere in regular waves and current. The centre of the hemisphere is in the mean free-surface. A vertical cylinder is fitted to the hemisphere above the free-surface to avoid sharp corners on the body. (KC = Um7T/D, Uy = maximum velocity of ambient oscillatory flow, T = oscillation period, D = diameter of the sphere, U, = current velocity in the same direction as incident oscillatory velocity.) (Zhao et al., 1988).
+
+236 VISCOUS WAVE LOADS AND DAMPING
+Here
+= (2) 7.17
+n=\5,) ¥ (7.17)
+
+The velocity distribution is shown in Fig. 7.7 for different time instants.
+The velocity does not have the same phase at all y-coordinate points in
+the boundary layer. Equation (7.16) can be used to find the boundary
+layer thickness. There are many different definitions of boundary layer
+thickness. However, let us consider the point where Uo(x)e~‘@”?¥ =
+0.01U,(x). This corresponds to (w/(2v))?y = 4.6. For v=10-°m’s"!
+and T = 10s this means y = 0.008 m.
+
+The wall skin friction force (shear force) per unit area can be written as
+
+ou w\} wt
+T= x) = wud) cos{ + 4) (7.18)
+
+which osciilates with a phase lead of 45° relative to the external stream.
+
+uw
+of Uo{x)
+
+wtaTyy
+
+° wt="/2
+
+\fx
+2v
+—— T
+
+0 1 2 3 4
+
+Fig. 7.7. Example of the horizontal («) velocity distribution in a laminar
+boundary layer along a flat plate for harmonically oscillating outer
+flow (equation (7.16)). (y = coordinate normal to the flat plate, y = 0
+is at the flat plate, w = circular frequency of oscillation, Uo(x) =
+velocity amplitude just outside the boundary layer.)
+
+OSCILLATORY NON-SEPARATED FLOW 237
+
+Let us apply this solution to non-separated oscillatory laminar flow
+past a circular cylinder. The free stream velocity far away from the body
+will be written as U.. cos wt. The solution U, outside the boundary layer
+can then be written as
+
+2U., sin @ cos wt
+
+From equation (7.18) the shear stress can be written as
+
+Tw = y2u.(2) sin 0 cos{ wt +2)
+v 4
+
+The resulting force on the cylinder in the incident flow direction can be
+expressed by
+
+F.=[ t,, sin @R dé
+
+
+= wu.(2) cos( we +7)Dx (7.19)
+By writing
+
+m\ V2 v2.
+cos( w+ *) =5 cos wt 7 sin ot
+we see that there is one force component in phase with the velocity and
+another force component in phase with the acceleration. It should be
+noted that the force is linear with respect to Up. The drag-force is
+normally said to be proportional to the square of the velocity. If we
+calculate the drag coefficient, we find
+
+4 .
+uu.(*) Da/V2
+Cp? =——-_
+
+=272
+
+) (7.20)
+p U2D RnKC
+
+However this is not the total viscous drag force. There is also an
+influence of viscosity on the normal stresses (Batchelor, 1970: p. 355).
+According to Stokes (1851) this results in a total drag force on a circular
+cylinder that is twice as large as in equation (7.20). Wang’s (1968) analysis
+shows that we may write the drag coefficient on a circular cylinder in
+unseparated laminar high Reynolds number flow as
+
+ST (aby + (BY — mB) 7.21)
+where 6 = Rn/KC = D?/(vT). This differs both from equation (7.20) and
+Stokes’ solution. The drag coefficient can be very large, (actually it goes
+to infinity when KC—> 0), but this does not mean that the drag-force is
+large. ;
+
+Cp=

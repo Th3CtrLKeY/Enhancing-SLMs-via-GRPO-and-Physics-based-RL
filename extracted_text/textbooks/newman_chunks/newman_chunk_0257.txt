@@ -1,0 +1,60 @@
+engineering and naval architecture, our interest is to describe the response of vessels and structures with dimensions comparable to a few hundred meters, at the most, and with characteristic response times on the order of a few seconds or, in extreme cases, minutes. For this purpose, it should suffice to describe the wave environment over a small portion of the oceans, say on the order of tens or hundreds of kilometers squared. We have no interest in predicting simultaneously the
+
+Waves and Wave Effects 
+
+environment throughout the world, or even throughout the North Atlan­
+tic Ocean. The complexity of developing such an extensive description, 
+assuming it to be possible, would outweigh completely the advantages of 
+making the classical Fourier theory valid!
+By the same argument, we are interested in typical wave environments 
+that might exist in conjunction with storms of varying severity, but not 
+with the transient development of these waves with time. Therefore it 
+should suffice to describe the wave environment over a period of a few 
+hours, and to assume that the wave motion is stationary during this interval 
+of time. It corresponds to this assumption that the waves are homogeneous 
+in space over the area in question. These statements have meaning only in 
+the statistical sense, since for a random wave system it would be ridiculous 
+to suggest that the precise wave motion is the same at different points in 
+space or time.
+Another consideration from the practical standpoint, which avoids the 
+need or desire for a deterministic solution, is that our interest in the wave 
+environment is confined not to any one instant of time, but to a typical 
+situation that might be expected over a representative period on the order 
+of several hundred wave encounters. For this reason, the precise phase of 
+any one wave is of no interest, and it is reasonable to assume that the phase 
+of each component is distributed randomly with equal probability between 
+0 and 2π.
+This last assumption overcomes the problem of square-integrability in 
+the Fourier integral theory, but strictly it is necessary to replace the distribu­
+tion (59) by a Fourier-Stieltjes representation of the form
+η
+ω θ
+θ
+θ
+ω
+( , , )
+Re
+( , )exp[
+( cos
+sin )
+].
+x z t
+dA
+ik x
+z
+i t
+=
+−
++
++
+∫∫
+	
+(196)
+Here the wavenumber k is defined in terms of the frequency ω by the disper­
+sion relation (17) or (24). The differential wave amplitude dA is a complex 
+quantity of random phase, with a magnitude proportional to the square 
+root of the total energy in a differential element of the frequency-waveangle space bounded by (ω, ω + dω) and (θ, θ + dθ). This type of representa­
+tion, described by Yaglom (1962), can be circumvented by using infinite 
+series of discrete waves in place of the continuous distribution (196).
+The average energy density can be computed by squaring (196) and tak­
+ing its average value; it then takes the form

@@ -1,0 +1,40 @@
+sectional area S(x). Physically, (21) may be anticipated from the fact that longitudinal motion of the body displaces the surrounding fluid, with outward flux equal to the change in sectional area of the body. For large radial distances from the body axis, the two-dimensional potentials are of the general form (4.70), and from flux considerations Φ1 must include a source term with strength −S′. Thus, Φ1 ≫ − ′S r l r d π log( / ), , for (22)
+
+Hydrodynamics of Slender Bodies 
+
+where the length l has been inserted for nondimensional purposes. On the 
+forebody Φ1 will be source-like, and on the afterbody sink-like, with corre­
+sponding radial outflow and inflow.
+It is inevitable that as r → ∞, the two-dimensional solution (22) will 
+diverge and cannot be reconciled with (8). This incompatibility is associ­
+ated with the assumption of a two-dimensional flow. In particular, the argu­
+ment leading to (11) was made with the distance from the body fixed as 
+its length tends to infinity. It is not appropriate to apply (8) in this inner 
+region, nor to the inner solution Φ1, since (8) holds only at large distances 
+compared to all the body dimensions, including the length.
+Since the condition (8) cannot be applied to the inner solution, the 
+potential Φ1 contains an arbitrary constant not determined either from 
+Laplace’s equation or from the boundary condition on the body. Thus, 
+at this stage, the inner solution is not unique, nor is it well-behaved at 
+infinity.
+These deficiencies result from the assumption of two-dimensional 
+flow, and thus a three-dimensional solution of the Laplace equation (9) is 
+required to bridge the gap between the inner solution Φ1 and the condi­
+tion at infinity. The appropriate outer solution is a distribution of threedimensional sources, along the body axis, which satisfy (8) at infinity 
+and can be matched with (22) near the body. The latter condition serves 
+to determine the strength of the three-dimensional source distribution; 
+from this outer solution, the arbitrary constant of the inner solution is ulti­
+mately determined. The approach outlined here is essentially the method 
+of matched asymptotic expansions referred to earlier in connection with 
+the boundary-layer approximation and lifting-line theory. The common 
+feature of these problems and slender-body theory is the disparity in length 
+scales that characterize the flow. A more extensive discussion of such prob­
+lems is given by Van Dyke (1975).
+The method of matched asymptotic expansions will be employed in sec­
+tion 7.2 to solve the longitudinal-flow problem. Subsequently, in section 
+7.3, we shall return to the lateral-flow problem, which is in some respects 
+simpler and more useful, to analyze the lateral force acting along the body 
+length.
+Before treating the longitudinal-flow problem in detail, it should be 
+noted that the need for a three-dimensional outer solution does not arise 
+for the lateral flow. Essentially this distinction occurs because no net flux

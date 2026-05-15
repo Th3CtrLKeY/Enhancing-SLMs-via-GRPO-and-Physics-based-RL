@@ -1,0 +1,260 @@
+accuracy for most practical purposes. Moreover, the regime of agreement with experiments is not limited to high frequencies in the vicinity of resonance, since the strip theory predicts the correct (hydrostatic) low-frequency limit of the exciting force and moment. Thus, as ω0 → 0, ξ2/A → 1 and |ξ6|l/(2A) ≃ ω0 2l/(2g), in agreement with the results shown in figures 7.7 and 7.8. As a result, the strip theory is useful over the complete range of frequencies of practical significance.
+
+Chapter 7
+7.8  Slender Bodies in Shallow Water
+Slender-body theory can be applied to the study of ship hydrodynamics in 
+shallow water, and thus to the prediction of shallow-water effects on the 
+hydrodynamic characteristics of ships. These predictions are of particular 
+importance for large, deep-draft vessels during operations in coastal areas 
+and harbors.
+With the same assumptions regarding the body geometry as in earlier 
+sections of this chapter, we shall assume in addition that the fluid is of 
+constant depth h = O(ε). This order of magnitude is assumed, so that the 
+depth appears in the inner problem. In the converse case, where the depth 
+is of the order of the body length, there are no effects of the bottom in the 
+inner region.
+The outer flow, far from the inner region near the body surface, is char­
+acterized by waves on the free surface. Since the depth is small, these waves 
+will be nondispersive, as noted following (6.28). In order to describe this 
+Figure 7.9
+Amplitude and phase of the heave and pitch motions for a “Mariner” ship in head 
+waves, at a Froude number of 0.3. The curves are strip-theory calculations. Experi­
+mental points are from Salvesen and Smith (1971). Amplitudes are nondimensional­
+ized as in figures 7.7 and 7.8. The phase lead of the motion is shown, relative to the 
+incident wave elevation at the midship section. (Calculations courtesy of C. M. Lee)
+
+Hydrodynamics of Slender Bodies 
+
+relatively simple wave motion, we shall assume that the characteristic 
+wavelength is O(1), and thus kh = O(ε), where k is the wavenumber 2π/λ. 
+With this restriction, the three-dimensional velocity potential in the outer 
+region can be expanded in a Taylor series about the bottom, of the form
+φ
+φ
+φ
+(
+,
+,
+, )
+(
+,
+,
+, )
+(
+)
+(
+x
+y
+z t
+x
+h z t
+y
+h
+y
+y
+h
+y
+h
+
+
+
+
+
+
+
+
+
+
+
+=
+−
++
++
+∂
+∂
+
+
+
+
++
++
+=−
+)
+.
+
+
+
+
+
+∂
+∂
+
+
+
+
++
+=−
+φ
+y
+y
+h
+
+	
+(121)
+The first derivative vanishes on the bottom, and hence, to second order, the 
+potential can be expressed as
+φ
+φ
+φ
+
+( )
+( )
+(
+,
+, )
+(
+)
+(
+,
+, ).
+
+
+
+
+
+
+
+
+
+
+x
+z t
+y
+h
+x
+z t
++
++
+	
+(122)
+Evaluating the first and second derivatives of (122) with respect to y0, and 
+substituting these in the free-surface condition and Laplace’s equation, 
+respectively,
+∂
+∂
++
+=
+
+
+
+
+
+φ
+φ
+( )
+( )
+,
+t
+gh
+	
+(123)
+∂
+∂
++ ∂
+∂
++
+=
+
+
+
+
+
+
+
+
+
+
+φ
+φ
+φ
+( )
+( )
+( )
+.
+x
+z
+	
+(124)
+Note that (123) holds on y0 = 0, and (124) holds throughout the fluid 
+domain (−h < y0 < 0), but since the functions ϕ(0) and ϕ(2) are independent of 
+y0, that distinction is not significant. Thus (123–124) are valid throughout 
+the x0-z0 plane in the domain of the outer solution.
+Combining (123–124) to eliminate ϕ(2) gives the linearized equation for 
+shallow-water waves in the form
+∂
+∂
++ ∂
+∂
+−
+∂
+∂
+=
+
+
+
+
+
+
+
+
+
+
+
+
+
+φ
+φ
+φ
+( )
+( )
+( )
+.
+x
+z
+gh
+t
+	
+(125)
+This is the wave equation, which governs two-dimensional acoustic waves 
+with the speed of sound c replacing (gh)1/2 in (125). Thus shallow-water 
+waves are closely related to acoustic waves.
+For steady-state motion in a moving reference frame, the time derivative 
+∂ /∂t is replaced by −U∂/∂x, and (125) takes the form
+(
+)
+,
+( )
+( )
+
+
+
+
+
+
+
+
+
+−
+∂
+∂
++ ∂
+∂
+=
+F
+x
+z
+h
+φ
+φ
+	
+(126)

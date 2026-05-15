@@ -1,0 +1,141 @@
+− ∫∫ ∫∫ ρ φ ρε φ Ω . (110) Similarly, from (108), the components of the moment about the body-fixed origin are given by M U dS U dS U U j i i j S jkl i k i l S jkl i k B B = − ′ × − ′ × − ∫∫ ∫∫ ρ φ ρε φ ρε ( ) ( ) r n r n Ω φi l S n dS B∫∫ . (111)
+
+Chapter 4
+It is apparent that the force and moment depend on the body shape and 
+on the potentials ϕi only in terms of the integrals shown in (110–111); in 
+view of the boundary conditions (102–103), these integrals can be written 
+in the alternative forms
+φ
+φ
+φ
+i
+j
+S
+i
+j
+S
+n dS
+n dS
+B
+B
+∫∫
+∫∫
+=
+∂
+∂
+, 	
+(112)
+φ
+φ
+φ
+i
+j
+S
+i
+j
+S
+dS
+n dS
+B
+B
+(
+)
+.
+′ ×
+=
+∂
+∂
+∫∫
+∫∫
++
+r
+n
+
+(113)
+The importance of these quantities in (110–111) suggests the definition of 
+the added-mass tensor
+m
+n dS
+ji
+i
+j
+SB
+=
+∂
+∂
+∫∫
+ρ
+φ
+φ
+	
+(114)
+since, with this substitution in (110–111), the latter equations can be 
+expressed in the form
+F
+U m
+U
+m
+j
+i
+ji
+jkl
+i
+k
+li
+= −
+−
+
+ε
+Ω
+, 	
+(115)
+M
+U m
+U
+m
+U U m
+j
+i
+j
+i
+jkl
+i
+k
+l
+i
+jkl
+i
+k
+li
+= −
+−
+−
++
++
+
+
+,
+,
+.
+ε
+ε
+Ω
+	
+(116)
+Here the three indices j, k, l take on the values 1, 2, 3, whereas the index i is 
+used to denote the six components of the velocity potential in accordance 
+with (101).
+These expressions (115–116) for the force and moment depend only on 
+the body velocity and acceleration components and the added-mass coeffi­
+cients mij. No surface integrals are involved, other than those in (114) which 
+define the added-mass coefficients; so from a computational standpoint, 
+(115) and (116) are much simpler than the pressure integrals (81) and (82). 
+Indeed, this is the principal justification for the extensive analysis just per­
+formed. The added-mass coefficients depend only on the body geometry; 
+they can be regarded as the most important hydrodynamic characteristics 
+of the body, except in the case of steady translation where (115) predicts no 
+force and the viscous drag is clearly more important.
+It may be worthwhile to review briefly the assumptions implicit in 
+(115–116). First, the fluid is ideal and irrotational, and viscous forces are 
+neglected. Second, the body has been taken to be rigid and of constant 
+volume; its motions are defined by three translational and three rotational

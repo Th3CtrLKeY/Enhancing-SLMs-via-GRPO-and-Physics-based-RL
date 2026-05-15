@@ -1,0 +1,41 @@
+sional parameter F. Part of the residual drag may be due to viscous form drag, which should not depend on the Froude number; but since this part is a constant, it can be added to the residual drag without violating the assumption that the latter is independent of the Reynolds number. Moreover, as we shall see, on all but the slowest of ships the dominant portion of the residual drag is associated with wave resistance rather than viscous pressure forces.
+
+Model Testing 
+
+An experimental validation of Froude’s hypothesis can be made by plot­
+ting CD vs. R, for different values of the hull length. Figure 2.11 shows results 
+of experimental measurements from geosim models ranging in length from 
+1.2 m to 9.1 m, together with the results from fullscale drag measurements 
+of the Lucy Ashton, a ship of 58 m length. For each model length experi­
+mental points are shown for several values of the Froude number, which is 
+identified here in terms of the full-scale ship’s speed in knots. According to 
+Froude’s hypothesis, all experimental points for the same Froude number 
+(represented in the graph by the same symbol) should be situated equal 
+distances above the flatplate frictional-resistance curve, labeled here as the 
+Schoenherr line, and Froude’s hypothesis can be evaluated according to the 
+degree to which this is true. Rather than attempt to evaluate the discrete 
+points, we can refer instead to the smoothed cross-curves labeled according 
+to the various ships’ speeds. These represent values of CD vs. R for constant 
+values of F. These curves are not strictly parallel to the Schoenherr line, but 
+it is clear from figure 2.11 that Froude’s method does succeed to a consid­
+erable extent in correlating the resistance of geosim ship hulls of widely 
+differing lengths.
+The low-Froude-number asymptotic tendency in figure 2.11 is indicated 
+by coalescence of the results for full-scale speeds of 4 to 5 knots. At these 
+speeds the wave resistance is negligible, and the principal contribution 
+to the residual drag is viscous form drag. Thus the differences between 
+the flat-plate “Schoenherr” curve in figure 2.11 and the curve immedi­
+ately above it can be attributed to viscous form drag, whereas the differ­
+ence between the latter curve and the appropriate curve for each larger 
+Froude number is attributable to wave resistance. The most noticeable 
+departure from the Froude hypothesis in figure 2.11 is that the form drag 
+is not constant but increases with decreasing Reynolds number. This ten­
+dency has led to the suggestion that the form drag should be assumed 
+proportional to the frictional drag or, alternatively, that the frictional drag 
+curve should be more steeply sloped than the Schoenherr line. Two such 
+empirical alternatives, the “Hughes line” and the “I.T.T.C. line,” are shown 
+in figure 2.12. The I.T.T.C. (International Towing Tank Conference) line 
+has become the most widely accepted extrapolation to use with Froude’s 
+procedure.
+For purposes of extrapolating model results to obtain full-scale resis­
+tance coefficients, adding a constant to the extrapolator will not affect the

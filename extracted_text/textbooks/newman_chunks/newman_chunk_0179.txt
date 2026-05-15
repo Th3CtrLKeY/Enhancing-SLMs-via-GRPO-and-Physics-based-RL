@@ -1,0 +1,281 @@
+  × ′ +     − −     ∫ ρ π 1 2 1 2 ( ) ( ) ∫ . − (170) Equation (170) can be recast in a simpler form as follows. First we invert the order of integration. (The more rigorous reader may find justification for this operation in Muskhelishvili 1953, p. 59.) If the dummy variables (x, t) are inverted at the same time, an alternative expression is obtained:
+
+Chapter 5
+D
+U
+y
+x
+l
+x
+x
+y
+t
+t
+l
+t
+l
+l
+x dt dx
+=
+′
++
+
+
+
+
+×
+′
++
+
+
+
+
++ −
+
+
+
+
+∫
+ρ
+π
+
+
+1 2
+
+
+
+1 2
+
+
+
+( )
+( )
+
+∫
+.
+−
+	
+(171)
+Since (170) and (171) are equivalent, the drag can be written as one half of 
+their sum,
+D
+U
+y
+x
+y
+t
+l
+x l
+t
+t l
+x
+t l
+x
+x l
+t
+=
+′
+′
++
++
+
+
+
+
++
++
++
+
+
+∫
+ρ
+π
+
+
+
+
+
+1 2
+
+( )
+( )
+(
+)
+(
+)
+(
+)
+(
+)
+
+
+
+
+
+
+
+
+
+
+
+
++
+−
++
++
+
+
+
+
+−
++
++
+∫
+1 2
+
+
+1 2
+
+t
+x
+t l
+x
+x l
+t
+x l
+t
+t l
+x
+(
+)
+(
+)
+(
+)
+(
+)
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+1 2
+dt dx
+−
+	
+(172)
+After algebraic reduction of the integrand it follows that
+D
+U
+l
+y
+x
+y
+t
+l
+x l
+t
+xt l
+x l
+t
+dt dx
+=
+′
+′
++
++
++
++
+∫
+∫
+ρ
+π
+
+
+
+
+
+1 2
+
+
+
+
+( )
+( ) (
+)(
+)
+[
+(
+)(
+)]
+, 	
+(173)
+and thus
+D
+U
+l
+y
+x
+l
+x
+x l
+x
+dx
+=
+′
++
++
+
+
+
+
+∫
+ρ
+π
+
+
+1 2
+
+
+
+
+( )
+(
+)
+[ (
+)]
+. 	
+(174)
+The integrals in equations (167) and (174) can be evaluated without dif­
+ficulty for simple strut shapes. Figures 5.26 and 5.27 show the values of the 
+cavity length and drag force for a simple wedge, as well as two parabolic 
+struts. In all cases the chord length is unity. These figures show that for 
+decreasing values of the cavitation number σ, the cavity length increases 
+while the drag force is reduced. Ultimately, l → ∞ as σ → 0, whereas the drag 
+force tends to a finite limiting value dependent upon the body shape. A 
+comparison of the results for these three strut geometries demonstrates the 
+importance of the trailing-edge slope ′y0 0
+( ) on the subsequent development 
+of the cavity. In particular, a transition from the convex parabola, where 
+′
+=
+y0 0
+
+( )
+, to the wedge and ultimately the cusped case, results in increased 
+cavity length and drag.
+The linear theory becomes invalid if the cavity length is substantially 
+shorter than the chord length, or if the cavitation number is too large. This 
+restriction is apparent from the linearized boundary condition (158) on the 
+cavity surface, which implies that u/U ≪ 1 only if σ ≪ 1. Further discussion 
+of this matter and a comparison of the nonlinear theory with experiments 
+may be found in the paper by Wu, Whitney, and Brennen (1971).

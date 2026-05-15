@@ -1,0 +1,145 @@
+be |, 2 and 73 respectively so that 7, is the surge, 72 is the sway and 73 is the heave displacement. Furthermore, let the angular displacement of the rotational motion about the x-, y- and z-axis be 74, ns and ne respectively so that 7, is the roll, 75 is the pitch and 7¢ is the yaw angle. The coordinate system and the translatory and angular displacement conventions are shown for the case of a ship in Fig. 3.2.
+
+Damping and Restoring
+forces and moments
+
+Added mass
+
+Excitation loads
+
+Fig. 3.1. Superposition of wave excitation, added mass, damping and
+
+restoring loads.
+
+RESPONSE IN REGULAR WAVES 4I
+
+The motion of any point on the body can be written as
+s=mnitnjt+nkt+oxr
+
+where ‘ X’ denotes vector product and
+@ = nat nj + Nek, r=xi+yj+2k, |
+
+and i, j, k are unit vectors along the x-, y- and z-axis, respectively.
+This means
+
+s=(M,+2Ns — Nei + (N2- aN +xNo)i
++ (3 +9N4— xN5)k (3.9)
+
+We should note that 7, 72 and 73 do not need to be the translatory
+motions of the centre of gravity of the bedy.
+
+Added mass and damping terms
+
+The added mass and damping loads _are_steady-state..hydrodynamic
+forces and moments due to forced harmonic rigid body motions. There
+‘are no incident, waves. However, the forced motion of the structure
+generates outgoing waves. The forced motion results in oscillating fluid
+pressures on the body surface. Integration of the fluid pressure forces
+over the body surface gives resulting forces and moments on the body.
+
+By defining the force components in the x-, y- and z-direction by F,,
+F, and F; and the moment components along the same axis as F,, Fs
+and F,, we can formally write the hydrodynamic added mass and
+
+damping loads due to harmonic motion mode n; as
+
+cdf of Easy Brswnp ae i
+
+Fig. 3.2. Definitions of coordinate system, rigid-body motion modes and
+wave propagation direction. U is the forward speed of the ship.
+
+42 LINEAR WAVE-INDUCED MOTIONS
+
+A, and B,; are defined as added mass and damping coefficients. There is
+a total of 36 added mass coefficients and 36 damping coefficients. If the
+structure has zero speed, half of the coefficients are zero for a structure
+where the submerged part has one vertical symmetry plane. For this to
+be true for a structure with forward speed, it is necessary that the vertical
+symmetry plane is parallel to the forward direction. The word added
+mass may be misleading, since not all of the terms have,limension of
+mass. Some of the terms like A,,, have dimensions of an inértia moment.
+Other terms like A,; have dimensions of mass multiplied by length. It
+can be shown that A,; and B,, are functions of body form, frequency of
+oscillation and the forward speed. Other factors like finite water depth
+and restricted water area will also influence the coefficients. If the
+structure has zero forward speed and there is no current it can be shown
+that Ay = Ayr and By = = By.
+
+Let us give a more detailed explanation of added mass and damping by
+considering forced harmonic heave motion of a structure. The heave
+motion causes the fluid to oscillate which means there is a pressure field
+in the fluid. To find the fluid motion and pressure field it is convenient to
+use the velocity potential. The velocity potential satisfies the Laplace
+equation in the fluid. In addition boundary conditions have to be
+imposed. On the body surface it is required that the normal component
+of the fluid velocity is equal to the normal component of the forced heave
+velocity. On the sea bed it is required that the normal component of the
+fluid velocity be equal to zero. Boundary conditions on the water surface
+are derived by requiring that the fluid pressure is equal to atmospheric
+pressure and that fluid particles will always remain on the free-surface
+(see chapter 2). At infinity a radiation condition is required. When the
+structure has zero forward speed and there is no current present, the
+far-field solution represents outgoing waves. When the velocity potential
+is determined, the pressure can be found by using the linearized
+Bernoulli’s equation. Excluding the hydrostatic pressure and integrating
+the remaining pressure properly over the body we obtain a vertical force
+on the body. The linear part of this force is written as
+
+dns
+de
+
+d2
+F3= —A33 are B33—— (3.11)
+
+This force is obtained by integrating the linearized pressure over the
+
+mean position of the body. A33 is added mass in heave and B3;; is heave
+damping. The concept of added mass is sometimes misunderstood to be
+a finite amount of water which oscillates rigidly connected to the body.
+
+-This is not true. The whole fluid will oscillate and with different fluid
+
+particle amplitudes throughout the fluid. In three-dimensional flow the
+amplitudes will always decay far away and become negligible. The added
+
+RESPONSE IN REGULAR WAVES 43
+
+mass concept should be understood in terms of hydrodynamic pressure
+induced forces as above.
+
+High-frequency limit of added mass in heave of a half circle
+
+We will illustrate added mass in heave of circular cross-section with an
+axis in the free-surface by an example. Consider an infinitely long
+horizontal circular cylinder. In calm water the cylinder axis is at the
+free-surface level. We want to find the two-dimensional added mass in
+heave for very high frequencies (w-—>®). By considering a very high
+frequency we are simplifying the problem. However, the results are _
+useful in analysing high-frequency phenomena like ship vibrations: 7 By
+two-dimensional, we mean that we study the flow in the cross-sectional
+plane and find forces per unit axial length of the cylinder.
+
+In order to find added mass in’neave for w—>~ one has to solve a
+boundary value problem for the velocity potential @ as illustrated in Fig.
+3.3. From Fig. 3.3 we note that the velocity potential satisfies a
+two-dimensional Laplace equation in the fluid domain. On the mean
+wetted body surface we have the boundary condition
+
+op
+
+Bp = 7 008 4 In| @ cos et for r=Rand —2/2<0S2/2
+
+(3.12)
+
+Here (r, 8) are polar coordinates and 73 = |n3| sin wt is the forced heave
+motion of the cylinder. Equation (3.12) approximately states that the
+normal component of the fluid velocity is equal to the normal component
+
+2 2
+
+$+ 5 <0
+
+oe =-cosO|7,|wcoswt
+
+Fig. 3.3. Boundary value problem for forced heave motion 73 = |"3| sin wt of
+a circular cylinder at very high frequencies .

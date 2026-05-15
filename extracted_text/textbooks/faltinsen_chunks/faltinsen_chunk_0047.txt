@@ -1,0 +1,112 @@
+that the damping term is due to wave radiation. Derive a relationship between the far-field radiated waves due to forced roll motion and By,. (c) The steady-state solution of equation (3.80) can be written as F,sin(wt + @)) (3.81) n= a2 24 caf (1-(c2)) + 26a) ] O, On where ora(-Se-) n\T4 + Aga Bag . . woe g= Wd Aao. (fraction between damping and critical 204+ A4)@n “damping 214 + Aas)@n) - 22 6, = arctan — 1- 02
+
+LINEAR WAVE-INDUCED MOTIONS
+
+Assume the ship has a constant cross-section. Express the roll
+amplitude at resonance frequency w, in terms of only B44,
+@n, €, p and g.
+
+(d) In practice viscous roll damping is important. A modified roll
+
+equation can then be written
+
+dn,
+
+de
+
+a? d
+C+ By SE + By
+
+I,+A
+U4 + Aga) di dt
+
++ Cyan, = F4 sin wt
+
+(3.82)
+When equation (3.82) is solved, it is usual to linearize the
+non-linear term, by introducing a linear term K dn,/dt so
+
+that the work done over one period is the same for this term
+and the non-linear term. Show that
+
+8a
+K= By |nal 37 (3.83)
+
+This is called the method of equivalent linearization.
+
+(e) If the effect of bilge keels is accounted for, this is only done in
+
+the damping term. Give an estimate what the effect of
+bilge-keels would be on the mass term by considering a ship
+with constant circular cross-section and with moment axis
+coinciding with the cylinder axis. Assume that the bilge keel
+has a radial direction, zero thickness and a maximum breadth
+of 2% of the beam of the ship. Neglect free-surface effects
+and the curvature of the hull in the analysis of the bilge keel.
+Derive an expression for the roll damping of the bilge keels
+for the same situation. Use the fact that the normal force F,
+on the bilge keel can be writtenas F,, = —0.5pCpAu |u| where
+u is the velocity normal to the bilge keel as if the bilge keel
+were not there. Further, A is the frontal area of the bilge keel
+and Cp is the proper drag coefficient, which can be set equal
+to 8.0 KC} where KC = wypax T /(2b) (Umax = Maximum value
+of u, T = oscillation period, b is the bilge keel breadth).
+
+(f) In an irregular sea a different linearization technique has to be
+
+used. We cannot use equation (3.83). One can show (see
+Price & Bishop, 1974) that
+
+i
+K= 2(2) Byon, (3.84)
+
+where o,, is the standard deviation of the roll velocity.
+Describe briefly a procedure to find o,, and o,,.
+
+EXERCISES 99
+
+(g) In practice, coupling between roll and sway is important in
+the case presented above. Suppose the coupling effect is
+accounted for. Is it possible to find a horizontal axis on the
+ship where there is no horizontal motion? (This axis is
+sometimes referred to as the roll axis.)
+
+(h) Assume that the sway, roll and yaw motions are known.
+Derive an expression for the lateral acceleration in a bodyfixed coordinate system.
+
+3.6 Fluid motion in a moonpool
+Consider a moonpool as shown in Fig. 3.29. Resonance oscillations may
+occur in the moonpool. We will analyse this by using a linear theory. It is
+assumed that the ship motions are known.
+
+The figure represents a longitudinal cross-section of the ship. The
+moonpool is assumed to have a constant horizontal circular cross-section
+with diameter D. We will assume the water motion does not vary across
+the moonpool. This means there is a constant vertical velocity dn/de in
+the moonpool, where 7 is the free surface elevation in the moonpool.
+
+(a) Show by differentiating Bernoulli’s equation (see equation
+(2.4)). that the vertical pressure gradient p/dz can be related
+to the vertical fluid acceleration by
+
+d’n_ _1& (3.85)
+
+d2 paz
+(b) Integrate equation (3.85) from z = —A to z = 7 and show that
+the following linearized equation follows
+
+d’n g _ _199
+
+ata ey = 3.86
+de tn” h ot (3.86)
+
+g=—h
+
+(c) Equation (3.86) is like a mass—spring system without
+damping. The right hand side represents the exciting ‘force’.
+Show that the natural period T,, of the system is
+
+y= 2]! (3.87)
+g
+
+Fig. 3.29. Moonpool dimensions.

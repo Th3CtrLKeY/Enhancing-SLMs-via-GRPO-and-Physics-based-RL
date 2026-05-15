@@ -1,0 +1,191 @@
+show that this same equation is valid for a turbulent boundary layer by including the Reynolds stress in the boundary-layer equations, provided the fluctuating compo­ nents of the velocity satisfy the isotropic relation ′ = ′ u v 2. With this addi­ tional assumption, and deleting the pressure gradient term in (72), we get Figure 3.11 Logarithmic form of the velocity defect law for a boundary layer. Here u* = uτ and z = y. (From Monin and Yaglom 1971)
+
+Chapter 3
+τ
+ρ
+θ
+ρ
+τ
+
+
+
+=
+=
+U d
+dx
+u
+/
+, 	
+(108)
+where (93) has been used, and θ denotes the momentum thickness. The 
+boundary-layer thicknesses can be calculated in terms of the two definite 
+integrals
+I
+f
+y
+d y
+U
+u
+u
+d y
+=
+−
+
+
+
+
+∫
+∫
+
+
+
+
+
+( / ) ( / )
+( / ),
+δ
+δ
+δ
+τ
+
+	
+(109)
+J
+f
+y
+d y
+U
+u
+u
+d y
+=
+−
+
+
+
+
+∫
+∫
+[
+( / )]
+( / )
+( / ).
+
+
+
+
+
+
+
+δ
+δ
+δ
+τ
+
+	
+(110)
+Except for the comparatively thin viscous sublayer, these approximations 
+are valid, and the integrals in (109–110) must have universal constant val­
+ues independent of the Reynolds number. Thus, from the definitions (55) 
+and (57),
+δ
+δ
+τ
+* /
+(
+/
+),
+= I u
+U
+	
+(111)
+θ δ
+τ
+τ
+/
+(
+/
+)
+(
+/
+) .
+=
+−
+I u
+U
+J u
+U
+
+(112)
+Equations (107), (108), and (112) give a total of three equations for the 
+three unknowns uτ, δ, and θ; these can be solved, without further assump­
+tions, in terms of the constants that can be determined empirically. One of 
+the principal results of this procedure is the local frictional-drag coefficient 
+c
+U
+f = τ
+ρ
+
+
+
+
+, which satisfies the implicit equation
+
+2 1 2
+
+√
+=
++
+−
+c
+A
+R c
+C
+f
+x
+f
+/
+log(
+)
+, 	
+(113)
+where Rx = Ux/ν is the local Reynolds number. The total drag coefficient
+C
+l
+c
+x dx
+F
+f
+l
+= ∫
+
+
+( )
+	
+(114)
+can be determined from a similar equation, and this is the basis for Schoen­
+herr’s flat-plate frictional-drag formula
+
+1 79
+4 13
+
+√
+=
+=
+C
+RC
+RC
+F
+l
+F
+l
+F
+.
+log(
+)
+.
+log (
+). 	
+(115)
+This important result is displayed in figure 2.3, which also shows that 
+experimental confirmation exists over a broad range of Reynolds numbers.

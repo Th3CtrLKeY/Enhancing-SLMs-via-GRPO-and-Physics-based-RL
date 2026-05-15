@@ -1,0 +1,75 @@
+independent of span wise position and, indeed, must be physi­ cally unrealistic near the tips. Another special case results by distributing horseshoe vortices of varying span along the same chordwise position, as shown in figure 5.21. Here the individual elements combine to form a single bound vortex Γ (z), and the Figure 5.20 Lifting surface with uniform spanwise loading, composed of horseshoe vortices of equal span. Figure 5.21 Lifting-line, composed of horseshoe vortices with coincident bound elements but different spans.
+
+Chapter 5
+trailing vorticity is consistent with (124). This case is of practical impor­
+tance for lifting surfaces of large aspect ratio, where the chord length is 
+small and hence the chordwise position of the vortex elements is unimport­
+ant. The resulting approximation, for lifting surfaces of large aspect ratio, is 
+the lifting-line theory that will be treated in section 5.11.
+The trailing vortex sheet, which is an inevitable consequence of threedimensional effects, is detrimental to the performance of a lifting surface. 
+The effects are twofold: the lift is reduced and the drag increased. For the 
+lift, figures 5.19–5.21 show that the sign of the vortices, associated with a 
+positive lift force in the y-direction, induces a downward component of ver­
+tical velocity along the foil. This vertical downwash can be superposed with 
+the incident stream velocity vector, resulting in a decreased effective angle 
+of attack, by comparison with the two-dimensional case without down­
+wash. Thus the total lift force L is less than would be expected from a twodimensional analysis at each section.
+5.10  Induced Drag
+In three dimensions a drag force exists because the trailing vortex sheet 
+increases in length, at a rate proportional to U, with a resulting increase in 
+the total kinetic energy of the fluid at a similar rate. Since this energy must 
+be supplied by work done to overcome the drag force, the induced drag D 
+will be equal to the kinetic energy of a slice of fluid far downstream, the 
+slice being of unit width along the x-axis.
+Alternatively, from the general force equation (4.90), the drag compo­
+nent is given by the integral
+D
+x
+y
+z
+n dy dz
+x
+Sc
+=
+∂
+∂
+
+
+
+−∂
+∂
+
+
+
+−∂
+∂
+
+
+
+
+
+
+
+
+
+
+
+
+∫∫
+
+
+
+
+
+ρ
+φ
+φ
+φ
+. 	
+(125)
+Here the control surface has been taken as a pair of planes x = constant 
+upstream and downstream of the foil, and the remaining surface between 
+these at infinity can be neglected since the perturbation vanishes sufficiently 
+rapidly as y2 + z2 → ∞. Indeed, the same must be true upstream but not down­
+stream where the trailing vortex sheet persists. Since the velocity induced by 
+the vortex sheet far downstream is independent of x, it follows that

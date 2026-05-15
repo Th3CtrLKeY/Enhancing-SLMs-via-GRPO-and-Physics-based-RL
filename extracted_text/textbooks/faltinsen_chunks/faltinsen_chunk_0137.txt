@@ -1,0 +1,52 @@
+using equation (6.24) and ° data given in Fig. 6.11. Estimate wind loads by pressure dra formulas. Use drag coefficients equal to 0.8 both for ° longitudinal and transverse wind directions. The projected areas for longitudinal and transverse wind forces are respectively 350 m? and 1400 m?.) Discuss the possibility that the thrusters lose efficiency due to moat effects by making reasonable choices of thruster itions and estimates i i i ine hip end thee of relative vertical motions between
+
+9 WATER IMPACT AND ENTRY
+
+NN
+
+SLAMMING
+
+Impulse loads with high pressure peaks occur during impact between a
+body and water. This is often called ‘slamming’ and occurs for instance
+when a ship bottom hits the water with a high velocity. The probability
+of slamming is highest on the fore part of a ship where the relative
+vertical velocity between the ship and the waves is largest. Slamming on
+the ship bottom occurs more often in the ballast condition. than in the
+full-loaded condition and is a larger problem for ships with large block
+coefficients than for fine ship forms. Wave impacts can also cause bow
+damage above the waterline. Ship masters normally reduce the speed of a
+vessel to avoid slamming. An often used criterion for ‘voluntary speed
+reduction’ is that a typical ship master reduces the speed if slams occur
+for more than three out of 100 waves that pass the ship.
+
+For a catamaran, slamming can happen on the underside of the deck_
+
+between the two hulls. To avoid slamming on platform decks one
+requires an air gap of typically 1-2 m between the underside of a deck
+and the most probable highest position the wave can. reach relative to the
+underside of a deck in a ‘100 year’ design condition. The columns of a
+platform have to be designed for impact loads due to breaking waves (see
+Fig. 9.1). Inside ship tanks violent fluid motion (‘sloshing’) can cause
+high slamming pressures and damages. Abramson et al. (1974) reported |
+that 24 atmospheres of impact pressure had been measured in a tank of
+an OBO-ship. %
+The duration of slamming pressure measured at one place on the
+structure is of the order of milliseconds, It is very localized in space. The
+position where high slamming pressures occur changes with time.
+Slamming pressures are sensitive to how the water hits the structure. We °
+can exemplify this with experimental results of slamming pressures due
+to sloshing in tanks. Abramson ez al. (1974) reported model test results
+for a typical LNG tankform, similar to the one presented in Fig. 1.2. The
+tank was forced to oscillate harmonically in sway and two-dimensional
+flow conditions were enforced. Experiments show that even under
+harmonic oscillations, the pressure variation is neither harmonic nor
+periodic since the magnitude and duration of the pressure peaks vary
+from cycle to cycle. A typical histogram for the distribution of peaks is
+
+Fig. 9.1. High slamming pressures can occur when breaking waves hit the
+column of a platform. The top photo shows a breaking wave
+approaching the column of a platform and the other photo shows the
+situation just after the breaking wave has hit the platform. The
+photos are from the TCP-2 platform at the Frigg Field on the
+Norwegian Continental Shelf operated by Elf Aquitaine Norge A/S.
+(Kjeldsen & Andersen (unpublished).)

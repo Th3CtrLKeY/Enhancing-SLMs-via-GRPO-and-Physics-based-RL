@@ -1,0 +1,528 @@
+[
+  {
+    "index": 408,
+    "type": "mcq",
+    "question": "What is the condition for a matrix A to have an inverse?",
+    "options": {
+      "A": "The matrix A must be square and nonsingular.",
+      "B": "The matrix A must be square and singular.",
+      "C": "The matrix A must be rectangular and nonsingular.",
+      "D": "The matrix A must be rectangular and singular."
+    }
+  },
+  {
+    "index": 411,
+    "type": "numerical",
+    "question": "Calculate the advance ratio of a ship with a propeller pitch of 2 meters and a speed of 10 meters per second, given that the propeller diameter is 1 meter."
+  },
+  {
+    "index": 412,
+    "type": "numerical",
+    "question": "Given a lifting surface with a span of 15 meters and a chord length of 3 meters, calculate its aspect ratio."
+  },
+  {
+    "index": 413,
+    "type": "numerical",
+    "question": "Calculate the lift force on a flat plate hydrofoil with a chord length of 2 meters, moving at a velocity of 10 m/s in water with a density of 1000 kg/m^3, given that the lift coefficient is 0.8 at an angle of attack of 5 degrees."
+  },
+  {
+    "index": 415,
+    "type": "numerical",
+    "question": "Calculate the reduced velocity Up for a riser bundle with a natural period of 5 seconds, a current velocity of 1.5 m/s, and a diameter of 1.2 meters."
+  },
+  {
+    "index": 416,
+    "type": "numerical",
+    "question": "Calculate the value of the integral in equation (75) for a spherical surface with radius r = 0.5 m and a constant potential φ = 2 m^2/s."
+  },
+  {
+    "index": 417,
+    "type": "numerical",
+    "question": "Calculate the horizontal force from an anchor line on a vessel as a function of the horizontal distance X between the anchor and the point where the anchor line is connected to the vessel. Assume a chain length of 100 m, a water depth of 25 m, and a weight per unit length of chain in water of 828 N/m. Use the equation Ty = 828 * (100 - X) to calculate the horizontal force at X = 80 m."
+  },
+  {
+    "index": 418,
+    "type": "mcq",
+    "question": "What is the primary reason why the potential energy of the fluid below the equilibrium plane y = 0 is omitted from calculations of wave energy density?",
+    "options": {
+      "A": "It is negligible compared to the kinetic energy.",
+      "B": "It is difficult to calculate.",
+      "C": "It varies with the depth of the water.",
+      "D": "It is a constant unrelated to the wave motion."
+    }
+  },
+  {
+    "index": 420,
+    "type": "numerical",
+    "question": "A ship has a length of 280 meters, a beam of 45 meters, and a draught of 12 meters. Calculate the natural roll period using the formula: T = 2 * pi * sqrt(I / (g * GM * V)), where I is the moment of inertia of the waterplane, g is the acceleration due to gravity, GM is the metacentric height, and V is the volume of displacement. Assume the metacentric height is 8.5 meters and the acceleration due to gravity is 9.81 m/s^2."
+  },
+  {
+    "index": 421,
+    "type": "numerical",
+    "question": "Calculate the amplitude of a wave component given a sea spectrum S(ω) = 0.1ω^2, ω = 0.5 rad/s, and Δω = 0.1 rad/s. Assume the wave spectrum is discretized into N = 10 equal sub-intervals."
+  },
+  {
+    "index": 424,
+    "type": "numerical",
+    "question": "Calculate the Strouhal number for a circular cylinder with a diameter of 1 meter, oscillating at a frequency of 2 Hz in a flow with a velocity of 5 m/s."
+  },
+  {
+    "index": 425,
+    "type": "numerical",
+    "question": "Calculate the value of the velocity potential φ at a point (x, y, z) = (1, 2, 3) m for a source distribution of strength -∂φ/∂n = 0.5 m/s, distributed over a spherical surface with radius r = 1 m."
+  },
+  {
+    "index": 428,
+    "type": "numerical",
+    "question": "Calculate the average work done to oppose the pressure force over one cycle for a body oscillating at a frequency of 2 rad/s with a damping coefficient of 0.5 Ns/m and a velocity amplitude of 1 m/s."
+  },
+  {
+    "index": 429,
+    "type": "numerical",
+    "question": "Calculate the energy of a wave with a frequency of 0.1 Hz and a wave height of 2 meters, assuming a density of seawater of 1025 kg/m^3."
+  },
+  {
+    "index": 431,
+    "type": "numerical",
+    "question": "Calculate the distance traveled by a foil to develop 90% of the steady-state lift when moving into a sharp-edged gust with a velocity of 20 m/s and a chord length of 1.5 meters."
+  },
+  {
+    "index": 432,
+    "type": "numerical",
+    "question": "Calculate the two-dimensional added mass of a circle with a radius of 5 meters, given that the fluid's density is 1000 kg/m^3. Assume the added mass for a circle can be approximated using the formula M_add = π * ρ * r^2, where ρ is the fluid density and r is the radius of the circle."
+  },
+  {
+    "index": 434,
+    "type": "numerical",
+    "question": "Calculate the yaw moment Fe due to current flow on a ship, given the ship's length L = 100 m, draught D = 5 m, current velocity U = 2 m/s, and current angle relative to the longitudinal direction of the ship B = 45°. Assume a drag coefficient for cross-flow past an infinitely long cylinder Cp = 1.2, added mass in surge Az = 1000 kg, and added mass in sway Azz = 500 kg."
+  },
+  {
+    "index": 435,
+    "type": "numerical",
+    "question": "Calculate the average wave height for a wave spectrum with a total energy of 2.5 m^2, using the probability density function given by the Rayleigh distribution."
+  },
+  {
+    "index": 437,
+    "type": "numerical",
+    "question": "Given a ship with a length scale ratio of 40.62, a model length of 5.785 meters, and a block coefficient of 0.84, calculate the full-scale length of the ship."
+  },
+  {
+    "index": 438,
+    "type": "numerical",
+    "question": "Calculate the natural frequency of an undamped spring-mass system with a mass of 2 kg and a spring constant of 100 N/m."
+  },
+  {
+    "index": 440,
+    "type": "numerical",
+    "question": "Calculate the added mass of a sphere moving with a speed of 5 m/s through an unbounded fluid, assuming the fluid density is 1000 kg/m^3 and the sphere's radius is 0.5 m. Use the formula for added mass for a sphere."
+  },
+  {
+    "index": 442,
+    "type": "numerical",
+    "question": "For a sphere with a radius of 1 meter moving in a fluid with a density of 1000 kg/m^3, calculate the added mass using the formula (m = \frac{1}{2} cdot \frac{4}{3} pi R^3 \rho)."
+  },
+  {
+    "index": 445,
+    "type": "numerical",
+    "question": "Calculate the wavenumber of a wave with a wavelength of 10 meters and a frequency of 0.5 Hz."
+  },
+  {
+    "index": 448,
+    "type": "mcq",
+    "question": "What is the relationship between the source strength m of a line distribution of three-dimensional sources and the strength Γ of a two-dimensional vortex?",
+    "options": {
+      "A": "m = 2Γ",
+      "B": "m = Γ/2",
+      "C": "m = Γ",
+      "D": "m = Γ^2"
+    }
+  },
+  {
+    "index": 450,
+    "type": "numerical",
+    "question": "Calculate the velocity of a hydrofoil with a chord length of 1.5 meters, a circulation of 0.2 m^2/s, and a fluid density of 1025 kg/m^3. Assume the lift coefficient is 0.5."
+  },
+  {
+    "index": 452,
+    "type": "numerical",
+    "question": "Calculate the rise time of a slamming pressure peak if the decay time is 0.5 seconds and the ratio of rise time to decay time is 1:3."
+  },
+  {
+    "index": 453,
+    "type": "numerical",
+    "question": "Calculate the wave number of a wave with a wavelength of 100 meters and a wave period of 8 seconds, assuming infinite water depth."
+  },
+  {
+    "index": 455,
+    "type": "mcq",
+    "question": "What is the primary condition for the long-wave approximation to be valid in the context of wave-body interactions?",
+    "options": {
+      "A": "λ/l << 1",
+      "B": "λ/l ≈ 1",
+      "C": "λ/l >> 1",
+      "D": "λ/l = 0"
+    }
+  },
+  {
+    "index": 456,
+    "type": "numerical",
+    "question": "Given a ship with a beam of 10 meters and an operating frequency of 1 rad/s, calculate the wave frequency ω0 if the frequency of encounter ω is 1.2 rad/s, the ship's velocity U is 5 m/s, and the angle of incidence θ is 30 degrees."
+  },
+  {
+    "index": 457,
+    "type": "numerical",
+    "question": "Given a fluid flow with a velocity field v(x,y,t) = (x^2 + t, y), calculate the acceleration of a fluid particle at the point (2,3) and time t=2, using the material derivative formula."
+  },
+  {
+    "index": 458,
+    "type": "numerical",
+    "question": "A ship is moving at a velocity of 10 m/s through waves with a frequency of 0.1 Hz and a wavenumber of 0.02 m^-1. If the waves are approaching the ship at an angle of 45 degrees, calculate the frequency of encounter."
+  },
+  {
+    "index": 459,
+    "type": "numerical",
+    "question": "Calculate the Reynolds number for a ship traveling at 20 knots in seawater at 15°C, given the ship's length is 100 meters and the kinematic viscosity of seawater is 1.2 × 10^-6 m^2/s."
+  },
+  {
+    "index": 461,
+    "type": "numerical",
+    "question": "Calculate the horizontal component of the tension (Ty) at the waterplane for a mooring cable with a weight per unit length w = 50 N/m, given that the horizontal distance from the anchor point to the waterplane is x = 100 m, and assuming the cable is inelastic and neglecting current forces. Use the equation Ty = T' cos φ and the relationship T' = w * x / (2 * tan φ), considering φ = 30 degrees at the anchor point."
+  },
+  {
+    "index": 462,
+    "type": "numerical",
+    "question": "Calculate the local Reynolds number Rn for a flow past a circular cylinder with a free-stream velocity U = 5 m/s, kinematic viscosity v = 1.0 * 10^-6 m^2/s, and distance along the cylinder surface x = 0.1 m."
+  },
+  {
+    "index": 463,
+    "type": "mcq",
+    "question": "What is the primary advantage of using Simpson's rule over the trapezoidal rule for numerical integration?",
+    "options": {
+      "A": "It provides a more accurate approximation of the integral with fewer intervals.",
+      "B": "It is simpler to implement than the trapezoidal rule.",
+      "C": "It is only used for functions that are difficult to integrate analytically.",
+      "D": "It is less computationally intensive."
+    }
+  },
+  {
+    "index": 464,
+    "type": "mcq",
+    "question": "What is the primary assumption underlying the derivation of the Navier-Stokes equations?",
+    "options": {
+      "A": "Incompressible fluid",
+      "B": "Compressible fluid",
+      "C": "Non-Newtonian fluid",
+      "D": "Ideal gas"
+    }
+  },
+  {
+    "index": 465,
+    "type": "mcq",
+    "question": "What is the primary factor that determines the wave resistance of a ship?",
+    "options": {
+      "A": "Hull form of the ship",
+      "B": "Speed of the ship in still water",
+      "C": "Depth of the water",
+      "D": "Type of propulsion system"
+    }
+  },
+  {
+    "index": 466,
+    "type": "mcq",
+    "question": "What is the primary reason for the increase in heave and pitch at resonance within certain limits of increasing Froude number?",
+    "options": {
+      "A": "The effect of the frequency of encounter on the wavelength of the incident waves",
+      "B": "The increase in the natural frequency of oscillation in heave and pitch",
+      "C": "The decrease in the cross-sectional added mass in heave",
+      "D": "The reduction in the cross-sectional damping in heave"
+    }
+  },
+  {
+    "index": 468,
+    "type": "numerical",
+    "question": "For an oscillatory flow (U(t) = Aomega sin omega t) normal to a circular cylinder of diameter (d = 1) meter, find the ratio (A/d) such that the viscous and inertial forces in Morison's equation are equal, assuming the added mass (m_{11}) equals the displaced mass and the drag coefficient (C_d = 1.0)."
+  },
+  {
+    "index": 470,
+    "type": "numerical",
+    "question": "Calculate the drag coefficient of a full-scale ship using the I.T.T.C. line, given that the model drag coefficient is 0.010 and the roughness allowance is 0.0004."
+  },
+  {
+    "index": 472,
+    "type": "mcq",
+    "question": "What is the primary cause of the drag force on a hydrofoil?",
+    "options": {
+      "A": "Normal component of the force on the foil and leading-edge suction force",
+      "B": "Tangential component of the force on the foil",
+      "C": "Pressure gradient along the foil",
+      "D": "Viscous effects in the boundary layer"
+    }
+  },
+  {
+    "index": 473,
+    "type": "numerical",
+    "question": "Calculate the power required to propel a ship with a mass of 10000 tons and a speed of 20 knots, given a drag coefficient of 0.02 and a water density of 1025 kg/m^3. Assume a propeller efficiency of 0.8."
+  },
+  {
+    "index": 474,
+    "type": "mcq",
+    "question": "What is the primary effect of increasing the bilge radius on the drag coefficient?",
+    "options": {
+      "A": "Increases the drag coefficient",
+      "B": "Has no effect on the drag coefficient",
+      "C": "Depends on the beam-draught ratio",
+      "D": "Decreases the drag coefficient"
+    }
+  },
+  {
+    "index": 475,
+    "type": "mcq",
+    "question": "What is the primary factor that determines the nature of the boundary layer in fluid flow?",
+    "options": {
+      "A": "Fluid density",
+      "B": "Fluid velocity",
+      "C": "Boundary layer thickness",
+      "D": "Reynolds number"
+    }
+  },
+  {
+    "index": 477,
+    "type": "numerical",
+    "question": "Given the equation z - z0 = (T' / w) * (1 - cos φ), where z is the depth of the cable, z0 is the depth at the anchor point, T' is the tension in the cable at the waterplane, w is the weight per unit length, and φ is the angle between the cable and the horizontal, calculate the depth z of the cable at a point where φ = 45 degrees, given T' = 2000 N, w = 20 N/m, and z0 = 0 m."
+  },
+  {
+    "index": 478,
+    "type": "numerical",
+    "question": "Determine the damping ratio ζ (zeta) for a system where the damping coefficient δ is 10% of the critical damping 2mω, and the natural frequency ω is 0.1 rad/s. Then, calculate the fraction of the mean offset x that the oscillation offset Ox_ represents, given Ox_ = 0.3x."
+  },
+  {
+    "index": 480,
+    "type": "numerical",
+    "question": "Calculate the momentum thickness θ for a boundary layer with a shape factor Λ = 5, given the velocity distribution u(y) = U * (1 - (y/δ)^3)."
+  },
+  {
+    "index": 481,
+    "type": "numerical",
+    "question": "Estimate the natural frequency in heave for a vertical spar buoy with a draft T = 5 m, diameter d = 1 m, and mass M = 1000 kg, assuming the added mass and damping coefficients are negligible. The buoyancy force equals the weight of the displaced water. Use ρ = 1000 kg/m³ for water density and g = 9.81 m/s²."
+  },
+  {
+    "index": 483,
+    "type": "numerical",
+    "question": "A hydrofoil has a lift coefficient of 0.8 and is moving at a speed of 20 m/s through water with a density of 1000 kg/m^3. If the wing area is 2 m^2, calculate the lift force exerted on the hydrofoil."
+  },
+  {
+    "index": 485,
+    "type": "numerical",
+    "question": "Calculate the wave resistance for a slender body moving at a speed of 10 m/s in water with a density of 1000 kg/m^3, given that the body's length is 5 meters, the Froude number (Fh) is greater than 1, and the function S(x) describing the body's shape is such that its derivative S'(x) is constant and equals 0.5."
+  },
+  {
+    "index": 486,
+    "type": "mcq",
+    "question": "What is the primary cause of thrust loss in a propeller operating in rough sea?",
+    "options": {
+      "A": "Ventilation of the propeller blades",
+      "B": "Increased propeller pitch",
+      "C": "Decreased propeller diameter",
+      "D": "Increased propeller shaft submergence"
+    }
+  },
+  {
+    "index": 490,
+    "type": "mcq",
+    "question": "What is the approximate ratio of wave height to wavelength for a wave in deep water at its limiting form?",
+    "options": {
+      "A": "1/7",
+      "B": "1/5",
+      "C": "1/10",
+      "D": "1/20"
+    }
+  },
+  {
+    "index": 491,
+    "type": "mcq",
+    "question": "What is the primary factor that determines the resonance of a ship's roll response in beam seas?",
+    "options": {
+      "A": "Natural frequency of the ship's roll motion",
+      "B": "Angle of attack of the hydrofoils",
+      "C": "Froude number of the ship",
+      "D": "Density of the surrounding fluid"
+    }
+  },
+  {
+    "index": 492,
+    "type": "numerical",
+    "question": "Calculate the encounter frequency $w_e$ for a ship moving at a speed of $U = 10$ m/s in head seas with a wave period of $T_0 = 8$ seconds. Assume the wavelength is $lambda = 100$ meters."
+  },
+  {
+    "index": 493,
+    "type": "numerical",
+    "question": "A wave maker in a model basin generates harmonically oscillating waves with a wavelength of 5 meters and a period of 2 seconds. Calculate the phase velocity of these waves."
+  },
+  {
+    "index": 494,
+    "type": "numerical",
+    "question": "Given a horizontal body with a length of 10 meters and a beam of 2 meters, operating in a sea state with a significant wave height of 1 meter and a wave period of 6 seconds, calculate the order of magnitude of the surge force acting on the body. Assume ε = 0.1."
+  },
+  {
+    "index": 496,
+    "type": "numerical",
+    "question": "Calculate the natural frequency of a cable with a length of 100 meters and a mass per unit length of 5 kg/m, assuming it is fixed at both ends and neglecting the effects of damping."
+  },
+  {
+    "index": 497,
+    "type": "numerical",
+    "question": "Calculate the resonant frequency of a ship with a beam of 20 meters in deep water, assuming the resonant wavelength is of the order of the ship's beam."
+  },
+  {
+    "index": 498,
+    "type": "numerical",
+    "question": "Calculate the value of the velocity potential at a point 2 meters away from the center of a sphere, given that the sphere has a radius of 1 meter and is subjected to a uniform stream of 10 m/s. Assume the fluid is ideal and the stream is flowing in the positive x-direction."
+  },
+  {
+    "index": 499,
+    "type": "numerical",
+    "question": "A vessel is moored with one anchor line in 20m of water. The weight per unit length of the chain in water is 750 N/m. If the length of the chain outside the ship is 80m, calculate the horizontal force from the anchor line on the vessel when the horizontal distance X between the anchor and the point where the anchor line is connected to the vessel is 60m."
+  },
+  {
+    "index": 501,
+    "type": "mcq",
+    "question": "What is the condition for the inception of separation in terms of the shape factor Λ?",
+    "options": {
+      "A": "Λ = 0",
+      "B": "Λ = 12",
+      "C": "Λ = -6",
+      "D": "Λ = -12"
+    }
+  },
+  {
+    "index": 502,
+    "type": "numerical",
+    "question": "Calculate the magnitude of the gravitational acceleration vector (g) in ft/s^2, given that its magnitude in m/s^2 is 9.8 m/s^2. Assume 1 m = 3.2808 ft."
+  },
+  {
+    "index": 503,
+    "type": "numerical",
+    "question": "A rudder has a slender-body theory of motion with an added-mass coefficient of 0.5. If the rudder is moving at a speed of 5 m/s and has a length of 2 m, calculate the added-mass force acting on the rudder. Assume the density of the fluid is 1000 kg/m^3."
+  },
+  {
+    "index": 504,
+    "type": "numerical",
+    "question": "Calculate the Froude number (Fh) for a shallow-water wave with a fluid depth of 5 meters and a flow velocity of 2 meters per second. The acceleration due to gravity is approximately 9.81 meters per second squared."
+  },
+  {
+    "index": 505,
+    "type": "mcq",
+    "question": "What is the main reason why the formulae (5.16), (5.17), and (5.18) are not expected to give satisfactory results for ship hulls when a roll resonance occurs?",
+    "options": {
+      "A": "Viscous effects are not accounted for in the formulae",
+      "B": "The formulae are only valid for head seas",
+      "C": "The formulae are only valid for small wave amplitudes",
+      "D": "The formulae are only valid for deep water"
+    }
+  },
+  {
+    "index": 509,
+    "type": "numerical",
+    "question": "A ship with a length of 100 meters and a wetted surface area of 500 square meters is traveling at a speed of 10 meters per second in a current with a velocity of 2 meters per second. Calculate the drag force on the ship using the approximate formula F_d = 0.075 * (log10(Rn) - 2)^(-2) * rho * U^2 * S, where Rn is the Reynolds number, rho is the fluid density (approximately 1000 kg/m^3), and U is the relative velocity between the ship and the current."
+  },
+  {
+    "index": 510,
+    "type": "mcq",
+    "question": "What is the nature of the flow at the origin for the complex potential F(z) = z^2?",
+    "options": {
+      "A": "Source",
+      "B": "Sink",
+      "C": "Stagnation point",
+      "D": "Vortex"
+    }
+  },
+  {
+    "index": 511,
+    "type": "mcq",
+    "question": "What is the primary assumption made in the simplified analysis of the impact between a two-dimensional body and water?",
+    "options": {
+      "A": "The velocity of the body is small compared to the velocity of the water.",
+      "B": "The wetted length of the body is large compared to the velocity of the body.",
+      "C": "The density of the body is equal to the density of the water.",
+      "D": "The impact occurs over a long period of time."
+    }
+  },
+  {
+    "index": 512,
+    "type": "numerical",
+    "question": "Calculate the effective incident flow to the cylinder, given that the vortex circulation reduction is estimated by equation (7.29) and the average velocity at the cylinder centre can be estimated from equation (5-8), with R = 0.1 m, w = 1 rad/s, and A = 0.2 m^2."
+  },
+  {
+    "index": 513,
+    "type": "numerical",
+    "question": "Calculate the vertical velocity v at θ = π/4 for a vortex distribution given by γ(θ) = 2U * (1 + 0.5 * cot(θ/2) * sin(θ)) using equation (98). Assume U = 10 m/s."
+  },
+  {
+    "index": 514,
+    "type": "mcq",
+    "question": "What is the main advantage of using the Runge-Kutta method for solving differential equations?",
+    "options": {
+      "A": "Faster computation time",
+      "B": "Higher accuracy with a relatively large step size",
+      "C": "Simpler implementation",
+      "D": "Ability to handle non-linear equations"
+    }
+  },
+  {
+    "index": 515,
+    "type": "mcq",
+    "question": "What is the primary effect of the nonlinear correction on the free-surface elevation of deep water waves?",
+    "options": {
+      "A": "It makes the crests steeper and the troughs flatter.",
+      "B": "It makes the crests flatter and the troughs steeper.",
+      "C": "It has no effect on the shape of the crests and troughs.",
+      "D": "It reduces the amplitude of the waves."
+    }
+  },
+  {
+    "index": 516,
+    "type": "numerical",
+    "question": "Calculate the circulation around a hydrofoil with a chord length of 2 meters, a velocity of 10 m/s, and an angle of attack of 5 degrees. Assume the fluid density is 1000 kg/m^3."
+  },
+  {
+    "index": 517,
+    "type": "numerical",
+    "question": "Calculate the wetted length of a circular cylinder with a radius of 0.5 m, 0.2 seconds after impact, given that the velocity of the cylinder is 5 m/s."
+  },
+  {
+    "index": 518,
+    "type": "numerical",
+    "question": "Calculate the drag force (F_d) on a smooth circular cylinder with a diameter of 1 m, in a steady incident flow with a velocity of 5 m/s and a fluid density of 1000 kg/m^3, given that the drag coefficient (Cp) is 0.92."
+  },
+  {
+    "index": 519,
+    "type": "mcq",
+    "question": "What is the primary reason for using the source technique in numerical methods for marine hydrodynamics and naval architecture?",
+    "options": {
+      "A": "To approximate the body surface by straight line segments",
+      "B": "To calculate the added mass in heave",
+      "C": "To determine the pressure distribution on the body surface",
+      "D": "To solve the Navier-Stokes equations"
+    }
+  },
+  {
+    "index": 520,
+    "type": "numerical",
+    "question": "A hydrofoil is moving at a speed of 20 m/s through water. If the angle of attack is 5 degrees and the lift coefficient (Cl) is 0.8, calculate the lift force per unit span of the hydrofoil, given that the density of water is 1000 kg/m^3 and the chord length of the hydrofoil is 0.5 m."
+  },
+  {
+    "index": 525,
+    "type": "numerical",
+    "question": "Calculate the added resistance of a ship in head sea waves using equation (5.30), given the significant wave height Hy = 1.5m, the mean period T = 10s, and the ship length L = 200m."
+  },
+  {
+    "index": 526,
+    "type": "numerical",
+    "question": "Calculate the attraction force on a sphere of radius R = 0.5 m moving with velocity U = 2 m/s parallel to an infinite plane rigid wall, given that the distance from the body axis to the wall is d = 1 m. Assume the fluid density is ρ = 1000 kg/m³."
+  },
+  {
+    "index": 527,
+    "type": "numerical",
+    "question": "Determine the yaw moment acting on a ship hull using the slender-body theory, given that the hull length is 150 meters, the sway velocity is 1.5 m/s, and the yaw velocity is 0.2 rad/s. Assume the added-mass coefficients are ms = 0.4 and m11 = 0.2, and the moment arm is -50 meters."
+  }
+]

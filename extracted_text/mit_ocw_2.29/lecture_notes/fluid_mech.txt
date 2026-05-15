@@ -1,0 +1,1762 @@
+[Page 1]
+13.024 - Numerical Methods in Incompressible Fluid Mechanics
+
+Lecture Notes — Version 3
+
+By Jerome H. Milgram
+
+Spring 2003
+
+---PAGE BREAK---
+
+[Page 2]
+mMBL
+
+INCOMPRESSIBLE FLUID MECHANICS BACKGROUND
+
+V =iu+jutkw
+
+Conservation of Mass, Continuity Equation
+divV =V-V=0
+Ou n Ov in Ow _9
+Ox Oy Oz |
+
+Newtonian Dynamics, Navier-Stokes Equations
+
+DV WV o.oo. 1 +
+
+—=—4+(V-V)V =--VP 2V
+
+be eT ( ) 5 +0V
+P is the dynamic pressure. The total pressure, Pr, is the sum of the
+dynamic pressure and the hydrostatic pressure, -pg z, where z is positive
+‘ upwards. Pr = P— pgz.
+
+Ou Ou Ou du -10P (Gs Oru a
+
+at an dy az pan lan apt ae
+
+ov, Ov, av, dv 10P | (dy, Hy, dy
+Ot Ox Oy Oz ~=—s p dy Ox? Oy 92?
+
+eg ee ig yee = _10P V Ow oe + Orw
+ot Ox Oy Oz = pp Oz Ox? — Oy? Oz?
+
+---PAGE BREAK---
+
+[Page 3]
+PARTICLE IMAGE VELOCIMETRY
+
+Laser
+
+---PAGE BREAK---
+
+[Page 4]
+PIV Example
+
+u and v can be measured, so i and oy are known.
+
+Ow du dv
+
+Oz Ox Oy
+If PIV is done on multiple planes inside a fluid domain, then Ou is known
+over the whole domain. At a rigid boundary, w = 0 and, in principle, w
+can be found anywhere by:
+
+w= [ Ow ay
+
+boundary Oz
+
+Example
+
+In a domain bounded by 0 < z < 4, u = (3e” — ze* — 3)sing and v = 0
+over a range of x and in 0 < z < 2. In this sub-domain,
+
+ou = (3e” — ze* — 3) cos(x)
+a = —(3e* ~ ze* — 3) cos(z)
+
+zO
+w= f ay dz = ~ [Be* — 8 — ze* +e? — 1 — 32] cos(2)
+
+w= [ a = — [4e? — 4 — ze” — 3z] cos(x)
+
+---PAGE BREAK---
+
+[Page 5]
+Velocity Field at z = 0.4
+
+---PAGE BREAK---
+
+[Page 6]
+0.5
+
+dw/dz and w(z) at x = 1
+
+qw
+AZ
+15 2 25
+
+N
+
+FrReLe.
+
+3.5
+
+---PAGE BREAK---
+
+[Page 7]
+FPMBbIic.
+
+A More Interesting PIV Example
+
+Consider the following flow for z > 0 in a range of x and y. Of course, in
+an experiment you would not know the mathematical formulation. Rather
+you would just measure u and v over a set of (x,y,z) points.
+
+u(z,y,z) = (3e°) — 3cos z) sin y COS &
+u(z,y,z) = (3° — 3cos z) cos y
+The x and y derivatives of the velocities can be computed numerically
+
+from the measurements. If the experiment were done well, they would
+have values according to the following formulae:
+
+O
+a = — (3691 — 3cos z) sin y sin £
+O
+35 =— (36° — 3cos z) sin y
+O O
+Then, the continuity equation is: ee = SE Ov
+Oz Ox Oy
+
+The experimentally determined values would have the values given by:
+Ow
+
+a (3e°' — 3cos z) sin y(sin c+ 1)
+
+Integrating oe from 0 to z at a prescribed value of (x,y) would give w(z)
+there. The values obtained would obey:
+
+w = (30e°'” — 30 — 3 sin z) sin y(sin x + 1)
+
+---PAGE BREAK---
+
+[Page 8]
+FMSsID
+
+TSA (AN NP ZAR
+PN | CNY
+CONS SU oe N=
+Lise si Nee D ee
+Nomar 1 \ SHI
+SSN | NOSIS
+tS INN \ SDN
+
+8 ——> \e< ee e — aN Ss
+
+TN AEN YP FEED
+
+IN EN Nf ZY
+
+aN A f 7 7NN t;
+
+il ee ss EHS
+
+Se INNES SS \
+
+° lo 0 NS [) w +t o N - oY
+2°
+
+---PAGE BREAK---
+
+[Page 9]
+FMBIE
+
+dw/dz and w(z) at x=1, y=1
+
+---PAGE BREAK---
+
+[Page 10]
+AVERAGED NAVIER-STOKES EQUATIONS
+
++v!'
+
+ul
+
+V=
+
+Take Average of above equation:
+
++ [(¥+0)-v] (V+0) = —2VP +90
+
+[(V+0)-v] (V40) = (0-904 0 Vie
+Thus, the Reynolds-Averaged Equation is:
+
+V a oO 1 — —_y
+av 4 (V. v)V +(v'-V)o' = “ave +uV°V
+
+The ”Reynolds Stress Term” is:
+
+(v! - (vo! V)v! = i(w Se tS tw
+
+---PAGE BREAK---
+
+[Page 11]
+THE PRESSURE EQUATION FOR AN INCOMPRESSIBLE
+FLUID
+
+Start with the Navier-Stokes Equation
+
+OV 4 v V)V es
+p
+
+Take its divergence.
+
+Because V-V = 0, the only non-zero terms are:
+
+div(V-V)V = —<v'P
+
+Working out the details of the LHS and interchanging the LHS and the
+RHS results in: .
+2p Ou dv\? (dw\? .dvdu dwdu . Owdu
+r= (+ +e) ae ate ale
+Ox Oy Oz Ox Oy Ox Oz Oy Oz
+
+du\? dv\? dw\? Ov Ou Ow Ou Ow Ov
+2 =_ — a _ _—_
+wee o\(5e) +(5) + (3) aide dude, dude}
+
+The pressure, P, satisfies Poisson’s Equation driven by products of the
+spatial derivatives of the velocity. This is different than the common
+Bernoulli Equations because here the flow can be unsteady and rotational.
+
+1o
+
+---PAGE BREAK---
+
+[Page 12]
+cn
+
+The Vorticity equation
+
+vorticity = @ = curl V=aVxV
+
+Start with the Navier Stokes equation:
+
+ov
+Ot
+
+> =>
+
+- 1
+(V-V)V = VP + VV
+
+Take the curl of this equation, term by term:
+
+92 4 (0 V)@ + (@-V)P = Ve
+D sr =-(w-V)V4+0V’a
+
+The first term on the right hand side is the rotation and stretching of the
+vorticity by the non-uniform velocity field.
+
+---PAGE BREAK---
+
+[Page 13]
+Inviscid Fluid Mechanics, Euler’s Equation
+
+Set the viscosity, and the kinematic viscosity, v to zero. Apply these
+“settings” to the Navier Stokes Equation.
+
+DV OV = . 1
+So = 2 (V- VV = 8
+Dr = a t (VY) “VP
+
+Ow Ow, ,0w dw _ _10P
+Ot | dx Oy Oz ~~pez
+
+---PAGE BREAK---
+
+[Page 14]
+FMB SBC!)
+
+Bernoulli Theorems for Inviscid Flow
+
+Theorem 1 - Irrotational Flow
+
+Vector Identity
+
+(VF = SV(VP)- 0 x (Vx 0) = SVP) -0 xo
+_ ligne, P
+Lett H= 5 (V1) +- 5
+
+For Irrotational Flow, V= Vé and V x V=0
+
+a __ ad
+Vet VH = V(q +H) =0
+og
+
+~ The function f(t) can be absorbed into ¢ by letting 6 = ¢' + ff f(¢)dt and
+V=V¢d. ]
+Og’
+
++ f(t) 80, a +H=0
+
+Op _ +
+at
+
+Finally rename @’ as 5
+
+Remember that the total pressure, Pp = P — pgz.
+
+og
+
++5 LW) +4 ge=0
+
+---PAGE BREAK---
+
+[Page 15]
+PMR S4 (2)
+
+Theorem 2 - Steady Flow
+
+avs - 1
+op t VV =—< VP
+
+a lop
+ave + 5V (IV
+
+4 1
+*)-Vx@+“VP=0
+
+SVO+VH-Vx@=0
+
+Thus, for steady flow: ]
+Vxw=VH
+
+Streamlines and vortex lines are perpendicular to VH.
+
+Along either a streamline or a vortex line, H is a constant. So on any one
+
+of these lines,
+
+l= P 15 P
+H= 5(V)" + ro av) + a +9z= constant
+
+If the flow is both steady and irrotational, H is the same everywhere
+because VH = 0.
+
+---PAGE BREAK---
+
+[Page 16]
+Puri 6 Th 1)
+
+Vorticity Dynamics and Kelvin’s Circulation Theorem
+
+Circulation = T = oV- dr = he: ds
+
+DV 1 “
+— =--VP+4+ rV?
+Di ay +vV°V
+Identity for an incompressible fluid: VV =-Vxo
+D —_
+DY’ = _lyp —~U’UVX@
+Dt p
+
+Following a closed material curve,
+
+aT DV 1
+a 7 Ppp HF BVP aru lV x @)- ar
+= —v (Vx) dr
+
+Kelvin’s Circulation Theorem
+
+In an inviscid fluid, =0
+
+La
+
+pathlines
+
+Corollary: In an inviscid fluid with no circulation (such as starting from
+rest) the circulation remains zero.
+
+---PAGE BREAK---
+
+[Page 17]
+FASE TC a}
+
+Practical Implication
+
+In a high Reynolds number streaming flow, fluid which has not passed close
+to a boundary or a free surface has negligible vorticity.
+
+Therefore, in high Reynolds number streaming flows, vorticity is limited
+to boundary layers, separated zones, and wakes.
+
+Concept of Vortex Lines
+
+vortex lines
+
+This line represents the vorticity in
+this area which is the circulation
+around its
+
+boundary
+
+Each line represents circulation around an area which is the same
+as the vorticity inside the area.
+
+ao-=curlV=VxV
+
+Therefore: diva = V-w=0
+
+The vortex field is solenoidal. Vortex lines are continuous. They can have
+curves and turns,but they cannot have ends in the fluid.
+
+---PAGE BREAK---
+
+[Page 18]
+FMBCA
+
+fe Le max (Litt /onit span)
+eV
+
+---PAGE BREAK---
+
+[Page 19]
+Fuge s
+
+yYaqdqnu
+
+NYS3LS
+
+---PAGE BREAK---
+
+[Page 20]
+repr
+
+eMB?
+
+Potential Flows and Mostly Potential Flows
+
+For an irrotational fluid V x V —0
+
+This means that there exists a velocity potential, ¢, such that,
+
+V=V¢
+
+For an incompressible fluid V - V=0
+
+Thus, V -(V¢) =0
+
+V’?¢=0
+
+For a completely potential flow, the velocity potential satisfies Laplace’s
+equation.
+
+For an incompressible flow that is “nearly” irrotational except in boundary layers and wakes, the flow outside these boundary layers and wakes
+is approximately described by a velocity potential that satisfies Laplace’s
+equation.
+
+---PAGE BREAK---
+
+[Page 21]
+A Mapes
+FM BQeeh
+
+Green Functions, Green’s Theorem and Boundary Integral Equations
+
+The following development is for three-dimensional flows. The development is
+similar for two-dimensional flows except that two dimensional source functions
+are involved and the dimensionality of some integrals and associated constants
+are different.
+
+Green’s Theorem
+
+If ¢ and w both satisfy Laplace’s equation (V7¢ = 0, V7 = 0), then:
+
+II
+
+Green Functions A three-dimensional (€, 7, ¢) space is considered with a “sink” at
+location (x,y, z). The ”sink” has the velocity potential w,,
+1 1
+
+= Tne awon tea
+
+where: r = (x — €)2 + (y—7)? + (2-€)?
+
+Importantly, V77), = 0 both for the differentiations done in (£,7,¢) space as well
+as for the differentiations done in (x,y, z) space. The following development can
+be formulated either way and we will choose to differentiate over (£,7, ¢).
+
+i - sas = | ff, (6v’» - ¥v*d] av =0
+
+A Green Function, G is:
+
+where, V¢, = 0 in the fluid domain, and (sz, y, z) is called the point P.
+
+FLuio
+
+---PAGE BREAK---
+
+[Page 22]
+FYE 300(2)
+
+If P is outside the fluid domain, the bracketed terms on the right hand side in
+Green’s Theorem are zero. However, if P is inside the fluid domain, Vw 4 0 at
+P. Then, if P is enclosed by a small sphere of radius €, which is excluded from the
+fluid domain, Green’s Theorem applies in the modified fluid domain. However,
+now the integrals include an integral about the small sphere.
+
+aG ae
+I Vesspnere los — cx dsEn¢ =0
+
+—1
+I Loner ‘ee (2, y, 2) |< de = Ano[P(e,y,2)]
+
+II; ox cad dsenc = —44[P(z, y, 2)]
+
+If P(x, y, z) is on the boundary, the integral is not defined. However, if we replace
+the real boundary by one which has an infinitesmal hemisphere syrrounding P,
+the Green Function integral is zero because the functions have no singularities in
+the revised fluid domain.
+
+n
+pP
+c r=e
+f- Luo
+Zo.
+d or
+
+p08 fa)
+I Tesremisprere |? an =~ oS] ds¢ nc =0
+
+OG —1
+/ hemisphere Pa, 8 = _ ~9|P(z, Y; Ny ame = 2ng|P(z, Y, z)|
+
+II, ese -G— =] dsenc = —4rg[P(2,y, z)|
+
+---PAGE BREAK---
+
+[Page 23]
+PME Yoo ’3y
+
+Putting the preceding parts together, if a closed fluid domain of surface S' is
+considered with 7 being the outward normal vector (out of the fluid) and wp is
+taken as G with proper exclusion of the singular point of G when (z, y, z) is inside
+the domain or on its boundary,
+
+(x,y,z) outside S
+
+. " —Aro(x,y,z) (x,y,z) inside S
+
+The integral is over the closed area in (€,7,¢). When the singular point is on the
+surface, an infinitesimally small circle surrounding the singular point is excluded
+from the integral.
+
+---PAGE BREAK---
+
+[Page 24]
+Fme%oeFA
+
+Example of method of solution
+
+Generate integral equation on surface of an object in a uniform flow.
+
+Suppose uniform flow onto an object is known
+ue is known.
+
+®=-Uzx+o¢
+
+Boundary condition: ce = 0,
+
+—Ui-ni+%=0, @=Ui-aw
+
+If os — avi.) = 26
+
+[ [,o 924s +2n¢ = [ [,eui-nds
+
+Right hand side is known in integral equation for ¢ on boundary.
+Solve for values of ¢ on boundary (panel methods).
+Then ¢ and oe are known on boundary.
+
+Green’s Theorem then gives ¢ in all space.
+
+---PAGE BREAK---
+
+[Page 25]
+Interpretation of Boundary Integral Equation
+in terms of source and Dipole Layers
+
+lJ [Sa -26 a dS — 0 (x,y,z) outside S
+S|4r On Ar” On — | d(,y,x) (x,y,z) inside S
+“Inside S” means inside the fluid and outside “S” means outside the fluid.
+G is the potential of a ”unit sink” and -0g/On is the potential of a unit
+dipole.
+
+The Green’s Theorem integrals are integrals of sink distributions per unit
+area of (1/47)0@/On over the object and of dipole distributions of strength
+
+per unit area of 6/47 over the object. g
+The sinks vA o¢
+an
+
+Consider the effect of a unit sink.
+
+LV,
+h 1 1 1
+GC) o=-, VzA= aT influx = 4Anr? = 4n
+r r
+
+Tr
+
+Now, look at the small patch of area A on the surface:
++V.
+Bris Sink Patel
+
+1 B-Vs
+
+B is the effect of the integrals on the remainder of the object. Call the
+sink strength per unit area o. Total sink Strength on the patch is oA.
+
+Net influx, based on the velocities is 2AV,.
+2AV;, =4r0A 2V, = 410
+
+---PAGE BREAK---
+
+[Page 26]
+‘a > f.%*
+TH GPr(2)
+
+2V, is the jump in normal velocity. This must equal the normal velocity,
+0¢/On in the fluid at the boundary since V = 0 inside the object.
+
+8 Ane = | o¢
+
+On ° dn én
+
+Now consider an infinitesmal dipole patch of strength pu
+
+a Sa. = 2 “A/¢
+£ (po meele (me. ae rng |
+Yo AG Velocity
+
+Inside the infinistemally thin dipole layer of thickness @,
+_ Any
+
+2) ? in fluid ~ Pinside object ~ ATL
+since: Pinside object — 0,
+
+Pin fluid = 47H b= afin quid
+
+---PAGE BREAK---
+
+[Page 27]
+Kelvin-Neumann Problem
+
+---PAGE BREAK---
+
+[Page 28]
+Fmb ts-,
+
+The Kelvin—Neumann Problem
+
+1 06 dG
+o= real hsase+ss) lox 7 a as
+
+_ @ is the perturbation potential (does not include —Uz).
+
+The integral over 5), which is the part of the ship hull below the waterline
+is of the same form as a Green’s theorem or “panel method” integral for
+any finite size body, except here the top is open.
+
+@ and G decay with distance from the ship fast enough for the integral
+over 53 to vanish.
+
+The integral over S2, which is the free surface external to the ship is
+special. We consider it here and call it @o.
+
+1 Od OG
+
+Since n is a unit vector in the z direction on the mean free surface,
+
+=z] f, [ese - esc] anay
+
+On the mean free surface, ge = vey and we choose G (the KelvinNeumann Green function) such that it satisfies the same boundary condition, 9 = -U2&¢E
+
+> Oz g Ox?
+
+Then, applying these boundary conditions, ¢2 becomes,
+
+Gi? OG
+i=-E | [|e aa 7 Fa ded
+
+1 U? OG
+~ -e—Shles Ox 5a | az dy
+
+---PAGE BREAK---
+
+[Page 29]
+Now, the integral over x can be done. The contributions at x = -too vanish
+so the result is:
+
+1 U? | 0G
+An g Jfore| Ox Ox
+
+Oa = Ox Ox
+
+Oo | =| 1 U? laze - 5 dy
+
+aft
+The curve of the waterline is called C, with the part forward of the maximum beam called Cy and the part aft of this is called C,. Consider the
+integrals taken along C’ in the counterclockwise direction. Then, dy is
+positive on the forebody (Cs) and negative on the afterbody (C4).
+
+g2 = dy
+
+dc” Ox
+If v is the vector in the horizontal plane that is perpendicular to the waterline and pointed out of the fluid into the ship, and dé is the differential
+of arc length along C, along the waterline dy = —v,dé, so,
+
+1 U? 06 OG
+=z/f, lose -o] as — 7 [, [GSE — b5. | val
+
+Now, consider a potential function, ¢’ defined in the region bounded by 5S,
+and 5,. In other words, ¢’ is some function of space such that V7¢' = 0
+in the region where it is defined outside the actual fluid. The boundary
+condition we impose on ¢’ on Sj is the same as the one we impose on ¢ on
+Sy. On S; we impose ¢' = ¢. ve = — es on Sq
+
+1 UV? [a2 aG
+
+An g
+
+In the fluid region,
+
+0= 21 feseso|% 35 - 85a 45
+
+n’ = —n pointed into the fluid on S; and n’ is a unit vector in the z
+direction on Sj4.
+
+Call the contribution to ¢’ from the integral on S4 by ¢4.
+,OG oo ,O°G
+b4= -alh\ez Oz Fe | eety =-E5 / h.\eoe- Fa] eeu
+
+by = — roar a a Fe Oe | deaty
+
+---PAGE BREAK---
+
+[Page 30]
+FMB igs--3
+
+Carrying out the integral over x gives,
+
+, 1U? 0? —, OG 1 U? 0¢' 0G
+by = — 4m g 5 Sor Ce — eae g Sn oe oe ty
+
+,. 1U;[a¢ AG),  1U O¢ 0G
+A=-Eo I |e - 3a | ET Se — oS raat
+
+0= Ff \eSG-e5G] 8+ L, [OSe OG vane
+0= =<fh. C + | dS + zk oe - 155 v,de
+To this, we add the equation for ¢ derived before:
+~ On al hy les on A ds — zh, Ce os - #5 | vedt
+The sum is: —
+s-4/ Le % +5] as ~ ee hole - Ss vpde
+rae + ed is the source (actually it is a sink) strength o.
+
+The normal derivative of + 3, jumps at the interface by the source strength,
+o. The tangential derivative of ¢ is continuous across the interface because
+@ is continuous. oa jumps across the interface by the jump in the normal
+derivative times n,. Therefore,
+
+b= [ [,Gods-= [,Goneraal
+
+---PAGE BREAK---
+
+[Page 31]
+The Kelvin—-Neumann Green Function
+
+The Kelvin Neumann Green Function, G*(z, y, z) is the velocity potential
+for a source located at (a,b,c) and moving at speed U and which satisfies
+the linearized free surface boundary condition:
+
+G* (z,y,0) +vG*k =0, v= 7a
+This function is:
+G¥(a,y,z) = i yi4
+Y;, ~~ r r}
+Au px/2 co e*(?+°) cos[k(x — a) cos 6] cos[k(y — b) sin 6]
+ah! ———fasi-y
+
+wf2 2
+Au [ / ev(2te)sec"8 siniu(x — a) sec 6] cos[u(y — b) sin @ sec? 6] sec? 6d0
+where: ,
+
+r? = (x —a)? +(y—b)? + (z—c)’, r? = (x —a)* + (y—b)? + (z+c)
+
+---PAGE BREAK---
+
+[Page 32]
+Source Only and Dipole Only Distributions
+
+HYPOTHETICAL REAL
+Pevpen FLUID
+DOMAIN DOMAIN
+n
+__y! o_O
+a on On’
+
+@ is the velocity potential in the fluid.
+
+¢' is a function that satisfies V?¢' = 0 in the region inside the object.
+
+For a field point in the fluid domain, the following equations apply:
+
+=7 4 ff oktas > | [ s2as
+1 ad! 1 0G
+0= F115 - alle Sp
+
+o= 2 / fottas+ = | [ous
+
+b= gf [o(Zo +56) as- 2 [ [(o-#) eas
+
+° (x, 4,2) |
+
+SY Set)
+
+---PAGE BREAK---
+
+[Page 33]
+Suppose ¢’ is chosen as the harmonic function whose values on S are the
+same as ¢. The hypothetical interior flow would have the same tangential
+velocity on the object as the real outer flow. Then:
+
+il 6(5n+ on)
+
+This is a representation for ¢ in terms of surface sources only.
+
+This representation does not apply to lifting flows since they have wakes
+across which the potential jumps.
+
+Now consider the case for which ¢’ is chosen such that on S, 2 = oe
+The normal velocity is continuous across the surface for this case. Then:
+
+o=-2[ [(o- ¢) oo as
+
+This is a distribution of dipoles on the object surface S.
+
+---PAGE BREAK---
+
+[Page 34]
+FUBSe OY
+
+Green’s Theorem in Two Dimensions
+
+For two dimensional flow, the source potential is In r and the Green function
+becomes:
+
+G(z,y,€,n) =Inr + o,(2, y, €,0) where: V4, = 0
+
+FLUID
+
+The analysis proceeds exactly the same as in the 3D case. When a point
+P = (z,y), which is the local origin for In r, is outside the fluid domain,
+
+When the point P is inside the fluid domain, Green’s Theorem is valid in a
+domain in which the point P is excluded by a small circle, circle € surrounding
+it since V? 4 0 at P.
+
+OG Ob OG Oo
+Then: — [oe lo - | ds + [,| ie - ORR ds =0
+OG Od
+Here: — irele« or 7 oF ds = —2no(P)
+0 (x,y) outside S
+
+Therefore: I; lose ~- Cod ds= 4 mO(z,y) (r,y)onS
+
+On 2no(z,y) (x,y) inside S
+
+---PAGE BREAK---
+
+[Page 35]
+PMBSe(2)
+
+Sometimes, the two-dimensional Green function is taken as:
+
+G(z,y,€,n) =—-nr+ y,(2,y,& 0) where: V7, = 0
+
+Then,
+0 (x,y) outside S
+
+0G 0d
+o— -G|ds={ —nd(z,y) (2,y) on S
+Is | On mn —27¢(x,y) (x,y) inside S
+
+---PAGE BREAK---
+
+[Page 36]
+FMBY
+
+Force on a Vortex
+_
+\
+
+NN
+nN __ “~
+n = —icos@ — ksin@
+tly = —5— sind w, = > cosd
+2ur
+
+r 2
+= (v - x sina). + (5—cos6) -0|
+2rr
+
+-—?
+
+P=
+
+p{ TU.-. T 7)
+a \-= ~sind + (5—
+
+[ Pnds
+2x pl A a
+-f5 ian ~ (-U sin @ + in) (-i cos 6 — ksin 6) rdQ
+
+Fp
+~ 2m “NUL ~ pUT
+[ Oar sin? Or dé = ks
+
+Uin = iU -n = —U cosé
+
+Momentum influx = M;,
+_ ee cu ~ pUT
+Fy = Min = p f kw,Uinr dO = hk
+
+Fiotat = Fp + Fy = —kpUT
+
+---PAGE BREAK---
+
+[Page 37]
+Lift on a Vortex in a Cylinder
+
+When a vortex is in a uniform stream, to determine the lift force both the pressure
+force and the momentum influx into a circular cylinder must be considered.
+
+If the vortex is in a flow whose streamlines form a cylinder around it, there is no
+momentum influx so the pressure force is the complete force.
+
+A closed circle in a stream can be represented by a dipole.
+
+The velocity potential of a 2D dipole is ¢q = Apia.
+
+For the flow to make a circle of radius equal to 1 in a stream of speed U, A = U.
+the x— and z—directed speeds on the circle of radius 1 due to the dipole are:
+
+ug = U(z? — x”) = U(sin? 6 — cos” @) = —U cos 20
+
+Wa = —2Uzz = —2U sin @ cos @ = —U sin 20
+The speeds obn the circle due to the vortex are:
+
+TT , r
+Uy = 5, sin? Wy = 5, C08?
+
+The pressure on the circle is:
+
+P
+
+p T ; 2 ; ie 2 9
+— = (U ~ U cos 20 ~~ sind) + (—Usin 20+ 5 cos6) —U
+2 27 27
+
+rT \? r Tr
+— —? G + (5) — 2U? cos 26 — OT ein 8 + UT in 8 c08 28 — Fr con sin 25
+2 20 1 1 7
+
+---PAGE BREAK---
+
+[Page 38]
+The vertical force, F,, is:
+
+F,= [" Pn- kao = ie —P sin 6d6
+
+UT /2a
+
+[ (— sin’ 6 + sin” 6 cos 20 — sin 0 cos 6 sin 20) dé
+pUT Qn 2 _1 9 ol 9 )
+
+On [ ( sin* 6 5 C08 20 5 sin 20 | dé
+
+r
+
+---PAGE BREAK---
+
+[Page 39]
+Fei2da(t)
+
+Example: Design of 2D Airfoil Mean Line using Dipoles and Vortices
+
+ee 2a
+y P= 5 PU 5PU + u) ~ —pUu
+n
+. -—_—___
+‘reo & st f= 00
+€=2/c x= c& dx = cdé n=y/c
+
+Design Condition: Prop = —1.0pU7E(1—£) — Phottom = 1-0pU7E(1 — &)
+uz = 1.0UE(1 — €) uy = —1.0UE(1 — €)
+
+be ~ [ udx’ = ef ud = Love [*(é — €*)dé = 1.0Uc (5 - =)
+_ eg &
+gp = —1.0Uc (§ — =
+
+b(E==SUe  H(E=1)=-FUe (He ~ d)guy = Ue
+
+eC & 1.0
+[Dipole Strength],,;, = 4 = 2.0Uc 379 Lwake = aU c
+
+G=Inr=In[(x—2,) + yy)” = 5 1n[(e — 20)" + Y — 40)"
+(Se). (On) Oe
+On}, BYo On), Yo
+
+---PAGE BREAK---
+
+[Page 40]
+Consider the upper surface:
+
+(28) 0G
+On a Oyo (x—2)? + (y — yo)?
+
+eu) = = [we —
+
+og _ 1 (@ = 0)" + (y = Yo)” = 2(y = Yo)”
+ah (ae) [(a — ao)? + (y — yo)?}°
+
+o) [°° ato)? $y = Yo)” = 2y = Yo)” 4
+
+tle) (@-2)+(y—w)e
+
+dXo
+
+0)? + (y — Yo)?|” Zo)? + (y — Yo)?”
+
+Oo 1
+lal = * [° p(x Vana? Pay 55 + = u(c) fr Grae
+
+The above analysis has an incorrect non-integrable singularity at x = x, because a careful limiting analysis requiring V2¢ = 0 was not done.
+
+However, another, and simpler, approach exists.
+
+A dipole represents a jump in the potential. Another way to achieve a potential
+jump is a vortex distribution.
+
+In length dz,, vortex strength =y(x,)dz,. y(Zq) is vorticity /unit-length.
+
+u(z)=U4+% ——alay=0-T2 a(n) = lz) — 0
+
+u(x) = -f ee.
+
+xL — Lo)
+_ u(t) _ pi _¥'&o)
+
+where: ¥'(€) = —-— eee)
+
+ease MO ea
+
+(6)
+
+---PAGE BREAK---
+
+[Page 41]
+Folocla &
+
+Now, we can solve for the mean line shape of the airfoil
+
+For an arbitrarily defined pressure distribution, the integral for the slope can
+be done numerically. Here, for the particular pressure distribution given, we
+will solve for the slope analytically.
+
+Then the shape is found by integrating the slope, s(€). This will be done
+numerically.
+
+7'(€) = 2.0€(1.0 — €)
+
+= ——— dé,
+
+¥' (Eo) _ 1.0 1 €,(1 — &)
+s) = file Ee a hb eR 8,
+
+s() = -2 {5-1-6 [gm +4
+
+Non-Dimensional Height = n() = [* s(€.)dé,
+
+---PAGE BREAK---
+
+[Page 42]
+C:\MATLAB6p1\work\foiltd.m Page 1
+July 11, 2002 9:24:51 AM
+format compact
+
+x = 0 : 0.01 : 1.0;
+
+fac = -1.0/pi;
+
+s = fac.*(0.5 - (1.0-x).*( x.*log((1.0-x+eps) ./(xt+eps))+1.0));
+
+h(1) = 0.0;
+
+for i = 2:101
+
+h(i) = h(i-1l) + (x(i)-x(i-1))*0.5*(s(i)4+s(i-1));
+
+end;
+
+fid = fopen('ht.dat','w');
+
+for m = 1:101
+
+fprintf(fid,'%6.2f %7.4£ %7.4£\n',x(m), s(m), h(m));
+
+end;
+
+fclose (fid);
+
+plot (x,s)
+
+ylabel('Slope')
+
+xlabel('\xi')
+
+pause
+
+plot (x,h)
+
+ylabel ('Camber' )
+xlabel ('\xi')
+title('Camber vs \xi')
+axis([0 1 0 0.066])
+grid
+
+---PAGE BREAK---
+
+[Page 43]
+qoooocooccececocecocodocdcoecocdcco0co co ce°c0co ccc cece0cececececaecaeoao0oceoCcocce0ce0do0o90ocecoecec0coco0ce0co0c0c fo
+
+A
+
+.00
+O21
+.02
+.03
+
+.05
+.06
+-07
+.08
+.09
+
+-11
+
+.13
+
+
+.16
+
+.18
+.19
+
+
+
+.23
+
+
+
+
+.28
+.29
+.30
+
+
+-33
+.34
+
+
+
+-38
+.39
+-40
+
+
+-43
+
+~45
+
+
+-48
+.49
+-50
+ol
+
+.53
+
+
+-56
+
+CLOPE
+
+.1592
+-1705
+
+.1818
+. 1853
+.1878
+.1895
+.1905
+.1909
+.1908
+
+
+.1879
+.1862
+.1842
+.1818
+
+.1763
+
+- 1697
+.1661
+- 1623
+
+
+- 1497
+~1451
+.1405
+
+
+
+.1203
+
+.1095
+. 1040
+
+
+
+.0809
+.0749
+.0689
+-0628
+.0567
+-0505
+.0443
+- 0380
+.0317
+.0254
+~O191
+-0127
+-0064
+- 0000
+.0064
+
+
+.0254
+
+
+ooo 0oco ccc coo cco0coocoo co0coe0co0coecocoocococoececoe0ceaceco0cococoe0co cece 0ce0cC0ce0ce Ceca cece 0ce0ce— ce 0 00 0
+
+HAGE
+
+-0000
+.0016
+
+-0052
+-0070
+
+.0108
+.0127
+.0146
+
+-0184
+
+
+.0240
+.0259
+.0277
+
+-0313
+
+. 0348
+-0364
+-0381
+.0397
+
+
+-0442
+.0457
+.0471
+.0484
+
+
+
+
+
+
+-0562
+.0571
+
+
+-0595
+-0601
+.0607
+-0612
+.0617
+-0621
+.0625
+-0628
+-0630
+-0632
+
+
+-0632
+. 0632
+-0630
+
+
+.0621
+
+oooococoococdoeocoecdaocoecoococeoco0o°coccoocooco0cocacocco0dao coco coococo0cocococooco0coco0co0co0coceeoe0co0°0o°00 [2c 0 0
+
+---PAGE BREAK---
+
+[Page 44]
+Pooococooocoocoocooocoococcocoaocdao0acoococodoceccdcoc0ao0cocceocoococo0o0cecococ0c00coo
+
+
+.59
+. 60
+
+
+. 63
+.64
+.65
+. 66
+.67
+- 68
+.69
+.70
+
+
+.73
+
+-75
+. 76
+
+-78
+
+. 80
+
+.82
+. 83
+. 84
+
+. 86
+.87
+. 88
+. 89
+
+
+
+- 93
+
+
+-96
+
+.98
+-99
+.00
+
+- 0443
+.0505
+-0567
+.0628
+. 0689
+.0749
+
+. 0868
+
+
+.1040
+-1095
+
+
+-1255
+-1306
+
+.1405
+
+
+-1541
+.1583
+.1623
+-1661
+- 1697
+
+- 1763
+.1792
+.1818
+.1842
+
+. 1879
+
+
+.1908
+. 1909
+-1905
+.1895
+.1878
+
+. 1818
+-1771
+-1705
+
+ooocoo coco ccoocoocoococcacdaocococoocococedco0codcnce0cococeacece0do0co0co°0o0a0co0o°c0°0o 9 000 32
+
+.0617
+.0612
+
+.0601
+-0595
+-0587
+.0580
+.0571
+-0562
+
+
+
+.0521
+.0509
+.0497
+.0484
+-0471
+.0457
+
+
+
+.0397
+
+.0364
+.0348
+-0331
+.0313
+.0295
+-0277
+
+.0240
+
+
+.0184
+.0165
+.0146
+.0127
+-0108
+.0089
+.0070
+.0052
+.0034
+
+---PAGE BREAK---
+
+[Page 45]
+0.9
+
+@
+
+Oo
+
+s
+
+oO
+
+©
+
+oO
+
+Oo
+
+vt
+
+fo)
+
+OQ
+
+fo)
+
+N
+
+fo)
+
+an
+
+oO
+
+Oo
+N wW r Lo Oo lo rr w AN
+oO oO co) 7 fo) 7
+
+ados
+
+---PAGE BREAK---
+
+[Page 46]
+Camber vs &
+
+©
+ba
+
+0.05
+
+0.04
+
+Jequie
+
+© 0.03
+
+0.02
+
+0.01
+
+---PAGE BREAK---
+
+[Page 47]
+SLOPE
+
+height
+
+nN;
+
+0.2
+0.1
+
+-0.1
+
+0.2)
+
+0.08
+0.06
+0.04
+0.02
+
+0.2
+
+0.2
+
+0.4
+
+0.4
+
+0.6
+
+0.6
+
+foi Htolg ~ Pesutis
+
+0.8 1.0
+
+0.8 1.0
+
+---PAGE BREAK---
+
+[Page 48]
+foiltd
+format compact
+x = 0 0.01 : 1.0;
+fac = -1. 0/pi
+hay = 6.0 “CO. 5 - (1.0-x).*C€ x.*log((1.0-x+eps) ./Cx+eps))4+1.0));
+for i =
+n= no) + (x(€1)-x(Ci-1))*0.5*(s(i)4+sCi-1));
+en
+fid = fopenC('ht.dat’, 'w');
+for m = 1:101
+Foprintf(fid,'%6.2f %7.4f %7.4f\n',x(m), s(m), h(m));
+
+end;
+fclose (fid);
+plot(x,s)
+ylabelC'Slope')
+xlabelC'\xi')
+pause 4
+
+plot (x,h)
+ylabel(C'Camber')
+xlabelC'\xi'")
+titleC'Camber vs \xi')
+axis({0O 1 0 0.066])
+grid
+
+---PAGE BREAK---
+
+[Page 49]
+foiltda
+% Version of foiltd with one less loop for computing speed improvement
+
+=0 : 0. OL : 1.0;
+ac = -1.0/pi
+s = fac.*(0. 5 - (1.0-x).*( x.*log((1.0-x+eps) ./(x+eps))4+1.0));
+nC) =_ 0:0;
+or ji
+
+:101
+nD = nee 1) + (xCi)-x(Ci-1))*0.5*(sCi)4+sGQ-1));
+
+fid ix reper hta.dat’,'w');
+
+q=
+
+fprintfCfid, "%O. 2F %7.4F %7.4f\n',q);
+fclose (fid ):
+
+plot(x,s)
+
+ylabel('Slope')
+
+xlabel('\xi')
+
+pause
+
+plot(x,h)
+ylabel('Camber')
+Xlabel('\xi')
+titleC'’Camber vs \xi')
+axis({O 1 0 0.066])
+grid
+
+hx
+
+---PAGE BREAK---
+
+[Page 50]
+%
+%
+
+foiltdb
+This version uses even more vectorization and no "for" loops at all.
+
+Version of foiltd with one less loop for computing speed improvement
+
+x=0 : 0. OL : 1.0;
+
+fac = -1. LO
+
+SF fac.*(0. 5’ - (1.0-x).*C€ x.*log((1.0-x+eps) ./(x+eps))4+1.0));
+
+= 0.0;
+
+xd = [0 diff(x)1; % This is [0 x(2)-x(1) x(3)-x(2) ca |
+
+ss = of? 0,5 GT end- 1) + s(2:end) ] % This is [0 s(2)+s(1) s(3)+s(2)
+= 5*xd .* Ss
+
+h = Cumsam(h) : % Each element is the sum of the ones bvefore it.
+Fi Oa fopenc! htb.dat','w');
+
+forinti chia: '%6.2Ff %7.4f %7.4f\n',q);
+
+fclose (fi d);
+
+plot(x,s)
+
+ylabelC'Slope')
+
+xlabelC'\xi')
+
+pause
+
+plot(x,h)
+
+ylabel('Camber’)
+
+xlabel('\xi')
+
+title('Camber vs \xi')
+
+axis([O 1 0 0.066])
+
+grid
+
+---PAGE BREAK---
+
+[Page 51]
+C:\MATLAB6p1\work\foiltda.m Page 1
+July 11, 2002 9:23:45 AM
+
+% Version of foiltd with one less loop for computing speed improvement
+x = 0 : 0.01 : 1.0;
+
+s = fac.*(0.5 - (1.0-x).*( x.*log((1.0-x+eps)./(xteps))+1.0));
+
+h(i) = h(i-1) + (x(i)-x(i-1))*0.5*(s(i)+s(i-1));
+
+end;
+fid = fopen('hta.dat','w');
+q = (x;s;h];
+
+fprint£(fid,'%6.2£ %7.4£ %7.4f\n',q);
+fclose (fid);
+
+plot (x,s)
+
+ylabel('Slope')
+
+xlabel('\xi')
+
+pause
+
+plot (x,h)
+
+ylabel ('Camber' )
+xlabel ('\xi')
+title('Camber vs \xi')
+axis([0 1 0 0.066])
+grid
+
+---PAGE BREAK---
+
+[Page 52]
+A:\foiltdb.m Page 1
+July 11, 2002 9:35:36 AM
+% This version uses even more vectorization and no "for" loops at all.
+% Version of foiltd with one less loop for computing speed improvement
+
+x = 0 : 0.01 : 1.0;
+
+fac = -1.0/pi;
+
+s = fac.*(0.5 - (1.0-x).*( x.*log((1.0-x+teps) ./(x+eps))+1.0));
+
+h(1) = 0.0;
+
+xd = [0 diff(x)]; %* This is [0 x(2)-x(1) x(3)-x(2) ...]
+
+ss = [0 s(l:end-1) + s(2:end) ] % This is [0 s(2)+s(1) s(3)+s(2)
+
+h = 0.5*xd .* ss;
+
+h = cumsum(h); % Each element is the sum of the ones bvefore it.
+fid = fopen('htb.dat','w');
+
+q = [x;s;h];
+
+fprintf(fid,'%6.2f %7.4£ %7.4£\n',q);
+
+fclose (fid);
+
+plot(x,s)
+
+ylabel('Slope')
+
+xlabel('\xi')
+
+pause
+
+plot (x,h)
+ylabel('Camber')
+xlabel ('\xi')
+title('Camber vs \xi')
+axis({0 1 0 0.066])
+grid

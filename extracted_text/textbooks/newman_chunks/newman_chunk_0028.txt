@@ -1,0 +1,65 @@
+d K J T ρ 4 = ( ), (20) Q n d K J Q ρ 5 = ( ). (21) The propeller efficiency ηp is the ratio of the work done by the propeller in developing a thrust force UT, divided by the work required to overcome the shaft torque 2πnQ. Thus, it follows that Figure 2.7 Drag coefficient (17) for the NACA 63–412 section as described in figure 2.6. (Adapt­ ed from Abbott and von Doenhoff 1959)
+
+Model Testing 
+
+Figure 2.8
+Perspective sketch of a propeller and its shaft.
+Figure 2.9
+Two-dimensional view of a propeller blade section, moving to the right with veloc­
+ity U and in the peripheral direction with velocity 2πnr. The local angle of attack α 
+is the difference between the inflow angle tan
+−1 (U/2πnr) and the pitch angle of the 
+blade. The resultant force F contains an axial component (thrust), and a peripheral 
+component (torque/radius).
+
+Chapter 2
+η
+π
+π
+P
+T
+Q
+UT
+nQ
+J K
+K
+=
+=
+
+
+. 	
+(22)
+Figure 2.10 shows values of the thrust and torque coefficients and the 
+efficiency for a series of propellers of varying pitch, which is the axial dis­
+tance of advance in one complete revolution along the helix of the blades. 
+The thrust and torque coefficients are decreasing functions of the advance 
+ratio J, and the thrust coefficient vanishes at a value of J such that the pro­
+peller blades are at zero angle of attack with respect to the incoming fluid. 
+At this same condition there is still a small residual torque, due to frictional 
+drag on the blades and hub. At a slightly higher value of J, the propeller 
+“windmills,” requiring no torque but with a small drag force. For propel­
+ler blades of pure helicoidal shape, the thrust would vanish in the absence 
+of viscous friction at the point where the advance ratio is precisely equal 
+to the pitch-diameter ratio. However, the blades have some camber and, 
+therefore, develop a small amount of lift and thrust at zero geometrical 
+angle of attack.
+Decreasing the advance ratio J increases the angle of attack, as shown in 
+figure 2.9. Thus, in figure 2.10, the thrust and torque coefficients increase 
+monotonically with decreasing values of J. At J = 0 the propeller operates 
+in a regime of large thrust and torque, corresponding to the bollard-pull 
+test of a tug boat exerting a force on a fixed object. The efficiency of this 
+regime is zero, as defined by (22), and the results of figure 2.10 show that 
+the optimum efficiency of a propeller is achieved at a relatively small angle 
+of attack, with maximum efficiencies on the order of 0.6 to 0.8.
+If cavitation occurs, the thrust coefficient will decrease due to the cor­
+responding loss of lift of each blade section. Under these circumstances the 
+torque is also reduced, but not to the same extent, and thus the propeller 
+efficiency decreases. Supercavitating propellers, designed to operate effi­
+ciently in the cavitating regime, have been developed for use in high-speed 
+vessels. As a rule, these propellers are somewhat less efficient than a con­
+ventional subcavitating propeller but more efficient than a conventional 
+propeller that is cavitating. Supercavitating propellers are discussed by Ven­
+ning and Haberman (1962) and Todd (1967). Charts for the characteris­
+tics of conventional propellers, operating in both regimes are given by van 
+Lammeren, Troost, and Konig (1948), and extended by van Lammeren, van 
+Manen, and Oosterveld (1969).

@@ -1,0 +1,492 @@
+[Page 1]
+PANEL METHODS
+
+P|
+
+---PAGE BREAK---
+
+[Page 2]
+z
+a <_
+xX U
+
+Sketch of an Object in a Uniform Stream
+
+®=-Ur+¢
+
+Boundary Condition on Perturbation Potential
+
+OD Od ap
+an © dn Ui
+Three Dimensional Flows
+0 (x,y,z) outside S
+OG Oo aad
+Ife On ox | dS =< —2nd¢(z,y,z) (x,y,z) on S
+
+—4ro(z,y,z) (x,y,z) inside $
+
+1 1
+
+Cem 8) = Ge Or
+where: r = (x — €)? + (y—)2 + (2 —€)?
+
+G can be taken as: G = po +H(z, y, 2,€,n,C) where H is an analytic function
+(V?H = 0 in both (z,y,z) and in (£,7,¢) coordinates. It is used sometimes
+when a particular H makes the integrand zero on flow boundaries external
+to an object, thereby removing the necessity of integrating over them.
+
+---PAGE BREAK---
+
+[Page 3]
+Ps
+
+Interpretation of Green’s Theorem
+
+Sketch of Streamlines from Sink and from Dipole
+
+Sink Dipole
+Sketch of Sink and Dipole Streamlines
+
+The velocity potential inside the fluid domain and on object surface expressed
+as distributions of sources (or sinks for the Green function we have chosen)
+and dipoles on the surface of the object.
+
+G(z,y,2z,€,7,¢) is the velocity potential at (x,y,z) due to a point sink of
+unit strength at (€,7, ¢)
+
+A sheet of of sinks with strength o per unit area causes the normal velocity
+to jump by 470 when crossing the surface from inside the object out into the
+fluid.
+
+ge is the velocity potential at (x,y,z) due to a point dipole of unit dipole
+moment at (£,7,¢) with the axis of the dipole normal to the object and
+
+pointing out of the fluid and into the interior of the object.
+
+A sheet of dipoles with strength yw per unit area causes the velocity potential
+to jump by —47yz when crossing the surface from inside the object out to the
+fluid. That’s why the dipole moment per unit area needs to be ¢ to generate
+a velocity potential of —47@ in the fluid just outside the surface and in the
+fluid.
+
+---PAGE BREAK---
+
+[Page 4]
+Arrangement of the Integral Equation
+e arrange the equation for ¢ in the form of an integral equation with
+unknowns on the left and known quantities on the right.
+
+e The equation will be applied on the surface of the object where the
+boundary conditions specify part of the equation.
+
+e Excluding an infinitesimal surface around the point (€,7,¢) = (2, y, z)
+from the region of integration makes the constant on the right hand side
+of the equation equal to 27 instead of 47.
+
+For problems where 2 5, 18 known on the fluid side of the surface, we write the
+equation for the unknown ¢ with a known right hand side.
+
+If, oc S dene + 2xd(c. Y,z )=/ [32 dS¢n,¢
+
+When we substitute Ui -n for oe the integral equation for the unknown
+velocity potential ¢ is:
+
+---PAGE BREAK---
+
+[Page 5]
+PS”
+
+Numerical Form of the Integral Equation
+
+Sketch of an Object Surface Divided into Quadrilateral Panels
+
+e A quadrilateral panel with four corners on the surface will not necessarily
+be planar.
+
+e The simplest approach is to use approximating planar panels with ¢
+constant on each panel.
+
+For an approximating planar panel, j, place panel centroid, c; = (&},17;, ¢;)
+on the actual object surface and orient the panel such that its normal is
+in the direction of the cross-product of the two diagonal vectors of the
+non-planar panel.
+
+This leaves gaps between the panels which are sources of error. However,
+the smaller the panels, the smaller the gaps. A less erroneous procedure
+uses non-planar panels, but the integrations for the discretized equation
+becomes more complicated.
+
+---PAGE BREAK---
+
+[Page 6]
+PC
+
+Making the Numerical Equations
+
+e Write a separate equation for values of (x,y,z) at the centroid of each
+panel.
+
+e There are N centroids where ¢ will be calculated so there will be NV
+equations.
+
+e The calculation (field) points, which are the panel centroids will be labeled by the index i and the value of ¢ on the i” panel is called ¢; These
+are the unknowns.
+
+e For each equation (one for each of the N valies of 7), the integrals on the
+right hand side are done over each panel (7) individually and the results
+are summed together.
+
+j= I J j= j
+
+j= { ift= 7
+
+0 otherwise
+
+The symbol Gi; means the Green function with the field point at the centroid
+of the i** panel and with the source point varying over all locations in the
+j*" panel as the integration is carried out. Since, in the approximation being
+used, ¢ is a constant,
+
+N OG; N .
+dX $3 Ih On, ASéng + 2065 05 = De | [, GV i- ay(E,0,0 Seng
+j= J j= j
+
+Define:
+
+OGiij _
+/ iA An; ASene + 20 045 = Ai
+
+and
+
+u *
+j= j
+
+---PAGE BREAK---
+
+[Page 7]
+P?
+
+For planar panels, nj(£,7, ¢) is a constant on each panel and we call it n; and
+then Ui-n;(€,7,¢) is a constant on each panel so that:
+
+N 4
+By = 2 Ui nj | f, Gij We n,¢
+j= 7
+The final set of equations for the N values of ¢ is:
+
+N
+j=l
+
+---PAGE BREAK---
+
+[Page 8]
+Solution Steps
+
+e Do the numerical integrals to generate the matrix A and the vector B
+which are integrals of G and ue
+
+e For each field point 7 integrals must be done for all N values of 7. .
+
+e Once A and B are determined, solve the set of linear equations is solved
+for .
+
+e When the number of panels is less than a few thousand, it is practical to
+solve the equations by Gaussian Elimination, or an LU decomposition.
+
+e The burden of carrying out these procedures is removed from the MATLAB user by obtaining the entire solution for all the values of ¢ with
+the MATLAB statement: ¢ = A\B.
+
+e After ¢ and ue have been determined on the surface of the object the
+numerical approximation to the left hand side of Green’s Theorem can
+be used to compute ¢ at any point in the fluid.
+
+e The usual goal of a panel method in fluid mechanics is to find the pressure
+distribution on an object from which the forces and moments can be
+computed. With inviscid fluid mechanics for which the panel method
+was developed, the local pressure, P is given by Bernoulli’s equation:
+
+a
+P=p - 2 _ Il — 92
+
+p is the fluid density and g is the acceleration due to gravity.
+
+The first term on the right hand side applies to time-dependent motion.
+Although this has not been considered explicitely here, one can imagine an
+object moving sinusoidally so that in a reference frame attached to the object
+U is sinusoidal and the solution has time dependence. The third term is
+simply the hydrostatic pressure. The most difficult term on the right hand
+side to compute is generally the second. It is the square of the velocity at
+the object surface.
+
+PS
+
+---PAGE BREAK---
+
+[Page 9]
+Pq
+
+Two Dimensional Panel Methods
+
+The development for two-dimensional flows is similar to the 3D case, except
+that two dimensional source functions are involved and the dimensionality of
+some integrals and associated constants are different.
+
+Two dimensional flows are either mathematical abstractions with all flow
+directions in a two dimensional plane or physical approximations for long
+prismatic objects with an inflow that is perpendicular to the long axis.
+
+Objects for which the Flow is Nearly Two-Dimensional
+
+For the two-dimensional case, Green’s Theorem, is:
+? d
+
+hh
+
+and the Green function is:
+
+0 (x,y) outside S
+
+| de=} —no(x,y) (2,y) on S
+—2ro(z,y) (x,y) inside S
+
+aG 00
+
+On On
+
+where: r= (@— 6? + =a
+
+As in the 3D case, in 2D flows, sometimes the Green function is taken as
+—Inr + h(z,y) where fh is an analytic function which means oh + ch =
+0. Green’s Theorem, still holds with this Green function. It is used for
+problems with boundaries on which the integral in Green’s Theorem vanishes
+
+to simplify the integrations that are necessary.
+
+---PAGE BREAK---
+
+[Page 10]
+PIC
+
+For an incomming stream in the —z direction the total potential is:
+® = —Ux+ ¢, the boundary condition for the perturbation potential, ¢ on
+the surface of the vehicle is oe = Ui-non the object surface.
+
+The integral equation for the unknown function, $(z, y) on the object surface,
+having unknown quantities on the left and known quantities on the right hand
+is:
+
+dG ,
+[OE nz Men + 1O(a,y) = f, GUI-ndle,
+
+---PAGE BREAK---
+
+[Page 11]
+Pli
+
+Numerical Form of the Two Dimensional Integral equation
+The 2D curve is divided into panels which become segments of a curve:
+
+L3 L
+
+Panelization of a Two Dimensional Object
+
+e Each panel( actually a line) is defined by two vertices on the object
+curve. Panel 1 extends from vertex 1 (labeled v; in the figure) to vertex
+2, panel 2 extends from vertex 2 to vertex 3, etc.
+
+e The centroids of each panel, are at the mid-points of the arc length of
+each panel. For flat panels, straight lines are drawn between adjacent
+vertices and the centroids, called c; are moved to the midpoints of each
+straight line panel.
+
+e The unit normal vector, n; on panel 7, is a constant along the length of
+the panel. The panels are defined by the (z, y) values of the two vertices
+at the panel ends.
+
+e For the simplest implementation the potential, ¢, is approximated as
+being a constant on each panel.
+
+With these approximations and definitions, the numerical form of the integral
+equation is:
+OG;
+
+N ; ; nN.
+f St ae. 6;=Ui-n [| Gide,
+2 4% I, An; j + 1; 053 > t- Nj I, jar;
+
+---PAGE BREAK---
+
+[Page 12]
+pir.
+
+Analogous to the 3D case, we define:
+
+en
+Ih, on, Ze; +1 Oi3 = Aij
+
+and
+
+N A
+Vien | Gijdl; = B
+J= J
+Again, the final set of equations for the N unknown values of ¢ is:
+N
+j=l
+
+Calculation of A;; and B;
+
+For a field point 7 located at the midpoint of the i’/th panel we need to
+determine for each panel 7 the value of A;; by integrating = a) over the j’th
+panel. We also need to determine B; by summing up the terms { in the equation
+for B;. General purpose MATLAB m-functions for doing these integrals exist
+and will be provided to students.
+
+---PAGE BREAK---
+
+[Page 13]
+Pi 3
+
+Situations With the Generation of Lift
+
+e If the object in a streaminf flow has a sharp trailing edge, it will usually
+generate lift.
+
+e The lift is related to circulation around the object so that ¢ jumps acorss
+the trailing edge. This results in a “wake” across which the potential
+jumps by the same amount as at the trailing edge.
+
+e To obtain a flow domain in which the velocity potential is analytic (satisfies V?¢ = 0) the wake must be excluded from the domain. The line
+of the wake can be treated as part of the object upon which there is a
+uniform strength dipole sheet which makes the velocity potential jump
+when crossing it.
+
+e Here we will use an approximation in which the wake is presumed to
+follow the free stream direction. Theoretically, the wake is infinitely
+long. For practical purposes, we can model the wake as being about two
+airfoil chord lengths long since dipoles further than this from the object
+(airfoil) will have negligible effect on the flow on the object.
+
+N+1
+
+Ay
+
+Expanded View
+of Wake
+
+A Two-Dimensional Lifting Airfoil With a Wake
+
+---PAGE BREAK---
+
+[Page 14]
+Ply
+
+e Green’s theorem is applied to a curve which starts at the far end of the
+wake at the bottom, goes along the bottom of the wake, goes around
+the foil, and finally goes along the top of the wake. On the top and the
+bottom of the wake, on any wake panel, ge are equal and opposite For
+any control point on the foil where the potential is to be determined
+and a source panel on the wake, G is the same for the two elements
+of the integration path, one on the wake top and one exactly under
+it on the wake bottom. Therefore, for the control points on the foil,
+
+Jwake Gade =0
+
+e At the start of the wake at its junction with the airfoil, there is a jump
+in potential in going from the bottom to the top.
+
+wake top — Pwake bottom = A@ = Qn _ on
+
+This jump in potential is maintained all along the wake because as one
+moves aft along the wake the potential changes the same amount on the
+top and on the bottom by Si cage U(x) dz.
+
+e Thus, for control (field) points on the foil, with LZ being the path around
+the foil, W being the single line along the wake from its aft most considered point to the trailing edge of the foil, and n on the wake pointing
+downward for the configuration shown in the Figure , Green’s theorem
+takes the form:
+
+[eens len + [, Abn S den + 76(8,Y) = [,GUi- ndée »
+
+If the wake panels are labeled N + 1 to M with lengths ds,,, the discretized form of the equations appropriate for numerical solution for
+values of ¢ at control points, 2, on the foil are:
+
+Gi M OG, N
+Dr L5 7, tert (on— -#) & f . Pia tein tb = Yo Ui-n; | Gad;
+
+jw=N+1
+
+---PAGE BREAK---
+
+[Page 15]
+PIs
+
+To put the preceding equation in the same format that was used for the
+non-lifting case, we define:
+
+I, OC de; + Tt Oi; + lov
+
+£] On;
+
+Gy.
+Any dj (jn — O51) = Qi
+
+Then, the final set of equations to be solved is:
+N
+y Qij o; = Bi
+j=
+
+which has the matrix notation:
+
+Q¢=B
+
+---PAGE BREAK---
+
+[Page 16]
+PI6
+
+Computation of pressures and forces
+
+For steady flow, Bernoulli’s equation for dynamic pressure is: P = —p|V|?
+This presumes that in the very far field, the pressure is hydrostatic and
+there is no dynamic pressure there. In unsteady flows, there is an additional
+contribution to the dynamic pressure equal to — p3e which is straightforward
+to compute at each control point.
+
+Here we concentrate on computation of the —rho|V|? term in the dynamic
+pressure. It is most convenient to know this pressure, P; at each control
+point. Then the force is: F = ©, P.n;dé;
+
+The central problem is calculation of the velocity at the surface of the object.
+At each control point, 2, the total flow is tangent to the object surface so we
+need only find tangential velocity. The tangential velocity is the tangential
+derivative of the total potential, ® (perturbation potential plus any exterior
+potential such as —Uz for the steady flow problems we have been considering).
+For two-dimensional flows the tangential velocity component has a single
+direction at each control point. We know how to determine the tangential
+derivative at a point using a modified central difference procedure for smooth
+objects. Even when the object has a sharp edge, this procedure can be used
+for all control points except for those adjacent to a trailing edge. In addition,
+the numerical derivative can be determined at a point that is midway between
+the first and second control points from the trailing edge. Then the tangential
+derivative can be approximated at a control point nearest the trailing edge
+by numerical extrapolation. An example follows.
+
+We know how to calculate the numerical tangential Derivative, called dy» atControl point 2. The lengths of the panels are called L,, L2, ... The tangential
+derivative at point m, called d,, is given by:
+
+y - eh
+™ ~~ 0.5(L1 + Le)
+
+Then, by extrapolation, the derivative at control point 1, called d; is numer-
+
+ically approximated as:
+dz — dn
+dy = dm — a———
+
+---PAGE BREAK---
+
+[Page 17]
+Contro;
+Point 3
+
+Tangential Derivative at a Control Point Near a Sharp Edge

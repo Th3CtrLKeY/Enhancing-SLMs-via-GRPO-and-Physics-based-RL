@@ -1,0 +1,283 @@
+) are small compared to one. For convenience, we will take the origin of the coordinate system so that the leading and trailing edges are situated at x l = ± 1 2 , respectively, as shown in figure 5.7. The boundary condition (4) on the foil can be expressed in a more con­ venient form by utilizing the substantial derivative (3.19). Thus, following the fluid particles on the upper surface of the foil, where y − yu(x) = 0,
+
+Lifting Surfaces 
+
+0 =
+−
+=
+⋅∇
+−
+D
+Dt y
+y
+x
+y
+y
+x
+u
+u
+[
+( )]
+[
+( )],
+V
+	
+(7)
+or
+∂
+∂
+=
+′
+∂
+∂
+−
+
+
+
+
+=
+φ
+φ
+y
+y
+x
+x
+U
+y
+y
+x
+u
+u
+( )
+,
+( ).
+on 
+	
+(8)
+A similar boundary condition applies on the lower surface y = yl.
+The boundary condition (8) shows that the vertical velocity component, 
+and hence the perturbation potential ϕ, will be roughly proportional to the 
+slope of the foil. For sufficiently small values of ′
+yu, the magnitude of the 
+free-stream velocity −U will be much larger than the horizontal component 
+of the perturbation velocity; in that case (8) can be approximated by
+∂
+∂
+−
+′
+=
+φ /
+( ),
+( ),
+y
+Uy
+x
+y
+y
+x
+u
+u
+
+on 
+	
+(9)
+which is valid provided |∂ϕ/∂x| ≪ U. Equation (9) is a first-order approxima­
+tion to (8), in the sense that the perturbation velocity is proportional to 
+the slope ′
+yu, and the neglected term ′ ∂
+∂
+y
+x
+u(
+/
+)
+φ
+ will be of second order in 
+the slope.
+The boundary condition on the foil can be further simplified, consistent 
+with the first-order approximation (9). Since the vertical coordinates of the 
+foil surface differ from zero by a small quantity, the exact surface of the 
+foil may be collapsed onto the cut (−l/2, l/2) of the real axis, with the upper 
+Figure 5.7
+Notation for two-dimensional foil.
+
+Chapter 5
+surface of the foil corresponding to the upper surface y = 0+ of the cut, and 
+conversely for the lower surface. Since singularities may exist on or inside 
+the exact foil, these will be transferred to the cut in a corresponding man­
+ner. Then, provided ∂ϕ/∂y is regular outside the foil, the difference between 
+its value on the exact surface y = yu and the upper side of the cut y = 0+ will 
+be a second-order quantity, i.e., from a Taylor series expansion,
+(
+/
+)
+(
+/
+)
+(
+/
+)
+...
+(
+/
+)
+.
+∂
+∂
+= ∂
+∂
++
+∂
+∂
++
+∂
+∂
+=
+= +
+= +
+= +
+φ
+φ
+φ
+φ
+y
+y
+y
+y
+y
+y y
+y
+u
+y
+y
+u
+
+
+
+
+
+(10)
+Combining the approximations (9) and (10) gives the first-order linear­
+ized boundary condition on the upper surface of the foil, in the form
+∂
+∂
+= −
+′
+=
++ −
+<
+<
+φ
+y
+Uy
+x
+y
+l
+x
+l
+u( ),
+,
+.
+on 
+
+
+
+(11)
+An identical argument gives the corresponding boundary condition
+∂
+∂
+= −
+′
+=
+−−
+<
+<
+φ
+y
+Uy x
+y
+l
+x
+l
+l( ),
+,
+,
+on 
+
+
+
+(12)
+on the lower surface. These linearized boundary conditions effectively 
+replace the foil by a suitable distribution of the vertical velocity on the cor­
+responding cut of the x-axis.
+Before attempting to solve this linearized boundary-value problem, let 
+us consider the corresponding first-order approximation for the hydrody­
+namic pressure force and moment. From the steady form of Bernoulli’s 
+equation (4.26), the dynamic pressure in the fluid is given by
+p
+p
+U
+u
+v
+uU
+−
+= −
+⋅
+−
+= −
++
+−
+∞
+
+
+
+
+
+
+
+
+ρ
+ρ
+(
+)
+(
+).
+V V
+	
+(13)
+Neglecting the nonlinear terms of second-order in the perturbation veloc­
+ity gives
+p
+p
+uU
+−
+∞ ρ
+. 	
+(14)
+Thus, the linearized pressure is simply proportional to the horizontal per­
+turbation velocity component u = ∂ϕ/∂x.
+The vertical lift force L acting on the foil is obtained, to the same order 
+of approximation, by integrating the jump in pressure across the cut. Thus, 
+it follows that
+L
+p
+p
+dx
+U
+udx
+U
+=
+−
+=
+=
+∞
+∫
+∫
+(
+)
+,
+
+
+ρ
+ρ Γ 	
+(15)

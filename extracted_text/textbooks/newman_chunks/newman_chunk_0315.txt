@@ -1,0 +1,93 @@
+solution. This technique has been developed for the case Fh = 0 by Newman (1969) and extended to subcritical Froude numbers 0 < Fh < 1 by Breslin (1972). The same technique is applied to horizontal motions in a seaway by Beck and Tuck (1972). For longitudinal flows, as in the case of an unbounded fluid treated in section 7.2, it is essential to match the source-like flow in the inner region with an outer three-dimensional solution. This matching procedure
+
+Chapter 7
+determines an arbitrary function f(x, t) in the inner solution, which affects 
+the pressure distribution and resulting forces on the body. We shall illus­
+trate this situation for the steady forward motion of a ship in shallow 
+water, a problem that was solved first, in the sense described here, by Tuck 
+(1966).
+The problem to be solved is that of the steady forward motion of a slen­
+der ship moving on the free surface in shallow water. Since the motion is 
+steady state in the moving reference frame (x, y, z), the inner solution near 
+the hull surface can be expressed in the form
+φ( , , )
+[
+( , ; )
+( )].
+x y z
+U
+y z x
+f x
+=
++
+Φ1
+	
+(132)
+Here Φ1 is a solution of the two-dimensional Laplace equation (12), and as 
+in (17), the boundary condition
+∂
+∂
+=
+Φ
+Σ
+
+N
+n
+x
+x
+B
+,
+( ).
+on 
+	
+(133)
+In addition, ∂Φ1/∂y = 0 on the free surface y = 0 and on the bottom y = h.
+The function f(x) in (132) is a homogeneous solution of this boundaryvalue problem. As such, f(x) is indeterminate from the inner solution, 
+and must be found by matching (132) with the outer solution, where 
+three-dimensional effects are significant but where the body geometry is 
+unimportant.
+Because of the boundary condition (133) and the relation (21), the solu­
+tion for Φ1 is source-like with a net flux Q equal to (minus) the rate of 
+change of sectional area S′. In shallow water this flux is constrained by the 
+free surface y = 0 and the bottom at y = −h. Thus, far from the body in the 
+inner region, the flux must be a horizontal streaming flow, divided sym­
+metrically in the two directions. The velocity of this streaming flow is Q/2h, 
+and the outer expansion of the inner solution must be of the form
+∂
+∂
+′
+→± ∞
+Φ1
+
+z
+S
+h
+z
+ ∓ /
+,
+/
+.
+for 
+ε
+	
+(134)
+The decomposition (132) can be made unique by integrating (134),and 
+specifying the asymptotic form of Φ1 as
+Φ1
+
+≫
+−
+′
+(
+/
+)
+,
+.
+S
+h z
+z
+for 
+ε 	
+(135)
+Equations (134–135) hold in the overlap region ε ≪ y ≪ 1, where they 
+are to be matched to the inner expansion of the outer solution.

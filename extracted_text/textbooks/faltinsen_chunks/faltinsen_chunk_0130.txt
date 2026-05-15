@@ -1,0 +1,103 @@
+tension in cable line B is 140 KN when the vessel has moved 25 m to left. From this we may conclude that the necessary horizontal environmental force on the platform in direction A—B to move anchor A is 800-140 = 660 kN. We may also use Fig. 8.7 to study the displacement of the platform as a function of the environmental forces on the platform. This may be done by giving the platform a displacement 6 and finding the
+
+sion ARRON
+
+a
+
+g
+
+268 STATIONKEEPING
+
+horizontal tension in line A (Ta) and horizontal tension in
+line B (Typ) from Fig. 8.7. The horizontal environmental
+force in direction A—B has to. be Ty, — Typ to get a balance
+of the forces acting on the platform. The functional
+relationship between Tz, — Ty and 6 is plotted in Fig. 8.8.
+
+Solution of the elastic cable line equations
+In extreme conditions we have to consider the effect of the elasticity in
+the cable lines. We will show how this can be done in an approximate
+way. Equations (8.2) and (8.3) which set up relationships between the
+effective tension 7, element angle ¢ and unstretched element length ds
+are still valid. This means equations (8.4) and (8.5) are also valid. Since
+we have chosen @p and Sy to be zero, it means that
+
+=to (8.27)
+cos @
+T, '
+s=—tang (8.28)
+w
+T, 4
+| 2
+
+z ‘|
+
+=]
+wn
+=z
+’ |
+a
+<<
+ol
+=z
+g 500
+a
+=) 4
+x
+
++50m
+0 100 200 300 400 500 600 m
+Anchor position Horizontal
+line A : position
+
+Fig. 8.7. Horizontal force on the vessel from anchor lines Aand Basa
+function of horizontal displacement of the vessel illustrated in Fig.
+8.6.
+
+MOORING SYSTEMS 269
+
+To find the x- and g-coordinates we have to use the following
+relationship between the stretched length dp and unstretched length ds of
+a cable element
+
+T
+dp = ds(1+ ==) (8.29)
+
+This means
+
+,
+
+dx T\_ T’\ _ To
+a8 (1+ ==) ~c0s o(1 +) = cos @ +58 (8.30)
+
+,
+
+dz, T T' w
+sn g(1+2)=sino(1+Z) acing rs @
+as sin 9( AE sin d{ 1 AE sine +755 (8.31)
+The last term on the right hand side of equation (8.31) follows by
+combining equation (8.27) with equation (8.28). We will now integrate
+equations (8.30) and (8.31) up to the attachment point of the cable line to
+the vessel. For simplicity we will assume the attachment point is at z = 0.
+We should note that the vertical component 7, of the tension at the
+attachment point is given by equation (8.13). This means the unstretched
+length J, (see Fig. 8.3) of the cable from the point where cable first
+touches the bottom to the attachment point can be written
+T,
+i= 3 (8.32)
+
+By integrating equation (8.31) in a similar way as in equation (8.7) it
+follows that
+h= 1}+- 2
+
+w Leos dy 2AE i
+
+Environmental horizontal force
+=THA-THB
+
+660 al
+
+25m 5 displocement
+
+Fig. 8.8. Mean environmental horizontal force on the vessel described in Fig.
+8.6 as a function of horizontal displacement.

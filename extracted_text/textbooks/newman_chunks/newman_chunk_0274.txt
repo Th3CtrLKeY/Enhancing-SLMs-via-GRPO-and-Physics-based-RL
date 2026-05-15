@@ -1,0 +1,149 @@
+∂ −∂ ∂ ∂ ∂ + ∂ ∂ −∂ ∂    φ φ φ ζ φ ζ ζ x U F x y F y z x x U x t  ∂ ∂ = F z 0. (6) Here ϕ(x0, y0, z0, t) is the velocity potential due to the presence of the body, which is defined initially with respect to the fixed coordinates (x0, y0, z0). Figure 7.1 Definition sketch for slender body and coordinate systems.
+
+Chapter 7
+Since ∇F is a vector normal to SB, (6) can be rewritten in the form
+∂
+∂
+=
++
+∂
+∂−
+∂
+∂
++ ∂
+∂
+∂
+∂
+
+
+
+
+φ
+ζ
+ζ
+φ
+ζ
+n
+Un
+t
+U
+x
+x
+x n
+S
+x
+z
+B
+
+,
+,
+on 
+	
+(7)
+where n is the unit normal vector into the body. The boundary-value prob­
+lem is completed by requiring that the potential vanish at large distances 
+from the body,
+φ →
++
++
+→∞
+
+
+
+2 1 2
+as (
+)
+,
+/
+x
+y
+z
+	
+(8)
+and by invoking Laplace’s equation,
+∂
+∂
++ ∂
+∂
++ ∂
+∂
+=
+
+
+
+
+
+
+
+
+
+
+φ
+φ
+φ
+x
+y
+z
+, 	
+(9)
+throughout the fluid domain.
+Before making the slenderness approximation, we note that the first 
+term on the right side of (7) is associated with the boundary condition 
+for the longitudinal-flow problem, and the remaining contribution to (7) 
+is associated with the lateral motion. These two problems can be treated 
+separately, since the lateral motion is assumed small, with a linear decom­
+position identical to the lifting and thickness problems treated in chapter 
+5. In particular, the boundary condition for the longitudinal-flow problem 
+can be imposed on the “stretched-straight” position of the body with ζ = 0.
+The boundary-value problem (7–9) can be simplified if the body is slen­
+der. Geometrically, it follows from (1) that the unit normal vector n will 
+coincide with the plane x = constant as ε → 0, or
+n
+O
+n
+O
+n
+O
+x
+y
+z
+=
+=
+=
+( ),
+( ),
+( ).
+ε
+
+
+(10)
+On this basis, the normal derivative in (7) can be approximated by the twodimensional normal derivative in the y-z plane.
+There is also a hydrodynamic consequence of slenderness. To see this, we 
+adopt an inner reference frame, fixed with respect to the scale of the cross 
+section ∑B. From this viewpoint, d = O(l) whereas l = O(l/ε). As ε → 0, the 
+transverse scale remains fixed while the body length tends to infinity. The 
+fluid velocity field then appears nearly constant in the longitudinal direc­
+tion, with ∂/∂x0 = O(ε). In this inner region it follows that
+∂
+∂
+∂
+∂
+∂
+∂
+
+
+
+
+φ
+φ
+φ
+x
+y
+z
+
+
+
+≪
+,
+, 	
+(11)

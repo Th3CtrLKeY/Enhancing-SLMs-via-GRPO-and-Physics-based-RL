@@ -1,0 +1,91 @@
+coefficient can be measured by recording the wave amplitude at two or more positions and analyzing the measured data in conjunction with (56). More general wave motions, which are no longer monochromatic, can be obtained by superposing plane waves of different wavenumbers or fre­ quencies. In the two-dimensional case, we begin by forming a discrete sum of waves of the form η ω = − + =∑Re[ exp( )], A ik x i t n n n n N (57)
+
+Waves and Wave Effects 
+
+with a corresponding representation of the velocity potential (16) or (23) 
+Here kn denotes the wave number of the nth wave component, and ωn its 
+frequency. These two parameters must satisfy the appropriate dispersion 
+relation (17) or (24) for each value of n. The amplitude An of each compo­
+nent is arbitrary and may be chosen to suit the desired solution, including 
+the possibility that each An is complex with a different phase.
+If the total number of discrete waves N tends to infinity, while the dif­
+ference between adjacent frequencies and wave numbers reduces to zero, 
+the sum (57) will tend to an integral over the continuous spectrum of 
+frequencies,
+η
+ω
+ω
+ω
+ω
+( , )
+Re
+( )exp[
+( )
+]
+.
+x t
+A
+ik
+x
+i t d
+=
+−
++
+−∞
+∞
+∫
+	
+(58)
+Here k(ω) > 0 must satisfy the appropriate dispersion relation (17) or (24); 
+negative values of the frequency have been admitted in this representa­
+tion, to allow for the possibility of plane waves moving in the negative 
+x-direction, without explicitly writing out a second term of the form (50). 
+Equation (58) can alternatively be expressed in an equivalent form as an 
+integral over all possible wave numbers −∞ < k < ∞, with ω(k) > 0 determined 
+by the appropriate dispersion formula.
+These distributions of wave systems can be extended from two to three 
+dimensions by introducing the oblique wave (51) and summing or inte­
+grating over all possible wave directions θ. In the most general case of a 
+continuous distribution, a two-dimensional integral representation follows 
+of the form
+η
+ω
+θ
+ω θ
+ω
+θ
+θ
+ω
+π
+( , , )
+Re
+( , )exp[
+( )( cos
+sin )
+].
+x z t
+d
+d A
+ik
+x
+z
+i t
+=
+−
++
++
+∞
+∫
+∫
+
+
+
+(59)
+This expression will be used to analyze ship waves in section 6.10. It also 
+can be utilized, with A(ω, θ) a random variable, to represent a spectrum of 
+ocean waves. The latter application will be discussed in section 6.20.
+The integral in (58) is recognized as a Fourier integral, and (59) is a twodimensional integral. Thus a large class of physically relevant wave systems 
+can be represented, and the inversion formulas from Fourier theory can be 
+used to find the appropriate amplitude functions A(ω) or A(ω, θ) required 
+to generate a prescribed wave elevation η. This procedure can be utilized 
+to solve the Cauchy-Poisson problem for the wave motion resulting from a

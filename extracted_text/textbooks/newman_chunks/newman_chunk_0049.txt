@@ -1,0 +1,98 @@
+0. (3) Similarly, the momentum density of a fluid particle is equal to the vec­ tor ρV, with components ρui. Conservation of momentum requires that the sum of all forces acting on the fluid volume be equal to the rate of change of its momentum, with respect to a Newtonian frame of reference, or d dt u d n dS F d i ij j S i ρ τ     ∫∫∫ ∫∫ ∫∫∫ = + . (4)
+
+The Motion of a Viscous Fluid 
+
+Here the surface integral is the ith component of the surface forces 
+acting on S, and the last volume integral is the sum of the body forces, 
+such as that due to gravity. The conventions stated at the end of section 
+3.1 apply.
+Equation (4) can be put in a more convenient form, involving only vol­
+ume integrals, by using the divergence theorem
+∇⋅
+=
+⋅
+∫∫∫
+∫∫
+Q
+Q n
+d
+dS
+S
+
+
+. 	
+(5a)
+This can be rewritten in the indicial notation as
+∂
+∂
+=
+∫∫∫
+∫∫
+Q
+x d
+Q n dS
+i
+i
+i
+i
+S
+
+
+. 	
+(5b)
+Here Q is any vector that is continuous and differentiable in the volume 
+, and the unit normal n is the exterior normal vector pointing out of  on 
+the surface S. Using (5b) to transform the surface integral in (4),
+d
+dt
+u d
+x
+F d
+i
+ij
+j
+i
+ρ
+τ
+
+
+
+
+∫∫∫
+∫∫∫
+=
+∂
+∂
++
+
+
+
+
+. 	
+(6)
+Equations (3) and (6) express the conservation laws of mass and momen­
+tum for the fluid, in terms of an arbitrary prescribed material volume ( )t . 
+The need to consider this volume integral and especially its time derivative 
+is inconvenient, however. To overcome this problem, we first consider the 
+evaluation of the time derivative, bearing in mind that the volume of inte­
+gration is itself a function of time.
+3.3  The Transport Theorem
+Let us consider a general volume integral of the form
+I t
+f
+t d
+t
+( )
+( , )
+.
+( )
+= ∫∫∫
+x
+
+
+	
+(7)
+Here f is an arbitrary differentiable scalar function of position x and time t 
+to be integrated over a prescribed volume ( )t , which may also vary with 
+time. Therefore the boundary surface S of this volume will change with 
+time, and its normal velocity is denoted by Un.

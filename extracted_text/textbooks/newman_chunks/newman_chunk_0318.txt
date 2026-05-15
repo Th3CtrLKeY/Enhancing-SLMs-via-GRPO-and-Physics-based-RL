@@ -1,0 +1,186 @@
+by pressure inte­ gration from the formula D F pn dS U f x S x dx x x S l B = − = − = − ′ ′ ∫∫ ∫ ρ ( ) ( ) . (145) Here we use (21) and the fact that the first-order pressure (144) is constant across the body section. In the subcritical case, the wave resistance (145) vanishes. This can be confirmed directly, by substituting (138). The derivative of (138) is a
+
+Hydrodynamics of Slender Bodies 
+
+Cauchy principal-value integral, and the result of substituting this in (145) 
+is a double integral that changes sign if the dummy variables are inter­
+changed. Thus this double integral must vanish. More directly, since the 
+outer solution in the subcritical case is governed by Laplace’s equation, 
+with transformed coordinates, it follows from D’Alembert’s paradox that 
+there can be no drag force. In essence, there can be no wave resistance, to 
+leading order, since there are no waves in this outer solution.
+In the supercritical case, the wave resistance is nonvanishing, essentially 
+because the outer solution (141) propagates to infinity without attenua­
+tion downstream. Formally, substituting (142) in (145), it follows that, for 
+Fh > 1,
+D
+U
+h F
+S x
+dx
+h
+l
+=
+−
+′
+∫
+ρ
+
+
+1 2
+
+
+
+(
+)
+[
+( )]
+.
+/
+	
+(146)
+Note that this drag force is positive definite.
+The vertical force and pitch moment can be obtained from pressure inte­
+gration in the forms
+F
+pn dS
+U
+B x f
+x dx
+y
+y
+S
+l
+B
+=
+′
+∫∫
+∫
+ ρ
+
+( )
+( )
+, 	
+(147)
+M
+pn xdS
+U
+B x f
+x xdx
+z
+y
+S
+l
+B
+
+
+∫∫
+∫
+′
+ρ
+
+( )
+( )
+, 	
+(148)
+where B(x) denotes the local waterplane beam.
+In the subcritical case, it is convenient to integrate (147–148) by parts, 
+before substituting (138). Assuming that the beam vanishes at the bow and 
+stern, it follows that for Fh < 1,
+F
+U
+h
+F
+B x
+S
+x d dx
+y
+h
+l
+l
+=
+−
+′
+′
+−
+∫
+∫
+ρ
+π
+ξ
+ξ
+ξ
+
+2 1 2
+
+
+(
+)
+( )
+( )log
+,
+/
+	
+(149)
+M
+U
+h
+F
+xB x
+S
+x d dx
+z
+h
+l
+l
+=
+−
+′
+′
+−
+∫
+∫
+ρ
+π
+ξ
+ξ
+ξ
+
+2 1 2
+
+
+(
+)
+[
+( )]
+( )log
+.
+/
+	
+(150)
+In the supercritical case, (142) can be substituted directly in (147–148), and 
+thus for Fh > 1,
+F
+U
+h F
+B x S x dx
+y
+h
+l
+= −
+−
+′
+∫
+ρ
+
+
+1 2
+
+
+(
+)
+( ) ( )
+,
+/
+	
+(151)

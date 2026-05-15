@@ -1,0 +1,56 @@
+2.7 shows the drag coefficient. For small positive or negative angles of attack where the lift force is small, the drag coefficient is insensi­ tive to the Reynolds number and takes a value comparable to the flat plate frictional drag coefficient. As stall is approached, the drag goes up apprecia­ bly and in a manner sensitive to the Reynolds number. Since the magnitude of the drag coefficient is small by comparison to the lift, these effects are of less importance.
+
+Model Testing 
+
+2.8  Screw Propeller
+A screw propeller consists of several hydrofoil-type lifting surfaces, arranged 
+in a helicoidal fashion to produce lift and thrust when rotated about the 
+axis. The dimensional analysis of propellers is similar to that of the simpler 
+hydrofoil, except for a change in the conventional set of physical parame­
+ters. We now consider the required shaft torque Q and resulting axial thrust 
+force T associated with a propeller of diameter d, which rotates with con­
+stant angular velocity n while simultaneously moving in the forward (axial) 
+direction with velocity U, as shown in figure 2.8. Note that n is the number 
+of shaft revolutions per unit time; thus, the peripheral velocity of the blade 
+at a radius r is 2πnr. A velocity diagram of the blade element at r is as shown 
+Figure 2.6
+Lift coefficient (16) for a two-dimensional hydrofoil. The results here are for the 
+NACA 63–412 section which is shown in figure 2.5. The dashed curve (— — —) 
+shows the behavior at stall for a foil with artificial roughness near the leading edge, 
+for R = 6 × 10
+6. (Adapted from Abbott and von Doenhoff 1959)
+
+Chapter 2
+in figure 2.9, which may be compared with figure 2.5. The angle of attack is 
+measured now by the nondimensional advance ratio J = U/nd.
+The results of section 2.7 suggest that Reynolds-number effects will be 
+negligible, provided the propeller is not operated in a regime of exces­
+sive angle of attack. Similarly, we assume no cavitation. It follows that the 
+thrust and torque can be nondimensionalized so as to depend only on the 
+advance ratio, in the form
+T
+n d
+K
+J
+T
+ρ
+
+4 =
+( ), 	
+(20)
+Q
+n d
+K
+J
+Q
+ρ
+
+5 =
+( ). 	
+(21)
+The propeller efficiency ηp is the ratio of the work done by the propeller in 
+developing a thrust force UT, divided by the work required to overcome the 
+shaft torque 2πnQ. Thus, it follows that
+Figure 2.7
+Drag coefficient (17) for the NACA 63–412 section as described in figure 2.6. (Adapt­
+ed from Abbott and von Doenhoff 1959)

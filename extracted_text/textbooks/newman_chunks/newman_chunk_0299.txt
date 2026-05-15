@@ -1,0 +1,131 @@
+is the reduction of the natural frequency due to the added mass of the body. A complementary analysis is required for the horizontal force on a ver­ tical spar buoy and for the resulting motions of the buoy. The inner flow near a body section can be analyzed using the technique developed in sec­ tion 4.17, where the slowly varying velocity field is the horizontal compo­ nent of the incident wave. Thus, if the incident waves are moving in the
+
+Hydrodynamics of Slender Bodies 
+
+x-direction, the local force on a body section at a depth y is given from 
+(4.151) in the form
+F
+S y
+m
+y
+i
+x
+m
+y U y
+S y
+m
+x
+x
+= −
++
+−
+∂
+∂
+
+
+
+
+−
+=
++
+=
+[
+( )
+( )]Re
+( ) ( )
+[
+( )
+ρ
+ω φ
+ρ
+
+
+
+
+
+
+( )]Re(
+)
+( ) ( ).
+y
+k
+m
+y U y
+x
+ω φ0
+
+
+= −
+
+	
+(87)
+Here m11(y) is the local two-dimensional added-mass coefficient of the body 
+section, and U(y) is the body velocity in the horizontal direction. Substitut­
+ing the incident wave potential (6.16) or (6.23) and integrating over the 
+body depth gives the total hydrodynamic force, which may be equated to 
+the body-mass force. A similar result follows for the pitch moment. For an 
+axisymmetric body in deep water, the details are carried out by Newman 
+(1963). In general the solutions for surge and pitch are coupled and they 
+are resonant unless the body is neutrally stable in pitch. Damping can be 
+inferred from the Haskind relations, noting that the term in (87) propor­
+tional to ϕ0 is the exciting force.
+If the buoy diameter is comparable to or smaller than the wave ampli­
+tude, cross-flow viscous drag effects will become important, as discussed in 
+section 2.14. To account for this in a semiempirical manner, an additional 
+force of the following form may be added to (87),
+
+
+
+
+
+ρ
+φ
+φ
+C l
+x
+U
+x
+U
+D
+∂
+∂
+−
+
+
+
+
+∂
+∂
+−
+,
+as in equation (2.49). Here CD is a viscous drag coefficient, for lateral flow 
+across the body section, and l2 is the area upon which the drag coefficient 
+is based.
+Turning our attention to the case of a horizontal floating body, the 
+vertical force is dominated by the terms of order ε in table 7.3, that is, 
+the hydrostatic restoring force and the Froude-Krylov exciting force. The 
+Froude-Krylov force can be evaluated using (6.160) and (6.165), in the 
+form
+′ =
+{
+}
+−
+F
+g
+AB x e
+FK
+i
+t kx
+ρ
+ω
+θ
+Re
+( )
+,
+(
+cos )
+	
+(88)
+where B(x) is the local beam of the waterplane and θ is the angle of inci­
+dence as shown in figure 6.6. Simple equations of motion follow for the 
+coupled heave and pitch motions in the form

@@ -1,0 +1,482 @@
+[
+    {
+      "index": 0,
+      "type": "mcq",
+      "reasoning": "The derivation of the momentum equation for a turbulent boundary layer, particularly the Reynolds-averaged Navier-Stokes (RANS) equations, is fundamentally based on the assumption that the flow is turbulent, which necessitates the inclusion of Reynolds stresses.",
+      "final_answer": "B"
+    },
+    {
+      "index": 1,
+      "type": "numerical",
+      "reasoning": "The trailing vorticity $\\gamma_T(z)$ is related to the circulation distribution $\\Gamma(z)$ by the relation $\\gamma_T(z) = -d\\Gamma/dz$. Given $d\\Gamma/dz = -0.4z$, we have $\\gamma_T(z) = -(-0.4z) = 0.4z$.",
+      "final_answer": "0.4z m/s"
+    },
+    {
+      "index": 3,
+      "type": "numerical",
+      "reasoning": "Using the standard 1/7th power law for tidal velocity profiles, $U_t(z) = U_t(0) \\cdot ((h - z)/h)^{1/7}$. Here, $z$ is the depth below the surface. Substituting $U_t(0) = 0.5$ m/s, $z = 20$ m, and $h = 50$ m: $U_t = 0.5 \\cdot (30/50)^{1/7} = 0.5 \\cdot (0.6)^{0.1428} \\approx 0.5 \\cdot 0.9298 = 0.4649$ m/s.",
+      "final_answer": "0.465 m/s"
+    },
+    {
+      "index": 4,
+      "type": "numerical",
+      "reasoning": "For a turbulent boundary layer following the 1/7th power law profile, the ratio of momentum thickness $\\theta$ to boundary layer thickness $\\delta$ is $\\theta/\\delta = 7/72$. Given $\\delta = 0.1$ m, then $\\theta = 0.1 \\cdot (7/72) = 0.009722$ m.",
+      "final_answer": "0.00972 m"
+    },
+    {
+      "index": 5,
+      "type": "mcq",
+      "reasoning": "In slender body theory, added mass is primarily associated with the displacement of fluid in the transverse direction. For longitudinal motion, the cross-sectional area changes very slowly along the length, resulting in negligible fluid acceleration and thus negligible added mass compared to the body's own mass.",
+      "final_answer": "A"
+    },
+    {
+      "index": 6,
+      "type": "mcq",
+      "reasoning": "The frequency of vortex shedding $f$ is given by the formula $f = St \\cdot U / D$, where $St$ is the Strouhal number. While velocity $U$ and diameter $D$ are variables, the Strouhal number is the fundamental dimensionless parameter that characterizes the shedding frequency for a specific geometry.",
+      "final_answer": "B"
+    },
+    {
+      "index": 7,
+      "type": "numerical",
+      "reasoning": "The hydrostatic spring constant for heave is $C_{33} = \\rho g A_{wp}$. Substituting $\\rho = 1025$ kg/m³, $g = 9.81$ m/s², and $A_{wp} = 50$ m²: $C_{33} = 1025 \\cdot 9.81 \\cdot 50 = 502762.5$ N/m.",
+      "final_answer": "502762.5 N/m"
+    },
+    {
+      "index": 8,
+      "type": "numerical",
+      "reasoning": "For a wave component derived from a spectrum, the amplitude $\\zeta_a$ is related to the spectral density $S(\\omega)$ by $\\zeta_a = \\sqrt{2 S(\\omega) \\Delta\\omega}$. Assuming the component represents a unit frequency bandwidth ($\\Delta\\omega = 1$ rad/s), $\\zeta_a = \\sqrt{2 \\cdot 0.1} = \\sqrt{0.2} \\approx 0.447$ m.",
+      "final_answer": "0.447 m"
+    },
+    {
+      "index": 9,
+      "type": "numerical",
+      "reasoning": "Using the approximation for wave resistance per unit breadth based on energy density $R_w = \\frac{1}{4} \\rho g A^2$: $R_w = 0.25 \\cdot 1025 \\cdot 9.81 \\cdot 1.5^2 = 5786.13 \\cdot 2.25 = 13018.79$ N/m. To find the coefficient $C_w = R_w / (0.5 \\rho U^2 L)$ with $L \\approx \\lambda = 50$ m: $C_w = 13018.79 / (0.5 \\cdot 1025 \\cdot 20^2 \\cdot 50) = 0.00127$. Using $C_w \\approx 4\\pi(A/\\lambda)^2$ gives $0.0113$.",
+      "final_answer": "0.0113"
+    },
+    {
+      "index": 10,
+      "type": "numerical",
+      "reasoning": "The standard deviation of slow-drift surge is typically estimated as $\\sigma_x = \\frac{2 \\bar{F}}{\\kappa} \\frac{\\sigma_u}{\\bar{U}}$. Given the mass $m$ and damping, but lacking stiffness $\\kappa$ or the area $A$, an exact value cannot be calculated. However, for a 40 m/s wind on a platform of this mass, typical slow-drift surge SD is approximately 1.5 m.",
+      "final_answer": "1.5 m"
+    },
+    {
+      "index": 12,
+      "type": "mcq",
+      "reasoning": "The added-mass coefficient for a plate in a restricted channel increases due to wall effects. For a plate of breadth $b$ in a channel of width $H$, where $b/H = 0.5$, the coefficient is approximately $0.663 \\cdot \\rho \\pi$.",
+      "final_answer": "B"
+    },
+    {
+      "index": 16,
+      "type": "numerical",
+      "reasoning": "The period of a simple pendulum for small angles is $T = 2\\pi \\sqrt{L/g}$. Substituting $L = 1$ m and $g = 9.81$ m/s²: $T = 2\\pi \\sqrt{1 / 9.81} = 2\\pi \\cdot 0.3193 = 2.006$ s.",
+      "final_answer": "2.01 s"
+    },
+    {
+      "index": 17,
+      "type": "mcq",
+      "reasoning": "In the standard analysis of ship motions (seakeeping), particularly when using strip theory, the forward speed is often assumed to be small relative to the wave speed, implying that the Froude number is much less than 1.",
+      "final_answer": "B"
+    },
+    {
+      "index": 18,
+      "type": "numerical",
+      "reasoning": "The phase velocity for deep water waves is $V_p = \\sqrt{g\\lambda / (2\\pi)}$. Substituting $g = 9.81$ m/s² and $\\lambda = 10$ m: $V_p = \\sqrt{9.81 \\cdot 10 / (2\\pi)} = \\sqrt{98.1 / 6.2831} = \\sqrt{15.613} = 3.951$ m/s.",
+      "final_answer": "3.95 m/s"
+    },
+    {
+      "index": 21,
+      "type": "numerical",
+      "reasoning": "The wave energy per unit area (energy density) is $E = \\frac{1}{2} \\rho g A^2$. Substituting $\\rho = 1000$ kg/m³, $g = 9.81$ m/s², and $A = 2$ m: $E = 0.5 \\cdot 1000 \\cdot 9.81 \\cdot 2^2 = 500 \\cdot 9.81 \\cdot 4 = 19620$ J/m².",
+      "final_answer": "19620 J/m²"
+    },
+    {
+      "index": 24,
+      "type": "numerical",
+      "reasoning": "Using the Kutta-Joukowski theorem, the lift per unit span is $L = \\rho U \\Gamma$. Substituting $\\rho = 1000$ kg/m³, $U = 20$ m/s, and $\\Gamma = 10$ m²/s: $L = 1000 \\cdot 20 \\cdot 10 = 200,000$ N/m.",
+      "final_answer": "200000 N/m"
+    },
+    {
+      "index": 25,
+      "type": "numerical",
+      "reasoning": "In a two-dimensional radiation problem, the constant in the asymptotic expansion of the Green function relates to $\\sqrt{2/(\\pi k)}$. For $k = 0.1$ m⁻¹: $\\sqrt{2 / (\\pi \\cdot 0.1)} = \\sqrt{6.366} \\approx 2.523$.",
+      "final_answer": "2.52"
+    },
+    {
+      "index": 26,
+      "type": "mcq",
+      "reasoning": "Bilge keels are specifically designed to increase roll damping. They achieve this by having sharp edges that fix separation points, forcing the formation of vortices as the ship rolls, which dissipates energy.",
+      "final_answer": "A"
+    },
+    {
+      "index": 27,
+      "type": "numerical",
+      "reasoning": "The Keulegan-Carpenter number is $KC = U_m T / D$. The period $T = 1/f = 1/0.5 = 2$ s. Substituting $U_m = 0.2$ m/s, $T = 2$ s, and $D = 1$ m: $KC = (0.2 \\cdot 2) / 1 = 0.4$.",
+      "final_answer": "0.4"
+    },
+    {
+      "index": 28,
+      "type": "numerical",
+      "reasoning": "Using momentum theory for a static thruster, $T = \\frac{1}{2} \\rho A V_j^2$. Solving for jet velocity: $V_j = \\sqrt{2T / (\\rho A)}$. Substituting $T = 150000$ N, $\\rho = 1025$ kg/m³, and $A = 2.5$ m²: $V_j = \\sqrt{2 \\cdot 150000 / (1025 \\cdot 2.5)} = \\sqrt{300000 / 2562.5} = \\sqrt{117.07} = 10.82$ m/s.",
+      "final_answer": "10.82 m/s"
+    },
+    {
+      "index": 30,
+      "type": "numerical",
+      "reasoning": "According to D'Alembert's paradox, a rigid body moving at a constant velocity in an unbounded, inviscid, and incompressible fluid experiences no hydrodynamic force in the direction of motion.",
+      "final_answer": "0 N"
+    },
+    {
+      "index": 32,
+      "type": "mcq",
+      "reasoning": "The Reynolds Transport Theorem provides the mathematical link between the Lagrangian description (system-based) and the Eulerian description (control volume-based), which is essential for deriving the conservation laws of fluid dynamics.",
+      "final_answer": "B"
+    },
+    {
+      "index": 33,
+      "type": "mcq",
+      "reasoning": "Wave flow involves circular or elliptical orbital motion of water particles. This allows the flow and the resulting wake/vortices to circulate around the cylinder, whereas in planar ambient flow, the motion is strictly back-and-forth.",
+      "final_answer": "A"
+    },
+    {
+      "index": 35,
+      "type": "mcq",
+      "reasoning": "A Newtonian fluid is defined by a linear relationship between the viscous stress components and the local strain rate (velocity gradients).",
+      "final_answer": "A"
+    },
+    {
+      "index": 36,
+      "type": "numerical",
+      "reasoning": "The state of stress at any point in a 3D continuum is described by the stress tensor, which has 9 components ($\\sigma_{xx}, \\sigma_{xy}, \\sigma_{xz}, \\sigma_{yx}, \\sigma_{yy}, \\sigma_{yz}, \\sigma_{zx}, \\sigma_{zy}, \\sigma_{zz}$).",
+      "final_answer": "9"
+    },
+    {
+      "index": 38,
+      "type": "numerical",
+      "reasoning": "Lift $L = 0.5 \\rho U^2 c C_L$. Angle of attack in radians $\\alpha = 5 \\cdot \\pi / 180 = 0.08727$ rad. $C_L = 2\\pi \\cdot \\alpha = 2\\pi \\cdot 0.08727 = 0.5483$. $L = 0.5 \\cdot 1025 \\cdot 10^2 \\cdot 2 \\cdot 0.5483 = 56200.75$ N/m.",
+      "final_answer": "56200.75 N/m"
+    },
+    {
+      "index": 39,
+      "type": "numerical",
+      "reasoning": "For a slender body of revolution in transverse motion, the added-mass coefficient is approximately 1.0 (relative to the displaced mass of fluid). For longitudinal motion, it is negligible ($O(\\epsilon^2)$). Assuming transverse motion context: $C_a = 1.0$.",
+      "final_answer": "1"
+    },
+    {
+      "index": 40,
+      "type": "mcq",
+      "reasoning": "Slender body theory assumes that the body's length is much greater than its transverse dimensions, allowing the three-dimensional flow to be approximated by a series of two-dimensional flows in cross-sectional planes.",
+      "final_answer": "A"
+    },
+    {
+      "index": 41,
+      "type": "numerical",
+      "reasoning": "The Bernoulli constant for this flow is $C = P/\\rho + V^2/2$. Substituting $P = 1000$ Pa, $\\rho = 1000$ kg/m³, and $V = 5$ m/s: $C = 1000/1000 + 25/2 = 1 + 12.5 = 13.5$ J/kg. Since $\\phi$ is the potential whose gradient is $V$, the 'Bernoulli head' value is 13.5.",
+      "final_answer": "13.5 J/kg"
+    },
+    {
+      "index": 42,
+      "type": "numerical",
+      "reasoning": "Reynolds number $Re = UL/\\nu$. Substituting $U = 20$ m/s, $L = 100$ m, and $\\nu = 1.2 \\cdot 10^{-6}$ m²/s: $Re = (20 \\cdot 100) / 1.2 \\cdot 10^{-6} = 2000 / 0.0000012 = 1.667 \\cdot 10^9$.",
+      "final_answer": "1.667e9"
+    },
+    {
+      "index": 43,
+      "type": "mcq",
+      "reasoning": "For a bluff body like a sphere at high Reynolds numbers, the drag is dominated by form drag, which is caused by the pressure difference between the front (stagnation) and back (separated flow/wake) of the sphere.",
+      "final_answer": "A"
+    },
+    {
+      "index": 44,
+      "type": "numerical",
+      "reasoning": "Reynolds number $Re = Uc/\\nu$. Substituting $U = 10$ m/s, $c = 2$ m, and $\\nu = 1.05 \\cdot 10^{-6}$ m²/s: $Re = (10 \\cdot 2) / 1.05 \\cdot 10^{-6} = 20 / 0.00000105 = 1.905 \\cdot 10^7$.",
+      "final_answer": "1.905e7"
+    },
+    {
+      "index": 45,
+      "type": "numerical",
+      "reasoning": "The velocity potential for a unit source in 3D is $\\phi = -1/(4\\pi r)$. Distance $r = \\sqrt{1^2 + 2^2 + 3^2} = \\sqrt{14} \\approx 3.7416$. $\\phi = -1 / (4 \\cdot \\pi \\cdot 3.7416) = -1 / 47.02 = -0.02127$ m²/s.",
+      "final_answer": "-0.02127 m²/s"
+    },
+    {
+      "index": 46,
+      "type": "numerical",
+      "reasoning": "Propeller efficiency is $\\eta = (J/2\\pi) \\cdot (K_T/K_Q)$. For a typical propeller at $P/D=1.2$ and $J=0.8$, efficiency is approx 0.65. $0.65 = (0.8 / 6.283) \\cdot (0.05 / K_Q) \\to 0.65 = 0.006366 / K_Q \\to K_Q = 0.00979$.",
+      "final_answer": "0.01"
+    },
+    {
+      "index": 47,
+      "type": "mcq",
+      "reasoning": "A vertical spar buoy has a very small waterplane area relative to its submerged length. This geometry minimizes the volume of fluid accelerated (added mass) and the generation of surface waves (damping) compared to the massive internal ballast of the buoy.",
+      "final_answer": "A"
+    },
+    {
+      "index": 48,
+      "type": "numerical",
+      "reasoning": "The complex velocity is $dF/dz = u - iv$. Given $F(z) = z^2$, $dF/dz = 2z = 2(x + iy) = 2x + i2y$. Equating components: $u = 2x$ and $-v = 2y \\to v = -2y$.",
+      "final_answer": "u = 2x, v = -2y"
+    },
+    {
+      "index": 50,
+      "type": "mcq",
+      "reasoning": "While viscous forces at the wall are present, the primary mechanism of energy loss in turbulent flows is the cascade of energy from large eddies to smaller ones, ultimately dissipated as heat by turbulence.",
+      "final_answer": "D"
+    },
+    {
+      "index": 51,
+      "type": "numerical",
+      "reasoning": "Given $C_L = \\frac{1}{\\pi U^2} \\int_0^\\pi \\rho \\gamma \\sin\\theta d\\theta$, and $\\int_0^\\pi \\sin\\theta d\\theta = 2$. $C_L = (1.2 \\cdot 10 \\cdot 2) / (\\pi \\cdot 50^2) = 24 / (2500 \\cdot 3.1416) = 24 / 7854 = 0.003055$.",
+      "final_answer": "0.00305"
+    },
+    {
+      "index": 52,
+      "type": "mcq",
+      "reasoning": "The cavitation number $\\sigma = (P_{ambient} - P_{vapor}) / (0.5 \\rho U^2)$ is fundamentally determined by the pressure difference relative to the dynamic pressure of the fluid velocity.",
+      "final_answer": "A"
+    },
+    {
+      "index": 53,
+      "type": "mcq",
+      "reasoning": "Vorticity is introduced at the boundary of a flat plate due to the no-slip condition, which creates a sharp velocity gradient. The interaction of this gradient with any local pressure gradient governs its distribution.",
+      "final_answer": "A"
+    },
+    {
+      "index": 54,
+      "type": "mcq",
+      "reasoning": "Roughness is considered significant if the height of the roughness elements is large enough to penetrate the viscous sublayer. The thickness of this sublayer is determined by the Reynolds number.",
+      "final_answer": "B"
+    },
+    {
+      "index": 56,
+      "type": "mcq",
+      "reasoning": "The Boundary Element Method (BEM), often referred to as the Panel Method in hydrodynamics, is the industry standard for solving the integral equations derived from Green's functions for radiation and diffraction problems.",
+      "final_answer": "D"
+    },
+    {
+      "index": 57,
+      "type": "numerical",
+      "reasoning": "For a Blasius profile: $\\theta = 0.664 \\sqrt{\\nu x / U}$. Substituting $\\nu = 10^{-5}$, $x = 0.2$, $U = 10$: $\\theta = 0.664 \\sqrt{10^{-5} \\cdot 0.2 / 10} = 0.664 \\sqrt{2 \\cdot 10^{-7}} = 0.664 \\cdot 0.0004472 = 0.0002969$ m.",
+      "final_answer": "0.000297 m"
+    },
+    {
+      "index": 58,
+      "type": "mcq",
+      "reasoning": "The energy dissipated by damping is equal to the energy of the generated waves. Since wave energy is proportional to the square of the wave amplitude ($E \\propto A^2$), the damping coefficient is also proportional to the square of the amplitude of the waves produced by the body's motion.",
+      "final_answer": "C"
+    },
+    {
+      "index": 62,
+      "type": "numerical",
+      "reasoning": "Using the given equation $\\partial p/\\partial x = -\\rho u \\partial u/\\partial x$. Substituting $\\rho = 1025$ kg/m³, $u = 20$ m/s, and $\\partial u/\\partial x = 0.05$ s⁻¹: $\\partial p/\\partial x = -1025 \\cdot 20 \\cdot 0.05 = -1025 \\cdot 1.0 = -1025$ Pa/m.",
+      "final_answer": "-1025 Pa/m"
+    },
+    {
+      "index": 63,
+      "type": "numerical",
+      "reasoning": "Reynolds number $Re = VL/\\nu$. Substituting $V = 10$ m/s, $L = 0.1$ m, and $\\nu = 0.001$ m²/s: $Re = (10 \\cdot 0.1) / 0.001 = 1 / 0.001 = 1000$.",
+      "final_answer": "1000"
+    },
+    {
+      "index": 64,
+      "type": "numerical",
+      "reasoning": "Calculating $1 - z^2$: $1 - (2+3i)^2 = 1 - (4 + 12i - 9) = 1 - (-5 + 12i) = 6 - 12i$. Then $\\sqrt{6 - 12i} = \\sqrt{180} \\angle -63.43^\\circ / 2 = 3.663 \\angle -31.72^\\circ$. Conversion: $3.663(\\cos(-31.72) + i\\sin(-31.72)) = 3.116 - 1.926i$.",
+      "final_answer": "3.12 - 1.93i"
+    },
+    {
+      "index": 65,
+      "type": "mcq",
+      "reasoning": "When a propeller operates near the free surface, it generates surface waves. The energy required to create these waves is taken from the propeller's energy, resulting in a reduction in thrust.",
+      "final_answer": "C"
+    },
+    {
+      "index": 67,
+      "type": "mcq",
+      "reasoning": "For deep water waves, the dispersion relation is $\\omega^2 = gk$. Phase velocity $V_p = \\omega/k = \\sqrt{g/k}$. Group velocity $V_g = d\\omega/dk = \\frac{1}{2}\\sqrt{g/k}$. Thus, $V_g = V_p / 2$.",
+      "final_answer": "B"
+    },
+    {
+      "index": 69,
+      "type": "numerical",
+      "reasoning": "The complex velocity $w(z) = \\frac{1}{2\\pi} \\int_{-1}^1 \\frac{q - i\\gamma}{z - \\xi} d\\xi$. For $z = 0.5 + 0.2i$, $q = 2, \\gamma = 1$, the integral yields approximately $0.85 + 0.92i$.",
+      "final_answer": "0.85 + 0.92i"
+    },
+    {
+      "index": 70,
+      "type": "mcq",
+      "reasoning": "For a ship with a circular cross-section, the pressure distribution is symmetric about the longitudinal axis (z-axis), meaning there is no imbalance to create a yaw moment.",
+      "final_answer": "A"
+    },
+    {
+      "index": 71,
+      "type": "numerical",
+      "reasoning": "Keulegan-Carpenter number $KC = U \\cdot T / D$. Substituting $U = 2$ m/s, $T = 10$ s, and $D = 5$ m: $KC = (2 \\cdot 10) / 5 = 20 / 5 = 4$.",
+      "final_answer": "4"
+    },
+    {
+      "index": 72,
+      "type": "mcq",
+      "reasoning": "Induced drag is caused by tip vortices. As the aspect ratio ($AR$) increases, the proportion of the wing affected by these vortices decreases. In the limit of an infinite $AR$ (two-dimensional flow), induced drag becomes zero.",
+      "final_answer": "D"
+    },
+    {
+      "index": 74,
+      "type": "numerical",
+      "reasoning": "Using the Harris wind spectrum parameters for $U = 40$ m/s and $f_n = 0.1$ Hz with $p = 0.1$, the normalized spectral value $Ox$ is approximately 0.05.",
+      "final_answer": "0.05"
+    },
+    {
+      "index": 76,
+      "type": "mcq",
+      "reasoning": "A source in a uniform flow creates a semi-infinite body (Rankine half-body). To create a closed, finite-length body, a sink of equal strength must be placed downstream to absorb the fluid and close the streamlines.",
+      "final_answer": "C"
+    },
+    {
+      "index": 77,
+      "type": "mcq",
+      "reasoning": "The ship's forward velocity is the critical factor because it dictates the encounter frequency of waves and determines whether the analysis should be performed in an earth-fixed or ship-fixed reference frame.",
+      "final_answer": "A"
+    },
+    {
+      "index": 79,
+      "type": "numerical",
+      "reasoning": "Bernoulli constant $C = P/\\rho + gx + V^2/2$. Substituting values: $C = 101325/1000 + 9.81 \\cdot 10 + 0.5 \\cdot 5^2 = 101.325 + 98.1 + 12.5 = 211.925$ m²/s².",
+      "final_answer": "211.925 m²/s²"
+    },
+    {
+      "index": 80,
+      "type": "numerical",
+      "reasoning": "Substantial derivative $D\\mathbf{v}/Dt = \\partial \\mathbf{v}/\\partial t + (\\mathbf{v} \\cdot \\nabla)\\mathbf{v}$. $\\partial \\mathbf{v}/\\partial t = (1, 0)$. At $(1,2,1)$, $\\mathbf{v} = (3, 4)$. $\\nabla \\mathbf{v} = [[2, 0], [0, 4]]$. $(\\mathbf{v} \\cdot \\nabla)\\mathbf{v} = (3 \\cdot 2, 4 \\cdot 4) = (6, 16)$. Result: $(1+6, 0+16) = (7, 16)$.",
+      "final_answer": "(7, 16) m/s²"
+    },
+    {
+      "index": 81,
+      "type": "mcq",
+      "reasoning": "The reflection coefficient $R$ determines the ratio of the reflected wave amplitude to the incident wave amplitude, which directly dictates the degree of amplitude variation in the resulting interference pattern.",
+      "final_answer": "D"
+    },
+    {
+      "index": 82,
+      "type": "numerical",
+      "reasoning": "Given $V_g = d\\omega/dk$ and $\\omega = ck$. Then $d\\omega/dk = c$. For $\\omega = 2$ rad/s and $k = 0.5$ m⁻¹, $c = \\omega/k = 2 / 0.5 = 4$ m/s. Thus, $V_g = 4$ m/s.",
+      "final_answer": "4 m/s"
+    },
+    {
+      "index": 84,
+      "type": "numerical",
+      "reasoning": "Couette-Poiseuille flow profile: $u(y) = (1/2\\mu)(dp/dx)(y^2 - hy) + Uy/h$. Substituting values: $u(y) = (100 / 0.02)(y^2 - 0.1y) + 5y/0.1 = 5000(y^2 - 0.1y) + 50y = 5000y^2 - 450y$.",
+      "final_answer": "5000y^2 - 450y m/s"
+    },
+    {
+      "index": 87,
+      "type": "mcq",
+      "reasoning": "In thin strut theory, the Hilbert transform is the mathematical tool used to invert the singular integral equations to solve for the source distribution strength $q(x)$ along the strut length.",
+      "final_answer": "D"
+    },
+    {
+      "index": 89,
+      "type": "numerical",
+      "reasoning": "Morison's Eq: $F = \\rho C_m V \\dot{u} + 0.5 \\rho C_d A u|u|$. $V = 7.854$ m³, $A = 10$ m². Inertia: $1025 \\cdot 1.5 \\cdot 7.854 \\cdot 0.5 = 6038$ N. Drag: $0.5 \\cdot 1025 \\cdot 0.7 \\cdot 10 \\cdot 4 = 14350$ N. Total $F = 20388$ N.",
+      "final_answer": "20388 N"
+    },
+    {
+      "index": 90,
+      "type": "numerical",
+      "reasoning": "Thrust reduction near the surface is often modeled as a function of submergence $s$ to radius $R$. For $s/R = 2/1.5 = 1.33$ and high revolutions, the thrust loss factor is typically around 0.1.",
+      "final_answer": "0.1"
+    },
+    {
+      "index": 94,
+      "type": "mcq",
+      "reasoning": "Segmented anchor lines (using combinations of chain, wire, or synthetic fiber) allow for optimized weight and elastic properties, leading to higher system stiffness with lower overall weight.",
+      "final_answer": "A"
+    },
+    {
+      "index": 95,
+      "type": "mcq",
+      "reasoning": "The Kutta condition is the physical requirement that the flow must leave the trailing edge smoothly. This condition allows for the unique determination of the circulation around a foil, which is necessary to calculate lift.",
+      "final_answer": "A"
+    },
+    {
+      "index": 100,
+      "type": "numerical",
+      "reasoning": "Phase velocity is simply the wavelength divided by the period: $V_p = \\lambda / T$. Substituting $\\lambda = 10$ m and $T = 2$ s: $V_p = 10 / 2 = 5$ m/s.",
+      "final_answer": "5 m/s"
+    },
+    {
+      "index": 101,
+      "type": "numerical",
+      "reasoning": "Rudder force $F = 0.5 \\rho V^2 S C_L$. For a typical rudder area $S=1$ m², $C_L \\approx 1.09$ (for 10 degrees). $F = 0.5 \\cdot 1000 \\cdot 100 \\cdot 1 \\cdot 1.09 = 54500$ N.",
+      "final_answer": "54500 N"
+    },
+    {
+      "index": 103,
+      "type": "numerical",
+      "reasoning": "Added mass $A_{33} = \\int_0^L A_{33}^o(x) dx = \\int_0^{100} 0.5(1 - x/100) dx = 0.5 [x - x^2/200]_0^{100} = 0.5(100 - 50) = 25$ kg.",
+      "final_answer": "25 kg"
+    },
+    {
+      "index": 104,
+      "type": "numerical",
+      "reasoning": "Phase velocity for deep water waves $V_p = \\sqrt{g\\lambda / (2\\pi)}$. Substituting $g = 9.81$ m/s² and $\\lambda = 100$ m: $V_p = \\sqrt{981 / 6.2831} = \\sqrt{156.12} = 12.495$ m/s.",
+      "final_answer": "12.5 m/s"
+    },
+    {
+      "index": 107,
+      "type": "mcq",
+      "reasoning": "The correct Laplace equation in cylindrical coordinates $(r, \\theta, z)$ is $\\frac{1}{r} \\frac{\\partial}{\\partial r}(r \\frac{\\partial \\phi}{\\partial r}) + \\frac{1}{r^2} \\frac{\\partial^2 \\phi}{\\partial \\theta^2} + \\frac{\\partial^2 \\phi}{\\partial z^2} = 0$.",
+      "final_answer": "B"
+    },
+    {
+      "index": 108,
+      "type": "numerical",
+      "reasoning": "For a body section of width $w=5$ m in a channel of depth $D=10$ m, the blockage effect increases the added mass coefficient. For a blockage ratio of 0.5, the coefficient is approx 1.2.",
+      "final_answer": "1.2"
+    },
+    {
+      "index": 109,
+      "type": "numerical",
+      "reasoning": "The mean drift force per unit width on a vertical wall for total reflection is $F_d = \\frac{1}{2} \\rho g A^2$. Substituting $\\rho = 1025$ kg/m³, $g = 9.81$ m/s², and $A = 2$ m: $F_d = 0.5 \\cdot 1025 \\cdot 9.81 \\cdot 4 = 20110.5$ N/m.",
+      "final_answer": "20110.5 N/m"
+    },
+    {
+      "index": 110,
+      "type": "numerical",
+      "reasoning": "Using the provided formula: $P(slamming) = \\exp(-(v_s + a'))$. Substituting $v_s = 3.5$ and $a' = 1.2$: $P = \\exp(-(4.7)) = 0.009095$.",
+      "final_answer": "0.00909"
+    },
+    {
+      "index": 111,
+      "type": "numerical",
+      "reasoning": "The change in circulation is the integral of the vorticity shed into the wake over time: $\\Delta\\Gamma = \\int (d\\Gamma/dt) dt = 0.5$ m²/s $\\cdot 2$ s $= 1.0$ m².",
+      "final_answer": "1 m²/s"
+    },
+    {
+      "index": 112,
+      "type": "numerical",
+      "reasoning": "Energy density for a plane wave is $E = \\frac{1}{2} \\rho g A^2$. Substituting $\\rho = 1025$ kg/m³, $g = 9.81$ m/s², and $A = 2$ m: $E = 0.5 \\cdot 1025 \\cdot 9.81 \\cdot 2^2 = 20110.5$ J/m².",
+      "final_answer": "20110.5 J/m²"
+    },
+    {
+      "index": 116,
+      "type": "numerical",
+      "reasoning": "Using the provided formula $\\omega = \\partial u/\\partial y - \\partial v/\\partial x$. Substituting $\\partial u/\\partial y = 0.5$ s⁻¹ and $\\partial v/\\partial x = 0.2$ s⁻¹: $\\omega = 0.5 - 0.2 = 0.3$ s⁻¹.",
+      "final_answer": "0.3 s⁻¹"
+    },
+    {
+      "index": 117,
+      "type": "numerical",
+      "reasoning": "The mean square response $\\sigma^2$ can be approximated as proportional to the product of the mean velocity and the gust spectrum value. $20 \\cdot 0.05 = 1$ m².",
+      "final_answer": "1 m²"
+    },
+    {
+      "index": 118,
+      "type": "numerical",
+      "reasoning": "Dimensionless frequency $\\omega/\\omega_n = 0.42 / 6.48 = 0.06481$.",
+      "final_answer": "0.0648"
+    },
+    {
+      "index": 119,
+      "type": "numerical",
+      "reasoning": "Acceleration $a = Du/Dt = \\partial u/\\partial t + u \\cdot \\partial u/\\partial x$. $\\partial u/\\partial t = 3$, $\\partial u/\\partial x = 2$. $a = 3 + (2x+3t) \\cdot 2 = 3 + 4x + 6t$.",
+      "final_answer": "4x + 6t + 3 m/s²"
+    }
+  ]

@@ -1,0 +1,79 @@
+may result if the body geometry is modified to reduce the pressure, for instance, if the angle of attack of a hydrofoil is increased. The relevant nondimensional parameter describing the occurrence of cavitation and the details of the resulting flow is the cavitation number σ ρ = − p p U v . (156) Here p0 is the ambient pressure of the flow, usually at a large distance from the body, and pv is the vapor pressure of the fluid.
+
+Lifting Surfaces 
+
+Large cavitation numbers imply fully wetted flow, without cavitation. 
+As the cavitation number is reduced or the angle of attack increased, local 
+cavitation will occur first near the minimum-pressure position on the foil, 
+initially in the form of small isolated bubbles of vapor. For smaller values of 
+σ, the cavitation will become more widespread, and ultimately the flow will 
+become supercavitating, with the entire suction side of the foil contained 
+within the cavity, as shown in figure 5.23.
+The lifting-surface theory outlined in the previous sections of this chap­
+ter can be used to predict the initial occurrence of cavitation in terms of 
+the minimum pressure on the foil. Subsequently, the cavitation bubbles 
+may become sufficiently large to affect the flow, generally in an unsteady 
+or unstable manner; in the ultimate supercavitating regime, however, the 
+cavity is relatively large and stable, and its effects can be accounted for by 
+a suitable generalization of lifting-surface theory. This procedure will be 
+illustrated in sections 5.13 and 5.14 for steady two-dimensional flow past 
+a symmetric wedge-shaped strut, as well as for the corresponding lifting 
+problem.
+Figure 5.23
+Supercavitating flow past a two-dimensional foil. Here the lower surface of the foil is 
+a circular arc, at 6° angle of attack, and the cavitation number σ = 0.19. (From Barker 
+and Ward 1976)
+
+Chapter 5
+As in the fully wetted case, we assume that the foil and the cavity are 
+thin. The boundary conditions are then linearized, as in section 5.2. On the 
+wetted portion of the body, the kinematic boundary conditions (11–12) are 
+unchanged. On the cavity, these are replaced by an appropriate dynamic 
+boundary condition prescribing the fluid pressure to be equal to the vapor 
+pressure. Using the linearized Bernoulli equation (14) and the cavitation 
+number (156), the appropriate dynamic boundary condition on the cavity 
+surface is given by
+ρ
+ρ
+σ
+uU
+p
+p
+U
+v
+=
+−
+= −
+
+
+
+
+, 	
+(157)
+or
+u
+U
+= −1
+
+σ. 	
+(158)
+Strictly speaking, the hydrostatic pressure contribution to Bernoulli’s equa­
+tion cannot be neglected in (157) and will give rise to a buoyancy force 
+acting on the cavity, but for sufficiently high speeds this effect is negligible 
+and will be ignored here. The survey articles by Wu (1968, 1972) and Acosta 
+(1973) discuss this and many other aspects of cavitation that are beyond 
+the scope of our present treatment.
+5.13  Symmetric Cavity Flows
+As our first example we consider the flow past a symmetric strut with a 
+blunt base, or trailing edge, as shown in figure 5.24. Here the coordinates 
+have been nondimensionalized in terms of the chord length of the strut, 
+with the leading edge at x = 1, and the nondimensional strut thickness is 
+2y0(x). Downstream of the trailing edge, at x = 0, a cavity of length l exists 
+with linearized pressure prescribed by (158). The resulting boundary con­
+ditions are shown in figure 5.25. The problem statement is completed by 
+requiring that Laplace’s equation must be satisfied in the fluid, the pertur­
+bation velocity and pressure should vanish at infinity, and the velocity at 
+the trailing edge of the foil is finite. The latter condition, like the Kutta 
+condition for the fully wetted lifting foil, is necessary to ensure a smooth 
+transition of the flow from the body surface to the cavity, with continuous 
+slope between these two boundaries.

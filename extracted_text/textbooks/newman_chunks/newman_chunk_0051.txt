@@ -1,0 +1,281 @@
+t d fU dS n S = ∂ ∂ + ∫∫∫ ∫∫   . (11) Equation (11) is known as the transport theorem. The surface integral in this equation represents the transport of the quantity of f out of the volume , as a result of the movement of the boundary. In the special case where S is fixed and Un = 0, equation (11) reduces to the simpler form where dif­ ferentiation under the integral sign is justified.
+
+The Motion of a Viscous Fluid 
+
+In another special case of particular interest,  is a material volume, 
+always composed of the same fluid particles; hence the surface S moves 
+with the same normal velocity as the fluid and Un = V∙ n = uini. In this case 
+it follows from (11) and the divergence theorem (5b) that
+d
+dt
+fd
+f
+t d
+fu n dS
+f
+t
+x
+fu
+d
+t
+i
+i
+S
+i
+i
+t
+
+
+
+
+
+( )
+( )
+(
+)
+∫∫∫
+∫∫∫
+∫∫
+∫
+=
+∂
+∂
++
+=
+∂
+∂+ ∂
+∂
+{
+}
+∫∫
+.
+	
+(12)
+3.4  The Continuity Equation
+Returning now to equation (3), expressing conservation of mass, we have 
+immediately from equation (12) that
+d
+dt
+d
+t
+x
+u
+d
+i
+i
+ρ
+ρ
+ρ
+
+
+
+
+∫∫∫
+∫∫∫
+=
+∂
+∂+ ∂
+∂
+
+
+
+
+=
+(
+)
+.
+
+(13)
+Since the last integral is evaluated at a fixed instant of time, the distinc­
+tion that  is a material volume is unnecessary at this stage. Moreover, this 
+volume can be composed of an arbitrary group of fluid particles; hence, 
+the integrand itself is equal to zero throughout the fluid. Thus, the volume 
+integration in equation (13) can be replaced by a partial differential equa­
+tion expressing conservation of mass in the form
+∂
+∂+ ∂
+∂
+=
+ρ
+ρ
+t
+x
+u
+i
+i
+(
+)
+.
+
+(14)
+Our intention from now on is to assume that the fluid is incompressible 
+and the density constant. Thus (14) can be simplified to give the continuity 
+equation
+∂
+∂
+=
+u
+x
+i
+i
+0, 	
+(15a)
+or, in vector form,
+∇⋅
+=
+V
+0. 	
+(15b)
+
+Chapter 3
+3.5  Euler’s Equations
+If the transport theorem (12) is applied to the conservation of momentum 
+(6), it follows that,
+∂
+∂
++ ∂
+∂
+
+
+
+
+=
+∂
+∂
++
+
+
+
+
+∫∫∫
+∫∫∫
+t
+u
+x
+u u
+d
+x
+F d
+i
+j
+i
+j
+ij
+j
+i
+(
+)
+(
+)
+.
+ρ
+ρ
+τ
+
+
+
+
+	
+(16)
+Once again the volume in question is arbitrary; hence equation (16) must 
+hold for the integrands alone, in the form
+∂
+∂
++ ∂
+∂
+= ∂
+∂
++
+t
+u
+x
+u u
+x
+F
+i
+j
+i
+j
+ij
+j
+i
+(
+)
+(
+)
+.
+ρ
+ρ
+τ
+	
+(17)
+Finally, if the derivatives of products on the left side of this equation are 
+expanded by the chain rule, and conservation of mass is invoked from 
+equation (15), we obtain Euler’s equations in the form
+∂
+∂
++
+∂
+∂
+=
+∂
+∂
++
+u
+t
+u
+u
+x
+x
+F
+i
+j
+i
+j
+ij
+j
+i
+
+
+ρ
+τ
+ρ
+. 	
+(18)
+The left-hand side of Euler’s equations can be interpreted as the accelera­
+tion of a material particle of fluid, since the substantial derivative
+D
+Dt
+t
+t
+u
+x
+j
+j
+≡∂
+∂+
+⋅∇= ∂
+∂+
+∂
+∂
+V
+	
+(19)
+expresses the time rate-of-change in a coordinate system moving with the 
+fluid particle.1
+3.6  Stress Relations in a Newtonian Fluid
+Finally, we must relate the stress tensor τij to the kinematic properties of the 
+fluid. The task here is analogous to specifying the stress-strain relations in 
+solid mechanics.
+If the fluid is at rest, and more generally if there are no shear stresses, a 
+normal pressure stress will exist within the fluid. Equilibrium of the forces 
+acting across a small tetrahedron requires that this pressure be isotropic. 
+Thus, in the absence of viscous shear the stress tensor is
+τ
+δ
+ij
+ij
+p
+= −
+, 	
+(20)

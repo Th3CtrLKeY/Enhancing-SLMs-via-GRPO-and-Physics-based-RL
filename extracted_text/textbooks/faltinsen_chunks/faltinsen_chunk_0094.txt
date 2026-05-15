@@ -1,0 +1,77 @@
+area Ss m? 7.096 Length scale ratio of ship to model: 40.62. | t"=0.8 | t”=1.9 *=3.3 t Fig. 6.17. Wake development for cross-section 10 of the ship presented in Fig. 6.15 (subcritical). The calculations are shown for different time instants t and are based on numerical calculations by Aarsnes (1984) with a thin free shear layer model. (¢* = U.t/D, U. = current velocity, t = 0 corresponds to start time of the calculations, D = draught.) (Aarsnes, 1984.)
+
+196 CURRENT AND WIND LOADS
+
+Three-dimensional effects
+Aarsnes (1984) pointed out that three-dimensional effects at the ship
+ends will reduce the drag force compared to a pure strip theory
+approach. One way of taking this into account would be to use a reduced
+effective incident flow at ship ends as predicted in a qualitative way by
+Aarsnes. Physically, the reduced inflow velocity is due to the eddies at
+the ship ends (see Fig. 6.19). The effective reduced inflow can be
+translated into a reduction factor of the two-dimensional drag
+
+t*=0.8  :
+
+t*=2.4
+
+t*=4.8 | S
+
+Fig. 6.18. Wake development for cross-section 10 of the ship presented in Fig.
+
+iy (transcritical flow) (See also explanation to Fig. 6.17). (Aarsnes,
+1984.)
+
+Uc
+
+Fig. 6.19. Sketch of the vertical vortex system at ship ends present in
+cross-flow past the ship.
+
+CURRENT LOADS ON SHIPS 197
+
+coefficients. The reason is that the forces on a cross-section are
+proportional to the square of the local inflow velocity, i.e. v’, and that
+the drag coefficient is normalized by the square of the current velocity,
+i.e. U2. The reduction factor is simply v*/U,’. This reduction factor is
+presented in Fig. 6.20 and should be multiplied by the two-dimensional
+results in Fig. 6.16 to obtain the correct local two-dimensional solution.
+The local two-dimensional results can be added together by a striptheory approach to find the three-dimensional results.
+
+Munk moment
+We will now derive the strip theory version of the Munk moment
+presented in equation (6.27). We write the velocity potential for
+non-separated flow as
+
+®=U.xcosB+U.ysinBt+¢ . (6.28)
+
+The perturbation potential @ due to the presence of the body satisfies the
+three-dimensional Laplace equation, the body boundary condition
+
+t) .
+
+20 _ —n,U, cos B —n,U, sin B ; (6.29)
+on
+
+and the rigid free-surface condition. Here n is the normal to the ship
+
+surface with positive direction into the fluid. We can write
+
+n= (n,, M2, 3) (6.30)
+
+If we use the strip theory concept we will neglect x-derivatives relative to
+y- and g-derivatives in the Laplace equation. This means satisfies
+a two-dimensional Laplace equation in the cross-sectional plane. The
+body boundary condition can be written as
+
+ap
+
+3N™ —n,U, sin B (6.31)
+
+3-D Reduction
+factor
+
+EEE nn ee eee Sees en ee ee
+ap 2 3 4 5 6 7 8 9 10 Nt 12 13 16 15 16 17 18 19 FF
+Fig. 6.20. Three-dimensional reduction factor of local drag coefficient due to
+the vertical vortex system at ship ends described in Fig. 6.19.
+(Adapted from Aarsnes et al. , 1985.)

@@ -1,0 +1,108 @@
+of 300m and wave height of 20m. Define the velocity potential of the incident waves as o= = e™ cos(wt + kx) (a) Show that the vertical excitation force can be written as RL F3 = {pgt,Be~*? ~ gAy,°™kE,e°?} 5 sin()sin or by means of long wavelength formulas and strip theory. Discuss applicability of this approximation and what happens when w—> 0. Fig. 3.25. Definition of parameters and coordinate system used in exercise 3.1 for the analysis of a barge.
+
+LINEAR WAVE-INDUCED MOTIONS
+
+(b) Use A3;°” = 0.8BD, neglect damping and show that the
+
+heave motion of the centre of gravity is
+73=4.9sin wt (m)
+
+Discuss the heave motion relative to the incident waves with
+respect to both amplitude and phase.
+
+(c) Based on the assumptions of (a) and (b), show that the pitch
+
+excitation moment is
+
+F = Peet { cos(*) -1 (%)}
+sR 2 ONT) RNG
+
+xcos wt{e~* — 0.8kDe*?”?}
+
+(d) Show that the pitch motion can be written as
+
+7s = —0.15 cos wt (rad)
+
+Discuss the pitch motion relative to the incident wave slope
+with respect to both amplitude and phase.
+
+(e) Show that the amplitude of the vertical acceleration in the
+
+bow (x = L/2) is 0.34 g.
+
+(f) Show that the relative vertical motion between the barge and
+
+the incident waves in the bow is
+9.9 sin wt+6.7cos wt (m)
+
+Will the barge bottom go out of the water? What must the
+freeboard be to avoid water on deck?
+
+(g) Find the vertical dynamic bending moment midships. Show
+
+that the contribution from wave excitation loads, restoring
+loads, added moment loads and inertia moment loads can be
+written as respectively
+
+pge,B
+k
+
+N= {e~* — 0.8kDe*??}
+
+x {sin wt| =~ 50s (=) —Fsin()
+kk 2 2 2
+
+2 OF) 7S
+
+L/L\?_ dns 1/L\3 2
+t= ~[5 (F) eBD GP 5 (5) BD SE}
+4= 19 (9) PBP Ge 3g) PBP ap
+
+EXERCISES 91
+
+The wave bending moment midships is given as
+
+BM=J, +, +1;—1,~2.1-10°sin ot (Nm)
+
+3.2 Resonant heave motion of surface effect ships (SES)
+SES (see Fig. 3.26) is an air-cushion supported vehicle where the air
+cushions are enclosed on the sides by rigid sidewalls and on the bow and
+stern by compliant seals. Resonance heave motion’ may cause excessive
+vertical accelerations which are unpleasant and limit operations on board
+a SES in cushion-borne condition.
+
+(a) The resonance period of the heave motion of the centre of
+gravity of a cushion-borne SES is much lower than for
+monohull ships with comparable length. The natural period
+for heave of the centre of gravity of a cushion-borne SES can
+be approximated by
+
+= Mh, }*_ by
+Tam 2a| a, tho | ~2«| aso 3.79)
+
+where y = specific heat ratio of air (=1.4)
+g = gravitational constant
+p, = atmospheric pressure
+Po = difference between cushion pressure and atmospheric
+
+pressure ;
+h, = cushion plenum height
+A, = cushion area
+
+M = mass of the SES
+
+This is also the natural period for the cushion and arises from
+the compressibility of the air in the cushion.
+
+We shall show how we can derive equation (3.79). We will
+neglect hydrodynamic forces on the sidewalls and the seals
+and assume an adiabatic pressure—density relation for the air.
+Show that for small dynamic pressure variations Ap in the air
+cushion we may write the following linearized pressure—
+density relation
+
+p=pll+ph/Ly(1 + pa/Po)l]
+
+CALLEN
+
+Fig. 3.26. Surface Effect Ship (SES).

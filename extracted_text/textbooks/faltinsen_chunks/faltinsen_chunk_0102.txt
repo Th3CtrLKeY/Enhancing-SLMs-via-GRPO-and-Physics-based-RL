@@ -1,0 +1,86 @@
+sinusoidal form we find that y = 1.16 and (A/D) max = 1.51. Having determined the amplitude of oscillations of the riser and the mode shape we can easily calculate stresses due to the vortex-induced oscillations. A very important consequence of the vortex-induced oscillations is that the drag force increases. Skop et al. (1977) proposed an empirical formula for a rigid circular cylinder. They write for Wp>1 A, = (2a St? (6.56) (6.57) where Wp = (1+ 2A/D) fa/fro (6.58)
+
+212 CURRENT AND WIND LOADS
+
+A cruder approximation is Cp/Cpp = 1+ 2(A/D) max. This formula can
+be interpreted as saying that there is an apparent projected area D + 2A
+due to the oscillating cylinder.
+
+We should be aware of the effect of roughness and Reynolds number
+on vortex-induced oscillations. Transverse oscillations decay in the
+critical region both for smooth and rough cylinders.
+
+Griffin (1985) has discussed the effect of current shear on vortex
+shedding. He says that moderate shear levels of practical importance
+(B ~0.01 to 0.03) do not seem to decrease the likelihood of vortexinduced vibrations for flexible cylinders. Experience with long cables in
+the ocean indicates that the vibration level is decreased. The ‘steepness’
+parameter is defined as
+
+z__D av
+© Veer dz
+
+Here dV /dz is the vertical velocity gradient, D is the cylinder diameter
+for a circular cylinder and V,., is a reference velocity, e.g. the mid-span
+incident velocity.
+
+All the cases we have discussed are due to steady incident flow.
+However, vortex-induced oscillation may also occur in ambient harmonic oscillatory flow. We should also note the possibility of in-line
+oscillations. The reason is the oscillatory behaviour of the drag-force. In
+subcritical flow the drag-force on a fixed, rigid cylinder consists of the
+sum of mean drag-force and a harmonic oscillatory force of frequency
+twice the vortex shedding frequency. The in-line oscillations are
+significantly less than the transverse oscillations.
+
+For a marine riser in waves and current we should note that the
+lock-in cannot take place on the whole riser at the same time. This is due
+to the attenuation of the waves with depth.
+
+It is possible to suppress vortex-induced oscillations by various types
+of spoilers or by increasing the damping. We may also try to avoid the
+critical reduced velocities which cause vortex-induced oscillations. This
+means the reduced velocity Up =U,/(f{,D) should not be in a range
+from five to seven. .
+
+A common device for suppression of vortex-induced oscillations is a
+helical strake (see Fig. 6.30). For a helical strake to be optimal it is said
+that one should use three spirals, set the pitch equal to five times the
+diameter (D) and choose a fin height of 0.1-0.12D.
+
+Negative effects of the helical strakes are that marine growth reduces
+the effect and the fins cause an increased drag (Cp = 1.3 at Rn =5- 10°).
+There may also be handling problems associated with them.
+
+(6.59)
+
+7 GALLOPING
+
+5 Galloping is a different phenomenon from ‘lock-in’. ‘Lock-in’ happens
+
+when the vortex shedding frequency is close to a natural frequency for
+
+GALLOPING 213
+
+the structure and can in a simplistic way be understood as resonance
+oscillations. Galloping is instability oscillations of the structure that are
+significant for higher reduced velocities Ug than those when lock-in
+occurs. Let us explain how galloping can occur by considering an
+example with a long cylinder of constant cross-section. We assume
+two-dimensional flow in the cross-sectional plane. We define a coordinate system (x,y) as in Fig. 6.31. The incident flow is steady with
+velocity U, in the positive x-direction. The body is symmetric about the
+y-axis and assumed to have a resonance frequency f, when it oscillates in
+the y-direction. A fundamental assumption is that the fluid forces are
+
+quasi-steady. Oscillating vortex shedding forces do not matter. This is
+approximately correct if Up> 10 (see Fig. 6.29). Galloping motion will
+occur_if the hydrodynamic forces. cause a sufficiently large negative
+damping of the transverse oscillations. We will show this in more detail.
+
+The equation of motion for the transverse oscillation 72 of the cylinder
+
+Fig. 6.30. Helical strake used as a device for suppression of vortex-induced
+oscillations.
+
+Fig. 6.31. Cross-sectional plane of a long cylinder used in discussion of
+galloping motions. (U, = incident current velocity, U.. = incidem
+velocity seen from a reference frame following the motion 7, of the
+cylinder.)

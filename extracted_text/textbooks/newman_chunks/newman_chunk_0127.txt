@@ -1,0 +1,118 @@
+whereas the lateral added-mass coefficient decreases because of the three-dimensional effects. The case b/a = 1 coincides with the sphere, where the translational added-mass equals one half of the displaced mass, and the rotational coefficients vanish. For b/a > 1, the spheroid is flattened, or oblate. For b/a → ∞, corresponding to a circular disc, the coefficients based on displaced mass and mass-moment are degenerate; to avoid this difficulty the coefficients are renormalized in the lower half of figure 4.8.
+
+Figure 4.8
+Added-mass coefficients for a spheroid, of length 2a and maximum diameter 2b. The 
+added mass m11 corresponds to longitudinal acceleration, m22 to lateral acceleration 
+in the equatorial plane, and m55 denotes the added moment of inertia, for rotation 
+about an axis in the equatorial plane. In the upper figure, the coefficients are non­
+dimensionalized with respect to the mass and moment of inertia of the displaced 
+volume of the fluid, and in the lower figure with respect to the same quantities for 
+a sphere of radius b.
+
+The Motion of an Ideal Fluid 
+
+4.16  The Body-Mass Force
+It is useful to note here the similarity between Newton’s equations, for the 
+force and moment associated with the inertia of the body mass, and the 
+corresponding hydrodynamic pressure force and moment. This analogy is 
+of interest for its own sake, and the force and moment due to the body mass 
+will be required in chapters 6 and 7 to derive the equations of motion for 
+unrestrained vessels.
+If ρB denotes the mass-density of the body, which is a function of posi­
+tion, the inertial force associated with this mass is given by the rate of 
+change of linear momentum, in the form
+F
+U
+r
+=
++
+× ′
+∫∫∫
+d
+dt
+d
+B
+B
+ρ (
+)
+.
+W
+
+
+	
+(135)
+Here B denotes integration over the body volume. Similarly, from conser­
+vation of angular momentum, the moment is given by
+M
+r
+U
+r
+=
+×
++
+× ′
+∫∫∫
+d
+dt
+d
+B
+B
+ρ
+(
+)
+.
+W
+
+
+	
+(136)
+This pair of integrals, for the linear and angular momentum of the body, 
+may be compared with the surface integrals (94–95) which give the corre­
+sponding momentum of the fluid.
+To take advantage of the subsequent reduction of (94–95), a decomposi­
+tion of the body velocity can be made, corresponding to the gradient of 
+(101) for the fluid velocity. For this purpose we define six vectors bj such 
+that
+U
+r
+b
++
+× ′ =
+Ω
+U j
+j. 	
+(137)
+Equating the factors of the six velocity components Uj in (137), it follows 
+that
+(
+,
+,
+)
+( , , ),
+b b
+b
+i j k
+
+
+3 =
+	
+(138)
+(
+,
+,
+)
+( , , )
+,
+b
+b
+b
+i j k
+r
+
+
+6 =
+× ′ 	
+(139)
+where (i, j, k) are the unit vectors parallel to (x, y, z).
+The hydrodynamic pressure force and moment are related by (115–116) 
+to the added-mass coefficients mij, which can be defined in terms of the

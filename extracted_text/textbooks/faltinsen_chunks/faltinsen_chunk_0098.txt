@@ -1,0 +1,104 @@
+coefficient. This can be illustrated by using a theoretical expression for the wake velocities far behind a two-dimensional body. According to Schlichting (1979: pp. 742-3), we can write. the mean wake velocity component u in the direction of the incident velocity as taj- a -? 6.49 Gn} 0.95(—*5) e (6.49) where 71 =3(0.0222CpDx)-? (6.50) Here U., is the incident velocity. Un Fig. 6.22. Definition of force components on a cross-section of a slender structural member. (U, = incident current velocity.)
+
+204 CURRENT AND WIND LOADS
+
+The x-axis is assumed parallel to the incident flow velocity direction
+and the y-axis is orthogonal to the x-axis. The origin of the coordinate
+system is at the geometrical centre of the body. Further, Cpi is the drag
+coefficient and D is the frontal area of the body per unit it length projected
+on the y-axis or another characteristic length used in 1 describing the drag
+forces (see equation (6.47)). The solution described by equation (6.49)
+agrees very well with experimental data when x/(CpD) > 50. Below this
+value it is not clear if equation (6.49) can be used for practical. purposes.
+assumed to be small compared with the free stream velocity U. It we
+consider two circular cylinders in tandem with a large distance 1 between
+the centres of the cylinders (see Fig. 6.23) we can use equation (6.49) to
+calculate the drag coefficient Cp on the cylinder in the wake of the
+
+other cylinder. The square of the incident velocity acting on the wake
+
+cylinder is then approximately
+
+u? =U. (1-2: o.9s{ S21) (6.51)
+Equation (6.51) gives the following result
+2 3/D
+6 U.2D
+
+If Cp = 1.0 we find from equation (6.52) that Cp is respectively 0.58,
+0.7 and 0.81 for 1/D =20, 40 and 100. Strictly speaking we should not
+apply the formula when //D = 20 and 40.
+
+The above procedure can be generalized to several bodies, where the
+wake from one body influence other bodies. Zdravkovich (1985) has
+given a survey of results for interaction of pipe clusters in steady incident
+flow. We will refer to some of his results for two cylinders. He defines
+three basic interference categories. That is proximity interference (P),
+wake interference (W) and no interference. The first kind means that the
+examined cylinder is not in the wake of the other’ cylinder. The different
+
+Fig. 6.23. Definition of parameters for two cylinders arranged in tandem
+position.
+
+CURRENT LOADS ON OFFSHORE STRUCTURES 205
+
+regions are shown in Fig. 6.24(a). It is assumed that the two cylinders
+have the same radius. Only one reference cylinder is shown. This
+cylinder is for instance downstream of the other cylinder if x/D <0 in
+Fig. 6.24(a).
+
+Examples of the flow picture that occurs in the different regions are
+shown in Fig. 6.24(b). For example, in a side by side arrangement we see
+only one single vortex street when 1<y/D<1.1 to 1.2. When 2.7<
+
+y/D <4-—5 we see that the two vortex streets mirror each other. One
+way to estimate that there is little influence between two cylinders in a
+side by side arrangement when y/D>~5 is to use the analytical
+
+a™.
+CS rN % BISTABLE FLOW REGIONS
+/ wo} \
+3 \,
+pls NN NO INTERFERENCE
+PROXIMITY 2 INTERFERENCE ~>\_
+1 wsD
+
+~
+\QIOUCHING LINE WAKE INTERFERENCE
+
+Melty fy
+wso ““”Yy
+
+> courte" sa s OO or Booy™
+
+COs STREETS
+
+wt2 ener REATTACHMENT _WSD —
+
+—_
+ie IASED GAP |) QUASI-STEADY REATTACHMENT
+
+(BISTABLE) 2) DIS
+d) INTERMITTENT SHEDDING | CONTINUOUS
+
+os ort WT1&2 CO? , O°? 6 | UHP
+
+VORTE
+OY oR TWO, VORTEX STREETS
+I
+
+A)
+
+P
+\
+
+A,
+
+STREET
+
+2 ——SBISABLE & 5 6 x/D
+eo TWO VORTEX STREETS
+
+Fig. 6.24 (a). Regions of flow interference categories, (b) interference flow
+regimes (schematic). PSA, PSB and PSC are different parts of the
+area described as PS in (a). WT1, WT2, WSD and WSG are
+explained in (a). (Zdravkovich, 1985.)

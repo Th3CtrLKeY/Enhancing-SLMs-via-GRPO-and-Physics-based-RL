@@ -1,0 +1,268 @@
+function vector consists only of a component in the θ-direction, which is independent of that coordi­ nate. It is desirable in this case to define Ψ = (0, ψ/R, 0) so that the radial and axial velocity components are given by u R x u R R R x = − ∂ ∂ = ∂ ∂ ψ ψ / , / . (42) (The form of the curl operator, in circular cylindrical coordinates, is given in Hildebrand, 1976, section 6.18.)
+
+Chapter 4
+The derivation of the stream function can be supplemented by a physi­
+cal argument. For plane flow in the x-y plane, we define the scalar, which is 
+a measure of the flux across a contour C, as
+ψ =
+−
+∫(
+).
+udy
+vdx
+C
+	
+(43)
+The contour C is shown in figure 4.3. From continuity, (43) is independent 
+of the choice of C; as in the analogous integral (13) defining the velocity 
+potential, (43) depends only on the two endpoints, say x0 and x, of C. It is 
+clear that differentiation, with respect to the endpoint x, gives the relations 
+(41). In addition, the stream function is a constant along fluid streamlines, 
+or contours everywhere tangent to the local velocity vector.
+For axisymmetric flow, the flux-integral analogous to (43) is
+Q
+u RdR
+u Rdx
+x
+R
+S R x
+=
+−
+∫∫
+2π
+(
+),
+( , )
+	
+(44)
+where S(R, x) is any surface bounded by the circle (R, x). The derivatives of 
+(44) differ from (42) by the factor 2π; hence Q = 2πψ, and we see that the 
+stream function is equal to (1/2π) times the flux passing through the circle 
+(R, x). This property ensures that the surfaces ψ = constant will define the 
+stream surfaces of the flow field.
+As an example of the use, of the axisymmetric stream function, we con­
+sider again the flow past a Rankine ovoid, or source-sink combination, for 
+which the velocity potential is given by equation (33). In polar coordinates, 
+the potential (33) is
+Figure 4.3
+Contour of integration in equation (43). The fluid flux across a differential element 
+of this contour is u dy – v dx. A positive flux is defined as moving across C to the right, 
+with respect to an observer moving along C.
+
+The Motion of an Ideal Fluid 
+
+φ
+θ
+π
+π
+( , , )
+[(
+)
+]
+[(
+)
+]
+.
+/
+/
+R
+x
+Ux
+m
+x
+a
+R
+m
+x
+a
+R
+=
+−
++
++
++
+−
++
+−
+−
+
+
+
+
+1 2
+
+
+1 2 	
+(45)
+From (44), we can compute the stream function as
+ψ
+φ
+φ
+π
+( , )
+[(
+)
+]
+R x
+x R dR
+x
+R dR
+x
+Ux R
+m
+x
+a
+R
+R
+R
+=
+∂
+∂
+′
+′ = ∂
+∂
+′
+′
+= ∂
+∂
+−
++
++
+∫
+∫
+
+
+
+
+2 1
+
+
+
+/
+/
+/
+[(
+)
+]
+(
+)
+[(
+)
+]
+(
+
+
+2 1 2
+
+
+2 1 2
+
+
+
+
++
+−
++
+{
+}
+=
+−
++
++
++
++
+−
+m
+x
+a
+R
+UR
+m x
+a
+x
+a
+R
+m x
+a
+π
+π
+)
+[(
+)
+]
+.
+/
+
+
+2 1 2
+π x
+a
+R
+−
++
+	
+(46)
+In deriving (46), we have overlooked two contributions that cancel out. 
+Thus, for the stream function to remain continuous and single valued, as 
+a measure of the flux passing through the surface S defined in (44), this 
+surface must not pass through the source points at x =± a. The contribution 
+from ignoring this restriction is equal to the flux of these sources, ± m; this 
+is canceled by the ignored contribution to the integral in (46) from the 
+lower limit at R = 0.
+The first term in (46) gives the stream function of the axial stream; the 
+second and third terms give the stream functions of a source at x = −a and 
+a sink at x = + a, respectively. For |x| > a, the axis R = 0 corresponds to the 
+streamline ψ = 0, and since the stagnation points are included on this 
+line, it follows that ψ = 0 is the equation of the dividing streamlines that 
+pass around the body surface. Hence the equation of the body surface is 
+given by
+
+
+
+
+2 1 2
+
+2 1 2
+=
+−
++
++
++
++
+−
+−
++
+πU R
+m
+x
+a
+x
+a
+R
+x
+a
+x
+a
+R
+(
+)
+[(
+)
+]
+(
+)
+[(
+)
+]
+.
+/
+/
+	
+(47)
+In particular, setting x = 0 gives equation (36) for the maximum radius of 
+the body, and it is apparent that the stream function was used implicitly 
+in (36).
+4.7  The Complex Potential
+In the case of plane two-dimensional flows, analytic functions of a complex 
+variable can be used to represent the velocity field. This allows us to exploit 
+a wide variety of mathematical tools.

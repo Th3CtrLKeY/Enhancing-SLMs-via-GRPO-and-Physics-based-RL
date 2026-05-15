@@ -1,0 +1,79 @@
+in the aft direction). S is the wetted ‘surface of the ship and UL |cos B| v Rn= (6.25) An alternative is to use a generalized Hughes (1954) formula. That means we replace 0.075/(logio F Rn — 2)? in equation (6.24) by 0.066(1 + R) _/(ogig Rn - 2. 03)" where & is a. form. factor found from experiments. “Typical values vary between 0. .2and 0.4 when B=0. If the flow separates in the stern, k may be up.to_0. 8.
+
+188 CURRENT AND WIND LOADS
+
+To evaluate the transverse viscous current force and current yaw
+moment on the ship one can use the cross-flow principle as long as the
+current direction is not close to the longitudinal axis of the ship. The
+cross-flow principle assumes that the flow separates due to cross-flow
+past the ship, that the longitudinal current components do not influence
+the transverse forces on a cross-section, and that the transverse force on
+a cross-section is mainly due to separated flow effects on the pressure
+distribution around the ship. This means we write the transverse current
+force F° on the ship as
+
+Fx= al [ dxCoo)D)| U.’ sin B |sin B| (6.26)
+
+where the integration is over the length L of the ship. Further, Cp(x) is
+the drag coefficient for cross-flow past an infinitely long cylinder with
+the cross-sectional area of the ship at the longitudinal coordinate x. D(x)
+is the sectional draught.
+
+The yaw moment F,° due to current flow is the sum of the Munk
+moment and the viscous yaw moment due to cross-flow. We can write
+
+Fe= sol [ dx Co@IDWH | U?’ sin B |sin B|
++ 3U2(Az2 — Au) sin 28 (6.27)
+
+where A;;, Azz are added mass in surge and sway, respectively. The last
+term is the Munk moment and can be derived from non-separated
+potential theory. We will show the derivation of the Munk moment later
+by using a strip theory approach. The Munk moment is valid for any
+body shape.
+
+We may note that the Munk moment and the viscous current moment
+have different angular dependence. This is illustrated in Fig. 6.10. The
+angular dependence of the transverse current force and the yaw moment
+predicted by equations (6.26) and (6.27) agrees reasonably well with
+experiment values in the vicinity of B = 90°. Fig. 6.11 presents theoretical and experimental values for transverse current force. ‘Theoretical’ is
+an ambitious word in this context. What we have done in the vicinity of
+90° is to fit equation (6.26) to agree with the experimental value at
+B =90°. However, we note that the angular dependence predicted by
+(6.26) is reasonable in the vicinity of 90°. For smail angles of attack, i.e.
+B close to 0°, the transverse forces are estimated by considering the ship
+hull and the rudder to be lifting surfaces. (For more details about the
+physics see Newman, 1977.)
+
+The results for the yaw moment are presented in Fig. 6.13. The
+moment is with respect to the z-axis defined in Fig. 3.2. A positive yaw
+
+marcas
+
+CURRENT LOADS ON SHIPS 189
+
+“sin B|sin B|
+K {« viscous
+/ Pa \ SS moment)
+
+~1
+
+(«Munk
+moment)
+
+0 a) 90 135 180°
+
+Fig. 6.10. Angular dependence of viscous yaw moment and Munk moment.
+(B = 0° means current direction towards the stern of the ship.)
+
+F
+O5pUZLD
+
+L
+
+DRIFT ANGLE B
+
+Fig. 6.11. Transverse current force F,° on the ship presented in Table 6.2 and
+Fig. 6.12. (U, = current velocity, L = ship length, D = draught,
+£ =current angle relative to the longitudinal direction of the ship.
+B = 0° means current direction towards the stern.) (Faltinsen et al. ,
+1979.)

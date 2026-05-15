@@ -1,0 +1,169 @@
+fluid. A vortex fila­ ment can terminate at the boundaries of the fluid domain, but otherwise it must form a closed curve, as shown in figure 5.15. The velocity field induced by a vortex filament can be deduced from the two-dimensional results (24–25). For motion in the x-y plane due to a point vortex at the origin of strength Γ, the velocity components can be written as Figure 5.16 Contour used to show constancy of circulation along a vortex filament.
+
+Lifting Surfaces 
+
+u
+y
+x
+y
+y
+r
+= −
++
+= −
+∂
+∂
+Γ
+Γ
+
+
+
+
+π
+π
+(
+)
+log , 	
+(108)
+and
+v
+x
+x
+y
+x
+r
+= −
++
+= −
+∂
+∂
+Γ
+Γ
+
+
+
+
+π
+π
+(
+)
+log . 	
+(109)
+Thus, the velocity vector in this case can be written as
+V
+k
+= −
+∇×
+Γ
+2π
+log .r 	
+(110)
+Here k denotes the unit vector in the z-direction, parallel to the axis of the 
+vortex.
+To pass from two to three dimensions, we replace the two-dimensional 
+source potential log r by the potential of a line of three-dimensional sources, 
+of strength m, initially along the z-axis:
+V
+k
+i
+j
+= ∇×
++
++
+= −
+−
++
++
+= −
+−∞
+∞
+−∞
+∞
+∫
+∫
+m
+dz
+x
+y
+z
+m
+y
+x dz
+x
+y
+z
+
+
+
+
+2 1 2
+
+
+2 3 2
+π
+π
+(
+)
+(
+)
+(
+)
+m y
+x
+x
+y
+(
+)
+(
+).
+i
+j
+−
++
+
+
+
+π
+	
+(111)
+The desired two-dimensional velocity components (110) will result from 
+a line distribution of three-dimensional sources normal to the x-y plane, 
+provided the source strength is m = Γ.
+Now we rewrite the last line integral in (111) as
+V
+R
+k
+= −
+×
+−∞
+∞
+∫
+Γ
+
+
+π
+dz
+R
+, 	
+(112)
+where R is the position vector xi + yj + zk.
+Equation (112) gives a form of the two-dimensional velocity field result­
+ing from a line vortex along the z-axis, which can be generalized to an 
+arbitrary three-dimensional vortex filament of strength Γ. Let the vortex 
+filament be situated on a contour C, with dl the differential element of 
+integration along C as in figure 5.17. Then by analogy with (112) we can 
+define the velocity
+V = −
+×
+∫
+Γ
+
+
+π
+R
+d
+C
+l
+R
+, 	
+(113)

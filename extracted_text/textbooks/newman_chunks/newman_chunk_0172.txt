@@ -1,0 +1,134 @@
+= 0 downstream of this segment, and each individual trailing vortex element coincides with a semi-infinite line −∞ < x < 0, y = 0, z = ζ. The computation of the induced velocity at points on the z-axis is facilitated by noting from symmetry that a semi-infinite vortex filament, extending from x = −∞ upstream to the plane x = 0, will induce in this plane precisely half of the velocity that would result from an infinite line vortex
+
+Chapter 5
+extending from −∞ to +∞ along the same line. The latter problem is two 
+dimensional, and thus the vertical component of the velocity induced by 
+the trailing vortices at x = 0 is equal to half of the value (130) in the Trefftz 
+plane at x = −∞, or
+v
+z
+d
+d
+d
+z
+T
+s
+s
+( , , )
+.
+0 0
+
+
+
+
+=
+−
+−∫
+π
+ζ
+ζ
+ζ
+Γ
+−
+	
+(140)
+Here the subscript T is used to denote the velocity due to the trailing vor­
+tices. In general, for z
+s
+< 1
+2 , the integral in (140) is negative and vT is a 
+downwash.
+Before using (140) to correct the inflow velocity vector in the inner solu­
+tion, other possible corrections should be considered, associated with the 
+bound and free vortices within the foil. Since the length of the free vortices 
+is equal to the chord length, which is small compared to the span, the free 
+vortices will have a negligible influence on the downwash compared to the 
+trailing vortices. The bound vortices are more difficult to treat, but from 
+the Biot-Savart integral (113) it can be shown that the correction due to the 
+spanwise variation of γB is negligible by comparison with (140).
+Returning to the inner solution, the most significant effect of the threedimensional corrections is to impose a vertical velocity component given 
+by (140), or to change the effective angle of attack by the induced angle
+α
+π
+ζ
+ζ
+ζ
+i
+T
+s
+s
+z
+v
+U
+U
+d
+d
+d
+z
+( )
+.
+≡
+=
+−
+−∫
+
+
+
+
+Γ
+−
+	
+(141)
+The total circulation on a two-dimensional flat plate, and the flat-plate 
+loading portion of an arbitrary cambered foil, is Γ = πUlα. Since (141) is neg­
+ative on the foil, the total circulation of the lifting line must be decreased, 
+by comparison with its two-dimensional value at each section, by an incre­
+ment −πUlαi. Substituting (141) gives an equation for the total circulation 
+in the form
+Γ
+Γ
+Γ
+( )
+( )
+( )
+( )
+,
+.
+z
+z
+l z
+d
+d
+d
+z
+s
+z
+s
+D
+s
+s
+=
++
+−
+−
+<
+<
+−∫
+
+
+
+
+
+
+
+
+
+ζ
+ζ
+ζ
+ζ
+−
+	
+(142)
+Here Γ2D(z) denotes the two-dimensional circulation of the corresponding 
+section, including the effects of camber and of the geometric angle of attack

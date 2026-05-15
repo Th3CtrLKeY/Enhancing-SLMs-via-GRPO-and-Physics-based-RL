@@ -1,0 +1,134 @@
+is an uncambered lifting surface of elliptical planform, l z l ( ) sin , = θ (145) where l0 is the chord at mid span. The two-dimensional circulation is given in this case by Γ2D = πUαl, and it follows from (l44) that a l s l s = +     − πα π . (146) For the elliptical planform, the aspect ratio is given by A = 4s/πl0, and thus (146) may be replaced by
+
+Chapter 5
+a
+A
+
+
+
+=
++
+α . 	
+(147)
+The lift and drag coefficients (137–138) take the simple forms
+C
+A
+A
+L =
++
+
+
+π α , 	
+(148)
+C
+A
+A
+C
+A
+D
+L
+=
++
+=
+
+
+
+
+
+π α
+π
+(
+)
+. 	
+(149)
+As the aspect ratio tends to infinity, the two-dimensional results are recov­
+ered, with zero induced drag and a lift coefficient equal to 2πα.
+A systematic approach to lifting-line theory is given by Van Dyke (1975), 
+based on the method of matched asymptotic expansions. This leads to 
+Prandtl’s result (142) as well as to higher-order approximations. A notable 
+simplification of this approach is to replace the unknown derivative Γ′, 
+to the first approximation, by its two-dimensional value, giving explicit 
+results without the complications of an integral equation.
+To illustrate this simplification, let us express the spanwise circulation 
+in the form
+Γ
+Γ
+Γ
+Γ
+( )
+( )
+( )
+( )
+,
+( )
+( )
+( )
+z
+z
+z
+z
+=
++
++
++
+
+
+
+ 	
+(150)
+where Γ(1) is the first approximation, or the two-dimensional circulation 
+Γ2D, and successive terms represent the corresponding corrections at each 
+stage of the approximation. By assumption Γ(2) ≪ Γ(1), etc., with the under­
+standing that these orders of magnitude are consequences of the under­
+lying assumption A ≫ 1. Since the integral term in Prandtl’s lifting-line 
+equation (142) is proportional to the chord length l(z), this term will be 
+inversely proportional to the aspect ratio, or O(1/A). Thus explicit solutions 
+for the first two terms in (150) can be written as follows:
+Γ
+Γ
+( )( )
+( ),
+
+
+z
+z
+D
+=
+	
+(151)
+Γ
+Γ
+( )
+( )
+( )
+( )
+( )
+.
+
+
+
+
+
+
+z
+l z
+d
+d
+d
+z
+s
+s
+=
+−
+−∫
+ζ
+ζ
+ζ
+ζ
+−
+	
+(152)
+To proceed beyond this point on the basis of (142) would not be consistent 
+with the approximations already made in deriving (142).
+For the elliptic planform, the lift coefficient derived from (151–152) is 
+readily obtained, in the form

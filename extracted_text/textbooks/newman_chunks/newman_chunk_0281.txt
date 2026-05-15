@@ -1,0 +1,209 @@
+the differential length of the body surface SB, of profile ∑B (x) and width dx0, as well as by a fixed control surface SC. The surface SC is composed of two lateral planes S0 separated by a distance dx0 exterior to the body, and by a closure surface S∞, at large radial distance from the body. Applying (4.90) to this control surface, as well as to the differential portion of the body surface, the dif­ ferential force is given by
+
+Chapter 7
+′ = −
+−
+∂
+∂
+∂
+∂
+∂
+∂
+= −
+∂
+∂
+∂
+∂
+∫
+∫∫
+F
+d
+dt
+n dl
+x
+x
+z dy dz
+z
+z
+z
+x
+S
+B
+ρ
+ρ
+φ
+φ
+ρ
+ϕ
+φ
+Φ
+Σ ( )
+
+
+
+
+
+
+
+n
+n
+dl
+z
+−
+∇⋅∇
+
+
+
+
+∞∫
+
+
+φ
+φ
+Σ
+.
+	
+(36)
+Here the differential operator d/dt is to be interpreted as the time-derivative 
+in a fixed reference frame, with x0 = constant, ∑∞, is the profile defined by 
+the limit of S∞, as dx0 → 0, and S0 is the plane bounded by ∑B (x) and ∑∞. 
+From the slenderness assumption (11) there is no contribution from the 
+integral over S0, and since the potential vanishes at infinity there is no 
+contribution from the last integral in (36). Thus the differential lateral force 
+acting along the body length is given by the expression
+′ = −
+∫
+F
+d
+dt
+n dl
+z
+z
+x
+B
+ρ
+φ
+Σ ( )
+.
+
+	
+(37)
+On the body, the potential can be replaced by (16), and if the profile 
+is symmetrical about z = 0, there is no contribution to the integral in (37) 
+from Φ1. Thus it follows that
+Figure 7.2
+Control volume for the evaluation of the differential lateral force ′
+Fz .
+
+Hydrodynamics of Slender Bodies 
+
+′ = −
+
+
+
+= −
+(
+)
+∫
+F
+d
+dt W
+n dl
+d
+dt W x t m
+x
+z
+z
+x
+B
+ρ
+Φ
+Σ
+
+
+( )
+( , )
+( ) .
+
+	
+(38)
+Here the two-dimensional added-mass coefficient m33(x) has been intro­
+duced, using the relation (4.114) and the boundary condition (18). In view 
+of the coordinate transformation (2), the time-derivative in (36–38) can 
+be replaced by partial derivatives in a moving reference frame, and (38) is 
+equivalent to
+′ = −
+∂
+∂−
+∂
+∂
+
+
+
+
+F
+t
+U
+x
+W x t m
+x
+z
+[
+( , )
+( )].
+
+(39)
+Equation (39) has been derived by Lighthill (1960), in analyzing the 
+swimming motion of slender fish. Various special cases were known ear­
+lier in the field of aerodynamics. One feature of (39) and of the deriva­
+tion we have carried out thus far is that the time-dependence is relatively 
+unimportant, and the distinction between steady and unsteady problems is 
+trivial.
+The total force acting on the body can be obtained in a strip-theory man­
+ner by integrating (39). The lateral added-mass coefficient, due to accelera­
+tion of a rigid slender body in the z-direction, is given by the integral
+m
+m
+x dx
+s
+l
+
+
+= ∫
+( )
+. 	
+(40)
+Similarly,
+m
+m
+x xdx
+s
+l
+
+
+= ∫
+( )
+, 	
+(41)
+and
+m
+m
+x x dx
+s
+l
+
+
+
+= ∫
+( )
+, 	
+(42)
+where ms
+55 is the added moment of inertia for yaw acceleration, and ms
+
+denotes the cross-coupling added mass between sway and yaw. The latter 
+vanishes if the body is symmetrical about x = 0.
+The superscript s in (42) is inserted to distinguish these strip-theory 
+results. In this approximation, the local force at any section of the body is 
+not affected by the shape of the body elsewhere; that is, there are no hydro­
+dynamic interactions between adjacent sections of the body. The resulting

@@ -1,0 +1,29 @@
+zk. Equation (112) gives a form of the two-dimensional velocity field result­ ing from a line vortex along the z-axis, which can be generalized to an arbitrary three-dimensional vortex filament of strength Γ. Let the vortex filament be situated on a contour C, with dl the differential element of integration along C as in figure 5.17. Then by analogy with (112) we can define the velocity V = − × ∫ Γ π R d C l R , (113)
+
+Chapter 5
+where R is now the vector to the point (x, y, z) from each point along the 
+curve of integration, as defined in figure 5.17. This more general integral 
+defines a velocity field that is irrotational and divergenceless except on the 
+contour C. Near this contour, it possesses the same singularity as the twodimensional vortex (112), since locally the curve approximates a straight 
+line and near the curve the integral will be dominated by the value of the 
+integrand as R → 0.
+Equation (113) is, therefore, the velocity field induced by a threedimensional vortex filament of strength Γ situated on the curve C. This 
+result, well known in electromagnetic theory as the law of Biot-Savart, 
+relates the magnetic field to the current in a conducting filament. We have 
+derived it intuitively by guessing and then verifying the final answer. A 
+more systematic derivation, in terms of an arbitrary volume distribution 
+of vorticity reduced ultimately to a line vortex, can be found in Batchelor 
+(1967). An extensive analysis of three-dimensional vortex fields is given by 
+Brard (1972).
+5.9  Three-Dimensional Planar Lifting Surfaces
+For three-dimensional lifting surfaces and hydrofoils, the powerful method 
+of complex function theory must be abandoned; the real variable z and 
+dummy coordinate ζ are used to denote the coordinate along the span of 
+the foil. However, the thin-wing approximation can be retained if the slope 
+of the foil is sufficiently small over its entire surface (except at the leading 
+edge!). A linearized problem can be formulated in exactly the same manner 
+as for the two-dimensional case in section 5.2. The thickness problem can 
+be solved again in terms of a suitable source distribution, and the lifting 
+Figure 5.17
+Definition sketch for equation (113), showing the position vector R and differential 
+line element dl along a vortex filament situated on the contour C.

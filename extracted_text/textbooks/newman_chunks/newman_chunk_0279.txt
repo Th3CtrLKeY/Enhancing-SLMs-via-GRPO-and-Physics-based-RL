@@ -1,0 +1,155 @@
+) , ( ) , (29) as r → 0. Similarly, from a Taylor series expansion of the square-root func­ tion, or by noting from (27) that the logarithm must be an odd function of (x − ξ), it follows that ξ ξ ξ ξ − + −    +           − − < x r x r r x x 1 2 / , ( ) . (30)
+
+Chapter 7
+Substituting (29–30) in (28), the inner expansion of the outer solution for 
+small r is obtained in the form
+ϕ
+π
+ξ
+ξ
+ξ
+π
+ξ
+ξ
+
+
+
+
+
+
+
+′′
+−
+
+
+
+
+−
+′′
+−
+
+
+
+∫S
+x
+r
+d
+S
+x
+r
+x
+x
+T
+( )log
+(
+)
+( )log
+(
+)
+
+∫
+d
+x
+xN
+ξ. 	
+(31)
+Here xN and xT denote the x-coordinates of the nose and tail. Separating the 
+terms involving log r and integrating these, it follows that
+ϕ
+π
+
+
+
+≪
+−
+′
++
+S
+r
+l
+f x
+r
+l
+log( / )
+( ),
+. 	
+(32)
+where
+f x
+S
+x
+l d
+S
+x
+l d
+x
+x
+T
+( )
+( )log[ (
+)/ ]
+( )log[ (
+)/ ]
+=
+′′
+−
+−
+′′
+−
+∫
+
+
+
+
+
+
+π
+ξ
+ξ
+ξ
+π
+ξ
+ξ
+ξ
+x
+xN
+∫
+. 	
+(33)
+Equation (32) is the inner expansion of the outer solution, which con­
+tains the desired two-dimensional source behavior, consistent with (25). 
+However, a “constant” term (33) is left over; it is independent of the (y, z) 
+coordinates but depends on the local value of x. Since the inner solution 
+contains an arbitrary constant, the matching requirement dictates the 
+value of this constant to be equal to (33), and the inner solution is uniquely 
+determined by the requirement that
+Φ1
+
+
+≫
+−
+′
++
+π
+ε
+S
+r
+l
+f x
+r
+l
+log( / )
+( ),
+. 	
+(34)
+Note that the body need not be axisymmetric, and the complexities of 
+its geometry will be reflected in the inner solution Φ1. The outer limit of 
+this solution (34), and thus the outer solution φ1, are axisymmetric, but 
+that is a consequence of the source-like flow far from the body, where its 
+detailed shape is unimportant. For a body of revolution, (34) is the inner 
+solution for all values of r. For other body profiles, the inner solution must 
+be found by conformal mapping or similar techniques.
+This completes the solution of the longitudinal-flow problem for a slen­
+der body in an infinite fluid, and a brief review of the derivation may be 
+useful. We began in section 1 with an assumed inner solution, valid near 
+the body surface and satisfying the body boundary condition and the twodimensional Laplace equation. However, this solution does not satisfy the

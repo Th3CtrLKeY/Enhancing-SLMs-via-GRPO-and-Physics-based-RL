@@ -1,0 +1,94 @@
+A typical histogram for the distribution of peaks is Fig. 9.1. High slamming pressures can occur when breaking waves hit the column of a platform. The top photo shows a breaking wave approaching the column of a platform and the other photo shows the situation just after the breaking wave has hit the platform. The photos are from the TCP-2 platform at the Frigg Field on the Norwegian Continental Shelf operated by Elf Aquitaine Norge A/S. (Kjeldsen & Andersen (unpublished).)
+
+284 WATER IMPACT AND ENTRY
+
+shown in Fig. 9.2. The most frequently occurring pressure peaks will
+reach 0.4 times the pressure level exceeded by 10% of all peaks. The 1%
+exceedance limit is two to three times the 10% exceedance limit. We may
+also note from Fig. 9.2 that the slamming pressure has a much shorter
+rise time than decay time.
+
+In order to describe the physics of the slamming problem, let us
+examine a related, but simpler problem —a horizontal cylinder that is
+forced through an initially calm water surface with constant velocity V.
+We assume the body has small submergence, the body has a blunt form
+and the flow is two-dimensional (see Fig. 9.3). The submergence of the
+lowest point on the body relative to the calm waterplane is Vz, where t is
+the time variable. At this stage we will not precisely define how large the
+wetted area of the body is. This depends on the theoretical approximation that will be used. We will just state that the wetted body area is
+
+3] p
+
+WwW
+
+a
+
+a
+
+D>
+
+3 —"
+L 10% EXCEEDANCE LIMIT (Pp)
+
+oO
+
+rs} 25%
+
+a 1%
+
+ir PRESSURE
+tt DETECTED
+
+04 1.0 20 PIR,
+
+Fig. 9.2. Probability density function of impact pressure peaks from forced
+harmonic sway oscillation of a LNG-tank. Based on model tests with
+two-dimensional flow. Also shown is an example of pressure
+recording. (Abramson et al., 1974.)
+
+Fig. 9.3. Definition of parameters in analysis of impact forces and pressures
+on a body.
+
+SLAMMING 285
+
+between —c(t) <x <c(t) (see Fig. 9.3). However, we exclude the wetted
+area due to spray. The reason is that we are interested in finding the
+hydrodynamic pressure and force on the body and the pressure on the
+body in the spray area will be very close to atmospheric pressure.
+
+In solving the problem we will assume irrotational flow and an
+incompressible fluid. This means we can use potential theory. However,
+in special cases the compressibility of the fluid has to be accounted for.
+The pressure is assumed constant and equal to atmospheric pressure on
+the free-surface. However, this is not true when a body with a horizontal
+flat bottom hits the free-surface...A compressible air pocket is then
+created between the body and the free-surface in an initial phase (see
+Fig. 9.4).
+
+To analyse the problem we will use the free-surface condition ¢=0
+on z= 0. This means we assume the fluid accelerations are much larger
+than the gravitational acceleration g. The cylinder is replaced by an
+‘equivalent’ flat plate of half-width c(t) in the mean free-surface. The
+body boundary condition is transferred to the flat plate. We can show
+this by starting out with the body boundary condition
+
+where n= (m,, 0,13) is the normal vector to the body surface. (Positive
+normal direction is into the fluid.) By a Taylor expansion we can write
+
+2b _ oo & 2,2 :
+Bz Bz leg az? long * OV *? Lahn
+
+-Further, for slamming to have any practical meaning n,;<n; and
+
+~ —1. This means the boundary condition is approximately
+
+ag
+Be Von z=0
+
+when Ve/c(t) is small. The boundary-value problem that we have to
+
+Ly
+
+WATER
+Fig. 9.4. Deformation of the free-surface and formation of an air pocket
+during entry of a body with a horizontal flat bottom.

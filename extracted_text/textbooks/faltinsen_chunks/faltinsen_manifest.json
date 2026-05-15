@@ -1,0 +1,1250 @@
+[
+  {
+    "source": "faltinsen",
+    "start_page": 1,
+    "end_page": 3,
+    "text": null,
+    "token_estimate": 1002,
+    "file": "faltinsen_chunk_0000.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 3,
+    "end_page": 4,
+    "text": null,
+    "token_estimate": 800,
+    "file": "faltinsen_chunk_0001.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 4,
+    "end_page": 6,
+    "text": null,
+    "token_estimate": 1246,
+    "file": "faltinsen_chunk_0002.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 6,
+    "end_page": 7,
+    "text": null,
+    "token_estimate": 903,
+    "file": "faltinsen_chunk_0003.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 7,
+    "end_page": 8,
+    "text": null,
+    "token_estimate": 847,
+    "file": "faltinsen_chunk_0004.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 8,
+    "end_page": 9,
+    "text": null,
+    "token_estimate": 1077,
+    "file": "faltinsen_chunk_0005.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 9,
+    "end_page": 10,
+    "text": null,
+    "token_estimate": 793,
+    "file": "faltinsen_chunk_0006.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 10,
+    "end_page": 11,
+    "text": null,
+    "token_estimate": 972,
+    "file": "faltinsen_chunk_0007.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 11,
+    "end_page": 12,
+    "text": null,
+    "token_estimate": 858,
+    "file": "faltinsen_chunk_0008.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 12,
+    "end_page": 13,
+    "text": null,
+    "token_estimate": 991,
+    "file": "faltinsen_chunk_0009.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 13,
+    "end_page": 14,
+    "text": null,
+    "token_estimate": 995,
+    "file": "faltinsen_chunk_0010.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 14,
+    "end_page": 15,
+    "text": null,
+    "token_estimate": 1047,
+    "file": "faltinsen_chunk_0011.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 15,
+    "end_page": 16,
+    "text": null,
+    "token_estimate": 635,
+    "file": "faltinsen_chunk_0012.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 16,
+    "end_page": 17,
+    "text": null,
+    "token_estimate": 825,
+    "file": "faltinsen_chunk_0013.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 17,
+    "end_page": 18,
+    "text": null,
+    "token_estimate": 639,
+    "file": "faltinsen_chunk_0014.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 18,
+    "end_page": 19,
+    "text": null,
+    "token_estimate": 787,
+    "file": "faltinsen_chunk_0015.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 19,
+    "end_page": 20,
+    "text": null,
+    "token_estimate": 822,
+    "file": "faltinsen_chunk_0016.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 20,
+    "end_page": 21,
+    "text": null,
+    "token_estimate": 926,
+    "file": "faltinsen_chunk_0017.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 21,
+    "end_page": 22,
+    "text": null,
+    "token_estimate": 770,
+    "file": "faltinsen_chunk_0018.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 22,
+    "end_page": 23,
+    "text": null,
+    "token_estimate": 1185,
+    "file": "faltinsen_chunk_0019.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 23,
+    "end_page": 25,
+    "text": null,
+    "token_estimate": 1410,
+    "file": "faltinsen_chunk_0020.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 25,
+    "end_page": 26,
+    "text": null,
+    "token_estimate": 1036,
+    "file": "faltinsen_chunk_0021.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 26,
+    "end_page": 27,
+    "text": null,
+    "token_estimate": 789,
+    "file": "faltinsen_chunk_0022.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 27,
+    "end_page": 28,
+    "text": null,
+    "token_estimate": 861,
+    "file": "faltinsen_chunk_0023.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 28,
+    "end_page": 29,
+    "text": null,
+    "token_estimate": 1008,
+    "file": "faltinsen_chunk_0024.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 29,
+    "end_page": 31,
+    "text": null,
+    "token_estimate": 1225,
+    "file": "faltinsen_chunk_0025.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 31,
+    "end_page": 32,
+    "text": null,
+    "token_estimate": 846,
+    "file": "faltinsen_chunk_0026.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 32,
+    "end_page": 33,
+    "text": null,
+    "token_estimate": 812,
+    "file": "faltinsen_chunk_0027.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 33,
+    "end_page": 34,
+    "text": null,
+    "token_estimate": 1172,
+    "file": "faltinsen_chunk_0028.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 34,
+    "end_page": 35,
+    "text": null,
+    "token_estimate": 837,
+    "file": "faltinsen_chunk_0029.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 35,
+    "end_page": 36,
+    "text": null,
+    "token_estimate": 1124,
+    "file": "faltinsen_chunk_0030.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 36,
+    "end_page": 37,
+    "text": null,
+    "token_estimate": 1081,
+    "file": "faltinsen_chunk_0031.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 37,
+    "end_page": 38,
+    "text": null,
+    "token_estimate": 1144,
+    "file": "faltinsen_chunk_0032.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 38,
+    "end_page": 39,
+    "text": null,
+    "token_estimate": 1049,
+    "file": "faltinsen_chunk_0033.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 39,
+    "end_page": 40,
+    "text": null,
+    "token_estimate": 1058,
+    "file": "faltinsen_chunk_0034.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 40,
+    "end_page": 41,
+    "text": null,
+    "token_estimate": 1016,
+    "file": "faltinsen_chunk_0035.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 41,
+    "end_page": 42,
+    "text": null,
+    "token_estimate": 1003,
+    "file": "faltinsen_chunk_0036.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 42,
+    "end_page": 43,
+    "text": null,
+    "token_estimate": 678,
+    "file": "faltinsen_chunk_0037.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 43,
+    "end_page": 44,
+    "text": null,
+    "token_estimate": 830,
+    "file": "faltinsen_chunk_0038.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 44,
+    "end_page": 45,
+    "text": null,
+    "token_estimate": 1041,
+    "file": "faltinsen_chunk_0039.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 45,
+    "end_page": 46,
+    "text": null,
+    "token_estimate": 1160,
+    "file": "faltinsen_chunk_0040.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 46,
+    "end_page": 47,
+    "text": null,
+    "token_estimate": 661,
+    "file": "faltinsen_chunk_0041.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 47,
+    "end_page": 48,
+    "text": null,
+    "token_estimate": 790,
+    "file": "faltinsen_chunk_0042.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 48,
+    "end_page": 49,
+    "text": null,
+    "token_estimate": 741,
+    "file": "faltinsen_chunk_0043.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 49,
+    "end_page": 50,
+    "text": null,
+    "token_estimate": 872,
+    "file": "faltinsen_chunk_0044.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 50,
+    "end_page": 51,
+    "text": null,
+    "token_estimate": 876,
+    "file": "faltinsen_chunk_0045.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 51,
+    "end_page": 52,
+    "text": null,
+    "token_estimate": 572,
+    "file": "faltinsen_chunk_0046.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 52,
+    "end_page": 53,
+    "text": null,
+    "token_estimate": 919,
+    "file": "faltinsen_chunk_0047.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 53,
+    "end_page": 54,
+    "text": null,
+    "token_estimate": 705,
+    "file": "faltinsen_chunk_0048.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 54,
+    "end_page": 55,
+    "text": null,
+    "token_estimate": 871,
+    "file": "faltinsen_chunk_0049.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 55,
+    "end_page": 56,
+    "text": null,
+    "token_estimate": 764,
+    "file": "faltinsen_chunk_0050.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 56,
+    "end_page": 57,
+    "text": null,
+    "token_estimate": 796,
+    "file": "faltinsen_chunk_0051.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 57,
+    "end_page": 58,
+    "text": null,
+    "token_estimate": 1107,
+    "file": "faltinsen_chunk_0052.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 58,
+    "end_page": 59,
+    "text": null,
+    "token_estimate": 1002,
+    "file": "faltinsen_chunk_0053.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 59,
+    "end_page": 60,
+    "text": null,
+    "token_estimate": 886,
+    "file": "faltinsen_chunk_0054.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 60,
+    "end_page": 61,
+    "text": null,
+    "token_estimate": 1095,
+    "file": "faltinsen_chunk_0055.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 61,
+    "end_page": 62,
+    "text": null,
+    "token_estimate": 1229,
+    "file": "faltinsen_chunk_0056.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 62,
+    "end_page": 63,
+    "text": null,
+    "token_estimate": 820,
+    "file": "faltinsen_chunk_0057.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 63,
+    "end_page": 64,
+    "text": null,
+    "token_estimate": 847,
+    "file": "faltinsen_chunk_0058.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 64,
+    "end_page": 65,
+    "text": null,
+    "token_estimate": 1210,
+    "file": "faltinsen_chunk_0059.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 65,
+    "end_page": 66,
+    "text": null,
+    "token_estimate": 735,
+    "file": "faltinsen_chunk_0060.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 66,
+    "end_page": 68,
+    "text": null,
+    "token_estimate": 1315,
+    "file": "faltinsen_chunk_0061.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 68,
+    "end_page": 69,
+    "text": null,
+    "token_estimate": 683,
+    "file": "faltinsen_chunk_0062.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 69,
+    "end_page": 70,
+    "text": null,
+    "token_estimate": 1093,
+    "file": "faltinsen_chunk_0063.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 70,
+    "end_page": 71,
+    "text": null,
+    "token_estimate": 964,
+    "file": "faltinsen_chunk_0064.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 71,
+    "end_page": 72,
+    "text": null,
+    "token_estimate": 825,
+    "file": "faltinsen_chunk_0065.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 72,
+    "end_page": 73,
+    "text": null,
+    "token_estimate": 1127,
+    "file": "faltinsen_chunk_0066.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 73,
+    "end_page": 74,
+    "text": null,
+    "token_estimate": 807,
+    "file": "faltinsen_chunk_0067.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 74,
+    "end_page": 75,
+    "text": null,
+    "token_estimate": 932,
+    "file": "faltinsen_chunk_0068.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 75,
+    "end_page": 76,
+    "text": null,
+    "token_estimate": 661,
+    "file": "faltinsen_chunk_0069.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 76,
+    "end_page": 77,
+    "text": null,
+    "token_estimate": 847,
+    "file": "faltinsen_chunk_0070.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 77,
+    "end_page": 78,
+    "text": null,
+    "token_estimate": 899,
+    "file": "faltinsen_chunk_0071.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 78,
+    "end_page": 79,
+    "text": null,
+    "token_estimate": 863,
+    "file": "faltinsen_chunk_0072.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 79,
+    "end_page": 80,
+    "text": null,
+    "token_estimate": 678,
+    "file": "faltinsen_chunk_0073.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 80,
+    "end_page": 81,
+    "text": null,
+    "token_estimate": 969,
+    "file": "faltinsen_chunk_0074.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 81,
+    "end_page": 82,
+    "text": null,
+    "token_estimate": 708,
+    "file": "faltinsen_chunk_0075.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 82,
+    "end_page": 83,
+    "text": null,
+    "token_estimate": 822,
+    "file": "faltinsen_chunk_0076.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 83,
+    "end_page": 84,
+    "text": null,
+    "token_estimate": 522,
+    "file": "faltinsen_chunk_0077.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 84,
+    "end_page": 85,
+    "text": null,
+    "token_estimate": 856,
+    "file": "faltinsen_chunk_0078.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 85,
+    "end_page": 86,
+    "text": null,
+    "token_estimate": 916,
+    "file": "faltinsen_chunk_0079.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 86,
+    "end_page": 87,
+    "text": null,
+    "token_estimate": 1105,
+    "file": "faltinsen_chunk_0080.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 87,
+    "end_page": 88,
+    "text": null,
+    "token_estimate": 588,
+    "file": "faltinsen_chunk_0081.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 88,
+    "end_page": 89,
+    "text": null,
+    "token_estimate": 860,
+    "file": "faltinsen_chunk_0082.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 89,
+    "end_page": 90,
+    "text": null,
+    "token_estimate": 804,
+    "file": "faltinsen_chunk_0083.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 90,
+    "end_page": 91,
+    "text": null,
+    "token_estimate": 791,
+    "file": "faltinsen_chunk_0084.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 91,
+    "end_page": 92,
+    "text": null,
+    "token_estimate": 978,
+    "file": "faltinsen_chunk_0085.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 92,
+    "end_page": 93,
+    "text": null,
+    "token_estimate": 877,
+    "file": "faltinsen_chunk_0086.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 93,
+    "end_page": 94,
+    "text": null,
+    "token_estimate": 581,
+    "file": "faltinsen_chunk_0087.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 94,
+    "end_page": 95,
+    "text": null,
+    "token_estimate": 783,
+    "file": "faltinsen_chunk_0088.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 95,
+    "end_page": 96,
+    "text": null,
+    "token_estimate": 1192,
+    "file": "faltinsen_chunk_0089.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 96,
+    "end_page": 97,
+    "text": null,
+    "token_estimate": 793,
+    "file": "faltinsen_chunk_0090.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 97,
+    "end_page": 98,
+    "text": null,
+    "token_estimate": 703,
+    "file": "faltinsen_chunk_0091.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 98,
+    "end_page": 99,
+    "text": null,
+    "token_estimate": 915,
+    "file": "faltinsen_chunk_0092.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 99,
+    "end_page": 100,
+    "text": null,
+    "token_estimate": 676,
+    "file": "faltinsen_chunk_0093.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 100,
+    "end_page": 101,
+    "text": null,
+    "token_estimate": 656,
+    "file": "faltinsen_chunk_0094.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 101,
+    "end_page": 102,
+    "text": null,
+    "token_estimate": 695,
+    "file": "faltinsen_chunk_0095.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 102,
+    "end_page": 103,
+    "text": null,
+    "token_estimate": 1049,
+    "file": "faltinsen_chunk_0096.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 103,
+    "end_page": 104,
+    "text": null,
+    "token_estimate": 799,
+    "file": "faltinsen_chunk_0097.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 104,
+    "end_page": 105,
+    "text": null,
+    "token_estimate": 846,
+    "file": "faltinsen_chunk_0098.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 105,
+    "end_page": 106,
+    "text": null,
+    "token_estimate": 747,
+    "file": "faltinsen_chunk_0099.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 106,
+    "end_page": 107,
+    "text": null,
+    "token_estimate": 825,
+    "file": "faltinsen_chunk_0100.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 107,
+    "end_page": 108,
+    "text": null,
+    "token_estimate": 821,
+    "file": "faltinsen_chunk_0101.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 108,
+    "end_page": 109,
+    "text": null,
+    "token_estimate": 941,
+    "file": "faltinsen_chunk_0102.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 109,
+    "end_page": 110,
+    "text": null,
+    "token_estimate": 943,
+    "file": "faltinsen_chunk_0103.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 110,
+    "end_page": 111,
+    "text": null,
+    "token_estimate": 678,
+    "file": "faltinsen_chunk_0104.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 111,
+    "end_page": 112,
+    "text": null,
+    "token_estimate": 651,
+    "file": "faltinsen_chunk_0105.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 112,
+    "end_page": 113,
+    "text": null,
+    "token_estimate": 702,
+    "file": "faltinsen_chunk_0106.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 113,
+    "end_page": 114,
+    "text": null,
+    "token_estimate": 685,
+    "file": "faltinsen_chunk_0107.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 114,
+    "end_page": 115,
+    "text": null,
+    "token_estimate": 1283,
+    "file": "faltinsen_chunk_0108.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 115,
+    "end_page": 116,
+    "text": null,
+    "token_estimate": 916,
+    "file": "faltinsen_chunk_0109.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 116,
+    "end_page": 117,
+    "text": null,
+    "token_estimate": 1337,
+    "file": "faltinsen_chunk_0110.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 117,
+    "end_page": 118,
+    "text": null,
+    "token_estimate": 984,
+    "file": "faltinsen_chunk_0111.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 118,
+    "end_page": 119,
+    "text": null,
+    "token_estimate": 733,
+    "file": "faltinsen_chunk_0112.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 119,
+    "end_page": 120,
+    "text": null,
+    "token_estimate": 704,
+    "file": "faltinsen_chunk_0113.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 120,
+    "end_page": 121,
+    "text": null,
+    "token_estimate": 751,
+    "file": "faltinsen_chunk_0114.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 121,
+    "end_page": 122,
+    "text": null,
+    "token_estimate": 1220,
+    "file": "faltinsen_chunk_0115.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 122,
+    "end_page": 123,
+    "text": null,
+    "token_estimate": 934,
+    "file": "faltinsen_chunk_0116.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 123,
+    "end_page": 124,
+    "text": null,
+    "token_estimate": 665,
+    "file": "faltinsen_chunk_0117.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 124,
+    "end_page": 125,
+    "text": null,
+    "token_estimate": 687,
+    "file": "faltinsen_chunk_0118.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 125,
+    "end_page": 126,
+    "text": null,
+    "token_estimate": 752,
+    "file": "faltinsen_chunk_0119.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 126,
+    "end_page": 127,
+    "text": null,
+    "token_estimate": 919,
+    "file": "faltinsen_chunk_0120.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 127,
+    "end_page": 128,
+    "text": null,
+    "token_estimate": 737,
+    "file": "faltinsen_chunk_0121.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 128,
+    "end_page": 129,
+    "text": null,
+    "token_estimate": 770,
+    "file": "faltinsen_chunk_0122.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 129,
+    "end_page": 130,
+    "text": null,
+    "token_estimate": 811,
+    "file": "faltinsen_chunk_0123.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 130,
+    "end_page": 131,
+    "text": null,
+    "token_estimate": 707,
+    "file": "faltinsen_chunk_0124.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 131,
+    "end_page": 132,
+    "text": null,
+    "token_estimate": 733,
+    "file": "faltinsen_chunk_0125.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 132,
+    "end_page": 133,
+    "text": null,
+    "token_estimate": 730,
+    "file": "faltinsen_chunk_0126.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 133,
+    "end_page": 134,
+    "text": null,
+    "token_estimate": 676,
+    "file": "faltinsen_chunk_0127.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 134,
+    "end_page": 135,
+    "text": null,
+    "token_estimate": 898,
+    "file": "faltinsen_chunk_0128.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 135,
+    "end_page": 136,
+    "text": null,
+    "token_estimate": 959,
+    "file": "faltinsen_chunk_0129.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 136,
+    "end_page": 137,
+    "text": null,
+    "token_estimate": 676,
+    "file": "faltinsen_chunk_0130.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 137,
+    "end_page": 138,
+    "text": null,
+    "token_estimate": 1034,
+    "file": "faltinsen_chunk_0131.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 138,
+    "end_page": 139,
+    "text": null,
+    "token_estimate": 952,
+    "file": "faltinsen_chunk_0132.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 139,
+    "end_page": 140,
+    "text": null,
+    "token_estimate": 794,
+    "file": "faltinsen_chunk_0133.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 140,
+    "end_page": 141,
+    "text": null,
+    "token_estimate": 899,
+    "file": "faltinsen_chunk_0134.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 141,
+    "end_page": 142,
+    "text": null,
+    "token_estimate": 796,
+    "file": "faltinsen_chunk_0135.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 142,
+    "end_page": 143,
+    "text": null,
+    "token_estimate": 673,
+    "file": "faltinsen_chunk_0136.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 143,
+    "end_page": 144,
+    "text": null,
+    "token_estimate": 721,
+    "file": "faltinsen_chunk_0137.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 144,
+    "end_page": 145,
+    "text": null,
+    "token_estimate": 821,
+    "file": "faltinsen_chunk_0138.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 145,
+    "end_page": 146,
+    "text": null,
+    "token_estimate": 861,
+    "file": "faltinsen_chunk_0139.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 146,
+    "end_page": 147,
+    "text": null,
+    "token_estimate": 722,
+    "file": "faltinsen_chunk_0140.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 147,
+    "end_page": 148,
+    "text": null,
+    "token_estimate": 605,
+    "file": "faltinsen_chunk_0141.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 148,
+    "end_page": 149,
+    "text": null,
+    "token_estimate": 889,
+    "file": "faltinsen_chunk_0142.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 149,
+    "end_page": 150,
+    "text": null,
+    "token_estimate": 1107,
+    "file": "faltinsen_chunk_0143.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 150,
+    "end_page": 151,
+    "text": null,
+    "token_estimate": 887,
+    "file": "faltinsen_chunk_0144.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 151,
+    "end_page": 152,
+    "text": null,
+    "token_estimate": 967,
+    "file": "faltinsen_chunk_0145.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 152,
+    "end_page": 156,
+    "text": null,
+    "token_estimate": 956,
+    "file": "faltinsen_chunk_0146.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 156,
+    "end_page": 157,
+    "text": null,
+    "token_estimate": 670,
+    "file": "faltinsen_chunk_0147.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 157,
+    "end_page": 160,
+    "text": null,
+    "token_estimate": 1030,
+    "file": "faltinsen_chunk_0148.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 160,
+    "end_page": 161,
+    "text": null,
+    "token_estimate": 1250,
+    "file": "faltinsen_chunk_0149.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 161,
+    "end_page": 162,
+    "text": null,
+    "token_estimate": 1402,
+    "file": "faltinsen_chunk_0150.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 162,
+    "end_page": 163,
+    "text": null,
+    "token_estimate": 1305,
+    "file": "faltinsen_chunk_0151.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 163,
+    "end_page": 164,
+    "text": null,
+    "token_estimate": 1103,
+    "file": "faltinsen_chunk_0152.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 164,
+    "end_page": 165,
+    "text": null,
+    "token_estimate": 1185,
+    "file": "faltinsen_chunk_0153.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 165,
+    "end_page": 166,
+    "text": null,
+    "token_estimate": 630,
+    "file": "faltinsen_chunk_0154.txt"
+  },
+  {
+    "source": "faltinsen",
+    "start_page": 166,
+    "end_page": 166,
+    "text": null,
+    "token_estimate": 104,
+    "file": "faltinsen_chunk_0155.txt"
+  }
+]

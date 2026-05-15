@@ -1,0 +1,187 @@
+SEA LOADS ON
+SHIPS AND OFFSHORE
+STRUCTURES
+
+O. M. Faltinsen
+
+Professor, Department of Marine Technology
+Norwegian Institute of Technology
+
+” CAMBRIDGE ©
+
+§ UNIVERSITY PRESS
+
+CONTENTS
+
+PUBLISHED BY THE PRESS SYNDICATE OF THE UNIVERSITY OF CAMBRIDGE
+The Pitt Building, Trumpington Street, Cambridge CB2 1RP, United Kingdom
+
+CAMBRIDGE UNIVERSITY PRESS
+The Edinburgh Building, Cambridge CB2 2RU, UK http://www.cup.cam.ac.uk
+40 West 20th Street, New York, NY 10011-4211, USA http://www.cup.org
+
+10 Stamford Road, Oakleigh, Melbourne 3166, Australia Preface vii
+© Cambridge University Press 1990 1 Introduction 1
+, Definitions of motions 3
+This book is in copyright. Subject to statutory exception Traditional ship problems 5
+and to the provisions of relevant collective licensing agreements, Offshore structure problems 8
+no reproduction of any part may take place without Hydrodynamic classification of structures 10
+the written permission of Cambridge University Press. Engineering tools 11
+First published 1990 2 Sea environment 13
+First paperback edition 1993 Basic assumptions 13
+Reprinted 1995, 1998 Regular wave theory 17
+Statistical description of waves 23
+Wind 31
+Current 33
+A catalogue record for this book is available from the British Library Exercises 34
+ISBN 0 521 45870 6 paperback 3 Finear _waverinduced motions and loads on floating 37
+stru
+Transferred to digital printing 1999 Response in regula lar $e 0
+Discussion on natural periods, damping and excitation
+level 68
+Linear wave-induced motions and loads on a tension leg
+platform (TLP) in the mass—force domain 74
+Heave motion of a semi-submersible 76
+Minimalization of vertical ship motions 81
+Roll stabilization 85
+Exercises 89
+4 Numerical methods for linear wave-induced motions
+and loads 102
+Source technique 103
+Alternative solution procedures 118
+Forward speed and current effects 122
+
+oo ans . Exercises 127
+
+vi
+
+CONTENTS
+
+Second-order non-linear problems
+Mean wave (drift) forces and moments
+Slow-drift motions in irregular waves
+Slowly-varying oscillations due to wind
+Sum-frequency effects
+
+Exercises
+
+Current and wind loads
+
+Steady incident flow past a circular cylinder
+Boundary layers
+
+Wake behaviour
+
+Vortex shedding
+
+Current loads on ships
+
+Current loads on offshore structures
+Wind loads
+
+Vortex-induced resonance oscillations
+Galloping
+
+Exercises
+
+Viscous wave loads and damping
+Morison’s equation
+
+Flow separation
+
+’ Oscillatory non-separated flow
+
+Separated flow at small KC-numbers
+Separated flow at high KC-numbers
+Experimental tools
+
+Exercises
+
+Stationkeeping
+
+Mooring systems
+
+Thruster forces
+
+Thruster performance and dynamic positioning
+Exercises
+
+Water impact and entry
+Slamming
+
+Water entry problems
+Exercises
+
+References
+Index
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+234.
+
+
+
+
+
+
+
+
+
+
+PREFACE
+
+a
+
+The material in this book has been continuously developed since the
+author started to teach hydrodynamics of ships and offshore structures at
+the Norwegian Institute of Technology (NTH) in 1974. During this
+period offshore oil activity has played an important role in Norwegian
+society. Interest in ships for transportation has changed during these
+years. At the moment there is an increasing interest in developing
+high-speed marine vehicles for transportation of goods and passengers.
+In the future it is expected that oil and gas exploration will move into
+areas of deeper water. Examples on future new areas where ocean
+engineers and naval architects can be of help is fish farming in open sea,
+recovery of deep-sea minerals, and development of marine energy
+resources from temperature gradients and waves. In all these areas there
+is a need to know about sea loads. This is what this book is all about.
+The book covers applications in a broad area. This includes conventional
+ships, high-speed marine vehicles, fixed and floating offshore structures.
+Many of the applications come through exercises.
+
+Part of the material in the book has been taught for the last year siv.ing
+(MSc) students at the Department of Marine Technology, NTH. It has
+also been used in graduate courses at the Department of Ocean Engineering,
+MIT, when the author was a visiting professor there in two periods from
+1980 to 1981 and from 1987 to 1988.
+
+A book on wave-induced motions and loads can easily be very
+mathematical. The author has tried to avoid this. The hope is that
+engineers with a non-mathematical background can get a good insight into
+sea loads on ships and offshore structures by reading the book. However,
+knowledge in calculus including vector analysis and differential equations
+is necessary to read the book in detail. The reader should also be familiar
+with basic hydrodynamics of potential and viscous flow.
+
+I was encouraged by Professor J. N. Newman, MIT, to write the
+book. Being an editor for the book he has also given me much valuable
+advice. Dr. Svein Skjgrdal has spent a lot of time giving detailed
+comments on different versions of the manuscript. He has also been
+helpful in seeing the topics from a practical point of view. Many other
+people should be thanked for their critical review and contributions.

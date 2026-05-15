@@ -1,0 +1,76 @@
+if the slope of the foil is sufficiently small over its entire surface (except at the leading edge!). A linearized problem can be formulated in exactly the same manner as for the two-dimensional case in section 5.2. The thickness problem can be solved again in terms of a suitable source distribution, and the lifting Figure 5.17 Definition sketch for equation (113), showing the position vector R and differential line element dl along a vortex filament situated on the contour C.
+
+Lifting Surfaces 
+
+problem can be reduced to one involving a mean-camber surface of zero 
+thickness where there is a specified normal velocity
+v x
+z
+U
+x
+x z
+( , , )
+( , ).
+
+= −
+∂
+∂η
+	
+(114)
+This boundary condition must be supplemented by the Kutta condition 
+requiring finite velocity all along the trailing edge.
+As in the two-dimensional case, a solution of the boundary condition 
+(114) can be constructed by a suitable distribution of vortices in the plane 
+y = 0. In general, such a distribution would be comprised of line vortices of 
+varying strengths and varying orientation angles. In other words, γ in this 
+case is a vector situated in the plane y = 0. This vector can be decomposed 
+into a bound component, parallel to the z-axis, and a free component, paral­
+lel to the x-axis. Thus it is necessary to consider only these two specific ori­
+entations and the induced velocities corresponding to each. In section 5.8 
+we showed that the limiting behavior of a line vortex very close to its axis 
+is identical to that of a two-dimensional point vortex of the same strength. 
+Thus the results derived in section 5.2, for a distribution of two-dimensional 
+vortices along the x-axis, will apply locally for the bound vortex distribu­
+tion in three dimensions. In particular, a bound vortex distribution of den­
+sity γB(x, z) will induce a discontinuity in the chordwise component of the 
+fluid velocity, across the plane y = 0, in accordance with the relation
+u x
+z
+x z
+B
+( ,
+, )
+( , ).
+±
+=
+
+
+
+∓
+γ
+	
+(115)
+Similarly, a free vortex distribution of density γF(x, z) will induce a disconti­
+nuity in the spanwise component across y = 0 given by
+w x
+z
+x z
+F
+( ,
+, )
+( , ).
+±
+= ±
+
+
+2 γ
+	
+(116)
+Note that the right-hand rule applies here; the circulation of the bound 
+vortices is defined as positive about the z-axis and that of the free vortices 
+positive about the x-axis.
+These planar distributions of vortices are known generally as vortex 
+sheets, and we may refer separately to the bound vortex sheet and the free 
+vortex sheet. These are not independent, however, since the velocity field 
+adjacent to the sheets must be irrotational. Using (115) and (116) to com­
+pute the y-component of the vorticity adjacent to the foil, we get

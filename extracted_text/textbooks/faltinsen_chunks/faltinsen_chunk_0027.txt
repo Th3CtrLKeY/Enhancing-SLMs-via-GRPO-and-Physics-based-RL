@@ -1,0 +1,74 @@
+the steady wave system and the oscillatory effects of ship motions. Care should be shown in applying the theory for En = U/(Lg)t > ~0.4. Another limitation of strip theory is the assumption of linearity between response and incident wave amplitude. This means it is questionable to apply in high s with ship slamming and water on deck occurring. Fig. 3.13. Influence of forward speed U on the body boundary condition for a ship forced to oscillate in pitch 75.
+
+58 LINEAR WAVE-INDUCED MOTIONS
+
+Strip theory is also questionable to apply for ships with low length to
+beam ratios. The reason is that strip theory is a slender body theory. On
+the other hand, the Seakeeping Committee of the 18th ITTC concludes
+that strip theory appears to be remarkably effective for predicting the
+motions of ships with length to beam ratios as low as 2.5.
+
+Restoring forces and moments
+When a body is freely floating, the restoring forces will follow from
+‘hydrostatic and mass considerations. We may write the force and
+moment components as
+
+Fy = Crit (3.32)
+
+which defines the restoring coefficients C,;. The only non-zero
+coefficients for a body with the x-z plane as a symmetry plane for the
+submerged volume are
+
+C33 = pgAwp
+
+Css=Css= —p9 | [ xds
+
+Cus = pgV (Zp — 2g) + 18 | | y? ds = pgVGMr
+
+Awp
+
+_ _ 24. 7aSVi
+Css = pgV (2p — 2G) + PE [f= ds = pgVGM, CL ote
+
+Awr Pfte?
+
+Here Awp is the waterplane area, V is the displaced volume of water, 2
+and zg are the z-coordinates of the centre of gravity/and centre_of
+buoyancy, respectively. GMr is the transverse metacenttic height, GM,
+is the longitudinal metacentric height. We can, for instance, deduce C33
+by considering forced heave motion and analysing the resulting changes
+in buoyancy forces due to the hydrostatic pressure ~—pgz. This can be
+linearly approximated as —pgA,,73. From this C33 follows from equation
+(3.32). For a moored structure additional restoring forces have to be
+added. However, the effect of a spread mooring system on the linear
+wave-induced motion is generally quite small. In special cases, in
+particular for long wavelengths, the mooring system will have an
+influence.
+
+Linearized wave exciting forces and moments
+The wave exciting forces and moments on the structure are the loads on
+the structure when the structure is restrained from oscillating and there
+are incident waves. We assume the waves are regular and sinusoidal. The
+unsteady fluid pressure can be divided into two effects. One effect is the
+
+RESPONSE IN REGULAR WAVES 59
+
+LBQAY fe &
+unsteady pressure induced by the undisturbed waves. The force due to
+the corresponding undisturbed pressure field is called a Froude—Kriloff
+force. In addition there will be a force because the structure changes this
+pressure field. This force is called a diffraction force and may be found in
+a similar way as the added mass and damping coefficients, i.e. one has to
+solve a boundary value problem for the velocity potential. The main
+difference is the boundary condition on the body, where the normal
+derivative of the diffraction velocity potential has to be opposite and of
+identical magnitude as the normal velocity of the undisturbed wave
+system. In this way we ensure that the normal component of the total
+velocity on the structure is equal to zero. Let us illustrate this by
+considering a vertical cylinder standing on the sea floor and penetrating
+the free-surface. A horizontal submerged cross-section of the cylinder is
+shown in Fig. 3.14. The figure defines polar coordinates such that
+x=rcos@, y=rsin@. The unit normal vector n is written as n=
+cos i+ sin 6j. The undisturbed pressure, i.e. the Froude—Kriloff pres-
+
+Fig. 3.14. Horizontal submerged cross-section of a vertical cylinder.

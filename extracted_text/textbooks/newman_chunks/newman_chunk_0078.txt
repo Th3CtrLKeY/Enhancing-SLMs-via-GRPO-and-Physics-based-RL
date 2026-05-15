@@ -1,0 +1,101 @@
+= 0. The latter condition was invoked originally by Prandtl, but this does not permit a satisfactory empirical fit within the overlap region. Thus we have arrived at the conclusion, originally due to Prandtl and von Kármán, that the mean velocity profile is logarithmic in the inter­ mediate or overlap region. Much effort has gone into corroborating these formulas and determining the constants A, C1, and C2. Surveys of these investigations and more complete expositions of the above derivation are
+
+Chapter 3
+given by Schlichting (1968) and by Monin and Yaglom (1971). Figures 3.10 
+and 3.11, reproduced from the latter reference, show comparisons with 
+experiments for the inner and outer functions respectively; the constants 
+there have been chosen empirically to give the following equations in place 
+of (103) and (104):
+u
+u
+u y
+u y
+τ
+τ
+τ
+ν
+ν
+=
++
+>
+2 5
+5 1
+
+. log(
+/ )
+. ,
+/
+, 	
+(105)
+U
+u
+u
+y
+y
+−
+= −
++
+<
+τ
+δ
+δ
+2 5
+2 35
+0 15
+. log( / )
+.
+,
+/
+.
+. 	
+(106)
+Figure 3.10
+Universal dimensionless mean velocity profile of turbulent flow close to a smooth 
+wall according to the data of tube-, channel- and boundary-layer measurements. 
+Here u+ = u/uτ and z+ = uτy/ν. (From Monin and Yaglom 1971)
+
+The Motion of a Viscous Fluid 
+
+Natural logarithms are implied here and subsequently, except where explic­
+itly stated in (115). Figures 3.10 and 3.11 both display the restriction that 
+the logarithmic profiles are correct only in the intermediate region, and 
+the respective domains of validity are given in (105–106). Figure 3.10 also 
+shows the region of validity of the near-wall approximation (98), which is 
+valid for uτy/ν < 5. The experimental data in figure 3.10 includes results not 
+only for a flat plate boundary layer, but for various tubes and channels as 
+well, since the inner velocity profile is the same for all these cases.
+An equation for the friction velocity uτ, and hence the shear stress on the 
+wall, may be deduced by adding (105) and (106) to give the relation
+U
+u
+A
+u
+C
+C
+τ
+τδ
+ν
+=
++
++
+log
+(
+).
+
+
+(107)
+However, a second equation is needed to relate the two unknowns uτ and 
+δ. For this purpose, we recall the momentum equation (72), which was 
+derived for a laminar boundary layer. It is possible to show that this same 
+equation is valid for a turbulent boundary layer by including the Reynolds 
+stress in the boundary-layer equations, provided the fluctuating compo­
+nents of the velocity satisfy the isotropic relation ′ =
+′
+u
+v
+
+2. With this addi­
+tional assumption, and deleting the pressure gradient term in (72), we get
+Figure 3.11
+Logarithmic form of the velocity defect law for a boundary layer. Here u* = uτ and 
+z = y. (From Monin and Yaglom 1971)

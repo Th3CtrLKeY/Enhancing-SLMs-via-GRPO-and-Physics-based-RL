@@ -1,0 +1,104 @@
+(x0, y0, z0), and a small lateral motion in the z0-direction. (Vertical motions in the y0-direction can be treated in an identical manner.) A moving coordinate system (x, y, z) is defined by the transformations x x Ut = − , (2) y y = 0, (3) z z = 0. (4) The lateral motion of the body is described by its displacement ζ(x, t) from the x0-axis, as shown in figure 7.1. For rigid-body motions ζ will be a
+
+Hydrodynamics of Slender Bodies 
+
+constant or linear function of x. Undulatory motions of the body may also 
+be considered where the dependence of ζ on x will be more general. We 
+assume only that ζ is small relative to the body length and that this dis­
+placement is a slowly varying function of x. The latter restriction excludes 
+flexural modes with a length-scale of order εl.
+The body surface SB is assumed to be elongated in the longitudinal 
+direction and may include a tail fin as shown in figure 7.1. The intersec­
+tion of SB with a plane x = constant defines the cross-section profile ∑B(x), 
+and the circumscribed area S(x) is the sectional area of the body. We shall 
+assume that the body ends are such that both S(x) and S′(x) ≡ dS/dx vanish at 
+the ends.
+The body surface can be described by the equation F(x, y, z − ζ) = 0. For 
+example, if the body is symmetrical about z = ζ, then F = z – ζ ± b(x, y) where 
+b is the local half-beam. Using the substantial derivative (3.19), the bound­
+ary condition on SB takes the form
+D
+Dt F x
+Ut y
+z
+(
+,
+,
+)
+,
+
+
+
+
+−
+−
+=
+ζ
+	
+(5)
+or
+∂
+∂
+−
+
+
+
+
+∂
+∂
++ ∂
+∂
+∂
+∂
++
+∂
+∂
+−∂
+∂
+∂
+∂
++
+∂
+∂
+−∂
+∂
+
+
+
+φ
+φ
+φ
+ζ
+φ
+ζ
+ζ
+x
+U
+F
+x
+y
+F
+y
+z
+x
+x
+U
+x
+t
+
+
+
+
+
+∂
+∂
+=
+F
+z
+0. 	
+(6)
+Here ϕ(x0, y0, z0, t) is the velocity potential due to the presence of the 
+body, which is defined initially with respect to the fixed coordinates 
+(x0, y0, z0).
+Figure 7.1
+Definition sketch for slender body and coordinate systems.

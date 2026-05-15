@@ -1,0 +1,177 @@
+. (125) Here the control surface has been taken as a pair of planes x = constant upstream and downstream of the foil, and the remaining surface between these at infinity can be neglected since the perturbation vanishes sufficiently rapidly as y2 + z2 → ∞. Indeed, the same must be true upstream but not down­ stream where the trailing vortex sheet persists. Since the velocity induced by the vortex sheet far downstream is independent of x, it follows that
+
+Lifting Surfaces 
+
+D
+y
+z
+dy dz
+=
+∂
+∂
+
+
+
++
+∂
+∂
+
+
+
+
+
+
+
+
+
+
+
+
+∞
+−∞
+∫∫
+
+
+
+
+ρ
+φ
+φ
+, 	
+(126)
+where the integrand is to be evaluated for x → −∞. This integral is the twodimensional kinetic energy in a Trefftz plane x = constant, far downstream.
+The surface integral in (126) can be replaced by a line integral around 
+the trailing vortex sheet, or the cut z
+s
+< 1
+2 , by means of the divergence 
+theorem. Since ▽2ϕ = 0, it follows that
+D
+dy dz
+dy dz
+n dl
+=
+∇⋅∇
+=
+∇⋅
+∇
+=
+∂
+∂
+= −
+∂
+∫∫
+∫∫
+∫
+−
++
+
+
+
+
+
+
+
+
+ρ
+φ
+φ
+ρ
+φ φ
+ρ
+φ φ
+ρ
+φ
+φ
+(
+)
+[ ]
+
+∂
+−∫
+y dz
+s
+s
+
+
+.
+	
+(127)
+Note that the contour integral at large radial distance (y2 + z2)1/2 in the 
+Trefftz plane is zero, since the velocity components v and w vanish at a suf­
+ficient rate far from the trailing vortex sheet. Also, in the final step of (127), 
+we have used the fact that ∂ϕ/∂y = ± ∂ϕ/∂n is continuous across the wake, 
+whereas the potential is discontinuous.
+The jump in the potential can be related to the bound vorticity by inte­
+grating the pressure jump with respect to x and noting that the pressure 
+jump across the wake must vanish. Thus
+Γ( )
+[ ]
+,
+z
+x
+dx
+x
+dx
+x
+x
+x
+x
+T
+L
+L
+= −
+∂
+∂
+
+
+
+
+= −
+∂
+∂
+
+
+
+
+=
+−
++
+−
++
+−∞
+−
++
+=−∞
+∫
+∫
+φ
+φ
+φ
+	
+(128)
+since the jump in the potential must vanish at the leading edge. Substitut­
+ing (128) into (127), we obtain the drag formula
+D
+z
+y dz
+s
+s
+= −
+∂
+∂
+−∫
+
+
+
+
+ρ
+φ
+Γ( )
+, 	
+(129)
+where the integration is taken across the vortex wake far behind the foil.
+The vertical velocity component ∂ϕ/∂y, far downstream on the trailing 
+vortex sheet, can be computed from the equation (60) for a two-dimensional 
+vortex distribution. With a suitable change in the coordinate system and 
+using (124) to evaluate the trailing vortex density, we get

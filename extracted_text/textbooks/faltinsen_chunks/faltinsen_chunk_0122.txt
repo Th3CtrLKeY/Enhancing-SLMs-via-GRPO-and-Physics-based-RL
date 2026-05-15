@@ -1,0 +1,99 @@
+results of Morison’s equation. In a U-tube the period of oscillation T is constant. This corresponds to the natural period of the tank (see chapter 3 on U-tube anti-rolling tanks). The parameter we can vary is the velocity amplitude Uy. In a U-tube is a constant for each model. One therefore often sees Cp and Cy presented as a function of KC for constant f. The results can easily be translated to be a function of both KC and Rn.
+
+252 VISCOUS WAVE LOADS AND DAMPING
+
+. Free decay tests
+It is common engineering practice to obtain damping coefficients from
+free decay tests. It is normal to assume that the motion can be written as
+
+K+ pix + po |X| X+ psx =0 (7.40)
+
+where Pp, is linear damping and p, is quadratic damping. Assuming the
+damping to be constant with respect to the amplitude of oscillation, the
+linear and quadratic damping coefficients p, and p, can be determined
+from the relation
+
+2 Xai 16X,
+708 =) = pity phe (7.41)
+where X,, is the amplitude of the nth oscillation. There is one half period
+Tm/2 between X,, and X,,., for any n. By plotting the left hand side of
+the equation versus 18x /T,, and fitting the points to a straight line by
+the least square method, the coefficients p, and pz are found; these give
+the linear and quadratic damping terms respectively, see Fig. 7.18.
+
+It is difficult and in some cases impossible to determine this straight
+
+line from the experimental results. For instance, if the drag coefficient
+
+(ie. the damping force) has a large KC-number dependence, or -
+
+Reynolds-number dependence, it is impossible to find such a straight line.
+Problems may occur particularly if the oscillating system is not lightly
+damped. The reason is that the maximum velocity then changes
+significantly for each subsequent oscillation period. This means the
+Reynolds number and the KC-number change significantly. If the
+damping force is strongly dependent on these parameters, it means we
+
+Force
+A Measurements
+Morison’s
+equation
+
+Time
+
+Mass G
+! force in \ i
+Morisons ‘A
+
+equation
+
+Fig. 7.17. Example of measured and estimated force by Morison’s equation
+(equation (7.36)) from U-tube tests.
+
+EXERCISES 253
+
+cannot find one Pr and P-value that is valid for the total decay time.
+More than 10 oscillation periods with no significant variation in Reynolds
+number and KC-number may be needed to give a good estimate of the
+damping.
+
+EXERCISES
+
+; 7.1 Morison’s equation
+Consider deep-sea regular waves incident on a vertical rigid circular
+cylinder (Fig. 3.14). Consider the horizontal force on a strip of length dz
+(see equation (7.1)).
+(a) Discuss at what time instants the maximum horizontal force
+F max occurs as a function of the amplitude €, and the
+wavelength A of the incident waves. Derive expressions for
+F max a8 a function of €, and 2. Answer: With a, proportional
+to cos wt:
+I) If £,e% <0.25% CyD/Cp maximum force at wt = 0
+ID If £,e% > 0.25% C4D/Cp maximum force at cos wt =
+0.25aCyD/(Cp be)
+(b) Discuss relative importance of the drag and inertia term as a
+function of KC-number.
+
+P1=2.221.10"
+fog Xe y P2=1.506-10"
+P3=5.823.10°
+
+0.006
+
+0,004
+
+0.002
+
+16 Xn
+3S” Tm
+
+0. 01 O02 03 O04 O58 O06
+
+ig. 7.18. Ilustration of how the damping coefficients p, and p2 (see equation
+
+(7.40)) are obtained from a free decay test. The free decay test is the
+
+calm water motion decay test in surge presented in Fig. 5.20. (The
+
+ar and the abscissa are defined in connection with equation
+41).

@@ -1,0 +1,232 @@
+this systematic procedure increases rapidly with the order of accuracy of the boundary condition. Plane progressive waves in deep water are of particular interest and importance, and equations (32–34) can be utilized to obtain the third-order expansion for plane waves. Direct substitution of the first-order plane-wave potential (16) in the second-order boundary condition (33) reveals that the second-order terms in (33) vanish. Therefore the first-order potential is a solution of the secondorder boundary value problem, and we can state that
+
+Waves and Wave Effects 
+
+φ
+ω
+ω
+=
+−
++
+gA e
+kx
+t
+O A
+ky sin(
+)
+(
+).
+
+(35)
+On the other hand, the free-surface elevation must be corrected for secondorder effects, using the systematic expansion of (4) in the form
+η
+φ
+φ
+φ
+φ
+φ
+φ
+η
+φ
+η
+= −
+∂
+∂+
+∇⋅∇
+
+
+
+
+= −
+∂
+∂+
+∇⋅∇
+
+
+
+
++
+∂
+∂
+−
+∂
+∂
+=
+=
+
+
+
+
+
+
+
+
+g
+t
+g
+t
+y
+g
+t
+y
++
+∇⋅∇
+
+
+
+
+
+
++
+= −
+∂
+∂+
+∇⋅∇−
+∂
+∂
+∂
+∂∂
+
+
+
+=
+
+
+
+
+
+
+
+
+φ
+φ
+φ
+φ
+φ
+φ
+φ
+y
+g
+t
+g
+t
+y t
+
+
++
+=
+y
+O
+
+
+(
+).
+φ
+	
+(36)
+Combining equations (35) and (36) yields the following second-order 
+results:
+η
+ω
+ω
+ω
+=
+−
+−
++
+−
+=
+−
++
+A
+kx
+t
+kA
+kA
+kx
+t
+A
+kx
+t
+kA
+k
+cos(
+)
+cos (
+)
+cos(
+)
+cos (
+
+
+
+
+
+
+
+
+
+x
+t
+−ω ).
+	
+(37)
+The last term in (37), which represents the second-order correction to the 
+free-surface profile, is positive both at the crests (kx − ωt) = 0, 2π, 4π, … and 
+at the troughs (kx − ωt) = π, 3π, 5π, … . The crests will be steeper, and the 
+troughs flatter, as a result of this nonlinear correction.
+For the third-order free-surface condition (34), substituting the planewave potential (35) in the nonlinear terms in (34) eliminates all but one 
+term; thus the boundary condition for the third-order plane-wave solution 
+is given by
+∂
+∂
++
+∂
+∂
++
+∇⋅∇∇⋅∇
+=
++
+
+
+
+
+
+
+φ
+φ
+φ
+φ
+φ
+φ
+t
+g
+y
+O
+(
+)
+(
+). 	
+(38)
+The first-order solution (16) will satisfy this third-order boundary condition 
+provided the dispersion relation (17) is corrected for a second-order effect 
+of the form
+ω2
+
+
+
+
+
+=
++
++
+gk
+k A
+O k A
+(
+)
+(
+). 	
+(39)
+The relation (8) can be utilized with (39) to obtain the corresponding cor­
+rection for the phase velocity,

@@ -1,0 +1,84 @@
+all values of r. For other body profiles, the inner solution must be found by conformal mapping or similar techniques. This completes the solution of the longitudinal-flow problem for a slen­ der body in an infinite fluid, and a brief review of the derivation may be useful. We began in section 1 with an assumed inner solution, valid near the body surface and satisfying the body boundary condition and the twodimensional Laplace equation. However, this solution does not satisfy the
+
+Hydrodynamics of Slender Bodies 
+
+condition at infinity in the outer field, and it contains an arbitrary addi­
+tive constant. To provide a corresponding outer solution with the proper 
+behavior at infinity, a three-dimensional source distribution is assumed, 
+using flux conditions to guess the appropriate source strength. By examin­
+ing the inner approximation of this outer solution, for small radius r, the 
+outer solution can be matched to the inner solution provided the arbitrary 
+constant of the latter is chosen as defined in (33). Thus, in the process of 
+overcoming the deficiencies at infinity, the arbitrary constant of the inner 
+solution is prescribed.
+The “constant” (33) is neither disposable nor unimportant, since it affects 
+the value of the pressure distribution along the body surface. To illustrate 
+this, we note that the added-mass coefficient m11 may be computed from 
+the inner solution, using (4.114). For a body of revolution it follows that
+m
+S
+r
+l
+f x
+n dS
+S
+R l
+SB
+
+
+
+
+
+
+=
+−
+′
++
+
+
+
+
+∂
+∂
+=
+−
+′
++
+∫∫
+ρ
+π
+ρ
+π
+log( / )
+( )
+log(
+/ )
+Φ
+f x
+S x dx
+l
+( )
+( )
+.
+
+
+
+′
+∫∫
+	
+(35)
+Since the body radius R is of order εl, the added-mass coefficient for 
+longitudinal motion is proportional to l3ε4 log ε. By comparison, the body 
+volume is of order ε2l3. Thus, the added mass of a slender body in the longi­
+tudinal direction is negligible compared with the body mass. This conclu­
+sion is not restricted to bodies of revolution, as shown in problem 1.
+7.3  The Lateral Force
+To find the distribution of the lateral force along the body length, (4.90) 
+may be applied to the thin slice of fluid of differential thickness dx0, as 
+shown in figure 7.2. This volume of fluid is bounded by the differential 
+length of the body surface SB, of profile ∑B (x) and width dx0, as well as by 
+a fixed control surface SC. The surface SC is composed of two lateral planes 
+S0 separated by a distance dx0 exterior to the body, and by a closure surface 
+S∞, at large radial distance from the body. Applying (4.90) to this control 
+surface, as well as to the differential portion of the body surface, the dif­
+ferential force is given by

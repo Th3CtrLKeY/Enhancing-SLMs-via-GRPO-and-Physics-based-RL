@@ -1,0 +1,69 @@
+an analytic function of z, and hence also of ζ, which may be mapped from one plane to the other with its values preserved. The resulting problem in the ζ-plane is as shown in figure 5.30, with ζ = ξ + iη. In this mapped plane, the vertical velocity on the lower surface of the foil has been written as Figure 5.29 Linearized boundary conditions corresponding to the problem shown in figure 5.28. Figure 5.30 Boundary conditions in mapped ζ-plane.
+
+Chapter 5
+v
+U
+x
+U
+f
+= −
+= −
+−
+≡
+α
+α
+ξ
+ξ
+( )
+(
+)
+( ).
+
+(175)
+Since the fluid domain has been mapped entirely into the lower half of 
+the ζ-plane, the region η > 0 has no physical significance. Mathematically, 
+it corresponds to the second Riemann sheet of the z-plane, or it could be 
+regarded as the domain of the cavity. In any event, if the boundary con­
+ditions are satisfied as shown in figure 5.30, on the lower side of the real 
+axis, the flow in the upper half-plane is immaterial. In accordance with the 
+Schwarz reflection principle, the velocity components u and v can therefore 
+be reflected about the ξ-axis, and the resulting flow will be continuous across 
+the real axis, excluding the cut (−1, 0), provided u is an odd function of η. 
+To ensure that u − iv is analytic, it follows from the Cauchy-Riemann equa­
+tions that v must be an even function of η. Thus, the appropriate reflections 
+into the upper half-plane are given by
+u
+u
+( , )
+( ,
+),
+ξ η
+ξ
+η
+= −
+−
+	
+(176)
+v
+v
+( , )
+( ,
+).
+ξ η
+ξ
+η
+=
+−
+	
+(177)
+The reflected boundary-value problem shown in figure 5.31 is mathe­
+matically identical to the lifting problem of a fully wetted thin foil shown 
+in figure 5.14. In both cases a Kutta condition must be imposed at the trail­
+ing edge, and the perturbation velocity should vanish at infinity. Thus the 
+solution of the cavity-flow problem in the mapped plane is identical to that of the 
+fully wetted lifting problem in the physical plane.
+The solution is given by a line distribution of vortices along the cut (−1, 
+0), as in equation (55); the appropriate distribution satisfying the Kutta 
+condition at x = −1 can be inferred from (71),
+Figure 5.31
+Boundary conditions of the reflected complex velocity in the ζ-plane.

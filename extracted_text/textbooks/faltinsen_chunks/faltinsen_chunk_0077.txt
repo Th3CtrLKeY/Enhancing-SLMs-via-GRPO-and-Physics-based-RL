@@ -1,0 +1,53 @@
+speed dependent. This is for instance evident from Motion decay surge. Calm water Surge (m) ° 100 200 300 400 500 600 Time (s) Motion decay surge. Regular waves T=12s,H=8m Surge (m) Surge (m) fe) 100 200 300 400 500 600 Time (s) Fig. 5.20. Influence of wave-drift damping demonstrated by free decay tests in surge of a tension leg platform both in calm water and in regular waves, (Wave period T = 12s, wave height H = 8 m).
+
+162 SECOND-ORDER NON-LINEAR PROBLEMS
+
+equation (5.22) which is valid in the non-zero speed case when the
+wavelength relative to the ship length is small. We can now interpret the
+term that is proportional to the ship speed as a damping term. This
+means we can write the wave-drift damping theoretically for small
+wavelengths in head sea as
+
+By? = pao€,” | sin? On, dl (5.49)
+
+Li
+
+By using the numerical method outlined by Zhao et al. (1988) it is
+possible to calculate the wave-drift damping for any wavelength.
+
+FY
+wo re ,
+B <a
+—— ° Mean experimental value (Faltinsen et al.,1986)
+B
+PBL. ~--~ Experiments (Wichers, 1982 )
+—'— Asymptotic theory (equation (5.49),
+
+15 - Faltinsen et al..1986)
+
+wv 9
+
+Fig. 5.21. Examples of wave-drift damping B,,”? in surge for head sea regular
+waves incident on a ship. (B = ship beam, L = ship length,
+¢, = wave amplitude of incident waves, w = circular frequency of
+oscillations). The results by Faltinsen eg al. (1986) and by Wichers
+(1982) are for different ships.
+
+SLOW DRIFT MOTIONS IN IRREGULAR WAVES 163
+
+Experimental ‘results for wave-drift damping in surge for two ship
+hulls in head sea regular waves are presented in Fig. 5.21. Experimental
+results can easily show large scatter, which means that high accuracy is
+needed in the experimental technique. An example of numerical results
+for a vertical circular cylinder is presented in Fig. 5.22. To obtgin the
+
+0.00 0.40 0.80 1.20 3
+
+Fig. 5.22. Wave-drift force F, and wave-drift damping B,,”? in surge for a
+vertical circular cylinder that is free to surge in linear motions.
+Incident regular waves. Infinite water depth. Draught = 3R. The
+lower figure is obtained from the results in the upper figure.
+(€, = wave amplitude of the incident waves, wo = circular frequency
+of oscillations of incident waves, U = current velocity. Positive
+current direction is in the wave propagation direction, D =
+diameter.)

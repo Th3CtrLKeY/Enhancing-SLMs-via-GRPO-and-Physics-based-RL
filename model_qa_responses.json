@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "created_utc": "2026-04-08T10:03:29.650801+00:00",
+    "adapter_path": "./sft_model_output/checkpoint-183",
+    "base_model": "Qwen/Qwen2.5-3B-Instruct",
+    "max_new_tokens": 512,
+    "device": "cuda:0",
+    "num_questions": 9,
+    "types": [
+      "conceptual",
+      "numerical",
+      "mcq"
+    ],
+    "per_type": 3,
+    "prompts": "eval_baseline.SYSTEM_PROMPT (conceptual, numerical); eval_baseline.MCQ_SYSTEM_PROMPT (mcq)"
+  },
+  "results": [
+    {
+      "id": "C1",
+      "type": "conceptual",
+      "question": "What is the difference between laminar and turbulent flow, and how does the Reynolds number help predict which regime will occur in a marine setting?",
+      "response": "Chain of Thought:\nLaminar flow occurs when fluid particles move parallel to each other without mixing or turbulence. Turbulent flow, on the other hand, involves chaotic eddies and vortices that mix the fluid layers. The Reynolds number (Re) is a dimensionless quantity used to predict whether flow will be laminar or turbulent. It is calculated as Re = ρvD/μ, where ρ is density, v is velocity, D is characteristic length, and μ is dynamic viscosity. If Re < 2300, flow is likely to be laminar; if Re > 4000, it's likely to be turbulent.\n\nFinal Answer:\nThe Reynolds number helps predict the flow regime by comparing the inertial forces (ρvD) with the viscous forces (μ). Flow is laminar if Re < 2300 and turbulent if Re > 4000."
+    },
+    {
+      "id": "C2",
+      "type": "conceptual",
+      "question": "Explain the physical meaning of the Froude number and its significance in ship resistance prediction.",
+      "response": "Chain of Thought:\nThe Froude number is a dimensionless quantity that characterizes the relative importance of inertial forces to gravitational forces in fluid dynamics, particularly for flows at low Reynolds numbers. In the context of ship resistance prediction, it helps determine whether viscous effects dominate over inertia or vice versa. The Froude number is defined as Fr = V / sqrt(g * L), where V is the velocity of the flow, g is the acceleration due to gravity, and L is a characteristic length scale (such as the ship's length). For ships moving in water, if Fr < 1, viscous effects are dominant, and if Fr > 1, inertial effects become significant.\n\nFinal Answer:\nThe Froude number is crucial for predicting ship resistance because it indicates the balance between inertial and viscous forces."
+    },
+    {
+      "id": "C3",
+      "type": "conceptual",
+      "question": "What is added mass in the context of marine hydrodynamics and why does it matter for vessel motion analysis?",
+      "response": "Chain of Thought:\nAdded mass refers to the additional inertia force that a body experiences when placed in a fluid, which can be thought of as the mass equivalent of the inertial forces due to the fluid's motion around the body. In the context of vessel motion analysis, added mass is crucial because it affects the vessel's response to external forces such as waves or propeller thrust. The presence of added mass means that the vessel will experience more resistance than if it were moving through a stationary fluid, leading to changes in its speed and direction.\n\nFinal Answer:\nAdded mass is important in vessel motion analysis because it accounts for the additional inertia force experienced by the vessel when placed in a fluid, affecting its response to external forces like waves or propeller thrust."
+    },
+    {
+      "id": "N1",
+      "type": "numerical",
+      "question": "A submarine travels at 5 m/s underwater. Its hull has a characteristic length of 80 m. The kinematic viscosity of seawater is 1.19e-6 m²/s. Calculate the Reynolds number and state whether the boundary layer is likely laminar or turbulent.",
+      "response": "Chain of Thought:\nThe Reynolds number (Re) can be calculated using the formula Re = ρUL/μ, where ρ is the density of seawater (approximately 1025 kg/m³), U is the velocity (5 m/s), L is the characteristic length (80 m), and μ is the kinematic viscosity (1.19e-6 m²/s). Plugging these values into the equation gives Re = 473.5. Since Re < 2300, the boundary layer is likely laminar.\n\nFinal Answer:\nReynolds Number: 473.5, Boundary Layer: Likely Laminar"
+    },
+    {
+      "id": "N2",
+      "type": "numerical",
+      "question": "A ship has a waterplane area of 1200 m², a block coefficient of 0.75, a length of 150 m, a beam of 25 m, and a draft of 8 m. Calculate the displacement volume.",
+      "response": "Chain of Thought:\nThe displacement volume can be calculated using the formula: Displacement Volume = Waterplane Area × (Length + Beam) × Draft / 6. Plugging in the given values, we get: Displacement Volume = 1200 m² × (150 m + 25 m) × 8 m / 6 = 144000 m³.\n\nFinal Answer:\n144000 m³"
+    },
+    {
+      "id": "N3",
+      "type": "numerical",
+      "question": "A wave has a period of 8 seconds in deep water. Calculate the wave speed and wavelength. Use g = 9.81 m/s².",
+      "response": "Chain of Thought:\nIn deep water, the wave speed (v) is given by v = √(g * L), where L is the wavelength. The wavelength can be calculated using the formula λ = v / f, where f is the frequency. Since the period T is related to the frequency by f = 1/T, we have λ = v / (1/T). Substituting v = √(g * L) into this equation gives λ = √(g * L) / (1/T). Given that T = 8 s, we get λ = √(g * L) / (1/8) = 8√(g * L). Now, substituting v = √(g * L) into the wave speed equation gives v = √(g * L) = √(g * 8√(g * L)). Squaring both sides yields g * L = g * 64 * g * L, which simplifies to L = 64L. Solving for L gives L = 0.25 meters.\n\nFinal Answer:\nWave speed: 3.13 m/s, Wavelength: 0.25 meters"
+    },
+    {
+      "id": "M1",
+      "type": "mcq",
+      "question": "Which of the following statements about the Froude number is CORRECT?\n\nOptions:\nA: It is the ratio of inertial forces to gravitational forces and is dimensionless\nB: It is the ratio of viscous forces to inertial forces\nC: It has units of m/s\nD: It is only relevant for pipe flows, not free-surface flows",
+      "response": "Option A is correct because the Froude number is indeed defined as the ratio of inertial forces to gravitational forces and it is a dimensionless quantity.\n\nTherefore, the answer is: A"
+    },
+    {
+      "id": "M2",
+      "type": "mcq",
+      "question": "In potential flow theory, which condition must be satisfied at a solid boundary?\n\nOptions:\nA: The tangential velocity must be zero (no-slip condition)\nB: The normal component of velocity must equal the normal velocity of the boundary\nC: The pressure must be equal to the ambient pressure\nD: The vorticity must be maximum at the boundary",
+      "response": "The correct answer is A.\n\nIn potential flow theory, the no-slip condition states that the tangential velocity at any point on a solid boundary must be zero. This means there is no relative motion between the fluid and the boundary, ensuring that the fluid adheres perfectly to the surface without slipping.\n\nTherefore, the answer is: A"
+    },
+    {
+      "id": "M3",
+      "type": "mcq",
+      "question": "For deep-water linear waves, how does wave group velocity relate to phase velocity?\n\nOptions:\nA: Group velocity equals phase velocity\nB: Group velocity is half the phase velocity\nC: Group velocity is twice the phase velocity\nD: Group velocity is zero while phase velocity is finite",
+      "response": "To determine the relationship between wave group velocity and phase velocity for deep-water linear waves, we need to understand the definitions of these velocities.\n\nWave group velocity (vg) is defined as the rate at which the energy of a wave group propagates through space. It can be expressed as:\n\n\\[ v_g = \\frac{\\partial f}{\\partial k} \\]\n\nPhase velocity (vp) is the speed at which a point of constant phase travels through space. It can be expressed as:\n\n\\[ v_p = \\frac{\\omega}{k} \\]\n\nIn deep water, where surface tension effects are negligible, the dispersion relation for deep-water waves is given by:\n\n\\[ \\omega^2 = gk \\]\n\nTaking the derivative of ω with respect to k gives us the wave group velocity:\n\n\\[ v_g = \\frac{d\\omega}{dk} = g \\]\n\nSince the phase velocity is also derived from the same dispersion relation:\n\n\\[ v_p = \\frac{\\omega}{k} = \\sqrt{gk} \\]\n\nTherefore, comparing the two expressions, we see that:\n\n\\[ v_g = g \\]\n\\[ v_p = \\sqrt{gk} \\]\n\nThis implies that:\n\n\\[ v_g = 2v_p \\]\n\nThus, the correct answer is:\n\n\\[ \\text{C: Group velocity is twice the phase velocity} \\]\n\nTherefore, the answer is: C"
+    }
+  ]
+}

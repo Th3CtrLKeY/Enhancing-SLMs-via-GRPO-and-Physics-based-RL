@@ -1,0 +1,659 @@
+[Page 1]
+m
+m
+  
+ 
+ 
+Lecture 11 
+ - Marine Hydrodynamics 
+Lecture 11 
+3.11 - Method of Images 
+m 
+ 
+• Potential for single source: φ = 
+ln 
+x2 + y2 
+2π 
+m 
+• Potential for source near a wall: φ = m 
+ln 
+x2 + (y − b)2 + ln  x2 + (y + b)2 
+2π 
+b 
+b 
+Added source for 
+
+= 
+φ
+dy 
+d 
+x 
+y 
+m 
+m 
+symmetry 
+Note: Be sure to verify that the boundary conditions are satisﬁed by symmetry or 
+by calculus for φ (y) =  φ (−y). 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+ 
+ 
+ 
+ 
+• Vortex near a wall (ground eﬀect): φ = Ux+ Γ 
+tan−1(y − b ) − tan−1(y + b )
+2π
+x 
+x 
+b 
+b 
+Γ 
+U
+x 
+y 
+-Γ 
+Added vortex for 
+symmetry 
+dφ 
+Verify that 
+= 0 on the wall y = 0.  
+dy 
+
+
+φ ∼ 
+a
+a 
+• Circle of radius a near a wall: 
+= Ux 1 +  
++ 
+x2 + (y − b)2 
+x2 + (y + b)2 
+b 
+b
+U
+y 
+x 
+y 
+This solution satisﬁes the boundary condition on the wall ( ∂φ = 0), and the degree it 
+∂n 
+satisﬁes the boundary condition of no ﬂux through the circle boundary increases as 
+the ratio b/a >> 1, i.e., the velocity due to the image dipole small on the real circle 
+for b >> a. For a 2D dipole, φ ∼ d
+1 , ∇φ ∼ d
+
+2 .
+
+---PAGE BREAK---
+
+[Page 3]
+• More than one wall: 
+b' 
+b 
+U 
+b' 
+b 
+U 
+b' 
+Example 1: 
+Example 2: 
+Example 3: 
+b
+b 
+b
+b 
+-Γ 
+Γ 
+b'
+b' 
+b'
+b' 
+b'
+b'
+b'
+b' 
+Γ 
+-Γ 
+b
+b 
+b 
+b 
+3.12 Forces on a body undergoing steady translation 
+“D’Alembert’s paradox” 
+3.12.1 Fixed bodies & translating bodies - Galilean transformation. 
+y
+y’ 
+x’ 
+U
+o’
+x 
+o 
+z’ 
+z 
+Fixed in space 
+Fixed in translating body 
+x = x` + Ut
+
+---PAGE BREAK---
+
+[Page 4]
+Reference system O: ⃗v, φ, p 
+Reference system O’: ⃗v′, φ′, p′ 
+U 
+S
+O 
+X 
+U
+S
+O’ 
+X’ 
+∇2φ = 0  
+⇀ v · ˆn = ∂φ 
+∂n = ⃗U · ˆn = (U, 0, 0) · (nx, ny, nz 
+= Unx on Body 
+⇀ v →0 as  |⃗x| →∞ 
+φ →0 as  |⃗x| →∞ 
+) 
+∇2φ′ = 0  
+⇀ v 
+′ · ˆn′ = ∂φ′ 
+∂n = 0  
+⇀ v 
+′ →(−U, 0, 0) as |⃗x′| →∞ 
+φ′ →−Ux′ as |⃗x′| →∞ 
+Galilean transform: 
+⇀ v(x, y, z, t) 
+φ(x, y, z, t) 
+−Ux′ + φ(x = x′ + Ut, y, z, t) 
+= 
+⇀ v 
+′ (x′ = x −Ut, y, z, t) + (U, 0, 0) 
+= φ′(x′ = x −Ut, y, z, t) +  Ux′ ⇒ 
+= φ′(x′, y, z, t) 
+Pressure (no gravity) 
+p∞ = −1 
+2 ρv2 + Co = Co 
+∴ Co 
+= −1 
+2 ρv′2 + C′ 
+o = C′ 
+o −1 
+2 ρU 2 
+= C′ 
+o −1 
+2 ρU 2 
+In O: unsteady ﬂow 
+ps = −ρ ∂φ 
+∂t −1 
+2 ρ v2 
+	 
+U2 
++Co 
+∂φ 
+∂t = (  ∂ 
+∂t 
+	 
+
++ ∂x′ 
+∂t 
+	 
+−U 
+∂ 
+∂x′ ) (φ′ + Ux′) =  −U 2 
+∴ ps = ρU 2 −1 
+2 ρU 2 + Co = 1 
+2 ρU 2 + Co 
+ps −p∞ = 1 
+2 ρU 2 stagnation pressure 
+In O’: steady ﬂow 
+ps = −ρ ∂φ′ 
+∂t 
+	 
+
+−1 
+2 ρ v′2 
+	 
+
++C′ 
+o = C′ 
+o 
+ps −p∞ = 1 
+2 ρU 2 stagnation pressure
+
+---PAGE BREAK---
+
+[Page 5]
+⇀ 
+⇀ 
+⇀ 
+⇀ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+  
+ 
+
+ 
+
+ 
+3.12.2 Forces 
+B 
+nˆ
+Total ﬂuid force for ideal ﬂow (i.e., no shear stresses): F⃗ 
+ndS
+= ⃝ pˆ 
+B 
+For potential ﬂow, substitute for p from Bernoulli: 
+⎛
+⎞ 
+⎜
+⎟ 
+⇀ 
+⎜∂φ 
+
+
+⎟
+F = ⃝−ρ ⎜ 
++ 
+|∇φ| + 
+gy 
++c(t)⎟ndS
+ˆ 
+⎝∂t 
+
+⎠ 
+ 
+ 
+	 
+	 
+B 
+hydrodynamic 
+hydrostatic 
+force 
+force 
+For the hydrostatic case v ≡ φ ≡ 0 : 
+F s = ⃝ (−ρgynˆ) dS =
+(−) 
+∇ (−ρgy) dυ = ρg∀ˆj 
+where ∀ = 
+dυ 
+↑ 
+	 
+↑ 
+B 
+Gauss 
+outward υB 
+Archimedes 
+υB
+theorem normal 
+principle 
+We evaluate only the hydrodynamic force: 
+∂φ 
+
+
+F d = −ρ 
++ 
+|∇φ| 
+ˆndS 
+∂t 
+
+B 
+For steady motion 
+∂φ ≡ 0 :
+∂t 
+
+F d = − ρ 
+2 ˆ
+v ndS 
+
+B
+
+---PAGE BREAK---
+
+[Page 6]
+⇀ 
+ 
+       
+  
+ 
+⇀ 
+
+ 
+ 
+ 
+    
+ 
+	 
+ 
+ 
+	 
+  
+3.12.3 Example Hydrodynamic force on 2D cylinder in a steady uniform stream. 
+nˆ
+B 
+S
+U 
+a 
+x 
+2π
+
+F d = 
+B 
+
+ρ |∇|
+φ 
+2π 
+ˆi = −ρa
+
+
+− 
+
+−ρ
+
+|∇φ| 
+ndℓ =
+ˆ 
+ˆnadθ 
+r=a 
+
+ˆi 
+dθ |∇φ| 
+Fx 
+F 
+nˆ 
+· 
+· 
+= 
+
+r=a 	 
+
+− cos θ 
+= ρa 
+
+2π 
+
+
+|∇φ| 
+cos θdθ 
+r=a 
+Velocity potential for ﬂow past a 2D cylinder: 
+
+a 
+φ = Ur cos θ 1 +  2
+r
+Velocity vector on the 2D cylinder surface: 
+∂φ 
+1 ∂φ 
+r ∂θ 
+∇φ|
+= (vr|
+, vθ|
+) =
+r=a
+r=a
+r=a
+, 
+∂r 
+r=a 
+
+r=a 
+−2U sin θ 
+Square of the velocity vector on the 2D cylinder surface: 
+|∇φ|2
+= 4U 2 sin2 θ 
+r=a
+
+---PAGE BREAK---
+
+[Page 7]
+Finally, the hydrodynamic force on the 2D cylinder is given by 
+2π 
+2π 
+ρa 
+ 
+
+1 
+ 
+Fx = 
+dθ 4U 2 sin2 θ cos θ = 
+ρU 2 
+(2a) 2  dθ sin2 θ cos θ = 0  
+
+
+	 
+  	 	 
+  	  
+odd 
+
+diameter 
+
+even 
+π 3π 
+ps−p∞ 
+or 
+w.r.t 2 , 2 
+projection 
+ 
+ 	 
+≡0 
+Therefore, Fx = 0 ⇒ no horizontal force ( symmetry fore-aft of the streamlines). Similarly, 
+2π 
+1 
+ 
+Fy = 
+ρU 2 (2a)2 
+dθ sin2 θ sin θ = 0  
+
+
+In fact, in general we ﬁnd that F⃗ ≡ 0, on any 2D or 3D body. 
+D’Alembert’s “paradox”: 
+No hydrodynamic force∗ acts on a body moving with steady translational (no circulation) 
+velocity in an inﬁnite, inviscid, irrotational ﬂuid. 
+∗ The moment as measured in a local frame is not necessarily zero.
+
+---PAGE BREAK---
+
+[Page 8]
+3.13 Lift due to Circulation 
+3.13.1 Example Hydrodynamic force on a vortex in a uniform stream. 
+Γ
+Γ 
+φ = Ux + 
+θ = Ur cos θ + 
+θ 
+2π 
+2π 
+U 
+Γ
+Consider a control surface in the form of a circle of radius r centered at the point vortex. 
+Then according to Newton’s law: 
+⃗ 
+d ⃗ 
+steady ﬂow 
+ΣF
+= 
+LCV 
+−→ 
+dt 
+(F⃗ V + F⃗ CS) +  M⃗ NET =
+
+⇔ F⃗ ≡− F⃗ V = F⃗ CS + M⃗ NET 
+Where, 
+F⃗ 
+= Hydrodynamic force exerted on the vortex from the ﬂuid. 
+F⃗ V = − F⃗ = Hydrodynamic force exerted on the ﬂuid in the control volume from the vortex. 
+F⃗ CS 
+= Surface force (i.e., pressure) on the ﬂuid control surface. 
+M⃗ NET 
+= Net linear momentum ﬂux in the control volume through the control surface. 
+d L⃗ CV 
+= Rate of change of the total linear momentum in the control volume. 
+dt 
+Control 
+volume 
+x 
+U 
+y
+θ
+Fy 
+Fx 
+Γ
+The hydrodynamic force on the vortex is F⃗ = F⃗ CS + M⃗ IN
+
+---PAGE BREAK---
+
+[Page 9]
+ 
+ 
+
+ 
+ 
+
+a. Net linear momentum ﬂux in the control volume through the control surfaces, M⃗ NET. 
+Recall that the control surface has the form of a circle of radius r centered at the point 
+vortex. 
+a.1 The velocity components on the control surface are 
+Γ 
+u = U − 
+sin θ 
+2πr 
+Γ 
+v = 
+cos θ 
+2πr 
+The radial velocity on the control surface is therefore, given by 
+∂x 
+⇀ 
+ur = U 
+= U cos θ = V · nˆ
+∂r 
+Γ 
+vθ = 2πr 
+U 
+θ 
+a.2 The net horizontal and vertical momentum ﬂuxes through the control surface are 
+given by 
+2π 
+2π
+Γ 
+(MNET)x = − ρ
+ dθruvr = − ρ
+ dθr
+ U
+ 
+− 
+sin θ
+U
+ 
+cos θ = 0  
+2πr 
+
+
+2π 
+2π
+Γ 
+(MNET)y = − ρ
+ dθrvvr = − ρ
+ dθr
+ 
+cos θ
+U
+ 
+cos θ 
+2πr 
+
+
+2π 
+ρUΓ 
+ρUΓ 
+= − 
+cos 2 θdθ = − 
+2π
+
+---PAGE BREAK---
+
+[Page 10]
+ 
+
+ 
+
+ 
+
+
+
+ 
+ 
+	 
+ 
+ 
+ 
+b. Pressure force on the control surface, F⃗ CS. 
+b.1 From Bernoulli, the pressure on the control surface is 
+p = − 1 ρ |⃗v|2 + C 
+
+b.2 The velocity | |
+⃗v 2 on the control surface is given by 
+
+
+Γ
+Γ 
+|⃗v|2 =u 2 + v 2 = U − 
+sin θ 
++ 
+cos θ 
+2πr 
+2πr 
+
+Γ
+Γ 
+=U 2 − 
+U sin θ + 
+πr 
+2πr 
+b.3 Integrate the pressure along the control surface to obtain F⃗ CS 
+2π 
+(FCS) =  dθrp(−cos θ) = 0
+x 
+
+2π 
+2π 
+
+   
+ 
+(FCS)y = 
+dθrp(−sin θ) =  −2 
+ρ 
+−Γ 
+πr
+U (−r) 
+dθ sin2 θ = −2
+1 ρUΓ 
+
+
+π 
+c. Finally, the force on the vortex F⃗ is given by 
+Fx = (FCS)x + (Mx)IN = 0  
+Fy = (FCS) + (My)IN = −ρUΓ 
+y 
+i.e., the ﬂuid exerts a downward force F = −ρUΓ on the vortex. 
+Kutta-Joukowski Law 
+2D : F = −ρUΓ 
+3D : F⃗ = ρU⃗ × ⃗Γ 
+Generalized Kutta-Joukowski Law: 
+n 
+F⃗ = ρU⃗ × 
+⃗Γi 
+i=1 
+where F⃗ is the total force on a system of n vortices in a free stream with speed U⃗ .

@@ -1,0 +1,129 @@
+T [ ] + U1(m33 − m11) ∂M2/∂Ω2 Nr U m x m S T T [ ( ) ] + U1m35 ∂ ∂ M U /  −N υ −mS −m35 ∂ ∂ M2 / Ω Nr −mS −m55 Note: The second column is the standard notation described by Mandel (1967), and the last column shows the coefficients that follow from equations 4.115–4.116). The superscript s denotes the strip-theory approximations, and mT denotes the addedmass coefficient at the stern.
+
+Hydrodynamics of Slender Bodies 
+
+Finally, the theory overpredicts the added moment of inertia in yaw by a 
+substantial amount; again this may be attributed to our assumption of a 
+rectangular planform with excessive added mass at the bow and stern.
+Despite these differences, the slender-body theory gives a satisfactory 
+qualitative prediction of the hydrodynamic force and moment. On this 
+basis it will be used to study the maneuvers of a ship in the horizontal 
+plane.
+The rudder force can be predicted from the slender-body theory, on the 
+premise that the rudder-hull combination is a single cambered lifting sur­
+face. With reference to figure 7.1, the action of the rudder can be regarded 
+in the slender-body theory as a deflection of the hull equal to
+ζ
+δ
+( , )
+( )(
+),
+x t
+t
+x
+x
+R
+R
+=
+−
+	
+(55)
+Table 7.2
+Theoretical and Experimental Values of the Coefficients Listed in Table 7.1, for a 
+Mariner Ship Hull with Length-Draft Ratio l/T = 21
+Slender-Body Theory 
+for Rectangular 
+Planform
+Theory for L/T 
+of Mariner Hull
+(× 10
+3)
+Experiments for 
+Mariner Hull
+(× 10
+3)
+∂F3/∂U3
+−π ρ
+
+
+
+U T
+−7.1
+−13.3 ± 3.6
+∂F3/∂Ω2
+−π ρ
+
+
+
+U T l
+−3.6
+−2.62 ± 0.72
+∂
+∂
+F
+U
+
+
+/
+
+−π ρ
+
+
+T l
+−7.1
+−6.55 ± 0.93
+∂
+∂
+F3
+
+/
+Ω
+
+
+0.25 ± 0.08
+∂M2/∂U3
+π ρ
+
+
+
+U T l
+3.6
+3.69 ± 0.78
+∂M2/∂Ω2
+−π ρ
+
+
+2 2
+U T l
+−1.8
+−2.40 ± 0.50
+∂
+∂
+M
+U
+
+
+/
+
+
+
+0.22 ± 0.08
+∂
+∂
+M2
+
+/
+Ω
+−π ρ
+
+2 3
+T l
+−0.6
+−0.36 ± 0.12
+Note: The coefficients in the last two columns are nondimensionalized in terms of 
+the quantities 1
+2 ρ, U1, and l. The theoretical values are based on the slender-body 
+results shown in table 7.1, but with the simplifying assumptions that the draft T is 
+constant along the length, and the added-mass coefficient can be approximated by 
+(54). References to the experimental data are given by Mandel (1967), and Motora 
+(1972).

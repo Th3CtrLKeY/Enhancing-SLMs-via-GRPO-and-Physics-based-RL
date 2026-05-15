@@ -1,0 +1,174 @@
+area, 29 Hydraulic smoothness, 100 Hydrodynamic pressure, 67 Hydrofoil angle of attack, 50(4) cavitation, 51(9) chord length l, 23 dimensional analysis, 22, 22–24, 25 drag, 22, 22–24, 25 large aspect-ratio, 210–216 lifting problem, 176, 176–184 NACA a series, 184, 184, 185 “nose-tail line,” 22 planform area, 23, 24 scaling laws, 51(10) span, 23 steady-state, 171–172 supercavitating, 217, 217–218, 223–236 thickness problem, 138, 175–176, 176, 186–189 three-dimensional, 24 two-dimensional, 23, 24, 25, 168–172 drag force, 184–186 linearized, 172–176 vortex distribution, 186–189
+
+Index
+unsteady, 230–236
+gust problems, 239–240, 240, 241, 
+
+oscillatory time dependence, 
+236–239, 241
+transient problems, 241–242, 242
+Hydrostatic force, 302–312
+relation to exciting force, 314–315
+total, 305
+Hydrostatic pressure, 67, 103(3), 114
+Ideal fluid, 6, 38–39
+boundary condition, 114–116
+boundary layer, 107
+Ideal fluid motion, 107–165
+conformal mapping of, 125–129, 
+
+Green’s theorem of, 127–138
+hydrodynamic pressure forces, 
+138–141
+irrotational flow, 108–110, 146–147
+simple potential flow, 116–120
+stream function, 121–123, 122
+in unbounded fluid, 141–147
+Images, method of, 147, 160–161, 
+243(9), 309–310
+Impulse-response function, 323
+Incident waves, 297–301, 371–373
+pressure field, 378
+velocity potential, 298
+Inertial force, 319, 320
+balance with viscous gravitational 
+forces, 5
+relation to viscous force, 42, 44
+Inertial waves, 247
+Inner law, of turbulent boundary layer, 
+
+Inner solution
+high aspect-ratio lifting surface, 211
+horizontal force on spar buoy, 
+372–373
+ship in shallow water, 391–392, 394
+slender body, 347, 369–374
+turbulent boundary layer, 91–92
+Integral equation, 179, 186
+singular, 189–197, 233–234
+Integro-differential equation, 213
+Interaction force, 160, 164(15)
+Interference of waves
+from bow and stern, 280
+in convoy, 281
+three-dimensional, 280–281, 290–292
+Internal flow, 163(13)
+Internal waves, definition, 247
+Inui, T., 294
+Inviscid flow, 184–185
+Inviscid fluid, 6–7
+Inviscid limit, 37
+Irrotational flow, 108–110, 146–147
+steady-state, 112–113
+unsteady, 113–114
+velocity potential, 110–112
+ITTC (International Towing Tank 
+Conference) friction line, 31, 33, 
+33, 51(8)
+JONSWAP (Joint North Sea Wave 
+Project), 331
+Joubert, P. N., 99
+Kajitani, H., 294
+Kármán, T. von, 40, 84, 90
+Kármán street, 40–41
+Keel, lift and drag forces, 243(11)
+Kelvin, Lord, 159, 283, 285–286
+Kelvin’s method of stationary phase, 
+
+Kelvin’s ship-wave pattern, 283, 285, 
+286, 286–287, 293
+Kelvin’s theorem, 108–110, 112, 170, 
+171, 229, 232
+Kennard, E. H., 152
+Kerczek, C. H. von, 102
+Kerwin, J. E., 168
+Kibel, I. A., 153
+Hydrofoil (cont.)
+
+Index 
+
+Kim, W. D., 311–312
+Kinematic boundary condition, 66, 67
+Kinematic viscosity coefficient, 14
+Kinetic energy, relation to added-mass 
+coefficients, 148
+Kinoshita, M., 290
+Kinsman, B., 327
+Kochin, N. E., 153
+Konig, J. G., 28
+Korvin-Kroukovsky, B. V., 50, 341
+Kostyukov, A. A., 294
+Kramers-Kronig relations, 312
+Kroenecker delta function, 150, 156, 
+305, 320
+Krook, M., 189
+Kussner function, 241, 242
+Kutta condition, 172, 176, 179, 184, 
+185, 191, 193, 196, 201, 220, 226, 
+
+Kutta-Joukowski theorem, 175, 177, 
+242(3)
+Kux, J., 102
+Lagally theorem, 141
+Lagrangian coordinates, 262
+Laitone, E. V., 260, 261, 268, 277, 293
+Lamb, H., 132, 136, 159, 161, 261, 268, 
+277, 289
+Laminar flow, 18
+definition, 70
+between parallel walls, 67–68, 69
+past flat plate, 70–81
+in pipe, 68–70
+on sphere, 16, 17
+Lammeren, W. P. A. von, 28
+Landahl, M. T., 64
+Landau, L. D., 88
+Landweber, L., 141
+Laplace equation, 112, 115–117, 
+129–130, 132, 134, 137, 157, 
+233–234, 250–251, 258, 300, 345, 
+
+wave energy, 274
+Laplace transform technique, 74, 241
+Laurent series, 131, 215
+Laurmann, J. A., 210
+Law of Biot-Savart, 200
+Law of the wall, 93
+Lea, G. K., 397
+Leading-edge suction force, 186
+Legendre functions, 130–131
+Le Méhauté, B., 255
+Length (L), 10
+Levi-Civita, T., 260
+Lewis, E. V., 50, 327
+Lifshitz, E. M., 88
+Lift, 22
+Lift coefficient, 356
+due to angle of attack, 23–24, 180–181
+elliptic planform, 214–215, 215
+flat plate, 243(5)
+hydrofoil, 23, 24
+supercavitating flow, 223–236
+two-dimensional, 243(7)
+of uncambered foil, 181
+Lift-drag ratio, 208–210
+Lift force
+horizontal, 22
+oscillatory, 41
+sectional, 24, 25, 26
+slender body, 354–357
+for unsteady hydrofoil, 234–235
+in vortex shedding, 40–41
+Lifting-line equation, 213
+Lifting-line theory, 210–216
+for slender body, 356
+Lifting problem, 189–197
+hydrofoils, 176, 176–184
+relation to vortex distribution, 
+177–180
+three-dimensional planar surface, 
+200–206
+unsteady hydrofoil, 230–236
+Lifting surfaces, 1–2, 167–245
+chord length, 167
+definition, 167

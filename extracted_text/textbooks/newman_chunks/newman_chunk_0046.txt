@@ -1,0 +1,66 @@
+Lewis, E. V. 1967. The motion of ships in waves. In Principles of naval architecture, ed. J. P. Comstock, 607–717. New York: Society of Naval Architects and Marine Engineers. Mair, W. A., and D. J. Maull. 1971. Bluff bodies and vortex shedding—A report on Euromech 17. Journal of Fluid Mechanics 45:209–224. Milgram, J. H. 1976. Waves and wave forces. In Proceedings of the conference on the behaviour of offshore structures (BOSS ’76). pp. 11–38. Trondheim: The Norwegian Institute of Technology.
+
+Chapter 2
+Prandtl, L. 1927. The generation of vortices in fluids of small viscosity. Journal of the 
+Royal Aeronautical Society 31:720–741.
+Roshko, A. 1961. Experiments on the flow past a circular cylinder at very high Reyn­
+olds number. Journal of Fluid Mechanics 10:345–356.
+Sarpkaya, T. 1966. Separated flow about lifting bodies and impulsive flow about 
+cylinders. J. American Institution of Aeronautics and Astronautics 4:414–420.
+Sedov, L. I. 1959. Similarity and dimensional methods in mechanics. New York: 
+Academic Press.
+Söding, H., and F. U. Häusler. 1976. Minimization of vertical motions of floating 
+structures. In Proceedings of the conference on the behaviour of offshore structures (BOSS 
+’76). pp. 307–319. Trondheim: The Norwegian Institute of Technology.
+Todd, F. H. 1967. Resistance and propulsion. In Principles of naval architecture, ed. 
+J. P. Comstock, 228–462. New York: Society of Naval Architects and Marine 
+Engineers.
+Troost, L., and A. Zakay. 1954. A new evaluation of the Lucy Ashton ship model and 
+full scale tests. International Shipbuilding Progress 1:5–9.
+van Lammeren, W. P. A., L. Troost, and J. G. Konig. 1948. Resistance, propulsion and 
+steering of ships. Haarlem, Netherlands: H. Starn.
+van Lammeren, W. P. A., J. D. van Manen, and M. W. C. Oosterveld. 1969. The 
+Wageningen B-screw series. Society of Naval Architects and Marine Engineers Transac­
+tions 77:269–317.
+Venning, E., and W. L. Haberman. 1962. Supercavitating propeller performance. 
+Society of Naval Architects and Marine Engineers Transactions 70:354–417.
+Vossers, G. 1962. Behaviour of ships in waves. Haarlem, Netherlands: H. Stam.
+Wachnik, Z. G., and E. E. Zarnick. 1965. Ship motion prediction in realistic shortcrested seas. Society of Naval Architects and Marine Engineers Transactions 73:100–134.
+
+3  The Motion of a Viscous Fluid
+Chapter 
+
+The 
+Motion 
+of 
+a 
+Viscous 
+Fluid
+© Massachusetts Institute of TechnologyAll Rights Reserved
+To develop analytical representations for the flow of a viscous fluid, it is 
+necessary first to describe the properties of the flow, especially the velocity 
+field, and the relevant forces that act on the fluid particles. Subsequently, 
+the physical laws expressing conservation of mass and momentum must 
+be invoked, in terms of this description, to derive the governing equations 
+of the flow. In addition, the role of viscosity must be described by a suit­
+able hypothesis that relates the stresses between adjacent fluid particles to 
+the kinematic description of their relative motion. In this manner we shall 
+derive the equations of motion for a viscous fluid, as a system of coupled 
+nonlinear partial differential equations. These words may sound frighten­
+ing to those not well trained in advanced calculus, and still greater appre­
+hension will be felt by the opposite group who recognize that such a system 
+of equations generally does not possess simple solutions. Of course, most 
+fluid flows are not simple, so we must expect the governing equations to be 
+somewhat complicated.
+Because of this complexity, we will restrict our discussion to very sim­
+ple flows, particularly those involving infinitely long, flat, or cylindrical 
+boundary surfaces. These flows are of limited direct applicability, but they 
+will give us a qualitative “feel” for the role of viscosity and an important 
+quantitative tool in the form of boundary-layer theory. The importance of 
+viscosity for many problems of engineering interest is confined to a thin 
+layer adjacent to boundary surfaces. Furthermore, if the radii of curvature 
+of these surfaces are large compared to the boundary-layer thickness, the 
+flow will appear locally plane in the boundary layer.
+There are exceptions to this convenient state of affairs; for example, in 
+low-Reynolds-number flows, the role of viscosity is not confined to a thin 
+boundary layer. This situation would hold for bodies of microscopic size, as

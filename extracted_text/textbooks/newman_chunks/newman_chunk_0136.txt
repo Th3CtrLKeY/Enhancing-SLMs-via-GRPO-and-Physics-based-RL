@@ -1,0 +1,63 @@
+= 0. Here d is the distance from the body axis to the wall. Derive from this equation and (133) the special case F U R d = 3 π ρ / for a sphere of radius R, and F U d = ∀ π ρ / for a slender prolate spheroid moving in the longitudinal direction. References Cummins, W. E. 1957. The force and moment on a body in a time-varying potential flow. J. Ship Res. 1 (1): 7–18.
+
+The Motion of an Ideal Fluid 
+
+Flagg, C., and J. N. Newman. 1971. Sway added-mass coefficients for rectangular 
+profiles in shallow water. J. Ship Res. 15:257–265.
+Havelock, T. H. 1963. Collected papers. ONR/ACR-103. Washington: U. S. Govern­
+ment Printing Office.
+Hildebrand, F. B. 1976. Advanced calculus for applications. 2nd ed. Englewood Cliffs, 
+N.J.: Prentice-Hall.
+Kennard, E. H. 1967. Irrotational flow of frictionless fluids, mostly of invariable density. 
+David Taylor Model Basin Report 2229.
+Kochin, N. E., I. A. Kibel, and N. V. Roze. 1964. Theoretical Hydromechanics. English 
+translation of. 5th Russian ed. New York: Wiley.
+Lamb, H. 1932. Hydrodynamics. 6th ed. Cambridge: Cambridge University Press. 
+Reprinted 1945, New York: Dover.
+Landweber, L., and C. S. Yih. 1956. Forces, moments, and added masses for Rankine 
+bodies. Journal of Fluid Mechanics 1:319–336.
+Milne-Thomson, L. M. 1968. Theoretical hydrodynamics. 5th ed. New York: 
+Macmillan.
+Morse, P. M., and H. Feshbach. 1953. Methods of theoretical physics, 2 vols. New York: 
+McGraw-Hill.
+Newman, J. N. 1978. The added moment of inertia of two-dimensional cylinders. J. 
+Ship Res. 23:1–8.
+Sedov, L. I. 1965. Two dimensional problems in hydrodynamics and aerodynamics. 
+English translation. New York: Interscience.
+
+5  Lifting Surfaces
+Chapter 
+
+Lifting 
+Surfaces
+© Massachusetts Institute of TechnologyAll Rights Reserved
+One of the most striking applications of fluid mechanics is the lifting sur­
+face that supports the flight of birds, airplanes, and hydrofoil boats. Similar 
+effects are involved in the actions of control surfaces such as rudders, yacht 
+sails and keels, and screw propellers. Thus, there are many applications of 
+lifting surfaces in marine hydrodynamics; a proper understanding of their 
+actions must preface an intelligent approach to their design and use.
+Typically, a lifting surface is a thin streamlined body that moves through 
+the surrounding fluid at a small angle of attack, with a resultant hydrody­
+namic lift force generated in the direction normal to the forward move­
+ment. We shall suppose that the lifting surface is primarily oriented in the 
+x-z plane and moving with constant velocity U in the positive x-direction, 
+as shown in figure 5.1. The lift force L is the component of the hydro­
+dynamic force parallel to the y-axis; the drag force D acts in the negative 
+x-direction.
+The principal geometric dimensions of the lifting surface are its chord 
+length l and span s, measured parallel to the x- and z-axes respectively. For 
+a rectangular planform, l is a constant, but in general the chord l(z) will 
+depend on the transverse coordinate. The ratio of the span to the mean 
+chord is the aspect ratio A, given by
+A
+s
+S
+=
+2 / , 	
+(1)
+where S is the projected area of the lifting surface on the plane y = 0.
+The aspect ratio is an important measure of the effect of threedimensionality. A large aspect ratio implies that the flow will be nearly inde­
+pendent of the transverse coordinate z, and a two-dimensional strip-theory 
+approach is valid. This situation is exemplified by older aircraft wings, as 
+well as by some hydrofoil configurations and deep narrow centerboards on

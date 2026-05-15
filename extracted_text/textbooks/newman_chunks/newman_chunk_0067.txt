@@ -1,0 +1,48 @@
+turbulent, depending on the degree of roughness of the plate and also on the ambient turbulence level in the incident flow. When the flow becomes turbulent, the Blasius solution is no longer valid and must be replaced by one based upon the analysis of turbulent boundary layers. 3.15 Laminar Boundary Layers: Steady Two-Dimensional Flow The analysis of the laminar boundary layer on a flat plate can be extended to more general steady flows past two-dimensional bodies, such as the flow
+
+Chapter 3
+past a streamlined strut of large aspect-ratio. If the radius of curvature of 
+the body surface is large compared to the boundary-layer thickness, the 
+same analysis carries over independent of the gradual change in direction 
+due to the curvature of the body surface. The boundary-layer equation (46), 
+together with the continuity equation (43), remains valid in this case pro­
+vided that x and y are taken to be locally tangential and normal coordi­
+nates at each point of the body. However, the pressure gradient ∂p/∂x is 
+now significant, since the inviscid flow will be affected by the body and 
+will possess a nontrivial inviscid pressure distribution. Thus, one must first 
+determine the inviscid flow past the body, compute the corresponding pres­
+sure gradient on the body surface, and then attempt to solve the boundarylayer equation (46) with the pressure gradient included. If more accuracy is 
+desired, this procedure can be carried further by recalculating the inviscid 
+flow, including the additional effects of the displacement thickness due to 
+the first-order boundary layer, and then finding a second-order boundarylayer solution.
+In view of this synthesis, we can discuss the qualitative features of the 
+two-dimensional boundary-layer theory for general two-dimensional flow 
+by discussing the flow past a flat plate with an arbitrary external pressure 
+gradient imposed. For the usual situation of the flow past a streamlined 
+body, the relevant pressure typically will be a maximum at the leading and 
+trailing edges, where there are stagnation points, and will fall to a mini­
+mum value along the sides of the body where the velocity is a maximum. 
+Thus, a typical pressure gradient will include a negative region over the 
+forward portion of the body and a positive region over the afterbody.
+The most significant feature of the pressure gradient is its effect upon the 
+boundary layer and, especially, the circumstances under which it can lead 
+to separation. If separation occurs at some point on the body surface, the 
+streamlines will break away from the body at this point, enclosing a sepa­
+rated wake downstream of relatively high vorticity and low pressure. The 
+separation point, if it exists, will be a stagnation point at which the flow 
+from ahead and behind meets and abruptly changes direction. Ahead of 
+this point the tangential velocity will be positive, and behind it the veloc­
+ity will be negative, as shown in figure 3.7. It is clear from this figure that 
+separation will occur when the shear stress is zero, or
+(
+/
+)
+.
+∂
+∂
+=
+=
+u
+y y 0
+
+(63)

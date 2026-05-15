@@ -1,0 +1,296 @@
+[Page 1]
+Lecture 19 
+- Marine Hydrodynamics 
+Lecture 19 
+Turbulent Boundary Layers: Roughness Eﬀects 
+So far, we have assumed a ‘hydraulically smooth’ surface. In practice, it is rarely so, due 
+to fouling, rust, rivets, etc. . . . 
+Uo 
+Viscous sublayer 
+δv 
+k = characteristic 
+roughness height 
+To account for roughness we ﬁrst deﬁne an ‘equivalent sand roughness’ coeﬃcient k (units: 
+[L]), a measure of the characteristic roughness height. 
+The parameter that determines the signiﬁcance of the roughness k is the ratio 
+k 
+δ 
+We thus distinguish the following two cases, depending of the value of the ratio k
+δ on the 
+actual surface - e.g., ship hull. 
+1. Hydraulically smooth surface For k < δv << δ, where δv is the viscous sub-layer 
+thickness, k does not aﬀect the turbulent boundary layer signiﬁcantly. 
+k << 1 ⇒ Cf ≃ Cf, smooth ⇒ Cf = Cf (ReL )
+δ 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+2. Hydraulically rough surface For k >> δ >> δv, the ﬂow will resemble what is 
+sketched in the following ﬁgure. 
+separation 
+δv 
+k 
+In terms of sand grains: each sand grain can be thought of as a bluﬀ body. The ﬂow, 
+thus separates downstream of each sand grain. Recalling that drag due to ‘separation’ 
+= form drag >> viscous drag we can approximate the friction drag as the resultant 
+drag due to the separation behind each sand grain. 
+k 
+k 
+δ >> 1 ⇒ Cf ≡ Cf, rough ⇒ Cf 
+ 
+= Cf ( , ReL )
+L 
+weak dependence 
+k/l ↑ 
+Cf 
+CD ≠ F (ReL ) 
+k/l = constant 
+C frough 
+RL 
+C fsmooth 
+Cf, rough has only a weak dependence on ReL , since for bluﬀ bodies CD ̸ 
+)
+= F (ReL
+
+---PAGE BREAK---
+
+[Page 3]
+  
+  
+  
+In summary The important parameter is k/δ: 
+k 
+<< 1 : hydraulically smooth 
+δ (x) 
+k 
+>> 1 : rough
+δ (x) 
+Therefore, for the same k, the smaller the δ, the more important the roughness k. 
+4.11.1 Corollaries 
+1. Exactly scaled models (e.g. hydraulic models of rivers, harbors, etc. . . ) 
+k 
+Same relative roughness: 
+∼ const for model and prototype 
+L 
+k
+k L
+ k 
+= 
+∼ 
+1/5
+ReL
+δ
+L δ
+ L 
+k ↑ for ReL ↑ 
+δ 
+For Re model << Re prototype : 
+k
+k 
+< 
+δ
+δ 
+m
+p 
+(Cf )m < (Cf )p
+
+---PAGE BREAK---
+
+[Page 4]
+ 
+    
+2. Roughness Allowance. Often, the model is hydraulically smooth while the proto­
+type is rough. In practice, the roughness of the prototype surface is accounted for 
+‘indirectly’. 
+Cf 
+ΔCf remains 
+Uk = Rk = constant
+ν 
+constant with Rl 
+RL 
+C fsmooth 
+Uk 
+• For the same ship (Re same), diﬀerent k gives diﬀerent Rek =
+. 
+ν 
+• For a given Rek , the friction coeﬃcient Cf is increased by almost a constant for 
+Uk = Rek = const over a wide range of ReL . 
+ν 
+• If the model is hydraulically smooth, can we account for the roughness of the 
+prototype? 
+Notice that ΔCf = ΔCf (Rek ) has only a weak dependence on ReL . We can 
+therefore, run an experiment using hydraulically smooth model, and add ΔCf 
+to the ﬁnal friction coeﬃcient for the prototype 
+Cf (ReL ) =  Cf smooth + ΔCf 
+(Rek ) 
+not (R )
+eL 
+Gross estimate: For ships, we typically use ΔCf = 0.0004. 
+k
+Rek 
+∼ Rek
+Reality: 
+= 
+	 
+= 
+4/5 =⇒ 
+δ 
+δ/L 
+ReL 
+ReL 
+∼ReL 
+−1/5 
+k ↓ as ReL ↑, i.e., ΔCf smaller for larger ReL . 
+δ 
+• Hughes’ Method Adjust for ReL dependence of Cfrough. 
+Cfrough = Cfsmooth (1 + γ) =⇒ ΔCf = γCfsmooth (ReL ) 
+i.e., As ReL ↑, ΔCf ↓.
+
+---PAGE BREAK---
+
+[Page 5]
+Chapter 5 - Model Testing. 
+5.1 Steady Flow Past General Bodies 
+- In general, CD = CD(Re). 
+- For bluﬀ bodies 
+Form drag >> Friction drag ⇒ CD ≈ const ≡ CP (within a regime) 
+Recall that the form drag (CP) has only regime dependence on Reynold’s number, 
+i.e, its NOT a function of Reynold’s number within a regime. 
+- For streamlined bodies 
+CD(Re) =  Cf(Re) +  CP 
+5.1.1 Steps followed in model testing: 
+(a) Perform an experiment with a smooth model at ReM (ReM << ReS ) and obtain 
+the model drag CDM. 
+(b) Calculate CPM = CDM − CfM(ReM ) =  CPS = CP; CDM measured, CfM(ReM ) 
+calculated. 
+(c) Calculate CDS = CP + CfS(ReS ) 
+(d) Add ΔCf for roughness if needed. 
+R 
+Cf (Rship) 
+CP measured 
+CD predicted 
+Cf (Rship) calculated 
+Cf (Rm)  
+calculated 
+Rm 
+Rship
+
+---PAGE BREAK---
+
+[Page 6]
+Caution: In an experiment, the boundary layer must be in the same regime (i.e., 
+turbulent) as the prototype. Therefore turbulence stimulator(s) must be added. 
+R 
+CP turbulent regime 
+Turbulent Cf
+Laminar Cf 
+MODEL 
+U 
+Turbulent boundary layer 
+TBL 
+LBL 
+TBL 
+
+
+to be triggered here 
+5.1.2 Drag on a ship hull For bodies near the free surface, the Froude number Fr is 
+important, due to wave eﬀects. Therefore CD = CD(Re, Fr). In general the raRe 
+gL3 
+tio 
+= 
+. It is impossible to easily scale both Re and Fr. For example
+Fr 
+ν 
+Re 
+Lm 
+
+νm 
+gm 
+= constant and 
+= 
+⇒ 
+= 0.032 or 
+= 1000! 
+Fr 
+Lp 
+
+νp 
+gp 
+This makes ship model testing seem unfeasible. Froude’s Hypothesis proves to be 
+invaluable for model testing 
+calculate 
+measure indirectly 
+    
+
+
+  
+CD(Re, Fr) ≈ 
+Cf (Re)
++ 
+CR(Fr) 
+    
+    
+Cf for ﬂat plate 
+residual drag 
+of equivalent wetted area 
+In words, Froude’s Hypothesis assumes that the drag coeﬃcient consists of two parts, 
+Cf that is a known function of Re, and CR, a  residual drag that depends on Fr num­
+ber only and not on Re. Since Cf (Re) ∼ Cf (Re)ﬂat plate, we need to run experiments 
+to (indirectly) get CR(Fr). 
+Thus, for ship model testing we require Froude similitude to measure CR(Fr), while 
+Cf (Re) is estimated theoretically.
+
+---PAGE BREAK---
+
+[Page 7]
+ 
+ 
+
+ 
+
+ 
+ 
+ 
+	 
+5.1.3 OUTLINE OF PROCEDURE FOR FROUDE MODEL TESTING 
+(S ≡ ‘SHIP’ M ≡‘MODEL’; in general νS = νM , and ρS ̸ 
+̸ 
+= ρM ) 
+1. Given US , calculate: 
+FrS = US / gLS = FrM 
+2. For Froude similitude, tow model at: 
+UM = FrS 
+gLM 
+3. Measure total resistance (drag) of model: 
+Measure DM 
+DM
+4. Calculate total drag coeﬃcient for model: CDM = 0.5ρM U 2 
+SM
+M 
+wetted area 
+0.075 
+5. Use ITTC line to calculate Cf (ReM ): 
+Cf (ReM ) =  (log10 ReM − 2)2 
+6. Calculate residual drag of model: 
+CRM = CDM − Cf (ReM ) 
+7. Froude’s Hypothesis: 
+CRM (ReM , Fr) =  CRM (Fr) =  CRS (Fr) =  CR(Fr) 
+0.075 
+8. Use ITTC line to calculate Cf (ReS ): 
+Cf (ReS ) =  (log10 ReS − 2)2 
+9. Calculate total drag coeﬃcient for ship: 
+CDS = CR(Fr) +  Cf (ReS ) +  
+ΔCf 
+∼= 0.0004 
+typical value 
+10. Calculate the total drag of ship: 
+DS = CDS · 0.5ρSUS 
+2 SS 
+wetted area 
+11. Calculate the power for the ship: 
+PS = DS US 
+12. Repeat for a series of US

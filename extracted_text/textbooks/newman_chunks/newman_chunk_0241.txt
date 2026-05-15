@@ -1,0 +1,97 @@
+in the body motions ξj, with second-order terms neglected. If the body is in equilibrium, for ξj = 0, the zero-order terms must vanish. For equilibrium of the vertical force, the mass of a freely floating body must equal the displaced mass, m = ∀ ρ , (146) in accordance with Archimedes’ principle. With this equality, equilibrium of the zero-order moments in (144) requires that the center of gravity and center of buoyancy must lie on the same vertical line,
+
+Chapter 6
+x
+x
+B
+G
+=
+, 	
+(147)
+z
+z
+B
+G
+=
+. 	
+(148)
+For a freely floating body, where (146–148) hold, the elements of the 
+matrix coefficients (145) contained in parenthesis vanish, leaving as the 
+only nonzero coefficients
+c
+gS
+c
+g
+S
+y
+y
+c
+g
+S
+y
+y
+B
+G
+B
+G
+
+
+
+
+
+=
+=
+∀
+∀+
+−
+=
+∀
+∀+
+−
+ρ
+ρ
+ρ
+,
+[(
+/
+)
+],
+[(
+/
+)
+].
+	
+(149)
+The body is statically stable if the first-order components in (144) oppose 
+small displacements ξj. Since there is no static restoring force or moment in 
+surge, sway, and yaw, these are neutrally stable modes. In heave, roll, and 
+pitch of a freely floating body, the necessary and sufficient condition for 
+static stability is that the corresponding coefficients of (149) are positive. 
+In heave this condition is always satisfied, provided the waterplane area is 
+nonzero. A submerged body, with S = 0, is neutrally stable in heave, or neu­
+trally buoyant, provided the condition (146) is satisfied.
+Since static stability in roll and pitch requires that the coefficients c44 
+and c66 be positive, it follows from (149) that stability in these modes will 
+depend on the height of the center of gravity. The factors in square brack­
+ets in these expressions are the vertical distances between the metacenters 
+(
+/
+)
+S
+y
+jj
+B
+∀+
+ and the center of gravity yG. These differences in elevation 
+are known as metacentric heights and often are denoted by the symbol 
+GM. The metacenters of a submerged body coincide with the center of 
+buoyancy, but for a floating body the metacenters are above yB, since the 
+moments of inertia Sjj about the center of flotation are positive. Thus the 
+center of gravity of a stable floating body may be situated above the center 
+of buoyancy.
+Comprehensive treatments of static stability for ships are given by Moore 
+(1967) and by Rawson and Tupper (1968).
+6.17  Damping and Added Mass
+In chapter 4 we showed that if a body moves in an infinite ideal fluid, 
+hydrodynamic pressure forces and moments will result which can be 
+expressed most simply in terms of the added-mass coefficients mij. A more

@@ -1,0 +1,482 @@
+[Page 1]
+Lecture 12 
+- Marine Hydrodynamics 
+Lecture 12 
+3.14 Lifting Surfaces 
+3.14.1 2D Symmetric Streamlined Body 
+No separation, even for large Reynolds numbers. 
+U 
+stream line 
+• Viscous eﬀects only in a thin boundary layer. 
+• Small Drag (only skin friction). 
+• No Lift. 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+3.14.2 Asymmetric Body 
+(a) Angle of attack α, 
+chord line 
+U 
+α 
+(b) or camber η(x), 
+chord line 
+mean camber line 
+U 
+(c) or both 
+amount of camber 
+U 
+α 
+angle of attack 
+mean camber line 
+chord line 
+Lift ⊥ to U⃗and Drag ∥ to U⃗
+
+---PAGE BREAK---
+
+[Page 3]
+3.15 Potential Flow and Kutta Condition 
+From the P-Flow solution for ﬂow past a body we obtain 
+P-Flow solution, inﬁnite velocity at trailing edge. 
+Note that (a) the solution is not unique - we can always superimpose a circulatory ﬂow 
+without violating the boundary conditions, and (b) the velocity at the trailing edge → 
+∞. We must therefore, impose the Kutta condition, which states that the ‘ﬂow leaves 
+tangentially the trailing edge, i.e., the velocity at the trailing edge is ﬁnite’. 
+To satisfy the Kutta condition we need to add circulation. 
+Circulatory ﬂow only. 
+Superimposing the P-Flow solution plus circulatory ﬂow, we obtain 
+Figure 1: P-Flow solution plus circulatory ﬂow.
+
+---PAGE BREAK---
+
+[Page 4]
+3.15.1 Why Kutta condition? 
+Consider a control volume as illustrated below. At t = 0, the foil is at rest (top control 
+volume). It starts moving impulsively with speed U (middle control volume). At t = 0+ , 
+a starting vortex is created due to ﬂow separation at the trailing edge. As the foil moves, 
+viscous eﬀects streamline the ﬂow at the trailing edge (no separation for later t), and the 
+starting vortex is left in the wake (bottom control volume). 
+t = 0 
++
+t = 0
+for later 
+t 
+Kelvin’s theorem: 
+After a while the ΓS 
+Γ 
+Γ 
+Γ 
+Γ 
+S 
+S 
+S 
+S 
+U 
+U 
+no Γ 
+starting vortex left in wake 
+Γ = 0 
+starting vortex 
+due to separation 
+(a real fluid effect, 
+no infinite vel of 
+potetial flow) 
+dΓ = 0  → Γ = 0 for t ≥ 0 if Γ(t = 0) = 0  
+dt 
+in the wake is far behind and we recover Figure 1.
+
+---PAGE BREAK---
+
+[Page 5]
+3.15.2 How much ΓS ? 
+Just enough so that the Kutta condition is satisﬁed, so that no separation occurs. For 
+example, consider a ﬂat plate of chord ℓ and angle of attack α, as shown in the ﬁgure 
+below. 
+chord length 
+Simple P-Flow solution 
+Γ =  πlU sin α 
+L = ρUΓ =  ρU 2πl sin α 
+|L⃗|
+CL = 
+= 2π sin α ≈ 2πα for small α
+1 ρU 2l 
+   
+
+only for 
+small α 
+However, notice that as α increases, separation occurs close to the leading edge. 
+Excessive angle of attack leads to separation at the leading edge. 
+When the angle of attack exceeds a certain value (depends on the wing geometry) stall 
+occurs. The eﬀects of stalling on the lift coeﬃcient (CL = 
+ρU2 
+L span) are shown in the 
+
+
+following ﬁgure.
+
+---PAGE BREAK---
+
+[Page 6]
+C L 
+This region independent of R, 
+ν used only to get Kutta 
+condition 
+stall location f(R) 
+stall 
+2π 
+α 
+O(5o ) 
+• In experiments, CL < 2πα for 3D foil - ﬁnite aspect ratio (ﬁnite span). 
+• With sharp leading edge, separation/stall to early. 
+round leading edge to forstall 
+sharp trailing edge 
+to develop circulation 
+stalling
+
+---PAGE BREAK---
+
+[Page 7]
+3.16 Thin Wing, Small Angle of Attack 
+• Assumptions 
+– Flow: Steady, P-Flow. 
+– Wing: Let yU (x), yL(x) denote the upper and lower vertical camber coordinates, 
+respectively. Also, let x = ℓ/2, x = −ℓ/2 denote the horizontal coordinates of 
+the leading and trailing edge, respectively, as shown in the ﬁgure below. 
+y=yU(x) 
+For thin wing, at a small angle of attack it is 
+yU , yL 
+<< 1 
+ℓ 
+ℓ 
+dyU 
+dyL 
+, 
+<< 1 
+dx 
+dx 
+The problem is then linear and superposition applies. 
+Let η(x) denote the camber line 
+
+t(x) 
+η(x) =  (yU (x) +  yL(x)),
+
+and t(x) denote the half-thickness 
+η(x) 
+Camber line 
+t(x) 
+
+t(x) =  (yU (x) − yL(x)). 
+
+For linearized theory, i.e. thin wing at small AoA, the lift on the wing depends 
+only on the camber line but not on the wing thickness. Therefore, for the 
+following analysis we approximate the wing by the camber line only and ignore 
+the wing thickness.
+
+---PAGE BREAK---
+
+[Page 8]
+ 
+• Deﬁnitions 
+In general, the lift on the wing is due to the total circulation Γ around the wing. 
+This total circulation can be given in terms due to a distribution of circulation γ(x) 
+(Units: [LT −1]) inside the wing, i.e., 
+ℓ/2 
+Γ =  
+γ(x)dx 
+−ℓ/2 
+γ (x) 
+Γ
+U 
+Noting that superposition applies, let the total potential Φ for this ﬂow be expressed 
+as the sum of two potentials 
+Φ =  −Ux + 
+φ 
+   
+ 
+Free stream 
+Disturbunce 
+potential 
+potential 
+The ﬂow velocity can by expressed as 
+⃗v = ∇Φ = (−U + u, v) 
+where (u, v) are given by ∇φ = (u, v) and denote the velocity disturbance, due to the 
+presence of the wing. For linearized wing we can assume 
+u
+v 
+u, v << U ⇒ 
+, 
+<< 1 
+U U 
+Consider a ﬂow property q, such as velocity, pressure etc. Then let qU = q(x, 0+) and 
+qL = q(x, 0−) denote the values of q at the upper and lower wing surfaces, respectively.
+
+---PAGE BREAK---
+
+[Page 9]
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+• Lift due to circulation 
+Applying Bernoulli equation for steady, inviscid, rotational ﬂow, along a streamline 
+from ∞ to a point on the wing, we obtain 
+1 
+ 
+p − p∞ = − ρ |⃗v|2 − U 2 ⇒ 
+
+p − p∞ = − 1 ρ 
+(u − U)2 + v 2 − U 2 = − 1 ρ(u 2 + v 2 − 2uU) ⇒ 
+
+
+
+u 
+v
+v 
+p − p∞ = − ρuU(
++ 
+−2)
+
+U 
+U
+u 
+ 
+  
+<<1 
+<<1 
+∼1 
+Dropping terms of order U
+u , U
+v << 1 we obtained the linearized Bernoulli equation 
+for thin wing at small AoA 
+p − p∞ = ρuU 
+Integrating the pressure along the wing surface, we obtain an expression for the total 
+lift L on the wing 
+l/2 
+ 
+
+ 
+ 
+L =
+(p − p∞)nydS = 
+p(x, 0−) − p∞ − p(x, 0+) − p∞ 
+dx 
+−l/2 
+l/2 
+l/2 
+L = 
+p(x, 0−) − p(x, 0+) dx = ρU 
+u(x, 0−) − u(x, 0+) dx 
+(1) 
+−l/2 
+−l/2
+
+---PAGE BREAK---
+
+[Page 10]
+ 
+ 
+ 
+ 
+ 
+To obtain the total lift on the wing we will seek an expression for u(x, 0±). 
+Consider a closed contour on the wing, of negligible thickness, as shown in the ﬁgure 
+below. 
+γ (x) 
+)
+0,
+( 
++
+x
+u 
+
+→
+t 
+)
+0,
+( 
+−
+x
+u 
+x
+δ 
+x
+In this case we have 
+γ(x)δx = |u(x, 0+)|δx + u(x, 0−)δx ⇒ γ(x) =  |u(x, 0+)| + u(x, 0−) 
+For small u/U we can argue that u(x, 0+) ∼= −u(x, 0−), and obtain 
+γ(x) 
+u(x, 0±) =  ∓ 
+(2)
+
+From Equations (1), and (2) the total lift can be expressed as 
+l/2 
+L = ρU 
+γ(x)dx = ρUΓ 
+−l/2 
+=Γ 
+The same result can be obtained from the Kutta-Joukowski law (for nonlinear foil) 
+ℓ/2 
+δL = ρUδΓ =  ρUγ(x)δx ⇒ L = 
+ρUγ(x)δx = ρUΓ 
+−ℓ/2 
+δ L = ρU δΓ = ρUγ (x)δ x 
+x
+δ =
+Γ
+U 
+t → 0 
+γ (x)δ x 
+x
+δ
+
+---PAGE BREAK---
+
+[Page 11]
+ 
+• Moment, with respect to mid-chord, due to circulation 
+x
+L 
+y 
+
+l 
+
+l 
+cp 
+x 
+M 
+δL(x)
+=
+ ρUγ(x)δx 
+δM = xδL(x) =  ρUxγ(x)δx ⇒ 
+ℓ/2 
+M = 
+ρUxγ(x)dx ⇒ 
+−ℓ/2 
+M 
+=
+CM 
+1 ρU 2ℓ2 
+
+The center of pressure xcp, can be obtained by 
+M = Lxcp ⇒ 
+M 
+ 
+−
+ℓ/
+ℓ/
+
+2 xγ(x)dx 
+xcp =
+=  ℓ/2
+L 
+−ℓ/2 γ(x)dx
+
+---PAGE BREAK---
+
+[Page 12]
+ 
+3.17 Simple Closed-Form Solutions for 
+ 
+−
+ℓ/
+ℓ/
+
+2 γ(x)dx from Linear 
+Theory 
+1. Flat plate at angle of attack α, i.e., η = αx. 
+Linear lifting theory gives γ(x), which can be integrated to give the lift coeﬃcient 
+CL, 
+ ℓ/2 
+L/span = ρU 
+γ(x)dx = · · · = ρU 2ℓπα ⇒ 
+−ℓ/2 
+CL = L/span 
+1 ρU 2ℓ ⇒ 
+
+CL =
+2πα ( exact nonlinear hydrofoil CL = 2π sin α) 
+the moment coeﬃcient CM , 
+ℓ/2 
+M/span = ρU 
+xγ(x)dx = · · · = 1
+4 ρU 2ℓ2πα ⇒ 
+−ℓ/2 
+M/span
+CM = 
+
+⇒ 
+ρU 2ℓ2 
+
+CM = 
+
+2 πα 
+and the center of pressure xcp 
+xcp = 4
+1 ℓ i.e., at quarter chord
+
+---PAGE BREAK---
+
+[Page 13]
+2. Parabolic camber η = η0{1 −(2x )2}, at zero AoA α = 0.  
+l 
+Linear lifting theory gives γ(x), which can be integrated to give the lift coeﬃcient 
+CL, 
+ ℓ/2 
+L/span = ρU 
+γ(x)dx = · · · = 2ρU 2πη0 ⇒ 
+−ℓ/2 
+CL =
+4π η0 
+ℓ , where η0 
+ℓ ≡ ‘camber ratio’ 
+the moment coeﬃcient CM , 
+M/span = 0 (from symmetry) ⇒ 
+CM =
+
+and the center of pressure xcp 
+xcp = 0
+
+---PAGE BREAK---
+
+[Page 14]
+ℓ 
+ℓ 
+ 
+ 
+ 
+ℓ 
+ℓ 
+ 
+
+2  
+2x 
+3. Linear superposition: Both AoA and camber η = αx + η0 1 − 
+. 
+η0
+CL = CLα + CLη = 2πα + 4π 
+We can also write the previous relation in a more general form 
+CL(α) = 2πα + CL(α = 0)  
+≡ 4π η0 
+l 
+Lift coeﬃcient CL as a function of the angle of attack α and η
+l 
+0 . 
+In practice even if the camber is not parabolic, we still make use of the 
+previous relations, i.e., CL(α = 0)  ∼= 4πη0/ℓ. 
+Also note that the angle of attack for any camber is deﬁned as 
+η(ℓ/2) − η(−ℓ/2) 
+yU − yL
+α ≡ 
+= 
+and η0 is determined from η∗, where 
+η ∗ = η − αx.

@@ -1,0 +1,40 @@
+joint distribution of wave height and period. In Proceedings of the conference on the behaviour of offshore structures (BOSS ’76). pp. 144–169. Trondheim: The Norwegian Institute of Technology. Kim, W. D. 1966. On a freely floating ship in waves. J. Ship Res. 10:182–191+200. Kinoshita, M. 1943. Wave resistance of a sphere in a shallow sea. J. Society of Naval Architects of Japan, 19–37. Kinsman, B. 1965. Wind waves—their generation and propagation on the ocean surface. Englewood Cliffs, N. J.: Prentice-Hall.
+
+Waves and Wave Effects 
+
+Kostyukov, A. A. 1959. Theory of ship waves and wave resistance. Leningrad: Sudprom­
+fiz. English translation 1968. Iowa City. E.C.I.
+Lamb, H. 1932. Hydrodynamics. 6th ed. Cambridge: Cambridge University Press. 
+Reprinted 1945, New York: Dover.
+Le Méhauté, B. 1976. An Introduction to hydrodynamics and water waves. New York, 
+Heidelberg, Berlin: Springer-Verlag.
+Lewis, E. V. 1967. The motion of ships in waves. In Principles of naval architecture, ed. 
+J. P. Comstock, 607–717. New York: Society of Naval Architects and Marine 
+Engineers.
+Lighthill, M. J. 1965. Group velocity. J. Institute of Mathematics and its Applications 
+1:1–28.
+Lighthill, M. J. 1967. A discussion of nonlinear theory of wave propagation in dis­
+persive systems. Proceedings of the Royal Society, Series A, 299: no. 1456.
+Longuet-Higgins, M. S. 1953. Mass transport in water waves. Philosophical Transac­
+tions of the Royal Society of London. Series A, Mathematical and Physical Sciences 
+245:535–581.
+Maskell, S. F., and F. Ursell. 1970. The transient motion of a floating body. Journal of 
+Fluid Mechanics 44:303–314.
+Monin, A. S., and A. M. Yaglom. 1971. Statistical fluid mechanics. English translation. 
+Cambridge, Mass.: The MIT Press.
+Moore, C. S. 1967. Intact stability. In Principles of naval architecture, ed. J. P. Com­
+stock, 121–166. New York: Society of Naval Architects and Marine Engineers.
+Neumann, G., and W. J. Pierson. 1966. Principles of physical oceanography. Englewood 
+Cliffs, N. J.: Prentice-Hall.
+Newman, J. N. 1970. Recent research on ship waves. In Eighth symposium on naval 
+hydrodynamics, eds. M. S. Plesset, T. Y. Wu, and S. W. Doroff, pp. 519–545. Washing­
+ton: U.S. Government Printing Office.
+Newman, J. N. 1976. The interaction of stationary vessels with regular waves. In 
+Eleventh symposium on naval hydrodynamics, eds. R. E. D. Bishop, A. G. Parkinson, and 
+W. G. Price, pp. 491–501. London: The Institution of Mechanical Engineers.
+Noblesse, F., and G. Dagan. 1976. Nonlinear ship-wave theories by continuous map­
+ping. Journal of Fluid Mechanics 75:347–371.
+Ochi, M. K. 1973. On prediction of extreme values. J. Ship Res 17:29–37.
+Ogilvie, T. F. 1964. Recent progress toward the understanding and prediction of 
+ship motions. In Fifth symposium on naval hydrodynamics, eds. J. K. Lunde and S. W. 
+Doroff, pp. 3–128. Washington: U.S. Government Printing Office.

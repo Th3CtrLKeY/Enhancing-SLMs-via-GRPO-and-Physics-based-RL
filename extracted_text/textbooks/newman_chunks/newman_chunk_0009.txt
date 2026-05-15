@@ -1,0 +1,45 @@
+the necessary background for an intelligent evaluation and application of empirical procedures and also serve as an introduction to more specialized study on the research end of the spectrum. This approach has the advantage of being a compromise between two viewpoints, which sometimes appear to conflict; it also uni­ fies the seemingly diverse problems of marine hydrodynamics by exam­ ining them not as separate problems but instead as related applications of the general field of hydrodynamics. For example, propellers, rudders,
+
+Chapter 1
+antirolling fins, yacht keels, and sails are all fundamentally related to 
+wings and hydrofoils, or lifting surfaces, and can be treated and understood 
+together. Similarly, the unsteady ship, buoy, or platform motions in waves 
+and the maneuvering of ships or submarines in nonstraight paths can be 
+analyzed, to some extent, from the same basic equations of motion. In fact, 
+however, the maneuvering problem generally involves separation and lift­
+ing effects, whereas the motions of bodies in waves are not as significantly 
+affected by viscosity or vorticity.
+The dynamics of fluid motions, like the dynamics of rigid bodies, are 
+governed by the opposing actions of different forces, and moments, which 
+are implied when not explicitly included. In fluid dynamics, these forces 
+can no longer be considered as acting at a single point or discrete points 
+of the system; instead they must be distributed in a relatively smooth or 
+continuous manner throughout the mass of fluid particles. The force dis­
+tribution and the kinematic description of the fluid motion are in fact con­
+tinuous if and only if we assume that the discrete molecules of fluid can be 
+analyzed as a continuum.
+Typically, we can anticipate force mechanisms associated with the fluid 
+inertia, its weight, viscous stresses, and secondary effects such as surface 
+tension. In general, the three principal force mechanisms—inertial, gravi­
+tational, and viscous—are of comparable importance. With very few excep­
+tions, it is not possible to analyze such a complicated situation, either 
+theoretically or experimentally, and we can either give up or try to assess 
+intelligently the role of each force mechanism, in the hope of subsequently 
+treating them in pairs. As we shall see, this relatively simple state of affairs 
+is still fraught with difficulties.
+It is useful first to estimate the orders of magnitude of the inertial, gravi­
+tational, and viscous forces. We shall suppose that the problem at hand can 
+be characterized by a physical length l, velocity U, fluid density ρ, gravi­
+tational acceleration g, and a coefficient of fluid viscosity μ. We then can 
+estimate the three forces:
+Type of Force
+Order of Magnitude
+Inertial
+ρU
+2l
+
+Gravitational
+ρgl
+
+Viscous
+μUl

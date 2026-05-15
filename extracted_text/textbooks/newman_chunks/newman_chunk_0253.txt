@@ -1,0 +1,335 @@
+acceleration of the body mass. Here we assume that the body is rigid, unrestrained, and in a state of stable equilibrium when in calm water. The six components of the inertial force, associated with the body mass, can be obtained from section 4.16. With the assumption of linearized motions it follows that F M U i i ij j j = = =∑  … 1 2 , , , , , (182) where the matrix Mij is defined by
+
+Chapter 6
+M
+m
+my
+m
+m
+my
+my
+I
+I
+I
+I
+I
+I
+my
+ij
+G
+G
+G
+G
+=
+−
+−
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+I
+I
+I
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+. 	
+(183)
+Here the body mass is
+m
+d
+B
+B
+= ∫∫∫ρ
+
+
+, 	
+(184)
+the mass-density is ρB, and the moments of inertia can be defined in the 
+form
+I
+x x d
+i j
+ij
+B
+ij
+i
+j
+B
+=
+⋅
+−
+=
+∫∫∫ρ
+δ
+[
+]
+,
+,
+, , ,
+x x
+
+
+1 2 3 	
+(185)
+where δij is the Kroenecker delta function, equal to one if i = j and zero 
+otherwise.
+Equations of motion follow by equating the inertia forces (182) to the 
+sum of the pressure forces (130) and the forces due to the body weight, 
+which are incorporated in the total static restoring forces (144). Combining 
+these relations, six simultaneous equations of motion are obtained in the 
+form
+ξ
+ω
+ξ
+j
+ij
+ij
+j
+i
+ij
+j
+j
+c
+f
+AX
+M
+(
+)
+.
+−
++
++
+= −
+=
+=
+∑
+∑
+
+
+
+
+
+(186)
+Rearranging this equation and replacing fii by the added-mass and damping 
+coefficients from (152), we arrive at the result
+ξ
+ω
+ω
+j
+ij
+ij
+ij
+ij
+j
+i
+M
+a
+i b
+c
+AX
+[
+(
+)
+]
+.
+−
++
++
++
+=
+=∑
+
+
+
+(187)
+These are six simultaneous linear equations, which can be solved for the 
+body motions ξj by standard matrix-inversion techniques. Thus, in general, 
+the body motion ξj will be given by an equation of the form
+ξj
+ij
+i
+i
+A
+C
+X
+=
+−
+=∑[
+]
+.
+
+
+
+(188)
+
+Waves and Wave Effects 
+
+where Cij denotes the total matrix in square brackets on the left side of 
+(187). The ratio (ξj/A) is a quantity of fundamental significance, which we 
+shall define separately by
+Z
+A
+C
+X
+j
+j
+ij
+i
+i
+( , )
+[
+]
+.
+ω θ
+ξ
+≡
+=
+−
+=∑
+/
+
+
+
+(189)
+Physically, this is the complex amplitude of body motion in the jth mode, 
+in response to an incident wave of unit amplitude, frequency ω, and direc­
+tion θ. This ratio is known as the transfer function, or the response amplitude 
+operator. The transfer function can be calculated from (189) if the addedmass, damping, exciting, and hydrostatic forces are known.
+To illustrate the nature of the transfer function (189), we return to the 
+special case of heave for a body symmetrical about x = 0 and z = 0. From 
+symmetry, there are no cross-coupling effects, except for possible coupling 
+between surge and pitch or between sway and roll. Thus, in heave,
+Z
+X
+C
+X
+a
+M
+i b
+c
+
+
+
+
+
+
+
+
+
+( , )
+(
+)
+.
+ω θ
+ω
+ω
+=
+= −
++
++
++
+	
+(190)
+In the limit of low frequencies and long wavelengths, the exciting force in 
+the numerator can be approximated by (169); then the limit is
+Z2
+
+
+( , )
+,
+.
+ω θ
+ω
+→
+→
+as
+	
+(191)
+Physically, if the waves are sufficiently long, the body will simply ride up 
+and down with the free surface.
+At very high frequencies the denominator of (190) will be proportional 
+to ω2, while the exciting force in the numerator will tend to zero. Thus, as 
+ω →∞,
+Z
+o
+
+7 2
+5 2
+( , )
+(
+,
+),
+/
+/
+ω θ
+ω
+ω
+=
+−
+−
+	
+(192)
+for three and two dimensions, respectively. More precise estimates can be 
+developed from Davis (1976), and for horizontal motions as noted in prob­
+lem 15.
+Returning to the transfer function (190) for intermediate frequencies, 
+the most significant feature will be a resonant response at the natural fre­
+quency where the virtual mass and restoring forces cancel, or where
+ωn
+c
+a
+M
+=
++
+
+
+
+
+
+
+
+1 2
+/
+. 	
+(193)

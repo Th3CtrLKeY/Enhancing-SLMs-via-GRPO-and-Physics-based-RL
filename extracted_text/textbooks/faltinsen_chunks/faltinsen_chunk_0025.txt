@@ -1,0 +1,116 @@
+when the body has the y-axis as a symmetry axis. The height of the body in the oscillation direction 3 is 2- D and the cross-sectional area of the body is 2: A. The added mass-value A337 will be twice the values obtained from Fig. 3.8. For semi-submersibles we will later calculate the response for wavelengths that are large compared to the cross-sectional dimensions of the structural parts. This implies small potential-flow damping coefficients and frequency-independent (w—>0) added mass coefficients
+
+LINEAR WAVE-INDUCED MOTIONS
+
+2.250
+
+0.750
+
+0.000
+
+Tt T0.500 0.625 0.750 0.875 1.000
+
+Fig. 3.8. Two-dimensional added mass in heave A3;°” for Lewis form
+sections when the frequency of oscillation w— ~~. Infinite water
+depth (A = cross-sectional area, B = Beam, D = Draught, @ =
+velocity potential). The results can be applied to heave added mass
+for the ‘double-body’ with height 2 - D and area 2- A. The added
+mass will be twice the values in the figure.
+
+Fig. 3.9. Strip theory for semi-submersibles.
+
+RESPONSE IN REGULAR WAVES 53
+
+(but excluding the use of heave added mass of two-dimensional surface
+piercing bodies, which diverge).
+
+A semi-submersible consists very often of long cylindrical parts. To
+calculate the effect of the cylindrical parts on the added mass, strip
+theory may be used. This is illustrated in Fig. 3.9. In strip theory it is
+necessary to know the two-dimensional added mass coefficients. The
+discussion of Fig. 3.8 should be remembered. In addition we may note
+that for an ellipse oscillating in sway (see Fig. 3.10), the two-dimensional
+added mass coefficients in sway, A2,% is equal to pza?. A special case
+
+5 10 b/a
+
+Fig. 3.10. Two-dimensional added mass coefficients in sway for an ellipse and
+rectangular cross-sections in infinite fluid.
+
+54 LINEAR WAVE-INDUCED MOTIONS
+
+of this is a circle, where the added mass is equal to the displaced mass of
+the fluid. Another special case is a flat plate, where we note that the
+.added mass is infinite relative to the displaced mass. If the body is long
+in the oscillation direction, the added mass is much smaller than the
+displaced mass. We have also shown results for rectangular sections in
+Fig. 3.10.
+
+The added mass value will be influenced when a cylinder comes close
+to the free-surface, a wall or another body. In Fig. 3.11 results are
+shown for a horizontal circular cylinder when w— 0 (which is the same
+as long wavelengths). The plane z=0 can either be understood as an
+idealization of the free-surface or as a wall. The distance from the top of
+the cylinder is called H and the added mass in heave and sway is shown
+as a function of H/R where R is the radius of the cylinder. We note that
+the closer the cylinder is to the plane z=0, the greater is the added
+mass. When the cylinder touches the plane z=0 the added mass is
+(x?/3—1) or 2.29 times the added mass for large values of H/R.
+Further, we note that the cylinder has to be quite close to z = 0 before
+there is any influence. For instance, when H/R = 1.0 there is only 20%
+increase in the added mass compared to the value for large values of
+H/R. Analytical solutions for this problem have been reviewed by
+Greenhow & Li (1987). :
+
+ass y
+
+H/R
+
+tj an oe
+0 10 20 30 40 50 60 70
+
+Fig. 3.11. Added mass in sway and heave for a circular section close to a wall.
+
+RESPONSE IN REGULAR WAVES 55
+
+Forward speed effects
+
+A current or the forward speed of a Structure will influence the added
+mass and damping coefficients. An important effect for a ship at forward
+speed is the effect of the frequency of an encounter, We will explain this
+by an idealistic situation that can be created in a ship model basin. In one
+end of the tank there is a wave maker that creates sinusoidal waves of
+period T>. On the towing carriage we have mounted the vessel. The
+carriage is heading into the waves with a constant speed U. The phase
+speed of the waves (i.e. the propagation speed of the wave profile) is
+¢ =g/d . Let us concentrate on one point P on the vessel and consider
+the time 7, it takes for two successive wave crests to pass the point P.
+This will obviously be less than 7). From Fig. 3.12 we can deduce
+
+UT.+¢cT.=h
+
+where A = 21g/w ”. This means that the circular frequency of encounter
+w, = 2/T,. between the ship and the waves can be written as
+
+We = Wy + WU /g (3.28)
+
+For a general heading angle 6 between the vessel and the wave
+propagation direction we can write
+
+U cos B (3.29)
+
+Wo
+WM. = Wot
+
+Here 6 = 0° is head seas, B = 90° is beam seas and B = 180° is following
+seas. We note that w, = wo for beam seas and that @, is smaller than wo
+for following seas. The frequency of encounter can actually be zero
+which means the ship stays with the wave profile. For following seas
+(B = 180°) this occurs when T) = 22U/g. According to equation (3.29)
+w, can be negative. If this occurs we will interpret w, as the absolute
+value of the right hand side of equation (3.29). Because the ship will
+
+Fig. 3.12. A ship in regular head sea waves with an explanation of the
+frequency of encounter effect. (U = forward speed of the ship,
+T. = encounter period between the ship and the waves, c = phase
+speed of the waves, 4 = wavelength).

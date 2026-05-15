@@ -1,0 +1,436 @@
+[Page 1]
+Lecture 15 
+- Marine Hydrodynamics 
+Lecture 15 
+Chapter 4 -
+̸
+Real Fluid Eﬀects (ν = 0) 
+Potential Flow Theory → Drag = 0. 
+Observed experiment (real ﬂuid ν <<  1 but ≠ 
+0) → Drag ̸= 0. 
+In particular the total drag measured on a body is regarded as the sum of two components: 
+the pressure or form drag, and the skin friction or viscous drag. 
+Total Drag 
+= 
+Pressure Drag 
++ 
+Skin Friction Drag 
+Proﬁle Drag 
+or Form Drag 
+or Viscous Drag 
+Drag Force due to Pressure 
+
+ 
+ 
+ 
+pˆnds 
+ 
+Drag Force due to Viscous Stresses 
+
+ 
+
+ 
+ 
+τ ˆtds 
+ 
+S 
+S 
+where ˆn and tˆ are the normal and tangential unit vectors on the body surface respectively. 
+The pressure and the viscous stresses on the body surface are p and τ respectively. 
+The form drag is evaluated by integrating the pressure along the surface of the body. For 
+bluﬀ bodies that create large wakes the form drag is ∼ total drag. 
+The skin friction drag is evaluated by integrating the viscous stresses on and along the 
+body boundary. For streamlined bodies that do not create appreciable wakes, friction drag 
+is dominant. 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+    
+4.1 Form Drag 
+4.1.1 Form Drag on a Bluﬀ Body 
+Consider a sphere of diameter d: 
+D (Drag) 
+ρ
+ν 
+U 
+d 
+If no DBC apply then we have seen from Dimensional Analysis that the drag coeﬃcient 
+is a function of the Reynolds number only: 
+CD = CD(Re) 
+The drag coeﬃcient CD is deﬁned with respect to the body’s projected area S: 
+D
+D 
+=
+=
+CD 
+1 ρU 2S 
+1 ρU 2 πd2/4
+
+
+Projected area 
+The Reynolds number Re is deﬁned with respect to the body’s diameter d: 
+Ud 
+Re = ν 
+The following graph shows the dependence of CD on Re as measured from numerous ex­
+periments on spheres. 
+CD 
+0.5 
+0.25 
+Re 
+3x105 
+Figure 1: Drag coeﬃcient (CD) for a sphere for Re > 102 .
+
+---PAGE BREAK---
+
+[Page 3]
+i) Bluﬀ Body → Form Drag 
+For a bluﬀ body (examples: sphere, cylinder, ﬂat plate, etc.) there is appreciable ﬂow 
+separation and a wake is formed downstream of the body. The pressure within the 
+wake is signiﬁcantly smaller than that upstream of the body. Therefore the integral 
+of the pressure along the body boundary (= form drag) does not evaluate to zero as 
+predicted by P-Flow. 
+In general, for bluﬀ bodies form drag >> friction drag 
+Flow separation 
+Real Flow 
+Potential Flow 
+Assume: pressure in the wake ∼ p∞ (pressure at inﬁnity) 
+pressure on the upstream boundary of the body ∼ ps (stagnation pressure) 
+Then: 
+ 
+
+
+D = 
+CD 
+(Projected/frontal area)(ps − p∞)
+= 
+CDS 
+ρU 2 
+
+
+ 
+ 
+ 
+↑ 
+
+Friction Coeﬃcient 
+S 
+Bernoulli 
+to be determined
+
+---PAGE BREAK---
+
+[Page 4]
+ii) CD = CD(Re) → Regime Dependence 
+In general, for typical bluﬀ bodies such as spheres, it is found that CD = CD(Re) 
+has a form similar to that shown in Figure (1). This means that CD has a ‘regime 
+dependence’ on Re. 
+There are two main regimes of interest: 
+∼
+• Laminar regime: 
+R e no separation < Re < R  e critical = 
+( 3  × 105) 
+for a smooth sphere with smooth inﬂow 
+Laminar boundary layer 
+Drag 
+Separation pt 
+Separation pt 
+Stagnation pt 
+No Stagnation pt 
+Laminar boundary layer 
+• 
+Wide wake 
+Wake 
+• 
+Early separation 
+Width ~ Diameter 
+• 
+‘Large’ CD =O(1) 
+• Turbulent regime: 
+Re > R  e critical 
+Turbulent boundary layer 
+Separation pt 
+Separation pt 
+Stagnation pt 
+No Stagnation pt 
+Wake 
+• 
+Narrow wake 
+Width ~ Diameter/2 
+• 
+Delayed separation 
+• 
+Smaller CD 
+Turbulent boundary layer
+
+---PAGE BREAK---
+
+[Page 5]
+iii) Cylinder The drag coeﬃcient for a cylinder is deﬁned as: 
+D/L 
+CD = 1 ρU 2d
+
+U 
+ρ 
+d
+L
+D 
+CD 
+3x105 
+Figure 2: Drag coeﬃcient (CD) for a cylinder for Re > 102 
+iv) Bodies with Fixed Separation Points 
+For bodies with ﬁxed separation points, the drag coeﬃcient is roughly constant, i.e., 
+does not depend on Re. For example, for a ﬂat plate or disc CD ≈ 1.2 
+1.2 
+0.6 
+Re 
+Separation pt 
+Separation pt
+
+---PAGE BREAK---
+
+[Page 6]
+⇀ 
+ 
+ 
+4.1.2 Boundary Layers 
+
+∗ 
+L 
+∂v 
+	⇀
+⇀
+∗ 
+ν 	 
+2⇀
+∗ 
++ v · ∇v 
+= ... + 
+∇ v 
+UT
+∂t 
+UL 
+
+ReL 
+For most ﬂows of interest to us ReL >> 1, i.e., viscosity can be ignored if U, L govern 
+the problem, thus potential ﬂow can be assumed. In the context of potential ﬂow theory, 
+drag = 0! Potential ﬂow (no τij) allows slip at boundary, but in reality, the no-slip condi­
+tion applies on the boundaries. Otherwise, if ν ≠ 
+0 and a free-slip KBC is imposed then 
+τ ∼ν ∂u →∞ at the boundary. 
+∂y 
+Prandtl: 
+There is a length scale δ (boundary layer thickness δ <<  L) over which 
+velocity goes from zero on the wall to the potential ﬂow velocity U outside the boundary 
+layer. 
+L
+U 
+δ<<L
+y 
+x 
+u=0 
+U 
+u=U 
+Estimate δ: 
+Inside the boundary layer, viscous eﬀects are of the same order as the 
+inertial eﬀects. 
+∂2U 
+∂U 
+U
+U 2 
+ν
+δ2 
+δ
+ν 
+
+ν 
+∼U 
+→ν 
+∼ 
+→ 
+∼
+→
+∼ 
+=  
+<< 1 As  ReL ↑, δ  ↓ 
+∂y2 
+∂x 
+δ2 
+L 
+UL
+L2 
+L 
+UL 
+ReL 
+Generally: ReL >> 1, L
+δ <<
+ 
+1, thus potential ﬂow is good outside a very thin bound­
+ary layer (i.e., provided no separation - a real ﬂuid eﬀect). For Reynolds number not 
+>> 1(Re ∼ O(1)), then thick boundary layer ( δ ∼ O(L)) and Prandtl’s boundary layer 
+idea not useful. If separation occurs, then boundary layer idea is not valid.
+
+---PAGE BREAK---
+
+[Page 7]
+4.1.3 Boundary Layers and Flow Separation 
+Boundary layers help understand ﬂow separation. 
+Example for ﬂow past a circle. 
+Outside the boundary layer P-Flow is valid. Let capital U denote the potential ﬂow 
+tangential velocity on the circle and let x denote the distance along the circle surface (i.e., 
+x = body coordinate). 
+From the steady inviscid x-momentum equation (steady Euler) along the body boundary 
+(y = 0,  V = 0), we obtain : 
+dU 
+1 dp
+U 
+= − 
+(1)
+dx 
+ρ dx 
+Note 1: Equation (1) is used frequently in boundary layer theory. 
+Note 2: From Equation (1) → for ﬂow past a ﬂat plate dp = 0 along the plate. 
+dx 
+:U dU = − 1 dp 
+P − Flow solution on body y=0 
+dx 
+dx 
+dU > 0
+dx 
+dp < 0
+dx 
+x
+y 
+
+=
+U
+
+=
+U 
+
+U 
+υ
+u,
+:
+layer 
+boundary 
+ν 
+δ 
+
+
+< 
+> 
+dx
+dp 
+dx 
+dU 
+
+
+> 
+< 
+dx
+dp 
+dx 
+dU 
+max 
+U
+U = 
+Acceleration 
+dU 
+dx < 0 
+Deceleration 
+‘Favorable’ pressure gradient 
+dp 
+dx > 0 
+‘Adverse’ pressure gradient
+
+---PAGE BREAK---
+
+[Page 8]
+X3 
+X=X1
+y 
+y 
+X2 > X1 
+X1 
+X4 
+X2 
+X5 
+P 
+p 
+u 
+p 
+U1 
+P 
+v
+u 
+ωv
+U2 > U1
+ω
+P > p  
+Flow is being 
+pushed to attach 
+X3 > X2  
+X4 > X3 
+y  
+y 
+P 
+U4 
+=
+ωv
+U3 
+P 
+p 
+u
+u 
+U3 U2 
+∂u 
+0, 
+
+= 
+τ3 > 0 
+∂y 
+τ4 = 0 
+X4 is defined as the point of 
+separation 
+X5 > X4
+y 
+u 
+U4 
+P 
+U5 
+Separated Flow τ5 < 0  
+Flow reversal
+
+---PAGE BREAK---
+
+[Page 9]
+⇀ 
+⇀ 
+⇀ 
+⇀ 
+A better way to think about separation is in terms of diﬀusion of vorticity. 
+ω=0 outside B.L. 
+y 
+y 
+ω2 
+ω(y) 
+P 
+ω added to fluid 
+ω1 
+ω(y) 
+P 
+ω removed from fluid 
+ω3 
+ω4 = 0 
+by diffusion 
+Think of vorticity as heat; ω(y) is equivalent to a temperature distribution. Note: 
+DV 
+Dω 
+= ... + ν∇2V and 
+= ... + ν∇2ω 
+Dt 
+Dt

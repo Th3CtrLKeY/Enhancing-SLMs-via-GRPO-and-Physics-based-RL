@@ -1,0 +1,147 @@
+where we analyze the case of a rigid body moving in an otherwise infinite and unbounded fluid. For this particular problem, the integrals over SC are simplified to the ultimate extent where they vanish! 4.13 Force on a Moving Body in an Unbounded Fluid Now let us consider the hydrodynamic force and moment acting on a rigid body, which moves in an arbitrary manner in an otherwise unbounded fluid. In this case the contributions from the integrals over the control
+
+Chapter 4
+surface SC, in (90) and (93), can be estimated in an analogous manner to 
+that employed in connection with the corresponding integral in Green’s 
+theorem. In particular, for large spherical radius r, the potential3 due to the 
+body motions will tend to zero at a rate proportional to r−2, and the gradient 
+will vanish as r−3. Let SC be a sphere of large radius; since the surface element 
+dS is proportional to r2, the contribution from the integrals over SC in (90) 
+and (93) will be of order r−4 and r−3, respectively. As r tends to infinity, these 
+integrals will vanish, and the force and moment are given by the simple 
+expressions
+F = −
+∫∫
+ρ
+φ
+d
+dt
+ndS
+SB
+, 	
+(94)
+M
+r
+n
+= −
+×
+∫∫
+ρ
+φ
+d
+dt
+dS
+SB
+(
+)
+. 	
+(95)
+These results imply that the total momentum of the fluid is equal to ρ times 
+the integral in (94), and the moment of momentum is similarly propor­
+tional to the integral in (95).
+In the special but important case of steady translation of the body, the 
+integral in (94) will not depend on time, and hence we obtain D’Alembert’s 
+“paradox.” This states that no hydrodynamic force acts on a body moving 
+with constant translational velocity in an infinite, inviscid, and irrotational 
+fluid. A moment may exist in this case, however. To verify this, we note that 
+problems of steady translation are independent of time only when viewed 
+in a reference frame moving with the body. If the body moves with velocity 
+U1 parallel to the x1-axis, the appropriate moving coordinate system is
+′ =
+−
+′ =
+′ =
+x
+x
+U t
+x
+x
+x
+x
+
+
+
+
+
+
+
+,
+,
+;
+the potential
+′
+′
+′
+′ ≡
+′ +
+′
+′
+φ
+φ
+(
+,
+,
+)
+(
+,
+,
+, )
+x x
+x
+x
+U t x
+x t
+
+
+
+
+
+
+
+(96)
+will be independent of time. On the body surface SB, the unit normal also 
+will be independent of time, but not the cross-product
+r
+n
+r
+n
+×
+=
+−
+−
+−
+= ′ ×
++
+−
+(
+,
+,
+)
+( ,
+,
+).
+x n
+x n
+x n
+x n x n
+x n
+U tn U tn
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(97)
+More generally, if U is the body velocity,

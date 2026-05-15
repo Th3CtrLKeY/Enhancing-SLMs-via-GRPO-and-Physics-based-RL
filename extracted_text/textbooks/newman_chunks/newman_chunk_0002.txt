@@ -1,0 +1,41 @@
+following year, the entire research division of Det Norske Veritas (now DNV GL) attended the course. This time, Enok Palm lectured the course himself. “I just can’t ask a master’s student to teach such an important course to the scientific leaders of Veritas,” he told me. I was given the duty of leading the exercises instead. Reading this book—a real classic—has been the most defining experi­ ence of my scientific career. I use it frequently in my teaching and scientific
+
+xii 
+Foreword
+work. This text is a continuous font of inspiration for a master’s or PhD 
+project.
+How does one define marine hydrodynamics? First, it’s important to 
+understand the meaning of offshore engineering. Put simply, offshore 
+engineering deals with the design, construction, and safety considerations, 
+including insurance, of both stationary and moving structures at sea. 
+Regarding the first question, marine hydrodynamics defines the theoretical 
+framework of offshore engineering. Marine hydrodynamics is an extensive 
+subject as it treats the hydrodynamics in relation to all conceivable geom­
+etries exposed to the forces in the ocean environment. This includes the 
+forces from the waves as well as those acting on lifting surfaces, either in 
+water or in air. Sailors, rowers, canoeists, and kayakers are all faced with 
+the same challenges: how does one reduce wave or frictional resistance, 
+and optimize sail, rudder shape, or paddle motion? These are all examples 
+of marine hydrodynamics. Calculating extreme loads and thereby ensur­
+ing the survival of structures exposed to extreme conditions—such as the 
+record high Draupner wave, detected in the North Sea on New Year’s Day 
+1995 with a crest height of more than 18 meters, a wave height of more 
+than 25 meters, and a wavelength slightly exceeding 200 meters—is the 
+ultimate goal. (Note that the design waves of the platforms in the North Sea 
+are stronger than the Draupner wave.)
+Stationary bodies are either fixed to the seafloor or floating on the sur­
+face with a stiff or slack mooring maintaining their position. There is a 
+variety of such bodies, including all kinds of ships, barges, offshore plat­
+forms in transit from one position to another, and other objects towed 
+by ships. Offshore wind turbines are more recently studied geometries. In 
+most cases these are organized in large wind farms that are mounted on 
+the seafloor as at Horns Rev 1 and 2 in Danish waters, and at Dudgeon on 
+the coast of the United Kingdom. Hywind, developed by the Norwegian 
+oil and gas company Statoil, is an offshore wind turbine prototype that 
+floats on a spar buoy. The current target wing span of these geometries 
+is twice that of an Airbus A380! Other geometries in offshore engineer­
+ing include cages for aquaculture, which may be either closed or open. 
+Making them larger and sufficiently strong enough to be placed in harsh 
+ocean environments is a new development in the fish farming industry. 
+New development of coastal infrastructure would require road crossings of 
+fjords. Proposed bridges would be supported by floating, moored pontoons;

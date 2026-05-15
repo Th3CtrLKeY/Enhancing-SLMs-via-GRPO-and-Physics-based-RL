@@ -1,0 +1,57 @@
+[Page 1]
+INDIAN INSTITUTE OF TECHNOLOGY KHARAGPUR
+End-Spring Semester Examination 2023-24
+
+Date of Examination: Session: (FN/AN) ____ Duration: 3 hrs.
+Full Marks : 50 Subject No.:; NA20202 Subject : Marine Hydrodynamics
+Department/Center/School: Ocean Engineering and Naval Architecture
+
+Specific charts, graph paper, log book etc., required
+
+Special Instructions (if any): NO
+
+Please note that the notations and variables used in the question paper are same as that
+of used in the class and hence not explained here.
+
+Answer any five
+
+1. The hydrodynamic force can be given in the form of
+
+F,=—-p Ss, [ee + 5 Vo}. Ve, | n,dS . Show that, it can also be expressed in the form
+
+a aj 1
+of Fea P53: Ss, [;.nj]aS + pS, (=) Vo; — 5 VO). Voj.n,| dS after _ further
+simplification, if the force term is expressed in the form of F;(t) = —Ujm; j, then define mj,;,
+write the expression for m,;, and show that mj = mj, 4+1+24+3
+
+2. Show that F(x, y,z,t) = 0 will be a boundary surface if = = 0 . From that, derive the
+
+kinematic free surface boundary condition. Also derive dynamic free surface condition.
+Discuss how we can modify these two condition under the assumption of linearity. 3+3-+2+2
+
+3. Suppose the wave elevation of a 2-dimensional plane progressive wave is defined as z =
+n(x, t), where 1 = Acos(kx — wt). Then show that velocity potential for that wave may be
+
+Ag coshk . . . .
+represented as @ = Soe sin(kx — wt). Derive that water particle trajectory for the
+deep water condition. 4+6
+
+4. Derive the expression for the total pressure in deep water condition. Show that under the
+assumption of the linearity, the total pressure is zero at the crest, but it is not zero-at trough.
+Discuss the reason for that. 10
+
+5. Write the expression for dispersion relation for finite water depth. What is the physical
+significance of dispersion relation? What is phase velocity? What is group velocity? show that
+for deep water case, phase velocity is twice the group velocity. If phase velocity of a plane
+progressive wave is 4m/s. What would be the corresponding wave number if the wave is
+travelling in deep water? Prove that all frequency wave travel at same velocity in shallow water
+region. 14+24+14142+2+]
+
+---PAGE BREAK---
+
+[Page 2]
+6. Show that, if a 2-dimensional body generates a wave with an amplitude A because of its
+steady motion, then the associated drag force is =pgh?. Write the 6 DoF equation of motion
+and define all the terms present in that equation. 7+3
+
+waenennceennnnneenne All the DeSt=--nnnennnnenennen

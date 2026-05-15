@@ -1,0 +1,90 @@
+application will be discussed in section 6.20. The integral in (58) is recognized as a Fourier integral, and (59) is a twodimensional integral. Thus a large class of physically relevant wave systems can be represented, and the inversion formulas from Fourier theory can be used to find the appropriate amplitude functions A(ω) or A(ω, θ) required to generate a prescribed wave elevation η. This procedure can be utilized to solve the Cauchy-Poisson problem for the wave motion resulting from a
+
+Chapter 6
+transient initial disturbance such as would result by throwing a pebble into 
+a pond. The solution of this interesting problem is derived by Lamb (1932), 
+Stoker (1957), and Wehausen and Laitone (1960).
+6.7  Group Velocity
+Distributions of wave systems, such as those represented by the sum (57) 
+or the integrals (58–59), are difficult to describe in simple terms. Since the 
+component waves each travel with a different phase velocity, a continu­
+ously changing wave pattern results. Nevertheless, if we consider a narrow 
+band of the component waves, with nearly equal wavelength and direc­
+tion, a characteristic of the resulting distribution is that the waves travel 
+in a group. The group velocity Vg can be derived from a dynamic analysis of 
+energy flux, but a simpler approach to this subject follows from a purely 
+kinematic study of the group of waves formed by two nearly equal plane 
+waves.
+Two adjacent components of the discrete spectrum (57) can be written 
+in the form
+η
+ω
+ω
+ω
+=
++
+=
++
+−
++
+−
++
+−
++
+−
+Re{
+}
+Re
+A e
+A e
+A e
+A
+A e
+ik x i
+t
+ik x i
+t
+ik x i
+t
+i
+
+
+
+
+
+
+
+
+
+
+
+
+δ
+δω
+kx i
+t
++
+
+
+
+
+{
+}, 	
+(60)
+where δk = k2 − k1 and δω = ω2 − ω1. Here, as with the partial reflected 
+wave in (56), the factor in brackets represents an amplitude modulation; 
+but unlike (56), this factor will be slowly varying in space and time. The 
+wave form (60) is similar to the beat-frequency effect in electromagnetic 
+wave motions, where one refers to the first exponential factor in (60) as the 
+carrier wave.
+This type of wave motion is illustrated in figure 6.8, which shows a group 
+of carrier waves enclosed by a slowly-varying envelope. The wavelength 
+and period of the carrier are the usual parameters λ = 2π/k1 and T = 2π/ω1. 
+By analogy, the wavelength of the group is 2π/δk, and its period in time is 
+2π/δω. Of particular interest is the group velocity Vg, given by the ratio
+V
+k
+g = δω
+δ
+. 	
+(61)

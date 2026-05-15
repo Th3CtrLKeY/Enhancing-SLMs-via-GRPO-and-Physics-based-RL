@@ -1,0 +1,129 @@
+relevance of these complementary descriptions depends on the nature of the ship’s stern. Generally, the stern profile is as shown in figure 7.4, and it is not obvious whether this should be regarded as pointed or with a sharp trailing edge. However, the actions of the rudder and deadwood are signifi­ cant in practice, and it is likely that additional vorticity is shed from the keel along the afterbody in a manner which coincides more nearly with the slender-body results.
+
+Chapter 7
+To determine the validity of the slender-body theory, rough estimates 
+of the force coefficients shown in table 7.1 can be compared with experi­
+ments. To facilitate these estimates we shall assume that the draft T is 
+constant along the length, and that the two-dimensional added-mass coef­
+ficient can be approximated by its value for a flat plate or ellipse. Utilizing 
+the results from table 4.3, with a factor of 1/2 to include only the lower half 
+of the double body, it follows that
+m
+x
+T
+
+
+
+
+( )
+.
+=
+πρ
+	
+(54)
+Taking the origin at the midship section, xT = −l/2 and the results shown in 
+table 7.2 follow from table 7.1 and equation (54).
+The most significant discrepancy in table 7.2 occurs for the sway force 
+due to a constant sway velocity, where the theory underpredicts the experi­
+ments by about 50 percent. Here the importance of viscous cross-flow drag 
+is recalled. In this connection, Norrbin (1970) notes that the experimental 
+value of this force coefficient is sensitive to nonlinear effects and the inter­
+pretation of the experimental results. Nor does the theory account for the 
+cross-coupling yaw moment due to sway acceleration, due to our simpli­
+fying assumption concerning the planform and added-mass distribution. 
+Table 7.1
+Hydrodynamic Coefficients in Equations (52–53), Based on the Slender-Body Theory 
+with Lifting Effects Included
+Present 
+Notation
+Standard 
+Notation
+Slender-Body 
+Theory
+Added-Mass 
+Theory
+∂F3/∂U3
+Yυ
+−U1mT
+
+∂F3/∂Ω2
+−Yr
+U1xTmT
+U1m11
+∂
+∂
+F
+U
+
+
+/
+
+Yυ
+−mS
+
+−m33
+∂
+∂
+F3
+
+/
+Ω
+−Yr
+−mS
+
+−m35
+∂M2/∂U3
+−Nυ
+U m
+x m
+S
+T
+T
+
+
+[
+]
++
+U1(m33 − m11)
+∂M2/∂Ω2
+Nr
+U m
+x
+m
+S
+T
+T
+
+
+
+[
+(
+)
+]
++
+U1m35
+∂
+∂
+M
+U
+
+
+/
+
+−N υ
+−mS
+
+−m35
+∂
+∂
+M2
+
+/
+Ω
+Nr
+−mS
+
+−m55
+Note: The second column is the standard notation described by Mandel (1967), and 
+the last column shows the coefficients that follow from equations 4.115–4.116). The 
+superscript s denotes the strip-theory approximations, and mT denotes the addedmass coefficient at the stern.

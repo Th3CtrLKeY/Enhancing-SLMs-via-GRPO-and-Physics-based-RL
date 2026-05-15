@@ -1,0 +1,601 @@
+[Page 1]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Lecture 14 
+ - Marine Hydrodynamics 
+Lecture 14 
+3.20 Some Properties of Added-Mass Coeﬃcients 
+1. mij = ρ·[function of geometry only] 
+F, M = 
+U, Ω]
+[linear function of mij ] × [function of instantaneous U, ˙ 
+not of motion history 
+2. Relationship to ﬂuid momentum. 
+F(t) 
+where we deﬁne Φ to denote the velocity potential that corresponds to unit velocity 
+U = 1. In this case the velocity potential φ for an arbitrary velocity U is φ = UΦ. 
+The linear momentum L⃗ in the ﬂuid is given by 
+L⃗ = 
+vdV = 
+ρ∇φdV 
+=
++ 
+ρφˆ
+ρ⃗ 
+ndS 
+↑ 
+V
+V 
+Green’s B 
+∞ 
+theorem 
+ 
+φ→0 at  ∞ 
+Lx (t = T ) =  
+ρUΦnxdS = U
+ρΦnxdS 
+B
+B 
+The force exerted on the ﬂuid from the body is −F (t) =  −(−mAU˙ ) =  mAU˙ . 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+ 
+    
+ 
+ 
+ 
+ 
+    
+T
+T
+
+
+Newton’s Law 
+ 
+˙ 
+T 
+↓ 
+dt [−F (t)] = 
+mAUdt = mA U]0 
+= 
+Lx (t = T )−Lx (t = 0) =  U
+ρΦnxdS 
+
+
+mAU
+B 
+Therefore, mA = total ﬂuid momentum for a body moving at U = 1 (regardless of 
+how we get there from rest) = ﬂuid momentum per unit velocity of body. 
+∂Φ 
+K.B.C. ∂φ = ∇φ · nˆ = (U, 0, 0) · nˆ =  Unx, ∂φ = Unx ⇒ ∂UΦ = Unx ⇒ 
+= nx
+∂n 
+∂n
+∂n 
+∂n 
+∂Φ
+∴ mA = ρ 
+Φ 
+dS 
+∂n 
+B 
+For general 6 DOF: 
+∂Φj
+mji 
+= ρ 
+Φi 
+njdS = ρ 
+Φi 
+dS = j ﬂuid momentum due to 
+ 
+ 
+∂n 
+i body motion 
+j−force/moment 
+B 
+potential due to body 
+B 
+i−direction of motion 
+moving with Ui=1 
+3. Symmetry of added mass matrix mij = mji. 
+
+
+ 
+ 
+ 
+∂Φj
+mji = ρ 
+Φi 
+dS = ρ 
+Φi (∇Φj · nˆ)dS 
+= 
+ρ 
+∇· (Φi∇Φj) dV 
+∂n 
+↑ 
+B
+B 
+Divergence 
+V
+Theorem 
+⎛
+⎞ 
+= ρ 
+⎝∇Φi · ∇Φj + Φi∇2Φj⎠dV 
+V 
+=0 
+Therefore, 
+mji = ρ 
+∇Φi · ∇ΦjdV = mij 
+V
+
+---PAGE BREAK---
+
+[Page 3]
+ 
+ 
+ 
+4. Relationship to the kinetic energy of the ﬂuid. For a general 6 DoF body motion 
+Ui = (U1, U2, . . . , U6), 
+φ = UiΦi ; Φi = potential for Ui = 1  
+notation 
+
+K.E. = ρ 
+∇φ · ∇φdV = 2
+1 ρ
+Ui∇Φi · Uj ∇Φj dV 
+
+V 
+V 
+
+= 2 ρUiUj 
+∇Φi · ∇Φj dV = 1
+2 mijUiUj 
+V 
+K.E. depends only on mij and instantaneous Ui. 
+5. Symmetry simpliﬁes mij . From 36 
+→ 
+21 → ‘?’. Choose such coordinate system 
+symmetry 
+that some mij = 0 by symmetry. 
+Example 1 Port-starboard symmetry. 
+⎤
+⎡ m11 m12 0
+
+
+m16 
+Fx 
+
+
+
+Fy 
+Fz 
+Mx 
+12 independent coeﬃcients 
+⎢⎢⎢⎢⎢⎢ 
+⎥⎥⎥⎥⎥⎥ 
+m22 
+m26 
+
+m33 m34 m35 
+mij = 
+
+m44 m45 
+
+My 
+⎣ 
+⎦ 
+m55 
+m66 
+Mz 
+U1 
+U2 
+U3 
+Ω1 
+Ω2 
+Ω3
+
+---PAGE BREAK---
+
+[Page 4]
+Example 2 Rotational or axi-symmetry with respect to x1 axis. 
+⎤
+⎡ m11 0 
+
+0 0 
+
+m22 0 
+0 0 
+m35 
+m22 0 m35 0 
+
+
+
+⎢⎢⎢⎢⎢⎢ 
+⎥⎥⎥⎥⎥⎥ 
+where m22 = m33, m55 = m66 
+and m26 = m35, so 4 diﬀerent coeﬃcients 
+mij = 
+⎣ 
+m55 0 
+m55 
+⎦ 
+Exercise How about 3 planes of symmetry (e.g. a cuboid); a cube; a sphere?? Work 
+out the details.
+
+---PAGE BREAK---
+
+[Page 5]
+ 
+3.21 Slender Body Approximation 
+Deﬁnitions 
+(a) Slender Body = a body whose characteristic length in the longitudinal direction is 
+considerably larger than the body’s characteristic length in the other two directions. 
+(b) mij = the 3D added mass coeﬃcient in the ith direction due to a unit acceleration in 
+the jth direction. The subscripts i, j run from 1 to 6. 
+(c) Mkl = the 2D added mass coeﬃcient in the kth direction due to a unit acceleration in 
+the lth direction. The subscripts k, l take the values 2,3 and 4. 
+x2 x5
+x2 
+x1
+x
+x 
+
+
+x6
+Goal To estimate the added mass coeﬃcients mij for a 3D  slender body. 
+Idea Estimate mij of a slender 3D body using the 2D sectional added mass coeﬃcients 
+(strip-wise Mkl). In particular, for simple shapes like long cylinders, we will use known 2D 
+coeﬃcients to ﬁnd unknown 3D coeﬃcients. 
+mij =
+[Mkl(x) contributions] 
+3D 
+2D 
+Discussion If the 1-axis is the longitudinal axis of the slender body, then the 3D added 
+mass coeﬃcients mij are calculated by summing the added mass coeﬃcients of all the thin 
+slices which are perpendicular to the 1-axis, Mkl. This means that forces in 1-direction 
+cannot be obtained by slender body theory. 
+
+3x 
+O 
+x
+L 
+4x
+
+---PAGE BREAK---
+
+[Page 6]
+ 
+ 
+ 
+ 
+Procedure In order to calculate the 3D added mass coeﬃcients mij we need to: 
+1. Determine the 2D acceleration of each crossection for a unit acceleration in the ith 
+direction, 
+2. Multiply the 2D acceleration by the appropriate 2D added mass coeﬃcient to get the 
+force on that section in the jth direction, and 
+3. Integrate these forces over the length of the body. 
+Examples 
+• Sway force due to sway acceleration 
+Assume a unit sway acceleration ˙u3 = 1 and all other uj , u˙ j = 0, with j = 1, 2, 4, 5, 6. 
+It then follows from the expressions for the generalized forces and moments (Lecture 
+12, JNN §4.13) that the sway force on the body is given by 
+f3 = −m33u˙ 3 = −m33 ⇔ m33 = −f3 = − 
+F3(x)dx 
+L 
+A unit 3 acceleration in 3D results to a unit acceleration in the 3 direction of each 
+2D ‘slice’ (U˙ 3 = u˙ 3 = 1). The hydrodynamic force on each slice is then given by 
+F3(x) =  −M33(x)U˙ 3 = −M33(x) 
+Putting everything together, we obtain 
+m33 = −
+−M33(x)dx = 
+M33(x)dx 
+L 
+L 
+• Sway force due to yaw acceleration 
+Assume a unit yaw acceleration ˙u5 = 1 and all other uj , u˙ j = 0, with j = 1, 2, 3, 4, 6. 
+It then follows from the expressions for the generalized forces and moments that the 
+sway force on the body is given by 
+f3 = −m35u˙ 5 = −m35 ⇔ m35 = −f3 = − 
+F3(x)dx 
+L 
+For each 2D ‘slice’, a distance x from the origin, a unit 5 acceleration in 3D, results 
+to a unit acceleration in the -3 direction times the moment arm x (U˙ 3 = −xu˙ 5 = −x). 
+The hydrodynamic force on each slice is then given by 
+F3(x) =  −M33(x)U˙ 3 = xM33(x)
+
+---PAGE BREAK---
+
+[Page 7]
+ 
+ 
+ 
+Putting everything together, we obtain 
+m35 = − 
+xM33(x)dx 
+L 
+• Yaw moment due to yaw acceleration 
+Assume a unit yaw acceleration ˙u5 = 1 and all other uj , u˙ j = 0, with j = 1, 2, 3, 4, 6. 
+It then follows from the expressions for the generalized forces and moments that the 
+yaw force on the body is given by 
+f5 = −m55u˙ 5 = −m55 ⇔ m55 = −f5 = − 
+F5(x)dx 
+L 
+For each 2D ‘slice’, a distance x from the origin, a unit 5 acceleration in 3D, results 
+to a unit acceleration in the -3 direction times the moment arm x (U˙ 3 = −xu˙ 5 = −x). 
+The hydrodynamic force on each slice is then given by 
+F3(x) =  −M33(x)U˙ 3 = xM33(x) 
+However, each force F3(x) produces a negative moment at the origin about the 5 axis 
+F5(x) =  −xF3(x) 
+Putting everything together, we obtain 
+m55 = 
+x 2M33(x)dx 
+L 
+In the same manner we can estimate the remaining added mass coeﬃcients mij - noting 
+that added mass coeﬃcients related to the 1-axis cannot be obtained by slender 
+body theory.
+
+---PAGE BREAK---
+
+[Page 8]
+In summary, the 3D added mass coeﬃcients are shown in the following table. The empty 
+boxes may be ﬁlled in by symmetry. 
+⎤ 
+⎥⎥⎥⎥⎥ 
+⎥⎥⎥⎥⎥⎥⎥⎥⎥⎥⎥⎥⎥⎥⎥ 
+⎥⎥⎥⎥⎥⎥⎥⎥⎥⎥⎥⎦ 
+m22 = 
+M22dx 
+L 
+m23 = 
+M23dx 
+L 
+m24 = 
+M24dx 
+L 
+m25 = 
+−xM23dx 
+L 
+m26 = 
+xM22dx 
+L 
+m33 = 
+M33dx 
+ 
+L 
+m34 = 
+M34dx 
+ 
+L 
+m35 = 
+−xM33dx 
+ 
+L 
+m36 = 
+xM32dx 
+ 
+L 
+m44 = 
+M44dx 
+ 
+L 
+m45 = 
+−xM34dx 
+ 
+L 
+m46 = 
+xM24dx 
+ 
+L 
+m55 = 
+x2M33dx 
+ 
+L 
+m56 = 
+−x2M32dx 
+ 
+L 
+m66 = 
+x2M22dx 
+ 
+L 
+⎡
+⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎢⎣
+
+---PAGE BREAK---
+
+[Page 9]
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+   
+3.22 Buoyancy Eﬀects Due to Accelerating Flow 
+Example Force on a stationary sphere in a ﬂuid that is accelerated against it. 
+⎛
+⎞ 
+
+⎜ 
+a 
+⎟ 
+φ (r, θ, t) =  U (t) ⎜r + 
+⎟ cos θ 
+⎝ 
+2r2 
+⎠ 
+dipole for sphere 
+∂φ 
+˙ 3a 
+ 
+= U
+cos θ 
+∂t  
+
+r=a 
+
+∇φ|
+=
+0, − U sin θ, 0 
+r=a 
+
+
+ 
+
+|∇φ|2
+= U 2 sin2 θ 
+
+r=a 
+
+Then, 
+π 
+
+ 
+Fx = (−ρ) 
+ 
+2πr2  
+dθ sin θ (− cos θ) U˙ 3a cos θ + 9 U 2 sin2 θ 
+
+
+
+π
+π 
+= U˙ 3πρa3 
+dθ sin θ cos 2 θ +ρU 2 9πa 2 
+dθ
+ 
+cos θ sin3 θ 
+
+
+
+
+
+ 
+
+
+ 
+=2/3 
+=0 
+˙
+Fx = U
+ρ
+ 2πa3 
+4 πa3ρ + 2 πa3ρ
+
+
+⇓ 
+=ρ∀
+
+---PAGE BREAK---
+
+[Page 10]
+ 
+⇀ 
+ 
+ 
+ 
+Part of Fx is due to the pressure gradient which must be present to cause the ﬂuid to 
+accelerate: 
+∂U 
+∂U
+∂U
+∂U 
+1 ∂p 
+x-momentum, noting U = U (t) :  
++ U 
++ v 
++ w 
+= − 
+(ignore gravity) 
+∂t 
+∂x
+∂y 
+∂z 
+ρ ∂x  
+ 
+    
+
+
+
+dp = −ρU˙ for uniform (1D) accelerated ﬂow 
+dx 
+Force on the body due to the pressure ﬁeld 
+F = 
+pndS
+ˆ
+= −
+∇pdV ; 
+Fx = − 
+∂pdV = ρ∀U˙ 
+∂x 
+B
+VB 
+VB 
+‘Buoyancy’ force due to pressure gradient = ρ∀U˙
+
+---PAGE BREAK---
+
+[Page 11]
+⇀ 
+ 
+ 
+Analogue: Buoyancy force due to hydrostatic pressure gradient. Gravitational accelera­
+tion g ↔ 
+U˙ = ﬂuid acceleration. 
+ps = −ρgy 
+∇ps = −ρgˆj → F s = −ρg∀ˆj Archimedes principle 
+Summary: Total force on a ﬁxed sphere in an accelerated ﬂow 
+Fx = U˙ 
+ρ∀ +
+= U 2 
+Um(1)
+m(1) 
+˙ 3 ρ∀ = 3 ˙ 
+ 
+ 
+Buoyancy 
+added mass 
+1 ρ∀
+
+In general, for any body in an accelerated ﬂow: 
+˙
+Fx = Fbuoyany + Um(1), 
+where m(1) is the added mass in still water (from now on, m) 
+= − ˙
+Fx 
+Um for body acceleration with U˙ 
+Added mass coeﬃcient 
+m 
+cm = ρ∀ 
+in the presence of accelerated ﬂow Cm = 1 + cm
+
+---PAGE BREAK---
+
+[Page 12]
+Appendix A: More examples on symmetry of added mass tensor 
+•Symmetry with respect to Y (= “X-Z” plane symmetry) 
+12 non-zero, independent coefficients 
+•Symmetry with respect to X and Y (= “Y-Z” and “X-Z” plane symmetry) 
+7 non-zero, independent coefficients
+
+---PAGE BREAK---
+
+[Page 13]
+•Axisymmetric with respect to X-axis  
+4 non-zero, independent coefficients 
+•Axisymmetric with respect to X axis and X (=“Y-Z” plane symmetry) 
+3 non-zero, independent coefficients

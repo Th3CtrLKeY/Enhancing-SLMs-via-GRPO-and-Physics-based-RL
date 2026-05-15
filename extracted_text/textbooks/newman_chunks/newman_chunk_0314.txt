@@ -1,0 +1,41 @@
+the velocity poten­ tial is of the form φ( ) / ( , ) [ ( ) ]. 1 2 x z f x F z h = + − (131) In the inner region, near the body surface, motions that are slowly vary­ ing in the longitudinal direction can be approximated as two-dimensional flows. If we restrict our attention to the low-frequency regime, as in sec­ tion 7.6, the inner solution is governed by the rigid free surface condition
+
+Hydrodynamics of Slender Bodies 
+
+∂ϕ/∂y = 0 on y = 0, and the same condition on the bottom y = h. Thus the 
+inner flow is constrained by two parallel and closely spaced rigid boundar­
+ies, as opposed to the unbounded case where the flow can spread radially 
+in the y-z plane. This constraint is an essential feature of the inner flow and 
+one of the principal effects of shallow water.
+For lateral motions, the leading-order results for small ε can be con­
+structed from a strip-theory synthesis, as in deep water (see problem 14). 
+Thus, the sway added mass of a body in shallow water can be represented 
+as in (40), but the relevant two-dimensional added-mass coefficient m22(x) 
+is determined for the body section ∑B (x) and its rigid-body image, in a 
+channel of total depth 2h. Some examples of the resulting two-dimensional 
+added-mass coefficient are discussed in section 4.18. Typically, as in (4.157), 
+the lateral added-mass coefficient is increased by proximity to the bottom.
+The lateral maneuvers of ships in shallow water can be described as in 
+sections 7.4 and 7.5 provided the two-dimensional added-mass coefficient 
+is modified to account for shallow-water effects. As a result, ships are gener­
+ally more stable in shallow water and more difficult to maneuver.
+Lateral flows that can be described in the inner region without influence 
+from the outer flow are not affected to leading order by wave effects or by 
+the Froude number Fh. However, the strip-theory approach for lateral flows 
+breaks down when the “gap” between the bottom of the fluid and the body 
+is very small, resulting in a “blockage” of the lateral flow past the body sec­
+tion. In the limit when this gap tends to zero (or the body runs aground!), 
+the lateral flow must pass around the body ends, in a manner that is pre­
+dominantly two-dimensional in the horizontal plane x-z, rather than in the 
+lateral plane y-z.
+The transition between these two regimes can be treated by a matching 
+technique in which the outer flow is horizontal. Here, the extent to which 
+the inner flow passes through the gap or around the body ends depends 
+on the pressure jump between the two sides of the body, which depends 
+in turn on the inner limit of the outer solution. This technique has been 
+developed for the case Fh = 0 by Newman (1969) and extended to subcritical 
+Froude numbers 0 < Fh < 1 by Breslin (1972). The same technique is applied 
+to horizontal motions in a seaway by Beck and Tuck (1972).
+For longitudinal flows, as in the case of an unbounded fluid treated 
+in section 7.2, it is essential to match the source-like flow in the inner 
+region with an outer three-dimensional solution. This matching procedure

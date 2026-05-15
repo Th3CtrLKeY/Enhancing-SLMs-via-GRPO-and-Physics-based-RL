@@ -1,0 +1,76 @@
+equal to 2.15; for N = 104 this factor increases to 2.63. Since (219) is much more sensitive to the value of m0 than to (N/0.01), the most important factor to estimate correctly is the total wave energy. In a comprehensive derivation of the extreme-value statistics, Ochi (1973) shows that the amplitude of the design extreme wave is reduced if the wave spectrum is not of narrow bandwidth. However, the net reduction is less than 10 percent in all cases.
+
+Waves and Wave Effects 
+
+6.21  Motions of Bodies in Irregular Waves
+With the spectral description of ocean waves given in the preceding sec­
+tion, we can return to the problem of body motions and generalize the 
+earlier treatment of regular waves with sinuosidal time-dependence. If 
+the ocean waves are described by the random distribution (196), and if the 
+response of the body to each component wave is defined by a linear transfer 
+function Z(ω, θ), the body response will be
+ξ
+ω θ
+ω θ
+ω
+j
+j
+i t
+t
+Z
+e
+dA
+( )
+Re
+( , )
+( , ).
+=
+∫∫
+	
+(221)
+The principal assumption is that linear superposition applies, as it must 
+in any event for the underlying development of the transfer function and 
+spectrum.
+Like the waves themselves, the response (221) is a random variable. The 
+mean-square of this quantity can be computed in precisely the same man­
+ner as (197–198), giving the result
+ξ
+ω θ
+ω θ
+ω θ
+π
+j
+j
+S
+Z
+d
+d
+
+
+
+
+
+= ∫∫
+∞
+( , )
+( , )
+. 	
+(222)
+The distribution of response maxima is approximated by a Rayleigh distri­
+bution. Thus the statistics of the body response are identical to the wave 
+statistics as analyzed in section 6.20, except that the wave-energy spectrum 
+S is multiplied by the square of the transfer function.
+To a large extent these relations provide the justification for our earlier 
+analysis of regular-wave response. The transfer function Zj(ω, θ) is valid not 
+only in regular waves, where it has been derived, but also in superpositions 
+of regular waves, and ultimately in a spectrum of random waves. Generally 
+speaking, a vessel with favorable response characteristics in regular waves 
+will be good in irregular waves, and vice versa. This statement is oversim­
+plified, however, and the relative “shape” of the energy spectrum and the 
+transfer function is crucial to the value of integrals such as (222). For exam­
+ple, a large resonant response of the body will be of importance if the reso­
+nant frequency coincides with the peak of the wave-energy spectrum, and 
+vice versa. Figure 2.16 shows the extreme resonant peak which results for 
+a slender spar buoy, but the spar buoy FLIP, described by Rudnick (1967), 
+is sufficiently large that the natural period in heave (27 seconds) is beyond 
+the range of expected wave excitation. Similarly, a small unrestrained buoy

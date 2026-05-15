@@ -1,0 +1,75 @@
+[Page 1]
+2.20 Problem Set 8A 
+Name: ____________________ 
+1. Supplementary Problem P9 
+2. A two-dimensional hydrofoil is placed in a uniform stream of horizontal velocity U 
+and density ρ . For this problem, assume steady potential flow. 
+Γ 
+− 
+Γ 
+− 
+o
+o 
+U 
+U 
+o 
+o 
+c 2 
+/ 
+(a) If the hydrofoil is designed to generate a constant circulation 
+Γ 
+− 
+= 
+Γ 
+o , calculate the 
+lift on the wing (per unit span) L = L 
+in open water.
+ow 
+(b) If the hydrofoil now operates at a distance c 2 
+/  above a horizontal bottom, calculate 
+L = L for this near-bottom operation.
+b
+(c) For fixed hydrofoil geometry and orientation, the circulation generated is actually not 
+fixed but given by a kinematic condition, in this case, that the vertical velocity at a 
+distance c 2 
+/  directly behind the vortex has to be V 
+− 
+= αU o . 
+Γ 
+U o 
+c 2 
+/ 
+αU o 
+o 
+U 
+Γ 
+c 
+c 
+o 
+U
+α
+
+/ 
+
+/ 
+
+(i) Calculate the lift Low and the lift coefficient C 
+(≡ L 
+5.0 
+/( 
+ρU c) , for the hydrofoil in 
+L
+o
+ow 
+open water in terms of α , U o and c. 
+(ii) Again, this hydrofoil operates at a distance c 2 
+/ 
+over the bottom. Obtain L  and C
+b
+Lb
+in this case. 
+(iii) Calculate the ratio CLb /CL 
+in terms of α . What is this value for α = 
+? 
+1.0 
+ow

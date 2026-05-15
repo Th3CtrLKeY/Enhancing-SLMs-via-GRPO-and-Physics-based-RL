@@ -1,0 +1,67 @@
+G. Parkinson, and W. G. Price, pp. 491–501. London: The Institution of Mechanical Engineers. Noblesse, F., and G. Dagan. 1976. Nonlinear ship-wave theories by continuous map­ ping. Journal of Fluid Mechanics 75:347–371. Ochi, M. K. 1973. On prediction of extreme values. J. Ship Res 17:29–37. Ogilvie, T. F. 1964. Recent progress toward the understanding and prediction of ship motions. In Fifth symposium on naval hydrodynamics, eds. J. K. Lunde and S. W. Doroff, pp. 3–128. Washington: U.S. Government Printing Office.
+
+Chapter 6
+Peters, A. S., and J. J. Stoker. 1957. The motion of a ship as a floating rigid body in a 
+seaway. Communications on Pure and Applied Mathematics 10:399–490.
+Phillips, O. M. 1966. The dynamics of the upper ocean. Cambridge: Cambridge Univer­
+sity Press.
+Price, W. G., and R. E. D. Bishop. 1974. Probabilistic theory of ship dynamics. London: 
+Halsted.
+Rawson, K. J., and E. C. Tupper. 1968. Basic ship theory. London: Longmans.
+Rudnick, P. 1967. Motion of a large spar buoy in sea waves. J. Ship Res. 11:257–267.
+Ruellan, F., and A. Wallet. 1950. Trajectoires internes dans un clapotis partiel. Houille 
+Blanche 5:483–489.
+Schwartz, L. W. 1974. Computer extension and analytic continuation of Stokes’ 
+expansion for gravity waves. Journal of Fluid Mechanics 62:553–578.
+Society of Naval Architects of Japan. 1976. Proceedings of the international seminar on 
+wave resistance. Tokyo.
+Stoker, J. J. 1957. Water waves. New York: Interscience.
+Ünlüata, Ü., and C. C. Mei. 1970. Mass transport in water waves. Journal of Geophysi­
+cal Research 75:7611–7617.
+Vugts, J. H. 1968. The hydrodynamic coefficients for swaying, heaving, and rolling 
+cylinders in a free surface. International Shipbuilding Progress 15:251–276.
+Wehausen, J. V. 1971. The motion of floating bodies. Annual Review of Fluid Mechan­
+ics 3:237–268.
+Wehausen, J. V. 1973. The wave resistance of ships. Advances in Applied Mechanics 
+13:93–245.
+Wehausen, J. V., and E. V. Laitone. 1960. Surface waves. In Encyclopedia of Physics. 
+vol. 9. Berlin, Gottingen, Heidelberg: Springer-Verlag; http://surfacewaves.berkeley
+.edu/.
+Whitham, G. B. 1974. Linear and nonlinear waves. New York: Wiley-Interscience.
+Wiegel, R. 1964. Oceanographical engineering. Englewood Cliffs, N.J.: Prentice-Hall.
+Yaglom, A. M. 1962. An introduction to the theory of stationary random functions. 
+English translation. Englewood Cliffs, N.J.: Prentice-Hall.
+
+7  Hydrodynamics of Slender Bodies
+Chapter 
+
+Hydrodynamics 
+of 
+Slender 
+Bodies
+© Massachusetts Institute of TechnologyAll Rights Reserved
+Many vessels of interest in marine hydrodynamics are slender, with one 
+length-dimension exceeding the others by an order of magnitude. For ships, 
+submarines, sailboats, and fish, this shape is generally a consequence of the 
+advantage of a streamlined body form, with the longitudinal length scale 
+substantially greater than the beam and depth. Slenderness also occurs for 
+various ocean platforms such as spar buoys and for bottom-mounted struc­
+tures of similar form which are elongated vertically. For all of these vessels it 
+is logical to simplify the hydrodynamic analysis by suitable approximations 
+based on the slenderness of the body.
+Slender-body theory originated in the field of aerodynamics, first as a 
+technique for predicting the stability characteristics of dirigibles. In ship 
+hydrodynamics, slender-body approximations have been utilized for a vari­
+ety of problems, most of which have required substantial extensions or 
+revisions of the aerodynamic theory. The strip theory of ship motions in 
+waves is an important example, where the pioneering efforts of KorvinKroukovsky (1955) were motivated by parallel developments in aerody­
+namics, but the complexities of free-surface effects are such that the theory 
+is still in a state of refinement.
+The applications of slender-body theory have been less intensive in 
+ocean engineering, although a strip theory can be used to analyze semisub­
+mersible platforms supported by horizontal buoyancy hulls, as well as the 
+wave forces on slender vertical structures. In a very simple form, slenderbody theory has been applied successfully to spar buoys.
+We shall begin our development of slender-body theory by discussing 
+two relatively simple problems—the longitudinal and lateral motion of a 
+slender body in an unbounded ideal fluid. These are problems that were 
+first treated in aerodynamics, and our study of the lateral motion will lead

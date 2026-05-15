@@ -1,0 +1,71 @@
+A; 2g? B33= (=) ard 3.26) 33 =P inal o? ( This expression is valid for any frequency. It shows that the damping coefficient can never be negative. Similar results hold for B,, i = 2 and 4. We do not have a similar guarantee for the added mass coefficient, which actually can be negative for certain body shapes and frequencies. Examples have been documented for catamarans, bulb sections and submerged sections close to the free-surface. Fig. 3.5 illustrates an
+
+48 LINEAR WAVE-INDUCED MOTIONS
+
+example for sway added mass of a two-dimensional catamaran section
+that consists of two circular cylinders with axes in the mean free-surface
+and radius R. The distance between the two axes is 2p. Large negative
+added mass values occur in Fig. 3.5 for frequencies close to the lowest
+natural frequency w,, for antisymmetric sloshing modes between the two
+hulls. With sloshing we mean resonant liquid oscillations between the
+
+°
+
+x WITHOUT
+INTERACTION
+
+Fig. 3.5. Two-dimensional added mass in sway A,,°” for catamaran sections.
+The cross-sectional form of each hull is circular with the axis in the
+mean free-surface. Infinite water-depth. (2p = the distance between
+the cylinder axes, R = Cylinder radius, w = circular frequency of
+oscillation.)
+
+RESPONSE IN REGULAR WAVES 49
+
+two hulls. We can estimate w,, by assuming that resonance occurs when
+there is half a wavelength between the inner sides of the two hulls, i.e.
+we can write
+
+j j
+o,(5) = 3 (3.27)
+=
+
+The damping of sloshing oscillations is low since the resulting standing
+wave carries no energy away. This means that the wave elevations
+become large at the inner sides of the hulls for frequencies close to ,. A
+characteristic feature of resonant systems with low damping is that the
+phase angle of the response changes rapidly by 180° by varying the
+excitation frequency through the resonance frequency. This means that
+the wave amplitude at the inner side of a hull can change from being in
+phase with the sway acceleration to being 180° out of phase. When
+resonance occurs and large wave motion is present between the two
+hulls, the hydrodynamic pressure on the inner side of the hull is closely
+i in phase and approximately proportional to the wave elevation in the
+Kale vicinity. The hydrodynamic pressure on the outer side of the hulls is
+i small in comparison. By remembering that added mass in sway has to do
+with horizontal hydrodynamic pressure forces caused by forced sway
+oscillation, we can understand that both very large positive and negative
+added mass values occur in Fig. 3.5 in the vicinity of w,(R/g)? (see
+equation (3.27)).
+
+Parameter dependence of added mass and damping
+
+The added mass and damping coefficients may show a strong frequency
+dependence. As another example, of this we may note that the added
+mass in heave for a surface-pierciiig' fwo-dimensional body in deep water
+» , — goes logarithmically to infinity when w — 0.
+
+44 i.” The added mass and damping coefficients depend on the motion
+é mode. That means that added mass in heave for a body is not necessarily
+p the same as added mass in sway. For instance, for the circular cylinder in
+a Fig. 3.3 it can be shown that the added mass in sway is equal to
+f p(x/2)R* when w—>0 while it goes logarithmically to infinity for heave
+when w—>0. Fig. 3.6 illustrates the frequency dependency of the added
+mass and damping in heave and sway for a circular cylinder with an axis
+in the mean free-surface. The results are based on numerical calculations. We should note that B3°*”/(@wA) approaches the finite value 8/z
+when w—> 0. This implies that the damping coefficient goes to zero when
+w—>0. As pointed out earlier this is what is expected from physical
+& arguments.
+
+F The added moment in roll for the same cylinder depends on the choice
+i of roll axis. If we select the roll axis to go through (0,0), there is no

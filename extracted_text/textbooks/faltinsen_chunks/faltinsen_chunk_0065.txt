@@ -1,0 +1,79 @@
+non-moving vertical circular cylindrical surface S., away from the body, the free-surface S; and the sea bottom Sp inside S.. (see Fig. 5.3). We should note that S,. does not need to be far away from the body. We can write U,=V, on Sp, and Sp (5.8) U,=0 on S. and So Sittat) VOLUME (Qt) } Fig. 5.2. Illustration of how the control volume £2() changes in a time increment Ac. (U, = normalcomponent ofthe velocity of the surface S).
+
+136 SECOND-ORDER NON-LINEAR PROBLEMS
+
+The force F = (F,, F,, F3) on the body is fs, pn ds. On the free-surface
+the pressure is equal to the atmospheric pressure py. However, since
+SS Ponds =0 we could just as well define p in equation (5.7) to be the
+difference between pressure in the fluid and the atmospheric pressure.
+This implies that we can set p = 0 on Sy. The term ¢ ffs gen ds gives no
+horizontal component. By time averaging equation (5.7) over one period
+of oscillation and noting that the time average of dM/d¢ is zero, we find
+that
+
+B= -[[tontevvilds  i=1,2 (5.9)
+
+So
+
+When calculating F; by equation (5.9) we can use Bernoulli’s equation to
+calculate the pressure. We should realize that the wetted area of S., is
+time-dependent due to the time-varying wave elevation at S,. In
+evaluating equation (5.9) correctly to second-order in wave amplitude, it
+is only necessary to know the first-order velocity potential (see the
+discussion in the beginning of the chapter). The first-order potential can
+for instance be calculated by the numerical methods described in chapter
+4. If we want to use equation (5.7) for conservation of momentum to
+calculate the mean vertical force, we note from equation (5.7) that we do
+not get rid of the pgg-term in the integrand and have to include this
+contribution from an integral over the free-surface.
+
+Equation (5.9) was derived by Maruo (1960). Newman (1967) derived
+a similar formula for the mean wave-drift yaw moment. He started out
+_ by using the fluid angular momentum
+
+Ko=p [[[@xwar (5.10)
+Q
+
+Fig. 5.3. Control surfaces used in evaluating expressions for mean wave loads
+and illustrations of how the normal velocity U,, of the control
+surfaces relates to the normal velocity of the fluid.
+
+MEAN WAVE (DRIFT) FORCES AND MOMENTS 137
+
+where r is the position vector relative to the origin of the coordinate
+system (x,y, 2), which is fixed in space. The derivation is similar to that
+shown for equation (5.7). If we define n, and V, from rx V=
+(V4, Vs, Ve) and rXn=(m4, ns, M6), the result is that equation (5.9) is
+also valid for the yaw moment with i = 6.
+
+Equation (5.9) also applies in two dimensions. In that case we write S..
+for the sum of S,, and S_., where S,, and S_., are vertical control surfaces
+for positive and negative horizontal coordinates respectively. The control
+surface can be any distance away from the body even if the subscript ‘c”
+indicates that the control surfaces S,. and S_.. are far away from the
+body.
+
+Maruo’s formula
+Maruo (1960) used equation (5.9) to derive a useful formula for drift
+forces on a two-dimensional body in incident regular deep-water waves.
+The body may be fixed or freely floating oscillating around a mean
+position. There is no current and the body has no constant speed.
+The velocity potential for the incident waves is written as (see Fig. 5.4)
+
+hoa Sete cos(wt — ky) (5.11)
+
+with €, being the amplitude of the waves. Due to the presence of the
+body there will be generated waves. The velocity potential of the
+
+INCIDENT REFLECTED TRANSMIT TED
+WAVES WAVES WAVES
+
+~—T
+T
+
+©
+
+=S;
+
+Fig. 5.4, Definition of control surfaces and wave systems in the analysis of
+drift forces on a two-dimensional body.

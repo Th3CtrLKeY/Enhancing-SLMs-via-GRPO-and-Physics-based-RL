@@ -1,0 +1,117 @@
+system (x", y”, 3") that is fixed relative to the ship and coincides with the (x, y, z)-system when the ship does not oscillate (see Fig. 3.13). THEORY —— -—— WAGNER EXPERIMENTS 300 +} -2 7-7-7 CHUANG YAMAMOTO ET AL. FUJITA HAGIWARA ET AL. N oS Ss MAXIMUM PRESSURE Pmay/4p y? 0 5 10 15 B DEAD RISE ANGLE IN DEGREES Fig. 9.9. Variation of maximum impact pressure with deadrise angle for a wedge shaped body. (Hagiwara & Yuhara, 1976.)
+
+294 WATER IMPACT AND ENTRY
+
+We have also drawn a picture of the ship’s velocity U in the figure.
+According to an observer on a ship, the ship’s speed acts as an incident
+constant velocity U. From the figure we see that this velocity has a
+g"-component that is equal to Uns. This has to be accounted for in the
+calculation of the z”-component of the relative velocity. From this
+discussion we can write up a linear 2"-component of the relative velocity
+as
+
+dns __ dns
+
+Vee a
+
+—Uns-—w (9.19)
+
+where w is the z-component of the undisturbed wave velocity in the
+free-surface.at the longitudinal position x where ship slamming is to be
+‘analysed. The heave and pitch motions may, for instance, be obtained by
+a strip theory program if regular incident waves are analysed.
+
+Statistical estimates of slamming pressure in an irregular sea can easily
+be obtained if we assume that the magnitude of the impact pressure can
+
+be written as
+
+= ipk |Val? (9.20)
+
+Here k depends on the sectional form, especially the local deadrise angle
+at the point considered (see for instance Fig. 9.9). We will assume
+short-term stationarity of the irregular waves, i.e the waves can be
+described by a sea spectrum S(w). For simplicity we will assume the
+waves to be long-crested. If we assume that the maxima (peak values) of
+the relative velocity of the ship follow a Rayleigh distribution, we can
+write the probability that the maximum of the relative velocity is larger
+than v as
+
+P(\V9|>0)=exp( 3-3) 0.21)
+
+0,” = [sc |&
+
+is the variance of the relative velocity and |V,(w)/€,| is the transfer
+
+where
+Vr(@)
+
+2 do (9.22)
+
+function of the relative velocity. The latter can be “obtained by analysis of «
+
+the same wave heading as the irregular sea. By combining the pitch and *
+
+heave velocities (see equation (9.19)) we can find the amplitude of the
+relative velocity |Vp(w)| divided by the incident wave amplitude ¢,. The
+results are ship speed and wave heading dependent. The relative velocity
+is normally largest on the fore part of the ship, but large relative
+velocities may also cause slamming problems on exposed aft parts of the
+ship. In order for slamming to occur at a point A on the surface of the
+
+SLAMMING 295
+
+ship it is necessary that the relative vertical motion at the same
+longitudinal position of the ship is larger than the vertical distance d from
+the still water surface to point A, The probability for the amplitude of the
+relative motion Np to be larger than d can be expressed as
+
+d@
+
+P(x > d) = exp( ~ 55) (9.23)
+where ‘
+= "s NR(@) 2
+
+[ [la (9.24)
+
+is the variance of the relative motion. This is expression does not account
+for the waves being influenced by the ship. In the calculation of the
+
+relative motion we should take this into account.
+
+Using the fact that the relative motion and relative velocity are
+statistically independent, we can write the probability that the slamming
+pressure becomes larger than a given value p at a specific point A on the
+ship as
+
+P(impact pressure > p) = exp| - (4, + *) (9.25)
+pko” 207 ,
+Equation (9.25) has been obtained by multiplying together equations
+(9.23) and (9.21), and then using equation (9.20) with |Vp{ =v to rewrite
+equation (9.21).
+
+From equation (9.25) we find the most probable largest slamming
+
+Pressure Pmax in N encountered waves to be
+
+d?
+Pax = pko,?(log N- 3) (9.26)
+
+where N can be approximated by ¢/7. Here t is the time duration of the
+N encounter waves and 7, is the mean wave period. Both o,, o, and k
+depend on the position of the ship where Slamming is to be evaluated. It
+should be kept in mind that equation (9.26) is based on using equation
+(9.20), ie. no compressibility effects are accounted for (see equation
+
+9.15). We could have substituted equation (9.15) into equation (9.21)
+by setting V =v. In this way we would find the most probable largest
+“acoustic pressure Pmax* and use the smallest of Pyrax ANd Prax”.
+
+Long-term predictions of slamming pressure can be obtained by
+om g equation (9.25) with the joint probability of significant wave
+height Ay and mean wave period 7. This.is similar tothe method
+déscribed in chapter 3 for long-term Predictions ‘of linear wave-induced
+
+“* Tn a given sea state we can also use equation (9.25) to evaluate the
+“probability of slamming. It is then necessary to define how large a
+_ pressure has to be to call it slamming. One indirect way is to define a

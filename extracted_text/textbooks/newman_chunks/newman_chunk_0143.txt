@@ -1,0 +1,280 @@
+of the thickness problem, in terms of a source distribution, will be described briefly in section 5.6. 5.3 The Lifting Problem Here we focus our attention on the flow past the mean-camber line and the resulting lift force and moment. It is convenient to denote the vertical coordinate of the mean-camber line by η = + 2 ( ) y y u l . The corresponding boundary condition on the cut is Figure 5.8 Definitions of thickness and lifting problems.
+
+Lifting Surfaces 
+
+v
+y
+U
+x
+= ∂
+∂
+= −
+′
+φ
+η ( ). 	
+(22)
+From (22), the vertical velocity across the cut is continuous, but a discon­
+tinuity in the horizontal velocity component u must be anticipated. This 
+is emphasized by the linearized form of Bernoulli’s equation (14) and the 
+Kutta-Joukowski theorem (15), where the presence of a lift force requires a 
+discontinuity in the horizontal velocity component and a nonzero circu­
+lation about the foil section. These considerations suggest a distribution 
+of vortices along the cut, for such a distribution will possess a nonzero 
+circulation so long as the total integrated strength of the vortices is not 
+zero. Moreover, a vortex distribution can be constructed to give any desired 
+discontinuity of the horizontal velocity on the cut.
+The velocity potential of a point vortex, of circulation γ situated at the 
+point x = ξ on the x-axis, is
+φ
+γ
+π
+ξ
+γ
+π
+ξ
+=
+−
++
+=
+−
+
+
+
+
+−
+Im
+log(
+)
+tan
+.
+
+
+
+x
+iy
+y
+x
+	
+(23)
+The corresponding velocity components are
+u
+x
+y
+x
+y
+= ∂
+∂
+=
+−
+−
++
+φ
+γ
+π
+ξ
+
+
+
+(
+)
+, 	
+(24)
+v
+y
+x
+x
+y
+= ∂
+∂
+=
+−
+−
++
+φ
+γ
+π
+ξ
+ξ
+
+
+
+(
+)
+(
+)
+. 	
+(25)
+Thus, the vortex induces a tangential velocity, vt = γ/2πr, where r is the 
+radial distance from the vortex, as shown in figure 5.9.
+Figure 5.9
+Tangential velocity induced by a point vortex around a circle of radius r.
+
+Chapter 5
+If vortices are distributed along the x-axis between the leading and trail­
+ing edges of the foil with local circulation density γ(ξ), the resulting velocity 
+components are given by the integrals
+u x y
+y d
+x
+y
+l
+l
+( , )
+( )
+(
+)
+,
+= −
+−
++
+−∫
+
+
+
+
+
+
+π
+γ ξ
+ξ
+ξ
+	
+(26)
+v x y
+x
+d
+x
+y
+l
+l
+( , )
+( )(
+)
+(
+)
+.
+=
+−
+−
++
+−∫
+
+
+
+
+
+
+π
+γ ξ
+ξ
+ξ
+ξ
+	
+(27)
+To show that this vortex distribution can be used to solve the linearized 
+lifting problem, it is necessary to examine the limiting values of the veloc­
+ity components defined by (26) and (27) as the point (x, y) approaches the 
+foil surface. These two limits must be considered separately.
+First, let us consider the limiting value of the horizontal velocity, as 
+defined by (26), when y = ±ε, where ε is positive and ε ≪ l. Then
+u x
+x
+d
+l
+l
+( ,
+)
+( )
+(
+)
+.
+±
+=
+−
++
+−∫
+ε
+π
+γ ξ ε
+ξ
+ε
+ξ
+∓1
+
+
+
+
+
+(28)
+As ε → 0 the integrand tends to zero, except for the point ξ = x, where 
+the integrand tends to infinity. In this limit, the factor multiplying γ 
+behaves like a Dirac delta function, extracting the value of γ(x) at the point 
+ξ = x. More specifically, since the integrand vanishes for ξ ≠ x, (28) can be 
+replaced by
+u x
+x
+x
+d
+x
+x
+l
+l
+( ,
+)
+( )
+(
+)
+( ) tan
+±
+−
++
+=
+−
+
+
+
+
+−
+−
+∫
+ε
+π γ
+ε
+ξ
+ε
+ξ
+π γ
+ξ
+ε
+ ∓
+∓
+
+
+
+
+
+
+
+
+
+
+
+
+−l
+l
+x
+
+
+
+
+ ∓
+γ ( ),
+	
+(29)
+where the approximations are valid for sufficiently small values of ε/l. Thus, 
+the limiting values of the horizontal velocity component on the upper and 
+lower surfaces of the foil are given by the last line of (29), and there will 
+exist a discontinuity in this velocity component precisely equal to the local 
+vortex strength γ(x). This confirms our hypothesis that the lifting problem 
+for the mean-camber line can be represented by a vortex distribution. To 
+relate the local vortex strength γ to the geometry of the foil, we must invoke

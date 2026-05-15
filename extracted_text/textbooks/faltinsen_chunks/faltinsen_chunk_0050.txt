@@ -1,0 +1,82 @@
+a radial flow from the point and if ds is an element of a spherical surface having its centre at the source, we have the velocity flux through the spherical surface as 9¢ 4-12 _ [[$o-cS 4nR?=Q | ; (4.2) In two dimensions the expression for the velocity potential due to a Fig. 4.1. Submerged portion of one quadrant of a six-column TLP discretized with 3152 panels per quadrant (12 608 panels for the total structure) (Korsmeyer et al., 1988.)
+
+104 NUMERICAL METHODS
+
+point source is
+= £ logr (4.3)
+
+where r is the radial distance from the source point and ‘log’ means the
+natural logarithm.
+
+We note that the source expressions are infinite at the source points.
+However, if we use a continuous representation of sources over a surface
+the velocity will be finite everywhere in the fluid, except at sharp corners
+on the body. We will first explain the source technique for a simple
+problem. We consider a circular cylinder in infinite fluid and we want to
+find the heave added mass. The boundary value problem we have to
+solve is partly formulated in Fig. 3.3. The differences are that there is no
+free-surface and the body boundary condition (3.12) applies for all 6,
+ie.
+
+<te —cos@|n3|@coswt for r=Rand-xz<O0<2
+(4.4)
+
+We will find the velocity potential by distributing sources over the
+body surface. That means we write
+
+0032) = [a log((y ~ n(s)) + (2 — &(s))*)* ds (4.5)
+
+Here (n(s), €(s)) are coordinates on the body surface, s is an integration
+variable along the body surface and (y,z) are coordinates in the fluid
+domain. The integration is over the wetted body surface S and q(s) is a
+source density. (Strictly speaking we should have divided the right hand
+side by 2a if we call q(s) a source density.) Equation (4.5) satisfies the
+Laplace equation. The source density q(s) is found by satisfying the body
+boundary condition (4.4). This can be done numerically by the following
+1. Approximate the body surface into N straight lines
+This is shown in Fig. 4.2 where we have used 16 segments
+2. Assume the source density is constant over each segment
+This means we approximate equation (4.5) by a sum over
+each element, i.e.
+
+o=4: [ log((y — n(s))? + (e — &(s))?)! ds
+
++ ds { log((y ~ n(s))? + (@ — £(s))?)4 ds (4.6)
+
+SOURCE TECHNIQUE 105
+
+. Satisfy the body boundary condition (4.4) on the mid position
+
+(i, 3) of each segment
+
+This is done by first normalizing the source density. The
+purpose of the normalization is to separate out the timedependence and the unknown heave motion. We write
+
+q(s) = —G(s) |n3| @ cos wt (4.7)
+
+which expresses the fact that the source density is either
+in-phase or 180° out-of-phase with the heave velocity. The
+following linear equation system can be set up for the
+unknowns @;, for each element
+
+fe) fe)
+9,| — ds| +...4G EE [ Jas]
+als. ,,¢ } F121 re On S16 I1s8)
+=cos 0 \5s.2)
+nls, [£349] od 5
+_— ds +...4+ G16) — [ Jds
+als, >, } F162 16 “6 on Si6 F626
+= cos 6 lyreet6
+
+- The brackets in the integrals are log((y — n(s))? + ( — &(s))?)2
+
+and the normal derivative 0/dn is the same as 0/dr. When we
+
+ha -2y2) (Y,3 2,5)
+
+Yq 25) (¥, .2,)
+
+Fig. 4.2. Approximation of a circular cross-section by straight line segments
+
+to be used in numerical solutions with the source technique.
+(9:5 2) = midpoints of segment S;).

@@ -1,0 +1,80 @@
+the descent. The vertical posi­ tion y can be nondimensionalized by dividing by the quantity gt2 to form the unknown y/gt2. However, there is no way of forming the significant parameters t, m, g into nondimensional parameters, since neither g nor t contains the units of mass. Thus we conclude that y gt C / , 2 = (1) where C is a pure constant, a nondimensional function of nonexistent, nondimensional parameters involved in the problem. The constant C is
+
+Model Testing 
+
+known from Newtonian mechanics to be equal to 1/2; but if we did not 
+know this, we could determine C from a single experimental observation, 
+and dimensional analysis would relate the results of this one experiment to 
+all other possible values of the physical parameters g and t. Since there are 
+no nondimensional parameters other than the unknown y/gt2, dimensional 
+analysis has almost provided the complete solution without any knowledge 
+of dynamics. Our choice of position and time as the dependent and inde­
+pendent parameters of the problem was entirely arbitrary. We might also 
+have considered, for example, the velocity of the body as a function of the 
+distance it has fallen.
+2.2  Pendulum
+Next, we consider the period T of a simple pendulum, under the usual 
+assumptions of a plane motion about a frictionless pivot in a vacuum. The 
+physical parameters of significance are the pendulum length l, mass m, and 
+maximum angle of its swinging motion θ0, together with the gravitational 
+acceleration g. A suitable multiplicative combination with the desired 
+units of time is (l/g)1/2, and the only nondimensional parameter that can be 
+formed from the four physical parameters is θ0, which is itself nondimen­
+sional. It follows that
+T g
+l
+f
+(
+/ )
+(
+),
+/
+1 2
+
+=
+θ
+	
+(2)
+where f is a nondimensional function of the maximum angle. If we also 
+assume that this angle is very small, and if we observe that under these 
+circumstances the period T tends to a finite limit, then
+T g
+l
+f
+(
+/ )
+( ).
+/
+1 2
+
+=
+	
+(3)
+The constant f(0) is known from mechanics to be 2π and could be measured 
+from a single experiment.
+Rather than using the period T, we could employ the frequency 1/T or 
+the radian frequency ω = 2π/T. In terms of the latter parameter, the above 
+relations take the form
+ω
+π
+θ
+π
+( /
+)
+/ (
+)
+/ ( ).
+/
+l
+g
+f
+f
+1 2
+
+
+
+
+=
+
+	
+(4)

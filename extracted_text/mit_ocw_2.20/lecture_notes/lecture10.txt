@@ -1,0 +1,1442 @@
+[Page 1]
+Lecture 10 
+ - Marine Hydrodynamics 
+Lecture 10 
+3.7 Governing Equations and Boundary Conditions for P-Flow 
+3.7.1 Governing Equations for P-Flow 
+(a) Continuity r 2φ = 0 
+µ
+
+¶
+(b) Bernoulli for P-Flow (steady or unsteady) p = −ρ
+φt + 
+2 + gy + C(t)
+2|rφ| 
+3.7.2 Boundary Conditions for P-Flow 
+Types of Boundary Conditions: 
+∂φ 
+(c) Kinematic Boundary Conditions - specify the ﬂow velocity ~v at boundaries. 
+= Un
+∂n 
+(d) Dynamic Boundary Conditions - specify force F~ or pressure p at ﬂow boundary. 
+µ
+
+
+¶ 
+p = −ρ
+φt +
+(rφ) + gy + C (t) (prescribed) 
+
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+The boundary conditions in more detail: 
+Kinematic Boundary Condition on an impermeable boundary (no ﬂux condition) 
+• 
+~v
+nˆ = 
+U~
+nˆ
+= 
+Un
+= Given 
+|{z} · 
+|{z}
+· 
+|{z}
+ﬂuid velocity 
+boundary velocity 
+nornal boundary velocity 
+~v=rφ 
+rφ nˆ
+= Un
+·
+⇒ 
+∂
+∂
+∂ 
+(n1 ∂x1 
++ n2 ∂x2 
++ n3 ∂x3 
+)φ = Un ⇒ 
+∂φ 
+∂n = 
+Un 
+ 
+(
+)
+
+
+
+n
+,
+n
+,
+n
+n =
+v
+U
+v
+Dynamic Boundary Condition: In general, pressure is prescribed 
+• 
+µ
+
+
+¶ 
+p = −ρ
+φt +
+(rφ) + gy + C (t) = Given
+
+---PAGE BREAK---
+
+[Page 3]
+(
+)
+)
+(
+)
+
+
+(
+
+
+
+t
+C
+gy
+p
+t
++
++
+∇
++
+−
+=
+=
+∇
+φ
+φ
+ρ
+φ
+
+
+
+=
++
++
+∇
++
+−
+−
+GIVEN
+)
+(
+)
+)
+(
+
+
+(
+:
+DBC
+19)
+(Lecture
+:
+KBC
+surface
+Free
+linear
+non
+
+t
+C
+gy
+t
+
+
+1 φ
+φ
+ρ
+GIVEN
+U
+n
+n =
+=
+∂
+∂φ
+:
+KBC
+boundary
+Solid
+3.7.3 Summary: Boundary Value Problem for P-Flow 
+The aforementioned governing equations with the boundary conditions formulate the 
+Boundary Value Problem (BVP) for P-Flow. 
+The general BVP for P-Flow is sketched in the following ﬁgure. 
+It must be pointed out that this BVP is satisﬁed instantaneously.
+
+---PAGE BREAK---
+
+[Page 4]
+3.8 Linear Superposition for Potential Flow 
+In the absence of dynamic boundary conditions, the potential ﬂow boundary value 
+problem is linear. 
+Potential function φ. 
+• 
+B
+on
+f
+U
+n
+n =
+=
+∂
+φ
+∂
+V
+in
+
+
+=
+φ
+∇
+Stream function ψ. 
+• 
+ 
+V
+in
+
+
+=
+ψ
+∇
+ψ=g on B 
+Linear Superposition: if φ1, φ2, . . . are harmonic functions, i.e., r2φi = 0, then φ = 
+P αiφi, where αi are constants, are also harmonic, and is the solution for the boundary 
+value problem provided the kinematic boundary conditions are satisﬁed, i.e., 
+∂φ 
+∂ 
+=
+(α1φ1 + α2φ2 + . . .) = Un on B. 
+∂n 
+∂n 
+The key is to combine known solution of the Laplace equation in such a way as to satisfy 
+the kinematic boundary conditions (KBC). 
+The same is true for the stream function ψ. The K.B.C specify the value of ψ on the 
+boundaries.
+
+---PAGE BREAK---
+
+[Page 5]
+* 
+* 
+* 
+¡* * ¢ 
+= 
+* 
+* ¯ ¯
+* 
+* 
+3.8.1 Example 
+¡
+x
+¢ 
+denote a unit-source ﬂow with source at xi, i.e., 
+1 ln 
+¯
+Let φi 
+φi 
+¡
+x
+¢ 
+≡ φsource x, xi 
+(in 2D) 
+x − xi 
+2π 
+¯¢−1 (in 3D),
+= − 
+¡
+4π 
+¯
+x −xi
+then ﬁnd mi such that 
+φ = 
+X 
+i 
+miφi(
+* x) satisﬁes KBC on B 
+Caution: φ must be regular for x ∈ V , so it is required that ~x /∈ V . 
+ 
+1xv
+•
+
+xv
+•
+
+xv
+•
+
+xv
+•
+V
+in
+
+
+=
+φ
+∇
+f
+n
+=
+∂
+Φ
+∂
+Figure 1: Note: ~xj , j = 1, . . . , 4 are not in the ﬂuid domain V .
+
+---PAGE BREAK---
+
+[Page 6]
+3.9 - Laplace equation in diﬀerent coordinate systems (cf Hildebrand §6.18) 
+3.9.1 Cartesian (x,y,z) 
+ˆ
+ˆ
+µ
+ˆi
+j
+k ¶
+µ∂φ 
+~v = u, v, w 
+, 
+,
+= rφ = 
+∂x ∂y ∂z 
+∂2φ
+∂2φ
+∂2φ 
+∂φ ∂φ ¶ 
+zeˆ
+y
+x
+yeˆ
+xeˆ
+z
+O
+)
+,
+,
+(
+z
+y
+x
+P
+r 2φ = ∂x2 + ∂y2 + ∂z2
+
+---PAGE BREAK---
+
+[Page 7]
+* 
+3.9.2 Cylindrical (r,θ,z) 
+
+
+
+r = x + y , 
+θ = tan−1(y/x) 
+³eˆr 
+eˆθ 
+eˆz ´ 
+= 
+µ∂φ 
+v = vr, vθ, vz 
+∂r 
+∂2φ 
+1 ∂φ 
+
+r 2φ = ∂r2 + r ∂r + r2 ∂θ2 
+∂z2 ⇔ 
+, 1 
+r 
+∂φ 
+∂θ , ∂φ 
+∂z 
+¶ 
+∂2φ 
+∂2φ 
++ 
+zeˆ
+P
+y
+x
+θ
+yeˆ
+xeˆ
+z
+O
+)
+,
+,
+(
+z
+r θ
+r
+| 
+1 ∂φ {z
+∂φ }
+(r ) 
+1 ∂φ µ ∂φ ¶ 
+1 ∂2φ
+∂2φ 
+
+r ∂r 
+∂r 
+r 2φ = r ∂r 
+r ∂r 
++ r ∂θ2 + ∂z2
+
+---PAGE BREAK---
+
+[Page 8]
+3.9.3 Spherical (r,θ,ϕ) 
+
+
+
+
+r = x + y + z , 
+θ = cos−1(z/r) 
+z 
+⇔ 
+ϕ = tan−1(y/x) 
+* 
+µ
+eˆr 
+eˆθ 
+eˆϕ ¶
+µ∂φ 
+v = rφ = vr, vθ, vϕ 
+= 
+,
+∂r 
+∂2φ 
+2 ∂φ 
+
+∂ µ
+r 2φ = ∂r2 + r ∂r + r2 sin θ ∂θ 
+= r (cos θ) 
+
+r 
+∂φ 
+∂θ , 
+
+r(sin θ) 
+∂φ 
+∂ϕ 
+¶ 
+sin θ ∂φ ¶ 
++ 
+∂θ 
+
+r2 sin2 θ 
+∂2φ 
+∂ϕ2 ⇔ 
+zeˆ
+P
+y
+x
+yeˆ
+xeˆ
+z
+O
+)
+,
+,
+(
+φ
+θ
+r
+r
+φ
+θ
+
+2 ∂φ 
+| 
+∂ 
+{z 
+}
+(r
+)
+2 ∂r 
+∂r 
+r
+1 ∂ µ ∂φ ¶ 
+
+∂ µ
+∂φ ¶ 
+
+∂2φ 
+r 2φ = r2 ∂r r 2 
+∂r 
++ r2 sin θ ∂θ sin θ ∂θ 
++ r2 sin2 θ ∂ϕ2
+
+---PAGE BREAK---
+
+[Page 9]
+* 
+* 
+* 
+3.10 Simple Potential ﬂows 
+1. Uniform Stream r2(ax + by + cz + d) = 0 
+1D: 
+φ = Ux + constant ψ = Uy + constant; 
+v = (U, 0, 0) 
+v = (U, V, 0) 
+v = (U, V, W ) 
+2D: 
+φ = Ux + V y + constant ψ = Uy − V x + constant; 
+3D: φ = Ux + V y + Wz + constant 
+2. Source (sink) ﬂow 
+2D, Polar coordinates 
+1 ∂
+∂ 
+1 ∂2 
+2 = 
+µ 
+r 
+¶ 
++ 
+, with r = 
+p
+x2 + y2 
+
+r 
+r ∂r 
+∂r 
+r ∂θ2 
+An axisymmetric solution: φ = a ln r + b. Verify that it satisﬁes r2φ = 0, except at 
+r = 
+p
+x2 + y2 = 0. Therefor, r = 0 must be excluded from the ﬂow. 
+Deﬁne 2D source of strength m at r= 0: 
+φ = m 
+2π ln r 
+rφ = ∂φ 
+∂r ˆer = m 
+2πr ˆer ⇐⇒ vr = m 
+2πr , vθ = 0 
+ 
+source  
+(strength m) 
+x 
+y
+
+---PAGE BREAK---
+
+[Page 10]
+Net outward volume ﬂux is 
+H 
+C 
+* v · ˆnds = 
+RR 
+S 
+r · 
+*vds = 
+RR 
+Sε 
+r · 
+*vds 
+H 
+Cε 
+* v · ˆnds = 
+2πR 
+
+vr
+|{z}
+m 
+2πrε 
+rεdθ = 
+m
+|{z} 
+source 
+strength 
+C 
+S 
+ε
+Sε 
+nˆ
+x 
+y 
+If m < 0 
+sink. Source m at (x0, y0):
+⇒ 
+m 
+q
+φ = 
+ln
+(x − x0)
+2π 
+m 
+φ = 
+(Stream function) 
+2π 
+2 + (y − y0)2 
+ln r (Potential function) 
+ψ = 
+θ 
+←→ 
+2π 
+m 
+ 
+y 
+x
+θ
+ψ = 0 
+
+π
+= 2
+m
+Vr
+θ
+π
+=
+Ψ
+
+m
+
+---PAGE BREAK---
+
+[Page 11]
+3D: Spherical coordinates 
+1 ∂ µ 
+∂ ¶
+µ ∂
+∂ 
+¶
+
+
+r = r2 ∂r r ∂r 
++ 
+∂θ , ∂ϕ, · · · , where r = 
+p
+x2 + y2 + z
+a 
+A spherically symmetric solution: φ =
++ b. Verify r2φ = 0 except at r = 0. 
+r 
+Deﬁne a 3D source of strength m at r = 0. Then 
+m 
+∂φ 
+m 
+φ = −4πr ⇐⇒ vr = ∂r = 4πr2 , vθ = 0, vϕ = 0 
+Net outward volume ﬂux is 
+ZZ 
+m 
+° vrdS = 4πrε 
+2 · 4πrε 
+2 = m (m < 0 for a sink )
+
+---PAGE BREAK---
+
+[Page 12]
+3. 2D point vortex 
+r 2 = 1 
+r 
+∂ 
+∂r 
+µ 
+r ∂ 
+∂r 
+¶ 
++ 1 
+r2 
+∂2 
+∂θ2 
+Another particular solution: φ = aθ + b. Verify that r2φ = 0 except at r = 0. 
+Deﬁne the potential for a point vortex of circulation Γ at r = 0. Then 
+φ = Γ 
+2π θ ⇐⇒ vr = ∂φ 
+∂r = 0, vθ = 1 
+r 
+∂φ 
+∂θ = Γ 
+2πr and, 
+ωz = 1 
+r 
+∂ 
+∂r (rvθ) = 0 except at r = 0 
+Stream function: 
+ψ = − Γ 
+2π ln r 
+Circulation: 
+Z 
+C1 
+* v · d
+* x = 
+Z 
+C2 
+* v · d
+* x + 
+Z 
+C1−C2 
+* v · d
+* x 
+| 
+{z 
+}
+R R 
+S 
+ωz dS=0 
+= 
+2π
+Z 
+
+Γ 
+2πr rdθ = 
+Γ
+|{z}
+vortex 
+strength
+
+---PAGE BREAK---
+
+[Page 13]
+|{z} 
+4. Dipole (doublet ﬂow) 
+A dipole is a superposition of a sink and a source with the same strength. 
+2D dipole: 
+m ·
+q
+
+
+q
+
+
+¸
+φ = 
+ln
+(x − a) + y − ln 
+(x + a) + y
+2π 
+µ
+∂ 
+q
+
+¯ 
+lim φ = 
+ln
+(x − ξ) + y2
+a
+
+2π
+∂ξ
+→
+ξ=0 
+µ = 2ma 
+constant 
+µ
+x 
+µ x 
+= − 
+2 + y2 = − 
+
+2π x
+2π r
+2D dipole (doublet) of moment µ at the origin oriented in the +x direction. 
+∂
+NOTE: dipole = µ ∂ξ (unit source)
+
+---PAGE BREAK---
+
+[Page 14]
+¯ ¯¯¯¯¯
+ 
+ξ
+α
+unit  
+source 
+x
+ 
+ξ
+α
+unit  
+source 
+ 
+ξ
+α
+unit  
+source 
+x
+φ = −µ x cos α + y sin α = −µ cos θ cos α + sin θ sin α 
+2π
+x2 + y2 
+2π
+r 
+3D dipole: 
+⎛
+⎝ 
+⎞
+⎠ where µ = 2ma ﬁxed 
+
+
+m 
+φ = lim 
+q
+(x − a) 
+q
+(x + a) 2
+− 
+− 
+4π 
+
+a
+2 + y2 + z2 
++ y2 + z2
+→
+µ ∂ 
+
+µ
+x 
+µ x 
+4π ∂ξ q
+( 
+ξ)
+−
+x 
+2 + y2 + z2 
+ξ=0 
+= − 
+= −4π (x2 + y2 + z2)3/2 = −4π r3 
+3D dipole (doublet) of moment µ at the origin oriented in the +x direction.
+
+---PAGE BREAK---
+
+[Page 15]
+U
+ 
+m
+5. Stream and source: Rankine half-body 
+It is the superposition of a uniform stream of constant speed U and a source of 
+strength m. 
+2D: φ = Ux + m 
+2π ln 
+p
+x2 + y2 
+D
+U
+U
+x 
+m
+stagnation point 
+
+v =
+v
+ 
+Dividing 
+Streamline
+∂φ 
+m
+x 
+u =
+= U + 
+∂x 
+2π x2 + y2 
+m 
+u y=0 = U + 
+, v y=0 = 0 
+|
+2πx
+|
+⇒ 
+V~ = (u, v) = 0 at x = xs = − m , y = 0 
+2πU 
+m 
+For large x, u
+U, and UD = m by continuity 
+D =
+. 
+→
+⇒ 
+U
+
+---PAGE BREAK---
+
+[Page 16]
+3D: φ = Ux − 
+4π
+p
+x 
+m 
+2 + y2 + z2 
+ 
+div. streamlines
+stagnation point 
+∂φ 
+m
+x 
+u =
+= U + 
+∂x 
+4π (x2 + y2 + z2)3/2 
+m x 
+u y=z=0 = U + 
+3 , v y=z=0 = 0, w y=z=0 = 0 
+|
+4π |x|
+|
+|
+⇒ 
+r m 
+V~ = (u, v, w) = 0 at x = xs = − 
+, y = z = 0 
+4πU 
+m 
+For large x, u
+U and UA = m by continuity 
+A =
+. 
+→
+⇒ 
+U
+
+---PAGE BREAK---
+
+[Page 17]
+U
+S
+S
+x
+y
++m
+-m
+a
+dividing streamline 
+(see this with PFLOW)
+6. Stream + source/sink pair: Rankine closed bodies 
+To have a closed body, a necessary condition is to have P min body = 0 
+2D Rankine ovoid: 
+
+m µ
+q
+
+q
+
+¶ 
+m 
+µ(x + a)2 + y ¶
+φ = Ux+2π ln 
+(x + a) + y2 − ln 
+(x − a) + y2
+= Ux+4π ln (x − a)2 + y2 
+3D Rankine ovoid: 
+⎡
+⎤ 
+m 
+
+
+φ = Ux − 4π 
+⎣q
+(x + a)2 + y2 + z2 
+− q
+(x − a)2 + y2 + z2 
+⎦
+
+---PAGE BREAK---
+
+[Page 18]
+For Rankine Ovoid, 
+∂φ 
+m 
+" 
+x + a 
+# 
+u =
+= U + 
+∂x 
+4π ¡
+(x + a)2 + y2 + z2¢3/2 − ¡
+(x − a)2 
+x 
++ 
+− 
+y
+a 
+2 + z2¢3/2 
+m · 
+
+
+¸ 
+u
+=U + 
+y=z=0 
+
+|
+4π (x + a)2 − 
+(x − a) 
+m (−4ax) 
+=U + 4π (x2
+2)2 
+m 
+u|y=z=0 =0 at 
+¡
+x 2 − a 
+− 
+2¢
+a
+2 = 
+³ 
+4πU 
+´ 
+4ax 
+At x = 0, 
+m 
+2a 
+
+
+u = U + 4π (a2 + R2)3/2 where R = y + z 
+Determine radius of body R0: 
+ZR0 
+2π 
+uRdR = m
+
+---PAGE BREAK---
+
+[Page 19]
+7. Stream + Dipole: circles and spheres 
+U 
+µ 
+r 
+θ
+µx 
+µ
+2D: φ = Ux + 
+= 
+cos θ 
+³
+Ur + 
+´ 
+2πr2 
+2πr 
+x=r
+↑
+cos θ 
+The radial velocity is then 
+ur = ∂φ = cos θ 
+³
+U − µ ´ 
+. 
+∂r 
+2πr2 
+Setting the radial velocity vr = 0 on r = a we obtain a = p µ 
+2πU . This is the K.B.C. 
+for a stationary circle of radius a. Therefore, for 
+µ = 2πUa2 
+the potential 
+φ = cos θ 
+³
+Ur + µ 
+2πr 
+´ 
+is the solution to ideal ﬂow past a circle of radius a. 
+• Flow past a circle (U, a).
+
+---PAGE BREAK---
+
+[Page 20]
+φ = U cos θ 
+³
+r + a ´ 
+r 
+
+Vθ = 1 ∂φ = −U sin θ 
+³
+1 + a ´ 
+θ = 0, π 
+θ = π 
+2 , 3π 
+
+2U
+2U
+θ
+r ∂θ 
+r2 
+½ = 0 at 
+− stagnation points 
+r=a 
+Vθ|
+= −2U sin θ 
+= ¨2U at 
+− maximum tangential velocity 
+Illustration of the points where the ﬂow reaches maximum speed around the circle. 
+= Ur cos θ 
+³
+1 + µ 
+4πr3 
+´
+y
+x
+r
+z
+U
+ µ
+θ
+µ cos θ 
+3D: φ = Ux + 4π r2 
+The radial velocity is then 
+∂φ 
+µ 
+vr = 
+= cos θ 
+³
+U − 
+´ 
+∂r 
+2πr3
+
+---PAGE BREAK---
+
+[Page 21]
+µ
+Setting the radial velocity vr = 0 on r = a we obtain a = p
+2πU . This is the K.B.C. 
+for a stationary sphere of radius a. Therefore, choosing 
+µ = 2πUa3 
+the potential 
+µ
+φ = cos θ 
+³
+Ur + 
+´ 
+2πr 
+is the solution to ideal ﬂow past a sphere of radius a. 
+• Flow past a sphere (U, a). 
+
+µ
+a ¶
+φ = Ur cos θ 1 + 2r3 
+vθ = 1 
+r 
+∂φ 
+∂θ = −U sin θ 
+µ
+1 + a3 
+2r3 
+¶ 
+vθ |r=a = − 3U 
+2 sin θ 
+½ = 0 at θ = 0, π 
+= −3U 
+2 at θ = π 
+
+x
+θ
+3/2 U
+3/2 U
+
+---PAGE BREAK---
+
+[Page 22]
+8. 2D corner ﬂow Velocity potential φ = r α cos αθ; Stream function ψ = r α sin αθ 
+(a) r2φ = 
+³ 
+∂2 + 1 ∂ + 1 ∂2 ´ 
+φ = 0 
+∂r2 
+r ∂r 
+r2 ∂θ2 
+(b) 
+∂φ 
+ur =
+= αrα−1 cos αθ 
+∂r 
+1 ∂φ 
+uθ =
+= −αrα−1 sin αθ 
+r ∂θ 
+∴ uθ = 0 { or ψ = 0} on αθ = nπ, n = 0, ±1, ±2, . . . 
+i.e., on θ = θ0 = 0, π 
+α , 2π 
+α , . . . (θ0 ≤ 2π) 
+i. Interior corner ﬂow – stagnation point origin: α > 1. For example, 
+α = 1, θ0 = 0, π, 2π, 
+u = 1, v = 0 
+ 
+x 
+y
+ψ = 0
+
+---PAGE BREAK---
+
+[Page 23]
+(90o corner) 
+ψ = 0 
+ψ = 0
+y
+
+v
+,x
+
+u
+2,
+
+
+,
+,
+
+,0
+,2
+
+−
+=
+=
+π
+π
+π
+π
+=
+θ
+=
+α
+ 
+(120o corner) 
+θ=0, ψ = 0 
+θ=2π/3, ψ = 0 
+θ=2π, ψ = 0 
+θ=4π/3, ψ = 0
+120o  
+120o 
+120o 
+π
+π
+π
+=
+θ
+=
+α
+2,
+
+
+,
+
+
+,0
+,
+
+---PAGE BREAK---
+
+[Page 24]
+ii. Exterior corner ﬂow, |v| →∞ at origin: 
+α < 1 π 
+θ0 = 0, 
+only 
+α 
+For example, 
+α = 1/2, θ0 = 0, 2π (1/2 inﬁnite plate, ﬂow around a tip) 
+α 
+Since we need θ0 ≤ 2π, we therefore require π 
+α ≤ 2π, i.e., α ≥ 1/2 only. 
+1/2 ≤ α < 1 
+θ0 = 0, π 
+θ=0, ψ = 0 
+θ=2π, ψ = 0 
+α = 2/3, θ0 = 0, 3π 
+2 (90o exterior corner) 
+θ=3π/2, ψ = 0 
+θ=0, ψ = 0
+
+---PAGE BREAK---
+
+[Page 25]
+Appendix A1: Summary of Simple Potential Flows 
+Cartesian Coordinate System 
+Flow 
+Streamlines 
+Potential 
+Stream function 
+φ(x, y, z) 
+ψ(x, y) 
+Uniform ﬂow 
+U∞x + V∞y + W∞z 
+U∞y − V∞x 
+2D Source/Sink (m) at (xo, yo) 
+m 
+2π ln((x − xo)2 + (y − yo)2) 
+m 
+2π arctan( y−yo 
+x−xo ) 
+3D Source/Sink (m) at (xo, yo, zo) 
+− m 
+4π 
+
+q
+(x−xo )2 +(y−yo)2+(z−zo)2 
+NA 
+Vortex (Γ) at (xo, yo) 
+Γ 
+2π arctan( y−yo 
+x−xo ) 
+− Γ 
+2π ln((x − xo)2 + (y − yo)2) 
+2D Dipole (µ) at (xo, yo) at an angle α 
+α
+− µ 
+2π 
+(x−xo) cos α+(y−yo) sin α 
+(x−xo)2+(y−yo)2 
+µ 
+2π 
+(y−yo ) cos α+(x−xo) sin α 
+(x−xo )2+(y−yo)2 
+3D Dipole (+x) (µ) at (xo, y0 , zo) 
+− µ 
+4π 
+(x−xo) 
+((x−xo)2 +(y−yo)2+(z−zo)2)3/2 
+NA
+
+---PAGE BREAK---
+
+[Page 26]
+Appendix A2: Summary of Simple Potential Flows 
+Cylindrical Coordinate System 
+Flow 
+Streamlines 
+Potential 
+Stream function 
+φ(r, θ, z) 
+ψ(r, θ) 
+Uniform ﬂow 
+U∞r cos θ + V∞ r sin θ + W∞z 
+U∞r sin θ − V∞r cos θ 
+2D Source/Sink (m) at (xo, yo) 
+m 
+2π ln r 
+m 
+2π θ 
+3D Source/Sink (m) at (xo, yo, zo) 
+− m 
+4πr 
+NA 
+Vortex (Γ) at (xo, yo) 
+Γ 
+2π θ 
+− Γ 
+2π ln r 
+2D Dipole (µ) at (xo, yo) at an angle α 
+α
+− µ 
+2π 
+cos θ cos α+sin θ sin α 
+r 
+µ 
+2π 
+sin θ cos α+cos θ sin α 
+r 
+3D Dipole (+x) (µ) at (xo, yo, zo) 
+− µ 
+4π 
+cos θ 
+r2 
+NA
+
+---PAGE BREAK---
+
+[Page 27]
+Appendix A3: Combination of Simple Potential Flows 
+Stream + Source 
+= 
+Rankine Half Body 
+(2D) 
+(3D) 
+φ = U∞x + m 
+2π ln r 
+xs = − 
+m 
+2πU∞ 
+D = m 
+U∞ 
+φ = U∞x − m 
+4π 
+
+√
+x2+y2+z2 
+xs = −
+q 
+m 
+4πU∞ 
+A = m 
+U∞ 
+Stream + Source + Sink 
+= 
+Rankine Closed Body 
+(2D) 
+(3D) 
+φ = U∞x + m 
+2π 
+£
+ln((x + a)2 + y2) − ln((x − a)2 + y2)
+¤ 
+φ = U∞x + m 
+4π ( 
+
+√
+(x+a)2+y2+z2 − 
+
+√
+(x−a)2+y2+z2 ) 
+Stream + Dipole 
+= 
+Circle (Sphere) R = a 
+(2D) 
+(3D) 
+φ = U∞x + µx 
+2πr2 
+if µ = 2πa2U∞ 
+φ = U∞ cos θ(r + a 2 
+r ) 
+φ = U∞x + µ cos θ 
+4πr2 
+if µ = 2πa3U∞ 
+φ = U∞ cos θ(r + a 3 
+2r2 ) 
+2D Corner Flow 
+(2D) 
+φ = Crα cos(αθ) 
+ψ = Crα sin(αθ) 
+θ0 = 0, nπ 
+α
+
+---PAGE BREAK---
+
+[Page 28]
+Appendix B: Far Field Behavior of Simple Potential Flows 
+Far ﬁeld behavior 
+r >> 1 
+φ 
+~v = rφ 
+Source 
+(2D) 
+(3D) 
+∼ ln r 
+∼ 1 
+r 
+∼ 1 
+r 
+∼ 1 
+r2 
+Dipole 
+(2D) 
+(3D) 
+∼ 1 
+r 
+∼ 1 
+r2 
+∼ 1 
+r2 
+∼ 1 
+r3 
+Vortex 
+(2D) 
+∼ 1 
+∼ 1 
+r

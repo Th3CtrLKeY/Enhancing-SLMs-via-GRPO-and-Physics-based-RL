@@ -1,0 +1,232 @@
+the total circulation, we write the gen­ eral solution for γ in the form γ π ξ ξ ξ ξ ( ) ( ) ( )( ) , x x v x d C = − − − +       + − 2 1 2 2 1 2 −∫ (73) where C is now an arbitrary constant. Integrating (73) between (−1, 1) gives the total circulation, Γ = −∫γ ( ) . x dx (74)
+
+Lifting Surfaces 
+
+The right side of (73) may be integrated as follows:
+Γ =
+−
+−
+−
++
+−
+−
++
+−
+−
+
+
+
+
+
+2 1 2
+
+
+2 1 2
+
+
+2 1 2
+
+
+π
+ξ
+ξ
+ξ
+ξ
+π
+dx
+x
+v
+x
+d
+C
+dx
+x
+(
+)
+( )(
+)
+(
+)
+=
+−
+−
+−
++
++
+−
+−
+
+
+
+
+2 1 2
+
+
+2 1 2
+
+
+π
+ξ
+ξ
+ξ
+ξ
+d v
+dx
+x
+x
+C
+( )(
+)
+(
+)(
+)
+.
+∫
+−∫
+−∫
+∫
+∫
+	
+(75)
+Since the inverse square-root is the homogeneous solution of the integral 
+equation (60), the last integral in (75) must be zero, and thus
+C = 1
+2 Γ. 	
+(76)
+Now the Kutta condition can be imposed by choosing the constant 
+C = 1
+2 Γ so that the factor in brackets in (73) is zero at x = −1, canceling the 
+square-root infinity at this point. Thus,
+C
+v
+d
+v
+d
+=
+= −
+−
++
+= −
+−
++
+
+
+
+
++
+−
++
+−
+∫
+∫
+
+
+
+
+
+
+2 1 2
+
+
+1 2
+
+
+Γ
+( )(
+)
+( )
+,
+ξ
+ξ
+ξ
+ξ
+ξ
+ξ
+ξ
+ξ 	
+(77)
+and this is consistent with (72). In this manner the particular solution (71) 
+can be obtained by a systematic analysis from the general solution (73), 
+after imposing the Kutta condition at the trailing edge.
+This completes our solution of the integral equation (60) and provides a 
+derivation of (32) and (34). We can go one step further, however, and show 
+how the resulting definite integrals can be evaluated. One type of definite 
+integral required to evaluate the lift and moment coefficients is given by
+I
+x dx
+x
+d
+n
+n
+n
+=
+−
+=
+−∫
+∫
+(
+)
+(cos )
+.
+
+2 1 2
+
+
+
+θ
+θ
+π
+	
+(78)
+Note that (36) and (38) can be expressed as combinations of these integrals, 
+whenever the slope of the mean-camber line is a polynomial in x. The inte­
+grals in (78) are elementary integrals; when n is odd they equal zero, and 
+when n is even
+I
+n
+n
+n =
+⋅
+⋅
+⋅
+⋅
+−
+⋅
+⋅
+⋅
+⋅
+π 1 3 5
+
+2 4 6
+... (
+)
+... ( ) . 	
+(79)
+The corresponding integrals, which must be evaluated to find the vortex 
+strength, are of the form
+H
+x
+d
+x
+n
+n
+( )
+(
+)(
+)
+.
+=
+−
+−
+−
+ξ
+ξ
+ξ
+ξ
+
+2 1 2
+
+
+−∫
+	
+(80)

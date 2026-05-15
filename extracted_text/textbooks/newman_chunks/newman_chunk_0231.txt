@@ -1,0 +1,110 @@
+thin, that is, the beam is small compared to all other characteristic lengths of the problem. The result­ ing solution can be expressed in terms of a distribution of sources on the centerplane of the hull, with the local source strength proportional to the longitudinal slope of the hull. This solution is analogous to the thickness problem of thin-wing theory, as discussed in chapter 5. However, the shipwave problem is complicated by the need to choose the source potential, in
+
+Waves and Wave Effects 
+
+the form suggested by equation (4.78), to satisfy the free-surface boundary 
+condition.
+The necessary source potential that satisfies the free-surface boundary 
+condition is a complicated function; its derivation may be found in Wehau­
+sen and Laitone (1960). We content ourselves here by noting that this poten­
+tial must possess an asymptotic approximation far downstream of the same 
+form as the Kelvin wave system (107), with the velocity potential locally a 
+plane wave of wavenumber specified by (90). In addition, this source poten­
+tial must depend in a suitably symmetrical4 manner on the position of 
+the source and of the field point where the potential is measured.
+If the resulting expression for the source potential is integrated over the 
+centerplane z = 0 of the ship, the wave amplitude can be expressed in the 
+form
+A
+g U
+x
+g U
+y
+ix
+dxdy
+( )
+(
+)sec
+exp[(
+)sec
+(
+cos )]
+.
+θ
+π
+θ
+ζ
+θ
+θ
+=
+∂
+∂
+−
+∫∫
+
+
+
+
+
+/
+/
+	
+(116)
+Here z = ± ζ(x, y) defines the local half-beam of the hull surface.
+While (116) is given here without derivation, its form is not unreason­
+able. The source strength is proportional to ∂ζ/∂x, as in the thickness prob­
+lem of lifting-surface theory, and for the reasons noted the far-field form 
+of the source potential is proportional to the exponential factor shown in 
+(116). Therefore the only part of (116) that cannot be guessed judiciously is 
+the multiplicative factor outside the integral!
+If the amplitude function (116) is substituted in (115), the result is a 
+particular form of Michell’s integral
+D
+g
+U
+x
+g U
+y
+ix
+dxdy d
+=
+∂
+∂
+−
+∫
+∫∫
+
+
+
+
+
+
+
+
+
+ρ
+π
+θ
+ζ
+θ
+θ
+θ
+π
+sec
+exp[(
+)sec
+(
+cos )]
+/
+/
+. 	
+(117)
+This multiple integral is not the sort of expression one expects to find in 
+a table of integrals, particularly since in practical cases the longitudinal 
+slope of the ship hull cannot be expressed in terms of simple mathemati­
+cal functions. Nevertheless, a fairly large number of numerical computa­
+tions have been carried out, based on this expression or other equivalent 
+forms, both for practical ship geometries and for simplified mathematical 
+bodies.
+To determine the practical value of this theoretical approach to wave 
+resistance, one may compare numerical computations based on Michell’s

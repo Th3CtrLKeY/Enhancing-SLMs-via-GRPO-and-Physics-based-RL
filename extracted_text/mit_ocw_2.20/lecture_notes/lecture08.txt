@@ -1,0 +1,531 @@
+[Page 1]
+Lecture 8 
+ - Marine Hydrodynamics 
+Lecture 8 
+In Lecture 8, paragraph 3.3 we discuss some properties of vortex structures. In paragraph 
+3.4 we deduce the Bernoulli equation for ideal, steady ﬂow. 
+r u 
+3.3 Properties of Vortex Structures 
+3.3.1 Vortex Structures 
+r
+r 
+• A vortex line is a line everywhere tangent to ⃗ω. 
+vortex line 
+ω2 
+Ω2 
+ω1
+Ω1
+
+r u2 
+• A vortex tube (ﬁlament) is a bundle of vortex lines. 
+vortex tube 
+ωr 
+u r 
+vortex lines 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+• A vortex ring is a closed vortex tube. 
+A sketch and two pictures of the production of vortex rings from oriﬁces are 
+shown in Figures 1, 2, and 3 below. 
+(Figures 2,3: Van Dyke, An Album of Fluid Motion 1982 p.66, 71) 
+side view 
+vu 
+U 
+v u 
+Γ 
+vu 
+ωv 
+cross section 
+vu 
+ωv 
+ωv
+vu 
+U 
+Figure 1: Sketch of vortex ring production
+
+---PAGE BREAK---
+
+[Page 3]
+ 
+ 
+ 
+3.3.2 No Net Flux of Vorticity Through a Closed Surface 
+Calculus identity, for any vector ⃗v: 
+∇
+·
+ (∇× ⃗v) = 0  ⇒ 
+   
+⃗ω 
+∇
+·
+ 
+⃗ω 
+= 0  ⇒ 
+∇· ⃗ω 
+= 
+⃝ 
+ω⃗· nˆ
+dS = 0  
+⇑ 
+V 
+Divergence S vorticity ﬂux 
+Theorem 
+i.e. The net vorticity ﬂux through a closed surface is zero. 
+(a) No net vorticity ﬂux through a vortex tube: 
+(Vorticity Flux)in = (Vorticity Flux)out ⇒(⃗ω · nˆ)in δAin = (ω⃗· nˆ)out δAout 
+
+ˆ =
+⋅
+ω n 
+v 
+(ωv ⋅ nˆ)out 
+(ωv ⋅ nˆ)in 
+(b) Vorticity cannot stop anywhere in the ﬂuid. It either traverses the ﬂuid begin­
+ning or ending on a boundary or closes on itself (vortex ring). 
+ωr 
+rω
+
+---PAGE BREAK---
+
+[Page 4]
+ 
+ 
+3.3.3 Conservation of Vorticity Flux 
+0 = Γ3 = 
+⃗v · d⃗x = 
+⃗
+ndS = 0
+ω · ˆ
+C3 
+S3 
+C1 
+C2 
+C3
+C
+1ˆn 
+
+2ˆn 
+ 
+ 
+ 
+Γ1 = 
+⃗v · d⃗x = 
+ω⃗· nˆ1dS = 
+ω⃗· nˆ2dS = Γ2 
+C1 
+S1 
+S2 
+Therefore, circulation is the same in all circuits embracing the same vortex tube. For 
+the special case of a vortex tube with ‘small’ area: 
+Γ =  ω1A1 = ω2A2 
+ω1 
+ω2 
+A1 
+A2 
+An application of the equation above is displayed in the ﬁgure below: 
+ω1 
+A1 
+ω2 
+A2 = 2A1 
+ω2 = ω1/2
+
+---PAGE BREAK---
+
+[Page 5]
+ 
+ 
+3.3.4 Vortex Structures are Material Structures 
+Consider a material patch Am on a vortex tube at time t. 
+Am 
+∂Am 
+By deﬁnition, 
+⃗ω · nˆ = 0  on  An 
+Then, 
+Γ∂Am = 
+⃗
+x = 
+ω · ˆ
+v · d⃗
+⃗
+nds = 0  
+∂Am 
+Am 
+At time t + Δt, Am moves, and for an ideal ﬂuid under the inﬂuence of conservative 
+body forces, Kelvin’s theorem states that 
+Γ∂Am = 0  
+So, ⃗ω · nˆ = 0 on  Am still, i.e., Am still on the vortex tube. Therefore, the vortex tube 
+is a material tube for an ideal ﬂuid under the inﬂuence of conservative forces. In the 
+same manner it can be shown that a vortex line is a material line, i.e., it moves with 
+the ﬂuid.
+
+---PAGE BREAK---
+
+[Page 6]
+3.3.5 Vortex stretching 
+Consider a small vortex ﬁlament of length L and radius R, where by deﬁnition ⃗ω is 
+tangent to the tube. 
+A
+R 
+Γ 
+= 
+ωA 
+= 
+constant (in time) 
+↑ 
+↑ 
+Stokes 
+Kelvins’ 
+Theorem 
+Theorem 
+But tube is material with volume = AL = πR2L = constant in time (continuity) 
+Γ 
+ωA 
+ω
+∴ 
+= 
+= 
+= constant 
+Volume 
+LA 
+L 
+As a vortex stretches, L increases, and since the volume is constant (from continuity), 
+A and R decrease, and due to the conservation of the angular momentum, ω increases. 
+In other words, 
+Vortex stretching ⇔L ↑⇒ω ↑ (conservation of angular momentum) 
+⇒A and R ↑ (continuity)
+
+---PAGE BREAK---
+
+[Page 7]
+3.3.6 Summary on Vortex Structures 
+ωr 
+R 
+r 
+A
+ωr 
+Γ 
+Γ 
+Vortex ring length 
+L = 2πR 
+[L] 
+Cross sectional area 
+A = πr2 
+[L2] 
+Vortex ring volume 
+∀= AL 
+= 
+⇑ 
+continuity 
+const 
+[L3] 
+Vorticity 
+⃗ω = ∇× ⃗v 
+[T−1] 
+Circulation 
+Γ 
+= 
+⇑ 
+Kelvin’s theorem 
+const 
+Γ 
+= 
+⇑ 
+vorticity ﬂux through A 
+ωA = const 
+Γ ∝Ur = const 
+[L2T−1] 
+[L2T−1] 
+[L2T−1]
+
+---PAGE BREAK---
+
+[Page 8]
+Continuity relates length ratios 
+∀ = LA = const 
+⎧ 
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎨ 
+A 
+∝ 
+∀ 
+L 
+∴ as L ↑ 
+A ↓ 
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎩r 
+∝ 
+ 
+∀ 
+∴ as L ↑ 
+r ↓ 
+L 
+Kelvin’s theorem + Continuity relate length ratios to Γ, ω, U 
+√ 
+Γ 
+r∝
+∀/L 
+L 
+Ur ∝ Γ =  const 
+→ U ∝
+→ 
+U ∝ Γ 
+∴ as L ↑ 
+U ↑ 
+r 
+∀ 
+Γ 
+A∝∀/L 
+L 
+ωA ∝ Γ =  const 
+→ ω ∝
+→ 
+ω ∝ Γ 
+∴ as L ↑ 
+ω ↑ 
+A 
+∀ 
+Example 1: 
+Example 2: 
+ωr 
+A 
+
+
+
+ωr 
+Γ 
+1A 
+ωr 
+
+1Γ
+1A 
+
+Γ 
+
+A 
+1L 
+
+L 
+ωr 
+
+A1 < A2 
+ω1 > ω2 
+L1 < L2 
+A1 > A2 
+Γ1 = Γ2 
+ω1 < ω2 
+U1 < U2 
+Given 
+From continuity only 
+From Kelvin’s theorem 
+From Kelvin’s theorem + continuity 
+From Kelvin’s theorem + continuity
+
+---PAGE BREAK---
+
+[Page 9]
+ 
+⇀ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+3.4 Bernoulli Equation for Steady ( ∂ = 0), Ideal(ν = 0),
+∂t 
+Rotational ﬂow 
+p = f v 
+Viscous ﬂow: Navier-Stokes’ Equations (Vector Equations) 
+p = f(|⃗v|) 
+Ideal ﬂow: Bernoulli Equation (Scalar equation) 
+Steady, inviscid Euler equation (momentum equation): 
+⃗v · ∇⃗v = −∇ p + gy 
+(1)
+ρ 
+From Vector Calculus we have 
+∇(⃗u · ⃗v)
+=
+(⃗u · ∇) ⃗v + (⃗v · ∇) ⃗u + ⃗u × (∇× ⃗v) +  ⃗v × (∇× ⃗u) ⇒ 
+∇(1 |⃗v|2)
+=
+ ⃗v · ∇⃗v + ⃗v × (∇× ⃗v) ⇒
+
+
+⃗v · ∇⃗v = ∇ v
+−⃗v × (∇× ⃗v) where v 2 ≡⃗v · ⃗v = |⃗v|2 
+
+From the previous identity and Equation (1) we obtain 
+
+⃗v · (1) →⃗v · ∇ v
+−⃗v · ⃗v × (∇× ⃗v) = −⃗v · ∇ p + gy
+
+ 
+ 
+ 
+ρ 
+⊥⃗v 
+
+⃗v · momentum (1) → energy 
+Therefore, 
+ 
+
+ 
+ 
+v2 
+p 
+D
+v2 
+p
+⃗v · ∇ 
+2 + ρ + gy = 0 =  Dt 
+2 + ρ + gy 
+streamline 
+pathline 
+i.e., v
+
+2 + ρ
+p + gy = constant on a streamline 
+In general, v
+
+2 + p
+ρ + gy = F (Ψ) where Ψ is a tag for a particular streamline. 
+Assumptions: Ideal ﬂuid, Steady ﬂow, Rotational in general.
+
+---PAGE BREAK---
+
+[Page 10]
+3.4.1 Example: Contraction in Water or Wind Tunnel 
+Contraction Ratio: γ = R1/R2 >> 1 (  γ = O(10) for wind tunnel ; γ = O(5) for water 
+tunnel) 
+¯
+¯
+Let U1 and U2 denote the average velocities at sections 1 and 2 respectively. 
+¯
+
+2 
+1. From continuity: U¯1 
+ 
+πR1
+2  
+= U¯2 
+ 
+πR2
+2  
+→ U
+¯
+2 = 
+R1 
+= γ2 >> 1 
+U1 
+R2 
+2. 
+∂u 
+Since 
+̸
+ω = 0  → vortex ring. 
+= 0 ,  ̸⃗
+∂r
+
+---PAGE BREAK---
+
+[Page 11]
+ 
+ 
+ 
+ 
+
+ 
+⎧ 
+⎪
+⎪
+⎪
+⎪
+⎨ 
+ω1 
+ω2 
+ω2 
+R2 
+
+= 
+→ 
+= 
+∼ 
+<< 1 
+2πR1 
+2πR2 
+ω1 
+R1 
+γ 
+ω/L = constant ⇒ ⎪
+⎪
+⎪
+⎪
+⎩ 
+∂u 
+∂u 
+∂u 
+since ω ∼ 
+→ 
+<< 
+∂r 
+∂r 
+
+∂r 
+
+i.e., 
+Section 2 
+Section 1 
+¯
+¯
+3. Near the center, let U1 = U1 (1 + ε1) and U2 = U2 (1 + ε2) where ε1 and ε2 measure 
+the relative velocity ﬂuctuations. Apply the Bernoulli equation along a reference 
+average streamline 
+P1 + 1 ρU¯1
+2 = P2 + 1 ρU¯2
+
+(2)
+
+
+Apply Bernoulli Equation to a particular streamline 
+¯
+P1 + 2
+1 ρ U1 (1 + ε1)
+= P2 + 
+2 
+2
+
+¯U2 (1 + ε2)
+ρ 
+
+From (2) and (3) we obtain 
+ε1U¯1
+2 = ε2U¯2
+2 + O(ε2) → ε2 ∼ U¯1
+
+∼ 1 << 1 
+ε1 
+U¯2
+
+γ4

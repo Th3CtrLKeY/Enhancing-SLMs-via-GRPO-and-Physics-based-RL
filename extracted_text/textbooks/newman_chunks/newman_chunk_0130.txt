@@ -1,0 +1,96 @@
+where the components of the vector A are A A z x r r x z x z r A y x y z = = −∂ ∂ ∂ ∂    + ∂ ∂∂−∂ ∂ ∂ ∂     = ∂ ∂ , , Φ Φ Φ Φ ∂ ∂    − ∂ ∂∂ + ∂ ∂ ∂ ∂     x r r x y x y r 2Φ Φ .
+
+The Motion of an Ideal Fluid 
+
+Here Laplace’s equation has been used, for Φ and its derivatives as well 
+as for the source potential; the right-hand side of (149) follows by using 
+Green’s theorem in the form (76) and noting from Stokes’ theorem that the 
+integral of (
+)
+∇×
+⋅
+A
+n vanishes over the closed surface SC.
+Replacing ∂2Φ/∂x2 at the body by ∂U/∂x, we obtain the total pressure force 
+on the body in the form
+F
+m
+U
+t
+U
+U
+U
+x
+m
+dU
+dt
+x =
+∀+
+∂
+∂
++
+−
+∂
+∂
+
+
+
+−
+(
+)
+(
+)
+.
+ρ
+
+
+
+
+(150)
+This is the desired expression for the force acting on a body that moves 
+with velocity U1(t) in the presence of a slowly-varying nonuniform stream 
+of velocity U(x, t). Significantly, this force is not simply a function of 
+the relative velocity U − U1. The factor of the added-mass coefficient in 
+(150) can be written as a function of the relative velocity, but there is 
+an additional “buoyancy force” proportional to the displaced volume of 
+the body.
+If Euler’s equations (2) are rewritten in a coordinate system translating 
+with the body velocity U1 the quantity in square brackets in (150) can be 
+identified with the pressure gradient ∂p/∂x of the nonuniform stream, in the 
+absence of the body, and (150) can be rewritten in the form
+F
+m
+p
+x
+m
+dU
+dt
+x = −∀+
+∂
+∂
+−
+(
+/
+)(
+/
+)
+.
+
+
+
+ρ
+	
+(151)
+Thus, the force due to the nonuniform stream is equal to the pressure gradi­
+ent associated with this stream, multiplied by the effective volume ∀+ m11 / ρ. 
+Note that analogies based on Archimedian hydrostatics would overlook the 
+contribution from the added-mass coefficient!
+From (150) one can derive an equation of motion for the body, by equat­
+ing Fx to the product of body mass m and acceleration dU1/dt. In particular, 
+if the body is neutrally buoyant with m =
+∀
+ρ , equilibrium of the forces will 
+occur if U1 = U. Thus the body will be carried along as if it were a fluid 
+particle.
+The more general case where the added-mass tensor mij contains offdiagonal elements was derived originally by G. I. Taylor, using an energy 
+argument due to Kelvin. This approach is outlined by Lamb (1932).

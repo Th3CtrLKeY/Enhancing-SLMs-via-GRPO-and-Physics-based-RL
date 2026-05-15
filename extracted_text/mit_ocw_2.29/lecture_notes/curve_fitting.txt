@@ -1,0 +1,131 @@
+[Page 1]
+Cyrerti Friis
+
+Curve Fitting and Interpolation
+
+---PAGE BREAK---
+
+[Page 2]
+Polynomial Approximation to a Function
+
+
+Suppose y = f(z) where f(z) is an unknown function. However, Suppose we
+have N + 1 pairs of values (rx, yx), & =0,2,...,N. An approximation to f(z) is
+the N“ order polynomial, py(z) that passes through the N +1 points. This can
+be very useful. For example derivatives or integrals of f can be approximated
+by the corresponding derivatives or integrals of py. Also, py is an interpolating
+function for f.
+
+One obvious way to determine the required N + 1 coefficients, c; for py is to
+write the NV + 1 equations:
+
+NN,
+d X,ci = Ye; k =0,1,...,N
+i=0
+
+This is equivalent to the matrix equation, X,c = y
+
+There is another way to determine an approximating (interpolating) polynomial
+that does not require solution of a matrix equation. To introduce it, suppose we
+seek the polynomial that passes through just two points (zo, yo), (1, yi). It is
+easy to show that the polynomial is given by:
+
+L-—2 L—-2
+i(z) = ( yo + ( °)
+LQ — L Zi — Xo
+
+p is the linear combination of two order-1 polynomials Z and can be written as:
+
+pi(x) = Lio(z)yo + Lia(z)y
+
+Ly I
+
+---PAGE BREAK---
+
+[Page 3]
+LP 2
+
+The polynomials Ly4(x) are called Lagrange Polynomials. The polynomial representation can be extended to the case of N + 1 points as:
+
+Pn(x) = > Ly ef (rx)
+k=0
+
+The Lagrange Polynomials, Lyj,(x) are polynomials of order N and have the
+following properties:
+
+_jJ1 forgj=k
+Dw, x(23) = 0 forj#k
+
+The polynomials that have these properties are:
+N L— Xj
+
+Inx(z)= I]
+
+j=0,j¢k Tk — Lj
+
+---PAGE BREAK---
+
+[Page 4]
+Lez
+
+La gf 704 2. Jf ‘o | 4 nem c alS - & XG@mple
+
+Y= F(X) . oe
+
+qum
+; P, OVS Shon Ix boe4o that, thoede
+
+X= XT KRXG L _ KX KH a.
+X, 7%, Ker-X 2 #17 X,-Ko0 x r7¥5 nn
+
+£208
+
+Lo 5 = Bate a
+225 one Fao a
+
+wats = \ Fx, Aor~X 5, XiwK—y Mir AQ_
+oe ; =p 3. XK. X-X,
+ApKe Keer
+
+wex25,¢ Pr) = = 590) “4494 Wiss }
+
+108 ¢._... ce ee ce
+
+---PAGE BREAK---
+
+[Page 5]
+VU mM er fue
+
+Numerical Differentiation
+
+Numerical Differentiation is used when:
+
+1. A functional form is so complicated that it is more convenient to do
+numerical integration,
+
+2. when we have a table of values of [x;, f(x;)] and we wish to find df /dzx
+for some given value(s) of z.
+
+Examples of situations for which derivatives are needed include:
+
+1. Quantities given in terms of derivatives: v = @, u = 2%.
+dt? Ox
+
+2. Mathematical procedures requiring derivatives:
+e A function y = f(x) is to be approximated by g = f(x) and f
+contains constants to be determined which minimize the error in the
+fit of the function to N points at z;. Error = f(xi) — f (2)|
+
+e Finding the roots of y = f(x). In other words, find the values of x
+such that f(x) = 0.
+
+Two principal methods for obtaining numerical estimates of f’(z;) when we
+have a set (table) of pairs of values [z;, f(z:) = fi], i= 1,2,..., N are:
+
+1. Develop relatively simple formulae that provide estimates of the derivative in terms of values of f; and 2;,
+
+2. Determine an analytic function g(x) which is a good approximation to
+f(x) and differentiate g(z) analytically.
+
+We will consider the first method here. The second is in the category of
+functional estimation or approximation.

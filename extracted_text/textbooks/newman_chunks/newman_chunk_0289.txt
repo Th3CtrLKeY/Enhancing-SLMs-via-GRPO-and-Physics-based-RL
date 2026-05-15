@@ -1,0 +1,110 @@
+−π ρ 2 3 T l −0.6 −0.36 ± 0.12 Note: The coefficients in the last two columns are nondimensionalized in terms of the quantities 1 2 ρ, U1, and l. The theoretical values are based on the slender-body results shown in table 7.1, but with the simplifying assumptions that the draft T is constant along the length, and the added-mass coefficient can be approximated by (54). References to the experimental data are given by Mandel (1967), and Motora (1972).
+
+Chapter 7
+for xT < x < xR. Here xR denotes the longitudinal coordinate of the rudder 
+axis. The contribution from the rudder to the lateral velocity (50) is
+W x t
+x
+x
+U
+R
+R
+R
+( , )
+(
+)
+.
+=
+−
+−
+δ
+δ
+
+(56)
+Substituting (56) in (39) and integrating the resulting force from upstream 
+of the rudder post to its trailing edge gives the rudder force
+F
+m
+l
+U l
+U
+z
+T
+R R
+R
+R
+R
+=
++
++
+
+
+
+
+δ
+δ
+δ
+
+
+
+
+
+
+/
+. 	
+(57)
+Here mT has been substituted on the premise that the two-dimensional 
+added mass of the rudder is independent of position along its chord, which 
+is denoted by lR. Neglecting the small change in moment arm from the ori­
+gin to different positions on the rudder, we may take the yaw moment as 
+the product of (57) and −xT.
+The terms in (57) proportional to the angular velocity and acceleration 
+of the rudder are unsteady effects that can be ignored in practice. These are 
+significant only over time scales of order lR/U1, the time required for the 
+ship to travel one chord length of the rudder, which is negligible compared 
+to the response time of the ship.
+Retaining only the steady term in (57) gives the rudder force and moment 
+in the form
+F
+T U
+R
+R
+
+
+
+
+
+
+=
+πρ
+δ , 	
+(58)
+M
+T U
+x
+R
+R
+T
+
+
+
+
+
+
+= −πρ
+δ
+. 	
+(59)
+Here (54) has been used for the added-mass coefficient.
+The results (58–59), for the rudder force and moment, overpredict the 
+experimental values reported by Motora (1972) by a factor of two. This dis­
+crepancy may occur because the span of the actual rudder is significantly 
+less than the draft T.
+As an alternative to the use of (58–59), the rudder can be regarded as a 
+separate appendage, with hull interactions neglected. The lifting surface 
+theory or experimental data can be used to estimate the rudder force and 
+moment, in a manner outlined by Mandel (1967). In practice there are 
+significant interactions with the hull and with the slipstream from the pro­
+peller if this is upstream of the rudder. It is difficult to predict these interac­
+tions from model tests with Froude scaling, since the Reynolds number of 
+the rudder is reduced significantly from its full-scale value.

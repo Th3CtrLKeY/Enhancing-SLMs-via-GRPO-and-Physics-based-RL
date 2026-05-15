@@ -1,0 +1,39 @@
+attained much higher limits, as noted by Monin and Yaglom (1971). 3. This problem was first solved by Stokes, in 1851, as a means of estimating the drag on a pendulum. 4. This assumption is valid because the governing equation is parabolic. Thus x < l is a sufficient condition, excluding the complicated region near x = l. Physically, the effects of viscosity are diffusive and the local solution in the boundary layer is inde­ pendent of the flow downstream.
+
+Notes
+5.  A rigorous justification for simultaneously changing both variables (U, x) to (uτ, δ) 
+requires that the Jacobian ∂(U, x)/∂(uτ, δ) be nonzero. This can be verified from the 
+empirical 1/7-th power relations to follow.
+Chapter 4: The Motion of an Ideal Fluid
+1.  A strict interpretation of the material contour is essential to reconcile this state­
+ment with lifting-surface theory, and with other inviscid flows where vortices are 
+shed into the fluid at a sharp corner.
+2.  The interpretation of S + Sε as a single closed surface can be justified by connect­
+ing these two separate surfaces with a “tube” of infinitesimal radius, as shown by the 
+dashed lines in figure 4.6 (a); there is no contribution to the surface integrals from 
+this tube in the limit where the tube radius shrinks to zero.
+3.  Since the body is rigid and of constant volume, the source term of order r
+−1 must 
+vanish.
+Chapter 5: Lifting Surfaces
+1.  Included here is a contribution proportional to (log A)/A
+2, which could not be 
+anticipated from Prandtl’s lifting-line equation (142).
+2.  This integral represents the downwash on the foil induced by the vortices in the 
+wake.
+Chapter 6: Waves and Wave Effects
+1.  There is a semantic problem here involving the number of dimensions. We shall 
+refer to two- and three-dimensional motions of the fluid as in earlier chapters, cor­
+responding respectively to one- and two-dimensionality of the free surface elevation 
+η(x, z, t).
+2.  A trochoid is the trajectory of any point on a circular disc rotating with its periph­
+ery in contact with a horizontal plane.
+3.  The derivative (114) and the resulting simplicity of (115) imply a fundamental 
+relation between the factor G″ in the stationary-phase approximation and the spa­
+tial gradient of the wavenumber. This relationship is displayed explicitly in an alter­
+native derivation of the stationary-phase approximation given by Lighthill (1965).
+4.  It is clear that if the horizontal coordinates of the source position and observa­
+tion point are reversed, the flow will be unchanged provided the direction of the 
+stream velocity U is also reversed. The dependence on the vertical coordinate and 
+source position is less elementary, but in the asymptotic approximation used here 
+both of these are in fact exponential.

@@ -1,0 +1,95 @@
+must take the value C igA = / . ω (15) The potential (14) can be rewritten in the form φ ω ω = − gA e kx t ky sin( ). (16) At this point in our derivation, the solution appears complete; yet the free-surface condition (6) has not been imposed. Therefore (16) is too gen­ eral, and if this potential is substituted in (6) an additional condition is obtained, relating the wavenumber and the frequency in the form
+
+Chapter 6
+k
+g
+= ω2 / . 	
+(17)
+Thus the frequency and wavenumber are mutually dependent parameters 
+related by the dispersion relation (17). Of course, the frequency ω can be 
+replaced by the wave period T = 2π/ω, just as the wavenumber k can be 
+replaced by the wavelength λ = 2π/k.
+The phase velocity Vp can be determined from (8), and with (17) it fol­
+lows that
+V
+k
+g
+g
+k
+g
+p =
+=
+=
+=
+ω
+ω
+λ
+π
+/
+/
+(
+/ )
+(
+/
+)
+.
+/
+/
+1 2
+1 2
+
+(18)
+The last of these equivalent relations is consistent with the conclusion, 
+based on dimensional analysis in section 2.3, that the phase velocity is 
+proportional to the square root of the wavelength.
+While the wave moves with the phase velocity Vp, the fluid itself moves 
+with a much smaller velocity given by the gradient of the potential (16). 
+The velocity components (u, v) of the fluid are
+u
+x
+Ae
+kx
+t
+ky
+= ∂
+∂
+=
+−
+φ
+ω
+ω
+cos(
+), 	
+(19)
+u
+y
+Ae
+kx
+t
+ky
+= ∂
+∂
+=
+−
+φ
+ω
+ω
+sin(
+). 	
+(20)
+Since the horizontal and vertical velocity components have the same mag­
+nitude but a phase difference of a quarter period, the fluid particles move 
+through circular orbits of radius Aeky. On the linearized free surface y = 0, 
+the amplitude of this motion is equal to the wave amplitude A, in accor­
+dance with the kinematic boundary condition (2). Comparison of (19–20) 
+with the wave elevation (7) shows that the horizontal velocity component 
+is a maximum beneath the crest and trough. Beneath the crest the velocity 
+is positive, in the same direction as the wave propagation, and beneath the 
+trough the flow is in the opposite direction. The vertical velocity compo­
+nent is a maximum beneath the nodes η = 0, rising or falling with the free 
+surface. This velocity field is shown in figure 6.1.
+Within the accuracy of the linear theory, the fluid particles move in 
+small circular orbits proportional to the wave amplitude; they remain in 
+the same mean position as the wave propagates through the fluid with a 
+phase velocity independent of the wave amplitude. Some nonlinear effects 
+that modify this situation will be discussed in sections 6.4 and 6.5, but

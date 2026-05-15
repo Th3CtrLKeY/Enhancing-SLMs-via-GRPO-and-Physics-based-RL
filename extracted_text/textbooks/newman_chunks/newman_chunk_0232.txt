@@ -1,0 +1,38 @@
+to find in a table of integrals, particularly since in practical cases the longitudinal slope of the ship hull cannot be expressed in terms of simple mathemati­ cal functions. Nevertheless, a fairly large number of numerical computa­ tions have been carried out, based on this expression or other equivalent forms, both for practical ship geometries and for simplified mathematical bodies. To determine the practical value of this theoretical approach to wave resistance, one may compare numerical computations based on Michell’s
+
+Chapter 6
+integral with measurements from towing-tank experiments. However, this 
+type of comparison is subject to the uncertainties of Froude’s hypothesis 
+(equation 2.24). Typical results are reproduced in figure 6.18 for a destroyer 
+form, which must be classified as being closer to a thin ship than would 
+be the case for a supertanker. At higher Froude numbers the agreement is 
+reasonable, particularly in the context of experimental variations resulting 
+from different turbulence stimulators and model lengths. At lower speeds, 
+however, the theory appears to exaggerate the effects of interference by 
+comparison with the experiments.
+A common explanation for this discrepancy is that viscous effects sup­
+press the interference effects in a real fluid. An alternative possibility results 
+from the fundamental assumption of thin-ship theory that the beam is 
+small compared to all other length scales. The wavelength is significant 
+in this context and should be recognized as an additional length scale not 
+present in the steady-state lifting-surface problem. Since λ ∝ U2, it is inevi­
+table that the Michell approximation will break down as the Froude num­
+ber becomes small. Theories which seek to overcome this limitation are 
+discussed by Gadd (1976) and by Noblesse and Dagan (1976).
+The Michell theory has been extended and applied to a broad range of 
+problems in ship hydrodynamics. Several relevant papers and comprehen­
+sive bibliographies may be found in the proceedings edited by Inui and 
+Kajitani (Society of Naval Architects of Japan, 1976), as well as in Wehausen 
+(1973). The contributions to this field by Havelock (1963) are particularly 
+notable, and a monograph by Kostyukov (1959) is devoted to the theory of 
+ship waves and wave resistance.
+6.14  Wave Pattern Analysis
+The use of the wave-resistance integral (115) with experimental measure­
+ments of the amplitude function A(θ) to determine the total wave resistance 
+provides a direct measurement of the wave resistance without recourse to 
+Froude’s hypothesis. This approach is known as wave pattern analysis. A sig­
+nificant feature of this technique is that the measured quantity A(θ) is lin­
+ear in the ship’s disturbance, as compared to the quadratic wave resistance. 
+By relating changes in the wave amplitude to changes in hull form, a linear 
+optimization of the hull shape can be achieved more directly than is pos­
+sible by studying the effects of shape on the total wave resistance.

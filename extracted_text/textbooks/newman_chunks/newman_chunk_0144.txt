@@ -1,0 +1,169 @@
+ε/l. Thus, the limiting values of the horizontal velocity component on the upper and lower surfaces of the foil are given by the last line of (29), and there will exist a discontinuity in this velocity component precisely equal to the local vortex strength γ(x). This confirms our hypothesis that the lifting problem for the mean-camber line can be represented by a vortex distribution. To relate the local vortex strength γ to the geometry of the foil, we must invoke
+
+Lifting Surfaces 
+
+the boundary condition (22) on the surface of the foil; hence we must con­
+sider the limiting form of the vertical velocity component.
+From (27) the vertical velocity component on the cut is given by the 
+integral
+v x
+x d
+l
+x
+l
+l
+l
+( ,
+)
+( )
+,
+,
+
+
+
+
+
+
+
+
+
+± = −
+−
+−
+−
+<
+<
+−∫
+π
+γ ξ
+ξ
+ξ
+	
+(30)
+where the integral is to be interpreted in the sense of the Cauchy principal 
+value, or
+f
+x d
+f
+x d
+f
+x d
+a
+b
+a
+x
+x
+b
+( )
+lim
+( )
+( )
+.
+ξ
+ξ
+ξ
+ξ
+ξ
+ξ
+ξ
+ξ
+ξ
+ε
+ε
+ε
+−
+≡
+−
++
+−
+
+
+
+
+
+
+→
+−
++
+
+∫
+−∫
+−∫
+	
+(31)
+(The legitimacy of this interpretation is confirmed in section 5.6.)
+If the geometry of the mean-camber line η(x) is prescribed, the vertical 
+velocity v(x, 0) can be computed from the boundary condition (22). In this 
+case, (30) is an integral equation since the unknown function γ appears in 
+the integrand. We will see in section 5.7 that the general solution of this 
+integral equation is given by the expression
+γ
+π
+ξ
+ξ
+ξ
+ξ
+( )
+[(
+)
+]
+( , )[( / )
+]
+x
+l
+x
+v
+l
+x
+d
+l
+l
+=
+−
+−
+−
++
+
+
+−
+
+
+
+
+
+2 1 2
+
+2 1 2
+
+
+12Γ
+
+
+
+,
+−∫
+	
+(32)
+where the total circulation about the foil is
+Γ =
+−∫γ ξ
+ξ
+( )
+.
+d
+l
+l
+
+
+(33)
+At this stage Γ is unknown and the solution (32) is not unique, even 
+though it has been chosen to satisfy the boundary condition (22) on the 
+foil. This is not surprising, since we have not yet imposed the Kutta condi­
+tion at the trailing edge. The general case with arbitrary circulation will 
+include an infinite velocity at the trailing edge, as in the case shown in 
+figure 5.4, differing from the correct solution in figure 5.2 by the appropri­
+ate circulation.
+In general, the vortex strength γ, and hence the horizontal velocity com­
+ponent on the foil, will be infinite both at the leading and trailing edges as 
+a result of the square-root infinities in (32). This can be avoided at the trail­
+ing edge only if Γ is chosen so that the quantity in braces in (32) vanishes

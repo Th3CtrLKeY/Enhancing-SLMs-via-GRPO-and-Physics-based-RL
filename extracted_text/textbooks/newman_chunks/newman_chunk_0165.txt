@@ -1,0 +1,85 @@
+z dx U z B x z x z T L ( ) ( , ) ( ). ( ) ( ) = = ∫ ρ γ ρ Γ (120) Here Γ(z) is the total circulation of the section, and the limits of integration denote the x-coordinates of the trailing and leading edges. A second inte­ gration in the spanwise direction gives the total lift L U z dz s s = −∫ ρ Γ( ) . / / (121)
+
+Lifting Surfaces 
+
+Ultimately this equation can be used to compute the total lift force, but 
+first the appropriate distributions of bound and trailing vortices must be 
+explored.
+Integrating (118) along the chord gives the following equation for con­
+tinuity of vorticity across the section:
+∂
+∂
++ ∂
+∂
+
+
+
+
+=
+∫
+γ
+γ
+B
+F
+x
+x
+z
+x
+dx
+T
+L
+0, 	
+(122)
+or
+′
++
+=
+Γ ( )
+[
+( , )]
+.
+z
+x z
+F
+x
+x
+T
+L
+γ
+
+(123)
+Thus, any change in the total circulation along the span of the lifting 
+surface must be reflected in a corresponding jump of free vortex density 
+across the section. The circulation Γ clearly must vary with z, especially
+near the tips z
+s
+= ± 1
+
+ where Γ changes from a nonzero value on the 
+lifting surface to zero outside the tips. But where is the resulting free vortic­
+ity to go? It too must be conserved and cannot end abruptly at the leading 
+or trailing edges. This apparent dilemma can be resolved by assuming that 
+the lifting surface advances into a uniform and undisturbed fluid, but that 
+it leaves behind a thin wake region of free, or trailing, vorticity. The wake 
+extends to infinity downstream, or alternatively to the downstream posi­
+tion of the starting vortex. Since this starting vortex is equal and opposite 
+to Γ(z), the system of bound and trailing vortices is rejoined downstream 
+in a closed loop.
+The existence of a trailing vortex sheet downstream of the lifting surface 
+is physically permissible since free vortices can exist in a state of dynamic 
+equilibrium with the fluid. With the free vorticity set equal to zero upstream 
+of the leading edge and equal to the trailing vorticity γT(z) at the trailing 
+edge, (123) determines the value of the trailing vorticity as
+γ T z
+z
+( )
+( ).
+=
+′
+Γ
+	
+(124)
+We emphasize that γT is independent of the x-coordinate, by virtue of (118) 
+and because there can be no bound vorticity in the wake.
+These vortex distributions are sketched in figure 5.18. Here the lifting 
+surface, (or, strictly, its projection on the plane y = 0) contains a distribution

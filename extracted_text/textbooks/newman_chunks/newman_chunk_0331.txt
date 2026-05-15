@@ -1,0 +1,175 @@
+A. E. von, 25, 26, 184 Doppler shift, 323, 374, 377 Double-body approximation, 309–310 for ship maneuvering, 358 Doublet, 120 Downwash, 230, 236 effect on lift, 206 Drag cross-flow, 48, 360 effect of separation on, 21 effect of turbulence on, 20–21, 21 frictional, 18, 19, 20, 23–24 on general bodies, 18, 20–22 on hull, 29–34, 32, 33 hydrofoil, 184–186 on hydrofoils, 22, 22–24, 25 induced, 206–210 pressure (form), 20, 23–24 separation of, 15, 16, 17, 21 on sphere, 14–17, 16
+
+Index 
+
+steady-state, 15
+on streamlined bodies, 18, 20–21
+on submarines, 50(3)
+total, 18
+unsteady hydrofoil, 239
+viscous, 17–21, 19, 21
+Drag coefficient, 15, 16, 17
+of hull, 30
+hydrofoils, 23–24, 26
+relation to Froude numbers, 32, 33
+of sphere, 102
+steady-state, 37, 39
+for three-dimensional cylinders, 20
+total, 20
+for two-dimensional cylinders, 20–21, 
+
+Dredged channel, 397
+Dynamic boundary condition, 66
+Dynamic pressure, 67, 114, 138–141
+Dynamic similitude, 5, 7
+Eatock Taylor, R., 368
+Effective mass, 39
+Effective volume, 159
+Efficiency
+hull, 36
+propeller, 26, 28, 51(7)
+propulsive, 36
+relative rotative, 36
+Eggers, K., 296
+Ellipse, added-mass coefficients, 
+151–152, 152, 153, 163(11)
+Ellipsoid
+added-mass coefficients, 310, 312
+damping coefficient, 310, 312
+flow past, 132
+Elliptic planform, lift coefficient, 
+214–215, 215
+Energy, of waves, 271–277, 335(4)
+density, 325–326
+flux, 274–276, 275, 278
+relation to damping coefficient, 308
+ship waves, 290–292, 296
+spectrum, 326
+directional, 326–327
+JONSWAP, 331
+Pierson-Moskowitz, 328, 329, 330, 
+330–331
+Equations of motion
+of body in waves, 320–323
+ship maneuvering, 363–368
+Error function, 74
+Euler’s equations, 62, 65, 90, 107, 
+112–113, 159
+Exciting force, 313–319
+Froude-Krylov hypothesis, 317–319, 
+370–371, 372, 373, 383–384, 
+
+long-wave approximation, 313–314
+relation to added-mass coefficient, 
+
+relation to damping coefficient, 
+
+relation to Haskind relations, 386–387
+strip-theory approximation, 381, 
+383–384, 386
+of thin-ship, 317–318
+External flow, 132
+Extrapolation, 31, 33, 33
+Extreme-value statistics, 331–332
+Faltinsen, O., 382, 383, 386, 387
+Far-field fluid motion, 141, 149–151
+Favored pressure gradient, 82–83, 83
+Feldman, J. P., 397
+Feshbach, H., 110, 129, 132
+Fetch, 327–328, 331
+Field point, 134, 135
+Fink, P. T., 357
+Finned body
+added-mass coefficient of, 163(10)
+added moment of inertia, 152, 152, 
+163(9)
+First-order approximation, 173
+Fish-line problem, 277
+Flapping propulsion, 239
+
+Index
+Flat plate
+acceleration in viscous fluid, 72–75, 75
+added-mass coefficients, 152, 153, 
+161, 162(5)
+added moment of inertia, 152, 152, 
+163(9)
+angle of attack, 243(6)
+boundary condition, 162(6)
+drag force, 186
+flow past, 128
+frictional-drag coefficient, 30
+friction resistance, 6
+heave, 239
+hydrofoil, 23–24, 180–184, 181, 186
+ideal flow past, 124–125, 125
+laminar boundary layer, 75–88
+lift coefficient, 181, 243(5)
+steady-state flow past, 75–81
+turbulent boundary layer, 81, 91–99
+roughness effects on, 100–101, 101
+unsteady motion of, 72–75
+viscous drag, 17–18, 20, 21
+viscous flow past, 70–71
+between walls, 161
+FLIP, motion in waves, 333, 334
+Fluid dynamics, 2
+Fluid motion, balance of forces in, 3–4
+Fluid viscosity, 14
+Following waves, 317, 377
+Force. See also Body-mass force
+on body in nonuniform stream, 
+156–159
+hydrodynamic pressure, 67, 114, 
+138–141
+orders of magnitude, 2–3
+Force coefficient, of circular cylinders, 
+40, 40
+Form drag
+relation to residual-drag coefficient, 33
+relation to Reynolds number, 31, 31, 
+33–34
+Fourier coefficient, 209
+Fourier series, 196, 213
+Fourier-Stieltjes representation, 325
+Fourier theory, 267
+Frank, T., 368
+Free-surface boundary condition
+linearized, 248–250
+method of images approach, 147
+nonlinear, 256–258
+wave motions on, 67
+Free-surface elevation, 250
+Free-surface flow, 116
+Free-wave distribution, 283
+Frequency of waves, 247
+deep-to-shallow, 256, 257
+relation to frequency of encounter, 
+
+relation to wavenumber, 251–252
+Frictional drag, 18, 19, 20, 23–24, 64
+Frictional-drag coefficient, 18, 19, 20, 
+34, 81, 98
+local, 98
+in self-propelled test, 34
+Frictional resistance, 6
+Friction velocity, 92
+Froude hypothesis, 6, 33, 294, 295
+experimental validation, 30–31, 32
+Froude-Krylov exciting force, 317–319, 
+370–372, 371, 373, 383–384, 386
+Froude number, 4, 5, 6, 7, 48–49, 280, 
+
+for hulls, 30
+relation to drag coefficient, 32, 33
+relation to scale, 30
+for shallow waves, 389–390
+subcritical, 290
+Fully developed wave spectra, 327–328
+Fully wetted flow, 190, 226
+Gadd, G., 294
+Gauss’s theorem, 139–140, 157, 303, 
+
+General force equation, 206
+Geosim, 18, 32, 33
+Gerstner, F. J. von, 260–261

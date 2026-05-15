@@ -1,0 +1,37 @@
+symmetrical about the x, y, and z axes, except for the center of gravity which is at a position yG below the centroid. What is the maximum terminal velocity for stability of the vessel in this orientation, assuming m11 = m33 > m22? 11. Calculate the relative error incurred by the approximation (109) of the Froude-Krylov force for a rectangular and triangular section in head seas of various wavelengths. Confirm the statement following (109) regarding the magnitude of this error.
+
+Hydrodynamics of Slender Bodies 
+
+12. Rederive the strip theory results of section 7.7 for sway and yaw motions 
+of a ship, noting the similarities and differences with respect to heave and 
+pitch.
+13. Show that the pitch and heave motions of a ship with fore-and-aft sym­
+metry are uncoupled at zero forward speed. Is this true if U ≠ 0?
+14. Show that the expression (37) holds for the sway force on a ship in shal­
+low water, with a rigid free-surface condition, but not for the heave force.
+15. Compute the sinkage and trim for a simple ship with parabolic water­
+lines, constant draft, and vertical sides by balancing the hydrodynamic 
+force and moment (149–152) with the hydrostatic restoring terms. Show 
+that the trim angle of the ship is zero for subcritical Froude numbers and 
+the sinkage (heave displacement) is zero for supercritical motion. Will a 
+ship operating at excessive speed in shallow water ground at the bow or at 
+the stern?
+References
+Abkowitz, M. A. 1969. Stability and motion control of ocean vehicles. Cambridge, Mass.: 
+The MIT Press.
+Beck, R. F. 1977. Forces and moments on a ship moving in a shallow channel. J. Ship 
+Res 21:107–119.
+Beck, R. F., J. N. Newman, and E. O. Tuck. 1975. Hydrodynamic forces on ships in 
+dredged channels. J. Ship Res. 19:166–171.
+Beck, R. F., and E. O. Tuck. 1972. Computation of shallow water ship motions. In 
+Ninth symposium on naval hydrodynamics, eds. R. Brard and A. Castera, pp. 1543–1587. 
+Washington: U.S. Government Printing Office.
+Bishop, R. E. D., A. G. Parkinson, and R. Eatock Taylor eds. 1972. Proceedings of an 
+international symposium on directional stability and control of bodies moving in 
+water. [supplementary issue] Journal of Mechanical Engineering Science 14:7.
+Breslin, J. P. 1972. Theory for the first-order gravitational effects on ship forces and 
+moments in shallow water. J. Hydronautics 6:110–111.
+Faltinsen, O. 1973. Wave forces on a restrained ship in head-sea waves. Oslo: Det Norske 
+Veritas.
+Faltinsen, O. 1974. A numerical investigation of the Ogilvie-Tuck formulas for 
+added-mass and damping coefficients. J. Ship Res. 18:73–84.

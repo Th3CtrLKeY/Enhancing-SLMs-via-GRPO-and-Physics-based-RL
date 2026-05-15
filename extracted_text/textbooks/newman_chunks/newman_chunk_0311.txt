@@ -1,0 +1,40 @@
+speed, while the scattering component is linear in U. A complementary derivation of the exciting force (119) and moment (120) is given by Salvesen, Tuck, and Faltinsen (1970), assuming that k = O(ε−1) and using a generalization of the Haskind relations (6.172). In that approach the forced-motion potential Φ2 enters as a consequence of the Haskind relations, and as a function of the frequency of encounter instead of the wave frequency ω0. An alternative approach based on using the Haskind
+
+Hydrodynamics of Slender Bodies 
+
+relations in a two-dimensional manner is outlined by Newman (1970), and 
+is more closely related to the present results. The Haskind relations lead 
+to an exponential factor in the scattering-force integral of (116), in a form 
+similar to the Froude-Krylov integral (108). This additional factor makes the 
+scattering force more difficult to compute, since the force due to the scat­
+tering potential cannot be related directly3 to the added-mass and damping 
+coefficients.
+These ambiguities are not the only uncertainties in the exciting force 
+problem. In general, oscillatory integrals such as (119) and (120) will tend 
+to cancel along the length of the ship, if the wavelength is short compared 
+to the ship length, as assumed here. Under these circumstances such inte­
+grals are dominated by local behavior near the ends. The importance of end 
+effects is emphasized by Faltinsen (1973) in a study of the exciting force for 
+the case where the incident wavelength is comparable to the ship’s beam 
+and the forward velocity is small.
+The strip theory for predicting heave and pitch is completed by add­
+ing the body-mass and hydrostatic forces as given by (6.182–6.183) and 
+(6.144–6.149), respectively. The result is a pair of coupled linear equations 
+for the complex amplitudes of heave and pitch, analogous to (89–90). In 
+solving these equations of motion the principal task is the computation of 
+the two-dimensional added-mass and damping coefficients for each section 
+of the ship.
+Typical results are shown in figure 7.9 for a “Mariner” class ship. The 
+calculations here are based on the exciting force and moment (119–120). 
+Results using the complementary derivation of the exciting force and 
+moment, given by Salvesen, Tuck, and Faltinsen (1970) and by Vugts 
+(1970), show similar agreement with experiments.
+It is apparent from figure 7.9 that the pitch and heave motions in head 
+waves are predicted with sufficient accuracy for most practical purposes. 
+Moreover, the regime of agreement with experiments is not limited to high 
+frequencies in the vicinity of resonance, since the strip theory predicts the 
+correct (hydrostatic) low-frequency limit of the exciting force and moment. 
+Thus, as ω0 → 0, ξ2/A → 1 and |ξ6|l/(2A) ≃ ω0
+2l/(2g), in agreement with the 
+results shown in figures 7.7 and 7.8. As a result, the strip theory is useful 
+over the complete range of frequencies of practical significance.

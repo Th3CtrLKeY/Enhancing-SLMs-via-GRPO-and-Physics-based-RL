@@ -1,0 +1,106 @@
+10% cos wt(Nm). By substituting 7; =|75| cos wt in equation (3.69) it now follows that the pitch motion is Ns = —0.008 cos we(rad) MINIMALIZATION OF VERTICAL SHIP MOTIONS We now discuss which parameters influence the heave and pitch of the ship. In order to do this we choose a simplified mathematical model and consider first a ship of constant cross-section in head sea at zero Froude number. We do not recommend the use of this model for accurate
+
+82 LINEAR WAVE-INDUCED MOTIONS
+
+calculations, the intention here being to show general trends. We will use
+strip theory and a long wavelength approximation for the wave excitation
+loads (see equation (3.44)). The latter implies that the vertical wave
+excitation load on a strip is written as the sum of the vertical
+Froude-Kriloff force and a vertical diffraction force consisting of two
+parts. The first part is the cross-sectional added mass in heave multiplied
+by the vertical incident wave acceleration at a representative point of the
+strip. The second part is the cross-sectional damping in heave multiplied
+by the vertical incident wave velocity at a representative point of the
+strip. It is assumed that the cross-sectional dimension is small relative to
+the wavelength. By following this approach we will find that the
+amplitude of vertical wave excitation force in head seas |F3|nead sea Can be
+related to the amplitude of the vertical wave excitation force in beam seas
+
+|F'slbeam sea by the formula
+kL
+sin( 5 Ss) (3.70)
+
+Here L is the length of the ship and k = 217/A is the wavenumber of the
+incident waves. Equation (3.70) shows the way that the wave loads
+along the ship in head seas may counteract each other and cancel the total
+wave. excitation loads on the ship. Equation (3.70) implies that the heave
+amplitude |73lhead sca in head seas can be related to the heave amplitude i in
+beam seas |773lbeamsea by the formula
+
+sin (=)
+
+i
+
+Similarly we can analyse the amplitude of the pitch angle |75|. If we
+assume constant mass distribution along the length of the ship we can
+write
+
+F ead sea F eam sea
+| aln id =| ale RL
+
+(3.71)
+
+[slheassea= [Malou sen “>
+113}head sea = 1)3| beam sea kL
+
+1s\nead sea = |1)3| beam sea L ~ RL [> cos >
+
+2 (=) 3.72
++ pap sin 2 ( . )
+
+The analysis of the ship at infinite Froude number becomes more
+complicated. In this context we will only incorporate the important effect
+of the frequency of encounter w, which is written as
+
+wo 2
+@.= @o+—-U (3.73)
+
+Here @o?/g = 2/4 =k and U is the forward speed of the ship.
+Equation (3.73) is valid for head seas. If we assume the same natural
+frequency at forward speed as in zero speed, equation (3.73) tells us that
+
+MINIMALIZATION OF VERTICAL SHIP MOTIONS 83
+
+it is a larger wavelength of the incident waves that creates resonance in
+heave and pitch at forward speed than at zero speed. This is illustrated in
+Fig. 3.21. For a real ship form at zero forward speed the cancellation
+effect on the heave wave excitation force may be dominant around the
+natural frequency for heave and pitch. Due to the effect of the frequency
+of encounter, the cancellation effect on the heave and pitch wave
+excitation loads will be less pronounced at forward speed. The consequences are increased heave and pitch at resonance within certain
+limits of increasing Froude number.
+
+From equations (3.71) and (3.72) we see that it is relevant to consider
+heave in beam seas when we discuss heave and pitch in a head sea. We
+will use heave at resonance in beam seas as a basis for this discussion. If
+we use equation (3.45) for the wave excitation loads we find
+
+\albeam sea = Sa 35 oe Abxl at heave resonance (3.74)
+
+Here €, is the undisturbed wave amplitude, w,3 the natural circular
+frequency of oscillation in heave and B;;%>) is the cross-sectional
+two-dimensional damping in heave. B33?” is a function of ,3. In
+two-dimensional problems for ship cross-sections either source techniques or conformal mapping techniques are most commonly used to
+calculate added mass and damping in heave. Lewis-form technique is an
+approximate conformal mapping technique. We know that the Lewisform technique is a satisfactory method to find the added mass and
+damping coefficients of most of the cross-sectional forms of ships. This
+implies that the beam—draught ratio B/D and the sectional area
+
+WAVE PROPAGATION
+DIRECTION
+
+A= 95.6m
+
+Te =7.8s
+
+WAVE PROPAGATION
+U=10ms~! DIRECTION
+——
+
+A= 225m
+
+Te = 7.8s
+Fig. 3.21. Illustration to show that the frequency of encounter corresponds to
+different wavelengths for zero and non-zero forward speed of a ship
+in head sea. (7, = encounter period, A = wavelength, U = forward
+speed.)

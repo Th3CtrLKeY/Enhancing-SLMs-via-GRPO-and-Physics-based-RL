@@ -1,0 +1,35 @@
+=======================================================
+  Gemini LLM Baseline — Evaluation Summary
+=======================================================
+
+  Dataset            : grpo_eval.jsonl (n=331)
+  Responses received : 331 / 331
+  Missing responses  : 0
+
+  ── Numerical ──────────────────────────────
+  Accuracy           : 37.10%  (82/221)
+  Near misses (≤20%) : 10 (4.5%)
+  No answer extracted: 0
+
+  ── MCQ ────────────────────────────────────
+  Accuracy           : 78.18%  (86/110)
+  No answer          : 0
+
+  ── Numerical Failure Breakdown ────────────
+  Rel-error <5%      : 0   (arithmetic slip)
+  Rel-error 5-20%    : 10   (close)
+  Rel-error 20-100%  : 52   (wrong formula/scale)
+  Rel-error 100-1000%: 40  (order-of-magnitude)
+  Rel-error >1000%   : 34  (completely wrong)
+
+  ── Comparison with SLM ────────────────────
+  (Fill in manually after SLM eval)
+  Gemini  Numerical  : 37.10%
+  Gemini  MCQ        : 78.18%
+  SLM (GRPO Run 5b)  Numerical : 38.91%
+  SLM (GRPO Run 5b)  MCQ       : 80.00%
+  SLM (GRPO Run 4)   Numerical : 38.46%
+  SLM (GRPO Run 4)   MCQ       : 85.45%
+
+  Full results → gemini_results.json
+=======================================================

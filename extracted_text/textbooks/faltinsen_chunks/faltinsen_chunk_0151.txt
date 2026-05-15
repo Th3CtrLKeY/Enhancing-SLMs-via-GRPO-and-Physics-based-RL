@@ -1,0 +1,143 @@
+to oscillatory rough turbulent boundary layers. Series Paper 17, Institute of Hydrodynamic and Hydraulic Engineering, Technical University of Denmark, Lyngby. Kato, H. (1966). Effect of bilge keels on the rolling of ships. Mem. of the Defence Academy, Japan, IV, 3, 369-84. Keulegan, G. H. & Carpenter, L. H. (1958). Forces on cylinders and plates in an oscillating fluid. 7. Res. National Bureau of Standards, 60, 5, 423-40. Kim, M. H. & Yue, D. K. P. (1988). The non-linear sum-freauencv wave
+
+322 REFERENCES
+
+Second Int. Conf. Numerical Ship Hydrodynamics, ed. J. V. Wehausen & N.
+Salvesen, pp. 136-56, Berkeley: University Extension Publications, University
+of California, Berkeley.
+
+Price, W. G. & Bishop, R. E. D. (1974). Probabilistic Theory of Ship Dynamics.
+London: Chapman and Hall Ltd.
+
+Roshko, A. (1961). Experiments on the flow past a circular cylinder at very high
+Reynolds number. 7. Fluid Mech., 10, 345-56.
+
+Routh, E. J. (1955). Advanced Dynamics of a System of Rigid Bodies. New York:
+Dover Publication.
+
+Salvesen, N., Tuck, E. O. & Faltinsen, O. M. (1970). Ship motions and sea
+
+"loads. Trans. SNAME, 78, 250-87.
+
+Sarpkaya, T. (1978). Fluid forces on oscillating cylinders. J. Waterway, Port,
+Coastal and Ocean Division of ASCE, 104, 275-90.
+
+Sarpkaya, T. (1985). Past progress and outstanding problems in time-dependent
+flows about ocean structures. In Proc. Conf. Separated Flow around Marine
+Structures, pp. 1-36, Trondheim: Nor. Inst. Technol.
+
+Sarpkaya, T. (1986). Force on a circular cylinder in viscous oscillatory flow at
+low Keulegan—Carpenter numbers. 7. Fluid Mech., 165, 61-71.
+
+Sarpkaya, T. & Isaacson, M., (1981). Mechanics of Wave Forces on Offshore
+Structures. New York: Van Nostrand Reinhold Company.
+
+Sarpkaya, T. & Shoaff, R. L. (1979). A discrete vortex analysis of flow about
+stationary and transversely oscillating cylinders. Tech. Rep. NPS-69 SL
+79011, Nav. Postgrad. Sch., Monterey, California.
+
+Schlichting, H. (1979). Boundary-Layer Theory. New York: McGraw-Hill Book
+Company.
+
+Schmidt, D. V. & Tilman, P. M. O. (1972). On the development of the
+circulation in water of circular cylinders. Acustica, 27, 14-22.
+
+Schmitke, R. T. & Murdey, D. C. (1980). Seakeeping and Resistance
+Trade-Offs in frigate hull form designs. In Proc. Thirteenth Symp. on Naval
+Hydrodynamics, ed. T. Inui, pp. 455-78. Tokyo: The Shipbuilding Research
+Association of Japan.
+
+Schwartz, L. W. (1974). Computer extension and analytic continuation of Stokes’ ;
+
+expansion for gravity waves. 7. Fluid Mech., 62, 553-78.
+
+Skop, R. A., Griffin, O. M. & Ramberg, S. E. (1977). Streaming predictions for
+the Seacon II Experimental Mooring., In Proc. Offshore Technol. Conf. (OTC),
+paper no. 2884, vol. 3, pp. 61-6. Houston: Offshore Technology Conference.
+
+Smith, P. A. & Stansby, P. K. (1988). Impulsively started flow around a circular
+cylinder by the vortex method. 7. Fluid. Mech., 194, 45-77.
+
+Sortland, B. (1986). Force measurements in oscillatory flow on ship sections and
+circular cylinders in a U-tube water tank. Dr. ing. Thesis, Report No.
+UR-86-52. Dept. of Marine Technology, Nor. Inst. Technol., Trondheim.
+
+Sparks, C. P. (1980). Mechanical behaviour of marine risers mode of influence of
+principal parameters. Trans. ASME, 102, 214-22.
+
+Stokes, G. G. (1851). Trans. Camb. Phil. Soc. 9.8, Mathematical and Physical
+Papers 3,1. .
+
+Strom-Tejsen, J., Yen, H. Y. H. & Moran D. D. (1973). Added resistance in _.
+
+waves. Trans. SNAME, 81, 109-43. .
+Tanaka, N. (1961). A study on the bilge keels. (Part 4. On the eddy making
+
+REFERENCES 323
+
+resistance to the rolling of a ship hull). 7. Soc. Nav. Arch., Japan, 109,
+205-12.
+
+Tanaka, N., Ikeda, Y. & Nishino, K. (1982). Hydrodynamic viscous force acting
+on oscillating cylinders with various shapes. In Proc. 6th Symp. of Marine
+Technology, The Society of Naval Architects of Japan. (Also Rep. Dep. Nav.
+Arch., University of Osaka Prefecture, no. 407, Jan. 1983).
+
+Tasai, F. (1959). On the damping force and added mass of ships heaving and
+pitching, vol. VII, no. 26, Rep. of Res. Inst. for Appl. Mech., Kyushu
+University.
+
+Telionis, D. P. (1981). Unsteady Viscous Flows, New York: Springer-Verlag
+New York Inc.
+
+Telste, J. G. (1987). Inviscid flow about a cylinder rising to a free-surface. 7.
+Fluid Mech. , 182, 149-68.
+
+Verhagen, J. H. G. (1967). The impact of a flat plate on a water surface. 7. Ship.
+Res., 11, 4, 211-23.
+
+Verley, R. L. P. (1982). A simple model of vortex-induced forces in waves and
+oscillating currents. Appl. Ocean Res., 4, 2, 117~20.
+
+Vinje, T. (1980). Statistical distributions of hydrodynamic forces on objects in
+current and waves. Norwegian Maritime Research, 8, 2, 20-6. :
+
+von Karman, T. (1929). The impact of seaplane floats during landing. NACA,
+Technical Note 321, Washington.
+
+Vugts, J. M. (1968). The hydrodynamic coefficients for swaying, heaving and
+rolling cylinders in a free surface. Report No. 112S, Neth. Ship. Ship Res.
+Centre T.N.O.
+
+Wagner, H. (1932). Uber Stoss- und Gleitvorgange an der Oberfliche von
+Fliissigkeiten. Zeitschr. f. Angewandte Mathematik und Mechanik, 12, 4,
+193-235.
+
+Wang, C.-Y., (1968). On high-frequency oscillating viscous flows. 7. Fluid
+Mech., 32, 55-68.
+
+Wehausen, J. V. & Laitone, E. V. (1960). Surface waves. In Handbuch der
+Physik, vol. 9, pp. 446-778, Berlin: Springer-Verlag.
+
+Wichers, J. E. W. (1982). On the low-frequency surge motions of vessels
+moored in high seas. In Proc. 14th Offshore Technol. Conf., (OTC), paper no.
+4437, vol. 4, pp. 711~34, Houston: Offshore Technology Conference.
+
+Williamson, C. H. K. (1985). Sinusoidal flow relative to circular cylinders. 7.
+Fluid Mech., 155, 141-74.
+
+Yeung, R. (1982). Numerical methods in free-surface flows. Annu. Rev. Fluid
+Mech., 14, 395-442.
+
+Zdravkovich, M. M. (1985). Forces on pipe clusters. In Proc. Conf. Separated
+Flow around Marine Structures, pp. 201-26, Trondheim: Nor. Inst. Technol.
+Zhao, R. & Faltinsen, O. M. (1988). A comparative study of theoretical models
+for slowdrift sway motions of a marine structure. In Proc, Seventh Int. Conf.
+Offshore Mech. and Arctic Engng., (OMAE), vol. 2, pp. 153-58. New York:
+
+The American Society of Mechanical Engineering.
+
+Zhao, R., Faltinsen, O. M., Krokstad, J. R. & Aanesland, V. (1988).
+Wave-current interaction effects on large-volume structures. In Proc. Int.
+Conf. Behaviour of Offshore Structures, (BOSS ’88), ed. T. Moan, N. Janbu &
+O. Faltinsen, vol. 2, pp. 623-38, Trondheim: Tapir Publishers.

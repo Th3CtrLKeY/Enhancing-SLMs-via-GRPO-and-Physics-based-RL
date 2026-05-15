@@ -1,0 +1,61 @@
+bodies can be determined from tests of geometri­ cally similar models, or geosims, provided that the Reynolds number for model and full-scale bodies is the same. However, practical difficulties may prevent this scaling procedure from being carried out. Since it is difficult to find nonvolatile liquids appreciably less viscous than water, the ratio of model velocity to full-scale velocity must be inversely proportional to the ratio of the lengths. As an example, let us consider a ship or submarine of
+
+Model Testing 
+
+Figure 2.3
+Schoenherr’s flat-plate frictional drag coefficient, compared with various experimental results and the Blasius boundary-layer theory. Note 
+that transition occurs between R = 10
+5 and 2 × 10
+6, depending on the plate roughness and ambient turbulence. For references to the experi­
+mental data see Todd (1967), figure 3.
+
+Chapter 2
+100 m length, moving at 10 m/s or 20 knots; if a 10 m model of the same 
+vessel is to be tested in water at the same Reynolds number, it must move 
+with a velocity of 100 m/s or 200 knots.
+This difficulty is usually overcome by separating the total viscous drag 
+into two components, frictional drag and pressure drag. These can be 
+defined as the longitudinal components of the forces acting on the body 
+due respectively to tangential shear stresses and normal pressure stresses. 
+We assume that the tangential stress is the only component affected by the 
+Reynolds number and, moreover, that the resulting frictional-drag force 
+is equal to that of a flat plate of equal area and Reynolds number. The 
+remaining force component, due to normal pressure stresses acting on the 
+body surface, will depend on the form of the body; for this reason it is 
+often called the form drag or pressure drag. In the case of a streamlined body 
+the form or pressure drag can be assumed independent of the Reynolds 
+number over the range where the boundary layer is thin compared to the 
+body dimensions, typically for R > 105. On the other hand, for a bluff 
+body the possible dependence of the point of separation on R must be 
+recognized.
+With these assumptions, the total drag coefficient can be written in the 
+form
+C
+R
+C
+R
+C
+D
+F
+P
+( )
+( )
+,
+=
++
+	
+(15)
+where CF is the flat-plate frictional-drag coefficient defined in the last 
+section, and plotted for a wide range of Reynolds numbers in figure 2.3. The 
+pressure-drag coefficient Cp can be determined, for the body in question, 
+by performing a model test at a convenient Reynolds number and by using 
+data such as that in figure 2.3 to predict the corresponding value of CF.
+For streamlined three-dimensional bodies with maximum thickness less 
+than about one fifth of the length, the frictional drag is dominant and 
+the drag coefficient can be predicted from the flat-plate drag coefficient 
+CF. The pressure drag is more important for two-dimensional cylinders or 
+struts, because of the increased obstruction of the flow past the body in two 
+dimensions. Figure 2.4 shows the total drag coefficient for a circular cylin­
+der, two streamlined struts with thickness-length ratios of 1/2 and 1/4, and 
+the limiting case of zero thickness given by twice the flat-plate frictional 
+drag coefficient. This figure illustrates the conflicting roles of transition to

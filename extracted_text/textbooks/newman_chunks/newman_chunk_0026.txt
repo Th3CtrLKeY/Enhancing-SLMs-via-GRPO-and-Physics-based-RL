@@ -1,0 +1,65 @@
+the lift and drag coefficients can be obtained experimentally by placing a scale model in a wind tunnel or water tunnel. The angle of attack can be varied by a suitable arrangement and the force components measured with dynamometers. Here again, however, there is a practical difficulty in preserving the full-scale Reynolds number. Thus the drag is generally treated as for a streamlined nonlifting body, accounting for the Reynolds number dependence simply in terms of the frictional drag of a
+
+Chapter 2
+flat plate at zero angle of attack. The remaining pressure drag is assumed to 
+depend only on the angle of attack, and therefore
+C
+R
+C
+R
+C
+D
+F
+P
+( , )
+( )
+( ).
+α
+α
+
++
+	
+(18)
+Usually the lift coefficient is assumed to depend only on the angle of attack, 
+and to be independent of the Reynolds number, in the form
+C
+R
+C
+L
+L
+( , )
+( ).
+α
+α
+
+	
+(19)
+In practice, many hydrofoils are of large span, relative to their chord. 
+Under these circumstances the flow at each section along the span is 
+approximately two-dimensional, and the total three-dimensional force 
+coefficients can be estimated by integration of the sectional lift and drag 
+coefficients along the span. The differential projected area dS is propor­
+tional to the product of the local chord length and the differential element 
+of the distance along the span. Thus the two-dimensional sectional lift and 
+drag coefficients nondimensionalized in terms of the local chord lengths 
+are consistent with the definition of the total force coefficients based on 
+the planform area S.
+Typical experimental results for the sectional lift and drag coefficients 
+are reproduced in figures 2.6 and 2.7, for the foil geometry shown in fig­
+ure 2.5. The validity of the approximations (18–19), over a limited range 
+of Reynolds numbers, can be judged from figures 2.6 and 2.7. For small 
+angles of attack the lift coefficient shown in figure 2.6 is insensitive to the 
+Reynolds number, and CL increases in a linear manner with the angle of 
+attack. As the angle of attack increases, however, the streamlined effect of 
+the foil diminishes, and ultimately separation, or stall, occurs with a dra­
+matic reduction in the lift coefficient. The point at which stall takes place 
+is sensitive to the Reynolds number, as well as to the ambient turbulence of 
+the fluid and to the roughness of the foil surface; this situation is analogous 
+to the drag coefficient for a sphere or other bluff body.
+Figure 2.7 shows the drag coefficient. For small positive or negative 
+angles of attack where the lift force is small, the drag coefficient is insensi­
+tive to the Reynolds number and takes a value comparable to the flat plate 
+frictional drag coefficient. As stall is approached, the drag goes up apprecia­
+bly and in a manner sensitive to the Reynolds number. Since the magnitude 
+of the drag coefficient is small by comparison to the lift, these effects are of 
+less importance.

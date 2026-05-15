@@ -1,0 +1,151 @@
+(sin ) sin . ′ + = Θ Θ (66) Solutions of the second equation are the Legendre functions P C n n n(cos ), ( ), θ where = + 1 and the Legendre functions of the second kind Qn(cos θ). If we require the solution to be regular for 0 ≤ θ ≤ π, only the first functions can be allowed, and n must then be zero or a positive integer. The first equation now takes the form
+
+The Motion of an Ideal Fluid 
+
+d
+dr r R
+Rn n
+(
+)
+(
+)
+,
+
+
+
+′ −
++
+=
+	
+(67)
+and solutions are clearly given by
+R
+r
+R
+r
+n
+n
+=
+=
++
+,
+/
+.
+
+
+Thus, with An and Bn a set of undetermined constants, the most general 
+solution for the velocity potential ϕ(r, θ) or (60) is
+φ
+θ
+=
++
++
+=
+∞
+∑P
+A r
+B
+r
+n
+n
+n
+n
+n
+n
+(cos )[
+/
+].
+
+
+(68)
+The Legendre functions Pn(x), with n an integer, are polynomials in x; the 
+first three of these are
+P x
+P x
+x
+P x
+x
+
+
+
+
+
+
+2 3
+
+( )
+,
+( )
+,
+( )
+(
+).
+=
+=
+=
+−
+These polynomials are orthogonal in the interval −1 < x < + 1, and the term 
+with n = 1 in (68) is the only member of this series that can be proportional 
+to cos θ as required by the condition (62) at infinity. Thus, the remaining 
+coefficients for n > 1 must vanish in (68). The solution of (60–62) is there­
+fore given by the potential
+φ
+θ
+=
++
+
+
+
+
+U
+r
+r
+r
+cos
+.
+
+
+
+
+
+(69)
+This potential is recognized as the superposition of a dipole and a uniform 
+stream; cf. equation (38).
+The term in (68) proportional to A0 is a constant, and in (69) this has 
+been set equal to zero. The corresponding term B0/r is a source, which is 
+ruled out here because the sphere has constant volume. An alternative 
+problem would be the pulsation of a spherical bubble of gas within the 
+fluid, where the source term would be the appropriate solution.
+For polar coordinates (r, θ) in two dimensions, the analog to (68) is the 
+expansion
+φ
+θ
+=
++
++
++
+=
+∞
+∑cos
+[
+/
+]
+log
+n
+A r
+B
+r
+A
+B
+r
+n
+n
+n
+n
+n 1
+
+
+(70)
+together with a similar series with cos nθ replaced by sin nθ. This is equiv­
+alent to expressing the complex potential in its most general form as a 
+Laurent series plus a logarithmic source term.

@@ -1,0 +1,35 @@
+(159) for i, j = 1, 3, 5, as ω → 0, with mij the double-body added mass. For low-frequency motions in the vertical plane (heave, roll, or pitch), symmetry requires the phase of the image body to be opposite that of the real body, as shown in figure 6.21. In this case the body plus its image can Figure 6.21 The low-frequency limit ω → 0 for surge, sway, or yaw (left), and for heave, roll, or pitch (right).
+
+Chapter 6
+still be regarded as a double body in an unbounded flow, but the mode of 
+motion corresponds to an oscillatory dilation of the body. The potentials ϕj 
+must be derived separately, and the resulting added-mass coefficients aij are 
+not related to the corresponding values of mij. As a particular example, the 
+solution for heave will require a net oscillatory source strength to match 
+the changing volume of the double body, with a completely different farfield behavior relative to the dipole-like potentials (4.123 and 4.129).
+The opposite situation applies in the high-frequency limit (158), where 
+the potential must be odd in y, and the resulting asymmetry requires the 
+image phase to be as shown in figure 6.22. Here, the vertical modes of 
+motion correspond to those of a rigid double body, and thus (159) will apply 
+for i, j = 2, 4, 6, as ω → ∞. On the other hand, the horizontal modes corre­
+spond to shearing deflections of the double body that cannot be related to 
+the potentials obtained in chapter 4 or to the resulting values of mij.
+Comparing figures 6.21 and 6.22 shows that the added-mass coefficients 
+aij must differ for ω → 0 and ω → ∞, since different types of double-body 
+motions result in these two limits. It follows that the added-mass coeffi­
+cients must depend on ω, in order to pass from one limit to the other as 
+0 < ω < ∞.
+The damping coefficients vanish at the two limits, since the respective 
+double-body flows are in an unbounded fluid without waves. Since the 
+damping coefficients are greater than zero for intermediate frequencies, 
+these too must depend on ω.
+Many investigations have been carried out to compute the damping and 
+added-mass coefficients of particular body forms, as functions of frequency. 
+The majority of this work pertains to two-dimensional cylinders in deep 
+water. Several references and examples are given by Wehausen (1971).
+For the two-dimensional case, Vugts (1968) has made extensive calcula­
+tions; some of these are reproduced by Wehausen (1971) and in a revised 
+form in figure 6.23. In three dimensions systematic calculations have been 
+Figure 6.22
+The high-frequency limit ω → ∞ for surge, sway, or yaw (left), and heave, roll, or 
+pitch (right).

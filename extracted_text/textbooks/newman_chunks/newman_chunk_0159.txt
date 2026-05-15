@@ -1,0 +1,154 @@
+= θ θ θ θ (94) to derive from (89) the recursion relation G G G n d n n n n + − + − = = ≥ ∫ cos cos , . χ θ θ π (95) Using the addition formula sin( ) sin( ) cos sin , n n n + + − − = χ χ χ χ (96) we find that (93) satisfies (95). Since it is consistent with (90–92), it must hold in general.
+
+Chapter 5
+The last results suggest a Fourier series approach which leads to par­
+ticularly simple results. In dimensional coordinates, with x
+l
+= 1
+2 cosθ, the 
+vortex strength can be expanded in the following trigonometric series:
+γ
+θ
+θ
+=
+
+
+
++
+
+
+=
+∞
+∑
+
+
+
+
+
+U
+A
+A
+n
+n
+n
+cot
+sin
+. 	
+(97)
+This series has been chosen so that each term satisfies the Kutta condition 
+at the trailing edge θ = π. The first term is proportional to the flat-plate load 
+distribution (42), and represents the flat plate if A0 = α. The remaining terms 
+in (97) vanish at the leading edge, and this infinite series is a complete Fou­
+rier series representation for any reasonable vortex distribution vanishing 
+at the leading and trailing edges; thus, it follows that (97) can be used to 
+represent practically any realistic vortex distribution, with the leading-edge 
+singularity absorbed in the first term.
+Using equation (60), the vertical velocity is given by
+v
+d
+= −
+−
+∫
+
+
+
+
+
+
+
+π
+γ θ
+θ
+θ
+θ
+θ
+π
+(
+)sin
+cos
+cos
+.
+−
+	
+(98)
+Substitute (97) for γ, and use (89), (93) and the trigonometric relations
+cos
+sin (
+)
+cos
+sin (
+)
+sin
+sin
+cos
+n
+n
+n
+−
+−
++
+= ±
+
+
+
+θ
+θ
+θ
+θ 	
+(99)
+and
+cot
+cos
+sin
+.
+
+
+
+θ
+θ
+θ
+
+
+
+=
++
+	
+(100)
+Then it follows from (98) that
+v
+UA
+U
+A
+n
+n
+= −
++
+∞
+∑
+
+
+cos
+.
+θ 	
+(101)
+Alternatively, from the boundary condition (22),
+d
+dx
+A
+A
+n
+n
+η
+θ
+=
+−
+∞
+∑
+
+
+cos
+. 	
+(102)
+Hence the coefficients An can be related to the slope of the mean-camber 
+line, from the usual orthogonality property of Fourier coefficients, by 
+means of the equations

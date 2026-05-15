@@ -1,0 +1,51 @@
+What happens when t=}? (c) Assume that the wave numbers k,, k2, k3 and k, can be used as an approximation for estimating the wavelengths of the wave systems along the track of a three-dimensional harmonically oscillating source with mean forward speed in deep water. Determine how this agrees with the results in Figs. 4.10 and 4.11. Discuss the phase velocity direction of the transverse wave systems and check if this agrees with the arrows in Figs. 4.10 and 4.11.
+
+NUMERICAL METHODS
+
+(d) Derive asymptotic expressions for k;, k2, k3 and k, when
+t— 0. Discuss the results.
+
+(e) What are the values of k,, k2, k3 and k, when w, = 0 and U is
+finite? What does this say about the wavelength of the wave
+system along the track of a three-dimensional steady source
+with mean forward speed in deep water and with free-surface
+effects?
+
+5 SECOND-ORDER NON-LINEAR
+PROBLEMS
+
+The most common way to solve non-linear wave-structure problems in
+ship and offshore hydrodynamics is to use perturbation analysis with the
+wave amplitude as a small parameter. Potential theory is assumed and
+the problem is solved to second-order in. incident wave amplitude. This
+is a powerful method that gives a solution for several practical problems.
+
+The first-order solution is the linear solution which we have described
+in chapters 2, 3 and 4. In the linear solution, both the free-surface
+condition and the body boundary condition are satisfied on the mean
+position of the free-surface and the submerged hull surface respectively.
+Further, the fluid pressure and the velocity of fluid particles on the
+free-surface are linearized. What we do in a second-order theory is to
+account more properly for the zero-normal flow condition through the
+body at the instantaneous position of the body, to approximate more
+accurately the fluid pressure being equal to atmospheric pressure on the
+instantaneous position of the free-surface and to account more properly
+for non-linearities in the velocity of fluid particles on the free-surface.
+However, we are not ‘solving the problem exactly. In a second-order
+theory we keep all terms in the velocity potential, fluid pressure and
+> loads that are either. linear with the wave amplitude or proportional
+e square. > of 1 the wave amplitude. The solution of the second-order
+problem results in mean forces, and forces oscillating with difference
+frequency and sum frequencies in addition to the linear solution. With a
+difference or a sum frequency we mean either the difference or the sum
+of two frequencies used in describing the wave spectrum.
+
+Mean and slowly-varying wave loads (difference frequency loads) are
+of importance in several contexts for marine structures. Examples are in
+the design of mooring and thruster systems, analysis of offshore loading
+systems, evaluation of towing of large gravity platforms from the
+fabrication site to the operation site, added resistance of ships in waves,
+performance of submarines close to the free-surface and analysis of
+slowly oscillating heave, pitch and roll of large-volume structures with
+low waterplane area. Sum frequency forces can excite resonant oscillations of TLPs in heave, pitch and roll. This is referred to as ‘springing’
+in the literature and can contribute to fatigue of tethers.

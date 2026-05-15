@@ -1,0 +1,931 @@
+[Page 1]
+⇀ 
+Lecture 20 
+- Marine Hydrodynamics 
+Lecture 20 
+Chapter 6 - Water Waves 
+6.1 Exact (Nonlinear) Governing Equations for 
+Surface Gravity Waves, Assuming Potential Flow 
+Free surface definition 
+,
+(x
+B 
+
+)
+,
+,
+,
+(
+or
+)
+,
+,
+( 
+=
+= 
+t
+z
+y
+x
+F
+t
+z
+x
+y η 
+x 
+y 
+y 
+z 
+Unknown variables 
+Velocity ﬁeld: 
+Position of free surface: 
+Pressure ﬁeld: 
+Governing equations 
+Continuity: 
+Bernoulli for P-Flow: 
+Far way, no disturbance: 
+y, z,t) = 0 
+v (x, y, z, t) =  ∇φ (x, y, z, t) 
+y = η (x, z, t) or  F (x, y, z, t) = 0  
+p (x, y, z, t) 
+∇2φ = 0  y < η  or F <  0 
+∂φ 
+
+
+p−pa
++ |∇φ| +
++ gy = 0;  y < η  or F <  0
+∂t 
+
+ρ 
+∂φ/∂t, ∇φ → 0 and p = 
+pa 
+− ρgy 
+ 
+ 
+atmospheric 
+hydrostatic 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+ 
+   
+ 
+
+ 
+  
+    
+Boundary Conditions 
+1. On an impervious boundary B (x, y, z, t) = 0, we have KBC: 
+⃗v n
+·
+· ˆ =  ∂φ 
+⃗ (⃗
+· n x, t) =  Un
+ˆ =  ∇φ n
+= U x, t) ˆ (⃗
+on B = 0  
+∂n 
+Alternatively: a particle P on B remains on B, i.e., B is a material surface. For 
+example if P is on B at t = t0, P stays on B for all t. 
+B(⃗xP , t0) = 0, then B(⃗xP (t), t) = 0 for all t, 
+so that, following P B is always 0. 
+DB 
+∂B 
+∴ 
+=
+ + (∇φ · ∇) B = 0  on  B = 0  
+Dt 
+∂t 
+For example, for a ﬂat bottom at y = −h ⇒ B = y + h = 0  ⇒ 
+DB
+∂φ
+∂ 
+∂φ 
+=
+(y + h)
+= 0
+ 
+⇒ 
+= 0
+ 
+on
+ 
+B = y + h = 0  
+Dt 
+∂y
+∂y 
+∂y 
+=1 
+2. On the free surface, y = η or F = y − η(x, z, t) = 0 we have KBC and DBC. 
+KBC: free surface is a material surface, no normal velocity relative to the free surface. 
+A particle on the free surface remains on the free surface for all times. 
+DF
+ 
+D
+ 
+∂φ
+ 
+∂η
+ ∂φ
+∂η
+ ∂φ
+∂η
+ 
+Dt = 0 =  Dt (y − η) =  ∂y 
+ 
+− ∂t − ∂x ∂x 
+ 
+− ∂z ∂z 
+ 
+on y = 
+η 
+ 
+still 
+vertical 
+slope 
+slope 
+unknown 
+of f.s. 
+of f.s. 
+velocity 
+DBC: p = pa on y = η or F = 0. Apply Bernoulli equation at y = η: 
+∂φ 
+
+
++ 
+|∇φ| 
++ g
+η 
+= pa on y = η 
+∂t 
+
+ 
+still unknown 
+non-linear term
+
+---PAGE BREAK---
+
+[Page 3]
+
+ 
+ 
+ 
+6.2 Linearized (Airy) Wave Theory 
+Assume small wave amplitude compared to wavelength, i.e., small free surface slope 
+A << 1 
+λ 
+SWL 
+crest 
+wavelength 
+Water depth h 
+trough 
+Wave height H 
+λ 
+Wave amplitude A 
+Wave period T 
+H = A/2 
+Consequently 
+φ
+η 
+,
+ << 1 
+λ2/T λ 
+We keep only linear terms in φ, η. 
+∂ 
+For example: () | 
+= ()
++ η 
+()|
++ . . .  Taylor series 
+y=η
+y=0 
+y=0 
+ 
+∂y 
+keep 
+discard
+
+---PAGE BREAK---
+
+[Page 4]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+6.2.1 BVP In this paragraph we state the Boundary Value Problem for linear (Airy) waves. 
+∂ 2 φ 
+∂φ
++ g 
+= 0 
+∂t 2 
+∂y 
+y = 0 
+∇2 φ = 0 
+y = -h 
+∂φ = 0 
+∂y 
+Finite depth h = const 
+Inﬁnite depth 
+GE: 
+∇2φ = 0, −h < y < 0 
+∇2φ = 0,
+y < 0 
+BKBC: 
+∂φ 
+∂y = 0,
+y = −h 
+∇φ → 0,
+y →−∞ 
+FSKBC: 
+FSDBK: 
+∂φ 
+∂y = ∂η 
+∂t ,
+y = 0  
+∂φ 
+∂t + gη = 0,
+y = 0  
+⎫ 
+⎬ 
+⎭ → ∂2φ 
+∂t2 + g ∂φ 
+∂y = 0  
+Introducing the notation {} for inﬁnite depth we can rewrite the BVP: 
+Constant ﬁnite depth h 
+{Inﬁnite depth}
+∇2φ = 0, −h < y <  0 
+∇2φ = 0,
+y <
+
+(1) 
+∂φ 
+∂y = 0,
+y
+ = −h 
+{∇φ → 0,
+y
+ → −∞} 
+(2) 
+∂2φ
+∂φ
+ 
+∂2φ
+ ∂φ
+ 
++ g 
+= 0,
+y
+ = 0  
++  g 
+= 0,
+y
+ = 0 
+(3)
+∂t2 
+∂y 
+∂t2 
+∂y 
+Given φ calculate: 
+1 ∂φ 
+1 ∂φ 
+η (x, t) =  − 
+ 
+η (x, t) =  − 
+ 
+(4) 
+g ∂t  y=0 
+g ∂t  y=0 
+∂φ 
+∂φ 
+p − pa = −ρ 
+− ρgy
+ 
+p
+ 
+− pa = −ρ 
+− ρgy
+ 
+(5)
+∂t 
+ 
+∂t 
+ 
+    
+    
+hydrostatic 
+hydrostatic 
+dynamic 
+dynamic
+
+---PAGE BREAK---
+
+[Page 5]
+ 
+  
+ 
+6.2.2 Solution Solution of 2D periodic plane progressive waves, applying separation of 
+variables. 
+We seek solutions to Equation (1) of the form eiωt with respect to time. Using the 
+KBC (2), after some algebra we ﬁnd φ. Upon substitution in Equation (4) we can 
+also obtain η. 
+gA 
+cosh k (y + h) 
+gA 
+ky
+φ = 
+sin (kx − ωt) 
+φ = 
+sin (kx − ωt) e
+ω 
+cosh kh 
+ω 
+⎧
+⎫ 
+⎨
+⎬ 
+η = A cos (kx − ωt) 
+η = A cos (kx − ωt)
+ 
+ 
+⎩ 
+⎭ 
+using (4) 
+using(4) 
+where A is the wave amplitude A = H/2. 
+Exercise Verify that the obtained values for φ and η satisfy Equations (1), (2), and 
+(4). 
+6.2.3 Review on plane progressive waves 
+(a) At t = 0 (say), η = A cos kx → periodic in x with wavelength: λ = 2π/k 
+Units of λ : [L] 
+λ 
+K = wavenumber = 2 /λ 
+[L-1]
+k
+x 
+(b) At x = 0 (say), η = A cos ωt → periodic in t with period: T = 2π/ω 
+Units of T : [T] 
+T 
+ω = frequency = 2 /T 
+ [T-1], e.g. rad/sec 
+t 
+(c) η = A cos k x − ω
+k t 
+ω 
+ L  
+Units of 
+: 
+k 
+T 
+ω 
+ω 
+Following a point with velocity 
+, i.e., xp = 
+t + const, the phase of η does 
+k
+k 
+ω 
+λ 
+not change, i.e., 
+= 
+≡ Vp ≡ phase velocity. 
+k
+T
+
+---PAGE BREAK---
+
+[Page 6]
+ 
+6.2.4 Dispersion Relation 
+So far, any ω, k combination is allowed. However, recall that we still have not made 
+use of the FSBC Equation (3). Upon substitution of φ in Equation (3) we ﬁnd that 
+the following relation between h, k, and ω must hold: 
+∂2φ
+ ∂φ
+ 
++ g 
+= 0  
+−→ 
+− ω2 cosh kh + gk sinh kh = 0  ⇒ ω2 = gk tanh kh 
+∂t2 
+∂y 
+↑ 
+gA
+φ= ω sin(kx−ωt)f(z) 
+• This is the Dispersion Relation 
+ω2 = gk tanh kh 
+ω2 = gk 
+(6) 
+Given h, the Dispersion Relation (6) provides a unique relation between ω and k, 
+i.e., ω = ω(k; h) or  k = k(ω; h). 
+• Proof 
+
+kh 
+C 
+ω2h 
+C ≡ 
+=
+(kh) tanh (kh) 
+g 
+ 
+from (6) 
+tanh kh 
+C 
+= tanh kh 
+kh 
+kh 
+→ obtain unique solution for k 
+kh =f(c) 
+• Comments 
+- General As ω ↑ then k ↑ , or equivalently as T ↑ then λ ↑ . 
+λ
+ω
+g 
+g 
+- Phase speed Vp ≡ 
+= 
+= 
+tanh kh 
+Vp = 
+T
+k
+k 
+k 
+Therefore as T ↑ or as λ ↑ , then Vp ↑ , i.e., longer waves are ‘faster’ in terms of 
+phase speed. 
+- Water depth eﬀect For waves the same k (or λ), at diﬀerent water depths, as h ↑ 
+then Vp ↑ , i.e., for ﬁxed k Vp is fastest in deep water. 
+- Frequency dispersion Observe that Vp = Vp(k) or  Vp(ω). This means that waves of 
+diﬀerent frequencies, have diﬀerent phase speeds, i.e., frequency dispersion.
+
+---PAGE BREAK---
+
+[Page 7]
+
+
+  
+    
+ 
+6.2.5 Solutions to the Dispersion Relation : ω2 = gk tanh kh 
+Property of tanh kh: 
+long waves 
+shallow water 
+sinh kh 
+1 − e−2kh ∼ 
+kh for kh << 1. In practice 
+h < λ/20 
+tanh kh =
+= 
+= 
+cosh kh 
+1 +  e−2kh 
+1 for kh >∼ 3. In practice 
+h >  λ 
+
+short waves 
+deep water 
+Shallow water waves 
+or long waves 
+Intermediate depth 
+or wavelength 
+Deep water waves 
+or short waves 
+kh << 1 
+∼ h < λ/20 
+Need to solve ω2 = gk tanh kh 
+given ω, h for k 
+(given k, h for ω - easy!) 
+kh >> 1 
+∼ h > λ/2 
+ω2 ∼= gk · kh → ω = √ gh k 
+λ = √ gh T 
+(a) Use tables or graphs (e.g.JNN ﬁg.6.3) 
+ω2 
+= gk tanh kh = gk∞ 
+⇒ k∞ 
+k = λ 
+λ 
+= Vp 
+Vp∞ 
+= tanh kh 
+∞ 
+ω2 = gk 
+λ = g 
+2π T 2 
+ 
+λ(in ft.) ≈ 5.12T 2 (in sec.) 
+ 
+(b) Use numerical approximation 
+(hand calculator, about 4 decimals ) 
+i. Calculate C = ω2h/g 
+ii. If C >  2: ”deeper” ⇒ 
+kh ≈ C(1 + 2e−2C − 12e−4C + . . .) 
+If C <  2: ”shallower” ⇒ 
+kh ≈ 
+√ 
+C(1 + 0.169C + 0.031C2 + . . .) 
+No frequency dispersion 
+Vp = 
+ 
+gh 
+Frequency dispersion 
+Vp = 
+ g 
+k tanh kh 
+Frequency dispersion 
+Vp = 
+ g 
+2π λ
+
+---PAGE BREAK---
+
+[Page 8]
+6.3 Characteristics of a Linear Plane Progressive Wave 
+2π 
+k = λ 
+MWL 
+2π 
+ω = T 
+H = 2A 
+Deﬁne U ≡ ωA 
+Linear Solution: 
+η = A cos (kx − ωt) ;  φ = Ag cosh k (y + h) sin (kx − ωt) , where ω2 = gk tanh kh 
+ω 
+cosh kh 
+6.3.1 Velocity ﬁeld 
+A 
+Vp 
+h 
+x 
+y 
+λ 
+η(x,t) = y 
+Velocity on free surface ⃗v(x, y = 0, t) 
+u(x, 0, t) ≡ Uo = Aω 
+
+tanh kh cos (kx − ωt) 
+v(x, 0, t) ≡ Vo = Aω sin (kx − ωt) =  ∂η 
+∂t 
+Velocity ﬁeld ⃗v(x, y, t) 
+u = ∂φ 
+∂x = Agk 
+ω 
+cosh k (y + h) 
+cosh kh 
+cos (kx − ωt) 
+= Aω 
+ 
+U 
+cosh k (y + h) 
+sinh kh 
+cos (kx − ωt) ⇒ 
+u 
+Uo 
+= cosh k (y + h) 
+cosh kh 
+⎧ 
+⎪
+⎨ 
+⎪
+⎩ 
+∼ eky 
+deep water 
+∼ 1 
+shallow water 
+v = ∂φ 
+∂y = Agk 
+ω 
+sinh k (y + h) 
+cosh kh 
+sin (kx − ωt) 
+= Aω 
+ 
+U 
+sinh k (y + h) 
+sinh kh 
+sin (kx − ωt) ⇒ 
+v 
+Vo 
+= sinh k (y + h) 
+sinh kh 
+⎧ 
+⎪
+⎨ 
+⎪
+⎩ 
+∼ eky 
+deep water 
+∼ 1 +  y 
+h 
+shallow water 
+• u is in phase with η 
+• v is out of phase with η
+
+---PAGE BREAK---
+
+[Page 9]
+Velocity ﬁeld ⃗v(x, y) 
+Shallow water 
+Intermediate water 
+Deep water
+
+---PAGE BREAK---
+
+[Page 10]
+6.3.2 Pressure ﬁeld 
+• Total pressure p = pd − ρgy. 
+• Dynamic pressure pd = −ρ ∂φ .
+∂t 
+• Dynamic pressure on free surface pd(x, y = 0, t) ≡ pdo 
+Pressure ﬁeld 
+Shallow water 
+Intermediate water 
+Deep water 
+pd = ρgη 
+pd = ρgA cosh k (y + h) 
+cosh kh 
+cos (kx − ωt) 
+= ρg cosh k (y + h) 
+cosh kh 
+η 
+pd = ρgekyη 
+pd 
+pdo 
+same picture as u 
+Uo 
+pd(−h) 
+pdo 
+= 1 (no decay) 
+pd(−h) 
+pdo 
+= 
+
+cosh kh 
+pd (−h) 
+pdo 
+= e −ky 
+p = 
+ρg(η − y) 
+
+
+
+ 
+“hydrostatic” approximation 
+p = ρg 
+ 
+ηeky − y 
+ 
+
+<<
+kh 
+y 
+d
+p 
+)
+( h
+p − 
+y 
+o 
+d
+p 
+gh
+V p = 
+y 
+x
+)
+( h
+p − 
+∇ 
+
+>>
+kh 
+y 
+o
+d
+p 
+)
+( h
+p − 
+y 
+o 
+d
+p 
+π 
+λ 
+
+g
+V p = 
+y 
+x
+)
+( h
+p − 
+∇ 
+Pressure ﬁeld in deep water 
+Pressure ﬁeld in shallow water
+
+---PAGE BREAK---
+
+[Page 11]
+ 
+ 
+ 
+  
+  
+  
+  
+6.3.3 Particle Orbits (‘Lagrangian’ concept) 
+Let xp(t), yp(t) denote the position of particle P at time t. 
+Let (¯x; ¯y) denote the mean position of particle P. 
+The position P can be rewritten as xp(t) =  x¯ +  x′(t), yp(t) =  y¯ +  y′(t), where 
+(x′(t), y′(t)) denotes the departure of P from the mean position. 
+In the same manner let ⃗v ≡ ⃗x, ¯ 
+v(¯ y, t) denote the velocity at the mean position and 
+⃗vp ≡ ⃗v(xp, yp, t) denote the velocity at P. 
+)
+,
+( y
+x 
+(x 
+)'
+,' y 
+P (x , y ) 
+⃗vp = ⃗v(¯x + x ′ , y¯ +  y ′, t) =⇒ 
+P
+P 
+TSE 
+∂⃗v 
+′ 
+∂⃗v 
+′
+⃗vp = ⃗x,  ¯ 
+x, ¯ 
++
+(¯x, y, t
+¯ ) y
+v (¯ y, t) +  
+(¯
+ 
+y, t) x 
++ . . .  ⇒ 
+∂x 
+∂y 
+ignore - linear theory 
+∼ v
+⃗vp = ⃗ 
+To estimate the position of P, we need to evaluate (x′(t), y′(t)): 
+x ′ = 
+dt u (¯ y, t) =  
+cosh k (¯y + h)
+¯ − ωt) ⇒
+x, ¯ 
+dt ωA 
+cos (kx
+sinh kh 
+cosh k (¯y + h) 
+= −A 
+sin (kx¯ − ωt)
+sinh kh 
+y ′ = 
+x, ¯ 
+dt ωA sinh k (¯y + h)
+dt v (¯ y, t) =  
+sin (kx¯ − ωt) ⇒ 
+sinh kh 
+sinh k (¯y + h) 
+= A 
+cos (kx¯ − ωt)
+sinh kh 
+Check: On ¯y = 0, y′ = A cos (kx¯ − ωt) =  η, i.e., the vertical motion of a free surface 
+particle (in linear theory) coincides with the vertical free surface motion. 
+It can be shown that the particle motion satisﬁes 
+x′2 
+y′2 
+(xp − x¯)2 
+(yp − y¯)2 
++
+ = 1
+ 
+⇔ 
++
+ 
+= 1
+ 
+a2 
+b2 
+a2 
+b2 
+cosh k (¯y + h) 
+sinh k (¯y + h)
+where a = A 
+and b = A 
+, i.e., the particle orbits form 
+sinh kh 
+sinh kh 
+closed ellipses with horizontal and vertical axes a and b.
+
+---PAGE BREAK---
+
+[Page 12]
+crest 
+(a) deep water kh >> 1: a = b = Ae 
+circular orbits with radii Ae  decreasing 
+exponentially with depth 
+ky 
+ky 
+V p 
+A 
+A 
+ky
+Ae 
+trough 
+A 
+(b) shallow water kh << 1: 
+A
+y 
+a = 
+=  const. ; b = A(1+ )
+kh 
+h 
+decreases linearly 
+Vp = gh 
+with depth 
+A/kh 
+V p 
+V p 
+A 
+P 
+Q
+Q 
+S 
+S 
+(c) Intermediate depth 
+R 
+R
+R 
+λ
+
+---PAGE BREAK---
+
+[Page 13]
+6.3.4 Summary of Plane Progressive Wave Characteristics 
+f(y) 
+Deep water/ short waves 
+kh > π (say) 
+Shallow water/ long waves 
+kh << 1 
+cosh k(y+h) 
+cosh kh 
+= f1 (y) ∼ 
+e.g.pd 
+eky 
+
+cosh k(y+h) 
+sinh kh 
+= f2 (y) ∼ 
+e.g.u, a 
+eky 
+
+kh 
+sinh k(y+h) 
+sinh kh 
+= f3 (y) ∼ 
+e.g. v, b 
+eky 
+1 +  y 
+h
+
+---PAGE BREAK---
+
+[Page 14]
+C (x) = cos (kx − ωt) 
+(in phase with η) 
+S (x) = sin (kx − ωt) 
+(out of phase with η) 
+η 
+A = C (x) 
+u 
+Aω = C (x) f2 (y) 
+v 
+Aω = S (x) f3 (y) 
+pd 
+ρgA = C (x) f1 (y) 
+y 
+A = C (x) f3 (y) 
+x 
+A = −S (x) f2 (y) 
+a 
+A = f2 (y) 
+b 
+A = f3 (y) 
+b 
+a

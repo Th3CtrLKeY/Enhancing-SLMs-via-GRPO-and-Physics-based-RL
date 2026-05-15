@@ -1,0 +1,129 @@
+speed reduction involuntary, 7-8 voluntary, 7-8, 282, 296 splitter plate, 191-2 springing, 5, 7, 131, 223 Stansby, P. K., 226 Stegun, I. A., 111, 254 Stokes, G. G., 237 Stokes drift velocity, 21-2 strip theory, semi-submersible, 52-3 ship, 50, 56, 197, 200 Strom-Tejsen, J., 146, 151 Strouhal number, 186, 207 circular cylinder, steady current, roughness effect, 207 subcritical flow, circular smooth cylinder, substantial derivative, 14 sum-frequency effects, 168-9 supercritical flow, circular smooth cylinder, 178 : surge, definition, 3, 39, 41
+
+328 INDEX
+
+Tanaka, N., 73, 193, 242, 244
+Tasai, F., 84
+Telionis, D. P., 228-9
+Telste, J. G., 308
+tension leg platform (TLP)
+definition, 1-2
+linear motions and loads, 74-6
+linear vertical excitation force, 62—4
+slow-drift motions, waves and wind,
+170~1
+thruster forces, 270-5
+Coanda effect, 270-2
+current effect, 272—3
+free-surface effect, 273-5, 278
+thruster system, design data, 280-1
+Tilman, P. M. O., 245-6
+towing cable, analysis, 270
+transcritical flow, circular smooth cylinder,
+
+transfer function, 37, 85, 101, 156-9, 294
+turret-moored ship, 278-80
+
+U-tube tank, 86-9, 249-51
+
+van Oortmersen, G., 142
+velocity potential, definition, 13
+ventilation of propeller, 273-5
+Verhagen, J. H. G., 292
+Verley, R. L. P., 248
+
+Vinje, T., 226
+
+Von Karman, T., 287, 296
+vortex decay, 246
+
+vortex streets, von Karman, 184-6
+vorticity, 13, 181-3
+
+Vugts, J. M., 72
+
+Wagner, H., 287-8, 290, 292
+wake flow, 181—7
+velocity, 203-4, 216-17
+Wang, C-Y., 237, 240
+Warsap, J. H., 177
+waterplane area coefficient, 69
+wave-drift damping, 161-4
+mean value, irregular sea, 164
+ship, surge, head sea, regular waves, 162
+vertical circular cylinder, surge, regular
+waves, 163
+wave excitation loads, linear
+long wavelength approximation, 60-2
+relation to damping coefficients, 65-6
+ship, vertical force and pitch moment,
+64-5
+TLP, vertical force, 62-4
+wave excitation loads, non-linear, potential
+flow
+sum-frequency effect, 168-9
+see also drift forces and moments
+wave energy density, 47
+
+wave height,
+most probable largest, 27
+significant, 1, 24
+wave-induced motions, linear
+barge, 89-91, 127-8
+buoy, sway and roll, 95-7
+hydrofoil-catamaran; vertical motions,
+92~
+semi-submersible, beam seas, heave,
+76-9
+semi-submersible, head seas, heave and
+pitch, 79-81
+SES, head seas, heave, 91~2
+ship, heave and pitch, minimalization,
+81-5
+ship, roll, 97-9
+TLP, 74-6
+wave period
+mean (7), 24-5
+mean (7), 24-5
+modal (7), 25
+wave spectrum
+function of frequency of encounter,
+100-1 :
+ISSC, 23-4
+ITTC, 23, 25
+JONSWAP, 25
+Pierson—Moskowitz, 24—5
+short-crested, 27 .
+wave Statistics, significant wave height and
+period, 30
+wave-theory
+forward speed or current-structure
+interaction, 122-6, 128-30
+linear, 16-21; table, 16
+second-order wave elevation, regular
+waves, 21
+Stokes drift velocity, regular waves, 21
+
+Wehauisen, J. V., 111, 123
+Weynberg, P. A., 287-9, 299-300
+whipping, 7
+wind
+
+loads, mean value, 207
+
+slowly varying motions of structures,
+
+166-8
+
+spectrum, Harris, 31
+Wichers, J. E. W., 160, 162
+Williamson, C. H. K., 299
+
+yaw, definition, 3, 39, 41
+Yeung, R., 118, 122
+Yue, D. K. P., 168-9
+Yuhura, T., 291-3
+
+Zdravkovich, M. M., 204-6
+Zhao, R., 121, 125, 132, 146, 158-9, 162,
+164, 233, 235

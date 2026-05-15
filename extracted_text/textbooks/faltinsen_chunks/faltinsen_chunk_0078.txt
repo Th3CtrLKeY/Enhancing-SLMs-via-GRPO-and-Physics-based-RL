@@ -1,0 +1,75 @@
+1.20 3 Fig. 5.22. Wave-drift force F, and wave-drift damping B,,”? in surge for a vertical circular cylinder that is free to surge in linear motions. Incident regular waves. Infinite water depth. Draught = 3R. The lower figure is obtained from the results in the upper figure. (€, = wave amplitude of the incident waves, wo = circular frequency of oscillations of incident waves, U = current velocity. Positive current direction is in the wave propagation direction, D = diameter.)
+
+wok
+Ne
+
+164 SECOND-ORDER NON-LINEAR PROBLEMS
+
+wave-drift damping in an irregular sea we can proceed as for the mean
+force, i.e. we can use an equation similar to (5.28). From this we find
+that the wave-drift damping is proportional to Hy? in an irregular sea.
+Going back to the formula for the standard deviation (equation (5.48))
+and noting that Sp is proportional to Hy* we see that the standard
+deviation of the slow-drift surge motion is proportional to Hy for higher
+
+‘sea states. This is a somewhat unexpected result when we talk about a
+
+second-order quantity, but experiments show the same tendency.
+
+Faltinsen & Zhao (1989) argued that there also ought to be a
+slowly-varying wave-drift damping if there is a slowly-varying excitation
+force. This is a consequence of considering the slow-drift velocity to be
+quasi-steady. Zhao & Faltinsen (1988) showed that the slowly-varying
+wave-drift damping had little influence on the standard deviation of the
+motions while it had a significant effect on the extreme values. The
+results from the simulations showed that the extreme values of the
+motions tended to follow a Rayleigh distribution if slowly-varying
+wave-drift damping was included. This means the most probable largest
+value Xmax in a storm of time duration t can be written as
+
+\
+Xmax = o.(2 log z) (5.50)
+
+where Ty is the natural period of the slow-drift response variable. For a
+storm of duration 10 hours and 7y = 100s this means Xa, = 3.430;,.
+However, more work is needed both hydrodynamically and statistically
+to achieve more accurate and reliable estimates of extreme values for
+slow-drift motions. Equation (5.50) should be understood as a rough
+estimate.
+
+To get good estimates of extreme values of slow-drift motions from
+model tests or numerical simulations a long simulation time is needed.
+Fig. 5.23 presents results from numerical simulations. (Transient effects
+have been excluded.) Each record simulates the response of the same
+system in the same sea state. The differences in the results from one time
+series to another are due to random selection of phase angles and wave
+amplitudes in equation (5.25). The standard deviations are nearly the
+same, while it is obvious that the extreme values differ. About 20
+realizations of the same sea state were used to get good estimates of the
+most probable largest slow-drift motion amplitude.
+
+__If eddy-making damping is important and a frequency domain
+solution is applied (see equation (5.47)), the equivalent linearization
+technique can be used to approximate the eddy-making damping term.
+This will be illustrated by studying slow-drift sway motion of a moored
+ship. For simplicity we will neglect the coupling with yaw and the
+
+SLOW DRIFT MOTIONS IN IRREGULAR WAVES 165
+
+wave-drift damping in sway. The equation of motion can be written as
+
+Here A; is added mass in sway, C2, is restoring coefficient in sway due
+to the mooring system, FS” is the slow-drift excitation force in sway.
+The slow-drift sway motion is denoted by y. The coefficient Bp can be
+expressed as 0.59CpA where p is the mass density of the water, Cp is a
+drag coefficient, and A is the frontal area of the submerged structure
+against the motion. The problem of finding Cp will be addressed in
+
+Slow drift motion
+
+a a, aa Cars |
+le) 2501-0 5002:0 7503-0 10004-0
+Time (s) >
+
+Fig. 5.23. Identical simulations of slow-drift motions of a moored twodimensional body. The differences in the results are due to random
+selection of phase angles and wave amplitudes.

@@ -1,0 +1,141 @@
+profile of the boundary layer grows in the lateral direction proportional to x1/2. The outer limit of the boundary layer is defined roughly by the 0.99 thickness parameter, whereas the displacement thickness represents the outward displacement of the inviscid streamlines. In this figure, the lateral scale is distorted by an amount that depends on the Reynolds number. To Figure 3.6 Development of laminar boundary layer along a flat plate. The lateral scale is magni­ fied as explained in the text.
+
+The Motion of a Viscous Fluid 
+
+get some idea of the magnification, note that if the longitudinal length 
+scale is as represented in this figure full-scale, and if water were flowing 
+past with a velocity of 1 m/s, or 2 knots, the magnification factor for the 
+lateral dimension would be about 1:40. In other words, the displacement 
+thickness at the right-hand side of this figure would be about one quarter 
+of a millimeter.
+Finally, we can consider the drag force exerted on the plate by viscous 
+shear stresses. The appropriate shear stress component is
+τ
+µ
+µ
+ν
+η
+η
+xy
+y
+u
+y
+U U
+x
+d f
+d
+=
+∂
+∂
+=
+=
+=
+(
+/
+)
+(
+/
+)
+(
+/
+)
+,
+/
+
+1 2
+
+
+
+(59)
+or, after a calculation,
+τ
+ρ
+xy
+x
+U R
+=
+−
+0 332
+
+1 2
+.
+,
+/
+	
+(60)
+where Rx = Ux/ν is the local Reynolds number based on distance from the 
+leading edge. The total drag, acting on one side of the plate, is
+D
+bU U
+dx
+x
+b
+lU
+l
+=
+=
+∫
+.
+(
+/ )
+.
+(
+)
+,
+/
+/
+/
+
+
+1 2
+1 2
+
+3 1 2
+µ
+ν
+µρ
+	
+(61)
+where b is the width of the plate. The resulting frictional drag coefficient is
+C
+D
+U
+bl
+Ul
+R
+F =
+=
+=
+−
+
+
+1 328
+1 328
+
+1 2
+1 2
+ρ
+ν
+(
+)
+.
+( /
+)
+.
+.
+/
+/
+	
+(62)
+This curve is shown in figure 2.3 along with experimental values that sup­
+port the theory in the laminar regime. Experimental confirmation for the 
+velocity distribution (figure 3.5) can be found in Schlichting (1968), for 
+Reynolds numbers ranging from 105 to 7 × 105. For Reynolds numbers 
+greater than 2 × 105 but less than about 3 × 106, the flow may be either 
+laminar or turbulent, depending on the degree of roughness of the plate 
+and also on the ambient turbulence level in the incident flow. When the 
+flow becomes turbulent, the Blasius solution is no longer valid and must 
+be replaced by one based upon the analysis of turbulent boundary layers.
+3.15  Laminar Boundary Layers: Steady Two-Dimensional Flow
+The analysis of the laminar boundary layer on a flat plate can be extended 
+to more general steady flows past two-dimensional bodies, such as the flow

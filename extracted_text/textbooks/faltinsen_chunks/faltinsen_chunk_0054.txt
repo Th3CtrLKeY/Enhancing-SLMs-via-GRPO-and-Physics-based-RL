@@ -1,0 +1,99 @@
+finite, the third term in the brackets can be shown to be negligible compared with the last two terms. This means we have shown that the source potential represents outgoing waves far away from the source point. It is also possible to show that the free-surface condition (equation (4.20)) is satisfied. Fig. 4.4 shows a picture of the wave system caused by a source. It is possible to show from equation (4.25) that 14 |e when w—>0 (4.26) Ge7i#t_, late
+
+pee ener
+
+112 NUMERICAL METHODS
+and
+G —iwe l 1 —iwe
+ees R-w when wo (4.27)
+
+The latter means that the integral in (4.25) approaches —2/R’ when
+wo,
+
+Equation (4.26) expresses the source potential as a combination of a
+source in infinite fluid and an image source above the free-surface when
+w—>0. (To be precise 1/R is actually a sink with density 42 (see
+equation (4.1)). However, we use the word ‘source’ for 1/R in this
+context.) This confirms that the velocity potential satisfies the rigid wall
+condition d¢/8z =0 on z =0 when the frequency of oscillation goes to
+zero. This is illustrated in Fig. 4.5.
+
+Equation (4.27) expresses the fact that the source potential is a
+combination of a source in infinite fluid and an image sink above the
+free-surface when w—>. This expression satisfies the free-surface
+condition ¢ = 0 on z= 0. This is illustrated in Fig. 4.6. The solution of
+the velocity potential for the forced heave problem can be written as a
+distribution of sources over the mean wetted hull surface Sp as
+
+P(X, 9, 2350 = Re { f dsQ(s)G(x, y, 23 E(s), n(s); ciye mt
+» (4.28)
+
+where the source function Ge7'” is given by equation (4.25) for the
+
+“0
+~20
+
+Fig. 4.4. Picture of the wave field caused by a harmonically oscillating source
+with zero mean speed.
+
+SOURCE TECHNIQUE 113
+
+iwe
+
+infinite water depth problem. Ge~'” is also called Green function. The
+source density Q(s) is complex with a real and an imaginary part and is
+found by satisfying the body boundary condition. This is done by first
+introducing a normalized source density O(s) so that
+
+Q(sje'" = O(s)@ [3] e" (4.29)
+
+The purpose of the normalization is, as before, to separate out the time
+dependence and the unknown heave motion. The body boundary
+condition leads to an integral equation for O(s) which in general we are
+not able to solve analytically. What we do is to discretize the problem by
+dividing the hull surface into elements, over which we assume the source
+density is constant. Fig. 4.7 shows an example of how a ship hull surface
+
+* IMAGE SOURCE
+N
+
+N
+
+‘
+
+a“
+a“
+
+a
+x “SOURCE
+
+Fig. 4.5. Illustration that a wave source satisfies the rigid wall condition on the
+free-surface when the frequency of oscillation w— 0. The wave
+source consists of a source in infinite fluid and an image source. The
+field point is in the mean free-surface. The solid line that is in the
+same direction as the dashed line from the source point shows the
+velocity vector due to the source. The velocity vector due to the
+image source is illustrated in a similar way. The vertical solid lines
+are the vertical components of the velocity vectors.
+
+* IMAGE SINK
+
+XN
+aN
+DO
+= 2
+“7
+Yo
+«7 SOURCE
+
+Fig. 4.6. Illustration that a wave source satisfies the zero potential condition
+on the free-surface when the frequency of oscillation w — ©, The
+wave source consists of a source in infinite fluid and an image sink.
+The field point is in the mean free-surface. The solid line that is in
+the same direction as the dashed line from the source point shows
+the velocity vector due to the source. The velocity vector due to the
+image sink is illustrated in a similar way. The horizontal and vertical
+solid lines are respectively the horizontal and vertical components of
+the velocity vectors. The total horizontal velocity is zero on the
+free-surface, which means the velocity potential is a constant on the
+free-surface. The constant is chosen to be zero.

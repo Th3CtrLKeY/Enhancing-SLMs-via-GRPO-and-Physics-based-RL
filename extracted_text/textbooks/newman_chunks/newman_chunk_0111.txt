@@ -1,0 +1,103 @@
+the integrand on the right side of (74) is singular in proportion to 1/r2, and when it is multiplied by the area 4πr2, a finite limit will result as ε → 0, whereas the weaker singularity of the second term Figure 4.6 Surfaces of integration for Green’s theorem. In (a) the field point is interior to S, surrounded by a small spherical surface Sε; in (b) the field point is on the boundary surface S and Sε is a hemisphere.
+
+Chapter 4
+will give no contribution. For sufficiently small ε, the potential ϕ may be 
+assumed constant and taken outside of the integral sign, so that the final 
+limiting value of the right-hand side of (74) becomes
+−
+∂
+∂
+= −
+∫∫
+
+
+
+π φ
+φ
+ε
+( , , )
+( , , ).
+x y z
+n r dS
+x y z
+S
+	
+(75)
+Thus, if (x, y, z) is inside S,
+φ
+π
+φ
+φ
+( , , )
+.
+x y z
+n r
+r
+n dS
+S
+= −
+∂
+∂
+−
+∂
+∂
+
+
+
+
+∫∫
+
+
+
+
+(76)
+Equation (76) can be regarded as a representation of the velocity poten­
+tial in terms of a normal dipole distribution of moment ϕ and a source dis­
+tribution of strength − ∂ϕ/∂n distributed over the boundary surface S. Thus, 
+in general, the flow can be represented by a suitable distribution of dipoles 
+and sources on the boundary surface S. By further manipulation with 
+Green’s theorem, one can obtain alternative integrals involving sources or 
+dipoles only, as shown by Lamb (1932). (See problem 13.)
+If the point (x, y, z) is situated on the surface S, the surface Sε is chosen to 
+be a small hemisphere that indents the original surface S inside the source 
+point, as in figure 4.6(b). The contribution from this hemisphere is just half 
+that given by (75), so that (76) is replaced by
+φ
+π
+φ
+φ
+( , , )
+.
+x y z
+n r
+r
+n dS
+S
+= −
+∂
+∂
+−
+∂
+∂
+
+
+
+
+∫∫
+
+
+
+
+(77)
+Here, the surface integral must be defined to exclude the immediate vicinity 
+of the singular point, i.e., the locally-plane infinitesimal surface bounded 
+by the intersection of S and the hemisphere Sε. This situation is analogous 
+to a principal value integral, except that in (77) the precise shape of the 
+excluded infinitesimal area is not important.
+Finally, when the point (x, y, z) is situated outside S, (71) is valid without 
+modification and the left-hand side of (76) or (77) is replaced by zero. Simi­
+lar results hold in two dimensions, with the source potential 1/r replaced 
+by log r and with the surface integrals in the above relations replaced by 
+line integrals; in this case the factors 4π and 2π are multiplied by −1/2, cor­
+responding to the difference in the radial flux between the singularities 1/r 
+and log r.

@@ -1,0 +1,248 @@
+inner region but very close to the body in the outer region. Thus the matching requirement ϕ ε ≪ ≪ Φ , , l r l (24) effectively replaces the missing boundary condition at infinity in the inner problem and at the body in the outer problem. This method is useful because the two separate problems are simpler to solve, compared to the exact solution valid everywhere throughout the fluid. The inner solution is simplified because it is two dimensional,
+
+Hydrodynamics of Slender Bodies 
+
+whereas the outer solution is simplified by replacing the body boundary 
+condition with (24).
+Combining (22) and (24) we get the inner condition for φ1 in the form
+ϕ
+π
+
+
+
+≪
+−
+′S
+r
+l
+r
+l
+log( / ),
+. 	
+(25)
+The appropriate outer solution is a source distribution, along the body 
+length, with the same strength as (25). Using the three-dimensional source 
+potential (4.31), and distributing these along the body axis gives
+ϕ
+π
+ξ
+ξ
+ξ
+
+
+
+1 2
+
+
+( , )
+( )[(
+)
+]
+.
+/
+x r
+S
+x
+r
+d
+l
+=
+′
+−
++
+−
+∫
+	
+(26)
+To confirm that (26) can be matched to the inner solution, it is necessary 
+to develop the inner expansion of (26) for r/l ≪ 1. For this purpose we shall 
+use the relation
+[(
+)
+]
+log
+/
+/
+x
+r
+d
+d
+x
+r
+x
+r
+−
++
+=
+−
++
+−
+
+
+
++
+
+
+
+
+
+
+
+
+
+
+−
+ξ
+ξ
+ξ
+ξ
+
+
+1 2
+
+1 2
+
+
+, 	
+(27)
+which can be verified directly by differentiation. Substituting (27) in (26) 
+and integrating by parts gives
+ϕ
+π
+ξ
+ξ
+ξ
+ξ
+
+
+1 2
+
+
+
+= −
+′′
+−
++
+−
+
+
+
++
+
+
+
+
+
+
+
+
+
+
+∫S
+x
+r
+x
+r
+d
+l
+( )log
+.
+/
+	
+(28)
+Here the contributions from the endpoints are deleted on the assumption 
+that S′ = 0 at the ends.
+To approximate (28) for small r, we note that the limiting value of the 
+argument of the logarithm is given by
+ξ
+ξ
+ξ
+ξ
+−
++
+−
+
+
+
++
+
+
+
+
+
+
+
+
+
+
+−
+−
+>
+x
+r
+x
+r
+x
+r
+x
+
+1 2
+
+
+
+/
+(
+) ,
+(
+)
+,
+
+	
+(29)
+as r → 0. Similarly, from a Taylor series expansion of the square-root func­
+tion, or by noting from (27) that the logarithm must be an odd function of 
+(x − ξ), it follows that
+ξ
+ξ
+ξ
+ξ
+−
++
+−
+
+
+
++
+
+
+
+
+
+
+
+
+
+
+−
+−
+<
+x
+r
+x
+r
+r
+x
+x
+
+1 2
+
+
+
+/
+,
+(
+)
+.
+
+	
+(30)

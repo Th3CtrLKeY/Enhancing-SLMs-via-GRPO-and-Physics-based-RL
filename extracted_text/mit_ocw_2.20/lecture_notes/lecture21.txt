@@ -1,0 +1,725 @@
+[Page 1]
+
+ 
+ 
+ 
+ 
+Lecture 21 
+ - Marine Hydrodynamics 
+Lecture 21 
+6.4 Superposition of Linear Plane Progressive Waves 
+1. Oblique Plane Waves 
+v 
+k 
+kz 
+z 
+kx 
+Vp 
+k 
+v 
+= (
+z )
+x 
+θ 
+x 
+k ,  k  
+(Looking up the y-axis from 
+below the surface) 
+Consider wave propagation at an angle θ to the x-axis 
+⃗·x
+k ⃗
+η =A cos(kx cos θ + kz sin θ −ωt) =  A cos (kxx + kzz − ωt) 
+gA cosh k (y + h)
+φ = 
+sin (kx cos θ + kz sin θ − ωt)
+ω 
+cosh kh 
+ω =gk tanh kh; kx = k cos θ, kz = k sin θ, k = 
+k + k
+x
+z 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+    
+2. Standing Waves 
++ 
+Same A, k, ω, no phase shift 
+η =A cos (kx −ωt) +  A cos (−kx −ωt) = 2A cos kx cos ωt 
+2gA cosh k (y + h)
+φ = − 
+cos kx sin ωt 
+ω 
+cosh kh 
+90o at all times 
+L
+, 
+
+, T
+T 
+t = 
+
+
+T
+T
+T 
+y 
+x 
+2A 
+t = 
+, 
+, 
+L
+
+
+t = 0, T, 2T, … 
+node 
+amplitude 
+antinode 
+
+
+
+∂η
+∂φ 
+nπ
+nλ 
+∼ 
+= · · · sin kx = 0  at  x = 0, 
+= 
+∂x
+∂x 
+k 
+
+Therefore, ∂φ 
+∂x 
+= 0.  To obtain a standing wave, it is necessary to have perfect 
+x 
+reﬂection at the wall at x = 0.  
+AR
+Deﬁne the reﬂection coeﬃcient as R ≡ 
+(≤ 1).
+AI 
+y 
+AI = AR 
+x 
+AR
+R =
+ =
+
+AI
+
+---PAGE BREAK---
+
+[Page 3]
+3. Oblique Standing Waves 
+ηI =A cos (kx cos θ + kz sin θ −ωt) 
+ηR =A cos (kx cos (π −θ) +  kz sin (π −θ) −ωt) 
+z 
+θ
+θ
+I
+η 
+R
+η 
+R
+θ
+Iθ
+x 
+θR = π −θI 
+Note: same A, R = 1. 
+kxx
+kz z−ωt 
+
+
+
+
+ 
+ 
+ 
+ηT = ηI + ηR = 2A cos (kx cos θ) cos  (kz sin θ −ωt) 
+ 
+ 
+  
+ 
+ 
+standing wave in x 
+propagating wave in z 
+and 
+2π 
+2π 
+ω 
+λx = 
+;
+k cos θ 
+VPx = 0;  
+λz = 
+;
+k sin θ 
+VPz = k sin θ 
+Check: 
+∂φ 
+∂η 
+∂x ∼ ∂x ∼· · · sin (kx cos θ) = 0  on  x = 0
+
+---PAGE BREAK---
+
+[Page 4]
+ 
+ 
+ 
+ 
+
+ 	
+ 
+
+
+ 
+ 
+ 
+4. Partial Reﬂection 
++ 
+I
+η 
+R
+η
+ηI =AI cos (kx −ωt) =  AI Re e i kx−ωt 
+ηR =AR cos (kx + ωt + δ) =  AI Re R e −i kx  ωt  
+R: Complex reﬂection coeﬃcient 
+AR
+R =  |R| e −iδ , |R| = AI 
+1 + Re − ikx 
+ηT =ηI + ηR = AI Re e i kx−ωt 
+|ηT | =AI 1 +  |R| + 2  |R| cos (2kx + δ) 
+
+λ 
+∇ 
+|ηT | 
+wave envelope 
+AI 
+1+ | R |2 
+x
+node 
+free surface 
+antinode 
+At node, 
+|ηT | = |ηT | 
+= AI (1 −|R|) at cos (2kx + δ) =  −1 or 2kx + δ = (2n + 1)  π 
+At antinode, 
+|ηT | = |ηT | 
+= AI (1 + |R|) at cos  (2kx + δ) = 1  or  2kx + δ = 2nπ 
+λ 
+2kL = 2π so L = 2 
+| | = |ηT | 
+−|ηT |
+R 
+|ηT | 
++ |ηT | 
+= |R (k)|
+
+---PAGE BREAK---
+
+[Page 5]
+
+ 
+ 
+ 
+5. Wave Group 
+2 waves, same amplitude A and direction, but ω and k very close to each other. 
+VP1 
+η =ℜAei k1x−ω1t 
+η =ℜAei k2x−ω2t 
+VP2 
+ω , =ω , (k , ) and  VP1 ≈VP2 
+1 +  e i δkx−δωt
+ηT = η + η = ℜAei k1x−ω1t 
+with δk = k −k and δω = ω −ω 
+A
+
+k
+g 
+δ 
+π 
+=
+λ 
+
+
+
+P
+P 
+V
+V ≈ 
+Vg 
+ω
+π 
+= 2
+T 
+δω
+π 
+= 2 
+g
+T 
+2π = λ ≈λ2
+k1 
+
+⎫ 
+ηT 
+A
+|
+|
+ = 2  | | when δkx −δωt = 2nπ 
+⎬ 
+δω 
+xg = Vgt, δkVgt−(δω) t = 0 then Vg = 
+⎭ 
+δk
+|ηT | 
+= 0 when δkx −δωt = (2n + 1)  π
+
+---PAGE BREAK---
+
+[Page 6]
+ 
+  
+ 
+ 
+  
+ 
+ 
+In the limit, 
+dω  
+δk, δω → 0, Vg = 
+,
+dk k1≈k2≈k 
+and since 
+ω = gk tanh kh ⇒ 
+ ω  1
+2kh 
+Vg =
+
++
+ 
+k 2 
+sinh 2kh 
+Vp 
+n 
+⎫ 
+⎪
+(a) deep water kh >> 1 
+⎪ 
+⎪ 
+⎪ 
+⎪ 
+⎪ 
+⎪
+n = Vg = 
+⎪ 
+Vp 
+⎪ 
+⎪ 
+⎪ 
+⎪ 
+⎬
+(b) shallow water kh << 1 
+Vg ≤ Vp 
+Vg 
+⎪
+n = 
+= 1 (no dispersion) ⎪ 
+⎪
+Vp 
+⎪ 
+⎪ 
+⎪ 
+⎪
+(c) intermediate depth 
+⎪ 
+⎪ 
+P
+V
+Vg
+Appear 
+Disappear 
+⎪ 
+⎪ 
+⎪ 
+< n <  1 
+⎭
+
+---PAGE BREAK---
+
+[Page 7]
+=
+ 
+ 
+6.5 Wave Energy - Energy Associated with Wave Motion. 
+For a single plane progressive wave: 
+Energy per unit surface area of wave 
+• Potential energy PE 
+• Kinetic energy KE 
+PE without wave = 
+ 
+−h 
+ρgydy = − ρgh 
+PE with wave 
+η
+ 
+−h 
+ρgydy = ρg (η −h ) 
+PEwave = ρgη = ρgA cos (kx −ωt) 
+KEwave = 
+η
+ 
+−h 
+dy ρ (u + v ) 
+Deep water = · · ·  = 
+ρgA 
+    
+KE const in x,t 
+to leading order 
+Finite depth = · · ·  
+Average energy over one period or one wavelength 
+PEwave = ρgA 
+KEwave = ρgA at any h 
+• Total wave energy in deep water: 
+E = PE + KE  =  ρgA cos (kx −ωt) +  
+• Average wave energy E (over 1 period or 1 wavelength) for any water depth: 
+E =  ρgA [
++ 
+] = ρgA = Es, 
+↑
+↑ 
+P E  
+KE  
+Es ≡ Speciﬁc Energy: total average wave energy per unit surface area. 
+• Linear waves: PE = KE = 1 Es
+
+(equipartition). 
+• Nonlinear waves: KE > PE. 
+Vp 
+x 
+PE = 1 E 
+Vp 
+x 
+( 
+t
+x
+E
+PE 
+
+s 
+= 
+k
+cos 
+ω 
+− 
+
+KE = 1 E
+½ 
+
+E 
+Es
+
+) 
+Recall: cos x =
++
+ cos
+ 
+2x
+
+---PAGE BREAK---
+
+[Page 8]
+ 
+
+ 
+ 
+ 
+6.6 Energy Propagation - Group Velocity 
+S
+Vp 
+x 
+V
+per
+s
+E
+E = 
+area 
+Consider a ﬁxed control volume V to the right of ‘screen’ S. Conservation of energy: 
+dW 
+dE 
+=
+= 
+J­
+dt 
+dt 
+ 
+ 
+ 
+rate of work done on S 
+rate of change of energy in V 
+energy ﬂux left to right 
+where 
+η 
+
+ 
+dφ 
+∂φ 
+J- =  
+pu dy with p = −ρ 
++ gy 
+and u = 
+dt 
+∂x 
+−h 
+	 
+
+  ω   	  
+
+  
+J- =  ρgA 
+1 +  
+kh 
+= E (nVp) =  EVg 
+
+
+
+ k 
+ 
+ 
+kh  
+n
+E
+Vp 
+Vg 
+e.g. A = 3m, T = 10 sec → J- = 400KW /m
+
+---PAGE BREAK---
+
+[Page 9]
+    
+	 
+
+ 
+ 
+ 
+6.7 Equation of Energy Conservation 
+∆x 
+
+
+x 
+= ( )
+E = E( )
+x ,  
+
+
+x)
+h = h(
+J- −J-
+∆t = ∆E∆x 
+∂J- 
+J- =  J- +  ∂x 
+∂E 
+∂J-
+∆x + · · ·  
++
+ =
+ 
+0, but J- =  Vg E 
+∂t 
+∂x 
+∂E 
+∂ 
++ 
+Vg E = 0  
+∂t 
+∂x 
+∂E 
+1. 
+= 0, Vg E = constant in x for any h(x).
+∂t 
+2. Vg = constant (i.e., constant depth, δk << k) 
+∂
+∂ 
++ Vg 
+E = 0, so E = E (x −Vg t) or  A = A (x −Vg t)
+∂t 
+∂x 
+i.e., wave packet moves at Vg . 
+
+x
+
+---PAGE BREAK---
+
+[Page 10]
+-
+ 
+ 
+	 
+
+ 
+	 
+
+ 
+	 
+
+ 
+ 
+6.8 Steady Ship Waves, Wave Resistance 
+
+
+1 gA
+E 
+ρ
+= 
+Vp
+( 
+)( 
+)
+
+
+
+
+
+gA
+U
+g 
+ρ
+=
+= 
+L 
+
+=
+E 
+U 
+ = U
+E 
+V
+ahead of ship
+D 
+2A 
+x = 0 
+C.V. 
+• Ship wave resistance drag Dw 
+Rate of work done = rate of energy increase 
+d 	
+
+ 
+DwU + J- =  
+EL = EU 
+dt 
+deep water 
+
+    
+Dw 
+=
+(EU − EU 2) = E = 
+ρgA 
+⇒ Dw ∝ A 
+force / length 
+U 
+energy / area 
+• Amplitude of generated waves 
+The amplitude A depends on U and the ship geometry. Let ℓ ≡ eﬀective length. 
+L 
+l 
++
+To approximate the wave amplitude A superimpose a bow wave (ηb) and a stern wave 
+(ηs). 
+ηb = a cos (kx) and  ηs = −a cos (k (x + ℓ)) 
+ηT 
+= ηb + ηs 
+A = |ηT | 
+= 2a sin 
+kℓ  ← envelope amplitude 
+gℓ
+Dw = 
+ρgA = ρga sin 
+kℓ ⇒ Dw = ρga sin 
+U2 
+• Wavelength of generated waves To obtain the wave length, observe that the phase 
+speed of the waves must equal U. For deep water, we therefore have 
+ω 
+deep 
+g 
+U 
+Vp = U ⇒ 
+= U −→ 
+= U, or  λ = 2π 
+k 
+water 
+k 
+g
+
+---PAGE BREAK---
+
+[Page 11]
+ 
+ 
+ 
+ 
+ 
+• Summary Steady ship waves in deep water. 
+U = ship speed 
+g 
+g
+U 
+Vp =
+= U ; so  k = 
+and λ = 2π 
+k
+U 
+g 
+L =ship length, ℓ ∼ L 
+	
+
+ ∼ 
+
+∼ 
+
+Dw =ρga sin 
+gℓ = ρga sin 
+= ρga sin
+U2 
+2F 
+2F
+rL 
+rL 
+0.56 gL ⇒ U  
+∝ L 
+
+Fl = 
+≈ 0.56 ⇒ 
+π 
+hull
+
+ga
+ρ 
+g
+U 
+≈ 
+≅
+l 
+D w  
+F = 
+l 
+
+π 
+U 
+max at: 
+
+.0 
+Increasing 
+hull 
+
+U , where l ≤ L 
+
+gl 
+Small speed U 
+• Short waves  
+• Significant wave cancellation 
+• D ~ small 
+w

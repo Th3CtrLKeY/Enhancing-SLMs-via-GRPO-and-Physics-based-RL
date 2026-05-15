@@ -1,0 +1,88 @@
+has, for instance, consequences for what we mean by current and how current velocities are estimated. In our later discussion on current loads on ships and offshore structures we talk about an ambient constant velocity at fixed points. That means we should not include the transport velocity (equation (2.21)) as a current velocity when there are waves present. However, this does not mean that mass \ Eo) 0 that is approximately 20% of the orbital velocity at the. ho ‘S
+
+22 SEA ENVIRONMENT
+
+transport does not influence the motion of floating marine structures. For
+a freely floating vessel, especially one moving with the first-order orbital
+motion, mass transport has an effect on the motions. Ogilvie (1983) has
+illustrated (see Fig. 2.4) how the transport velocity (equation (2.21)) can
+be simulated by using the first-order (linear) solution for the fluid
+velocity. As the fluid particle moves, the local linear velocity will change
+because the time and the fluid particle position change. The effect over
+one period is that the fluid particle has moved a horizontal distance equal
+to the Stokes drift velocity times the period.
+
+Schwartz (1974) has provided a solution in terms of a series expansion
+that satisfies the exact non-linear free-surface condition within potential
+theory. This theory can be used to illustrate the limitation of linear
+theory for regular deep water waves. For waves of steepness H/A = 0.1
+the exact theory predicts 20% higher maximum wave elevation than the
+linear approsimation. For a wave period 12 Sy ie. a wavelength
+is not an unrealistic combination of wave height and period and
+illustrates, for instance, that linear theory can significantly overpredict
+the air gap between the waves and a platform deck.
+
+The analytical solution that Schwartz provides assumes periodicity in
+space. It also assumes that the wave form is symmetric about a vertical
+axis through the wave crest. This means it cannot be used for studying
+plunging breakers and irregular steep waves. By plunging breakers we
+mean waves whose tops are turning over, similar to waves breaking on a
+beach. Dommermuth et al. (1988) have presented numerical studies of
+
+Fig. 2.4. Trajectory of a fluid particle in sinusoidal waves computed from
+first-order (linear) velocity potential (€, = wave amplitude, A=
+wavelength, 2, = 2-coordinate of fluid particle at rest.) (Ogilvie,
+1983.)
+
+STATISTICAL DESCRIPTION OF WAVES 23
+
+plunging breakers.’ Good agreement was shown between theory and
+experiments for a ‘two-dimensional’ plunging breaker produced by a
+wave maker, up to the point where the overturning jet re-entered the
+water surface.
+
+STATISTICAL DESCRIPTION OF WAVES
+
+The present status of computer facilities prevents us from using
+techniques like that of Dommermuth et al. (1988) to obtain statistical
+estimates for ocean waves, since the estimated CPU-time makes direct
+calculations unrealistic. In addition there are unsolved physical problems
+associated with modelling of breaking waves. In practice, linear theory is
+used to simulate irregular sea and to obtain statistical estimates. The
+wave elevation of a long-crested irregular sea propagating along the
+positive x-axis can be written as the sum of a large number of wave
+components, i.e.
+
+N
+c= S A; sin(@,t — kx + 6) (2.22)
+
+j=l
+Here A;, w;, k; and €; mean respectively the wave amplitude, circular
+frequency, wave number and random phase angle of wave component
+number j. The random phase angles ¢; are uniformly distributed between
+0 and 2 and constant with time. For deep water waves @; and k; are
+related by the dispersion relationship (equation (2.18)). The wave
+amplitude A; can be expressed by a wave spectrum S(w). We can write
+
+1A? =S(w,) Aw oh 1% (2.23)
+
+where Aw is a constant difference between successive frequencies. The
+instantaneous wave elevation is Gaussian distributed with zero mean and
+variance o” equal to Se S(w)d@, which can be shown by using the
+definition of mean value and variance applied to the ‘signa? represented
+by equation (2.22). We find for instance that o = YN) A?/2. By using
+equation (2.23) and letting N-—»© and Aw 0, we find that o? =
+Se S(@) dw. The relationship between a time domain solution of the
+waves (i.e. equation (2.22)) and the frequency domain representation of
+the waves by a wave spectrum S(q) is illustrated in Fig. 2.5.
+
+The wave spectrum can be estimated from wave measurements
+(Kinsman, 1965). It assumes that we can describe the sea as a stationary
+random process. This means in practice that we are talking about a
+limited time period in the range from 4 hour to maybe 10 hours. In the
+literature this is often referred to as a short-term description of the sea.
+
+Recommended sea spectra from ISSC (International Ship and Offshore
+Structures Congress) and ITTC 5 (International Towing Tank Conference)
+are often used to calculate S(w). For instance, for open sea conditions
+the 15th ITTC recommended the use of ISSC spectral formulation for

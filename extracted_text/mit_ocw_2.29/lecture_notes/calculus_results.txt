@@ -1,0 +1,173 @@
+[Page 1]
+US Caietirie
+
+Some Useful Results from Calculus
+
+---PAGE BREAK---
+
+[Page 2]
+Tus?
+
+Derivation of Gauss’ Theorem
+
+Let f(z,y,z) be a differentiable scalar function of (2, y, z).
+
+By the divergence theorem,
+[V- fies fh ids = | nef ds
+
+. a
+Viadt
+
+[iv fds [ictav= [inetas
+
+Similarly,
+n Pa ~ Of a
+[iV fdv= vI Hy We = [i maf ds
+
+. . Of .
+[&V- fedv = [kaa = [kn f ds
+Now, add the last three equations together,
+
+[Vi dv = [af ds
+
+---PAGE BREAK---
+
+[Page 3]
+fo Fats sexP Cr)
+
+Example of Use of Gauss Theorem:
+Froude Krylov Surge Force on a Ship
+
+—_
+
+P = pgAe~** cos(ka — wt) F= / [ —pndS
+
+F, =i: [/-Piids=-if [ [| vPav
+
+F,=-f[f{ ff as dv = pgAk | [ [e sin(kx — wt)dV
+
+a
+r
+
+pgAk ff [a — kz)sin(kx — wt)dV
+pgAk I, | f ection dy dz] sin(ka — wt)dx
+—pg Ak? I, / ection z dy dz| sin(kx — wt)dx
+
+F,, = pgAk I. S(a) sin(ka — wt)dx — pg Ak* I, Zeq S(x) sin(ka — wt)dx
+
+- 56
+
+---PAGE BREAK---
+
+[Page 4]
+JAa4ss EAA (C2)
+
+Example with Given Ship Shape
+
+x= -L/2
+
+For this shape:
+
+SO) =
+
+2WD (5 )
+
+Using these values:
+
+2 D k 2
+FE, = SpgAk ns (1 — “) {0 wt 3 sin ~ + = cos =
+
+sinwt I? 4)\ . kL 2b =|
+in % 7 B} Bp Hy 8
+
+2 kL 2
+
+1 4\ kL 2 kL)2) 7
+kL (kL)3)" 2 ‘(kL 2
+
+| F, (1 LD) 2 kL 1 og kt ,
+——— = > —_—— — In — + — =
+pg AWD} max 3 41 (KL)?
+
++
+
+---PAGE BREAK---
+
+[Page 5]
+C:\MATLAB6p1\work\gaussexp.m Page 1
+July i1, 2002 9:39:08 AM
+% m-file script for gaussexp
+tt = 2.0/3.0;
+DoL = 0.06;
+DoL£ = DoL/4.;
+m = 1:1:200;
+kL = 0.25.*m;
+kLi = 1.0 ./ kL;
+sn = sin(kL ./ 2.0);
+cs = cos(kL ./ 2.0);
+fnd = tt .* kL .*(1.0 - kL .* DoL£) .* ((( -2 ./ (kL .* 2)) .* sn + kLi .* ¥@
+cs) .* 2...
++ ( ( kLi -4.0 .* (kLi .%3)) .* sn + (2.0 ./ (kL.%2)).* cs) .*2) .* 0.5;
+q = (kL; fnd];
+fid = fopen('surge.dat','w');
+fprintf (fid,'%8.3f, %9.4f£\n',q);
+fclose(fid);
+plot (kL, £nd)
+xlabel('kL')
+ylabel('Surge Force Amplitude / [ \rho g AWD ]')
+
+---PAGE BREAK---
+
+[Page 6]
+Ww wt isp) N
+
+0.7
+0.6
+0.1
+
+° f~) °o oO
+[aMVv 564], epnyduy ao04 efuns
+
+kL
+
+---PAGE BREAK---
+
+[Page 7]
+(mre
+
+The Transport Theorem
+
+Let f(x,t) be a differentiable scalar function of x and t.
+
+Consider the integral,
+I(t) =f [fy fetav
+
+f is changing with time and Y is changing with time. The normal component of the velocity of any point on the surface, S of V is called U,.
+
+Note that if U is the fluid velocity, the surface S is a material surface
+and the Transport Theorem is simply the integral form of the Substantial
+Derivative.
+
+fui ro
+
+---PAGE BREAK---
+
+[Page 8]
+fmsil
+
+Pressure Forces and Moments on an Object
+
+F=/ /, pnds M= If, (r x n)
+
+Now use the (unsteady) Bernoulli equation:
+
+F=-p/ [,|2 + 5Vo- Vo| nds
+
+M=-pf [, [3 +5¥6-V¢ (rx n)dS
+
+The following results from applying Gauss, Transport and divergence
+theorems and boundary conditions:
+
+=~05 ff. onds — off. [5s Vo—n- sve Vol ds
+
+M=~p5 [ [.$(exn)dS—pf [rx sovd—n5 Vo Vol dS

@@ -1,0 +1,45 @@
+form of a perfect differential ∂ ∂ ∂ ∂+ ∂ ∂ ∂ ∂    = − ∂ ∂ + x t x x x p gx i j j i φ φ φ ρ ρ ( ). (25) Integrating this with respect to the three space variables xi gives ∂ ∂+ ∂ ∂ ∂ ∂ = − + + φ φ φ ρ ρ t x x p gx C t j j ( ) ( ). (26)
+
+Chapter 4
+The “constant” in (26) is independent of the space coordinates but may 
+depend on time. This constant can be absorbed into the velocity potential 
+by redefining the latter as
+φ
+φ
+′ =
+−∫C t dt
+t
+( )
+. 	
+(27)
+Since the difference between ϕ and ϕ' is a function only of time, the gradi­
+ent is not affected and either of these functions is an equally suitable veloc­
+ity potential from the standpoint of (15). Substituting (27) in (26) leaves the 
+form of Bernoulli’s equation unchanged in terms of the velocity potential 
+ϕ', but the constant C(t) no longer appears. In other words, the value of C(t) 
+is related to a corresponding constant in the velocity potential which has 
+no effect on the velocity vector, and C(t) may be chosen arbitrarily. C(t) can 
+be set equal to zero and deleted entirely from Bernoulli’s equation, or it 
+can be set equal to some desired value such as the atmospheric pressure or 
+other relevant ambient pressure. In the remainder of this chapter, we shall 
+delete C(t) entirely.
+Both forms of Bernoulli’s equation, (21) and (26), include in common 
+the dynamic pressure −1
+
+
+ρV  and the hydrostatic pressure −ρgx2. The 
+former expresses that the pressure is reduced in regions of high velocity 
+in accordance with the well-known Venturi effect. The hydrostatic term, 
+anticipated in section 3.9, represents the simple increase in pressure with 
+depth, equal to the static weight per unit area of the fluid above this point.
+4.4  Boundary Conditions
+The distinction between different types of fluid motions results from the 
+conditions imposed on the boundaries of the fluid domain. Thus we must 
+relate the physical conditions on these boundaries to appropriate math­
+ematical statements.
+As in chapter 3, two different types of boundary conditions must be dis­
+cussed: a kinematic condition corresponding to a statement regarding the 
+velocity of the fluid on the boundary and a dynamic boundary condition 
+corresponding to a statement about the forces on the boundary. Unlike 
+the viscous case, there are now fewer conditions to impose, because in the 
+present case there are no shear stresses acting within the fluid.

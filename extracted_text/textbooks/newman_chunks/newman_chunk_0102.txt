@@ -1,0 +1,119 @@
+that the circle of unit radius in the z-plane is mapped onto the straight line (−1, 1) in the ζ-plane. Physically we can suppose that this segment cor­ responds with a flat plate, which is the conformal mapping of the circle. In this special case (51) reduces to the mapping ζ = + ( / ). z z (52) Figure 4.5 The complex potential F(z) = z π/θ, and the corresponding conformal mapping onto the plane ζ = z π/θ.
+
+The Motion of an Ideal Fluid 
+
+Solving the resulting quadratic equation for z gives
+z =
++
+−
+ζ
+ζ
+(
+)
+.
+/
+
+1 2
+
+(53)
+Here the branch of the square root is chosen so that (ζ2 − 1)1/2 ≃ ζ as 
+ζ → ∞; hence z ≃ 2ζ which is consistent with the corresponding limit of 
+(52) as z → ∞.
+With the above preliminaries we now are ready to move back and forth 
+between the z-plane and ζ-plane and to relate the flow past the unit circle to 
+the flow past a flat plate. The simplest solution to start with is the complex 
+potential F(ζ) = ζ, corresponding to a uniform stream in the ζ-plane paral­
+lel to the plate. Since the plate does not disturb the flow in this particular 
+case, the solution is complete. Transforming this complex potential back to 
+the z-plane by means of (53) gives the potential for the flow past the unit 
+circle:
+F z
+z
+z
+( )
+(
+/ ).
+=
+=
++
+ζ
+
+
+
+(54)
+Note that the stream velocity at infinity in the z-plane is parallel to the 
+x-axis, of magnitude 1/2. Thus the conformal mapping has enabled us 
+to recover the solution for the flow past a circle in terms of the simple 
+uniform-stream solution past a flat plate at zero incidence.
+To proceed further, we rotate the stream velocity by 90 degrees. In the 
+z-plane the situation is unchanged, except that the flow is now vertical 
+past the circle. But in the ζ-plane the flow is normal to the flat plate. At 
+this point the latter solution is unknown, but the solution in the z-plane is 
+known, and this can be mapped into the ζ-plane. First, if z is replaced by iz, 
+the complex potential (54) becomes
+F z
+i z
+z
+( )
+(
+/ ).
+=
+−
+
+
+
+(55)
+Note that, from (49), the streaming flow at infinity is positive downward 
+with magnitude equal to 1/2. Transforming to the ζ-plane requires that (53) 
+be substituted in (55). Thus the complex potential for flow normal to the 
+flat plate is given by
+F
+i
+i
+i
+( )
+[
+(
+)
+]
+[
+(
+)
+]
+(
+)
+.
+/
+/
+/
+ζ
+ζ
+ζ
+ζ
+ζ
+ζ
+=
++
+−
+−
++
+−
+=
+−
+−
+
+
+
+
+
+
+
+
+1 2
+
+1 2
+
+
+1 2
+	
+(56)

@@ -1,0 +1,45 @@
+Washington: U.S. Government Printing Office. Van Dyke, M. 1975. Perturbation methods in fluid mechanics. 2nd ed. Stanford: Para­ bolic Press. Vugts, J. H. 1970. The hydrodynamic forces and ship motions in waves. Doctoral thesis, Delft Technological University. Wang, S. 1976. Dynamical theory of potential flows with a free surface: A classical approach to strip theory of ship motions. J. Ship Res. 20:137–144. Yeung, R. W. 1978. On the interactions of slender ships in shallow water. Journal of Fluid Mechanics 85:143–159.
+
+Appendix: Units of Measurement and Physical Constants
+A
+p
+p
+e
+n
+d
+i
+x
+Units 
+of 
+Measurement 
+and 
+Physical 
+Constants
+© Massachusetts Institute of TechnologyAll Rights Reserved
+The fundamental units of measurement in mechanics are mass (M), length 
+(L), and time (T). In the SI system these are measured in the basic units of 
+the kilogram (kg), meter (m), and second (s). Special names are given cer­
+tain derived units. Thus the unit force of one Newton (N) is equal to one 
+kilogram-meter per second-squared, the unit of work or energy is one Joule 
+(J), equal to one Newton-meter, and the unit of power is one watt (W), 
+equal to one Joule per second. Prefixes denote decade factors such as the 
+kilo- (k) for 103, mega- (M) for 106, centi (c) for 10−2, and milli- (m) for 10−3.
+Table A.1 lists various quantities in these and other units of measure­
+ment, and the relevant conversion factors. One nautical mile is the arc 
+length equal to one minute of arc on the surface of the earth; one knot is 
+the velocity unit equal to one nautical mile per hour. The (long) ton is equal 
+to 2240 pounds and the metric tonne is equal to 1000 kg.
+Various physical constants are required in marine hydrodynamics, nota­
+bly the density and kinematic viscosity of water, which are listed for vari­
+ous temperatures in table A.2 with the corresponding properties of air at a 
+pressure of one atmosphere. The standard acceleration of gravity (one g) is 
+equal to 9.80665 m/s2 or 32.174 ft/s2. The standard atmospheric pressure at 
+sea level is 1.01 × 105 N/m2 or 14.7 pounds per square inch. The surface ten­
+sion of the interface between air and water varies between 0.076 N/m and 
+0.071 N/m for the temperature range 0–30°C, with the value 0.074 N/m 
+used commonly to describe capillary waves. The vapor pressure of water 
+increases from 610 N/m2 to 4230 N/m2 over the same temperature range, or 
+from 0.09 to 0.61 pounds per square inch.
+Relative to these values for fresh water, the vapor pressure of salt water is 
+slightly reduced and the surface tension increased. Both changes are insig­
+nificant compared to the effects of temperature and impurities.

@@ -1,0 +1,150 @@
+torque coef­ ficients KQ, as shown in figure 2.13. This difference is accounted for by the relative rotative efficiency ηR Q OW Q SP K K = ( ) ( ) , (29) where the subscripts OW and SP denote the open-water and self-propelled conditions. In general, 1.0 < ηR < 1.1. In the converse effect of the propeller on the hull, the suction of the propeller generally reduces the pressure at the stern and hence increases the drag force
+
+Chapter 2
+D
+t T
+=
+−
+(
+) .
+
+(30)
+The coefficient t is the thrust-deduction coefficient, which is typically less than 
+0.2. In exceptional circumstances the thrust-deduction coefficient may be 
+negative. For example, the suction effect of the propeller may delay the 
+point of separation and reduce the resulting form drag. Another exception 
+is a supercavitating propeller, where the thickness of the cavities results in a 
+source-like flow and a positive pressure ahead of the propeller.
+These interactions can be integrated to give an overall propulsive 
+efficiency. The power input is the product of the propeller torque and rota­
+tion rate, while the useful work done is the product of the drag of the hull 
+and its velocity. The propulsive efficiency is thus given by
+η
+π
+π
+η η
+=
+=
+−
+=
+−
+−
+DU
+nQ
+t UK
+nd K
+t
+w
+T
+Q
+SP
+T
+P
+R
+
+
+
+
+
+(
+)
+(
+)
+(
+)
+(
+)
+, 	
+(31)
+where ηp is the open-water propeller efficiency, as defined by (22). The ratio 
+(1 − t)/(1 − wT) is known as the hull efficiency ηH; as a rule it takes a value 
+between 1.0 and 1.2. Thus the propulsive efficiency is generally greater 
+than the open-water propeller efficiency.
+Figure 2.13
+Relationship between self-propelled (SP) and open-water (OW) propeller tests, using 
+the thrust-identity condition to relate these two experiments.
+
+Model Testing 
+
+2.11  Unsteady Force on an Accelerating Body
+If the relative motion between a body and the surrounding fluid is unsteady, 
+the hydrodynamic force F(t) exerted on the body will vary with time. To 
+simplify this problem as much as possible, we consider first the special 
+case of a body accelerated impulsively from a state of rest, at time t = 0, with 
+a constant velocity U thereafter. The fluid is assumed to be unbounded, as 
+in sections 2.4 to 2.6 where the corresponding steady-state problem was 
+discussed.
+The time t may be nondimensionalized in the form Ut/l, the number of 
+body lengths traveled in a time t. We nondimensionalize the force as before 
+and anticipate that this will act predominantly in the direction opposite to 
+the body motion; then
+−
+=
+F
+U l
+C
+R Ut
+l
+F
+
+
+2 2
+ρ
+( ,
+/ ). 	
+(32)
+Here R denotes the Reynolds number Ul/υ, and F is the force acting in the 
+same direction as the body motion.
+From the standpoint of dimensional analysis, equation (32) cannot 
+be simplified further, and experiments must be conducted with the two 
+parameters R and Ut/l varied independently to determine the nondimen­
+sional force coefficient CF. Such experimental information is sparse and 
+depends on the details of the initial acceleration. Thus, we focus our atten­
+tion on the two limiting cases of large and small values of time. Results 
+from these cases will add considerable physical information and enable us 
+to predict the unsteady force for more general body motions with realistic 
+acceleration histories.
+For large values of the nondimensional time Ut/l, the force coefficient 
+(32) should approach the steady-state drag coefficient. Thus
+C
+R Ut
+l
+C
+R
+Ut
+l
+F
+D
+( ,
+/ )
+( ),
+/
+.
+
+≫1 	
+(33)
+The complementary limit of small time is less obvious but of comparable 
+importance. During the initial stage of rapid acceleration of the body and 
+surrounding fluid, inertial effects will dominate the viscous stresses in the 
+fluid, and (32) can be approximated by the inviscid limit
+C
+R Ut
+l
+C
+Ut
+l
+Ut
+l
+F
+F
+( ,
+/ )
+( ,
+/ ),
+/
+.
+
+≪
+∞
+
+(34)

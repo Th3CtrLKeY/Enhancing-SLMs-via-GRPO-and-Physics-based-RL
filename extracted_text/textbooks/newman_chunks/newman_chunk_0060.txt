@@ -1,0 +1,109 @@
+sinusoidal, say U(t) = U0 cos ωt where ω is the radian frequency. The resulting flow is thus sinusoidal, and it is convenient to write the unknown velocity u(y, t) in the complex form u y t f y ei t ( , ) Re[ ( ) ], = ω (34) where the real part of f is the velocity component in phase with cos ωt, and the imaginary part is in phase with sin ωt. Substituting (34) in the
+
+The Motion of a Viscous Fluid 
+
+governing equation (31) gives an ordinary differential equation for f in 
+the form
+i f
+d f
+dy
+ω
+ν
+=
+
+2 . 	
+(35)
+The solution is well known and can be written as
+f
+Ae
+Be
+ky
+ky
+=
++
+−, 	
+(36)
+where the constants A and B are to be determined subsequently and
+k
+i
+i
+=
+=
++
+(
+/ )
+(
+)(
+/
+)
+.
+/
+/
+ω ν
+ω
+ν
+1 2
+1 2
+
+
+(37)
+(In view of the form of (36), one can take the positive or negative square 
+root, as this would only reverse the roles of the two constants A and B.)
+Since the parameter k is complex with positive real part, the boundary 
+condition (33) at infinity can only be satisfied if A = 0 in (36). The boundary 
+condition (32) on the plate determines the value of the remaining constant 
+B, and the final solution of the problem is
+u y t
+U
+ky
+i t
+U
+y
+y
+( , )
+Re{
+exp(
+)}
+exp[ (
+/
+)
+]cos[(
+/
+)
+/
+/
+=
+−
++
+=
+−
+
+
+1 2
+1 2
+
+
+ω
+ω
+ν
+ω
+ν
+−ωt]. 	
+(38)
+The motion corresponding to (38) is a damped transverse wave; it oscil­
+lates in the x-direction while propagating in the y-direction away from the 
+plate. The wavelength is λ = 2π(2ν/ω)1/2, and this will be extremely short 
+for all but very low frequencies. For example, if ν = 10−6m2/s (for water), and 
+ω = 2π (1-second period), the wavelength is 0.35 cm. Moreover, the expo­
+nential factor in (38) will attenuate the wave amplitude in this distance 
+by a factor e−2π = 0.002. These numbers suggest that if the motion is not 
+extremely slow, the boundary layer will be very thin.
+Since the governing equation (31) and boundary conditions (32–33) 
+are linear, more general time-dependent solutions can be constructed by 
+superposition. Moreover, if the frequency ω is permitted to be complex, 
+the motion of the plate will increase or decrease exponentially with time, 
+according as Im(ω) is negative or positive, respectively. The only restriction 
+here is that for the condition at y = ∞ to be satisfied, Re(k) must be positive 
+as assumed above. Hence if ω is complex, it must be negative imaginary cor­
+responding in (34) to an exponentially growing velocity of the plate. Indeed, 
+this is the only reasonable alternative from the standpoint that the motion

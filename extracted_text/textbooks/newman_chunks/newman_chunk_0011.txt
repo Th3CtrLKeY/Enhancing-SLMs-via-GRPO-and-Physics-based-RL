@@ -1,0 +1,49 @@
+the fluid motion. Customarily, the first two are employed in the forms F U gl R Ul Ul = = = = = Froude Number /( ) Reynolds Number / / 1 2 / , , ρ µ ν where ν = μ/ρ is the kinematic viscosity coefficient of the fluid. A short table of the density and viscosity coefficients for water and air is given in the appendix. Typical values for the kinematic viscosity ν are 10−6 m2/s (10−5
+
+Chapter 1
+ft2/s) for water and 1.5 × 10−5 m2/s (1.5 × 10−4 ft2/s) for air. That this coef­
+ficient is small when expressed in terms of conventional units implies that 
+the Reynolds number R will be large; hence viscous forces will be negligible 
+relative to inertial forces. This is generally true, but one must be more cau­
+tious before concluding that viscosity can be completely ignored. In fact, 
+viscosity can be neglected for the bulk of the fluid but must be included in 
+singular regions such as the boundary layer very close to a body.
+In this analysis we have tacitly assumed steady motion and hence con­
+stant characteristic velocity U. If instead the motion is oscillatory in time, as 
+in the case of a buoy oscillating in a seaway, then the characteristic velocity 
+U should be replaced by the combination ωl, where ω is the frequency of 
+oscillations in radians per unit time. The counterpart of the Froude num­
+ber for such motions is the nondimensional frequency parameter ω(l/g)1/2. 
+Alternatively, we can use the ratio λ/l, where λ is the wavelength, or dis­
+tance between successive wave crests, since λ can be explicitly related to ω 
+(λ = 2πg/ω2 for waves in deep water).
+Other important parameters arise when we examine the kinematic and 
+thermodynamic aspects of the fluid. The most familiar of these is the Mach 
+number of aerodynamics, which is the ratio between the velocity U and 
+the speed of sound in the fluid medium; it arises from considerations of 
+the elasticity or compressibility of the fluid. These effects are not impor­
+tant in the motions and behavior of ocean vehicles because water is not 
+significantly compressible at the speeds of interest; in terms of the Mach 
+number we note that the speed of sound in water is on the order of 1,500 
+m/s or 3,000 knots, which implies a negligibly small Mach number for 
+water—based craft and thus insignificant compressibility effects. On the 
+other hand we must consider in certain circumstances the possibility of 
+cavitation, for when the pressure in the fluid is reduced below the vapor 
+pressure pν, the physical state of the fluid abruptly changes to that of a gas. 
+Thus, while the fluid is extremely inelastic in compression, it cannot nor­
+mally sustain significant tension. Dimensional considerations suggest the 
+cavitation number
+σ
+ρ
+ν
+=
+−
+p
+p
+U
+
+
+
+2 ,
+which is a measure of the likelihood of cavitation and parametrically 
+describes the subsequent details. Here p0 is a characteristic pressure level

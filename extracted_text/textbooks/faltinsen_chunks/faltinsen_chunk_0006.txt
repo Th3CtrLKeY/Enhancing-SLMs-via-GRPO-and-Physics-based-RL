@@ -1,0 +1,71 @@
+with model tests is the difficulty of scaling test results to full scale results when viscous hydrodynamic forces matter. The geometrical dimensions and equipment of the model test facilities may also limit the experimental possibilities. Due .to the rapid development of computers with large memory capacity and high computational speed, numerical calculations have VISCOUS FORCES 40 WAVE BREAKING — — * LIMIT MASS FORCES =5 Dd Fig. 1.6. Relative importance of mass, viscous drag and diffraction forces on marine structures.
+
+12 INTRODUCTION
+
+played an increasingly important role in calculating wave-induced
+motions and loads on ships and offshore structures. A significant step in
+the development started about 1970. For offshore structures it was partly
+connected with the beginning of offshore oil and gas production and
+exploration in the North Sea. However, it is important to stress that
+numerical computer programs are also dependent on the development of
+hydrodynamic theories. More theoretical research is still needed, in
+particular to increase the knowledge on separated viscous flow and
+extreme wave effects on ships and offshore structures.
+
+It is unrealistic to expect that computer programs will totally replace
+model tests in the foreseeable future. The ideal way is to combine model
+tests and numerical calculations. In some cases computer programs are
+not reliable. Model tests often give more confidence than computer
+programs when totally new concepts are tested out.
+
+When computer programs have been validated and the theoretical
+basis of the computer program has been satisfactorily compared with
+experimental results, computer programs offer an advantage relative to
+model tests. Computer programs can often be used in a more efficient
+way than model tests to evaluate different designs in a large variety of sea
+conditions. However, sound judgement of results is always important. A
+basis for this is physical understanding and practical feeling.
+
+One aim of the book is to provide physical understanding to the reader
+and try to simplify the problems mathematically. In this way one can
+develop simple tools to evaluate results from model tests, full-scale trials
+or computer programs.
+
+2 SEA ENVIRONMENT
+
+The intention of this chapter is to provide the basic information on
+waves, wind and current that is needed to evaluate sea loads and motions
+acting on ships and offshore structures. It is assumed that the reader has
+a basic knowledge of fluid mechanics and is familiar with the concepts of
+velocity potential and Bernoulli’s equation. A brief survey of the general
+aspects of free-surface fluid flow problems based on potential theory is
+given below.
+
+BASIC ASSUMPTIONS
+The sea water is assumed incompressible and inviscid. The fluid motion
+is irrotational. A velocity potential @ can be used to describe the fluid
+velocity vector V(x, y, Z, t) =(u, v, w) at time ¢ at the point x = (x, y, 2)
+in a Cartesian coordinate system fixed in space. This means that
+
+cc a
+VaVoninr tig tka, (2.1)
+
+ox
+where i, j and k are unit vectors along the x-, y- and z-axes, respectively.
+A velocity potential has no physical meaning itself, but is introduced
+because it is convenient in the mathematical analysis of irrotational fluid
+motion. The fluid is irrotational when the vorticity vector
+
+w=VxXV (2.2)
+
+is zero everywhere in the fluid. Also, since water is incompressible, i.e.
+V-V= 0, it follows that the velocity potential has to satisfy the Laplace
+equation
+2 2.
+FE, FF, F8_9 (2.3)
+ox oy oz
+The complete mathematical problem of finding a velocity potential of
+irrotational, incompressible fluid motion consists of the solution of the
+Laplace equation with relevant boundary conditions on the fluid. We will
+show examples of boundary conditions later.
+The pressure p follows from Bernoulli’s equation. If we assume the

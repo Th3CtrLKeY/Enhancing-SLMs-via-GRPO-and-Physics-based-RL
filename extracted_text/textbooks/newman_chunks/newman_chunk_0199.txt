@@ -1,0 +1,77 @@
+− = ∂ ∂+ ∇⋅∇+ = ρ φ φ φ ( ) . p p t gy a (3) Substituting the free-surface elevation η for y and solving for η, η φ φ φ = − ∂ ∂+ ∇⋅∇     g t . (4) If we neglect the last term, which is a second-order quantity in the fluid velocity, the linearized equation for the free-surface elevation is η φ = − ∂ ∂ g t . (5)
+
+Chapter 6
+Strictly speaking, these boundary conditions should be imposed on 
+the exact free surface y = η. However, it is consistent with the lineariza­
+tions already carried out to impose the first-order boundary conditions (2) 
+and (5) on the undisturbed plane of the free surface, y = 0. This additional 
+simplification of the linearization procedure can be justified formally by 
+expansion of the velocity potential and its derivatives in Taylor series about 
+the plane y = 0, as will be shown in section 6.4.
+On the plane y = 0, the dynamic boundary condition (5) can be differen­
+tiated with respect to time and combined with the kinematic condition (2). 
+This gives a single boundary condition for the velocity potential,
+∂
+∂
++
+∂
+∂
+=
+=
+
+
+
+
+φ
+φ
+t
+g
+y
+y
+,
+.
+on 
+	
+(6)
+6.2  Plane Progressive Waves
+The simplest solution of the free-surface condition (6), which neverthe­
+less has great practical significance, is the plane progressive wave system. 
+This motion is two dimensional, sinusoidal in time with radian frequency 
+ω, and propagates with phase velocity Vp such that, to an observer mov­
+ing with this velocity, the wave appears steady-state. Thus, the free-surface 
+elevation must be of the general form
+η
+ω
+ε
+( , )
+cos(
+),
+x t
+A
+kx
+t
+=
+−
++
+	
+(7)
+where the positive x-axis has been chosen to coincide with the direction of 
+wave propagation. Here A is the wave amplitude, and ε is an arbitrary phase 
+angle which can be set equal to zero by suitable choice of the origin x = 0. 
+Hereafter this will be assumed, with ε = 0. The parameter
+k
+Vp
+= ω /
+	
+(8)
+is the wavenumber, the number of waves per unit distance along the x-axis. 
+Clearly,
+k = 2π
+λ
+/
+, 	
+(9)
+where the wavelength λ is the distance between successive points on the 
+wave with the same phase, as shown in figure 2.1.
+The solution of this problem is expressed in terms of a two-dimensional 
+velocity potential ϕ(x, y, t), which must satisfy Laplace’s equation, the

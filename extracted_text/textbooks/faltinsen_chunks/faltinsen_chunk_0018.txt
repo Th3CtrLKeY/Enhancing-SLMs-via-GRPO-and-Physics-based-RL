@@ -1,0 +1,79 @@
+move from the wave maker to the other end of the tank? (c) What is the maximum fluid velocity in the tank? (d) Consider an observer situated along the tank side and a time after the wave front has passed by. How long does it take between.two succeeding wave crests to pass the observer? What is the phase of the wave elevation 1.5 m closer to the wave maker relative to the wave elevation at the position of the observer?
+
+36 SEA ENVIRONMENT
+
+(e) What are the answers to the questions in (d) if the observer is
+either moving with a velocity 1 ms! toward the wave maker
+or away from the wave maker?
+
+Cf) What would the answers to questions (c), (d) and (e) be if the
+water depth is either 10 m or 1 m?
+
+2.4 Sea spectrum
+Assume a sea spectrum as presented in Fig. 2.9.
+(a) Show from the definitions of Hy and 7, that a = 1.5 and
+b=(2zn)"!.
+(b) What is the relationship between 7, and 7?
+
+2.5 Standard deviations of fluid velocity and acceleration in
+short-term sea states
+
+(a) What are the standard deviations of the horizontal velocity
+and accelerations given by equations (2.33) and (2.34) when
+N-and Aw— 0.
+
+(b) Assume the wave spectrum is either given in the form of
+equation (2.24) or equation (2.30). Explain why the standard
+deviation of the fluid acceleration does not exist for all points
+in the fluid. How should the wave spectrum look for the
+standard deviation of the fluid acceleration to exist for all
+points in the fluid?
+
+(c) Generalize the results in (a) to short-crested sea by using
+expressions similar to equation (2.38). Discuss the results.
+
+WT;
+05 aq oat
+
+Fig. 2.9. Sea spectrum used in exercise 2.4. (Hy = significant wave height,
+‘T, = mean wave period based on first moment of the spectrum).
+
+3 LINEAR WAVE-INDUCED MOTIONS
+AND LOADS ON FLOATING
+STRUCTURES
+
+Linear theory can, to a large extent, describe the wave-induced motions
+and loads on semi-submersibles, ships and other large-volume structures. However, non-linear effects are important in severe sea states and
+in describing horizontal motions of moored structures.
+
+Consider a structure in incident regular waves of amplitude ¢,. The
+wave steepness is small, i.e. the waves are far from breaking. Linear
+theory means that the wave-induced motion and load amplitudes are
+linearly proportional to C,.
+
+RESPONSE IN IRREGULAR SEA
+A useful consequence of linear theory is that we can obtain results in
+irregular waves by adding together results from regular waves of different
+amplitudes, wavelengths and propagation directions.
+Let us explain what we mean by considering a long-crested irregular
+sea described by a sea spectrum S(w). We write the wave elevation as
+
+ny IRE
+C= > A, sin(@,t — Rjx + &) 3.1)
+=
+where
+1A? = S(w) Aw (3.2)
+
+(see equations (2.22) and (2.23) with explanations). Because of linearity
+we can analyse the response to each wave component in equation (3.1)
+separately. Examples of response types could be heave or pitch motion
+of a floating structure. Formally we can write the steady state response as
+
+A, |H(@,)| sin(ayt + 5(@,) + &) (3.3)
+
+Here |H(a,)| is called the transfer function, which is the response
+amplitude per unit wave amplitude. We note also that there is a phase
+angle 5(w;) associated with the response. Both |H(@,)| and d(@,) are
+functions of the frequency of oscillation w;. The response can be any
+linear wave-induced motion or load on a structure. Having obtained the
+response due to one wave component we can linearly superpose the

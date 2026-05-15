@@ -1,0 +1,89 @@
+Friction velocity, 92 Froude hypothesis, 6, 33, 294, 295 experimental validation, 30–31, 32 Froude-Krylov exciting force, 317–319, 370–372, 371, 373, 383–384, 386 Froude number, 4, 5, 6, 7, 48–49, 280, for hulls, 30 relation to drag coefficient, 32, 33 relation to scale, 30 for shallow waves, 389–390 subcritical, 290 Fully developed wave spectra, 327–328 Fully wetted flow, 190, 226 Gadd, G., 294 Gauss’s theorem, 139–140, 157, 303, General force equation, 206 Geosim, 18, 32, 33 Gerstner, F. J. von, 260–261
+
+Index 
+
+Glaubert integral, 195, 209
+Goldstein, S., 16
+Granville, P. S., 99
+Gravitational acceleration, 5, 11, 66–67
+Gravitational force, orders of 
+magnitude, 2–3
+Green function, 137–138
+Green’s theorem, 127–138, 141–142, 
+188, 308
+applied to dipole moments, 149–150
+and Haskind relations, 315–316
+for representation of velocity 
+potential, 162(4), 163(13)
+surfaces of integration, 135
+Griffin, O. M., 41
+Group velocity, 268–271, 269, 270, 272, 
+
+relation to wave energy flux, 276–277
+Gust problem, 239–240, 240, 241, 242
+Haberman, W. L., 28
+Half body, 117–118, 118, 162(3)
+Halfman, R. L., 238
+Hankel function, 237
+Haskind, M. D., 323
+Haskind relations, 315–316, 319, 372, 
+373, 386–387
+Häusler, F. U., 48
+Havelock, T. H., 132, 290, 294
+Head waves, 377
+Heat equation, 72
+Heave. See also Body motions
+added-mass coefficient, 312
+damping coefficient, 312, 318
+definition sketch, 298
+effect on axisymmetric bodies, 46, 47
+equations of motion, 373–374
+exciting force, 318
+high-frequency limit, 310
+low-frequency limit, 309
+oscillatory rigid-body motion, 238
+strip theory, 375, 378–387
+vertical oscillations, 45–48
+Heave-amplitude ratio, 46, 47, 48
+Helmholtz’ theorem, 110
+High-speed ships, wave resistance, 296
+Hilbert transform, 194–195, 221
+Hildebrand, F. B., 121, 187
+Hinch, E. J., 64
+Hogben, N., 44
+Horseshoe vortex, 204, 205, 205–206
+Houmb, O. G., 331
+Huang, T. T., 102
+Hughes friction coefficient, 31, 33
+Hughes line, 31, 33, 33
+Hull
+double-body image, 358
+drag, 29–34, 32, 33, 292–296
+efficiency, 36
+frictional resistance, 6
+wetted-surface area, 29
+Hydraulic smoothness, 100
+Hydrodynamic pressure, 67
+Hydrofoil
+angle of attack, 50(4)
+cavitation, 51(9)
+chord length l, 23
+dimensional analysis, 22, 22–24, 25
+drag, 22, 22–24, 25
+large aspect-ratio, 210–216
+lifting problem, 176, 176–184
+NACA a series, 184, 184, 185
+“nose-tail line,” 22
+planform area, 23, 24
+scaling laws, 51(10)
+span, 23
+steady-state, 171–172
+supercavitating, 217, 217–218, 
+223–236
+thickness problem, 138, 175–176, 176, 
+186–189
+three-dimensional, 24
+two-dimensional, 23, 24, 25, 168–172
+drag force, 184–186
+linearized, 172–176
+vortex distribution, 186–189

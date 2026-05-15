@@ -1,0 +1,178 @@
+0( ) . t (107) Here r0 is the vector from the origin of the fixed reference system to the point r' = 0 which moves with the body, and thus dr0/dt = U. On the other hand, (r' × n) is a vector fixed with respect to the body, and thus its timederivative is Ω × (r' × n) as in (105). Substituting (107) in (95) and evaluating the time derivative, the moment can be expressed in the form
+
+The Motion of an Ideal Fluid 
+
+M
+r
+F
+U
+n
+r
+n
+r
+n
+=
+×
+−
+×
+−
+′ ×
+−
+×
+′ ×
+∫∫
+∫∫
+
+ρ
+φ
+ρ
+φ
+ρ
+φ
+U
+dS
+U
+dS
+U
+dS
+i
+i
+S
+i
+i
+S
+i
+i
+S
+B
+B
+B
+
+(
+)
+(
+)
+W ∫∫
+.
+	
+(108)
+The first term in (108) is the moment due to the force F acting at the body 
+origin r' = 0; therefore, the remaining terms in this expression give the 
+moment about the same point.
+At this stage the time derivatives in (94–95) have been evaluated with 
+respect to the space-fixed reference frame r. This reference frame loses its 
+significance if the force and moment are redefined with respect to the bodyfixed coordinates. In fact, the need to discriminate between these two coor­
+dinate systems can be avoided simply by setting r0 = 0, with the assumption 
+that the two coordinate systems coincide at the particular instant of time 
+under consideration. However, this artifice is not essential, and we shall 
+proceed hereafter without assumption as to the origin of the space-fixed 
+coordinates.
+An indicial notation will be adopted for the components of the force 
+and moment, with respect to the body-fixed reference frame. These will be 
+denoted by Fj and Mj respectively. The subsequent representation of crossproducts is facilitated by using the alternating tensor εjkl, which is equal to +1 
+if the indices are in cyclic order (123, 231, 312), equal to −1 if the indices 
+are acyclic (132, 213, 321), and equal to zero if any pair of the indices are 
+equal. With this notation, the jth component of a vector cross-product can 
+be written in the indicial notation as
+(
+)
+,
+A
+B
+×
+=
+j
+jkl
+k
+l
+A B
+ε
+	
+(109)
+where the summation convention is implied for k and l.
+With the conventions noted above (106) may be rewritten in the indicial 
+form
+F
+U
+n dS
+U
+n dS
+j
+i
+i
+j
+S
+jkl
+j
+k
+i
+l
+S
+B
+B
+= −
+−
+∫∫
+∫∫
+ρ
+φ
+ρε
+φ
+
+Ω
+. 	
+(110)
+Similarly, from (108), the components of the moment about the body-fixed 
+origin are given by
+M
+U
+dS
+U
+dS
+U U
+j
+i
+i
+j
+S
+jkl
+i
+k
+i
+l
+S
+jkl
+i
+k
+B
+B
+= −
+′ ×
+−
+′ ×
+−
+∫∫
+∫∫
+ρ
+φ
+ρε
+φ
+ρε
+
+(
+)
+(
+)
+r
+n
+r
+n
+Ω
+φi
+l
+S
+n dS
+B∫∫
+.
+	
+(111)

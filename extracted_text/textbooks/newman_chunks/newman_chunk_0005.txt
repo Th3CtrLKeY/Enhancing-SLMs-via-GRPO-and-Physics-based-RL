@@ -1,0 +1,41 @@
+This method is extensively used in the offshore industry. The formulation, in terms of integral equations, is directly related to the scattering and radia­ tion problems in theoretical physics, although the wave Green functions differ. The application of multipole expansions including the surface wave effects is an efficient, accurate, and convergent method that has found a lesser application in the industry. Thus, chapter 4 involves solving PDEs for the flow in an unbounded fluid by use of integral equations expressed
+
+John Grue 
+xv
+in terms of source and dipole distributions. In chapter 5, the lifting and 
+flapping problems are modeled by vortex and source distributions. The 
+resulting integral equation becomes a singular Fredholm integral equation 
+of the first kind. The equation is directly invertable—a superior, analytical, 
+and generic method directly transferable to other related formulations and 
+problems. The nonsingular integral equation formulated in section 11 of 
+chapter 4 is a Fredholm equation of the second kind. This formulation is 
+robust and easy to invert. Variants of this equation are widely used in the 
+offshore industry.
+How do I teach this book? I start with the integral representation of the 
+potential flow at a geometry in unbounded fluid found in section 4.11, and 
+subsequently introduce the forces and moments in an unbounded fluid 
+expressed in terms of the added mass matrix. The first assignment is the 
+calculation of the two-dimensional added mass of a circle, an ellipse, and 
+a square, obtaining the various potentials through integral equations and 
+Python or MATLAB scripting. Problems 4, 6, 13, and 15 are mandatory.
+I continue with chapter 6. I usually give one lecture on linear wave the­
+ory and a second lecture on energy flux and group velocity. The wave effects 
+part of the chapter comes next, introducing the decomposition of the dif­
+fraction and radiation potentials, the latter according to the six modes of 
+motion, the added mass and damping, the exciting forces, and the restoring 
+forces. Sometimes, depending on the student group, I will assign section 
+6.16 (hydrostatics) separately. The students then derive the mathematical 
+formulas in the chapter for subsequent presentation in class. The theories 
+are reworked by completing problems 10–17 on wave effects. Problems 1–8 
+cover the fundamentals of wave theory.
+In chapter 5, my lecture covers the introduction and sections 5.1–5.6, as 
+well as problems 8 and 9. The results are put in context of the dimensional 
+analysis of the foil in section 7 of chapter 2.
+One of my final lectures covers the dimensional analysis of chapter 
+2, with highlights including the low-level introduction of the concept of 
+added mass and the coefficient-based force formulation included in Mori­
+son’s equation. Problem 14 illustrates how the contributions from the 
+inertia term and the drag term depend on the cylinder diameter. Froude’s 
+hypothesis for the drag on a ship hull is one of my favorites; I frequently use 
+the ITTC-line in figure 2.12 to estimate the frictional resistance on ships. 
+I used this curve as well as equation (23) of chapter 2 when advising the

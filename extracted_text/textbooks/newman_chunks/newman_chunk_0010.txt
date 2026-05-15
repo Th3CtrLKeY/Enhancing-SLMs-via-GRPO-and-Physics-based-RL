@@ -1,0 +1,102 @@
+relatively simple state of affairs is still fraught with difficulties. It is useful first to estimate the orders of magnitude of the inertial, gravi­ tational, and viscous forces. We shall suppose that the problem at hand can be characterized by a physical length l, velocity U, fluid density ρ, gravi­ tational acceleration g, and a coefficient of fluid viscosity μ. We then can estimate the three forces: Type of Force Order of Magnitude Inertial ρU 2l Gravitational ρgl Viscous μUl
+
+Introduction 
+
+These estimates should not be interpreted too strictly. For example, it 
+could be argued, from Bernoulli’s equation, that a factor of 1
+2 should be 
+associated with the magnitude of the inertial force. Nevertheless, the esti­
+mates are valid in the sense that changes in the magnitudes of any of the 
+physical parameters l, U, ρ, g, or μ, will affect the forces as indicated. Thus, 
+suppose the length scale is doubled, as might follow from attempts to com­
+pare directly the forces acting on a 100 m ship and on a 200 m ship, mov­
+ing with the same speed; then the corresponding changes in the inertial, 
+gravitational, and viscous forces will be multiplicative factors of 22, 23, and 
+2, respectively. Therefore, the fundamental balance among the three types 
+of force will change as the length scale changes, and the effects will be 
+more pronounced if we anticipate the relatively large changes of length scale 
+(on the order of ten or one hundred) associated with a comparison of 
+small-scale models and full-scale vessels.
+To predict full-scale phenomena from tests with a scale-model, the 
+absolute magnitude of any one force acting alone could be corrected by a 
+suitable multiplicative factor. The principal concern is that all three forces 
+act simultaneously and that their relative magnitudes be preserved so that 
+the resulting flow is dynamically similar. For this reason, it is illuminating 
+to form the ratios of the three forces, which yield a set of three nondimen­
+sional parameters to describe the fluid flow:
+Inertial Force
+Gravitational Force
+/
+Inertial
+=
+=
+ρ
+ρ
+U l
+gl
+U
+gl
+2 2
+
+
+,
+ Force
+Viscous Force
+/
+Gravitational Force
+Vis
+=
+=
+ρ
+µ
+ρ
+µ
+U l
+Ul
+Ul
+2 2
+,
+cous Force
+/
+=
+=
+ρ
+µ
+ρ
+µ
+gl
+Ul
+gl
+U
+
+
+.
+Any two of these three ratios are sufficient to define the third and hence to 
+determine the balance of forces in the fluid motion. Customarily, the first 
+two are employed in the forms
+F
+U
+gl
+R
+Ul
+Ul
+=
+=
+=
+=
+=
+Froude Number
+/(
+)
+Reynolds Number
+/
+/
+1 2
+/ ,
+,
+ρ
+µ
+ν
+where ν = μ/ρ is the kinematic viscosity coefficient of the fluid. A short 
+table of the density and viscosity coefficients for water and air is given in 
+the appendix. Typical values for the kinematic viscosity ν are 10−6 m2/s (10−5

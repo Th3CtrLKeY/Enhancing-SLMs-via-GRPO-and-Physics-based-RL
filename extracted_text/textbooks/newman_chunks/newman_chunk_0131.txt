@@ -1,0 +1,82 @@
+the product of body mass m and acceleration dU1/dt. In particular, if the body is neutrally buoyant with m = ∀ ρ , equilibrium of the forces will occur if U1 = U. Thus the body will be carried along as if it were a fluid particle. The more general case where the added-mass tensor mij contains offdiagonal elements was derived originally by G. I. Taylor, using an energy argument due to Kelvin. This approach is outlined by Lamb (1932).
+
+Chapter 4
+4.18  The Method of Images
+When a body moves in proximity to a plane rigid boundary, such as a hori­
+zontal or vertical wall, the interaction between the two must be accounted 
+for. Formally, this is done by imposing the boundary condition ∂ϕ/∂n = 0 on 
+the wall and attempting to solve the resulting boundary-value problem for 
+the prescribed motion of the body. A convenient approach is to replace the 
+wall by an image body, symmetrically disposed on the opposite side of the 
+wall with a suitably prescribed symmetric motion to ensure that the bound­
+ary condition on the wall is satisfied. In this sense body-wall interactions 
+are closely related to the interactions between two adjacent and identical 
+bodies. For example, the interaction between a ship and an adjacent verti­
+cal canal bank is identical to the interaction of the same ship hull with a 
+catamaran twin-hull.
+If a two-dimensional source is situated at a point (0, b) above the x-axis 
+and an image source is situated at (0, −b), the resulting complex source 
+potential is simply
+F
+m
+z
+b
+=
++
+
+
+
+π log(
+). 	
+(152)
+Differentiation gives a dipole plus its image, in the x-direction,
+F
+z
+ib
+z
+ib
+=
+−
++
++
+
+
+
+
+µ
+π
+
+
+
+, 	
+(153)
+but the corresponding vertical dipole is obtained by differentiation with 
+respect to the source point b as opposed to the vertical coordinate y.
+From (153), the flow past a pair of circular cylinders of radius a can be 
+approximated by
+F
+Uz
+Ua
+z
+ib
+Ua
+z
+ib
+=
++
+−
++
++
+
+
+. 	
+(154)
+This solution is not exact, because the flow associated with the image dipole 
+will distort the streamlines moving past the first dipole, but this effect will 
+be small if the ratio a/b is small. The corresponding result for a pair of 
+spheres, or for a single sphere moving near a wall, is readily obtained.
+This procedure can be extended to a body or source situated between 
+two parallel walls, say at y
+b
+= ± 1
+2 . In this case, to satisfy the boundary

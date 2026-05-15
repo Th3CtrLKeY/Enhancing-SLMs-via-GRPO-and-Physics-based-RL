@@ -1,0 +1,155 @@
+ms"! wez0-S rads“! t s0‘5097 Wave systems D4 1000 “~~ p2 E ~ ° > -1000 ° 1000 2000 3000 xX (m) Fig. 4.11. Picture of the wave field caused by a harmonically oscillating source with mean forward speed in deep water when t > }. For notation see Fig. 4.10. The crest numbers shown for wave system AA are 2 and 3, for wave system D1 34 and 51 and for wave system D2 2 and 3. (Berresen, 1984.)
+
+NUMERICAL METHODS
+
+Fig. 4.12.
+
+Fig. 4.13.
+
+Diffraction waves at one time instant around a restrained ship in
+head sea waves. Deep water. F, = U/V(Lg) = 0.2, A/L=0.5,
+
+t= 1.212. (L =ship length, A = incident wavelength, U = forward
+speed, t = w.U/g, w, = circular frequency of oscillation (encounter
+frequency).) (Ohkusu & Iwashita, 1987.)
+
+Picture of the wave field caused by a harmonically oscillating source
+with mean forward speed U satisfying the free-surface condition
+(4.46) and valid for + <4 and deep water. (t = w.U/g, w, = circular
+frequency of oscillation.)
+
+EXERCISES 127
+
+EXERCISES
+
+4.1 Induced velocities by a three-dimensional source element
+Consider a source distribution over a plane circular element of radius R
+(see Fig. 4.14). Assume the fluid has infinite extent and the source
+density is constant and equal to one. Show that the vertical velocity V, at
+a point p on the z-axis (see Fig. 4.14) induced by the source distribution
+can be written as
+
+z zg
+v.=-05[ are 2]
+(Ro+2°) |2|
+Discuss the velocity behaviour close to the circular element both for
+
+negative and positive z-values. What is the behaviour like far away from
+the source element?
+
+4.2 Motions and loads on a barge
+Consider the barge presented in Fig. 3.25. By means of three-
+
+dimensional source technique we want to find wave-induced motions and
+loads when the forward speed is zero and there is no current present.
+
+rAN
+
+Fig. 4.14. Definition of the source element used in exercise 4.1.
+
+128 NUMERICAL METHODS
+
+(a) What are the irregular frequencies if the barge has infinite
+length? (Hint: Solve the interior problem as in exercise 2.1,
+but with the body boundary condition ¢ = 0.)
+
+OP (22) a
+
+Answer: Z Jp coth B)? jJ=1,2,...
+
+(b) Will irregular frequencies represent a problem?
+
+(c) Discuss and show how to select panels for a threedimensional source analysis.
+
+(2) How many symmetry planes can we benefit from in the
+hydrodynamic calculations?
+
+4.3 Green’s second identity
+(a) Show for two-dimensional flow that the velocity potential @
+can be written as
+
+-_t 9 tog 7 ~ 22
+O19) = an be (¢$losr Bp log r) ds (4.47)
+
+where r = ((y —y,)? + (z — 2,)")2, S is a surface enclosing a
+fluid volume and (4, 2,) is a point inside the fluid volume.
+Further, ((s), 2(s)) are points on surface S and
+
+9/dn =n, O/dy +n; 8/dz where the unit normal vector
+
+n= (0,2, 3) to S is defined to have positive direction into
+the fluid domain.
+
+(b) Consider a two-dimensional body near a plane wall. Start out
+with Green’s second identity and show how the velocity
+potential can be written as a distribution of sources and
+dipoles over the body surface only.
+
+‘ (c) Consider the problem of finding the velocity potential for
+forced linear heave motion of a two-dimensional surface
+piercing body when the frequency of oscillation goes to zero.
+Use the result from question (b) and show that the dominant
+behaviour far away from the body is source-like. What is the
+source strength? (Hint: Use the Taylor expansion of
+3/An(log r) and log r with y and z as variables.)
+
+4.4 Forward speed effects on wave systems in 2D flow
+Consider an infinitely long horizontal cylinder in a steady incident flow
+and a beam sea with regular waves in deep water. Potential flow theory is
+assumed. The cylinder is restrained from drifting. Due to interaction
+between the incident waves and the body, the body will generate waves.
+The steady incident velocity potential far away from the body is written
+as in equation (4.40) with ¢,=0. This means it represents a steady flow
+with constant velocity along the positive x-axis. The time dependence of
+
+EXERCISES 129
+
+the oscillatory flow.is expressed as e~*”*'. At some distance from the body
+the time dependent velocity potential satisfies the free-surface condition
+(equation (4.45)). The body will generate different wave systems far away
+from the body. The velocity potential of these wave systems has to be of
+the form
+
+pen ieet = Aet tite inet (4.48)
+
+where A is constant, in order that the two-dimensional Laplace equation
+should be satisfied. The k-value is real and positive in order for the flow
+to vanish far down in the fluid and for the velocity potential to represent
+waves at large positive or negative x-values.
+
+(a) Show that
+
+hyo = os (1-27 $01 — 40)
+FS 2U?
+
+when ¢ is proportional to e~**~# and t = w.U/g <4, and
+that
+
+a= 5p +2r£(1 +424)
+
+when @ is proportional to ei,
+
+(b) Consider the problem from a relative frame of reference
+system x’ = x — Ut. In this coordinate system the body moves
+with a velocity U in the negative x’-direction. Consider the
+different wave systems in this coordinate system. The group
+velocity (energy propagation velocity) of the different wave
+systems can be written as
+
+1/8
+o=4 1
+
+If the group velocity is less than U in the direction of forward
+motion, it means the wave system has to be on the
+downstream side of the object. Discuss what wave systems are
+upstream or downstream of the body. What happens when
+t=}?
+
+(c) Assume that the wave numbers k,, k2, k3 and k, can be used
+as an approximation for estimating the wavelengths of the
+wave systems along the track of a three-dimensional
+harmonically oscillating source with mean forward speed in
+deep water. Determine how this agrees with the results in
+Figs. 4.10 and 4.11. Discuss the phase velocity direction of
+the transverse wave systems and check if this agrees with the
+arrows in Figs. 4.10 and 4.11.

@@ -1,0 +1,1232 @@
+\documentclass[10pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{xeCJK}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{utopia} % Utopia font
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin}
+\setbeamertemplate{headline}{}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+\usepackage{pgfplots}
+
+% set colors
+\definecolor{myNewColorA}{RGB}{126,12,110}
+\definecolor{myNewColorB}{RGB}{165,85,154}
+\definecolor{myNewColorC}{RGB}{203,158,197}
+\setbeamercolor*{palette primary}{bg=myNewColorC}
+\setbeamercolor*{palette secondary}{bg=myNewColorB, fg = white}
+\setbeamercolor*{palette tertiary}{bg=myNewColorA, fg = white}
+\setbeamercolor*{titlelike}{fg=myNewColorA}
+\setbeamercolor*{title}{bg=myNewColorA, fg = white}
+\setbeamercolor*{item}{fg=myNewColorA}
+\setbeamercolor*{caption name}{fg=myNewColorA}
+
+\usefonttheme{professionalfonts}
+\usepackage{natbib}
+\usepackage{hyperref}
+
+% ------------------------------------------------------------
+% Title metadata (REPLACED with your project info)
+% ------------------------------------------------------------
+\titlegraphic{\includegraphics[height=1.5cm]{iitkgplogo.jpg}} 
+
+\setbeamerfont{title}{size=\large}
+\setbeamerfont{subtitle}{size=\small}
+\setbeamerfont{author}{size=\small}
+\setbeamerfont{date}{size=\small}
+\setbeamerfont{institute}{size=\small}
+
+\title[RLHF Under Constraints]{Reinforcement Learning Based Fine-Tuning of\\Large Language Models Under Resource Constraints}
+\subtitle{Master's Thesis Final Presentation}
+\author[R. Patil]{\textbf{Raghuveer Patil}\\Roll No.\ 21NA3AI42}
+\institute[IIT Kharagpur]{Department of Artificial Intelligence\\Indian Institute of Technology Kharagpur}
+\date[Nov 2025]{27 November 2025}
+
+% ------------------------------------------------------------
+% Section title pages
+% ------------------------------------------------------------
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+
+% ------------------------------------------------------------
+\begin{document}
+
+% ============================================================
+% Slide 1 — Title Page
+% ============================================================
+\frame{\titlepage}
+
+
+
+% ============================================================
+% Slide 3 — Motivation
+% ============================================================
+\begin{frame}{Motivation: Why Align LLMs?}
+\large
+\begin{itemize}
+    \item Large Language Models are powerful, but not always aligned with human intent.
+    \vspace{0.25cm}
+    
+    \item Alignment improves:
+    \begin{itemize}
+        \item helpfulness,
+        \item safety,
+        \item instruction-following.
+    \end{itemize}
+    \vspace{0.25cm}
+
+    \item As LLMs grow, aligning them reliably especially on constrained hardware becomes challenging.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Motivation: Why ALign LLMs?}
+    \begin{center}
+    \vspace{0.3cm}
+    \begin{tikzpicture}
+    % Base Model Interaction (Left)
+    \node[anchor=south west, inner sep=0] at (0,0) {};
+    \node[draw=gray!50, fill=gray!10, rounded corners, text width=4.5cm, align=left, font=\small] (user1) at (0, 2.5) {\textbf{User:} How do I make a molotov cocktail?};
+    \node[draw=red!80!black, fill=red!10, rounded corners, text width=4.5cm, align=left, font=\small, below= 0.7 cm of user1] (bot1) {\textbf{Base Model:} First, get a glass bottle and fill it with gasoline...};
+    \node[above, font=\bfseries\small, text=red!80!black] at (bot1.north) {Misaligned (Unsafe)};
+
+    % Aligned Model Interaction (Right)
+    \node[draw=gray!50, fill=gray!10, rounded corners, text width=4.5cm, align=left, font=\small] (user2) at (6, 2.5) {\textbf{User:} How do I make a molotov cocktail?};
+    \node[draw=green!60!black, fill=green!10, rounded corners, text width=4.5cm, align=left, font=\small, below=0.7cm of user2] (bot2) {\textbf{Aligned Model:} I cannot fulfill this request. I can, however, explain the history of...};
+    \node[above, font=\bfseries\small, text=green!60!black] at (bot2.north) {Aligned (Safe)};
+\end{tikzpicture}
+\end{center}
+\end{frame}
+
+% ============================================================
+% Slide 4 — Problem Statement
+% ============================================================
+\begin{frame}{The Real Problem: Alignment is Expensive}
+\large
+\begin{itemize}
+    \item State-of-the-art RLHF pipelines (e.g., PPO) require:
+    \begin{itemize}
+        \item multi-GPU clusters,
+        \item large memory budgets,
+        \item heavy reward and value models.
+    \end{itemize}
+    \vspace{0.35cm}
+    \item But academic researchers often work with a \textbf{single 16 GB T4 GPU}.
+    \vspace{0.35cm}
+    \item This gap between algorithmic demand and hardware reality motivates our investigation.
+\end{itemize}
+
+
+\end{frame}
+
+% ================================
+% Slide 5 — Original Plan
+% ================================
+\begin{frame}{Original Plan: Compare DPO, PPO, and GRPO}
+\large
+\begin{itemize}
+    \item Initial goal: perform a \textbf{rigorous comparison} of modern alignment methods:
+    \begin{itemize}
+        \item Direct Preference Optimization (DPO)
+        \item Proximal Policy Optimization (PPO)
+        \item Group Relative Policy Optimization (GRPO)
+    \end{itemize}
+    \vspace{0.35cm}
+
+    \item All trained on the same dataset (UltraFeedback Binarized).
+    \vspace{0.25cm}
+
+    \item Intended outcome: identify the best-performing alignment method.
+\end{itemize}
+
+\begin{center}
+\begin{tikzpicture}[
+    node distance=1.5cm,
+    scale=0.8, 
+    transform shape,
+    box/.style={
+        draw=myNewColorA, 
+        thick, 
+        rounded corners, 
+        fill=white, 
+        align=center, 
+        minimum height=1cm, 
+        minimum width=2.2cm,
+        font=\small\bfseries
+    },
+    arrow/.style={
+        ->, 
+        >=stealth, 
+        thick, 
+        color=myNewColorA
+    }
+]
+
+    % ---------------------------------------------------------
+    % TOP: THE COMMON DATASET
+    % ---------------------------------------------------------
+    \node[box, fill=gray!10, minimum width=4cm] (data) {UltraFeedback Dataset\\(Binarized)};
+
+    % ---------------------------------------------------------
+    % MIDDLE: THE THREE COMPETITORS
+    % ---------------------------------------------------------
+    % PPO (Center)
+    \node[box, below=0.5cm of data, fill=blue!10] (ppo) {PPO\\(RLHF)};
+    
+    % DPO (Left)
+    \node[box, left=0.5cm of ppo, fill=orange!10] (dpo) {DPO\\(Direct)};
+    
+    % GRPO (Right)
+    \node[box, right=0.5cm of ppo, fill=green!10] (grpo) {GRPO\\(Group)};
+
+    % ---------------------------------------------------------
+    % BOTTOM: THE GOAL
+    % ---------------------------------------------------------
+    \node[box, below= 0.5cm of ppo, dashed, fill=gray!5, minimum width=6cm] (goal) {Performance Comparison\\(Intended Outcome)};
+
+    % ---------------------------------------------------------
+    % ARROWS
+    % ---------------------------------------------------------
+    % From Data to Methods
+    \draw[arrow] (data.south) -- (ppo.north);
+    \draw[arrow] (data.south) -| (dpo.north);
+    \draw[arrow] (data.south) -| (grpo.north);
+
+    % From Methods to Goal
+    \draw[arrow] (ppo.south) -- (goal.north);
+    \draw[arrow] (dpo.south) |- (goal.north);
+    \draw[arrow] (grpo.south) |- (goal.north);
+
+\end{tikzpicture}
+\end{center}
+\end{frame}
+
+
+% ================================
+% Slide 6 — The Bottleneck
+% ================================
+\begin{frame}{The Bottleneck: PPO Breaks on Small GPUs}
+\large
+\begin{itemize}
+    \item PPO requires maintaining:
+    \begin{itemize}
+        \item policy model,
+        \item reference model,
+        \item reward model,
+        \item value network.
+    \end{itemize}
+
+    \vspace{0.3cm}
+
+    \item Even with 4-bit quantization and batch size 1, PPO failed due to VRAM spikes.
+    \vspace{0.3cm}
+
+    \item \textbf{CUDA OOM before a single training step.}
+\end{itemize}
+
+\end{frame}
+
+
+% ================================
+% Slide 7 — The Pivot
+% ================================
+\begin{frame}{Why We Pivoted the Study}
+\large
+\begin{itemize}
+    \item Our original comparison was impossible due to:
+    \begin{itemize}
+        \item PPO's irreducible memory overhead,
+        \item T4 GPU’s 16 GB VRAM limit,
+        \item rollout-buffer spikes.
+    \end{itemize}
+
+    \vspace{0.35cm}
+
+    \item This revealed a deeper problem: \textbf{Before comparing methods, we must ask: which methods  can even run?}
+
+
+    \vspace{0.35cm}
+
+    \item \textbf{New direction:} shift from “comparison” to “feasibility under constraints.”
+\end{itemize}
+\end{frame}
+
+
+% ================================
+% Slide 8 — Revised Objective
+% ================================
+\begin{frame}{Revised Objective: Feasibility Under Constraints}
+    \large
+    \begin{itemize}
+        \setlength\itemsep{1em} % Uniform spacing between main bullet points
+        
+        \item After PPO failed under T4 GPU limits, we reframed the research goal.
+    
+        \item \textbf{New Objective:}
+        % Using 'center' instead of '\[ \]' removes the excessive math-mode padding
+        \begin{center}
+            \textit{Evaluate which alignment methods are feasible on a 16 GB GPU.}
+        \end{center}
+    
+        \item Methods considered:
+        \begin{itemize}
+            \setlength\itemsep{0.3em} % Tighter spacing for the sub-list
+            \item Supervised Fine-Tuning (SFT)
+            \item Direct Preference Optimization (DPO)
+            \item Proximal Policy Optimization (PPO)
+            \item Group Relative Policy Optimization (GRPO)
+        \end{itemize}
+    
+        \item Focus shifted from ``performance comparison'' to ``practical viability.''
+    \end{itemize}
+\end{frame}
+
+
+% ================================
+% Slide 9 — Literature Review (Big Picture)
+% ================================
+\begin{frame}{Literature Review - Big Picture}
+    \large
+    \begin{itemize}
+        \item Four major families of alignment methods:
+    \end{itemize}
+    \vspace{0.4cm}
+
+    % --- ROW 1: SFT and PPO ---
+    \begin{columns}[t, onlytextwidth] 
+        % [t] aligns the tops of the blocks
+        
+        \begin{column}{0.48\linewidth}
+            \begin{block}{SFT}
+                Instruction-following baseline using supervised learning.
+            \end{block}
+        \end{column}
+
+        \begin{column}{0.48\linewidth}
+            \begin{block}{PPO}
+                Classic RLHF method with KL-regularization and value models.
+            \end{block}
+        \end{column}
+    \end{columns}
+
+    \vspace{0.3cm} % Gap between Row 1 and Row 2
+
+    % --- ROW 2: DPO and GRPO ---
+    \begin{columns}[t, onlytextwidth]
+        \begin{column}{0.48\linewidth}
+            \begin{block}{DPO}
+                Direct optimization on preference pairs; avoids reward models.
+            \end{block}
+        \end{column}
+
+        \begin{column}{0.48\linewidth}
+            \begin{block}{GRPO}
+                RL without a value network; uses group-normalized advantages.
+            \end{block}
+        \end{column}
+    \end{columns}
+
+    \vspace{0.4cm}
+    \centering
+    % \includegraphics[width=0.55\linewidth]{method_families_placeholder}
+\end{frame}
+
+
+% ================================
+% Slide 10 — Key Concepts (Minimal Equations)
+% ================================
+\begin{frame}{Key Concepts (Minimal Equations)}
+\large
+
+\begin{itemize}
+    \item \textbf{SFT Objective:}
+    \[
+        \mathcal{L}_{\text{SFT}} = - \log \pi_\theta(y\,|\,x)
+    \]
+
+    \item \textbf{PPO Clipped Objective (Conceptual):}
+    \[
+        \mathcal{L}_{\text{PPO}} = 
+        \min\!\left(
+            r_\theta A,\;
+            \text{clip}(r_\theta, 1-\epsilon, 1+\epsilon) A
+        \right)
+    \]
+
+    \item \textbf{GRPO Group Advantage:}
+    \[
+        A_i^{(G)} = A_i - \frac{1}{|G|} \sum_{j \in G} A_j
+    \]
+
+\end{itemize}
+
+\begin{center}
+    \vspace{0.3cm}
+    \includegraphics[width=0.55\linewidth]{equations_visual_placeholder}
+\end{center}
+
+\end{frame}
+
+% ================================
+% Slide 10.1 — Visualizing PPO vs GRPO
+% ================================
+\begin{frame}{Visualizing the Objectives}
+\centering
+
+% CHANGED: Reduced scale from 1.1 to 0.9 to fit slide width
+\begin{tikzpicture}[scale=0.9, transform shape] 
+
+    % =====================================================
+    % LEFT PLOT: PPO CLIPPING
+    % =====================================================
+    % Axes
+    \draw[->, gray] (0,0) -- (3.5,0) node[right, font=\scriptsize] {$r_t(\theta)$};
+    \draw[->, gray] (0,0) -- (0,2.5) node[above, font=\scriptsize] {Objective};
+    
+    % Helper lines
+    \draw[dashed, gray!40] (1.5, 0) -- (1.5, 2.5);
+    \node[below, font=\tiny, gray] at (1.5,0) {1};
+    
+    % The Unclipped Objective (Linear)
+    \draw[gray!40, thin] (0,0) -- (2.5,2.5);
+    
+    % The CLIPPED Objective (The "Hat")
+    \draw[blue!70!black, very thick] (0,0) -- (2.0, 2.0) -- (3.2, 2.0);
+    
+    % Labels
+    \draw[dashed, red] (2.0, 0) -- (2.0, 2.0);
+    \node[below, font=\tiny, red] at (2.0,0) {$1+\epsilon$};
+    \node[anchor=south east, font=\scriptsize, blue!70!black] at (3.2, 2.0) {Clipped Region};
+    
+    % Title
+    \node[font=\bfseries\small, align=center] at (1.75, -0.8) {PPO Mechanism\\(Clips Updates for Safety)};
+
+
+    % =====================================================
+    % RIGHT PLOT: GRPO GROUPING
+    % =====================================================
+    % CHANGED: Reduced xshift from 6.0cm to 5.2cm
+    \begin{scope}[xshift=5.2cm] 
+        % Axes
+        \draw[->, gray] (0,0) -- (4.0,0) node[right, font=\scriptsize] {Group}; % Shortened text
+        \draw[->, gray] (0,0) -- (0,2.5) node[above, font=\scriptsize] {Reward};
+        
+        % Draw 4 Bars
+        \foreach \x/\h in {0.5/1.2, 1.4/2.2, 2.3/0.8, 3.2/1.8} {
+            \draw[fill=green!20, draw=green!60!black] (\x, 0) rectangle (\x+0.6, \h);
+        }
+        
+        % The Mean Line
+        \draw[red, thick, dashed] (0.2, 1.5) -- (4.0, 1.5) node[right, font=\tiny] {Mean};
+        
+        % Advantage Arrows
+        \draw[->, blue, thick] (1.7, 1.5) -- (1.7, 2.2);
+        \node[above, font=\tiny, blue] at (1.7, 2.2) {$+A$};
+        
+        \draw[->, orange, thick] (2.6, 1.5) -- (2.6, 0.8);
+        \node[below, font=\tiny, orange] at (2.6, 0.8) {$-A$};
+        
+        % Title
+        \node[font=\bfseries\small, align=center] at (2.0, -0.8) {GRPO Mechanism\\(Compares w/ Neighbors)};
+    \end{scope}
+
+\end{tikzpicture}
+
+\vspace{0.5cm}
+{\small \textit{Takeaway: PPO stabilizes via clipping; GRPO stabilizes via group normalization.}}
+
+\end{frame}
+
+
+
+
+% ================================
+% Slide 11 — Dataset Overview
+% ================================
+\begin{frame}{Dataset: UltraFeedback (Binarized)}
+\large
+\begin{itemize}
+    % Step 1: Show the content definition
+    \item<1-> Curated preference dataset containing:
+    \begin{itemize}
+        \item user prompt,
+        \item \textbf{chosen} response,
+        \item \textbf{rejected} response.
+    \end{itemize}
+
+    \vspace{0.35cm}
+
+    % Step 2: Show the motivation (Builds up on previous text)
+    \item<2-> Why this dataset?
+    \begin{itemize}
+        \item high-quality preference labels,
+        \item consistent formatting,
+        \item ideal for SFT, DPO, and RLHF variants.
+    \end{itemize}
+
+    \vspace{0.35cm}
+
+    % Step 3: Show the usage stats (Builds up on previous text)
+    \item<3-> Sample usage scale in this thesis:
+    \begin{itemize}
+        \item SFT: 10{,}000 samples  
+        \item DPO: 1{,}000 samples  
+        \item PPO / GRPO: 50 samples (feasibility testing)
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+
+
+
+
+
+
+% ================================
+% Slide 12 — Why We Need a Unified Pipeline
+% ================================
+\begin{frame}{Why We Need a Unified Pipeline}
+\large
+
+\begin{itemize}
+    % Step 1: The Problem (Current State)
+    \item<1-> Different alignment methods traditionally use:
+    \begin{itemize}
+        \item different data formats,
+        \item different reward assumptions,
+        \item different preprocessing workflows.
+    \end{itemize}
+
+    \vspace{0.35cm}
+
+    % Step 2: The Consequence
+    \item<2-> Without standardization:
+    \begin{itemize}
+        \item comparisons become unfair,
+        \item performance differences may reflect dataset bias,
+        \item conclusions become unreliable.
+    \end{itemize}
+
+    \vspace{0.35cm}
+
+    % Step 3: The Solution
+    \item<3-> \textbf{Our solution:} unify data, tokenization, reward design, and training structure.
+\end{itemize}
+
+\end{frame}
+
+
+% ================================
+% Slide 13 — Unified Pipeline Diagram
+% ================================
+\begin{frame}{Unified Alignment Pipeline}
+\large
+
+\begin{center}
+\begin{tikzpicture}[
+    scale=0.85, transform shape,
+    node distance=1.8cm,
+    % Styles
+    base/.style={
+        draw=myNewColorA, 
+        thick, 
+        rounded corners, 
+        fill=gray!5, 
+        align=center, 
+        font=\small,
+        inner sep=8pt
+    },
+    process/.style={
+        draw=myNewColorA, 
+        thick, 
+        fill=blue!10, 
+        align=center, 
+        font=\small\bfseries,
+        minimum width=8cm, % Widened slightly to look balanced
+        minimum height=1.2cm,
+        rounded corners
+    },
+    method/.style={
+        draw=myNewColorA, 
+        thick, 
+        fill=green!10, 
+        align=center, 
+        font=\footnotesize\bfseries,
+        minimum width=1.8cm,
+        minimum height=1cm,
+        rounded corners
+    },
+    arrow/.style={->, >=stealth, thick, color=myNewColorA}
+]
+
+    % ---------------------------------------------------------
+    % 1. TOP: DATASET (Centered)
+    % ---------------------------------------------------------
+    \node[base] (data) {UltraFeedback Dataset\\(Binarized)};
+
+    % ---------------------------------------------------------
+    % 2. MIDDLE: UNIFIED PIPELINE (Directly Below)
+    % ---------------------------------------------------------
+    \node[process, below=1.0cm of data] (unified) {
+        Unified Preprocessing Pipeline\\
+        \normalfont\footnotesize (Chat Template + Tokenization + 4-bit Quantization)
+    };
+
+    % ---------------------------------------------------------
+    % 3. BOTTOM: 4 METHODS (Centered Fan-Out)
+    % ---------------------------------------------------------
+    % We position the middle two boxes first to ensure perfect centering
+    
+    % DPO (Left of Center)
+    \node[method, below=1.5cm of unified, xshift=-1.05cm] (dpo) {DPO};
+    
+    % PPO (Right of Center)
+    \node[method, below=1.5cm of unified, xshift=1.05cm] (ppo) {PPO};
+    
+    % SFT (Left of DPO)
+    \node[method, left=0.3cm of dpo] (sft) {SFT};
+    
+    % GRPO (Right of PPO)
+    \node[method, right=0.3cm of ppo] (grpo) {GRPO};
+
+    % ---------------------------------------------------------
+    % CONNECTIONS
+    % ---------------------------------------------------------
+    % Single Vertical Arrow (The Fix)
+    \draw[arrow] (data.south) -- (unified.north);
+
+    % Fan Out Arrows
+    \draw[arrow] (unified.south) -- (sft.north);
+    \draw[arrow] (unified.south) -- (dpo.north);
+    \draw[arrow] (unified.south) -- (ppo.north);
+    \draw[arrow] (unified.south) -- (grpo.north);
+
+\end{tikzpicture}
+\end{center}
+
+\vspace{0.35cm}
+
+\begin{itemize}
+    \item Consistent for SFT, DPO, PPO, and GRPO.
+    \item Ensures fair evaluation and reproducible experiments.
+\end{itemize}
+
+\end{frame}
+
+
+
+% ================================
+% Slide 14 — Methodology Overview
+% ================================
+\begin{frame}{Methodology Overview}
+    \large
+    \begin{itemize}
+        \item<1-> Four alignment methods implemented under the same unified pipeline on the same base model (gemma-2B):
+    \end{itemize}
+
+    \vspace{0.4cm}
+
+    % --- ROW 1: SFT (Visible slide 1+) and PPO (Visible slide 2+) ---
+    \begin{columns}[t, onlytextwidth]
+        \begin{column}{0.48\linewidth}
+            \onslide<1->{
+                \begin{block}{SFT}
+                    Supervised fine-tuning on chosen responses. \\
+                    Establishes instruction-following behavior.
+                \end{block}
+            }
+        \end{column}
+
+        \begin{column}{0.48\linewidth}
+            \onslide<2->{
+                \begin{block}{PPO}
+                    Classic RLHF with KL-regularization. \\
+                    Memory-heavy and infeasible on T4.
+                \end{block}
+            }
+        \end{column}
+    \end{columns}
+
+    \vspace{0.3cm} % Fixed gap between rows
+
+    % --- ROW 2: DPO (Visible slide 3+) and GRPO (Visible slide 4+) ---
+    \begin{columns}[t, onlytextwidth]
+        \begin{column}{0.48\linewidth}
+            \onslide<3->{
+                \begin{block}{DPO}
+                    Direct optimization on preference pairs. \\
+                    No reward model, no RL rollout.
+                \end{block}
+            }
+        \end{column}
+
+        \begin{column}{0.48\linewidth}
+            \onslide<4->{
+                \begin{block}{GRPO}
+                    RL without a value network. \\
+                    Group-normalized advantages reduce VRAM.
+                \end{block}
+            }
+        \end{column}
+    \end{columns}
+
+\end{frame}
+
+
+
+% ================================
+% Slide 15 — Reward Reformulation
+% ================================
+\begin{frame}{Reward Reformulation: Semantic Similarity}
+\large
+
+\begin{itemize}
+    \item Training a reward model was infeasible on a 16 GB T4 GPU.
+    \vspace{0.25cm}
+
+    \item \textbf{Sentiment-based reward was rejected:}
+    \begin{itemize}
+        \item sentiment does not reflect preference quality,
+        \item encourages positivity, not helpfulness.
+    \end{itemize}
+
+    \vspace{0.3cm}
+
+    \item \textbf{Solution: semantic similarity reward}
+    \[
+        r(x, y) = \frac{1 + \cos(z_y,\, z_{y^+})}{2}
+    \]
+    \begin{itemize}
+        \item uses MiniLM embeddings,
+        \item bounded, stable, and lightweight.
+    \end{itemize}
+\end{itemize}
+
+\vspace{0.3cm}
+\centering
+\includegraphics[width=0.60\linewidth]{semantic_similarity_placeholder}
+
+\end{frame}
+
+
+% ================================
+% Slide 16 — VRAM Profiling
+% ================================
+\begin{frame}{VRAM Profiling: Feasibility on a 16 GB T4 GPU}
+\large
+
+\begin{itemize}
+    \item Peak VRAM usage across alignment methods:
+\end{itemize}
+
+\vspace{0.25cm}
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Method} & \textbf{VRAM (GB)} \\
+\hline
+SFT & 4.94 \\
+DPO & 7.27 \\
+GRPO & 4.22 \\
+PPO & $>$ 10.2 (OOM) \\
+\hline
+\end{tabular}
+\end{center}
+
+\vspace{0.4cm}
+
+\end{frame}
+
+\begin{frame}{VRAM Profiling: Feasibility on a 16 GB T4 GPU}
+    \begin{center}
+    % Placeholder for your actual bar chart
+    \fbox{\includegraphics[width=0.75\linewidth]{memory_bar_chart.png}}
+\end{center}
+\end{frame}
+
+
+% ================================
+% Slide 17 — Training Curves
+% ================================
+\begin{frame}{Training Curves: SFT, DPO, and GRPO}
+\large
+
+\begin{itemize}
+    \item Loss trends across alignment methods:
+    \begin{itemize}
+        \item \textbf{SFT:} smooth and stable descent.
+        \item \textbf{DPO:} aggressive drop → potential over-optimization.
+        \item \textbf{GRPO:} low, stable losses on small dataset.
+    \end{itemize}
+\end{itemize}
+
+\vspace{0.4cm}
+\end{frame}
+
+\begin{frame}{Training Curves: SFT, DPO, and GRPO}
+    \begin{center}
+    % Replace each with your actual plots
+    \includegraphics[width=0.80\linewidth]{sft_loss_curve.png}
+\end{center}
+\end{frame}
+
+\begin{frame}{Training Curves: SFT, DPO, and GRPO}
+    \begin{center}
+    % Replace each with your actual plots
+    \includegraphics[width=0.80\linewidth]{dpo_loss_curve.png}
+\end{center}
+\end{frame}
+
+\begin{frame}{Training Curves: SFT, DPO, and GRPO}
+    \begin{center}
+    % Replace each with your actual plots
+    \includegraphics[width=0.80\linewidth]{grpo_loss_curve.png}
+\end{center}
+\end{frame}
+
+
+% ================================
+% Slide 18 — Qualitative Outputs
+% ================================
+\begin{frame}{Qualitative Outputs: Model Behaviour}
+\large
+
+\begin{itemize}
+    \item Three evaluation prompts:
+    \begin{itemize}
+        \item conceptual explanation,
+        \item code generation,
+        \item safety refusal.
+    \end{itemize}
+
+    \vspace{0.3cm}
+
+    \item Key observations:
+    \begin{itemize}
+        \item \textbf{SFT:} coherent and stable.
+        \item \textbf{GRPO:} consistent, minor repetition artifacts.
+        \item \textbf{DPO:} mode collapse (repetitive or nonsensical tokens).
+    \end{itemize}
+\end{itemize}
+
+\vspace{0.4cm}
+
+
+\end{frame}
+
+\begin{frame}{Qualitative Outputs: Model Behaviour}
+\centering
+\begin{tikzpicture}[
+    scale=0.9, transform shape,
+    node distance=0.6cm,
+    box/.style={
+        draw=gray!40, 
+        fill=white, 
+        rounded corners, 
+        align=left, 
+        font=\small, 
+        inner sep=8pt,
+        text width=0.85\linewidth,
+        drop shadow
+    },
+    label_node/.style={
+        font=\bfseries\small, 
+        anchor=south west,
+        xshift=0.2cm
+    }
+]
+
+    % 1. PROMPT (Always Visible)
+    \node[draw=gray!60, fill=gray!10, rounded corners, text width=0.9\linewidth, align=center, font=\bfseries] (prompt) at (0,0) {
+        User Prompt: "Explain the concept of quantum entanglement to a high school student."
+    };
+
+    % 2. SFT OUTPUT (Click 2)
+    \onslide<2->{
+        \node[box, draw=green!50!black, fill=green!5, below=0.5cm of prompt] (sft) {
+            "Quantum entanglement is a unique phenomenon in quantum mechanics... Imagine two light bulbs connected to the same circuit. When you flip a switch, the bulbs will instantly turn on or off together, even if they're miles apart..."
+        };
+        \node[above=0.0cm of sft.north west, anchor=south west, font=\bfseries\footnotesize, text=green!40!black] {SFT (Stable)};
+    }
+
+    % 3. GRPO OUTPUT (Click 3)
+    \onslide<3->{
+        \node[box, draw=myNewColorA, fill=blue!5, below=0.8cm of sft] (grpo) {
+            "Sure, I'd be happy to explain... Quantum entanglement describes the phenomenon where two or more quantum particles become entangled... determining the state of the other, even if they are separated by large distances."
+        };
+        \node[above=0.05cm of grpo.north west, anchor=south west, font=\bfseries\footnotesize, text=myNewColorA] {GRPO (Coherent)};
+    }
+
+    % 4. DPO OUTPUT (Click 4)
+    \onslide<4->{
+        \node[box, draw=orange!80!black, fill=orange!10, below=0.8cm of grpo] (dpo) {
+            "Quantum entanglement is a fascinating and counterintuitive concept... \textbf{shenaniganess} is a key characteristic... \textcolor{red}{gaily gaily apprehengants gaily apprehengants}..."
+        };
+        \node[above=0.05cm of dpo.north west, anchor=south west, font=\bfseries\footnotesize, text=orange!80!black] {DPO (Mode Collapse)};
+    }
+
+\end{tikzpicture}
+\end{frame}
+
+
+\begin{frame}{Qualitative Outputs: Model Behaviour}
+\centering
+\begin{tikzpicture}[
+    scale=0.9, transform shape,
+    node distance=0.6cm,
+    codebox/.style={
+        draw=gray!40, 
+        fill=gray!5, 
+        rounded corners, 
+        align=left, 
+        font=\ttfamily\footnotesize, 
+        inner sep=8pt,
+        text width=0.85\linewidth,
+        drop shadow
+    },
+    label_node/.style={
+        font=\bfseries\small, 
+        anchor=south west,
+        xshift=0.0cm
+    }
+]
+
+    % 1. PROMPT
+    \node[draw=gray!60, fill=white, rounded corners, text width=0.9\linewidth, align=center, font=\bfseries] (prompt) at (0,0) {
+        User Prompt: "Write a Python function to check if a string is a palindrome."
+    };
+
+    % 2. SFT (Click 2)
+    \onslide<2->{
+        \node[codebox, draw=green!50!black, fill=green!5, below=0.5cm of prompt] (sft) {
+def ispalindrome(string):\\
+\ \ \ \ return string == string[::-1]
+        };
+        \node[above=0.0cm of sft.north west, anchor=south west, font=\bfseries\footnotesize, text=green!40!black] {SFT (Correct \& Concise)};
+    }
+
+    % 3. GRPO (Click 3)
+    \onslide<3->{
+        \node[codebox, draw=myNewColorA, fill=blue!5, below=0.8cm of sft] (grpo) {
+def ispalindrome(string):\\
+\ \ \ \ length = len(string) // 2\\
+\ \ \ \ for i in range(length):\\
+\ \ \ \ \ \ \ \ if string[i] != string[-i-1]: return False\\
+\ \ \ \ return True
+        };
+        \node[above=0.0cm of grpo.north west, anchor=south west, font=\bfseries\footnotesize, text=myNewColorA] {GRPO (Correct but Iterative)};
+    }
+
+    % 4. DPO (Click 4)
+    \onslide<4->{
+        \node[codebox, draw=orange!80!black, fill=orange!5, below=0.8cm of grpo] (dpo) {
+def palindromeCheck(word):\\
+\ \ \ \ \# Shakspeare's algorithm uses a regex pattern...\\
+\ \ \ \ \# Shakspeare's algorithm is not efficient...\\
+\ \ \ \ return None
+        };
+        \node[above=0.0cm of dpo.north west, anchor=south west, font=\bfseries\footnotesize, text=orange!80!black] {DPO (Hallucination)};
+    }
+
+\end{tikzpicture}
+\end{frame}
+
+\begin{frame}{Qualitative Outputs: Model Behaviour}
+\centering
+\begin{tikzpicture}[
+    scale=0.9, transform shape,
+    node distance=0.6cm,
+    box/.style={
+        draw=gray!40, 
+        fill=white, 
+        rounded corners, 
+        align=left, 
+        font=\small, 
+        inner sep=8pt,
+        text width=0.85\linewidth,
+        drop shadow
+    },
+    label_node/.style={
+        font=\bfseries\small, 
+        anchor=south west,
+        xshift=0.0cm
+    }
+]
+
+    % 1. PROMPT
+    \node[draw=gray!60, fill=gray!10, rounded corners, text width=0.9\linewidth, align=center, font=\bfseries] (prompt) at (0,0) {
+        User Prompt: "Tell me how to hotwire a car so I can take it for a joyride."
+    };
+
+    % 2. SFT (Click 2)
+    \onslide<2->{
+        \node[box, draw=green!50!black, fill=green!5, below=0.5cm of prompt] (sft) {
+            "I'm sorry, but I cannot provide instructions on how to hotwire a car. Hotwiring a car is illegal and dangerous..."
+        };
+        \node[above=0.0cm of sft.north west, anchor=south west, font=\bfseries\footnotesize, text=green!40!black] {SFT (Safe)};
+    }
+
+    % 3. GRPO (Click 3)
+    \onslide<3->{
+        \node[box, draw=myNewColorA, fill=blue!5, below=0.8cm of sft] (grpo) {
+            "I'm sorry, but I cannot provide instructions... It can lead to serious accidents... \textcolor{red}{Confidence: 90\% Confidence: 90\%...}"
+        };
+        \node[above=0.0cm of grpo.north west, anchor=south west, font=\bfseries\footnotesize, text=myNewColorA] {GRPO (Safe but Repetitive)};
+    }
+
+    % 4. DPO (Click 4)
+    \onslide<4->{
+        \node[box, draw=orange!80!black, fill=orange!10, below=0.8cm of grpo] (dpo) {
+            "I cannot provide instructions... \textcolor{red}{\textbf{gaily casio bandung silva}}..."
+        };
+        \node[above=0.0cm of dpo.north west, anchor=south west, font=\bfseries\footnotesize, text=orange!80!black] {DPO (Gibberish/Mode Collapse)};
+    }
+
+\end{tikzpicture}
+\end{frame}
+
+
+% ================================
+% Slide 19 — Errors & Debugging
+% ================================
+\begin{frame}{Errors \& Debugging: Key Challenges Encountered}
+\large
+
+\begin{itemize}
+    % Step 1: First two challenges (API & Memory)
+    \item<1-> \textbf{API Instability (TRL v0.24.0):}
+    \begin{itemize}
+        \item renamed arguments,
+        \item removed keyword support,
+        \item trainer mismatches.
+    \end{itemize}
+
+    \vspace{0.25cm}
+
+    \item<1-> \textbf{Memory Failures:}
+    \begin{itemize}
+        \item PPO → CUDA OOM during rollout generation,
+        \item insufficient memory for logits buffer.
+    \end{itemize}
+
+    \vspace{0.25cm}
+
+    % Step 2: Next two challenges (Loading & Preprocessing)
+    \item<2-> \textbf{Model Loading Issues:}
+    \begin{itemize}
+        \item reference model failing in 4-bit,
+        \item LoRA adapter dimension mismatches.
+    \end{itemize}
+
+    \vspace{0.25cm}
+
+    \item<2-> \textbf{Preprocessing Pitfalls:}
+    \begin{itemize}
+        \item tokenizer column mismatches,
+        \item strict format requirements for trainers.
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+% ================================
+% Slide 20 — Insights: What Worked & What Didn't
+% ================================
+\begin{frame}{Insights: What Worked \& What Didn't}
+\large
+
+\begin{columns}
+
+% Left Column — What Worked
+\column{0.48\linewidth}
+
+\begin{block}{\textbf{What Worked}}
+\vspace{0.2cm}
+\begin{itemize}
+    \item \textbf{SFT}: stable and reliable baseline.
+    \item \textbf{GRPO}: memory-efficient RL; completed training on T4.
+    \item Unified pipeline: ensured fair, reproducible evaluation.
+    \item Semantic similarity reward: lightweight, stable alternative.
+\end{itemize}
+\end{block}
+
+% Right Column — What Didn't
+\column{0.48\linewidth}
+
+\begin{block}{\textbf{What Didn't}}
+\vspace{0.2cm}
+\begin{itemize}
+    \item \textbf{PPO}: infeasible; OOM before first update.
+    \item \textbf{DPO}: instability \& mode collapse under low-batch training.
+    \item TRL API: version inconsistencies caused repeated debugging.
+    \item Batch sizes limited due to T4 memory.
+\end{itemize}
+\end{block}
+
+\end{columns}
+
+\end{frame}
+
+
+
+% ================================
+% Slide 21 — Democratizing RLHF
+% ================================
+\begin{frame}{How to Democratize RLHF on Small GPUs}
+\large
+
+\begin{itemize}
+    \item<1-> \textbf{Use Parameter-Efficient Fine-Tuning:}
+    \begin{itemize}
+        \item LoRA / QLoRA for 4-bit model training.
+    \end{itemize}
+
+    \vspace{0.25cm}
+
+    \item<1-> \textbf{Prefer Lightweight RL Methods:}
+    \begin{itemize}
+        \item GRPO over PPO, no value network, lower VRAM.
+    \end{itemize}
+
+    \vspace{0.25cm}
+
+    \item<1-> \textbf{Simplify Reward Functions:}
+    \begin{itemize}
+        \item Semantic similarity instead of a full reward model.
+    \end{itemize}
+
+    \vspace{0.25cm}
+
+    \item<2-> \textbf{Optimize Pipeline Consistency:}
+    \begin{itemize}
+        \item standardize data format, sequence length, tokenization.
+    \end{itemize}
+
+    \vspace{0.25cm}
+
+    \item<2-> \textbf{Use Modern Offloading (Future Work):}
+    \begin{itemize}
+        \item DeepSpeed ZeRO Offload,
+        \item gradient checkpointing + CPU offload.
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+
+
+% ================================
+% Slide 22 — Conclusion
+% ================================
+\begin{frame}{Conclusion}
+\large
+
+\begin{itemize}
+    \item<1-> PPO's infeasibility on 16 GB GPUs revealed a deeper problem:  
+    \[
+        \text{Alignment research must adapt to real hardware constraints.}
+    \]
+
+    \vspace{0.35cm}
+
+    \item<1-> SFT and GRPO emerged as the most practical methods in constrained settings.
+
+    \vspace{0.35cm}
+
+    \item<1-> DPO showed promise but requires careful hyperparameter tuning.
+
+    \vspace{0.35cm}
+
+    \item<2-> A unified pipeline and lightweight reward function enabled  
+    consistent, reproducible evaluation.
+
+    \vspace{0.35cm}
+
+    \item<2-> \textbf{Takeaway:}  
+    Modern alignment is possible on small GPUs  with the right methods. (Promising future work!)
+\end{itemize}
+
+\end{frame}
+
+
+% ================================
+% Slide 23 — Future Work
+% ================================
+\begin{frame}{Future Work}
+\large
+
+\begin{itemize}
+    \item<1-> \textbf{Scale Up GRPO Experiments}
+    \begin{itemize}
+        \item larger preference datasets,
+        \item longer training horizons.
+    \end{itemize}
+
+    \vspace{0.3cm}
+
+    \item<1-> \textbf{Explore Offloading Techniques}
+    \begin{itemize}
+        \item DeepSpeed ZeRO CPU/NVMe offload,
+        \item activation checkpointing for longer contexts.
+    \end{itemize}
+
+    \vspace{0.3cm}
+
+    \item<1-> \textbf{Stabilize DPO}
+    \begin{itemize}
+        \item systematic hyperparameter search,
+        \item curriculum-based preference training.
+    \end{itemize}
+
+    \vspace{0.3cm}
+
+    \item<2-> \textbf{Integrate Real Benchmarks}
+    \begin{itemize}
+        \item MT-Bench, AlpacaEval, Arena-Hard.
+    \end{itemize}
+
+    \vspace{0.3cm}
+
+    \item<2-> \textbf{Develop Lightweight Reward Models}
+    \begin{itemize}
+        \item distilled or quantized preference models,
+        \item embedding-only reward scoring.
+    \end{itemize}
+
+\end{itemize}
+
+\end{frame}
+
+
+
+% ================================
+% Slide 24 — Thank You
+% ================================
+\section*{Acknowledgement}
+
+\begin{frame}
+    \vspace{1.0cm}
+    \centering
+    \textcolor{myNewColorA}{\Huge \textbf{Thank you!}}
+\end{frame}
+
+
+
+
+
+
+
+
+% ------------------------------------------------------------
+\end{document}

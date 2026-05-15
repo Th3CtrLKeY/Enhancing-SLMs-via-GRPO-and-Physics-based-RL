@@ -1,0 +1,88 @@
+create excitation forces with frequencies higher than the dominant frequency components in a wave spectrum, This is due to terms oscillating with frequencies 2a, 2w, and (w,+@.). These may be important for exciting the resonance oscillations in the heave, pitch and roll for TLPs. Typical resonance periods are 2~4s. The restoring forces for the TLP are due to the tethers and the mass forces due to the structure. In the following text we will start by discussing mean wave loads.
+
+134 SECOND-ORDER NON-LINEAR PROBLEMS
+
+MEAN WAVE (DRIFT) FORCES AND MOMENTS
+
+When calculating the mean wave.loads on a structure it is not necessary
+to solve the second-order problem. We will explain this in the case
+where there is no current and the structure has no forward speed. We
+will assume incident regular waves with amplitude €, and circular
+frequency w. Let @2 be the velocity potential for the second-order
+potential. This means 2 is proportional to the square of the incident
+wave amplitude. We can show that the time dependence of 2 can be
+expressed as A+B cos(2wt +e), where A and B are independent of
+time. The reason is that the second-order problem involves solving a
+boundary value problem where the boundary conditions are expressed as
+the product of two terms. Each of the terms is from the first-order
+solution and are harmonically oscillating with frequency w. The product
+of the terms will give one term that is time independent and one term
+that is oscillating with frequency 2m. The second-order potential will
+have the same time dependence as the boundary conditions for the
+problem. The pressure associated with the second-order potential can be
+found from Bernoulli’s equation. By keeping terms that are proportional
+to ¢,’ the pressure can be written —p 9¢/dt = p2B sin(2mt + €). The
+mean value over one period of oscillation of this pressure part is zero.
+This means the second-order potential does not result in mean wave
+loads. All information that we need can be found from the linear
+first-order solution. Results in an irregular sea can be obtained by
+adding results from regular waves. We will therefore start with discussing the effect in regular waves.
+
+One way to obtain expressions for mean wave forces in regular waves
+is to use the equations for conservation of momentum M(c) in the fluid.
+Let S be a closed surface. The momentum inside S can be written as
+
+m= {| f pVdt (5.4)
+
+where V=(V,, V2, V3) is the fluid velocity. The enclosing surface S
+does not need to follow the fluid motion. By using the definition of a
+derivative and noting that both the volume and the velocity may change
+with mei it follows that (see Fig. 5.2)
+
+we IS parte | | VU, ds (5.5) .
+
+Here U,, is the normal component of the velocity of the surface §. Note
+that we have defined here the positive normal direction to be out of the
+fluid. The last integral is the effect of integrating over the shaded area in
+Fig. 5.2 and letting At be small (i.e. go to zero). The volume integral in
+equation (5.5) can be rewritten by expressing 9V/dt by Euler’s equation.
+
+MEAN WAVE (DRIFT) FORCES AND MOMENTS 135
+
+This can, for an incompressible fluid, be written as
+N y.we= -v(24 gs)
+ot p
+
+The volume integral can be reduced to a surface integral by using vector
+algebra and a generalized Gauss theorem which states that
+
+[[[vexar=|[nexas (5.6)
+Q Ss
+
+Here X may be a scalar, vector or tensor and © denotes a dot or cross or
+an ordinary multiplication or nothing. It is assumed that X has
+continuous derivatives in Q. We can then show that
+
+7 LLG +e2)n+V(V,—U,)| ds (5.7)
+
+Here V,, = 9@/dn is the normal component of the fluid velocity at the
+surface S.
+
+This is a general formula which we will apply to the wave-drift force
+problem. We let the closed surface S consist of the body surface Sg, a
+non-moving vertical circular cylindrical surface S., away from the body,
+the free-surface S; and the sea bottom Sp inside S.. (see Fig. 5.3). We
+should note that S,. does not need to be far away from the body. We can
+write
+
+U,=V, on Sp, and Sp
+(5.8)
+U,=0 on S. and So
+
+Sittat)
+
+VOLUME
+(Qt) }
+
+Fig. 5.2. Illustration of how the control volume £2() changes in a time
+increment Ac. (U, = normalcomponent ofthe velocity of the surface S).

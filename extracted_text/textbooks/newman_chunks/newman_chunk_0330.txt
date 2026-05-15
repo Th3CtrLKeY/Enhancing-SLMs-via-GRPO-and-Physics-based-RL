@@ -1,0 +1,88 @@
+169–171, 170, 171 conservation along vortex filament, 198, 198 conservation in ideal fluid, 108–110 Complex potential, 152 for added-mass coefficients of flat plate, 162(5) in conformal mapping, 125–128, 126 in ideal fluid motion, 123–125, 124, relation to boundary condition, 161(1) of source, 186 of streamline, 123–125, 124, 125 of velocity field, 123–125, 124, 125 velocity potential, 123–125, 124, 125 of vortex, 186, 243(12) Complex variables, 186–189 Conformal mapping, 125–129, 126 complex potentials in, 125–128, 126 of supercavitating hydrofoil, 225, 225–226
+
+Index
+Conservation
+of mass, 55, 58–59, 61
+of momentum, 55, 58–59, 62, 65, 67, 
+83–84
+Continuity equation, 6, 61–62, 65, 
+68–69, 89–90, 107, 111–112, 121
+Coriolis acceleration, 247
+Corner flow, 124, 124–126
+Correlation allowance, 34
+Couette flow, 67–68, 69, 71, 83, 102(1)
+Cox, G. G., 168
+Cramer’s rule, 364
+Cross-coupling coefficients
+added mass, 147
+heave and pitch, 382–383
+Cross-coupling effects, 321
+Cummins, W. E., 141, 323
+Cylindrical coordinate systems, 129–132
+Dagan, G., 294
+D’Alembert’s paradox, 142, 354, 395
+Damping, 306–307
+viscous, 372, 373
+Damping coefficient, 301, 308–312 
+high- and low-frequency limits, 309, 
+309, 310, 317
+of particular body forms
+rectangular cylinder, 311
+sphere, 312
+relation to energy flux, 308
+relation to exciting force, 315
+symmetry, 308
+Davis, A. M. J., 317, 321
+Delta wing, 356
+Density
+of air and water, 3–4
+of viscous fluid, 61
+of wave energy, 325–326
+Design extreme value, 332
+Diffraction potential, 314, 315–317. See 
+also Scattering potential
+Diffraction problem, 299
+Diffusion equation, 72
+Dimensional analysis, 7, 9–15
+of lifting surfaces, 22, 22–24, 25
+of propellers, 25–28, 29
+of unsteady force, 37
+of waves, 12–14
+Dipole, 120, 124, 131, 132, 136
+moment, relation to added-mass 
+coefficients, 149–151, 163(11)
+Dirac delta function, 178
+Directional stability, 365–367
+Dispersion, 323–324
+Dispersion relation, 252
+finite-depth, 254
+group velocity, 269
+linear, 260
+nonlinear, 259–260
+Displaced mass coefficients, of 
+two-dimensional bodies, 162 (7)
+Displacement thickness, 79–81, 82, 
+83–84, 85, 103(5)
+Divergence theorem, 59, 115–116, 140, 
+148, 207
+Dividing streamline, 118, 118, 119
+Doenhoff, A. E. von, 25, 26, 184
+Doppler shift, 323, 374, 377
+Double-body approximation, 309–310
+for ship maneuvering, 358
+Doublet, 120
+Downwash, 230, 236
+effect on lift, 206
+Drag
+cross-flow, 48, 360
+effect of separation on, 21
+effect of turbulence on, 20–21, 21
+frictional, 18, 19, 20, 23–24
+on general bodies, 18, 20–22
+on hull, 29–34, 32, 33
+hydrofoil, 184–186
+on hydrofoils, 22, 22–24, 25
+induced, 206–210
+pressure (form), 20, 23–24
+separation of, 15, 16, 17, 21
+on sphere, 14–17, 16

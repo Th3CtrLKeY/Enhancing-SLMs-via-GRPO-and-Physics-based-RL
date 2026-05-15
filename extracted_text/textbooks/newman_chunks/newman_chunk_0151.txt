@@ -1,0 +1,132 @@
+Thus the limiting values of the velocity components on the upper or lower surfaces of the cut are given by u x iv x q i d x i q x i x ± ± − − = − − − − ( ) ( ) [ ( ) ( )] [ ( ) ( )], π ξ γ ξ ξ ξ γ ∓ −∫ (53) Figure 5.13 Equivalent contours of integration as the point z approaches the real axis.
+
+Chapter 5
+where −∫ denotes the principal-value integral. To emphasize the importance 
+of this equation, let us consider the separate cases of a source distribution 
+(γ = 0) and a vortex distribution (q = 0):
+Source Distribution
+u
+x
+iv
+x
+q
+d
+x
+iq x
+±
+±
+−
+−
+= −
+−
+( )
+( )
+( )
+( ),
+
+
+
+
+
+
+π
+ξ
+ξ
+ξ
+∓
+−∫
+	
+(54)
+Vortex Distribution
+u
+x
+iv
+x
+i
+d
+x
+x
+±
+±
+−
+−
+= −
+−
+( )
+( )
+( )
+( ).
+
+
+
+
+
+π
+γ ξ
+ξ
+ξ
+γ
+∓
+−∫
+	
+(55)
+For the source distribution, separating the real and imaginary parts of 
+equation (54) gives the resulting velocity components:
+u
+x
+q
+d
+x
+±
+−
+= −
+−
+( )
+( )
+,
+
+
+
+
+π
+ξ
+ξ
+ξ
+−∫
+	
+(56)
+v
+x
+q x
+±
+= ±
+( )
+( ).
+
+
+(57)
+The horizontal velocity component u is even in y, whereas the vertical com­
+ponent v is odd. From the boundary condition (20) for the thickness prob­
+lem, it follows that the solution for the flow past a thin symmetrical strut, 
+of thickness t(x) = yu(x) − yl(x), can be obtained directly as a distribution of 
+sources with strength
+q x
+Ut x
+( )
+( ).
+= −
+′
+	
+(58)
+This conclusion is consistent with the result of Green’s theorem noted in 
+section 4.11.
+A simple physical argument can be used to explain (56–58). From sym­
+metry a source at (ξ, 0) on the real axis will induce a flow radially outward 
+in all directions from this point. Elsewhere on the real axis, the induced 
+velocity will be horizontal. Thus the only contribution to the vertical veloc­
+ity on or near the real axis will come from the immediate vicinity of the 
+source. Near this point, the net outward flux away from the real axis must 
+equal the source strength, in agreement with (57). On the other hand, the 
+source will induce a horizontal velocity all along the real axis, of magni­
+tude inversely proportional to the distance x − ξ and thus a distribution of 
+sources will give a total horizontal velocity consistent with (56).

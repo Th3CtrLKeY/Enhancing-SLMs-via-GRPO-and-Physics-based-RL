@@ -1,0 +1,91 @@
+theorem in the form (155) can be applied to the diffraction potential. In particular, φ φ φ φ i i S n n dS i B ∂ ∂ − ∂ ∂     = = ∫∫ 1 2 , , , , . … (170) Substituting this result in (162), gives X n n dS i i i SB = − ∂ ∂ + ∂ ∂     ∫∫ ρ φ φ φ φ . (171)
+
+Chapter 6
+The diffraction potential can be eliminated from (171) by substituting the 
+boundary condition (124), and the Haskind relations follow in the form
+X
+n
+n
+dS
+i
+i
+i
+SB
+= −
+∂
+∂
+−
+∂
+∂
+
+
+
+
+∫∫
+ρ
+φ
+φ
+φ
+φ
+
+
+. 	
+(172)
+The most significant feature of (172) is that the exciting force has been 
+expressed, without approximation, in a form independent of the diffrac­
+tion potential ϕ7. Moreover, it follows from Green’s theorem that the inte­
+gral (172) can be evaluated on a control surface at infinity. This integral 
+does not vanish, since the incident wave does not satisfy the radiation con­
+dition, but at infinity the forced-motion potential ϕi is proportional to the 
+square root of the energy flux, associated in turn with the damping coef­
+ficient bii.
+In three dimensions the method of stationary phase (105) can be used 
+to show that
+b
+k
+gV
+X
+d
+ii
+g
+i
+=
+∫
+
+
+
+
+πρ
+θ
+θ
+π
+( )
+. 	
+(173)
+Here Xi(θ) is the amplitude of the exciting force, for waves of direction θ 
+and unit amplitude. Equation (173) is particularly useful for axisymmetric 
+bodies, with a vertical axis, where the heave exciting force is independent 
+of the wave direction and the remaining forces and moments are propor­
+tional to sin θ or cos θ. In this case the integral (173) can be evaluated, and 
+a simple algebraic relation follows (see problem 12).
+Similarly, in two dimensions, for a body symmetric about the plane 
+x = 0, it can be shown that
+b
+X
+gV
+ii
+i
+g
+=
+
+2ρ
+, 	
+(174)
+where Xi is the amplitude of the exciting force per unit length. Derivations 
+and extensions of these relations are given by Wehausen (1971) and New­
+man (1976). Vugts (1968) has confirmed (174) from experimental measure­
+ments of the damping coefficients and exciting forces.
+The character of the exciting force and moment as ω → ∞ or λ → 0 can 
+be inferred from a physical argument and confirmed from the Haskind rela­
+tions. Physically, if the wavelength is short compared to the body length, 
+several waves will exist simultaneously along the body and cancellation

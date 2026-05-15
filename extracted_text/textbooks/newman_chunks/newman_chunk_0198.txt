@@ -1,0 +1,119 @@
+by neglecting second- and higher-order terms in the wave amplitude and associated fluid motions. A Cartesian coordinate system (x, y, z) is adopted, with y = 0 the plane of the undisturbed free surface and the y-axis positive upward. The vertical elevation of any point on the free surface may be defined by a function y = η(x, z, t). In the special case of two-dimensional fluid motion,1 parallel to the x-y plane, the dependence on z will be deleted.
+
+Waves and Wave Effects 
+
+The exact kinematic boundary condition can be derived most readily by 
+requiring that the substantial derivative of the quantity y − η vanish on the 
+free surface. The result of this condition is that, on y = η,
+0 =
+−
+= ∂
+∂
+−∂
+∂−∂
+∂
+∂
+∂
+−∂
+∂
+∂
+∂
+D
+Dt y
+y
+t
+x
+x
+z
+z
+(
+)
+.
+η
+φ
+η
+φ
+η
+φ
+η 	
+(1)
+If the wave elevation η is sufficiently small, the slopes ∂η/∂x and ∂η/∂z 
+will be small quantities compared to one and of the same order of magni­
+tude as ∂η/∂t. Similarly, if the fluid velocity is a small quantity proportional 
+to the wave motion, the derivatives of the velocity potential in (1) will be 
+small first-order quantities. Thus, the last two terms in (1) are of second 
+order and may be neglected in the linearized kinematic boundary condi­
+tion, which is therefore given by
+∂
+∂
+= ∂
+∂
+η
+φ
+t
+y . 	
+(2)
+This approximate boundary condition simply states that the vertical veloci­
+ties of the free surface and fluid particles are equal, ignoring the small depar­
+tures of that surface from the horizontal orientation. (A similar boundary 
+condition is given by equation (5.193) for the unsteady hydrofoil, but with 
+an additional contribution due to the free-stream velocity.)
+The dynamic boundary condition is obtained from Bernoulli’s equation 
+(4.26). Assuming the atmospheric pressure pa is independent of position on 
+the free surface and choosing the constant of integration C(t) suitably, we 
+find that the exact condition to be satisfied on the free surface is
+−
+−
+= ∂
+∂+
+∇⋅∇+
+=
+
+
+
+
+ρ
+φ
+φ
+φ
+(
+)
+.
+p
+p
+t
+gy
+a
+	
+(3)
+Substituting the free-surface elevation η for y and solving for η,
+η
+φ
+φ
+φ
+= −
+∂
+∂+
+∇⋅∇
+
+
+
+
+
+
+
+g
+t
+. 	
+(4)
+If we neglect the last term, which is a second-order quantity in the fluid 
+velocity, the linearized equation for the free-surface elevation is
+η
+φ
+= −
+∂
+∂
+
+g
+t . 	
+(5)

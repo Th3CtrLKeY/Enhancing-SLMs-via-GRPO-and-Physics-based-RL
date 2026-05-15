@@ -1,0 +1,110 @@
+long-crested. With this simplification it is possible to use existing information for the frequency spectrum (200), which is based on a judicious combination of theory and full-scale observations. Ocean-wave spectra depend on the velocity of the wind as well as its duration in time and the distance over which the wind is acting on the free surface. This distance is known as the fetch. Wave spectra that have reached a steady-state of equilibrium, independent of the duration and fetch are
+
+Chapter 6
+said to be fully developed. A semi-empirical expression for the frequency 
+spectrum of fully developed waves is
+S
+ag
+g U
+( )
+exp[
+(
+) ].
+ω
+ω
+β
+ω
+=
+−
+
+
+
+/
+	
+(201)
+Here α and β are nondimensional parameters defining the spectrum, and 
+U is the wind velocity at a standard height of 19.5 meters above the free sur­
+face. This two-parameter spectrum is sufficiently general to fit most obser­
+vations and is consistent with theoretical predictions of the high-frequency 
+limit.
+The most common values for the parameters in (201) are
+α =
+×
+−
+8 1
+10 3
+.
+, 	
+(202)
+β = 0 74
+.
+; 	
+(203)
+with these values, (201) is known as the Pierson-Moskowitz spectrum. The 
+resulting family of curves is shown in figure 6.25, for wind speeds of 10 to 
+50 knots.
+If the spectrum is assumed to be of narrow bandwidth,8 the wave ampli­
+tudes follow a Rayleigh distribution. Thus the probability that the wave 
+amplitude A lies within the differential increment (A, A + dA) is p(A) dA, 
+where the normalized probability density function is given by
+p
+e
+( )
+.
+/
+ζ
+ζ
+ζ
+=
+−2 2 	
+(204)
+Here, ζ = A/m0
+1/2 is the normalized wave amplitude, and m0 is the total 
+energy of the spectrum, or the integral of S(ω) over all frequencies. More 
+generally the moments mj of the spectrum are defined as
+m
+S
+d
+j
+j
+j
+=
+=
+∞
+∫ω
+ω
+ω
+( )
+,
+, , ,
+.
+
+0 1 2 … 	
+(205)
+Statistics for the wave height H = 2A can be derived using the probability 
+density function (204). Thus the average wave height H is given by
+H
+Ap
+d
+m
+=
+=
+∞
+∫
+
+
+
+
+1 2
+( )
+(
+)
+.
+/
+ζ
+ζ
+π
+	
+(206)
+For most purposes, however, we are interested primarily in the larger waves. 
+The most common parameter that takes this into account is the significant

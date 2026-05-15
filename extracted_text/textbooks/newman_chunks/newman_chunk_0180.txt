@@ -1,0 +1,45 @@
+increased cavity length and drag. The linear theory becomes invalid if the cavity length is substantially shorter than the chord length, or if the cavitation number is too large. This restriction is apparent from the linearized boundary condition (158) on the cavity surface, which implies that u/U ≪ 1 only if σ ≪ 1. Further discussion of this matter and a comparison of the nonlinear theory with experiments may be found in the paper by Wu, Whitney, and Brennen (1971).
+
+Lifting Surfaces 
+
+5.14  Supercavitating Lifting Foils
+To simplify the problem of a lifting foil in the supercavitating flow regime 
+as much as possible, we will assume that the cavitation number is zero and 
+that the foil geometry is as sketched in figure 5.28. In particular, the lead­
+ing edge is sharp, and the entire upper side of the foil is situated within the 
+cavity.
+Nondimensional coordinates (x, y) are chosen such that the chord 
+length is equal to unity, and the slope of the lower surface of the foil is 
+denoted by the local angle of attack α(x). For reasons of subsequent 
+Figure 5.26
+Cavity length l for the three symmetric struts shown. Note that y0(0) and l are non­
+dimensionalized with respect to the unit chord length.
+
+Chapter 5
+Figure 5.27
+Drag coefficient for the three symmetric struts shown in figure 5.26, nondimension­
+alized in terms of the unit chord length.
+Figure 5.28
+Supercavitating flow past a lifting foil with sharp leading edge.
+
+Lifting Surfaces 
+
+algebraic convenience, the leading edge is situated at the origin; the linear­
+ized boundary conditions on the foil and cavity then take the form shown 
+in figure 5.29.
+This problem cannot be decomposed readily into symmetric and anti­
+symmetric portions, as in the fully wetted problem, because of the funda­
+mentally different boundary conditions imposed on the upper and lower 
+sides of the segment occupied by the foil in figure 5.29. However, the con­
+formal mapping function ζ = −iz1/2 can be used to map the domain of the 
+fluid into the lower half of the ζ-plane, folding the z-plane about the lead­
+ing edge of the foil. The complex velocity u − iv is an analytic function of 
+z, and hence also of ζ, which may be mapped from one plane to the other 
+with its values preserved.
+The resulting problem in the ζ-plane is as shown in figure 5.30, with ζ 
+= ξ + iη. In this mapped plane, the vertical velocity on the lower surface of 
+the foil has been written as
+Figure 5.29
+Linearized boundary conditions corresponding to the problem shown in figure 5.28.
+Figure 5.30
+Boundary conditions in mapped ζ-plane.

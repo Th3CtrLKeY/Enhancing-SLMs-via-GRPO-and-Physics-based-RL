@@ -1,0 +1,98 @@
+depth h=25m Length of chain outside the ship ?=100m Further, the cable line is connected to the vessel just above the waterplane. Assume in questions (a), (6) and (c) that the cable line is inelastic. (a) Find out the necessary horizontal force 7}; from the vessel on the chain in order to be able to move the anchor. (Answer; 155 250 N). (b) What is the breaking safety of the chain in the condition described in question (2)? (Answer: 8.6.)
+
+278 STATIONKEEPING
+
+(c) Calculate the angle 6,, between the cable line and the mean
+water surface as a function of the horizontal distance X
+between the anchor and the point where the anchor line is
+connected to the vessel (see Fig. 8.3). Check the calculations
+of Ty; in Fig. 8.4.
+
+(d) Repeat the calculations in question (c) by assuming an elastic
+cable line.
+
+8.2 Effect of mooring system in the equations of motions
+
+(a) Derive equations (8.26) for the restoring coefficients due to a
+spread mooring system.
+
+(b) Outline how one can estimate the drag damping from an
+anchor line. (Hint: Assume the top of the anchorline has a
+horizontal time dependent motion 7,(t). Neglect dynamic
+
+_ effects in the anchorline and find the static position of the
+anchorline as a function of 7,(t). Use the ‘cross-fiowprinciple’ to estimate drag-forces along the anchorline, but
+assume for simplicity that the drag-forces do not influence the
+anchorline configuration).
+
+8.3 Free-surface effect on propeller
+Assume a propeller is not ventilating. The propeller axis is at a
+submergence of Ap in still water. The propeller radius is R (see Fig.
+8.12). Consider regular waves propagating in the direction of the
+propeller axis with amplitude €, and circular frequency w. The wave
+elevation at the propeller position is
+
+€= ¢, sin wt
+
+Assume the propeller thrust is proportional to the immersed propeller
+disk area A,. Set up an expression for the ratio 6 between the mean
+thrust in one period T and the thrust for the deeply submerged propeller
+in terms of Ao, R and €,.
+
+8.4 Turret-moored ship
+
+Consider a turret-moored ship in waves and current. The ship and the .
+
+coordinate system is defined in Fig. 8.15 and Table 8.1. We will assume
+the mooring system has zero stiffness in yaw rotation about the turret and
+that the slowly-varying motion of the ship is a pure yaw motion around
+the turret.
+
+‘Assume the incident waves are long-crested and that the ship is in a
+mean position close to head sea waves. For simplicity we will use the
+following wave spectrum to describe the sea state
+
+3.1m’s 0.6s''<o<l.ls"
+
+S(@)= F
+
+other w-values
+
+EXERCISES 279
+
+The transverse wave drift force F,”? and yaw moments F,”” in regular
+waves with circular frequencies w<1.1s~! are assumed to be
+frequency-independent. Further we assume F,”? and F,”” are proportional to the heading angle 6 when 6 <0.175 rad where B is defined in
+
+Table 8.1. Relevant data for the ship to be analysed in exercise 8.4
+
+Length L=230m
+Beam B=41m
+Draught D=15m
+Displacement V = 121000m?
+Turret position: x7 =-20m
+(coordinate system defined in
+(Fig. 8.15)
+Radii of gyration of the ship mass ta, = 12m
+55 = 57.5 m
+Too = 57.5 m
+
+Restoring coefficients with respect
+to coordinate system in Fig. 8.15
+
+Cy = Cy =3,5- 10° N m!
+Cx =7.0+ 10°N rad“!
+Cos = 1.4: 10° Nm rad7!
+Added mass, w—> 0 Ay; = 1.02 + 10’ kg
+
+(with respect to coordinate 22 = 1.29: 10% kg
+
+system in Fig. 8.15) Ax = 0.0
+Age = 3.70: 10!! kg m?
+
+turret y
+
+L/2
+
+Fig, 8.15. Turret-moored ship (8 = wave heading, @ = current angle). Used in
+exercise (8.4).

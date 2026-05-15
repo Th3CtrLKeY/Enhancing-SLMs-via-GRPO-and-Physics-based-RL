@@ -1,0 +1,59 @@
+propagate outward from the body, but they will continue to affect the fluid pressure and hence the body force for all subsequent times. Thus memory effects are introduced, in a manner pre­ cisely analogous to the unsteady lifting surface theory in chapter 5. One consequence of the memory effects is that if ξj(t) is an arbitrary function of time, and if the linearization assumption is invoked, the pres­ sure force acting on the body must be of the general form
+
+Waves and Wave Effects 
+
+F t
+K t
+d
+i
+ij
+j
+t
+j
+( )
+(
+) ( )
+.
+=
+−
+−∞
+= ∫
+∑
+τ ξ τ
+τ
+
+
+
+(195)
+This is a convolution integral, over the previous history of the fluid motion, 
+and the kernel K(t − τ) can be interpreted as the force, at time t, due to a 
+delta-function body velocity at an earlier time τ. This impulse-response func­
+tion is discussed by Price and Bishop (1974). The analog in chapter 5 is the 
+Wagner function shown in figure 5.35.
+The restriction of (194) to sinusoidal motions and the significance of the 
+convolution integral (195) have been emphasized by a number of authors 
+including Haskind (1953), Cummins (1962), and Maskell and Ursell (1970). 
+Maskell and Ursell point out that if a floating body in deep water is given 
+an impulsive motion at time t = 0 and is unrestrained thereafter, the body 
+will oscillate about its equilibrium position for a finite number of cycles, 
+approaching equilibrium asymptotically as an inverse power of time. By 
+comparison, the homogeneous solution of the differential equation (194), 
+with constant coefficients, would decay exponentially with an infinite 
+number of oscillations.
+Throughout this discussion we have assumed that the body motions are 
+oscillatory about a fixed mean position. An important exception to this 
+situation is that of a ship, moving with forward velocity U while oscillat­
+ing in response to ambient waves. The assumption of linearity permits this 
+oscillatory problem to be superposed on the steady-state wave-resistance 
+solution. Nevertheless there are fundamental effects of the forward speed 
+on the oscillatory problem, the simplest and most important being the 
+change in frequency due to the Doppler shift. The complete solution of 
+this problem is not established to the same extent as the simpler problem 
+with zero forward speed, but a strip-theory approach will be discussed in 
+chapter 7.
+6.20  Ocean Waves
+The complexity of ambient wave motions in the ocean is evident to any­
+one who has observed them either from the beach or the deck of a ship. 
+The wave patterns are ever-changing with time and space, in a manner 
+that appears to defy analysis. This complexity is partly the result of disper­
+sion, which already has been discussed in the context of deterministic wave

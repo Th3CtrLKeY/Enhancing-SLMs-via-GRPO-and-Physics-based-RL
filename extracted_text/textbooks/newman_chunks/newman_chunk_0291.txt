@@ -1,0 +1,157 @@
+the response to a sudden change of rudder angle can be approximated by considering only the acceleration terms in (60–61). Thus for the initial period of time before the sway and yaw velocities develop substantial val­ ues, it follows that U T U m m t S R = +     πρ δ ( ), (63) Ω2 = − +     πρ δ T U x m M t T S R( ). (64)
+
+Chapter 7
+Since xT is negative, both of the factors in parentheses are positive, and a 
+vessel commencing a turn to port will be accelerated initially to starboard, 
+as shown in figure 7.5.
+The ultimate, steady-state turning motions can be analyzed by assuming 
+that U3 and Ω2 are constant. Thus, from (60) and (61),
+
+
+
+
+
+
+πρ
+δ
+T U
+m U
+x m
+m
+R
+T
+T
+T
+=
+−
++
+(
+)
+,
+Ω
+	
+(65)
+−
+= −
++
++
+
+
+
+
+
+
+
+
+πρ
+δ
+T U
+x
+m
+x m
+U
+x
+m
+R
+T
+S
+T
+T
+T
+T
+(
+)
+(
+)
+.
+Ω
+	
+(66)
+Using Cramer’s rule, the solutions of these coupled linear equations are 
+given by
+U
+T U mx
+m x
+m
+x m
+m
+x m
+R
+T
+T
+T
+T
+T
+S
+T
+T
+
+
+
+
+
+
+
+/
+(
+)
+(
+)(
+) ,
+δ
+πρ
+=
+−
+−
++
++
+	
+(67)
+Ω2
+
+
+
+
+
+
+
+/
+(
+)
+(
+)(
+).
+δ
+πρ
+R
+S
+T
+T
+T
+T
+S
+T
+T
+T U m
+m x
+m
+x m
+m
+x m
+=
+−
++
++
+	
+(68)
+Since xT is negative, U3 has the same sign as Ω2, and a ship in a steady-state 
+turn is oriented with the bow pointed into the turn, as shown in figure 7.5. 
+This gives an effective angle of attack and a resulting inward force, to main­
+tain the centripetal acceleration. The radius of the steady-state turn is equal 
+to U1/Ω2, to first order in the sway and yaw velocities.
+The quantitative validity of (67–68) is limited because the denomina­
+tor, or the determinant of (65–66), is close to zero for practical vessels. For 
+example, using the approximations indicated in the second column of 
+table 7.2, this determinant is equal to
+Figure 7.5
+Trajectory of a ship in a steady-state turning maneuver.

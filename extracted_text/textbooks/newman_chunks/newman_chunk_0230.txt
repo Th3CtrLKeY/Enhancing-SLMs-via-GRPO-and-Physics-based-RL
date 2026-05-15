@@ -1,0 +1,37 @@
+RG θ θ θ θ θ = ′′ + = ′′ − ( / )sec ( sin ) cos ( cos ) . (114) Using the last result, we can recast (111) in the relatively simple form3 D U A d = −∫ πρ θ θ θ π π ( ) cos . / / (115) Equation (115) expresses the wave resistance of a moving vessel as the weighted integral of the square of the wave amplitude. The factor cos3θ
+
+Chapter 6
+implies that the dominant portion of the resistance will be associated with 
+the transverse waves.
+An alternative derivation of (115) can be based on the energy flux pass­
+ing through a pair of longitudinal planes z = constant on both sides of the 
+ship. The integrand of (108) is then replaced by A2 (Vgsinθ)dx. An approach 
+independent of the stationary-phase approximation results from substitu­
+tion of the free-wave potential corresponding to (89) in the energy-flux 
+integral (74). The derivation for a transverse plane x = constant is outlined 
+by Havelock (1963, pp. 391–393).
+As a result of the positive-definite nature of·(115), the effects of interfer­
+ence are limited, and one cannot expect to find dramatic results of the type 
+illustrated in the two-dimensional case by figure 6.13. Waves generated at 
+different locations along the ship may still interfere, but in a manner that 
+depends on θ and on the point of observation in the wake. By judicious 
+design or chance, the wave amplitude may vanish at discrete positions in 
+the wake. This is illustrated in figure 6.16 where the nodal values of the 
+diverging wave system are indicated by the 180° phase shift along a few 
+radial lines. Additional nodes may be expected for the shorter wavelengths 
+as θ → 90°, but these are obscured and of little significance to (115). In 
+any event, these nodes occur only for discrete values of θ. In general, A(θ) 
+will be nonzero, contributing to a positive and nonvanishing value of the 
+drag (115).
+To utilize (115), the wave amplitude function A(θ) must be predicted 
+from theory or measured in a suitable experiment. These possibilities are 
+described separately in sections 6.13 and 6.14.
+6.13  Thin-Ship Theory of Wave Resistance
+The thin-ship theory of wave resistance was introduced by J.H. Michell in 
+1898 as a purely analytic approach for predicting the wave resistance of 
+ships. The essential assumption is that the hull is thin, that is, the beam is 
+small compared to all other characteristic lengths of the problem. The result­
+ing solution can be expressed in terms of a distribution of sources on the 
+centerplane of the hull, with the local source strength proportional to the 
+longitudinal slope of the hull. This solution is analogous to the thickness 
+problem of thin-wing theory, as discussed in chapter 5. However, the shipwave problem is complicated by the need to choose the source potential, in

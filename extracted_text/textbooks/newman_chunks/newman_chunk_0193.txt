@@ -1,0 +1,115 @@
+upwash of the gust on the foil. Thus, if the foil is fixed, the results obtained in sections 5.15 and 5.16. can be utilized for the gust problem simply by setting v0 = −vg. We shall restrict our attention here to gusts that are sinusoidal functions of x + Ut, and thus steady with respect to the free stream. If α0 is the ampli­ tude of the resulting change in angle of attack, vg can be written in the form
+
+Chapter 5
+v
+x
+t
+U
+e
+g
+ikx i t
+( , , )
+Re{
+}.
+
+
+=
++
+α
+ω
+	
+(228)
+Substituting this quantity for −v0 in (220) and evaluating the resulting inte­
+grals in terms of the Bessel functions J0 and J1 gives the lift force in the form
+L
+U
+e
+i
+k
+H
+k
+iH
+k
+i t
+= −
++
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ρ
+α
+π
+ω
+Re
+/
+( )
+( )
+.
+( )
+( )
+	
+(229)
+The quantity in brackets in (229) is the Sears function, which is plotted in 
+figure 5.34. For large argument k, the Hankel functions in the denominator 
+oscillate proportionally to e−ik, and thus the phase of (229) varies rapidly, as 
+indicated in figure 5.34. This can be avoided if the phase of the sinusoidal 
+gust is measured with reference to the leading edge rather than the midchord position, and thus (229) is multiplied by the quantity e−ik. The result 
+is slowly varying, as shown in figure 5.34. Physically, this change suggests 
+that the foil responds to the gust most significantly when the gust is at the 
+leading edge. For this reason the leading edges of propeller blades are often 
+raked, so that the phase of the unsteady load along the blade will be distrib­
+uted more uniformly as the blade enters a nonuniform region.
+Figure 5.34
+The Sears function for a sinusoidal gust, corresponding to the factor in brackets in 
+(229). The phase of the gust is measured relative to mid chord or leading edge in the 
+respective cases shown. Figures marked on the curves are the values of the reduced 
+frequency k.
+
+Lifting Surfaces 
+
+5.18  Transient Problems
+As noted in section 5.15, the general case of arbitrary time-dependence can 
+be treated directly by Laplace transform techniques. Equivalently, the fre­
+quency ω in the oscillatory time-dependent results of section 5.16 can be 
+made imaginary, and the superposition of these solutions used to generate 
+an arbitrary transient disturbance. We shall avoid performing this analysis 
+here, but two simple results will be noted—where the vertical velocity of 
+the foil is changed suddenly in a step-function manner, and where the foil 
+moves into a similar gust.
+Since any constant angle of attack may be added without affecting the 
+unsteady problem, we assume that initially the foil moves with zero angle 
+of attack, and at time t = 0 this is changed by imposing a small vertical 
+velocity component. The resulting lift is given proportional to Wagner func­
+tion shown in figure 5.35. This lift force immediately achieves a nonzero 
+value precisely half of the steady-state value and subsequently increases 
+monotonically to that limit. To develop 90 percent of the steady lift, the foil 
+must travel about six chord lengths.
+This problem is identical to that of a foil accelerating instantaneously 
+from rest at t = 0 to a constant velocity U, with a constant angle of attack, 
+since in both cases the perturbation vanishes for t < 0. Thus the Wagner 
+function in figure 5.35 predicts the initial development of lift during the 
+rapid acceleration of a foil with constant α.
+An inverse situation will develop if the foil stops suddenly. This case can 
+be related to the Wagner function by subtracting a constant angle of attack 
+equal to the value before stopping. On this basis it follows that the lift 
+force upon stopping is reduced immediately to half of its steady value, and 
+subsequently a more gradual attenuation to zero persists over a relatively 
+long period.
+The corresponding gust problem is that of a sharp-edged gust. The result­
+ing lift force, known as the Kussner function, is shown in figure 5.35. In this 
+case the lift force rises from an initial value of zero. Half of the ultimate 
+steady-state lift develops before the gust passes the trailing edge, and 90 
+percent is developed when the foil moves a distance of about eight chord 
+lengths beyond the gust. The details of this and other transient motions are 
+given by Woods (1961).

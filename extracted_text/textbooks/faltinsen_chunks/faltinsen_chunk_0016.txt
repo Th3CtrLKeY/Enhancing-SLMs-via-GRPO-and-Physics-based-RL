@@ -1,0 +1,74 @@
+the Harris wind spectrum is given by f:S0)___48h Uy (2+f mt where Uj is the one hour mean wind speed at 10 m above sea level, fis the frequency in Hz and f=Lf/Uj. An example of the scale length L is 1800 m and of the surface drag coefficient k is 0.0030. Equation (2.40) is not recommended for frequencies lower than 0.01 Hz. A discussion of different wind spectrum formulations is given in the report of the 10th ISSC. (2.40)
+
+CURRENT 33
+
+In addition to the information above we need to know how the wind
+
+he
+3 2 2 varies with the height above the sea level, in what direction the wind is
+‘5 38 jQeenyeze g blowing and the joint probability between waves and wind. We will not
+2 264 we NM OaANNLES 2 go into details about this here. Instead we will present a very simplified
+~ § agaznens 5 picture of corresponding values between significant wave height, modal
+= <, ~ SaAAa . + + : : :
+& 3 % | | 3 VET 7 7 g . wave period and sustained wind speed in Table 2.3. This table also gives
+8 zTNIANSNMNS & ili i
+al 23 a Busnsats Oo 8 the percentage probability of sea states. The data are valid for open ocean
+: = fo} . ‘ . .
+ad ile & & 5 in the North Atlantic and North Pacific.
+~ i= o> =
+o S oo © eo I
+s = ob Oo
+S]¢) g282/egagssers| gy ye CURRENT. ere
+Ra s Sass l| me uxsurce 8 8 a State of the art information on ocean currents from a design point of view
+= 5 . .
+é % o 5 Z has been presented by the 10th ISSC. The surface current velocity U is
+ie 3 2 & $6 divided into the following components
+5 Fy 38]  eeessese] 2 bb
+= & ~ Mm OM g na) © Oo L—| nis
+oa ¥ * S| a gt U=U,+ Uy t Us + Um + User-up + Ua
+zy g amaernanen ». G5
+3 c Ntnnowoom a &
+2 3 el rites to & OSS
+4 25 gS MOAN AMOS a €% Brent, Statfjord, Hindcast 1976-83
+3 3 =e 7 MN OON mT © » 2 3
+= 2 g 25 0999999; 100 100
+a x
+c s & 2 ts} 8 2 099999 Return Period 40 10
+S < a5 € 8s 09999 Summer /Winter
+o x _
+co TE] g88e/§88eerssse) 2 as 0-999 '
+S| Z| Sass SPRRRsere| eg vs
+| are 0-99
+i 5 3 EF
+2 o
+i 8 nny nnnn 2 ow 3 2
+g ~% SLPeVAAE AAA! eas Bs
+5 2B |. M2 ds 090
+3 3 D % cuornnnem ANE CI
+8 SSS eR TTIITe eel CaF ‘a
+= ao «f ~
+é Beelz/oticdeesk| sSeg % 80 i
+5 g> es 3 070 g
+< 61 Sm884 anzl| §.8 8 3 060 io
+g = SSoOnMHnN AT S&>3 32 = R)
+— aA 3 ao 8 ‘ 0-50 c
+3 ee aPas 2 é
+5 a3 =andu gang 5 040 fl
+a aa 0 Sonny oOans 8% 2 a Z
+ae Sloat thede Bat oe 9 0:30 &
+: Beals /omege ters omg %
+“” aztile eon a S 36 * Winter ( Nov—Jan )
+3 2eoe 9 Summer ( Jun— Aug )
+2 - Bud 2 020
+"a ges dgamtnonoc BES 8 3
+& age ‘A < ann E
+1S)
+0-10 y
+Reference Height 10 metres above sea level
+0-05
+1 2 3.4 5 678910 20 30 40 5060
+
+Wind Speed (ms~1)
+
+: Fig. 2.8. Cumulative distribution function for the one hour mean wind speed
+: at 10 m above MSL representative for the northern North Sea.

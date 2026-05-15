@@ -1,0 +1,230 @@
+analyze its resulting distortion, we resort to the definition of the integral as the limit of a finite sum. Thus, if xi n ( ) denotes the coordinates of the nth point along the contour C, say with n = 1, 2, …, N, (5) can be replaced by d dt t u x u x N j j i i n n Γ = ∂ ∂+ ∂ ∂     →∞∑ lim , ( ) δ (6)
+
+The Motion of an Ideal Fluid 
+
+provided that as N → ∞,
+δx
+x
+x
+i
+n
+i
+n
+i
+n
+( )
+(
+)
+( )
+.
+≡
+−
+→
++1
+
+Since the coordinates xi
+n
+( ) move with individual fluid particles, they 
+must be functions of time. By definition the velocity components at the 
+same points are given by
+u
+x
+t
+i
+n
+i
+n
+( )
+( ) /
+.
+= ∂
+∂
+	
+(7)
+Using the chain rule in (6), noting that the coordinates xi
+n
+( ) depend on time 
+but not on the space coordinates, and finally using (7), we obtain
+d
+dt
+u
+t
+u
+u
+x
+x
+x
+u u
+u
+N
+i
+j
+i
+j
+i
+n
+i
+n
+i
+i
+n
+Γ =
+∂
+∂
++
+∂
+∂
+
+
+
+
+−
+(
+) +
+−
+→∞
++
++
+lim
+(
+)
+( )
+(
+)
+
+
+i
+n
+n
+( )
+.
+(
+)
+
+
+
+
+∑
+	
+(8)
+In this form, the limit is given by the integrals
+d
+dt
+u
+t
+u
+u
+x
+dx
+u du
+i
+j
+i
+j
+i
+C
+i
+i
+C
+Γ =
+∂
+∂
++
+∂
+∂
+
+
+
+
++
+∫
+∫
+, 	
+(9)
+or, using the equations of motion (3),
+d
+dt
+x
+p
+gx dx
+d u u
+i
+i
+C
+i
+i
+C
+Γ = −
+∂
+∂
++
++
+∫
+∫
+
+
+
+
+ρ
+ρ
+(
+)
+(
+). 	
+(10)
+The right side of equation (10) is the integral of a perfect differential over 
+a closed contour and is, therefore, equal to zero. In effect, the integral can 
+be integrated to give
+−
++
+−
+
+
+
+
+
+
+
+
+ρ
+ρ
+ρ
+p
+gx
+u u
+j
+j
+A
+B
+,
+where B and A are the upper and lower limits of integration; since these 
+points are identical, the difference [
+] =
+A
+B
+0.
+Since dΓ/dt = 0, the circulation must be a constant. We shall assume 
+hereafter that the fluid motion started from an initial state of rest, say when 
+t = −∞, so that Γ = 0 for all time and for all material contours within the 
+fluid.
+Finally, we invoke Stokes’ theorem for a continuous differentiable 
+vector V,
+(
+)
+,
+∇×
+⋅
+=
+⋅
+∫∫
+∫
+V
+S
+V
+x
+d
+d
+S
+C
+	
+(11)

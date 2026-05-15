@@ -1,0 +1,151 @@
+yex { [ ( ) ( )]exp( cos ) [ ( ρ θ ω ω0 x ikx i t , )exp( cos ) ]}. ω θ ω − + (117) Before integrating (117) along the ship length, we note the special case of a cylindrical body with profile ∑B independent of x, such as the parallel middle body of a ship, or a horizontal pipeline. In this case B, S, and Z are constants, and (l17) reduces to the expression
+
+Chapter 7
+′ =
+−
++
+−
++
+F
+gA
+B
+k
+S
+Z
+ikx
+i t
+yex
+{
+[
+(
+)]}exp(
+cos
+).
+ρ
+ρ
+ω
+θ
+ω
+
+(118)
+Here the only effect of the forward speed is on the frequency of encounter, 
+for fixed wave amplitude A and wavenumber k. This result is consistent 
+with the fact, noted earlier, that axial motion of a slender cylindrical body 
+in an inviscid fluid has no effect on the inner flow except near the ends.
+The steady forward velocity of a cylindrical body through a fluid is iden­
+tical to the flow of a current past a fixed body. Thus (118) can be applied in 
+the case where a floating or submerged pipeline is fixed in position, in the 
+presence of waves and a superposed axial current. From this relation it fol­
+lows that such a current has no effect on the wave force, provided the wave 
+amplitude and wavenumber are correctly measured in a frame of reference 
+moving with the fluid.
+The heave exciting force on a ship is given by the integral of (117) along 
+the length, in the form
+F
+gAe
+e
+B x
+kS x
+k
+U
+g
+Z x
+yex
+i t
+ikx
+l
+=
+−
+−
+−
+[
+]
+∫
+ω
+θ ρ
+ρ
+ω
+θ
+ω
+cos {
+( )
+( )
+(
+/
+)cos
+( ,
+)
+
+
+0 }
+,
+dx
+	
+(119)
+where (93) has been used, and it is assumed that the factor in braces van­
+ishes at the bow and stern. Here we note that the Froude-Krylov force, asso­
+ciated with the first two terms in braces, is independent of the forward 
+velocity, whereas the remaining contribution due to the scattering poten­
+tial is a linear function of the forward velocity.
+The pitch exciting moment can be derived in a similar manner, after 
+integrating by parts, with the result
+M
+gAe
+e
+B x
+kS x x
+U
+g
+kx
+i
+zex
+i t
+ikx
+l
+=
+−
+−
+−
+(
+)
+−
+−
+∫
+ω
+θ ρ
+ω
+θ
+cos { [ ( )
+( )]
+(
+/
+)cos
+(
+
+
+ω
+ω
+
+
+U
+g
+Z x
+dx
+/
+)
+( ,
+)
+.
+}
+[
+]
+	
+(120)
+Here again the Froude-Krylov component is independent of the forward 
+speed, while the scattering component is linear in U.
+A complementary derivation of the exciting force (119) and moment 
+(120) is given by Salvesen, Tuck, and Faltinsen (1970), assuming that k = 
+O(ε−1) and using a generalization of the Haskind relations (6.172). In that 
+approach the forced-motion potential Φ2 enters as a consequence of the 
+Haskind relations, and as a function of the frequency of encounter instead of 
+the wave frequency ω0. An alternative approach based on using the Haskind

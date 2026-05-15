@@ -1,0 +1,73 @@
+and the Froude-Krylov exciting force. The Froude-Krylov force can be evaluated using (6.160) and (6.165), in the form ′ = { } − F g AB x e FK i t kx ρ ω θ Re ( ) , ( cos ) (88) where B(x) is the local beam of the waterplane and θ is the angle of inci­ dence as shown in figure 6.6. Simple equations of motion follow for the coupled heave and pitch motions in the form
+
+Chapter 7
+S
+S
+A B x e
+dx
+ikx
+l
+ξ
+ξ
+θ
+
+1 6
++
+=
+−
+∫
+( )
+,
+cos
+	
+(89)
+S
+S
+A B x e
+xdx
+ikx
+l
+1 2
+11 6
+ξ
+ξ
+θ
++
+=
+−
+∫
+( )
+.
+cos
+	
+(90)
+Here the terms on the left-hand side result from the hydrostatic restoring 
+force and moment (6.144–6.149), with S the waterplane area, and S1 and S11 
+the first and second moments of this area.
+Inertial and hydrodynamic effects are of higher order as indicated in 
+table 7.3, and thus are absent from (89–90). As a result, the solutions of 
+these equations are restricted to the range of frequencies substantially less 
+than the resonant frequencies of the ship. The resonant frequencies ωn can 
+be estimated, as in (86), by equating the hydrostatic and virtual-mass forces 
+which are of order ε and ε2ω2 respectively. It follows that ωn = O(ε−1/2), and in 
+deep water the resonant wavelength will be of the order of the ship’s beam. 
+Thus resonant ship motions must be analyzed from the complementary 
+short-wavelength theory where λ/d = O(1).
+Typical solutions of (89–90) are shown in figures 7.7–7.8 for an air­
+craft carrier in head seas (θ = π). Also shown are experimental results for 
+zero forward speed and a Froude number of 0.14. At zero speed the agree­
+ment is reasonable, except for an apparent resonance near λ/l = 0.5. The 
+importance of this resonance is diminished because the exciting force and 
+moment are small for λ < l. However if the ship proceeds with substantial 
+forward velocity in head seas, the frequency of encounter is increased by 
+the Doppler shift. Thus, the oscillation frequency is increased for a given 
+wavelength, ultimately to the point where resonant motions occur in the 
+range of substantial exciting forces and moments. This situation is apparent 
+from the experiments shown in figures 7.7–7.8, and would become progres­
+sively more serious at higher speeds. In this case the practical value of the 
+long-wavelength slender-body theory is diminished, and a complementary 
+approach must be developed where the magnitude of the oscillation fre­
+quency is in the range of resonant motions, of order ε−1/2.
+7.7  Strip Theory for Ship Motions
+The problem of a slender ship moving with forward velocity in a seaway 
+is one of the most important topics in ship hydrodynamics. Here, by

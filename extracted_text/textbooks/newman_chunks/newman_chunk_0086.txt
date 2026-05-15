@@ -1,0 +1,98 @@
+is inviscid. Hereafter, the external force field Fi will be assumed to consist only of the gravitational force ρg which acts vertically downward. If x2 is the verti­ cal coordinate and is positive in the upward direction, then Fi = (0, −ρg, 0). Under these circumstances equation (2) can be written as ∂ ∂ + ∂ ∂ = − ∂ ∂ + u t u u x x p gx i j i j i ρ ρ ( ). (3)
+
+Chapter 4
+In the simplest case of hydrostatic equilibrium, the velocity is zero (or a 
+constant) and p + ρg x2 is a constant.
+4.1  Irrotational Flows
+To simplify these equations, the class of possible fluid motions must be 
+restricted. For this purpose we define the circulation Γ as the integrated tan­
+gential velocity around any closed contour C in the fluid,
+Γ = ∫u dx
+i
+i
+C
+. 	
+(4)
+Kelvin’s theorem of the conservation of circulation states that for an ideal 
+fluid acted upon by conservative forces (e.g., gravity) the circulation is 
+constant about any closed material contour moving with the fluid. Physi­
+cally, this happens because no shear stresses act within the fluid; hence it 
+is impossible to change the rotation rate of the fluid particles. Thus, any 
+motion that started from a state of rest at some initial time, will remain 
+irrotational for all subsequent times, and the circulation about any material1 
+contour will vanish.
+To prove Kelvin’s theorem, we consider the derivative of (4) with respect 
+to time, dΓ/dt. Since the contour C moves with the fluid particles, or with 
+velocity V, it follows that
+d
+dt
+d
+dt
+u dx
+t
+u
+x
+u dx
+i
+i
+C
+j
+j
+i
+i
+C
+Γ =
+=
+∂
+∂+
+∂
+∂
+
+
+
+
+∫
+∫
+(
+). 	
+(5)
+Here the differential operator acting upon the integrand is the substantial 
+derivative D/Dt defined in equation (3.19), since the contour of integration 
+C is a material contour moving with the fluid particles. The resulting deriv­
+atives of the velocity components ui are straightforward to compute, but 
+some care is required for the differential element dxi. Since C is a material 
+contour, the differential element will itself be a function of time; to analyze 
+its resulting distortion, we resort to the definition of the integral as the limit 
+of a finite sum. Thus, if xi
+n
+( ) denotes the coordinates of the nth point along 
+the contour C, say with n = 1, 2, …, N, (5) can be replaced by
+d
+dt
+t
+u
+x
+u x
+N
+j
+j
+i
+i
+n
+n
+Γ =
+∂
+∂+
+∂
+∂
+
+
+
+
+→∞∑
+lim
+,
+( )
+δ
+	
+(6)

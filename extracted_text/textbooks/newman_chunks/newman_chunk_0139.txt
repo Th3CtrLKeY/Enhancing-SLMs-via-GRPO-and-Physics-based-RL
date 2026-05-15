@@ -1,0 +1,70 @@
+- - - -). From Kelvin’s theorem, and the initial conditions upstream, the circulation around this contour is zero for all times. Figure 5.6 The material contour shown here is sufficiently large to surround the foil at its origi­ nal position of rest, and subsequently after acceleration to a steady velocity U. The circulation about this contour is zero, so that the foil must shed a starting vortex of strength Γ, equal and opposite to the circulation of the foil.
+
+Chapter 5
+without it there can be no force acting on a body in a steady-state transla­
+tion. In this respect, the smooth local flow at the trailing edge is vital to the 
+development of the desired lift force.
+The assumption of smooth tangential flow at the trailing edge is imposed 
+mathematically by the Kutta condition requiring the velocity at the trailing 
+edge to be finite. This extra condition is added to the conventional state­
+ment of the boundary-value problem, which may now be formulated. The 
+conditions on the fluid flow are that the velocity vector should be equal to 
+the free-stream velocity −Ui at infinity, tangential to the surface of the foil, 
+and finite at the trailing edge.
+It is convenient to subtract the free-stream component and utilize the 
+perturbation velocity components (u, v) with the understanding that the 
+total velocity vector of the two-dimensional flow is (u − U, v). If the pertur­
+bation velocity potential ϕ(x, y) is defined such that
+( , )
+,
+u v = ∇φ 	
+(2)
+the following boundary-value problem results:
+∇
+=
+
+
+φ
+,
+,
+throughout the fluid 	
+(3)
+∂
+∂
+=
+φ /
+,
+n
+Unx
+on the foil, 	
+(4)
+∇
+< ∞
+φ
+,
+at the trailing edge, 	
+(5)
+∇→
+φ
+0,
+at infinity. 	
+(6)
+5.2  Linearized Two-Dimensional Theory
+The boundary condition (4) on the foil can be simplified under the assump­
+tion that the foil is thin and nearly horizontal. Thus we now assume that 
+the vertical coordinates of the upper and lower foil surfaces, y = yu and 
+y = yl, respectively, are both much smaller than the chord length l and that 
+the slopes ′
+y
+x
+u( ) and ′
+y x
+l( ) are small compared to one. For convenience, we 
+will take the origin of the coordinate system so that the leading and trailing 
+edges are situated at x
+l
+= ± 1
+2 , respectively, as shown in figure 5.7.
+The boundary condition (4) on the foil can be expressed in a more con­
+venient form by utilizing the substantial derivative (3.19). Thus, following 
+the fluid particles on the upper surface of the foil, where y − yu(x) = 0,

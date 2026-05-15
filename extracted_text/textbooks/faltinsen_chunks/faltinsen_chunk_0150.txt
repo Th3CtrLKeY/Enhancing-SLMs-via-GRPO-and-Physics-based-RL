@@ -1,0 +1,137 @@
+Mech., 189, 423-42. Fage, A. & Johansen, F. C. (1928). The structure of vortex sheets. Aeronautical Research Council R and M 1143 also Phil. Mag., 5, 114-42. Fage, A. & Warsap, J. H., (1929). The Effects of Turbulence and Surface Roughness on the Drag of Circular Cylinders. A.R.C. Rep. and Memo No. 1283. Faltinsen, O. M. (1972). Wave forces on a restrained ship in head-sea waves. In Proc. Ninth Symp. on Naval Hydrodynamics, ed. R. Brard and A. Castera, vol.
+
+318 REFERENCES
+
+2, pp. 1763-844. Arlington, Va.: Office of Naval Research — Department of
+the Navy.
+
+Faltinsen, O. M. & Michelsen, F. (1974). Motions of large structures in waves at
+zero Froude number. in Jnt. Symp. Dynamics of Marine Vehicles and Structures
+in Waves, ed. R. E. D. Bishop & W. G. Price, pp. 91-106. London:
+Mechanical Engineering Publications Ltd.
+
+Faltinsen, O. M. & Pettersen, B. (1987). Application of a vortex tracking method
+to separated flow around marine structures. 7. Fluids Struct., 1, 217-37.
+
+Faltinsen, O. M. & Sortland, B. (1987). Slowdrift eddy making damping ofa
+ship. Appl. Ocean Res., 9, 1, 37-46.
+
+Faltinsen, O. M. & Zhao, R. (1989). Slow-drift motions of a moored twodimensional body in irregular waves. 7. Ship Res., 33, 2, 93-106.
+
+Faltinsen, O. M., Kjaerland, O., Liapis, N. & Walderhaug, H. (1979). Hydrodynamic analysis of tankers at single-point mooring systems. In Proc. 2nd
+Int. Conf. Behaviour of Offshore Struct., (BOSS °79), ed. H. S. Stephans &
+S. M. Knight, vol. 2, pp. 177-206. Cranfield, Bedford: BHRA Fluid
+Engineering.
+
+Faltinsen, O. M., Minsaas, K., Liapis, N. & Skjgrdal, S. O. (1980). Prediction of
+resistance and propulsion of a ship in a seaway. In Proc. Thirteenth Symp. on
+Naval Hydrodynamics, ed. T. Inui, pp. 505-30. Tokyo: The Shipbuilding
+Research Association of Japan.
+
+Faltinsen, O. M., van Hooff, R. W., Fylling, I. & Teigen, P. (1982). Theoretical
+and experimental investigations of tension leg platform (TLP) behaviour. In
+Proc. Behaviour of Offshore Struct., (BOSS °82), ed. C. Chryssostomidis & J. J.
+Connor, vol. 1, pp. 411-23. Washington: Hemisphere Publishing
+Corporation.
+
+Faltinsen, O. M., Dahle, L. A. & Sortland, B. (1986). Slowdrift damping and
+response of moored ship in irregular waves. In Proc. Fifth Int. Offshore Mech.
+and Arctic Engng. Symp., (OMAE), vol. 1, pp. 297-303. New York: The
+American Society of Mechanical Engineers.
+
+Feng, C. C. (1968). The measurement of vortex-induced effects in flow past
+stationary and oscillating circular and D-section cylinders, M.Sc. Thesis, U.
+British Columbia. 7
+
+Frank, W. (1967). Oscillation of Cylinders in or Below the Free Surface of Deep
+Fluids, Report 2375. Washington DC: Naval Ship Research and Development
+Center.
+
+Gerritsma, J. & Beukelman, W. (1972). Analysis of the resistance increase in
+waves of a fast cargo ship. Intern Shipbuilding Progr., 19, 217, 285-93.
+
+Gerritsma, J., Beukelman, W. & Glansdorp, C. C. (1974). The effects of beam on
+
+the hydrodynamic characteristics of ship hulls. In Proc. Tenth Symp. on Naval .
+
+Hydrodynamics, ed. R. D. Cooper & S. W. Doroff, pp. 3~34. Arlington, Va.:
+Office of Naval Research — Department of the Navy.
+
+Graham, J. M. R. (1980). The forces on sharp-edged cylinder in oscillatory flow
+at low Keulegan—Carpenter numbers. 7. Fluid Mech., 97, 331-46.
+
+Greenhow, M. (1988). Water-entry and -exit of a horizontal circular cylinder.
+Appl. Ocean Res., 10, 4, 191-8.
+
+Greenhow, M. & Lin, W.-M. (1983). Non-linear free surface effects: experiments
+and theory. Report No. 83-19, Dept. Ocean Engng. Cambridge, Mass: Mass.
+Inst. Technol.
+
+REFERENCES 319
+
+Greenhow, M. & Li Yanbao (1987). Added mass for circular cylinders near to or
+penetrating fluid boundaries — review, extension and application to waterentry, -exit and slamming. Ocean Engng., 14, 4, 325-48.
+
+Griffin, O. M. (1985). The effect of current shear on vortex shedding. In Proc.
+Conf. Separated Flow Around Marine Structures, pp. 91-110. Trondheim: Nor.
+Inst. Technol.
+
+Griffin, O. M., Skop, R. A. & Ramberg, S. E. (1975). The resonant vortex
+excited vibrations of structures and cable systems. In Proc. Offshore Technol.
+Conf. (OTC), paper no. 2319, vol. 2, pp. 731-44. Houston: Offshore
+Technology Conference.
+
+Grue, J. & Palm, E. (1985), Wave radiation and wave diffraction from a
+submerged body in a uniform current. 7. Fluid Mech., 151, 257-78.
+
+Hagiwara, K. & Yuhara, T. (1976). Fundamental study of wave impact loads on
+ship bow. Selected papers from the 7. Soc. Nav. Arch., Japan, 14, 73-85.
+
+Havelock, T. H. (1942). The damping of the heaving and pitching motion of a
+ship. Phil. Mag., 33, 7, 666-73.
+
+Havelock, T, H. (1955). Waves due to floating sphere making periodic heaving
+oscillations. Proc. Roy. Soc. Lond., A231, 1-7.
+
+Hess, J. L. & Smith, A. M. O, (1962). Calculation of non-lifting potential flow
+about arbitrary three-dimensional bodies. Report No. E.S. 40622, Douglas
+Aircraft Division, Long Beach, California. (See also 7. Ship Res., (1964), 8, 2,
+22-44.)
+
+Hoerner, S. F. (1965). Fluid Dynamic Drag. Published by the author.
+
+Hughes, G. (1954). Friction and form resistance in turbulent flow, and a
+proposed formulation for use in model and ship correlation. Transaction of the
+Institution of Naval Architects, 96, 314-76.
+
+Huse, E. (1986). Influence of mooring line damping upon rig motions. In Proc.
+18th Offshore Technol. Conf. (OTC), paper no. 5204, vol. 2, pp. 433-38,
+Houston: Offshore Technology Conference.
+
+Ikeda, Y., Himeno, Y. & Tanaka, N., (1976). On roll damping force of
+ship: Effects of friction of hull and normal force of bilge keels. 7. Kansai Society
+of Nav. Arch., Japan, 161, 41-51.
+
+Ikeda, Y., Himeno, Y. & Tanaka, N. (1977a). On eddy making component of
+roll damping force on naked hull. 7. Soc. Nav. Arch., Japan, 142, 54-66.
+
+Ikeda, Y., Komatsu, K., Himeno, Y. & Tanaka, N. (1977b). On roll damping
+force of ship. Effect of hull surface pressure created by bilge keels. 7. Kansai
+Soc. of Nav. Arch., Japan, 165, 31-40:
+
+Isherwood, R. M., (1973). Wind resistance of merchant ships. Trans. Inst. Naval
+Arch., (RINA), 115, 327-38.
+
+John, F. (1950). On the motion of floating bodies II. Communications on Pure and
+Applied Mathematics, 3, 45-101.
+
+Johnson, I. G. (1978). A new approach to oscillatory rough turbulent boundary
+layers. Series Paper 17, Institute of Hydrodynamic and Hydraulic Engineering, Technical University of Denmark, Lyngby.
+
+Kato, H. (1966). Effect of bilge keels on the rolling of ships. Mem. of the Defence
+Academy, Japan, IV, 3, 369-84.
+
+Keulegan, G. H. & Carpenter, L. H. (1958). Forces on cylinders and plates in an
+oscillating fluid. 7. Res. National Bureau of Standards, 60, 5, 423-40.
+
+Kim, M. H. & Yue, D. K. P. (1988). The non-linear sum-freauencv wave

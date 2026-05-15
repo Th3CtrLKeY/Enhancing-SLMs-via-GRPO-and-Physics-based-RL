@@ -1,0 +1,73 @@
+between the ship and the waves are important responses. Accelerations determine loads on cargo and equipment and are an important reason for seasickness. The relative vertical motions can be used to evaluate the possibility and damage due to slamming and water mechanism around the natural heave period: Rough estimate: V(L/1.5), where L is ship length in metres. Restoring force: Dominating excitation Important damping: Table 1.1. Resonant heave oscillations of ships, offshore structures and high speed vehicles Vessel: Natural heave period:
+
+6 INTRODUCTION
+
+on deck. (Slamming means impact between the ship and the water.) For
+a ship it is important to avoid slamming as well as water on deck because
+of the resulting local damage of the structures.
+
+Rolling may be a problem from an operational point of view of fishing
+vessels, crane vessels, passenger ships and naval vessels. Means to reduce
+
+Local motions Accelerations
+
+Slamming Water on deck
+
+Effect of breaking waves
+
+Liquid sloshing in tanks
+
+Wave bending moments and shear forces
+
+Fig. 1.4. Examples of important seakeeping and wave load problems for
+ships.
+
+TRADITIONAL SHIP PROBLEMS 7
+
+the rolling of a ship are therefore of interest. Examples are bilge keels,
+anti-roll tanks and active fins. For smaller ships, rolling in combination
+with either wind, water on deck or motion of the cargo can cause the ship
+to capsize. Another important reason for capsizing of smaller ships is
+breaking waves. Several accidents off the Norwegian coast have been
+explained by breaking waves. Following sea can cause different critical
+capsizing situations. If the wave profile is stationary relative to the ship,
+the ship may be statically unstable in roll relative to the waterline defined
+by the wave profile. The ship may also lose its directional stability in
+following waves. This can happen when the frequency of encounter
+between the ship and the waves is small. The result is an altered course
+relative to the waves. This situation is called ‘broaching’ and is most
+critical with respect to capsizing of ships with small static stability.
+
+Liquid sloshing in tanks may be a problem for bulkships, combination
+ships oil—bulk—ore (OBO), liquid natural gas (LNG) carriers and tankers
+loading at offshore terminals. There are two reasons why the fluid motion
+in a tank can be violent. One is that a natural period for the fluid motion
+in the tank is in a period domain where there is significant ship motion.
+The other reason is that there is often little damping connected with fluid
+motion in a tank. If the excitation period is close to a natural period for
+the tank motion, a strong amplification of the fluid motion in a tank will
+occur. Liquid sloshing can cause high local pressures as well as large
+total forces. Both effects may be important in design.
+
+For larger ships, wave-induced bending moments, shear forces and
+torsional moments are important. More specific problems are whipping
+and springing. Whipping is transient elastic vibration of the ship hull
+girder caused for instance by slamming. Springing is steady-state elastic
+vibration caused by the waves and is of special importantce for larger
+oceangoing ships and Great Lake carriers. Springing is due to both linear
+and non-linear excitation mechanisms. The linear exciting forces are
+associated with waves of small wavelengths relative to the ship length.
+
+Ship motions and sea loads can influence the ship speed significantly
+due to voluntary and involuntary speed reduction. Voluntary speed
+reduction means that the ship master reduces the speed due to heavy
+slamming, water on deck or large accelerations. Involuntary speed
+reduction is the result of added resistance of the ship due to waves and
+wind and changes in the propeller efficiency due to waves. The
+importance of involuntary speed reduction is exemplified in Fig. 1.5. It
+shows the results of computer calculations for a container ship at a given
+sea state. The significant wave height H; is 8.25m. The waves are
+assumed longcrested with different propagation directions relative to the
+ship. The ship has a length of 185 m. The actual speed at constant engine
+power is given for different wave headings together with the design speed
+in still water at the same engine power. For instance in head seas the ship

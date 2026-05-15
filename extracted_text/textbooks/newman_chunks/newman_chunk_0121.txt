@@ -1,0 +1,38 @@
+they can be regarded as the most important hydrodynamic characteristics of the body, except in the case of steady translation where (115) predicts no force and the viscous drag is clearly more important. It may be worthwhile to review briefly the assumptions implicit in (115–116). First, the fluid is ideal and irrotational, and viscous forces are neglected. Second, the body has been taken to be rigid and of constant volume; its motions are defined by three translational and three rotational
+
+The Motion of an Ideal Fluid 
+
+velocity components. Third, except for the presence of the body itself, the 
+fluid is unbounded and of infinite extent.
+For a variety of problems in marine hydrodynamics, the second assump­
+tion is the most acceptable of the three. We have shown that the assump­
+tion of irrotational flow is consistent with the assumption of an ideal fluid 
+motion; however, important modifications are required for lifting surfaces 
+with sharp trailing edges and associated shed vorticity. The relative impor­
+tance of the inertial forces and moments (115–116) by comparison to vis­
+cous forces and moments is discussed in section 2.11. Finally, with respect 
+to the third assumption, (115–116) will have to be modified in cases where 
+the fluid domain is bounded by other boundaries. The presence of a free 
+surface is the most important and troublesome of these possibilities, but 
+simpler problems also occur, as, for example, when the body moves in 
+proximity to a plane rigid wall. The latter situation can be dealt with by the 
+method of images, an approach which will be described briefly in the final 
+section of this chapter.
+4.14  General Properties of the Added-Mass Coefficients
+As the name implies, there is an important analogy of the added-mass coef­
+ficients mij with the body mass and moments of inertia. In section 4.16 we 
+shall demonstrate this analogy by showing that the force and moment due 
+to the body mass are of precisely the same form as (115–116). Thus from 
+the physical standpoint the added-mass coefficients represent the amount 
+of fluid accelerated with the body. However, the added-mass coefficients for 
+translation generally differ depending on the direction of the body motion, 
+as opposed to Newton’s equation F = ma where the body mass m is inde­
+pendent of the direction of the acceleration a. Also, in the absence of body 
+symmetry, the cross-coupling coefficients such as m12, m13, and m23 are nonzero, implying that the hydrodynamic force differs in direction from the 
+acceleration.
+The added mass can be interpreted as a particular volume of fluid par­
+ticles that are accelerated with the body. Strictly, however, the particles 
+of fluid adjacent to the body will accelerate to varying degrees, depend­
+ing on their position relative to the body. In principle, every fluid particle 
+will accelerate to some extent as the body moves, and the added mass is a 
+weighted integration of this entire mass.

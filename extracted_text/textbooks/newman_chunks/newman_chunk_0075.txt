@@ -1,0 +1,192 @@
+be deleted with the understanding that the average value is implied. The tangential velocity component u is assumed to be of the form u f x y U = ( , , , , ), ρ µ (92) where x and y are the usual space coordinates with the plate occupying the positive x-axis, ρ and μ are the density and viscosity of the fluid, and U is the velocity of the free stream outside the boundary layer. The subsequent
+
+Chapter 3
+development of nondimensional variables is facilitated if the coordinate x 
+is replaced by the boundary-layer thickness δ, under the assumption that 
+dδ/dx > 0, so that to each value of x corresponds a unique value of δ and vice 
+versa. The exact definition of the boundary-layer thickness is not impor­
+tant; it will be regarded somewhat loosely as the value of y where u = U, 
+even though this equality is only asymptotic. Similarly, the velocity U will 
+be replaced by the friction velocity,
+u
+x
+xy
+τ
+τ
+ρ
+τ
+ρ
+≡
+≡
+[
+( , )/
+]
+(
+/
+)
+.
+/
+/
+
+1 2
+
+1 2 	
+(93)
+Again, to justify this· substitution of variables, we rely on a physical argu­
+ment: for each value of U and fixed x, there is a unique value of the shear 
+stress on the wall, and vice versa.5 With these substitutions, the functional 
+form of equation (92) is replaced by
+u
+f
+y
+u
+=
+( , , , ,
+).
+δ
+ρ µ
+τ
+	
+(94)
+After nondimensionalization, it follows that
+u
+u
+f u y
+y
+τ
+τ
+ν
+δ
+=
+(
+/ ,
+/ ). 	
+(95)
+Figure 3.9
+Comparison of laminar (———) and mean turbulent (-----) velocity profiles, for 
+the boundary layer on a flat plate. Since the boundary layer thickness is substan­
+tially greater in the turbulent case, the difference in scales should be noted in this 
+comparison.
+
+The Motion of a Viscous Fluid 
+
+Since Reynolds stresses dominate viscous stresses except in the viscous 
+sublayer, viscous stresses identified with the viscosity coefficient ν and 
+hence the parameter uτy/ν in (95), are significant only in the immediate 
+vicinity of the boundary y = 0, where the turbulent fluctuations and associ­
+ated Reynolds stress approach zero. In this viscous sublayer, y/δ ≪ 1 and 
+(96) may be replaced by the inner law or law of the wall
+u
+u
+f
+u y
+f
+u y
+τ
+τ
+τ
+ν
+ν
+
+,
+.
+
+
+
+
+
+≡
+
+
+
+
+	
+(96)
+In other words, the nondimensional velocity very close to the wall depends 
+only on the Reynolds number based on the friction velocity uτ and the 
+distance from the boundary y. This conclusion is not surprising since, in 
+the viscous sublayer, the turbulent outer portion of the boundary layer is 
+remote, and the boundary-layer thickness δ is relatively unimportant com­
+pared to the viscosity coefficient, shear stress, and distance from the wall.
+On the wall y = 0, two boundary conditions are appropriate. First we 
+impose the usual condition u = 0; hence f1(0) = 0 in (96). In addition, it fol­
+lows from the definition of the shear stress that
+µ
+τ
+µ
+ν
+τ
+τ
+τ
+∂
+∂
+
+
+
+
+=
+=
+
+
+
+
+=
+′
+=
+=
+u
+y
+u
+df u y
+dy
+f
+y
+y
+
+
+
+
+0 1 0
+(
+/ )
+( ). 	
+(97)
+When the shear stress is related to the friction velocity by means of (93), 
+f1 must have a linear behavior as y → 0, of the form
+f u y
+u y
+1(
+/ )
+/ .
+τ
+τ
+ν
+ν
+
+	
+(98)
+Now let us consider the outer region of the boundary layer, where the 
+Reynolds stress dominates the viscous stress. In this region we expect the 
+parameter y/δ to be important, in conjunction with the outer “boundary 
+condition” that u = U when y/δ = 1. This suggests the appropriate form for 
+the outer approximation of (95), or the velocity-defect law
+U
+u
+u
+f
+y
+−
+=
+τ
+δ
+2( / ). 	
+(99)
+The velocity difference has been used to impose the outer boundary condi­
+tion in the form
+f2 1
+
+( )
+.
+=
+	
+(100)

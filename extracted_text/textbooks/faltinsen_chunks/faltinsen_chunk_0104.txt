@@ -1,0 +1,98 @@
+nets Fig. 6.33 shows a quadratic part of a cage. The netting panel has a mesh size 4 = 0.02 m and a twine diameter D, = 0.002 m. 2a Oe 2.0 5 10 15 20 Up Fig. 6.32. Transverse double amplitude 2 - A versus reduced velocity U, for case C3, of Overvik’s (1982) model tests. (Up = U./(f,D.), Ue = current velocity, f, = natural frequency of oscillations of the | cylinder, D, is defined in the figure.)
+
+216 CURRENT AND WIND LOADS
+
+(a
+
+Ne
+
+Start with equation (6.49), that describes the velocity
+distribution in the wake behind a cylinder. Show that the
+x-component u of the velocity in the point (x, y, 2) behind the
+netting panel in Fig. 6.33 can be approximated as
+
+-t/N~ 2
+Mian x ‘ 7 Oa)"
+f= 1.0 0.95 (=) (Ye (casssc-s)
+
+Ni (z~2;)° ))
++ —
+X exp( 0.0888C,,Dx
+
+(6) Confirm that the velocity is approximately constant in
+transverse direction behind the netting panel.
+Discuss how the current velocity will decay if there are
+
+several netting panels placed after each other as shown in
+Fig. 6.34.
+
+(c) The current force on a netting panel can be calculated by the
+formula
+
+Fp =0.5pCpU;2A
+
+(Cp = 0.204, A = 1 m’, upstream velocity U..=1ms7',
+
+U, = local incident current-velocity ahead of a netting panel.)
+Justify that the drag coefficient is the right order of
+magnitude. Find the total current force on four equal netting
+
+Fig. 6.33. Quadratic part of a cage used in exercise 6.1 (A = mesh size,
+D; = twine diameter).
+
+(6.65)
+
+a
+i
+
+EXERCISES 217
+
+2m __pjy 2m _,ty_2m_,
+a | iS
+
+2m 2m 2m
+Bl o
+is Ue s iB
+Ka
+
+Fig. 6.34. Definition of netting panels used in exercise 6.1.
+
+panels placed in the wake of each other. The distance between
+each netting panel is 2 m (see Fig. 6.34). (Answer: 313.4 N)
+
+6.2 Vortex induced oscillations of a riser in a current
+Consider a vertical rigid riser. The differential equation that describes the
+linear behaviour of a riser can be written as (Sparks, 1980)
+d* d? d d
+BISA TH)S— WS + (mt An) G3 =I) (6.66)
+E-Young’s modulus of elasticity
+I] —Inertia (flexural)
+yy—Horizontal offset from vertical through riser foot
+x—Height above riser foot .
+
+T —Effective tension (calculated from consideration of the apparent
+weight of riser plus contents)
+
+W-Linear apparent weight per unit length (riser plus contents). In
+order to get the true weight of the contents one has to add the
+weight of the content and pgV where V is the displaced volume of
+the segment
+
+m-—Mass per unit length
+
+Az,~—Added mass in direction y per unit length
+f(x)—Lateral external load per unit length normally calculated by
+Morison’s equation (see equation (3.34)).
+
+Sparks show that rigidity has a negligible effect on riser curvature except
+for limited zones close to the ends. We will therefore neglect it in the
+following analysis.
+
+Our purpose is to set up expressions for the eigenmodes and natural
+frequencies. This means we shall set f(x)=0. The equation we shall
+study is therefore
+
+2, 2,
+rest wom + Ay) £2 =0
+
+i (6.67)

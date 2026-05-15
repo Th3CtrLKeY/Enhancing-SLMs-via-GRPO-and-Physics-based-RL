@@ -1,0 +1,70 @@
+[Page 1]
+Challenge Problem 2 (OPTIONAL) 
+Name: ____________________  
+( ) 
+Consider steady flow in a circular tube whose radius a x  varies slowly with x along the 
+centerline. A constant pressure difference is maintained between the two ends of the tube, 
+dp
+and the axial pressure gradient 
+=G x
+( )  also varies slowly with x. The flow is 
+K 
+dx 
+, 
+( ) 
+( ) 
+axisymmetric so that V = (v
+ 
+v
+ 
+) . Because a x  and G x  vary slowly, the local flow 
+x
+r 
+near some point x in the tube is approximately described by Poiseuille flow and the axial 
+velocity component is given by 
+( )
+( ,  )  = G x  (  (  )2  r 2)
+v
+x r
+ 
+a x
+ 
+x 
+4P 
+where r is the radial distance from the tube centerline. 
+1. What terms must be neglected in the full Navier-Stokes equation for v  in order to 
+x 
+obtain this approximate solution? 
+2. What is the constant volume flux Q along the tube in terms of G x  and a x  ?
+( ) 
+( ) 
+3. Using your answer for Q, show that 
+x 
+¨ 
+
+ 
+4
+P
+P = 8P Q 
+a
+ dx
+
+
+S 
+x1 
+where P and P  are the pressures at x  and x .
+
+
+
+
+4. Assume the tube radius is given by a x  1
+( ) = +Dx , where D  is a constant. Obtain an 
+equation for the pressure gradient G x
+( )  assuming the pressures P and P  are known at
+
+
+points x  and x . Express your answer in terms of  x1, x2 , P , P2 , D  and x.
+
+
+
+5. If D = 0 , what is the pressure gradient?

@@ -1,0 +1,128 @@
+but with reduced magnitude, as we shall see in sections 6.12 and 6.13. Analogous results follow if two positive disturbances are superposed. Thus, if a pair of two-dimensional vessels moves in tandem, with one in the other’s wake, the total wave resistance of the pair will fluctuate as in figure 6.13 but with a shift of 1 2 λ in the definition of l. However, the drag in question is the sum of the individual components acting on each vessel,
+
+Waves and Wave Effects 
+
+and vanishing of the total drag does not imply that each vessel experiences 
+no drag. What in fact occurs is that the upstream vessel experiences a drag, 
+and the downstream vessel an equal and opposite thrust force, much like a 
+surfboard riding on a wave system generated in this case by the upstream 
+vessel. Similar considerations apply to convoys of ships in three dimen­
+sions, but with reduced interference as noted above.
+These simplified results are independent of the body geometry that pro­
+duces the assumed waves and apply equally whether the body is floating 
+on the free surface or submerged. The simplest specific example, where the 
+wave amplitude A and wave resistance are related explicitly to the body 
+shape and speed, is a submerged circular cylinder; an approximate theory 
+for this case is outlined by Lamb (1932). The case of a planing body is of 
+particular interest; in many respects it resembles the flow beneath a lifting 
+surface, but with the added complications of the free surface. More exten­
+sive results for a wide variety of floating and submerged bodies are surveyed 
+by Wehausen (1973) and in other references listed in section 6.13.
+Figure 6.13
+Wave drag of a pair of two-dimensional disturbances. The strength of these is equal 
+and opposite, and their separation distance is l.
+
+Chapter 6
+6.10  Three-Dimensional Ship Waves
+Two-dimensional results can be generalized to more realistic threedimensional motions if the single plane wave system in the wake, shown 
+in figure 6.12, is replaced by a suitable distribution of waves moving at 
+all possible oblique angles θ. The most general wave distribution in three 
+dimensions is given by the double integral (59). If this is transformed 
+to a reference system moving with the ship in the positive x-direction 
+with velocity U, the appropriate expression with x replaced by x + Ut is 
+given by
+η
+ω
+θ
+ω θ
+θ
+θ
+ω
+θ
+( , , )
+Re
+( , )exp[
+( cos
+sin )
+(
+cos ) ]
+x z t
+d
+d
+A
+ik x
+z
+i
+kU
+t
+=
+−
++
++
+−
+∞
+∫
+
+
+2π
+∫
+. 	(86)
+Here k(ω) is the wavenumber corresponding to a given frequency ω in 
+accordance with the dispersion relation (17) for infinite depth or (24) for 
+finite depth. As in section 6.9, we shall treat only the former possibility.
+If the motion is steady state in the reference system which moves with 
+the ship, the expression (86) must be independent of time. As in the cor­
+responding two-dimensional case, this implies a restriction on the phase 
+velocity of the waves and thus on the wavenumber. In the present situa­
+tion, (86) will be independent of time provided
+kU cos
+;
+θ
+ω
+−
+= 0 	
+(87)
+this is equivalent to stipulating that the phase velocity of each admissible 
+wave component is given by
+V
+k
+U
+p =
+=
+ω
+θ
+cos . 	
+(88)
+In this sense (see figure 6.6), a system of plane progressive waves moving at 
+an oblique angle θ with respect to the x-axis will appear steady state to an 
+observer moving along the x-axis with velocity Vp secθ.
+The restriction (87) can be used to eliminate one of the variables of inte­
+gration in (86). Retaining the wave angle θ, and noting that (87–88) require 
+that cosθ > 0, we can replace (86) by the single integral
+η
+θ
+θ
+θ
+θ
+θ
+π
+π
+( , )
+Re
+( )exp[
+( )( cos
+sin )];
+/
+/
+x z
+d A
+ik
+x
+z
+=
+−
++
+−∫
+
+
+(89)

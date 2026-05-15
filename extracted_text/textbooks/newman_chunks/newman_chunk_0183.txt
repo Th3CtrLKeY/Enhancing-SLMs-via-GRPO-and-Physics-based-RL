@@ -1,0 +1,212 @@
+to that used in deriving (174). The drag force is obtained from (179) after multiplying the integrand by the slope α(x): D U u x x dx u x v x dx = = − − − − − ∫ ∫ ρ α ρ ( ) ( ) ( ) ( ) . (183) Here the boundary condition (I75) has been used to replace the slope by the vertical velocity component. Changing the variable of integration, as in (180), gives
+
+Chapter 5
+D
+v
+d
+=
+−∫
+ρ γ ξ
+ξ ξ ξ
+( ) ( )
+.
+
+
+(184)
+Using (60) for the vertical velocity gives
+D
+t
+t
+dt d
+= −
+−
+−
+−
+∫
+∫
+ρ
+π
+γ ξ ξ
+γ
+ξ
+ξ
+
+
+
+
+
+( )
+( )
+.
+−
+	
+(185)
+If the order of integration and dummy variables are inverted, as in (171), it 
+follows that
+D
+t
+t
+t
+t
+dt d
+t
+= −
+−
+−
++
+−
+
+
+
+
+=
+−
+−
+−
+∫
+∫
+∫
+ρ
+π
+γ ξ
+γ
+ξ
+ξ
+ξ
+ξ
+ρ
+π
+γ ξ
+γ
+
+
+
+
+
+
+
+
+( )
+( )
+( )
+( )dt d
+d
+ξ
+ρ
+π
+γ ξ
+ξ
+−
+−
+∫
+∫
+=
+
+
+
+
+
+
+
+
+
+
+( )
+.
+−
+	
+(186)
+The last integral is the total circulation Γ for the equivalent foil, and thus 
+the drag coefficient for the supercavitating foil is given by
+(
+)
+(
+)
+.
+C
+C
+D
+L
+cavitating
+equivalent
+= 1
+
+
+π
+	
+(187)
+This useful equivalence was first established by Tulin and Burkart in 
+1955 and has been expounded in several papers (Tulin 1964). For a flat 
+plate of constant angle of attack α, the results from section 5.4 give for the 
+corresponding supercavitating case
+CL = π α
+
+, 	
+(188)
+CM = 5
+
+πα , 	
+(189)
+CD = π α
+
+2. 	
+(190)
+Here the center of pressure is shifted from the quarter-chord point to a 
+position 5/16 of the chord downstream from the leading edge. Of greater 
+interest is the lift-drag ratio, which reveals that the total force vector on 
+the foil is precisely normal to the flat plate, inclined at an angle a from the
+
+Lifting Surfaces 
+
+vertical. This situation differs from the fully wetted foil, where the force 
+vector is strictly vertical, due to the leading-edge suction force. In the super­
+cavitating case there is no leading-edge suction force, since the square-root 
+singularity of the equivalent fully wetted flow in the ζ-plane is reduced to 
+a quarter-root singularity in the physical z-plane. Physically, the cavity that 
+originates at the leading edge is of more gradual curvature than the flow 
+around the fully wetted flat plate.
+More generally, the lift-drag ratio can be derived from (182) and (187) as
+(
+/
+)
+(
+/
+)
+.
+L
+D
+C
+C
+M
+L
+cavitating
+equivalent
+= 8
+
+π
+	
+(191)
+To maximize this quantity, the ratio CM/CL for the equivalent foil must be 
+as large as possible, or the center of pressure must be as far downstream as is 
+practical. Since the pressure on the lower surface must be positive to avoid 
+face cavitation, the optimum lift-drag ratio results when the equivalent 
+center of pressure is at the trailing edge. This situation cannot be attained in 
+practice, but it does imply correctly that efficient supercavitating sections 
+will have a pronounced maximum slope at the trailing edge.
+While the equivalence of supercavitating and fully wetted foils is impor­
+tant in predicting the performance and optimizing the design of supercavi­
+tating foils, the performance of these two types of foils is not identical. As a 
+simple example, the flat-plate lift coefficient is reduced by a factor of four 
+relative to the fully wetted regime, and a nonzero drag force is incurred as 
+well. Thus the supercavitating flow regime is to be avoided if possible, espe­
+cially given the problems of erosion and noise, which are inevitable con­
+sequences of cavitating flows. However, if operation in the supercavitating 
+regime is inevitable, it is preferable to design the foil section to be optimum 
+in this regime, and thus to have a very different form from the fully wetted 
+foil shapes. The latter difference is particularly important at the leading 
+edge where, to avoid both cavitation and separation, a fully wetted foil is 
+designed with a substantial radius of curvature, whereas a supercavitating 
+foil is designed with a sharp leading edge.
+5.15  Unsteady Hydrofoil Theory
+In general, unsteady motions will be accompanied by correspond­
+ing changes in the circulation about the foil or about each section of a

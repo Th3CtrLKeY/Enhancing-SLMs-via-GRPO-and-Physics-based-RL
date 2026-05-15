@@ -1,0 +1,214 @@
+τij to the kinematic properties of the fluid. The task here is analogous to specifying the stress-strain relations in solid mechanics. If the fluid is at rest, and more generally if there are no shear stresses, a normal pressure stress will exist within the fluid. Equilibrium of the forces acting across a small tetrahedron requires that this pressure be isotropic. Thus, in the absence of viscous shear the stress tensor is τ δ ij ij p = − , (20)
+
+The Motion of a Viscous Fluid 
+
+where δij is the Kroenecker delta function, equal to 1 if i = j and 0 if i ≠ j. 
+By hypothesis, there are no viscous forces if the fluid moves as a rigid mass 
+without deformation, or with the velocity field
+V
+A
+B
+r
+=
++
+× . 	
+(21)
+Here A and B are constant vectors equal to the translation and rotation 
+velocities, and r is the position vector from the origin of rotation.
+Viscous stresses will occur when the fluid velocity differs from (21), with 
+relative motion between adjacent fluid particles. The simplest example is a 
+uniform shear flow, shown in figure 3.2. Here, and for more general veloc­
+ity fields, the fundamental assumption of a Newtonian fluid is that the stress 
+tensor is a linear function of the nine gradients ∂uk/∂xl. This ensures vanish­
+ing of the viscous stress components for uniform translation of the fluid. 
+The rotational term in (21) will be stress-free provided the gradients occur 
+only in the form of sums ∂uk/∂xl + ∂ul/∂xk. For an isotropic fluid, the values 
+of the stress components must be independent of the choice of coordinates, 
+and for flow in one plane there can be no shear stress in the direction 
+Figure 3.2
+Stress and strain for simple shear flow of a Newtonian fluid.
+
+Chapter 3
+normal to this plane. The most general linear function of the velocity 
+gradients, consistent with these conditions and the requirement that τij is 
+symmetric, is of the form
+τ
+µ
+ij
+i
+j
+j
+i
+u
+x
+u
+x
+i
+j
+=
+∂
+∂
++ ∂
+∂
+≠
+(
+/
+/
+),
+.
+for 
+	
+(22)
+The coefficient μ is the viscous shear coefficient, or simply the coefficient of 
+viscosity.
+In order for τij to be a tensor, the only possible addition to (22) for 
+i = j is a second constant times the divergence ∂ui/∂xi, which vanishes for 
+an incompressible fluid. Thus, the total stress tensor for an incompressible 
+fluid is given by
+τ
+δ
+µ
+ij
+ij
+i
+j
+j
+i
+p
+u
+x
+u
+x
+= −
++
+∂
+∂
++ ∂
+∂
+
+
+
+, 	
+(23a)
+or, in Cartesian components,
+{
+}
+τ
+µ
+ij
+p
+p
+p
+u
+x
+u
+y
+v
+x
+u
+z
+w
+x
+v
+x
+=
+−
+−
+−
+
+
+
+
+
+
++
+∂
+∂
+∂
+∂
++ ∂
+∂
+∂
+∂
++ ∂
+∂
+∂
+∂
++
+
+
+
+
+
+
+
+∂
+∂
+∂
+∂
+∂
+∂
++ ∂
+∂
+∂
+∂
++ ∂
+∂
+∂
+∂
++ ∂
+∂
+∂
+∂
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+u
+y
+v
+y
+v
+z
+w
+y
+w
+x
+u
+z
+w
+y
+v
+z
+w
+z
+
+
+
+
+. 	
+(23b)
+The first matrix in (23) is the normal pressure stress. The second matrix 
+is the viscous stress tensor, proportional to the viscosity coefficient μ. The 
+diagonal elements of the viscous stress are associated with elongations of 
+fluid elements, and the off-diagonal elements are due to shearing deforma­
+tions of the form shown in figure 3.2.
+Most common fluids, including water and air, are found to conform to 
+the Newtonian stress relations (23) for all practical purposes. An excep­
+tion occurs if dilute solutions of polymers are formed which disrupt the 
+isotropic nature of the fluid. The resulting stress relations are said to be 
+“non-Newtonian.” In certain cases the frictional drag on a body can be 
+reduced by this means, as described in the surveys by Lumley (1969) and 
+Bark, Hinch, and Landahl (1975).

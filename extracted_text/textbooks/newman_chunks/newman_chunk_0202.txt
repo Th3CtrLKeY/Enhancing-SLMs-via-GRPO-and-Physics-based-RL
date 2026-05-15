@@ -1,0 +1,147 @@
+beneath the nodes η = 0, rising or falling with the free surface. This velocity field is shown in figure 6.1. Within the accuracy of the linear theory, the fluid particles move in small circular orbits proportional to the wave amplitude; they remain in the same mean position as the wave propagates through the fluid with a phase velocity independent of the wave amplitude. Some nonlinear effects that modify this situation will be discussed in sections 6.4 and 6.5, but
+
+Waves and Wave Effects 
+
+for most practical purposes the linear results described here are extremely 
+accurate.
+As the depth of submergence beneath the free surface increases, the fluid 
+velocity (19–20) is attenuated exponentially. For a submergence of half a 
+wavelength, ky = −π and the exponential factor is reduced to 0.04. Thus 
+waves in deep water are confined to a relatively shallow layer near the free 
+surface, with negligible motion beneath a depth of about 1
+2 λ. On this basis 
+one can anticipate that if the fluid depth is finite, but greater than half a 
+wavelength, the effects of the bottom will be negligible. This conclusion 
+will be confirmed in section 6.3.
+6.3  Finite-Depth Effects
+For a fluid of constant depth h with the bottom a rigid impermeable plane, 
+the boundary condition
+∂
+∂
+=
+= −
+φ /
+,
+,
+y
+y
+h
+
+(21)
+must be imposed. Returning to the general solution (12), both exponential 
+functions must be retained, with the constants C and D suitably chosen to 
+satisfy (21).
+Figure 6.1
+Velocity field of a plane progressive wave in deep water. The phase velocity and 
+fluid velocity vectors are to the same scale. This example corresponds to the case 
+A/λ = 1/20.
+
+Chapter 6
+The necessary algebra can be reduced by noting that the two indepen­
+dent solutions e±ky may be replaced by linear combinations of the hyper­
+bolic sine and cosine function. The only combination that satisfies (21) is 
+proportional to cosh[k(y + h)]. Thus, for a fluid of finite depth,
+Y y
+C
+k y
+h
+kh
+( )
+cosh (
+)
+cosh
+,
+=
++
+	
+(22)
+where the constant C has been chosen such that (15) remains valid. Sub­
+stituting (22) in (10) and using (15) gives the velocity potential for finite 
+depth in the form
+φ
+ω
+ω
+=
++
+−
+gA
+k y
+h
+kh
+kx
+t
+cosh (
+)
+cosh
+sin(
+). 	
+(23)
+Finally, for (23) to satisfy the free-surface condition (6), it follows that
+k
+kh
+g
+tanh
+/ .
+= ω2
+	
+(24)
+The dispersion relation (24) is an implicit equation which determines 
+the wavenumber k and wavelength λ = 2π/k, for given values of the depth h 
+and frequency ω. Conversely, for given values of the wavelength and depth, 
+(24) can be used to calculate the frequency.
+As the depth h tends to infinity, equations (23–24) reduce to the infinitedepth results (16–17) respectively. At a depth of 
+
+2 λ , the discrepancy 
+between (17) and (24) is less than half a percent, confirming the estimates 
+at the end of section 6.2.
+The fluid velocity components can be computed as in (19–20), and for 
+finite depth it follows that
+u
+x
+gAk
+k y
+h
+kh
+kx
+t
+= ∂
+∂
+=
++
+−
+φ
+ω
+ω
+cosh (
+)
+cosh
+cos(
+), 	
+(25)
+v
+y
+gAk
+k y
+h
+kh
+kx
+t
+= ∂
+∂
+=
++
+−
+φ
+ω
+ω
+sinh (
+)
+cosh
+sin(
+). 	
+(26)
+Once again there is a phase difference of a quarter period between these 
+two velocity components, but because the magnitudes are unequal, the tra­
+jectories of fluid particles will be elliptical. The major axis of these ellipses 
+is horizontal, and the velocity distribution is as shown in figure 6.2. Figure 
+6.7(a) is a time-exposure photograph that shows these trajectories vividly.

@@ -1,0 +1,130 @@
+∞, the outer solution is obtained in the form φ( ) / / ( / )( ) [ ( ) ]. 1 2 1 2 = − − + − − U h F S x F z h h (141) Here the sectional area S(x) is defined to be zero, when the argument in (141) is outside the range of the body length. Differentiating (141) with respect to z confirms that this expression matches with the inner flux (134).
+
+Chapter 7
+Moreover, the arbitrary function f(x) of the inner solution (132) can be 
+found by setting z = 0 in (141). Thus, in the supercritical case Fh > 1,
+f x
+h
+F
+S x
+h
+( )
+( /
+)(
+)
+( ),
+/
+= −
+−
+−
+1 2
+
+
+1 2
+	
+(142)
+with the understanding that (142) vanishes if x is outside the range of the 
+body length.
+With the function f(x) determined by (138) or (142), the inner solution 
+(132) is specified uniquely. The complete inner solution requires that the 
+boundary-value problem for Φ1 be solved. However, we shall show that 
+the leading-order hydrodynamic pressure on the body is dominated by the 
+function f(x). Thus the pressure forces acting on the body can be found to 
+leading order in ε, without solving for Φ1.
+The hydrodynamic pressure can be obtained in the inner region from 
+Bernoulli’s equation (6.3). In the moving frame of reference, it follows that
+p
+U
+x
+U
+f
+x
+=
+∂
+∂
+−
+∇⋅∇
+
+
+
+
+′
+−
+∇
+⋅∇
+ρ
+φ
+φ
+φ
+ρ
+
+
+
+
+
+
+
+[
+( )
+].
+Φ
+Φ
+	
+(143)
+Here the last approximation holds in the inner region, and f′(x) ≡ df/dx.
+From (138) or (142) the function f(x) is of order S/h = O(ε), whereas the 
+boundary condition (133) gives the estimate ∇
+=
+Φ1
+O( )
+ε . Thus the domi­
+nant contribution to the pressure on the body surface is due to the first 
+term in (143), or
+p
+U f
+x
+O
+=
+′
++
+ρ
+ε
+
+
+( )
+(
+). 	
+(144)
+This approximation can be used to find the leading-order force and moment 
+acting on the body. Note from symmetry that the only force components 
+are the longitudinal drag force −Fx and the vertical force Fy. The only non­
+zero moment is the pitch component Mz.
+The drag force due to wave resistance can be obtained by pressure inte­
+gration from the formula
+D
+F
+pn dS
+U
+f
+x S x dx
+x
+x
+S
+l
+B
+= −
+= −
+= −
+′
+′
+∫∫
+∫
+ρ
+
+( ) ( )
+. 	
+(145)
+Here we use (21) and the fact that the first-order pressure (144) is constant 
+across the body section.
+In the subcritical case, the wave resistance (145) vanishes. This can 
+be confirmed directly, by substituting (138). The derivative of (138) is a

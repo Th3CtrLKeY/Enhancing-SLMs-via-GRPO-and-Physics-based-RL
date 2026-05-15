@@ -1,0 +1,399 @@
+[Page 1]
+Lecture 5 
+ - Marine Hydrodynamics 
+Lecture 5 
+Chapter 2 - Similitude (Keyword: EQUAL RATIOS) 
+Similitude: Similarity of behavior for diﬀerent systems with equal similarity parameters. 
+Prototype 
+↔ 
+Model 
+(real world) 
+(physical/ analytical/ numerical . . .  experiments) 
+Similitude 
+Similarity Parameters (SP’s) 
+Geometric Similitude 
+Length ratios, angles 
+Kinematic Similitude 
+Displacement ratios, velocity ratios 
+Dynamic Similitude 
+Force ratios, stress ratios, pressure ratios 
+. . . 
+Internal Constitution Similitude 
+ρ, ν 
+Boundary Condition Similitude 
+. . . 
+For similitude we require that the similarity parameters SP’s (eg. angles, length ratios, 
+velocity ratios, etc) are equal for the model and the real world. 
+Example 1 Two similar triangles have equal angles or equal length ratios. In this case 
+the two triangles have geometric similitude. 
+Example 2 For the ﬂow around a model ship to be similar to the ﬂow around the prototype 
+ship, both model and prototype need to have equal angles and equal length 
+and force ratios. In this case the model and the prototype have geometric 
+and dynamic similitude. 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+
+ 
+
+ 
+
+ 
+
+ 
+2.1 Dimensional Analysis (DA) to Obtain SP’s 
+2.1.1 Buckingham’s π theory 
+Reduce number of variables → derive dimensionally homogeneous relationships. 
+1. Specify (all) the (say N) relevant variables (dependent or independent): x1, x2, . . . xN 
+e.g. time, force, ﬂuid density, distance. . . 
+We want to relate the xi’s to each other I( x1, x2, . . . xN ) = 0  
+2. Identify (all) the (say P) relevant basic physical units (“dimensions”) 
+e.g. M,L,T (P = 3) [temperature, charge, . . . ]. 
+3. Let π = x1 
+α1 x2 
+α2 . . . xN
+αN be a dimensionless quantity formed from the xi’s. Suppose 
+xi = CiM mi Lli T ti , i = 1, 2, . . . , N  
+where the Ci are dimensionless constants. For example, if x1 = KE = 1
+2 MV 2 = 
+1 M 1L2T −2 (kinetic energy), we have that C1 = 1 , m1 = 1, l1 = 2, t1 = −2. Then 
+
+
+π = (Cα1 Cα2 . . . CαN )M α1m1+α2m2+...+αN mN Lα1l1+α2l2+...+αN lN T α1t1+α2t2+...+αN tN 
+
+
+N 
+For π to be dimensionless, we require 
+N 
+αimi = 0  
+P
+αili = 0  
+aP × N system of Linear Equations 
+(1) 
+αiti = 0  
+Σ notation 
+Since (1) is homogeneous, it always has a trivial solution, 
+αi ≡ 0, i = 1, 2, . . . , N  (i.e. π is constant) 
+There are 2 possibilities: 
+(a) (1) has no nontrivial solution (only solution is π = constant, i.e. independent of 
+xi’s), which implies that the N variable xi, i = 1, 2, . . . , N  are Dimensionally Independent 
+(DI), i.e. they are ‘unrelated’ and ‘irrelevant’ to the problem. 
+(b) (1) has J(J > 0) nontrivial solutions, π1, π2, . . . , πJ . In general, J < N, in fact, 
+J = N − K where K is the rank or ‘dimension’ of the system of equations (1). 
+
+⎫ 
+⎪
+⎪
+⎪
+⎪
+⎪
+⎬ 
+⎧ 
+⎪
+⎪
+⎪
+⎪
+⎪
+⎨ 
+⎪
+⎪
+⎪
+⎪
+⎪
+⎭ 
+⎪
+⎪
+⎪
+⎪
+⎪
+⎩
+
+---PAGE BREAK---
+
+[Page 3]
+2.1.2 Model Law 
+Instead of relating the N xi’s by I(x1, x2, . . . xN ) = 0, relate the J π’s by 
+F(π1, π2, . . . πJ ) = 0, where J = N − K < N  
+For similitude, we require 
+(πmodel)j = (πprototype)j where j = 1, 2, . . . , J.  
+If 2 problems have all the same πj’s, they have similitude (in the πj senses), so π’s serve 
+as similarity parameters. 
+Note: 
+• If π is dimensionless, so is π × const, πconst , 1/π , etc. . . 
+• If π1, π2 are dimensionless, so is π1 × π2 , π
+π
+
+2 , π1 
+const1 × π2 
+const2 , etc. . . 
+In general, we want the set (not unique) of independent πj ’s, for e.g., π1, π2, π3 or π1, π1 
+× π2, π3, but not π1, π2, π1 × π2. 
+Example: Force on a smooth circular cylinder in steady, incompressible ﬂow 
+Application of Buckingham’s π Theory. 
+F 
+U 
+ρ,ν 
+D 
+Figure 1: Force on a smooth circular cylinder in steady incompressible ﬂuid (no gravity) 
+A Fluid Mechanician found that the relevant dimensional quantities required to evaluate 
+the force F on the cylinder from the ﬂuid are: the diameter of the cylinder D, the ﬂuid 
+velocity U, the ﬂuid density ρ and the kinematic viscosity of the ﬂuid ν. Evaluate the 
+non-dimensional independent parameters that describe this problem.
+
+---PAGE BREAK---
+
+[Page 4]
+
+ 
+ 
+ 
+xi : F, U, D, ρ, ν → N = 5  
+xi = ciM mi Lli T ti → P = 3  
+N = 5  
+F
+U 
+D ρ 
+ν 
+P = 3  mi 
+
+
+
+
+
+li 
+
+
+
+ -3
+
+ti 
+-2 -1 0 
+
+-1 
+π = F α1 U α2 Dα3 ρα4 να5 
+For π to be non-dimensional, the set of equations 
+αimi =0 
+αili =0 
+αiti =0 
+has to be satisﬁed. The system of equations above after we substitute the values for the 
+mi’s, li’s and ti’s assume the form: 
+⎞ 
+⎛ α1 
+⎞
+⎛
+⎞
+⎛ 1 
+
+
+
+
+α2 
+α3 
+
+⎜
+⎜
+⎜
+⎜ 
+⎟
+⎟
+⎟
+⎟ 
+
+
+1 −3
+
+
+⎝ 
+⎠ 
+= ⎝ 
+⎠ 
+−2 −1
+
+
+−1 
+α4
+
+⎝ 
+⎠ 
+α5 
+The rank of this system is K = 3,  so  we  have  j = 2 nontrivial solutions. Two families of 
+solutions for αi for each ﬁxed pair of (α4, α5), exists a unique solution for (α1, α2, α3). 
+We consider the pairs (α4 = 1,  α5 = 0) and (α4 = 0,  α5 = 1), all other cases are linear 
+combinations of these two.
+
+---PAGE BREAK---
+
+[Page 5]
+1. Pair α4 = 1 and α5 = 0.  
+⎛ 
+⎞⎛
+⎞
+⎛ 
+⎞ 
+
+
+
+α1 
+−1 
+⎝ 0
+
+
+ ⎠⎝ α2 ⎠ = ⎝ 4 ⎠ 
+
+
+
+α3 
+
+which has solution 
+⎛
+⎞
+⎛ 
+⎞ 
+α1 
+−1 
+⎝ α2 ⎠ = ⎝ 2 ⎠ 
+α3 
+
+ρU 2D2 
+∴ π1 = F α1 U α2 Dα3 ρα4 να5 = 
+F 
+Conventionally, π1 → 2π1 
+−1 and ∴ π1 = 
+F 
+≡ Cd, which is the Drag coeﬃcient. 
+1 ρU2D2 
+
+2. Pair α4 = 0 and α5 = 1.  
+⎛ 
+⎞⎛
+⎞
+⎛ 
+⎞ 
+
+
+
+α1 
+
+⎝ 0
+
+
+ ⎠⎝ α2 ⎠ = ⎝ −2 ⎠ 
+
+
+
+α3 
+−1 
+which has solution 
+⎛
+⎞
+⎛ 
+⎞ 
+α1 
+
+⎝ α2 ⎠ = ⎝ −1 ⎠ 
+α3 
+−1 
+ν
+∴ π2 = F α1 U α2 Dα3 ρα4 υα5 = UD 
+Conventionally, π2 → π2 
+−1 , ∴ π2 = UD ≡ Re, which is the Reynolds number. 
+ν 
+Therefore, we can write the following equivalent expressions for the non-dimensional inde­
+pendent parameters that describe this problem: 
+F (π1, π2) = 0  
+or  
+π1 = f(π2) 
+F (Cd, Re) = 0  
+or  
+Cd = f(Re) 
+F
+UD
+ 
+F
+UD
+ 
+F ( 
+, 
+) = 0
+or  
+=  f(
+)
+1/2 ρU 2D2 
+ν 
+1/2 ρU 2D2 
+ν
+
+---PAGE BREAK---
+
+[Page 6]
+Appendix A 
+Dimensions of some ﬂuid properties 
+Quantities 
+Dimensions 
+(MLT) 
+Angle 
+θ 
+none (M 0L0T 0) 
+Length 
+L 
+L 
+Area 
+A 
+L2 
+Volume 
+∀ 
+L3 
+Time 
+t 
+T 
+Velocity 
+V
+ LT −1 
+Acceleration 
+˙V 
+LT −2 
+Angular velocity 
+ω 
+T −1 
+Density 
+ρ
+ ML−3 
+Momentum 
+L 
+MLT −1 
+Volume ﬂow rate 
+Q 
+L3T −1 
+Mass ﬂow rate 
+Q 
+MT −1 
+Pressure 
+p
+ ML−1T −2 
+Stress 
+τ
+ ML−1T −2 
+Surface tension 
+Σ 
+MT −2 
+Force 
+F
+ MLT −2 
+Moment 
+M
+ML2T −2 
+Energy 
+E
+ ML2T −2 
+Power 
+P
+ ML2T −3 
+Dynamic viscosity 
+μ
+ ML−1T −1 
+Kinematic viscosity ν 
+L2T −1

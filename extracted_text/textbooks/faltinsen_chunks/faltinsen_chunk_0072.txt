@@ -1,0 +1,104 @@
+mean wave loads. What we now say is that the mean wave load can be _written-as.. i= 3 (Soe a 2 i=l,...56 (5.27) 15:00 11-25 a Nn — 7-50 “wu 3-75 fe) min AwWs w(rad s!) Fig. 5.12. Illustration of how the energy in a wave spectrum S(@) can be distributed into energy of regular wave components of circular frequency w. (ISSC-spectrum, Hy = 8 m, T, = 10s, number of wave components N = 22.) See also Fig. 2.5.
+
+150 SECOND-ORDER NON-LINEAR PROBLEMS
+
+Here F,(w,; 8) is the ith mean wave load component in regular incident
+waves of circular frequency @;, wave amplitude A; and wave propagation
+direction 8. Further, F;(@,; 8) is divided by the wave amplitude square,
+ie. £,7, so that Fi(o 5 B)/ 2 is independent of the wave amplitude. In
+integral form we can ‘write equation (5.27) as
+
+Fi=2|" S(w (FSP OP) de i=1,...,6 (5.28)
+
+Let us illustrate the use of equation (5.28) by applying the equation to
+the added resistance of a ship in head sea waves and use equation (5.22)
+to calculate F,/€,?. This means we assume the wavelengths of the wave
+components of practical importance are small relative to the ship length.
+By using equation (5.22) we will be able to integrate equation (5.28)
+analytically. However, this sets certain limitations on the form of the sea
+spectrum. We must require there to be no significant wave energy for
+wavelengths larger than half the ship length. For a Pierson—Moskowitz
+spectrum with two parameters Hy; and T, (see equation (2.24)), we can
+¥ tentatively state that there is no significant wave energy for
+
+of, <0.5
+
+2K.
+Here Hy is the significant wave height and T, is the mean period defined
+by the second moment of the wave spectrum. By using the dispersion
+relationship for deep water waves and the two requirements mentioned
+above, we find that we can only combine equation (5.22) with equation
+(5.28) when
+
+T,<0.%L/g)3 (5.29)
+
+For oceangoing vessels this means the ship length has to be large for the
+formula to be of any significant practical use.
+By evaluating equation (5.28) we find that
+
+°
+
+—. HP 4
+F}= pet (1 + Fa =) sin? 6 n, di (5.30)
+1 § Ly
+
+We have used here
+
+Hy=4Vmy where m= [ S(@) da
+
+and (5.31) |
+
+T,=208 where m= { wS(w) daw
+my 0
+
+For a Pierson—Moskowitz spectrum we may write
+T, = 1.086T, (5.32)
+
+MEAN WAVE (DRIFT) FORCES AND MOMENTS I5I
+
+For a one-parameter Pierson—~Moskowitz spectrum we should note that
+condition (5.29) means that Hy<0.0065L. For a 300m long ship this
+means Hy < 1.95 m. In the North Atlantic this occurs about 40% of the
+time. For a 100 m long ship it means Hy < 0.65 m, which occurs less than
+4% of the time in the North Atlantic.
+
+It is worth pointing out that added. resistance of a ship i is sensitive to
+al. (1973). The reas reason can be seen from Fig. 5.11. The added resistance
+curve has a very distinct peak around heave and pitch resonance for a
+ship at finite Froude number. When multiplying this result with the
+wave spectrum and integrating over all frequencies (see equation (5.28)),
+the result is sensitive to how the peak period of the sea spectrum is
+
+‘ located relative to the peak period of the added resistance curve. Type of
+
+wave spectrum will also influence the magnitude of the added resistance.
+
+_ 4/2
+_8F
+Pglhy/3
+
+——— X-COMPONENT
+
+0 ——— Y-COMPONENT
+0.48 \ o p+ oO
+a B =45°
+\ o B -90°
+\
+0.40 \
+N
+\ aay
+0.32 4 \ \
+
+0.24
+
+0.16
+
+0.08
+
+1.5 1.9 2.2 26 TVgiL
+
+Fig. 5.13. Wave drift forces F;, j = 1, 2 for long-crested irregular waves
+incident on a tanker. The forward speed and current are zero.
+Infinite water depth. (Hy = significant wave height, 7, = mean wave
+period, L = ship length, 6 = wave heading with B = 0° being head
+sea.)

@@ -1,0 +1,49 @@
+D ρ = ( , / ). (13) Here S is the surface area of the plate; we have chosen this in preference, say, to B2 or l2 because we expect the viscous drag to be roughly propor­ tional to the surface area over which viscous shear stresses act. This expecta­ tion is confirmed by the fact that, for Reynolds numbers on the order of 105 to 1010, the drag coefficient is relatively insensitive to the ratio B/l. This is
+
+Chapter 2
+not a foreseeable consequence of dimensional analysis; instead, it must be 
+explained from the characteristic thickness of the boundary layer.
+Experimentally determined frictional-drag coefficients CF are shown in 
+figure 2.3 for various flat plates, along with the semiempirical equation 
+determined by Schoenherr:
+0 242
+
+.
+/
+log (
+).
+C
+RC
+F
+F
+=
+	
+(14)
+Here the coefficient has been changed from CD to CF because we must dis­
+tinguish subsequently between total drag and frictional drag. Once again, 
+the validity of the dimensional analysis is confirmed by the collapse of data 
+from diverse experiments both in water and in air.
+There is a noticeable scatter of data in the transition range of Reynolds 
+numbers between 105 and 2 × 106. In that range, the flow changes from a 
+smooth laminar regime to the turbulent regime that persists throughout 
+the range of higher Reynolds numbers. In this transition range an impor­
+tant mechanism that triggers turbulence is the smoothness of the body 
+surface. Thus, the drag of rough plates shifts to the turbulent value at lower 
+Reynolds numbers; for very smooth plates, laminar flow can be maintained 
+longer. Similar results occur if the ambient flow is not uniform.
+The principal consequence of turbulence is to increase the momentum 
+defect of the boundary layer and the resulting frictional drag on the flat 
+plate. This is precisely opposite to the effect noted for a sphere where the 
+increase in frictional drag is insignificant compared with the decrease in 
+pressure drag. That the magnitude of the frictional drag coefficient shown 
+in figure 2.3 is two orders of magnitude less than that of the drag coeffi­
+cient for a sphere emphasizes the practical importance of streamlined body 
+shape.
+2.6  Viscous Drag on General Bodies
+The drag on more general bodies can be determined from tests of geometri­
+cally similar models, or geosims, provided that the Reynolds number for 
+model and full-scale bodies is the same. However, practical difficulties may 
+prevent this scaling procedure from being carried out. Since it is difficult 
+to find nonvolatile liquids appreciably less viscous than water, the ratio of 
+model velocity to full-scale velocity must be inversely proportional to the 
+ratio of the lengths. As an example, let us consider a ship or submarine of

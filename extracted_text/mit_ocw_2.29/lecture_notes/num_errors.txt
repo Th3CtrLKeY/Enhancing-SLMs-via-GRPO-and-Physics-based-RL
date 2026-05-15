@@ -1,0 +1,779 @@
+[Page 1]
+Exkeriples Sires,
+
+Some Examples and Numerical Errors
+
+---PAGE BREAK---
+
+[Page 2]
+PHYSICAL PROBLEM _ PHYSICAL MODEL
+
+Simplifying Assumptions
+Geometry
+
+(Navier Stokes Eqn)
+
+Less Important Effects
+
+Euler Equation
+Linearity
+Incompressibility
+
+Laplace Equation
+
+MATHEMATICAL MODEL
+
+---PAGE BREAK---
+
+[Page 3]
+NOUMmMe ZR
+
+Types of Numerical Hydrodynamics Problems
+
+1. Evaluation of Mathematical Functions
+2. Simulation
+
+3. Direct Solution of Differential or Integral Equations
+
+Example of Function Evaluation
+
+5.0
+
+2.5
+
+Consider a diffuser with circular crossections and radius vs length as shown.
+Units are meters. The average velocity of an incompressible fluid across
+the inlet at z = 0 is 5 m/s. Determine the average velocity across all cross
+sections.
+
+Q = 5n(2 + tanh(—5)|*
+
+a2 _ a
+Vave(2) ype m(2 + tanh(x — 5)/?
+
+---PAGE BREAK---
+
+[Page 4]
+NY OUMET S
+
+$ MATLAB Program diffu
+fname = input(' Type name for output file: ','s');
+fid = = open (fname, 'w");
+q= 5.0 * pi * (2.0 + tanh(-5.0))%2;
+x = 0 0.2 : 10.0 ;
+v=zq af (pi * (2.0 + tanh(x-5.0)) .%*2);
+for j = 1:51;
+” Eprintf (id, ' $10.4f %10.4f \n', x(4), v(3)
+end;
+
+fclose(fid);
+
+plot (x,v);
+
+xlabel('x (meters)');
+ylabel( 'v_f{ave} (m/s)');
+axis([0 10 0 10]);
+
+)
+
+---PAGE BREAK---
+
+[Page 5]
+¥d7h eye (
+WOM Sa
+
+Vive (m/s)
+
+0 1 2 3 4 5 6 7 8 9 10
+x (meters)
+
+---PAGE BREAK---
+
+[Page 6]
+COMO WO WOU WD DADA GOwAATATAANANAAAGAAGGUNYNHKOKTONOBHAHA HA BW WWWWNYONNHDNYNPFPRRFHPEP OTC OO
+
+. 0000
+- 2000
+- 4000
+. 6000
+. 8000
+
+.2000
+- 4000
+. 6000
+. 8000
+.0000
+- 2000
+- 4000
+- 6000
+- 8000
+
+- 2000
+- 4000
+. 6000
+. 8000
+
+
+- 4000
+. 6000
+. 8000
+-0000
+
+- 4000
+. 6000
+- 8000
+
+
+- 4000
+. 6000
+. 8000
+
+
+- 4000
+. 6000
+. 8000
+.0000
+.2000
+. 4000
+. 6000
+. 8000
+
+. 2000
+- 4000
+. 6000
+. 8000
+.0000
+
+oooonoocoeceo°o°0co°0c 9 c°0c0 co 00 CF OOOO OOF rFRFRRPNN WW EP HH HEP HHA HH HH HSH AHH BH UW
+
+- 0000
+- 9996
+- 9989
+
+- 9964
+~9942
+
+. 9860
+-9787
+. 9679
+-9518
+
+-8929
+-8415
+. 7668
+-6596
+
+. 3008
+-0251
+- 6762
+-2608
+-8019
+. 3366
+-9054
+
+-2502
+-0357
+
+.7769
+. 7046
+-6557
+- 6228
+. 6007
+-5859
+-5759
+
+
+-5618
+-5597
+-5584
+~5575
+-5569
+-5565
+
+-5560
+~5559
+-5558
+-5558
+-9557
+
+~5557
+
+---PAGE BREAK---
+
+[Page 7]
+x (meters)
+
+NeEmet & &
+
+---PAGE BREAK---
+
+[Page 8]
+Example of Solution of Ordinary Differential Equation
+
+Motion of a Sphere Due to Drag
+
+_—_
+vy —————> u= ox
+| dt
+——____»>
+dx 1 9 dx\?
+
+wau oo = Pare (V? — 2uV + u?)
+
+Discretize and use forward Euler Integration:
+
+d
+Wind = Ug + (F) At Lig1 = Xj + uj,At
+Initial Conditions: 29 =0 ug = 0
+
+YVomMEtT?
+
+---PAGE BREAK---
+
+[Page 9]
+VMUMETE
+
+spheredg
+% MATLAB program spheredg
+fid = fopenC' sphere.out','w');
+rho = 1000.0;
+cd = 1.0;
+v =1.0;
+r = 0.05;
+m= 5.0;
+fac = rho * cd *pi *r *r /(2.0 * m);
+tt = 10.0;
+dt = 0.01;
+
+t(1) = 0.0;
+x(1) = 0.0;
+u(1) = 0.0;
+uD; %15.7f %15.7Ff \n', tC1), x1),
+or i=2:n:
+j = 1-1;
+tdi) = t(j) + dt;
+xCi= xQ) + uG)*dt;
+udi) = uj) + fac*(v*v- 2.0* u(j)*v_+ uCj)*uGj j))*
+iii "'%15.7Ff 15. 7 %15.7f \n',tdi), ys uci):
+en
+plot(t, X, ,t,u,'--')
+xlabel(' Time (seconds) ' );
+h=legend( 'x (meters)" , ‘u (meters/second)' , 2);
+
+Page 1
+
+---PAGE BREAK---
+
+[Page 10]
+MOMETES
+
+Cd
+—— x (meters)
+--- u (meters/second)
+
+Time (seconds)
+
+---PAGE BREAK---
+
+[Page 11]
+P0990 9COCOOCOOCOOOO OOOO OOOO OOOO OOO OOOO OOOO OOOO OOOO OOOO OOOO CO
+
+tL
+
+.0000000
+.0100000
+
+
+.0400000
+
+
+.0700000
+
+.0900000
+. 1000000
+. 1100000
+
+. 1300000
+. 1400000
+. 1500000
+. 1600000
+. 1700000
+. 1800000
+. 1900000
+. 2000000
+. 2100000
+- 2200000
+-2300000
+.2400000
+. 2500000
+. 2600000
+.2700000
+
+- 2900000
+. 3000000
+. 3100000
+. 3200000
+. 3300000
+- 3400000
+. 3500000
+. 3600000
+. 3700000
+. 3800000
+. 3900000
+
+- 4100000
+-4200000
+
+- 4400000
+- 4500000
+. 4600000
+- 4700000
+. 4800000
+-4900000
+. 5000000
+-5100000
+. 5200000
+- 5300000
+- 5400000
+- 5500000
+. 5600000
+
+“~
+
+ee nee eee Roe Ree Reo RoReo Ronee Rolo Roo ReholokoRo Roo hoo leoheonkonoloRoRholonolononhonolononone
+
+x
+
+. 0000000
+.0000785
+.0002344
+.0004664
+.0007733
+.0011539
+.0016073
+
+.0027277
+- 0033926
+-0041260
+.0049268
+.0057941
+.0067269
+.0077242
+.0087852
+.0099090
+-0110946
+
+.0136481
+.0150143
+-0164391
+.0179215
+-0194610
+.0210567
+
+.0244138
+-0261737
+
+
+
+
+
+
+
+
+
+-0465968
+.0489076
+-0512648
+- 0536679
+.0561163
+
+.0611470
+
+
+- 0690198
+-0717292
+.0744804
+.0772728
+.0801060
+-0829795
+.0858929
+
+-0918377
+.0948682
+
+Ne oo eRe oR ooo eRe Reo Roe eho Ro Ro RoRonho ho ReoholoonolooleohonoRhoololohonoholololololonholoneholonononone)
+
+uU
+
+.0078540
+.0155851
+
+- 0306900
+
+
+.0524947
+-0595457
+-0664922
+
+- 0800807
+-0867271
+
+.0997350
+
+
+
+- 1246662
+. 1306840
+
+-1424739
+- 1482493
+- 1539472
+.1595691
+.1651166
+-1705911
+
+.1813267
+
+
+.1969174
+- 2019828
+- 2069844
+- 2119236
+-2168014
+- 2216190
+- 2263776
+-2310781
+-2357217
+- 2403094
+-2448422
+- 2493210
+- 2537469
+-2581207
+- 2624434
+- 2667159
+- 2709390
+.2751137
+-2792406
+- 2833207
+
+-2913435
+-2952877
+-2991882
+
+
+-
+~~ *
+
+VOmeT sag
+
+---PAGE BREAK---
+
+[Page 12]
+ry
+
+DOW MUWO UW WOW WOU WHO WU WWW WOWUO WOM WM WOO WOOO HO HOO OO
+
+_
+
++t
+
+_
+
+. 6900000
+. 7000000
+
+. 7100000
+. 7200000
+
+. 7300000
+. 7400000
+. 7500000
+. 7600000
+
+. 7700000
+. 7800000
+
+. 7900000
+
+- 8000000
+. 8100000
+. 8200000
+- 8300000
+.8400000
+-8500000
+- 8600000
+
+- 8800000
+. 8900000
+- 9000000
+- 9100000
+- 9200000
+. 9300000
+
+- 9500000
+. 9600000
+- 9700000
+- 9800000
+- 9900000
+-0000000
+
+)
+
+a ee et ee en ne ne ee ee ee ee ee ee er io) mo) mo) Mo) mo) mo)
+
+x
+
+- -
+
+- 9595065
+- 9683485
+-9771915
+- 9860356
+- 9948807
+- 0037269
+.0125741
+
+-0302717
+- 0391220
+-0479734
+.0568258
+-0656792
+.0745337
+
+
+- 1011033
+. 1099619
+-1188215
+-1276822
+- 1365438
+- 1454065
+~1542702
+. 1631349
+- 1720006
+- 1808673
+
+
+.2074735
+- 2163443
+-2252160
+
+ooooocoodo°coecedcoo°cecoceocococencnco0d0o0co00qace0o0o0cca0cocco
+
+u
+
+—- =- —
+
+.8840910
+
+
+.8844070
+
+.8846167
+.8847213
+
+
+- 8850338
+- 8851376
+-8852413
+
+.8854479
+
+
+- 8857566
+.8858591
+
+
+
+.8862673
+. 8863689
+. 8864703
+.8865715
+.8866725
+. 8867734
+- 8868741
+.8869746
+.8870749
+.8871751
+-8872751
+
+MUMET SC
+
+---PAGE BREAK---
+
+[Page 13]
+Nome 4
+
+Example of Solution of Partial Differential Equation
+
+Potential Streaming Flow about a Circular Cylinder
+
+—_) —_ —
+u-n=O0
+——»
+V>—> AN
+—_>
+—>
+_ %* an
+U=iu+ Vv
+
+There is an equation at each grid point:
+
+$i-1,5 — 2645 + Ginny in Pij-1 — 2bij + Pij41
+32 32
+
+=0
+
+Boundary Condition far (many diameters) from the cylinder:
+
+Git ~ Pi _ Pijtt — Pij _
+
+Ss Ss
+
+Boundary Condition on the cylinder:
+
+feng Pith gj ig — oj i) di Yig+l — Fig = J
+
+cos @ + sin? = 0
+
+---PAGE BREAK---
+
+[Page 14]
+Vumet la
+
+cylindrical coordinates
+
+Equation at each grid point:
+
+biti — Pi-1,3 in bi+1,j5 — 2015 + Pi-1,j
+2rdr (dr)?
+
+Gigi — 2045 + Pijz-1
+r-d6?
+
++ =0
+
+Boundary Condition far (many diameters) from the cylinder:
+
+Pijoi — Pig Pitt, — Pig
+ip = V, cos 0 7) = —V,sin@
+Boundary Condition on the cylinder:
+Pig — Pig
+dr =0
+
+---PAGE BREAK---
+
+[Page 15]
+LhOmaettnt
+
+Example of Discretized Integral Equation
+
+Potential Streaming Flow about a Circular Cylinder Here we seek the perturbation velocity that exists in addition to the uniform flow of speed V,.
+
+Exterior flow is represented as a source distribution of strength o(@) on the
+surface of the cylinder.
+
+an o(8)[r — 1'(8)]
+
+U(r) = 9
+" h an Ir —7"(0)) we
+
+Just outside the surface of the cylinder, U - 7% = —V,cos 6
+
+Now we can form the discretized approximate equation:
+
+oi(r; = ri) 75
+
+0;
+R66 + + = —V, cos 8;
+
+---PAGE BREAK---
+
+[Page 16]
+VU Wier i.
+
+Stability
+
+When applying a numerical procedure to a problem in fluid mechanics, the
+result can diverge. In other words, the process is unstable. Such instabilities
+can be fundamentally fluid mechanical or they may come from inaccuracies
+in the numerical procedure.
+
+For example, suppose a process is governed by the differential equation:
+
+d
+= = 3y with initial condition y(0)=1
+
+We know that the solution to this equation is y = e* which diverges as t
+increases. This is a fundamental instability in the process being modeled. A
+
+proper numerical solution will capture this instability.
+
+Now we explore a numerical instability using numerical values with three
+decimal places. Consider the set of values, z, defined for non-negative integers
+n by:
+
+1 7”
+0r+5
+A recursion relation for the z’s can be made as follows:
+
+kn =
+
+La +5¢"~ d z= [' Ee) '(@+5) , 1
+—__*__ dz =
+
+Zn = — — O21
+nm
+
+Forn=0, z= [! — sds = In(6) ~ n(5) = 0.182
+
+Forn>0, z= — 59 2pn-1
+z, = 1.000 — 5 x 0.182 = 0.090
+zq = 0.500 — 5 x 0.090 = 0.050
+z3 = 0.333 — 5 x 0.050 = 0.083
+
+zq = 0.250 — 5 x 0.083 = —0.165
+
+The above negative value for z, must be wrong since the integrand is positive.
+It comes from numerical instability associated with roundoff error.
+
+---PAGE BREAK---
+
+[Page 17]
+Numet $3
+
+An alternative recursion relation is:
+
+1 Zp i
+=a -— =0.2|-—-2z
+onl 1) (; )
+
+This reduces the effect of the error by a factor of 5. We will start with an
+approximation to zj9 and use the recursion relation for successively smaller
+
+values of n.
+
+Approximate Equation: zjg = i a (1—0.2x)dx = 0.015
+
+——~__ 0.2
+0 5(1+0.22) f°
+z19 = 0.015
+
+zg = 0.2 io” 0.015) = 0.017
+
+zg = 0.2 (5- 0. 017) = 0.019
+
+1 .
+a02(- sat) 008
+
+2 =0.2(5— 0.024) = 0.029
+4 = 0.2 (5 ~ 0.029) = 0.034
+
+“a= 0.2(5- 0.034) = 0.043
+a =0.2(5~ 0.043) = 0.058
+
+Zz, = 0.2 (5- 0. 058) = 0.088
+
+za = 0.2 (5 ~ 0.088) = 0.182
+
+Note that the result for zp is cortrect even though an approximate value was
+used for Zj9. This iteration scheme is stable.

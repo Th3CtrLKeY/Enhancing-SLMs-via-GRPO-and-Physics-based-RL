@@ -1,0 +1,144 @@
+The total drag coefficient C l c x dx F f l = ∫ ( ) (114) can be determined from a similar equation, and this is the basis for Schoen­ herr’s flat-plate frictional-drag formula 1 79 4 13 √ = = C RC RC F l F l F . log( ) . log ( ). (115) This important result is displayed in figure 2.3, which also shows that experimental confirmation exists over a broad range of Reynolds numbers.
+
+The Motion of a Viscous Fluid 
+
+The lower limit for this range of validity is where transition from laminar 
+flow occurs, generally between Rl = 2 × 105 and 2 × 106. The upper limit is 
+undetermined; the maximum Reynolds number where experimental data 
+exist is about 4.5 × 108. In this range of two to three decades, the Schoenherr 
+formula (115) is apparently a satisfactory fit to the experimental data. Nev­
+ertheless, some uncertainty remains from the standpoint of ship-resistance 
+predictions, insofar as large, high-speed ships operate at Reynolds num­
+bers between 109 and 1010. The Schoenherr formula also has been criticized 
+at the lower limit of Reynolds numbers, where towing-tank tests are car­
+ried out on small ship models. This subject is discussed by Matheson and 
+Joubert (1974) and by Granville (1975).
+3.19  The 1/7-Power Approximation
+A simpler velocity distribution, but one that has less empirical support 
+and scientific motivation than the logarithmic profile, is the 1/7-power 
+relation
+u u
+u y
+/
+. (
+/ )
+.
+/
+τ
+τ
+ν
+= 8 7
+1 7 	
+(116)
+Despite its shortcomings, this formula is useful as a basis for qualitative 
+conclusions. For example, if we invoke the condition that u = U when y = δ 
+and solve for the shear stress on the boundary, it follows that
+τ
+ρ
+ρ
+δ
+ν
+τ
+
+
+
+1 4
+0 0227
+=
+=
+−
+u
+U
+U
+.
+(
+/ )
+.
+/
+	
+(117)
+A direct calculation of the momentum thickness gives
+θ
+δ
+δ
+δ
+δ
+δ
+=
+−
+=
+−
+=
+−
+=
+∫
+∫
+u
+U
+u U dy
+y
+y
+dy
+(
+/
+)
+( / )
+[
+( / )
+]
+( /
+/ )
+.
+/
+/
+
+
+7 8
+7 9
+0 09
+
+1 7
+1 7
+
+72δ.
+	
+(118)
+Then from (108) and (117), it follows that δ must satisfy the differential 
+equation
+0 0972
+0 0227
+1 4
+.
+.
+(
+/ )
+.
+/
+d
+dx
+U
+δ
+δ
+ν
+=
+−
+	
+(119)
+Multiplying both sides by δ1/4, and integrating, we have
+δ
+ν
+5 4
+1 4
+0 292
+/
+/
+.
+( /
+)
+,
+=
++
+U
+x
+C 	
+(120)

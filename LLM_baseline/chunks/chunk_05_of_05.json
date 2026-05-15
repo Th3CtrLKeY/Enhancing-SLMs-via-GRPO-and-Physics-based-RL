@@ -1,0 +1,63 @@
+[
+  {
+    "index": 530,
+    "type": "numerical",
+    "question": "A ship moored to a single point mooring system has a mass of 5000 tons and a moment of inertia about the yaw axis of 10000 kg*m^2. If the damping coefficient for yaw motion is 500 N*s/m and the spring constant is 1000 N/m, calculate the natural frequency of the yaw motion. Assume the yaw motion is governed by the equation I * d^2ψ/dt^2 + C * dψ/dt + K * ψ = 0, where ψ is the yaw angle."
+  },
+  {
+    "index": 532,
+    "type": "numerical",
+    "question": "Calculate the wavelength of a wave with a period of 0.4s and a phase velocity of 1.039m/s."
+  },
+  {
+    "index": 533,
+    "type": "numerical",
+    "question": "A circular cylinder with a diameter of 1 m is moving through water at a velocity of 5 m/s. If the flat-plate frictional-drag coefficient is 0.005, what is the total drag coefficient for the cylinder?"
+  },
+  {
+    "index": 534,
+    "type": "numerical",
+    "question": "Given the stream function ψ = (1/2π) * (U * R^2 + m * ln(R/a)), calculate the radial velocity component u_R at R = 1.5 m, with U = 2 m/s, m = 0.2 m^2/s, and a = 1 m."
+  },
+  {
+    "index": 537,
+    "type": "numerical",
+    "question": "Given a JONSWAP spectrum with a significant wave height of 4 meters and a mean wave period of 8 seconds, calculate the peak frequency using the formula f_p = 1 / (1.073 * T_2) where T_2 is the mean wave period in seconds."
+  },
+  {
+    "index": 539,
+    "type": "numerical",
+    "question": "Calculate the period of a small amplitude wave in deep water with a wavelength of 100 meters."
+  },
+  {
+    "index": 541,
+    "type": "numerical",
+    "question": "Calculate the added mass in sway for a two-dimensional catamaran section consisting of two circular cylinders with axes in the mean free-surface, given that the radius R of each cylinder is 2 m, the distance between the axes is 10 m, and the frequency of oscillation is such that the wavelength between the inner sides of the cylinders is 8 m."
+  },
+  {
+    "index": 543,
+    "type": "numerical",
+    "question": "Calculate the drag force on a sphere with a diameter of 0.1 meters, moving through water at a velocity of 5 meters per second. Assume a drag coefficient of 0.47 and a water density of 1000 kilograms per cubic meter."
+  },
+  {
+    "index": 547,
+    "type": "mcq",
+    "question": "What is the primary factor that determines the directional characteristics of ocean waves?",
+    "options": {
+      "A": "Wind direction and fetch",
+      "B": "Wave frequency and amplitude",
+      "C": "Water depth and current",
+      "D": "Atmospheric pressure and temperature"
+    }
+  },
+  {
+    "index": 549,
+    "type": "numerical",
+    "question": "Calculate the force at wt = pi/2 using equation (7.46), given that the velocity U = 2 m/s, the radius R = 1 m, and the angle theta = pi/4 rad. Assume a density of water p = 1000 kg/m^3."
+  },
+  {
+    "index": 551,
+    "type": "numerical",
+    "question": "Calculate the rate of change of circulation Γ for a lifting surface with a vorticity distribution γ(x,t) = 0.5(x+Ut) in the wake, given that U = 10 m/s and the wake extends from x = -1 to infinity."
+  }
+]

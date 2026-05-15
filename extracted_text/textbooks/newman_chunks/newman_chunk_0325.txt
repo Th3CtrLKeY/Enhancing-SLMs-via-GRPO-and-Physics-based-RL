@@ -1,0 +1,190 @@
+N/m and 0.071 N/m for the temperature range 0–30°C, with the value 0.074 N/m used commonly to describe capillary waves. The vapor pressure of water increases from 610 N/m2 to 4230 N/m2 over the same temperature range, or from 0.09 to 0.61 pounds per square inch. Relative to these values for fresh water, the vapor pressure of salt water is slightly reduced and the surface tension increased. Both changes are insig­ nificant compared to the effects of temperature and impurities.
+
+Appendix
+Table A.1
+Conversion Factors for Different Units of Measurement
+Quantity
+SI Unit
+Other Unit
+Inverse Factor
+Length
+1 m
+3.281 feet (ft)
+0.3048m
+1 km
+0.540 nautical miles
+1.852 km
+Area
+1 m
+
+10.764 ft
+
+0.0929 m
+
+Volume
+1 m
+
+35.315 ft
+
+0.0283 m
+
+1 m
+
+264.2 gallon (US)
+0.00379 m
+
+1 m
+
+220.0 gallon (UK)
+0.00455 m
+
+Velocity
+1 m/s
+3.281 ft/s
+0.305 m/s
+1 m/s
+1.944 knot
+0.514 m/s
+Mass
+1 kg
+2.205 pound
+0.454 kg
+1 Mg
+0.984 ton (long)
+1.016 Mg
+1 Mg
+1 tonne (metric)
+1 Mg
+Force
+l N
+0.225 pound force
+4.448 N
+1 MN
+100.4 ton force
+9964 N
+l MN
+102.0 tonnef
+9807 N
+Pressure
+1 N/m
+
+0.000145 psi (pound per inch
+2)
+6895 N/m
+
+Energy
+1 J
+0.738 foot pounds
+1.356 J
+Power
+l W
+0.00134 horsepower
+745.7 W
+Table A.2
+Density and Viscosity of Water and Air
+Temperature, 
+deg C
+Density, ρ, kg/m
+
+Kinematic Viscosity, ν, m
+2/s
+Fresh 
+Water
+Salt 
+Water
+Dry 
+Air
+Fresh 
+Water
+Salt Water
+Dry Air
+
+999.8
+1028.0
+1.293
+1.79 × 10
+−6
+1.83 × 10
+−6
+1.32 × 10
+−5
+
+1000.0
+1027.6
+1.270
+1.52
+1.56
+1.36
+
+999.7
+1026.9
+1.247
+1.31
+1.35
+1.41
+
+999.1
+1025.9
+1.226
+1.14
+1.19
+1.45
+
+998.2
+1024.7
+1.205
+1.00
+1.05
+1.50
+
+997.0
+1023.2
+1.184
+0.89
+0.94
+1.55
+
+995.6
+1021.7
+1.165
+0.80
+0.85
+1.60
+
+Notes
+N
+o
+t
+e
+s
+N
+o
+t
+e
+s
+© Massachusetts Institute of TechnologyAll Rights Reserved
+Chapter 2: Model Testing
+1.  Advertisements for small toy racing cars typically claim a “speed of 760 scale 
+miles per hour.” One may question the basis for this scaling law, which certainly is 
+not that suggested by Osborne Reynolds!
+2.  It may not be obvious at this stage that the drag force on a body in an unbounded 
+fluid is independent of gravity. It will be shown in chapter 3 that the only role of 
+gravity is to introduce a hydrostatic pressure and a corresponding buoyancy force on 
+the body, which is additive to the hydrodynamic drag force.
+Chapter 3: The Motion of a Viscous Fluid
+1.  Some authors prefer the symbol D/Dt, in equations such as (12) and (13) to 
+emphasize that ( )t  is a material volume, but since these integrals are functions only 
+of time, we prefer the symbol d/dt in that context.
+2.  The roughness of the tube wall, ambient turbulence of the entering fluid, and 
+degree of smoothness of the transition into the tube are all important. Reynolds 
+observed the flow to remain at, or return to, the laminar state if the Reynolds 
+number, based on the tube diameter and mean velocity across the tube, was less 
+than about 2,000. With care, initially laminar fluid entering the tube would remain 
+laminar up to Reynolds numbers on the order of 12,000. Subsequent investigations 
+have attained much higher limits, as noted by Monin and Yaglom (1971).
+3.  This problem was first solved by Stokes, in 1851, as a means of estimating the 
+drag on a pendulum.
+4.  This assumption is valid because the governing equation is parabolic. Thus x < l is 
+a sufficient condition, excluding the complicated region near x = l. Physically, the 
+effects of viscosity are diffusive and the local solution in the boundary layer is inde­
+pendent of the flow downstream.

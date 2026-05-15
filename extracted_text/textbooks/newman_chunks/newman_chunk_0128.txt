@@ -1,0 +1,360 @@
+Uj in (137), it follows that ( , , ) ( , , ), b b b i j k 3 = (138) ( , , ) ( , , ) , b b b i j k r 6 = × ′ (139) where (i, j, k) are the unit vectors parallel to (x, y, z). The hydrodynamic pressure force and moment are related by (115–116) to the added-mass coefficients mij, which can be defined in terms of the
+
+Chapter 4
+kinetic energy of the fluid volume by (119). Thus, by analogy, the coeffi­
+cients of the body-mass matrix can be defined as
+M
+d
+ij
+B
+i
+j
+B
+=
+⋅
+∫∫∫ρ (
+)
+.
+b
+b
+
+
+	
+(140)
+From the definitions (138–139), the matrix of body-inertia coefficients fol­
+lows in the more conventional form
+M
+m
+mz
+my
+m
+mz
+mx
+m
+my
+mx
+mz
+my
+I
+I
+I
+mz
+ij
+G
+G
+G
+G
+G
+G
+G
+G
+G
+=
+−
+−
+−
+−
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+−
+−
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+mx
+I
+I
+I
+my
+mx
+I
+I
+I
+G
+G
+G
+
+
+
+
+
+
+
+. 	
+(141)
+Here the body mass is
+m
+d
+B
+B
+= ∫∫∫ρ
+
+
+, 	
+(142)
+the vector position of the center of gravity is
+x
+x
+G
+B
+m
+d
+B
+=
+∫∫∫
+
+ρ
+
+
+, 	
+(143)
+and the moments of inertia can be defined by
+I
+x x d
+ij
+B
+ij
+i
+j
+B
+=
+′ ⋅
+′
+−′ ′
+∫∫∫ρ
+δ
+[
+]
+,
+x
+x
+
+
+	
+(144)
+where δij is the Kroenecker delta function.
+With these definitions and Mij substituted for mij, equations (115–116) 
+can be used to evaluate the force and moment (135–136). Alternatively, the 
+total force including the body inertia and fluid pressure can be evaluated 
+from (115–116), in terms of the virtual-mass coefficients (Mij + mij). Thus 
+the body behaves in the fluid as it would in a vacuum, but the body-mass 
+matrix is replaced by the virtual-mass.
+4.17  Force on a Body in a Nonuniform Stream
+Some of the preceding results can be extended to a body in a nonuniform 
+stream. The fundamental assumption is that the nonuniformity of the
+
+The Motion of an Ideal Fluid 
+
+stream is slowly varying, relative to the length scale of the body. A practical 
+and important example of this situation is the case where the body is acted 
+upon by an incident wave field, with the restriction that the body is small 
+compared to the wavelength.
+Let us assume that the fluid motion in the absence of the body is 
+described by a velocity potential Φ(x, t). This may be unsteady in time, but 
+the length scale characterizing changes in Φ, say Φ
+Φ
+/ ∇
+, is assumed large 
+compared to the dimensions of the body. To treat the simplest case, we 
+assume that the orientation of the body, with respect to the stream, is such 
+that the stream velocity at the body is parallel to the x-axis with local veloc­
+ity U = ∂Φ/∂x, and that the body symmetry is such that with this orientation 
+of the coordinates, m12 = m13 = 0.
+From the kinematic viewpoint, the disturbance of the stream due to the 
+body depends only on the relative flow between the body and the fluid. 
+Thus, with the assumptions noted above, the total potential including the 
+body disturbance is given by
+φ
+φ
+=
++
+−
+Φ
+(
+)
+.
+U
+U
+
+
+(145)
+Here U1 is the velocity of the body, and ϕ1 the corresponding velocity poten­
+tial, as defined by (101). Only the velocity U1 is included here since, with 
+the symmetry noted above, there is no interaction between the remaining 
+body velocities and the nonuniformity of the stream.
+The pressure force Fx acting on the body in the x-direction may be com­
+puted by substituting (145) in (90):
+F
+d
+dt
+U
+U
+n dS
+n
+U
+U
+n
+x
+x
+x
+SB
+= −
++
+−
+−
+∂
+∂
++
+−
+∂
+∂
+
+
+
+
+∂
+∂
++
+∫∫
+ρ
+φ
+ρ
+φ
+[
+(
+)
+]
+(
+)
+(
+Φ
+Φ
+Φ
+
+
+
+
+U
+U
+x
+n
+U
+U
+dS
+S
+x
+C
+
+
+
+
+
+
+
+−
+∂
+∂
+
+
+
+
+{
+−
+∇
++
+−
+∇
+}
+∫∫
+)
+[
+(
+)
+]
+.
+φ
+φ
+Φ
+	
+(146)
+The integral over the body surface SB can be evaluated using Gauss’ theo­
+rem for the term involving Φ and (112) for the term involving ϕ1. Since 
+U = ∂Φ/∂x is effectively constant over the length scale of SB, it follows that
+[
+(
+)
+]
+(
+)
+(
+Φ
+Φ
++
+−
+= −
+∂
+∂
++
+−
+−
+∀+
+∫∫
+∫∫∫
+U
+U
+n dS
+x d
+m
+U
+U
+m U
+U
+x
+SB
+B
+
+
+
+
+
+
+
+
+φ
+ρ
+ρ
+
+
+
+m11 /
+).
+ρ
+	
+(147)

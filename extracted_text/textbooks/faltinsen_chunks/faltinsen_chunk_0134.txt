@@ -1,0 +1,91 @@
+sea. 67 n=5,0 revss* x fy n=12,.S5 revs © x — fo 4! -0,5 0 os 10 45 20 WR Fig. 8.13. Loss of thrust due to reduced immersion of a bow thruster in calm water. Model scale. ( 8 = thrust divided by thrust for deeply ‘ submerged propeller. By (see equation (8.39)), 2 = number of propeller revolutions per second, 4 = propeller axis submergence relative to the free surface, R = propeller radius.) (Minsaas et al., 1986.)
+
+276 STATIONKEEPING
+
+THRUSTER PERFORMANCE AND DYNAMIC
+POSITIONING
+If the thrusters are part of a dynamic positioning (DP) system, an
+idealized simplification of the total thruster forces on a structure can be
+written as
+
+F, =F, - > (By at Cyr) k= 1,..- 6 (8.40)
+J=1
+
+Here k = 1 means surge force, k =2 sway force, k = 3 heave force, k = 4
+roll moment, &=5 pitch moment and k=6 yaw moment. For a
+dynamically positioned ship it is only k= 1,2 and 6 that are of interest.
+F, means mean forces. They have to balance the mean wave, current and
+wind loads. Further, 7, are the slowly-varying motions of the structure,
+obtained through proper filtering of the motion reference measurements.
+It is the high-frequency motion due to waves that are filtered out. It is
+generally impossible to have a system that can react to the highfrequency wave forces. To get a feeling for the values of the damping
+matrix B,D? and the restoring matrix C,°%, we can refer to a
+dynamically positioned ship. As a first guess we can set the coupling
+coefficients equal to zero. Further, we can choose Cy,”", k = 1,2 and 6
+so that the natural period of the slowly oscillating ship is from 100-200 s
+in surge, sway and yaw. The damping coefficients B,,”" can be set equal
+to ~60% of the critical damping, for motion mode k. The final real
+values are decided after sea tests of the DP system.
+
+Let us show what the first guess implies for the surge motion. We can
+
+1.0
+Bry
+
+i a
+0 5 10
+
+Hay, (m)
+
+Fig. 8.14. An example of thrust reduction for a bow thruster on a 250 m long
+ship in head sea waves. No current. (Br = thrust divided by thrust
+for deeply submerged propeller, 7; = significant wave height.)
+(Minsaas et al., 1986.)
+
+EXERCISES 277
+
+write the equation of slow-drift surge motion as
+d?n d
+(M +An)ya + Bu + By Ph) CyPPm
+
+=F SY +F,""* (8.41)
+
+If the ship has a mooring system, its effect on equation (8.41) can be
+taken care of by adding a restoring term C,,7,. In equation (8.41) M
+means the ship mass, A,, the surge added mass, B,, the hydrodynamic
+damping, FS” the slow-drift wave excitation force and F,”"* gust
+excitation force. The mean values of FS” and F,”'"4 are zero. According
+to what we said just recently we should choose
+
+2m\?
+CyyPP = (=) (M +Aj,,) where T, = 100s for instance
+
+By PP = 12M + AnCu?PP C42)
+The variance o,, of the slow-drift surge motion can be calculated as we
+did for the slow-drift motion in chapter 5 (see equation (5.47)). We can
+also calculate the variance of the total thruster surge force by using
+equation (8.40).
+
+We should note that we have all the time talked about the total thruster
+forces. For a DP system there has to be an allocation system that tells
+how the power should be distributed among the individual thruster
+- units.
+
+EXERCISES
+
+8.1 Static analysis of a cable line
+Given:
+
+Weight of chain in water w= 828N m7!
+Breaking strength of the chain 7,,= 1510 kN
+Water depth h=25m
+Length of chain outside the ship ?=100m
+
+Further, the cable line is connected to the vessel just above the
+waterplane. Assume in questions (a), (6) and (c) that the cable line is
+inelastic.
+(a) Find out the necessary horizontal force 7}; from the vessel on
+the chain in order to be able to move the anchor. (Answer;
+155 250 N).
+(b) What is the breaking safety of the chain in the condition
+described in question (2)? (Answer: 8.6.)

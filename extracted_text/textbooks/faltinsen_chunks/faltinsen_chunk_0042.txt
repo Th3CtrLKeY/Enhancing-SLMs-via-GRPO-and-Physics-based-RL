@@ -1,0 +1,93 @@
+natural period of a rectangular free surface tank of infinite length can be written as Ty = 2a / (= tanh( (3.75) where h is the water depth in the tank and b is the breadth of the tank (see equation (2.42)). This is the natural period that is most likely to be in the vicinity of the roll natural period. The waterdepth h will in practice be small compared to b. We can then write 2b Tr= Gh (3.76)
+
+88 LINEAR WAVE-INDUCED MOTIONS
+
+This shows in a simple way how the tank breadth and tank depth
+influence the natural tank period.
+
+For a U-tube tank of constant cross-section A we can write the natural
+period as
+
+l
+
+Ty = 2n( 1) (3.77)
+
+where / is a length dimension of the water, defined so that /- A is the
+fluid volume (see exercise 3.6(d)).
+
+The reason why the natural period should be selected close to the
+natural period of roll motion is that the tank moment is very closely in
+phase with the roll velocity and has maximum damping effect when the
+tank is forced to oscillate in roll at the natural period of the tank motion.
+
+This is also illustrated in Fig. 3.24. At the resonance of the fluid
+motion a hydraulic jump is formed. The position of the jump is close to
+the mid-point of the tank when the roll velocity is at a maximum. The
+hydrodynamic moment due to the fluid motion inside the tank can be
+calculated by noting that the fluid pressure is static below the instantaneous free-surface position. We note that this causes a moment against
+the roll velocity. The maximum moment due to the fluid motion occurs
+when the hydraulic jump is at the mid-point, i.e. when the roll velocity
+is at a maximum.
+
+We will now show how to choose the main dimensions h, 5 and L of a
+free-surface tank in a pre-design phase. L is the length of the tank. We
+choose b to be the cross-sectional beam of the ship where the tank is
+going to be installed. The water depth h is chosen by requiring that
+
+(Ty) tank = (Ty) ron
+
+VELOCITY OF HYDRAULIC
+JUMP
+
+_
+
+PRESSURE FORCE
+G
+
+bi dbauveuses
+
+Roll motion
+
+Fig. 3.24. Simplified picture of fluid motion in a shallow water tank at
+resonance condition shown at the time instant when the roll angle is
+zero and the roll velocity is maximum.
+
+EXERCISES ; 89
+
+This means (see equation (3.76)) that the water depth
+
+_1_40°
+
+g (Trou
+
+The length L of the tank is chosen so that SGM,/GMz is between 0.15
+and 0.3. We must obviously have the hydrostatic stability requirements
+
+in mind when we do that. In order to assess the effect of the anti-rolling
+tanks accurate model tests are needed.
+
+(3.78)
+
+EXERCISES
+
+3.1 Motions and sea loads on a barge (Fig. 3.25)
+Suppose a barge is a box-shaped floating body with length L = 200 m,
+beam B = 30m and draught D= 15m. Assume constant mass density,
+and that the barge has zero forward speed. Assume regular sinusoidal
+waves that propagate along the negative x-axis, and use a wavelength A
+of 300m and wave height of 20m. Define the velocity potential of the
+incident waves as
+
+o= = e™ cos(wt + kx)
+
+(a) Show that the vertical excitation force can be written as
+
+RL
+F3 = {pgt,Be~*? ~ gAy,°™kE,e°?} 5 sin()sin or
+
+by means of long wavelength formulas and strip theory.
+Discuss applicability of this approximation and what happens
+when w—> 0.
+
+Fig. 3.25. Definition of parameters and coordinate system used in exercise 3.1
+for the analysis of a barge.

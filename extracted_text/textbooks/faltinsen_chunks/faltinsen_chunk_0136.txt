@@ -1,0 +1,78 @@
+57.5 m Restoring coefficients with respect to coordinate system in Fig. 8.15 Cy = Cy =3,5- 10° N m! Cx =7.0+ 10°N rad“! Cos = 1.4: 10° Nm rad7! Added mass, w—> 0 Ay; = 1.02 + 10’ kg (with respect to coordinate 22 = 1.29: 10% kg system in Fig. 8.15) Ax = 0.0 Age = 3.70: 10!! kg m? turret y L/2 Fig, 8.15. Turret-moored ship (8 = wave heading, @ = current angle). Used in exercise (8.4).
+
+280 STATIONKEEPING
+
+Fig. 8.15. We write
+
+F,~?
+
+a
+
+FY?
+
+a
+
+(€, = wave amplitude of regular incident waves)
+
+The yaw moment is with respect to the z-axis (see Fig. 8.15). The
+current velocity U, is 0.5 ms7!. @ is the angle between current and
+ship’s x-axis. The angle between wave propagation direction and current
+is 10° (0.175 rad), i.e.
+
+B=0+0.175
+
+The transverse current force F° and yaw moment F 6 are written as
+F,°=0.22 pU2ZLD®@
+Fo = 0.048 pUZL7D@
+
+for small angles 6. The yaw moment is with respect to the z-axis.
+
+(a) Find the average position of the ship relative to the wave
+heading (Answer: 6 = —0.12 rad.)
+
+(b) Assume that thrusters are used for heading control and that
+the average current angle 6 is zero. The yaw moment of the
+thrusters with respect to the turret can be written as in
+equation (8.40). The natural period of the yaw motion is
+400 s. Set up an uncoupled equation for the slowly-varying
+yaw motion and explain the terms in the equation of motion.
+How large must the yaw damping effect of the thrusters be in
+order for the standard deviation of the yaw motion to be less
+than 3°? (Hint: Use equation (5.48) as a rough
+approximation.)
+
+= 0.314 pgLB
+
+= —0.0114 pgl’B
+
+8.5 Design data for thruster systems
+A vessel with length 185 m and draught 13 m is proposed as a pipelaying
+vessel. The average wetted area of the ship is 10000 m?. The vessel
+should be able to operate up to a significant wave height Hy=4m, a
+mean wave period T,=7s, a wind speed of 26 knots and a current of 2
+knots. The vessel will be equipped with a dynamic-positioning system.
+
+. (a) Study two conditions. One condition is irregular longcrested head sea waves with current and wind in the
+longitudinal direction. Another condition is long-crested
+beam sea waves with current and wind in the transverse
+direction. Find the mean environmental loads that the
+thrusters should counteract in the two weather conditions.
+
+EXERCISES 8
+
+(b
+
+Y
+
+(Hint: Estimate wave drift forces by using data given in Fi
+5.13. Estimate current loads by using equation (6.24) and °
+data given in Fig. 6.11. Estimate wind loads by pressure dra
+formulas. Use drag coefficients equal to 0.8 both for °
+longitudinal and transverse wind directions. The projected
+areas for longitudinal and transverse wind forces are
+respectively 350 m? and 1400 m?.)
+Discuss the possibility that the thrusters lose efficiency due to
+moat effects by making reasonable choices of thruster
+
+itions and estimates i i i
+ine hip end thee of relative vertical motions between

@@ -1,0 +1,109 @@
+how­ ever, a mathematical justification for (101) can be found from the concept of matched asymptotic expansions. Thus, the inner approximation should hold when y/δ ≪ 1, and the outer approximation if uτy/ν ≫ 1. Can both these inequalities hold simultaneously for some suitable values of the dis­ tance from the wall y? In other words, can an intermediate value of y be found such that ν/uτ ≪ y ≪ δ? Clearly this is possible, provided ν/uτ ≪ δ or
+
+The Motion of a Viscous Fluid 
+
+uτδ/ν ≫ 1. The latter is a Reynolds number, which represents the ratio of 
+inertial forces to viscous forces in the outer portion of the boundary layer. 
+By assumption this Reynolds number is large, and hence an overlap region 
+exists where (101) is valid.
+It is now a simple matter to show that the functions f1 and f2 must be 
+logarithmic in the overlap region. Differentiating both sides of (101) with 
+respect to y and multiplying the result by y, we obtain
+(
+/ ) (
+/ )
+( / ) ( / ),
+u y
+f u y
+y
+f
+y
+τ
+τ
+ν
+ν
+δ
+δ
+′
+= −
+′
+
+
+(102)
+where a prime denotes the derivative with respect to the appropriate argu­
+ment of each function. The left side of (102) is a function only of the Reyn­
+olds number uτy/ν, while the right side depends only on the ratio y/δ. Since 
+these two variables are independent, the functions on both sides of the 
+equation can be equal to each other if and only if they are equal to a con­
+stant, say A. Thus,
+′
+=
+′
+= −
+f u y
+A
+u y
+f
+y
+A
+y
+
+
+(
+/ )
+( /
+)
+( / )
+( / )
+τ
+τ
+ν
+ν
+δ
+δ
+and
+or, after integrating,
+f
+A
+u y
+C
+
+
+=
++
+log(
+/ )
+,
+τ
+ν
+	
+(103)
+f
+A
+y
+C
+
+
+= −
++
+log( / )
+,
+δ
+	
+(104)
+where C1 and C2 are constants of integration.
+These equations are valid only in the overlap region. Indeed, it would be 
+remarkable if (103) and (104) represented the complete solution through­
+out the boundary layer, for they have been derived from the boundary con­
+ditions alone; the Navier-Stokes equations and Reynolds stress have been 
+used only for qualitative arguments. Thus the inner velocity function fl 
+cannot satisfy the inner boundary condition, u = 0 on y = 0, with any choice 
+of the constants A and C1, and the outer function f2 cannot satisfy the outer 
+condition u = U when y = δ, unless C2 = 0. The latter condition was invoked 
+originally by Prandtl, but this does not permit a satisfactory empirical fit 
+within the overlap region.
+Thus we have arrived at the conclusion, originally due to Prandtl and 
+von Kármán, that the mean velocity profile is logarithmic in the inter­
+mediate or overlap region. Much effort has gone into corroborating these 
+formulas and determining the constants A, C1, and C2. Surveys of these 
+investigations and more complete expositions of the above derivation are

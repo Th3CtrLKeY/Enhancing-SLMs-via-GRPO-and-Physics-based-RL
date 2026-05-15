@@ -1,0 +1,96 @@
+Discussions of these and other aspects of laminar bound­ ary layers can be found in the references by Landau and Lifshitz (1959), Batchelor (1967), Schlichting (1968), Yih (1969), and White (1974). 3.17 Turbulent Flow: General Aspects Turbulence is characterized by the superposition of a highly irregular and oscillatory velocity pattern upon an otherwise “smooth” flow. Thus, flows that would otherwise be steady in time and slowly varying in space become unsteady and rapidly fluctuating. If the Navier-Stokes equations are to
+
+The Motion of a Viscous Fluid 
+
+remain valid under these conditions, the temporal and spatial variations 
+of the velocity vector must be included. On the other hand, the princi­
+pal characteristics of practical importance are quantities such as the mean 
+velocity profile or the mean drag acting on a body, and this suggests that 
+one should average the velocity, stresses, etc., with respect to space or time. 
+With this in mind, we can separate the velocity vector into mean and fluc­
+tuating parts as follows:
+u
+u
+u
+i
+i
+i
+=
++ ′. 	
+(81)
+Here, a bar denotes the mean or average value, and 
+′
+ui  the fluctuating 
+component.
+This average may be defined with respect to time, space, or an ensemble 
+of occurrences. If the intent of separating turbulent and mean flow com­
+ponents is to be realized, the average with respect to time must be taken 
+over a temporal period that is large compared to the characteristic period 
+of turbulent oscillations but small compared to the time scale of the basic 
+flow. Similarly, spatial averages must be carried out over length scales small 
+compared to the length scale of the basic or mean flow. If the basic flow is 
+steady-state, a time-average is the simplest concept to adopt.
+If we substitute the velocity components into the Navier-Stokes and con­
+tinuity equations and then average these equations, we can progress toward 
+a decomposition of the overall problem. Before doing so, we recall some 
+familiar averaging properties of oscillatory systems. First, the average of the 
+velocity ui is, by definition, ūi. Thus, from (81),
+′ =
+u i
+0, 	
+(82)
+with a similar result for derivatives of the velocity,
+∂
+∂
+= ∂
+∂
+∂′
+∂
+=
+u
+x
+u
+x
+u
+x
+i
+j
+i
+j
+i
+j
+;
+.
+
+(83)
+On the other hand, for a product of two velocities, or derivatives of the 
+velocities, it is necessary to include the average of the products of the fluc­
+tuating components, such as
+u u
+u
+u
+u
+u
+u u
+u u
+i
+j
+i
+i
+j
+j
+i
+j
+i
+j
+=
++ ′
++ ′ =
++ ′ ′
+(
+)(
+)
+. 	
+(84)
+Now let us examine the consequences of substituting (81) in the conti­
+nuity equation (15a),

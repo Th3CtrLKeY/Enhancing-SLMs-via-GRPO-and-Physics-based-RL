@@ -1,0 +1,197 @@
+possible limitation of the theory. With these preliminaries, we proceed to analyze the ship hull and its image as a rigid double body, of slender form, which can develop a lateral lift force in accordance with the results of section 3. Since U3 and Ω2 are the sway and yaw velocities defined with respect to the body fixed reference frame, the total lateral velocity is Figure 7.4 Elevation of the ship hull and its double-body image above the free surface.
+
+Hydrodynamics of Slender Bodies 
+
+W x t
+U
+t
+x
+t
+( , )
+( )
+( ).
+=
+−
+
+
+Ω
+	
+(50)
+It follows from (39) that the local force acting along the hull is given by
+′ = −
+∂
+∂−
+∂
+∂
+
+
+
+
+−
+= −
+−
+(
+)
++
+∂
+F
+t
+U
+x
+U
+x
+m
+x
+U
+x
+m
+x
+U U
+z
+
+
+
+
+
+
+
+
+
+[(
+)
+( )]
+( )
+Ω
+Ω
+
+
+∂
+−
+∂
+∂
+x m
+U
+x xm
+(
+)
+(
+).
+
+
+
+
+Ω
+	
+(51)
+Integrating along the hull length gives the total sway force,
+F
+U m
+m
+U U m
+x
+U
+x m
+x
+S
+S
+T
+T
+T
+
+
+
+
+
+
+
+
+
+
+
+= −
+−
+−
++
+
+Ω
+Ω
+(
+)
+(
+). 	
+(52)
+Here the superscript s denotes the strip-theory added-mass coefficients 
+(40–42), and xT is the value of x at the effective trailing edge, nominally 
+the stern.
+Similarly, multiplying (51) by the moment arm −x and integrating over 
+the length gives the yaw moment
+M
+U m
+m
+U U m
+x m
+x
+U
+m
+x
+m
+S
+S
+S
+T
+T
+S
+T
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+= −
+−
++
++
++
+−
+
+Ω
+Ω
+[
+(
+)]
+[
+(
+)
+3(
+)].
+xT
+	
+(53)
+Equations (52–53) give the sway force and yaw moment acting on the 
+hull in accordance with the slender-body results of section 7.3. In table 
+7.1 these expressions are compared with the corresponding equations 
+which follow from (4.115–4.116), where no assumption of slenderness is 
+made but where the body must be pointed at the stern and without lifting 
+effects.
+From a comparison of the results shown in table 7.1, the slender-body 
+theory neglects the longitudinal added-mass coefficient m11, which is con­
+sistent with our conclusion in section 7.2 that this coefficient is of higher 
+order in the slenderness parameter ε. On the other hand, the slender-body 
+theory includes the lifting force and moment associated with the action 
+of the double body as a lifting surface of low aspect ratio. The physical 
+relevance of these complementary descriptions depends on the nature of 
+the ship’s stern. Generally, the stern profile is as shown in figure 7.4, and it 
+is not obvious whether this should be regarded as pointed or with a sharp 
+trailing edge. However, the actions of the rudder and deadwood are signifi­
+cant in practice, and it is likely that additional vorticity is shed from the 
+keel along the afterbody in a manner which coincides more nearly with the 
+slender-body results.

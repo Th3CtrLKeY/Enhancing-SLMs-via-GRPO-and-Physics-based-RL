@@ -1,0 +1,156 @@
+sin . θ θ θ    = + (100) Then it follows from (98) that v UA U A n n = − + ∞ ∑ cos . θ (101) Alternatively, from the boundary condition (22), d dx A A n n η θ = − ∞ ∑ cos . (102) Hence the coefficients An can be related to the slope of the mean-camber line, from the usual orthogonality property of Fourier coefficients, by means of the equations
+
+Lifting Surfaces 
+
+A
+d
+dx d
+
+
+
+= ∫
+π
+η θ
+π
+, 	
+(103)
+A
+d
+dx
+n d
+n = −∫
+
+
+π
+η
+θ θ
+π
+cos
+. 	
+(104)
+Finally, the lift coefficient is given by
+C
+L
+U l
+U
+d
+A
+A
+L =
+=
+=
++
+∫
+½
+sin
+(
+),
+ρ
+γ
+θ θ
+π
+π
+
+
+
+
+
+
+(105)
+and the coefficient of the moment about the mid-chord position is
+C
+M
+U l
+U
+d
+A
+A
+M =
+=
+=
++
+
+
+
+
+∫
+½
+cos sin
+.
+ρ
+γ
+θ
+θ θ
+π
+π
+2 2
+
+
+
+
+
+
+
+
+(106)
+The results (103–106) are equivalent to (36) and (38).
+5.8  Three-Dimensional Vortices
+The preceding analysis of two-dimensional lifting surfaces can be extended 
+to three dimensions, using distributions of vortices in the plane y = 0. For 
+this purpose the properties of three-dimensional vortices must be developed.
+A three-dimensional line vortex, or vortex filament, is a singularity situ­
+ated along an arbitrary curve in space. This singularity has the same local 
+properties as a two-dimensional point vortex—the flow very close to the 
+filament appears locally as a two-dimensional vortex when observed in a 
+plane normal to the filament (see figure 5.15). A smoke ring is a familiar 
+example of a vortex filament that occupies a closed circular contour.
+Figure 5.15
+Three-dimensional vortex filament.
+
+Chapter 5
+The flow must be irrotational throughout the fluid region, excluding the 
+line on which the vortex filament is situated. Thus, the circulation around 
+any closed path that does not include the vortex must be zero, while the 
+circulation around a small, closed path about the vortex must be equal to 
+the circulation of the vortex at that point. To see that this circulation is 
+the same for all points along the filament, define a closed contour C1 + C2 
++ C3 + C4 to form the boundary of a tube surrounding the vortex filament, 
+as shown in figure 5.16. Since C1 + C2 + C3 + C4 is a closed curve, which 
+does not include the vortex, the total circulation around this contour must 
+vanish. The contributions from C2 and C4 cancel each other, since these 
+two contours are practically identical except for the change in the positive 
+direction of integration. Thus the contributions from C1 and C3 must be 
+equal and opposite, or
+V
+V
+⋅
++
+⋅
+=
+∫
+∫
+d
+d
+C
+C
+l
+l
+
+
+
+. 	
+(107)
+Figure 5.16 shows that the contours C1 and C3 are opposite in their 
+sense of rotation about the vortex filament, and if the first integral in (107) 
+defines the circulation Γ1. the second integral will be equal to −Γ3 and vice 
+versa. Thus Γ1 = Γ3, and the circulation of a vortex filament must be con­
+stant along its length. As a consequence of this result, the circulation is 
+conserved, and a vortex filament cannot end within the fluid. A vortex fila­
+ment can terminate at the boundaries of the fluid domain, but otherwise it 
+must form a closed curve, as shown in figure 5.15.
+The velocity field induced by a vortex filament can be deduced from 
+the two-dimensional results (24–25). For motion in the x-y plane due to a 
+point vortex at the origin of strength Γ, the velocity components can be 
+written as
+Figure 5.16
+Contour used to show constancy of circulation along a vortex filament.

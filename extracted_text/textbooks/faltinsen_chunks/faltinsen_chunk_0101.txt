@@ -1,0 +1,95 @@
+to its ‘stationary-cylinder’ value, i.e., fy =fyo.. However, the cylinder continues to oscillate at the natural frequency with very small amplitudes. The region 5< Up <7 where lock-in of the vortex shedding frequency to the natural frequency. of the cylinder occurs, is variously referred to as onization region, lock-in region, capture region, or simply as EIGENMODES n WATER DEPTH him) 100 500 1000 1500 2000 Fig. 6.28. Natural periods T,, for different eigenmodes ‘n’ of riser in Fig. 6.27. hr
+
+210 CURRENT AND WIND LOADS
+
+the resonant region. There does not exist any engineering tool based on
+sound physical principles that can predict what is happening in the
+lock-in region. However, Sarpkaya & Shoaff (1979) have presented
+interesting results based on the discrete vortex method.
+Let us mention some consequences of lock-in
+A. Correlation length increases
+B- Vortex strength increases
+C._ Vortex shedding frequency locks onto the natural frequency
+D. Increasing amplitude means increasing the band width of _
+lock-in ° eee
+E. Oscillations are self-limiting (maximum relative amplitude
+A/D ~1)
+F. In-line drag force increases
+One could argue that there is a connection between the increase in
+correlation length (point A) and the vortex shedding frequency locking
+onto the natural frequency (point C) by saying that the vortex shedding
+
+I~
+
+2.0
+
+yn
+
+Fig. 6.29. Experimental results for self-excited transverse oscillations of a
+cylinder. (f, = natural frequency of oscillation of the cylinder,
+f. = frequency of oscillation of the cylinder, fy.) = vortex shedding
+frequency for fixed cylinder, f, = vortex shedding frequency, U,=
+current velocity, A = amplitude of cylinder oscillations —-— fyo/fa»
+—— f./ fas ——fu/fa). (Adapted from Feng, 1968.)
+
+g
+E
+
+E
+E
+
+VORTEX-INDUCED RESONANCE OSCILLATIONS 211
+
+must be correlated in phase with the cylinder oscillations and these
+cannot vary rapidly along the length due to structural constraints.
+
+There is also a connection between the increase in vortex strength
+(point B) and the increase in drag forces (point F). Using the Blasius
+theorem (Sarpkaya & Shoaff, 1979), we can show how the drag and lift
+force are related to the vorticity and its velocity.
+
+Blevins (1977), Griffin et al. (1975) and Sarpkaya (1978) have analysed
+the maximum amplitude A,,,, of transverse oscillation in the lock-in
+range for both elastically-mounted and flexible cylinders. Sarpkaya wrote
+the maximum amplitude for any mode shape as
+
+(A/D) max = 0-32y/[0.06 + A,?}! (6.54)
+in which y is given as
+L
+[ vow
+Y= Wmnarx(y/L)) 2-——— (6.55)
+
+L
+i wy) dy
+
+Here L is the length of the cylinder and p(y) is the mode shape. The
+reduced damping A, is defined by
+
+amb,
+pD*
+where €, is the fraction of the structural damping to critical damping, St
+is the Strouhal number for the non-oscillating cylinder, p is the fluid
+density and m is the sum of structural mass and added mass per unit
+length.
+
+For a spring-supported cylinder it follows that y= 1.0. By using
+equation (6.54) and setting A,=0 we find that (A/D) max = 1.31. If we
+want to apply the above formulas to risers, we need to calculate the
+natural frequencies and eigenmodes by a standard computer program or
+use the simplified solutions of Sparks (1980). For marine applications A,
+will have a small influence in equation (6.54). If we totally neglect it and
+approximate the mode shape by a sinusoidal form we find that y = 1.16
+and (A/D) max = 1.51. Having determined the amplitude of oscillations of
+the riser and the mode shape we can easily calculate stresses due to the
+vortex-induced oscillations.
+
+A very important consequence of the vortex-induced oscillations is
+that the drag force increases. Skop et al. (1977) proposed an empirical
+formula for a rigid circular cylinder. They write for Wp>1
+
+A, = (2a St? (6.56)
+
+(6.57)
+where
+
+Wp = (1+ 2A/D) fa/fro (6.58)

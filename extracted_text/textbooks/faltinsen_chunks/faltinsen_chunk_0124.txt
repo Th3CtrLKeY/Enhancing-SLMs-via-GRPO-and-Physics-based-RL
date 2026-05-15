@@ -1,0 +1,69 @@
+separated vortex follows the angular position of the separation point. Assume the radial position r, is close to R and the motion of the separation point is negligible. Show by means of equation (7.44) that this means R? r rV-— = ry ~ 4xU sin(wt)sin 6, Fig. 7.19. Flow around a circular cylinder at small KC-numbers. The separated flow is represented by two discrete vortices. (£T = circulations of the shed vortices. Vortex positions (7,, 9,) and (ty, — 9y).)
+
+VISCOUS WAVE LOADS AND DAMPING
+
+(e)
+
+From the unsteady Blasius equation (Graham, 1980) it is
+possible to show that the drag force F', due to the two
+separated vortices can be written as
+
+2 3
+Fi=—p 2 3 Culy ~ In) (7.45)
+n=1
+where I, is the circulation, and (x,,, y,) is the position of
+vortex n. Further, (%,,,9,,) is position of the image of vortex n
+inside the circle. Use previous results and evaluate the force
+at wt = 7/2 (i.e. velocity maximum of incident flow). Show
+that
+
+Cox (*S)sin 6, (7.46)
+Pi
+
+Assume reasonable values of 8, and compare the results with
+equation (7.24).
+
+8 STATIONKEEPING
+
+Precise position and motion control of ships and other floating structures
+is important from a marine operational point of view. Thrusters and
+mooring systems are important means of holding a structure against wind,
+waves and current. In earlier chapters we have discussed how to evaluate
+environmental forces due to waves and current. Wind has not been
+covered as extensively as current. One of the reasons is that there are
+many similarities between wind and current loads. The most important
+differences are perhaps in the differences in magnitude of density and
+fluid velocity in the two media. From a fluid mechanics point of view one
+may also say that the structural parts above sea level are generally more
+complicated than the submerged parts. It is in any case necessary to rely
+on model tests to obtain current and wind loads on marine structures.
+One has more confidence in using calculations for mean wave loads. This
+is particularly true for large-volume structures if one uses an accurate
+method based on, for instance, three-dimensional source technique or
+Green’s second identity to evaluate the first-order fluid flow.
+
+In this chapter we will discuss forces from mooring systems and
+thruster systems.
+
+MOORING SYSTEMS
+A mooring system is made of a number of cables which are attached to
+
+the floating structure at different points with the lower ends of the cables
+
+anchored at the sea bed. One type is the vertical tension leg mooring
+which is used in connection with tension leg platforms. This is a moored
+
+:stable platform for which the buoyancy exceeds the platform weight, and
+
+the net equilibrating vertical force is supplied by vertical tension mooring
+cables secured by deadweight or drilled-in anchors. The mooring lines
+provide essentially total restraint against vertical movement of their
+upper ends.
+
+In a spread mooring system, several pre-tensioned anchor lines are
+arrayed around the structure to hold it in the desired location. The
+normal case is that the anchors can be easily moved. This implies that the
+
+‘anchor in operation cannot be loaded by too large vertical forces, and, to
+
+ensure that the anchors are kept in position, it is necessary that a

@@ -1,0 +1,186 @@
+of the form ∂ ∂ ′ →± ∞ Φ1 z S h z ∓ / , / . for ε (134) The decomposition (132) can be made unique by integrating (134),and specifying the asymptotic form of Φ1 as Φ1 ≫ − ′ ( / ) , . S h z z for ε (135) Equations (134–135) hold in the overlap region ε ≪ y ≪ 1, where they are to be matched to the inner expansion of the outer solution.
+
+Hydrodynamics of Slender Bodies 
+
+In the subcritical case, the outer solution is governed by Laplace’s equa­
+tion (129) in transformed coordinates. The solution corresponding to 
+(134) near the body is a distribution of two-dimensional sources along the 
+body axis. This outer solution is identical to the thickness problem of twodimensional lifting-surface theory, and from (5.57) the appropriate source 
+strength is given by
+q
+US
+h
+= −
+′ / . 	
+(136)
+The desired source distribution, of strength (136), satisfying Laplace’s equa­
+tion (129) in the transformed coordinates, or (126) in the physical coordi­
+nates (x, z), is of the form
+φ
+π
+ξ
+ξ
+ξ
+= −
+−
+′
+−
++
+−
+−∫
+U
+h
+F
+S
+x
+z
+F
+d
+h
+h
+l
+
+
+
+
+1 2
+
+
+
+(
+)
+( )log[(
+)
+(
+)]
+.
+/
+	
+(137)
+Matching of this outer solution with (134–135) is assured by continuity, 
+and in view of (135) the arbitrary function f(x) in (132) can be obtained, 
+from (137), simply by setting z = 0. Thus, in the subcritical case Fh < 1,
+f x
+h
+F
+S
+x d
+h
+l
+( )
+(
+)
+( )log
+.
+/
+= −
+−
+′
+−
+−∫
+
+
+
+
+1 2
+π
+ξ
+ξ
+ξ 	
+(138)
+In the supercritical case, the outer solution can be deduced from (131) by 
+noting that the velocity components are related linearly, in the form
+∂
+∂
+= ±
+−
+∂
+∂
+φ
+φ
+( )
+/
+( )
+(
+)
+,
+
+
+1 2
+
+
+
+z
+F
+x
+z
+h
+for 
+.
+
+	
+(139)
+Equating this result to (134) in the overlap region, it follows that
+∂
+∂
+= −
+′
+−
+−
+φ( )
+/
+(
+/
+)(
+)
+,
+
+
+1 2
+
+
+x
+US
+h
+Fh
+	
+(140)
+for |z| ≪ 1. Integrating both sides of this equation with respect to x, and 
+requiring that ϕ(0) → 0 as x → + ∞, the outer solution is obtained in the form
+φ( )
+/
+/
+(
+/
+)(
+)
+[
+(
+)
+].
+
+
+1 2
+
+1 2
+
+
+
+= −
+−
++
+−
+−
+U
+h
+F
+S x
+F
+z
+h
+h
+	
+(141)
+Here the sectional area S(x) is defined to be zero, when the argument in 
+(141) is outside the range of the body length. Differentiating (141) with 
+respect to z confirms that this expression matches with the inner flux (134).

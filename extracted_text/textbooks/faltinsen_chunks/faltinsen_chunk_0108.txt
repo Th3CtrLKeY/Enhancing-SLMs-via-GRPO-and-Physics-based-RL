@@ -1,0 +1,103 @@
+in Sarpkaya & Isaacson (1981). For harmonically oscillating flow around a fixed circular cylinder of diameter D, we may write KC= 2nA/D, where A is the amplitude of oscillation of the fluid far away from the body. We then see that KC expresses the distance a free stream fluid particle moves relative to the body diameter. (6.81) MORISON’S EQUATION Morison’s equation (Morison et al. 1950) is often used to calculate wave loads on circular cylindrical structural members of fixed offshore
+
+224 VISCOUS WAVE LOADS AND DAMPING
+
+structures when viscous forces matter. Morison’s equation tells us that
+the horizontal force d¥ on a strip of length dz of a vertical rigid circular
+cylinder (see Fig. 3.14) can be written as
+
+‘D?
+dF = p™—deCua,+£CpD de |u| u (7.1)
+
+Positive force direction is in the wave propagation direction. p is the
+mass density of the water, D is the cylinder diameter, u and a, are the
+horizontal undisturbed fluid velocity and acceleration at the midpoint of
+the strip. The mass and drag coefficients Cy and Cp have to be
+empirically determined and are dependent on the parameters mentioned
+in the beginning of the chapter.
+
+Considering deep water regular sinusoidal incident waves (see Table
+2.1) and assuming Cy and Cp to be constant with depth (which might
+not be realistic), we may easily show that the mass-force decays with
+depth like e?"”*. The drag force decays like e**”* and is even more
+concentrated in the free-surface zone. When there is a wave node at the
+cylinder axis the mass-force will have a maximum absolute value and the
+drag-force will then be zero. The drag-force on a submerged strip will
+have a maximum absolute value when there is a wave crest or a wave
+trough at the cylinder axis. If viscous effects are negligible, it is possible
+to show analytically that Morison’s equation is the correct asymptotic
+solution for large A/D-values (see discussion of equation (3.34)). The
+Cy-value should then be two for a circular cross-section. If fluid
+acceleration can be neglected, Morison’s equation is a reasonable
+empirical formulation for the time average force. Typical Cp- and
+Cy-values for transcritical flow past a smooth circular cylinder at
+KC>-=40 are 0.7 and 1.8. A roughness number k/D of 0.02 can
+represent more than 100% increase in Cp relative to the Cp-value for a
+smooth circular cylinder (Sarpkaya, 1985). This means the effect of
+roughness is more significant in oscillatory ambient flow than in steady
+incident flow.
+
+The application of Morison’s equation in the free-surface zone
+requires accurate estimates of the undisturbed velocity distribution under
+a wave crest. The prediction of the velocity distribution based on linear
+wave theory was discussed in connection with Fig. 2.2. A straightforward
+application of Morison’s equation implies that the absolute value of the
+force per unit length is largest at the free-surface. This is unphysical
+since the pressure is constant on the free-surface. This means the force
+per unit length has to go to zero at the free-surface. It should also be
+noted that the position of the free-surface at the cylinder is affected by
+wave run up on the upstream side of the cylinder and a wave depression
+on the downstream side. The vertical position of the maximum absolute
+value of the local force has to be experimentallv determined. The order
+
+MORISON’S EQUATION 225
+
+of magnitude of the position may be 25% of the wave amplitude down in
+the fluid from the free-surface. We should note that Morison’s equation
+cannot predict at all the oscillatory forces due to vortex shedding in the
+lift direction, i.e. forces orthogonal to the wave propagation direction and
+in the cross-sectional plane.
+
+Morison’s equation can be modified in the case of a moving circular
+cylinder. Consider a vertical cylinder and denote the horizontal rigid
+body motion of a strip of length de by 7,. We can write the horizontal
+hydrodynamic force on the cylinder as
+
+dF = 3pCpD oe — my) |u- ml
++ Cu D" dea, - p(Cm
+
+(7.2)
+
+Dot stands for time derivative. Both u and a, are position-dependent. It
+should be noted that the inertia term does not depend on the relative
+acceleration term. The reason for this can be found by studying the
+analytical solution in the potential flow case. The Froude-Kriloff force
+(i.e. undisturbed wave pressure force) results in a horizontal force
+p(aD?/4) dza, which is independent of the rigid body motion (see
+chapter 3). The Cp- and Cy-values in equation (7.2) are not necessarily
+the same as in equation (7.1).
+
+Morison’s equation can also be applied to inclined members. To
+demonstrate this let us consider a cylinder inclined in a plane parallel to
+the wave propagation direction. The approach would be to decompose
+the undisturbed velocity and acceleration into components normal to the
+cylinder axis and components parallel to the cylinder axis, and then use
+Morison’s equation with normal components of velocity and acceleration.
+The force direction will be normal to the cylinder axis. In the potential
+flow case, it can be proven that this is the correct expression. In the
+viscous case it means that we use the ‘cross-flow’ principle (see chapter
+6). Actually what we are proposing to do for an inclined cylinder is not
+different from the vertical cylinder case. In the latter case there is also an
+undisturbed tangential velocity and acceleration component in the fluid.
+The effect of this was neglected in equation (7.1).
+
+When the cylinder axis is not in the plane of the wave propagation
+direction, there exist different possibilities for formulations. Let us
+illustrate this using a submerged horizontal circular cylinder in waves
+where the wave propagation direction is orthogonal to the cylinder axis.
+A straightforward generalization of Morison’s equation would be to write
+the horizontal and vertical force on a strip of length dy as
+
+dF, = pw Cua, + £CpD dy u(u? + w)S (7.3)
+
+dF; = pw Cua +£cpD dy w(u2 + w)! (7.4)

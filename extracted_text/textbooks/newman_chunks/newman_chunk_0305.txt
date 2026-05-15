@@ -1,0 +1,112 @@
+y x B( ) ( , ) ( , ) ( , ). ∫ ≡ + ≡ (104) The desired expression for the differential vertical force follows by substi­ tuting (104) in (103), ′ = − = − ∂ ∂− ∂ ∂     F d dt V x t Z x t U x V x t Z x y [ ( , ) ( , )] [ ( , ) ( , )]. ω ω (105)
+
+Hydrodynamics of Slender Bodies 
+
+This expression differs from (39) only with respect to the change in direc­
+tion of the body motion, and the substitution of the complex coefficient 
+(104) for the added-mass.
+The total heave force is given by the integral of (105). With the assump­
+tion that (104) vanishes at the bow and stern, it follows that
+F
+e
+x
+U
+i
+Z x
+dx
+y
+i t
+l
+=
++
+−
+
+
+
+
+
+
+
+
+∫
+ω
+ξ
+ω ξ
+ω
+ω
+
+
+
+( ,
+)
+. 	
+(106)
+Similarly, after a partial integration of (105), the pitch moment is obtained 
+in the form
+M
+e
+x
+U
+i
+x
+U
+Z x
+dx
+z
+i t
+l
+=
++
+
+
+
++
++
+
+
+
+
+
+
+
+
+∫
+ω
+ξ
+ω
+ξ
+ω
+ω
+ω
+
+
+
+
+
+
+( ,
+)
+. 	
+(107)
+The factors of the pitch and heave amplitudes, in (106) and (107), are the 
+complex force coefficients fij defined in (6.150). The three-dimensional 
+added-mass and damping coefficients follow by taking the real and imagi­
+nary parts of these factors.
+In this manner the three-dimensional force coefficients are derived from 
+a strip-theory synthesis, as integrals of the two-dimensional force coeffi­
+cient (104). However, the forward speed U leads to additional components 
+of the force and moment (106–107) which are not evident from a simple 
+integration of (104) along the length. These additional contributions result 
+in part from momentum convection, as well as from the speed-dependent 
+term in the vertical body-velocity (100).
+The coefficients a22 and b22 in (104) are closely related to the twodimensional added-mass and damping coefficients for forced motion of a 
+two-dimensional body, with profile ∑B, oscillating on the free surface with 
+frequency ω. The only difference between these problems is in the freesurface boundary condition. The extra terms in (97), depending on U, dis­
+tinguish the potential Φ2 from the two-dimensional solutions described in 
+chapter 6. Physically, these imply an interaction between adjacent sections 
+of the ship hull, depending on the rate of change in the longitudinal direc­
+tion of the inner solution.
+The only role of the x-coordinate on Φ2 is the parametric dependence on 
+the hull profile ∑B(x). Thus Φ2 will be purely two dimensional in those cases 
+where ∑B is locally independent of x, as along the parallel middle body of a 
+ship hull. In this particular case the speed-dependent terms in (97) vanish,

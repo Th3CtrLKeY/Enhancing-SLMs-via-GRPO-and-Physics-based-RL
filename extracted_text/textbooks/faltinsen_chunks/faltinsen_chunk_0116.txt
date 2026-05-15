@@ -1,0 +1,84 @@
+case for separated flow around a circular cylinder, particularly at small KC-numbers. The nature of the ambient flow is important. The results by Chaplin (1984, 1988) demonstrate this. Chaplin (1988) presented data for a submerged horizontal circular cylinder in beam sea waves at small KC-numbers. The ambient flow was either nearly circular or elliptical. Chaplin argued that a circulation is set up around the cylinder. This has a large influence on the mass coefficients. In the particular case of a
+
+240 VISCOUS WAVE LOADS AND DAMPING
+
+deeply submerged cylinder in nearly circular orbital flow he found that
+Cu ~2—-0.21 KC? (7.25)
+
+The KC-number was less than two and the Reynolds number was of the
+order of 10*. Equation (7.25) shows a very strong influence of KC on the
+
+Cy-value. This is opposite to what happens to the Cy-value in planar |
+
+oscillatory flow for small KC-numbers.
+
+Eddy-making roll damping
+
+The results by Graham (see equation (7.24)) demonstrate the different
+degrees of damping due to vortex shedding when a body makes small
+oscillations relative to the fluid. If we apply his results to eddy-making
+roll damping of a rectangular cross-section, it means that the damping is
+independent of the KC-number. Another example is roll damping due to
+bilge keels. We then start out by writing the normal force F,, on the bilge
+keel as
+
+F,= — 5 Cpl ul tu (7,26)
+
+0.2 04 0.6 0.8 10 20 30 40 60 80100
+
+Fig. 7.8. Drag coefficients Cp versus Keulegan—Carpenter number KC for a
+smooth circular cylinder at 6 = 1035. (8 = Rn/KC = D?/(vT),
+D = cylinder diameter, T = period of oscillation. x Experiments
+(Sarpkaya) —Theory (Wang). (Adapted from Sarpkaya, 1986). .
+
+SEPARATED FLOW AT SMALL KC-NUMBERS 241
+
+where b and / are respectively the breadth and length of the bilge keel,
+and u is the relative velocity normal to the bilge keel as if the bilge keel
+was not there. For instance, if the bilge keel were fitted to a circular
+cylinder of radius R and the cylinder were rolling about its axis we can
+write wu Ri, when no incident waves are present. If we neglect the
+effect of the curvature in the vicinity of where the bilge keel is fitted to
+the hull, we can approximate the local flow around the bilge keel with the
+flow around a flat plate of breadth 2b in transverse oscillatory flow.
+According to Graham’s formula Cp = 8.0(KC)"3 for harmonically oscillating ambient flow. We can write KC= uma, T/(2b). The separated
+flow around the bilge keel will also affect the pressure distribution on the
+hull. However, for a circular cylinder the hull pressure does not cause a
+roll moment about the cylinder axis. By taking the roll moment of
+equation (7.26) about the roll axis we will find the following roll damping
+moment for a circular cylinder
+
+dng [dn
+dt | dt
+This shows that bilge keel damping is strongly influenced by the
+KC-number. For a general body shape, for instance a typical midship
+section of a ship, the approach outlined is only of a qualitative nature.
+The undisturbed velocity u will for instance be significantly larger when
+the flow accelerates around the bilge radius of a typical midship section.
+
+F,= —4p(KC)73bIR? (7.27)
+
+‘Empirical formulas for the bilge keel damping can be found in Kato
+
+(1966) and Ikeda et al. (1977b).
+
+Viscous slow-drift damping of moored structures
+The eddy-making damping is important for analysis of slow-drift
+motions of moored structures. One exception is surge motions of a ship
+where equations (7.18) or (7.22) can be used to estimate viscous
+damping.
+
+The eddy-making damping for sway and yaw motions of a ship can in
+some cases be calculated by strip theory and the ‘cross-flow principle’
+(see discussion of Fig. 6.11). This means that we write the damping force
+similar to that in equation (6.26) and analyse cross-flow past twodimensional cross-sections of the ship.
+
+The drag coefficients depend for instance on free-surface effects,
+beam-draught ratio, bilge keel dimensions, bilge radius, current,
+Peynolds number, roughness ratio and Keulegan~—Carpenter (KC) number. Some of these effects will be discussed below. In chapter 6 we
+discussed KC = © more extensively.
+
+Free-surface effects
+The free-surface acts similar to an infinitely long splitter plate (see
+
+’ discussion in chapter 6 on free-surface effects on Cp-values for ship

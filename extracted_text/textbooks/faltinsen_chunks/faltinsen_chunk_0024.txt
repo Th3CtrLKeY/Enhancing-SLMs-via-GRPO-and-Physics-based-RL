@@ -1,0 +1,77 @@
+axis in the mean free-surface. The results are based on numerical calculations. We should note that B3°*”/(@wA) approaches the finite value 8/z when w—> 0. This implies that the damping coefficient goes to zero when w—>0. As pointed out earlier this is what is expected from physical & arguments. F The added moment in roll for the same cylinder depends on the choice i of roll axis. If we select the roll axis to go through (0,0), there is no
+
+50 LINEAR WAVE-INDUCED MOTIONS
+
+normal velocity component induced by the forced roll motion. This
+means no fluid motion, i.e. roll added moment and damping are zero in
+this case.
+
+All the examples above have been two-dimensional cases. The
+two-dimensional added mass and damping coefficients may be combined
+with strip theory to obtain an approximation to the three-dimensional
+added mass and damping coefficients for a ship. The principle is to
+divide the underwater part of the ship into a number of ‘strips. (about 20).
+This is illustrated in Fig. 3. 7. Two- dimensional _ Coefficients. _are_caldamping coefficient is wanted. Using strip’ theory. implies — ‘that the
+variation of the flow in the cross-sectional plane is much. Jargerthan the
+variation of the flow in the longitudinal direction. This will not be true at
+the ends of the body. Let us illustrate the use of strip theory to find
+
+8/T
+
+Fig. 3.6. Two-dimensional added mass and damping in heave and sway for
+circular cylinder with axis in the mean free-surface. Infinite water
+depth. (A,,° = added mass in sway, B,,°” = damping in sway,
+A33? = added mass in heave, B3;7> = damping in heave, p = mass
+density of water, A = 0.52R?, w = circular frequency of oscillation).
+
+Fig. 3.7. IHustration of strip theory for ships.
+
+RESPONSE IN REGULAR WAVES 51
+
+added mass and damiping coefficients by considering a cylinder of finite
+length L with constant circular cross-section of radius R. The x-axis
+coincides with the cylinder axis and the x-coordinates of the cylinder
+ends are at +/2. The cylinder is assumed to be in infinite fluid. As an
+example let us consider how to find the added moment in pitch Ass.
+Following the definition of added mass we have to study forced pitch
+oscillations. A strip with average longitudinal coordinate x and length dx
+will be exposed to a vertical acceleration —x#j;. Associated with this
+acceleration there will be a vertical added mass force on the strip that is
+equal to pxR? dx xij;. This force creates a moment about the y-axis. By
+integrating over the cylinder length we find the total pitch moment to be
+[— paR? §%2,. x? dx]ij;. As a matter of definition this moment is equal
+to —Assij;. This means Ass = :pmR7L?. Since there is no free surface
+Bs; =0.
+
+The added mass and damping coefficients can be significantly influenced by the body shape. Numerical methods have to be used in a
+general case to estimate these coefficients (see the following chapter 4). In
+two-dimensional problems for ship cross-sections either source techni-
+
+4iv3—ques. oF gonformay mapping techniques are most commonly used. Lewis
+‘orms are examples arising from a conformal mapping technique that
+
+applies to most free-surface piercing ship cross-sections in deep water.
+Implicit in applying the method we say that the non-dimensionalized
+added mass and damping coefficients will only depend on the beam—
+draught ratio B/D, the sectional area coefficient o=A/(B:D) and a
+non-dimensionalized frequency of oscillation like w(D/g):. Here A
+means the submerged cross-sectional area. This result will be used in a
+later section when we discuss how ship motions depend on main hull
+parameters.
+
+Added mass results based on Lewis form technique are presented in
+Fig. 3.8. This shows the added mass in heave for infinite frequency as a
+function of B/(2D) and o= A/(B-D). Only the range 0.5<0<1.0 is
+shown. Outside this range both for larger and very small o-values the
+Lewis form transformation represents a poor geometrical approximation
+of typical ship cross-sectional shapes. For cross-sections with sharp
+corners, for instance rectangular sections, the results are only approximate. The results in Fig. 3.8 can also be applied to heave added
+mass values for cross-sectional shapes in infinite fluid when the body has
+the y-axis as a symmetry axis. The height of the body in the oscillation
+direction 3 is 2- D and the cross-sectional area of the body is 2: A. The
+added mass-value A337 will be twice the values obtained from Fig. 3.8.
+
+For semi-submersibles we will later calculate the response for
+wavelengths that are large compared to the cross-sectional dimensions of
+the structural parts. This implies small potential-flow damping
+coefficients and frequency-independent (w—>0) added mass coefficients

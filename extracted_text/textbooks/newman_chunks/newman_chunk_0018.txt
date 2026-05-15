@@ -1,0 +1,108 @@
+amplitude A, density ρ, gravitational acceleration g, and depth h. Note that the frequency ω and phase velocity Vp are not included here, since these are not indepen­ dent and can be substituted for, or replaced by, T and λ. Figure 2.1 Sketch of a periodic progressive wave in a fluid of mean depth h. Note that λ is the wavelength, A the wave amplitude, and the wave translates with phase velocity Vp in the direction shown by this vector.
+
+Model Testing 
+
+As in the simpler problems of the falling mass and pendulum, only one 
+physical parameter, the density of the fluid, contains the units of mass. 
+Since it is impossible to nondimensionalize ρ in combination with the 
+other parameters, it can be deleted from the analysis. A total of five dimen­
+sional quantities (T, λ, A, g, h) remain, and a nondimensional form for the 
+period is
+T g
+f A
+h
+(
+/
+)
+(
+/
+,
+/
+).
+/
+λ
+λ
+λ
+1 2 =
+	
+(6)
+Comparing this result with equation (2), we find that the nondimensional 
+amplitude ratio A/λ is analogous to the maximum pendulum angle θ0, but 
+an additional depth parameter h/ λ must now be considered.
+Two possible simplifications of (6) can be pursued. First, as in (3), if 
+the wave amplitude is sufficiently small compared to the wavelength, a 
+linearized result follows from (6),
+T g
+f
+h
+A
+(
+/
+)
+( ,
+/
+),
+/
+.
+/
+λ
+λ
+λ
+1 2
+
+
+≪
+	
+(7)
+Alternatively, if the fluid depth is very large compared to the wavelength, as 
+in the deep ocean, (6) can be replaced by
+T g
+f A
+h
+(
+/
+)
+(
+/
+,
+),
+/
+.
+/
+λ
+λ
+λ
+1 2
+
+≪
+∞
+	
+(8)
+If both inequalities are satisfied simultaneously,
+T g
+f
+(
+/
+)
+( ,
+)
+.
+/
+λ 1 2
+
+∞= constant 	
+(9)
+Thus, for small amplitude waves in deep water, the period is proportional to 
+λl/2 and, from (5), the phase velocity likewise is proportional to the square 
+root of the wavelength.
+As in the simpler problems of the falling mass and pendulum, the con­
+stant in (9) cannot be determined from dimensional analysis. A more com­
+plete solution of the linearized problem in chapter 6 will show that this 
+constant is equal to (2π)1/2 and will provide the more general functional 
+relation (7) for finite depth.
+Since the phase velocity Vp depends upon the wavelength, it follows that 
+water waves of different wavelengths or periods will propagate at different 
+phase velocities and are thus dispersive. Long waves will travel faster than 
+short waves, and a spectrum of waves will constantly change its appear­
+ance in a manner obvious from observation of ocean waves. The mono­
+chromatic wave system shown in figure 2.1 is an exception, where the

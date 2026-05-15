@@ -1,0 +1,54 @@
+of motion for the spar buoy shown in figure 2.16 is mÿ + ρgS0(y − A cos ωt) = 0 where y(t) is the heave amplitude, S0 is the waterplane area, and A is the wave amplitude. Use the solution in section 3.13 for sinusoidal motion of a flat plate to derive a linear damping coef­ ficient proportional to the submerged area of the cylindrical portion of the spar buoy. Using this estimate of the damping coefficient, find the resonant
+
+The Motion of a Viscous Fluid 
+
+response for a spar buoy of diameter 1m and draft 5 m in waves of ampli­
+tude 0.5 m.
+3. Modify the analysis of section 3.10 for the case where the upper bound­
+ary is a free surface with no stress. Include the component of the hydrostatic 
+pressure acting in the direction of the flow and find the surface velocity of a 
+fluid of depth 1cm flowing down an inclined plane of angle 1 degree. Based 
+on this steady-state solution, what is the surface current in the Cape Cod 
+Canal, where the depth is 10 m, the length is 10 km, and the maximum 
+difference in elevation between the two ends is 3 m? Give several reasons 
+why this estimate is exaggerated.
+4. Reformulate the problem of the Cape Cod Canal as stated in problem 3, 
+assuming that this motion is sinusoidal in time with period 12 hours and 
+that the velocity is horizontal and a function only of the vertical coordi­
+nate. Show that the solution is of the form
+u y t
+e
+ae
+be
+c
+i t
+ky
+ky
+( , )
+Re[
+(
+)].
+=
++
++
+−
+ω
+Determine the constants in this equation, the maximum velocity on the 
+surface, and the phase shift between the current and the tidal difference at 
+the two ends. (The actual current in this canal is about five knots.)
+5. For a Reynolds number of 106, compute the displacement thickness 
+and shear stress at the boundary for laminar (Blasius) and turbulent (1/7 
+power) boundary layers. Use these results to sketch the two velocity pro­
+files, as was done in figure 3.9, but with the vertical scale (y) preserved in 
+both curves.
+6. For a 2 m ship model moving at 1.0 m/s, estimate the displacement thick­
+ness of the boundary layer at the stern, using the Blasius result for Laminar 
+flow, and the 1/7 power law for turbulent flow. Compare the resulting val­
+ues of δ*/l with the corresponding turbulent result for a 200 m ship moving 
+at 10 m/s.
+7. Given the differences between salt and fresh water at the same tempera­
+ture, how would the boundary-layer thickness and shear stress of a ship 
+change as it moves from salt water into fresh water, if the ship’s velocity 
+and the water temperature are unchanged?
+8. A common speed-measuring device for small boats is a paddlewheel that 
+protrudes about 1cm from the hull surface and rotates about an axis flush

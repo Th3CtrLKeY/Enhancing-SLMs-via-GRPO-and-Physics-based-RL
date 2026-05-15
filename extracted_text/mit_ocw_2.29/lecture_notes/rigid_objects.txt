@@ -1,0 +1,539 @@
+[Page 1]
+OS326s TIT
+
+Oscillating Rigid Objects
+
+---PAGE BREAK---
+
+[Page 2]
+Fagot - Ass Neo
+Fax =- Age Ne Fa
+
+SHOE
+Vig
+
+A= Nth Ns
+
+Ee Fs ast
+
+4a Ng S25 Fe,a°°*
+
+Maz ~Ag213- AacN. ~ er "3 ~ C1 hy "5 ~ bi). by £5
+
+— Cas 61 £05 ~bMs ths One
+8 } +Fe ce"
+33 C32 3
+aD : . (“4 “¢
+(MiB, YN, + (btbaYhs + Grea) * Mag Te
+bet
+
+he bee +h eb Mn, = Fe,S
+
+---PAGE BREAK---
+
+[Page 3]
+. . > ° 2¢
+Im,* “As. Ne ~ Pes D3 ~ S415 - CL Me 6 £25 ~b,L,
+
+pm ° id owe
+tC, £,N,-6,4 Ns th 1, ~6, fs Fr Fe
+C2
+
+i —~——-~~. . “~~ |
+Dey, tlh, L~ bo Le Nyt Rt 4) Ns + (Lethes hs
+
+Qn LC
+
+Bes Css
+
+---PAGE BREAK---
+
+[Page 4]
+STPoT bet
+
+‘Potentials and Boundary Conditions
+
+or = or + bp + G9;
+
+On the Free Surface:
+
+(6) > O O _
+-.' — Ui + wa +95, | 60 = 0
+and: |—w 2 yin? 4 eo aan 0 o; =0
+Wart an 1 99z| 21 =
+On the Hull:
+01 , AbD _
+On On
+
+Pressure on the hull:
+
+p= =p (iw - U— ° =) ore — pg(ls + Gy — Got)
+
+---PAGE BREAK---
+
+[Page 5]
+STiTex — :
+
+Strip Theory
+
+Sway "4
+
+. ; roll ne = yaw
+Sign convention for translatory and angular displacements
+
+For inviscid, irrotational theory,
+
+ér = 1+ dp + >> n;¢; + interaction terms
+k=1
+In linear theory the interaction terms are neglected. Here we focus on the
+@;’s and the forces and moments associated with them.
+
+In general, a force in the j’th direction will lead to motions in the six
+degrees of freedom, 7, k = 1, 2,3, 4,5, 6.
+
+Sinusoidal forces which generate sinusoidal motions are considered. The
+equations of motion for sinusoidal excitation are:
+
+6 .
+Y {(Mjx + Ajx)iix + Byte + Crane} = Fe’, j = 1,2,3,4,5,6
+k=1 :
+
+me(t) = Cre”
+
+6 .
+> {—w? (Myx + A jx) Ck + wBynce + Cin Cn = F;, j = 1,2,3,4,5,6
+k=1
+
+{[-w?(Mjx + Aja) + iwBjz + Cyr] Ge} =F, j =1,2,3,4,5,6
+
+Me
+
+k
+
+---PAGE BREAK---
+
+[Page 6]
+STE)
+
+—Mjx7, is an inertial force in the 7’th direction due to motion in the k’th
+
+direction.
+
+Again, —Bjxn,, and —C3xn, are hydrodynamic and hydrostatic forces in
+the 7’th direction due to motion in the k’th direction.
+
+---PAGE BREAK---
+
+[Page 7]
+For a ship having port/starboard symmetry:
+
+M
+
+
+
+Mz
+
+Myx =
+
+| An
+A31
+
+Asi
+
+By,
+B3}
+
+Bs
+
+oooeooc ©
+
+M
+
+—-Mz,
+
+
+ooo ocococ ©
+
+0 0 Mz
+0 -Mz 0
+M 0 0
+0 Is 0
+0 0 Ts
+0 —I¢a 0
+a3 O Ais O
+OQ Aog O Arg
+A33 O Az35 0
+O Ag O Age
+As3 O Ass 0
+O Ags O Age
+By: 0 Bs O
+O Boy 0 Boy
+B33 0 B35 (OO
+0 Buy 0 Ba
+Bs3 0 Bss 0
+0 Bea O Bes
+0 O O 0
+0 OO OO 0
+C33 0 C35 0
+0 Cy O 0
+C53 0 Cr5 0
+0 0 0 O
+
+---PAGE BREAK---
+
+[Page 8]
+STI pP
+
+Boundary Conditions on Hull
+
+n=(n, ,n,, N, ) n N3 +—_U
+Definitions: (n1,n2,n3) = 7%
+
+Except for j = 5 andj = 6:
+
+a sitie” = a Sie "Nj 6 e" = Giwnje™ 095 _ iwn,
+
+On : On
+
+For j = 5 (pitch) and for j = 6 (yaw) there is a change in the normal
+velocity associated with U:
+
+Here, for positive pitch, there is an upward (positive z) component of veloc-
+
+ity equal to —U¢, e*”*. This has a component normal to the hull surface of
+—Ubs e*n3.
+
+For n = 5: 095 ins + Ung
+On
+
+For n = 6: 096 _ ing —Ung
+On
+
+---PAGE BREAK---
+
+[Page 9]
+OT Se.
+
+For slender ships surge forces F, are much smaller than the other forces. Furthermore, surge motions have little effect except for the special case of towing.
+We neglect surge here.
+
+Under these conditions, the pitch and heave equations are decoupled from the
+sway, roll and yaw equations.
+
+PITCH AND HEAVE EQUATIONS
+
+[—w?(M + Ags) + iwBg3 + C33] C3 + |—w* Ags + iwBgs + C35] Cs = Fs
+
+[—w? Ass + 1WBs3 + Css] ¢3 + [—w* (Is + Ass) + iwBss + C55 C5 = Fs
+
+Hydrodynamic and Hydrostatic Coefficients
+The hydrodynamic forces on the ship due to oscillatory motions of the ship are
+called radiation forces. For a motion of the form 7,(t) = ¢,e"”*, the linearized
+force in the j direction is called T;,e“’. Tj, will be a complex number having
+areal part and an imaginary part. It is conventionally written in the following
+form:
+
+Tip = (w" Asp — iwBjx — Cie) Ce
+Aj, is the added mass for forces in the 7 direction due to motion in the k
+direction.
+Bjx is the damping coefficient for forces in the j direction due to motion in
+the k direction.
+Cjx is the hydrostatic “spring constant”.
+
+dé
+
+U
+
+U U ., UW,
+A35 = — I, Eas3d§ — (2 P33 + 2 Ab33 ~ G2 233
+a _U* 4
+— oO
+Bys = — | Ebasdé + UASs — Usaag, — 50%
+Ag3z and B33 are the speed independent parts of the respective coefficients.
+
+---PAGE BREAK---
+
+[Page 10]
+ST 34
+
+U U
+As3 = |, &assdé + 2 P33 + 50 Abs
+Bs3 = — I, fbs3dé — U AS — Ure abs
+
+u? Us, WU ,
+Ass = — |, Passdé + 72 433 — 50 A033 + (2 AM
+
+2 U? > a ,U? oy
+Bss = Lé b33d& + 2 P33 — Ur',a33 + 2 oAO33
+
+Crs = pg J, bE = poAwp
+
+b is the beam of each section and Ay is the waterplane area.
+
+C35 = C53 = —pg | &bdé = —pgMwp
+
+Css = pg | Pbdé = pglwp
+
+Mvwp is the moment of area of the waterplane and I, is the moment of inertia
+of the waterplane.
+
+U
+Fy = pa ff (fa + hs)d6 + paar ahg
+
+U U
+
+a is the wave amplitude. f; = Fe is the Froude-Krilov force.
+
+---PAGE BREAK---
+
+[Page 11]
+ST 34
+
+F;(z) _ ge iheos J NaeX*¥ Sin B ekz dg
+
+N3 is the vertical component of the 2D normal to the section. Np» is the
+horizontal component of the 2D normal. (@ is the wave propagation angle. dé
+is the element of arc length around the section.
+
+hg is the sectional diffraction force.
+
+hg(x) = woe eos FE (iN3 4 N> sin Bethy sin B okey. de
+
+Wo = gk Wo =w+kU cos ZB
+
+w3 is the velocity potential for a 2D cylinder of shape C, oscillating in heave.
+a3 is the solution to V? ~3 = 0 subject to the boundary condition for heave
+motion. It can be obtain by several ways including panel methods.
+
+Thus, to do the the longitudinal integrals (dé), one must know the 2D hydrostatic terms and the 2D added mass, damping, and velocity potential for
+heave.
+
+---PAGE BREAK---
+
+[Page 12]
+ST =e
+
+SWAY, ROLL AND YAW EQUATIONS
+
+[—w?(Aex + M) + iw Boo] (o+[—w?(Aog _ Mz) + iw Bog| C4+|—w" Agog + iw Bog| 6 = Fy
+
+[—w*( Ago — Mz,.)+ iw By G2 + |-w? (Aga + 14) + twBag + Cua] C4
++ [-w* (Age _ T4g) + iw Bag Gi = Py,
+
+[—w? Ago + iw Bea] Co+|—w?(Aga — La) + tw Boa] C+ |—w?(Aoe + Ie) + iw Bos] Ge = Fe
+
+All the coefficients can be determined from the 2D sectional sway and roll
+added mass and damping, the 2D sectional potentials for sway and roll and
+the hydrostatic roll restoring force.
+
+For all the five motions considered, the response at the resonant frequency is
+largely controlled by the wave generation damping (B coefficients) except for
+roll where the damping at resonance is dominated by the viscous damping.
+Therefore, for strip theory to give accurate results for roll, an estimate for the
+viscous damping coefficient must be added to Bs5.
+
+---PAGE BREAK---
+
+[Page 13]
+ST 44
+
+SIMULATIONS OF SHIP MOTIONS IN RANDOM SEAS
+
+The complete problem includes effects of waves coming from all directions.
+Here, for simplicity and clarity we will consider long-crested random waves
+coming from one direction.
+
+The “system functions”, €;(w), are complex numbers, dependent on frequency.
+For each one, the magnitude is the ratio of the sinusoidal motion amplitude to
+the wave amplitude. The phase is the phase lead of the motion with respect
+to the wave elevation at the origin of the coordinate system.
+
+Suppose we have a wave spectrum, S,(w). The wave elevation at the origen of
+the ship, or offshore structure, at the origin of the coordinate system, can be
+simulated as:
+
+N .
+w(t) _ s- Z,,e1 rout
+
+n=-—N
+. 1
+where: Z, =e'™ ge(ndw du
+
+Within the restrictions of linear theory, each ship motion can be simulated in
+the specified random wave field as:
+
+N .
+nj(t) = > &(ndw) Ze
+n=—N
+
+---PAGE BREAK---
+
+[Page 14]
+ST th
+
+Added Resistance and Drift Forces
+
+An important ”second order” effect is the average force an oscillating wave
+field can imoise on an object. These forces are typically small in comparison
+of oscillating forces and spring-like resorting forces'’so the horizontal mean
+forces are most important. For a ship, this force is called the added resistance
+and for an offshore structure it is called the drift force.
+
+One again, for simplicity and clarity we will consider waves propagating in a
+single direction. If a sinusoidal wave has amplitude A, the dominant mean
+force has the form rg(w)A”. rq(w) is called the added resistance operator. It
+is found by solving the second order hydrodynamic problem. However, Some
+first order effects contribute.
+
+Consider the term in Euler’s equation (V - V)V When V is sinusoidal, this
+term will contribute zero frequency terms.
+
+In the presence of a wave spectrum S(w), the total added reesistance is:
+
+Rodded = f° 2ra(w)S(w)dw
+
+RCE
+ADDED ResisTaws oe
+
+WAVES
+
+---PAGE BREAK---
+
+[Page 15]
+$T46>-
+
+Gerritsma and Beukelman Theory for Added Resistance
+
+The “exact” formulation for the added resistance operator, rg(w.) requires
+solution of the complicated 3-D second order problem. However, Gerritsma
+and Beukelman ! developed a semi-empirical formulation for rg(we) based on
+strip theory that is remarkably accurate. The basis of their theory was as
+follows:
+
+1. Each section of the ship encounters a relative vertical velocity that depends on the wave, and the heave and pitch of the ship.
+
+2. This relative vertical motion generates waves which carry energy away
+from the ship.
+
+3. Equating this radiated energy, per unit time, to the added resistance times
+the ship speed provides a formula for the added resistance.
+
+This formula is:
+k
+
+we
+
+[ vee _ vane V2(2)dz
+
+Ta(We) =
+
+where the ship extends from 0 to £ and k = wavenumber of the wave,
+
+N(x) = heave damping coefficient per unit length of ship at position z,
+V = forward speed of ship,
+
+m(x) = added mass per unit length of ship cross section at position z,
+
+V,(x) = relative vertical water velocity amplitude at position z.
+
+V,=2-204+V0-¢,
+
+where z is the heave velocity of the ship at z = 0, @ is the pitch angle of the
+ship, and ¢, is the average of the velocity of the fluid motion in the wave over
+the width of the ship cross section at its local depth.
+
+1Gerritsma, J., and Beukelman, W., “Analysis of the Increase in Resistance in Waves of a Fast Cargo
+Ship”, Technical report 169 s, Netherlands Ship Research Centre TNO, April, 1972
+
+---PAGE BREAK---
+
+[Page 16]
+Sree
+
+Nonlinear Wave Force Calculations
+
+Second order wave forces arise both from the second order potential, which increases the accuracy with which the nonlinear terms in the free surface boundary condition are met, and also from the influence of the first order solution
+on the nonlinear term in Euler’s equation. For example, consider the term:
+ust, As an example, a field of two sinusoidal waves is :
+
+u = A, sin(kjx — wt) + Ae sin(kex — wet)
+
+~ = Ayky cos(k,x _ wt) + Agks cos(k2x _ Wot)
+At z= 0:
+u = —A, sin(w,t) — A2 sin(wst)
+ou = Aj; cos(w t) + Az cos(wyt)
+Ou D) : :
+us = — Ajk; sin(wt) cos(w t) — Ay Agk2 sin(w;t) cos(wet)
+
+— Aj Aoky sin(wyt) cos(w yt) — Ask» sin(wet) cos(wet)
+
+Consider just one of the four terms:
+
+(“35)
+Ox/ 4
+
+— Aj, Aek2 sin(wt) cos(wet)
+
+i _AiAdks sin(w, + we)t —
+
+A, Ack
+2 2
+
+? sin(w, — w)t
+
+If w, and wy are only sligtitly different, w1-+w» is a comparatively high frequency
+and w; — Ww is a very low frequency.
+
+---PAGE BREAK---
+
+[Page 17]
+Vertical Sea Loads V; Vv.
+
+ia = rompression force V. = torsional moment
+2 = rorizontal shear V; = vertical bending
+orce
+y, . for moment
+3 ertical shear Vs. = horizontal bending
+moment
+
+The complete strip theory sea loads are considered in the reference "Ship Motions and Sea Loads”, by Salvesen, Tuck and Faltinsen. Here we consider the
+vertical loads which lead to the shear force, Vj and the longitudinal vertical bending moment, V5. Sinusoidal forces and motions are considered. For
+
+example,
+
+V; = Vje™" where the real part of all complex expressions is implied
+
+Likewise, n; = ¢je"”’
+
+The fluid forces are separated into hydrostatic forces R;, sea wave exciting
+forces £;, and hydrodynamic forces resulting from unsteady ship motions Dj.
+I; is the inertial component of the j‘” structural force due to motions of the
+ship. Then, the structural loads can be expressed symbolically as:
+
+Vi = 1; — Ry — Ej — D;
+
+We are concerned with terms having subscripts 3 and 5. All the longitudinal
+integrals in the following are over the portion of the ship forward of the section
+under consideration. We denote these integrals as:
+
+Ip = J, —w*m(E) [Gs — £65] ag
+
+---PAGE BREAK---
+
+[Page 18]
+Is = — J, —w?m(E) [€ — 2] [Cs — £65] a8
+Rs =—pg J, (€) {es — 65) a
+Rs = pg f, O(E) IE — 1] 6s ~ &¢5] dé
+U
+3 = pa 11, + h3)d& + (Zn) |
+U
+Bs = pa, (E-2)(fa-+ ha) + hs} ag
+
+D3 = — I, {waa3(¢3 7 €¢5) + twbas (C3 — E¢s) + Ubs3¢5 + iwWags¢s} dé —
+
+~ {isa (Ga ~ ECs) + Ub Ca ~ Es) + Was — “tts
+€==z
+
+Ds =f, ass(§ — 2) {—w°(Cs ~ Els) + tuvdsa (Cs — ECs )} dE +
+
+[2

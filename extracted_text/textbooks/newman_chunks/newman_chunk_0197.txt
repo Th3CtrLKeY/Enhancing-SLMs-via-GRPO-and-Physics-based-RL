@@ -1,0 +1,37 @@
+be observed on the ocean surface and in small wave tanks, but these do not affect large vessels or structures. A description of these different types of wave motion from the oceanographic standpoint is given by Phillips (1966) and by Neumann and Pierson (1966). In marine hydrodynamics we are concerned with the effects of the wave environment on floating or fixed structures. Of particular interest are the wave loads on fixed structures and the oscillatory motions of vessels free to
+
+Chapter 6
+respond to the waves. Also of engineering importance are the waves gener­
+ated by the motion of bodies in otherwise calm water, including the predic­
+tion of wave resistance for a moving ship.
+These problems are amenable to a theoretical description based on the 
+assumptions that the fluid is ideal and that the wave motions are suffi­
+ciently small to linearize. Nonlinear effects are important in special cir­
+cumstances, such as the breaking of waves in shallow water or locally near 
+a ship’s bow. Viscous stresses are significant for the wave forces on small 
+bodies, as noted in section 2.13, and in the generation of waves by wind. 
+Nevertheless, we shall find here, as in chapter 5, that useful results can be 
+obtained by neglecting nonlinear and viscous effects; in fact, these assump­
+tions are practically essential if the complexity is to be kept in reasonable 
+bounds.
+6.1  Linearized Free-Surface Condition
+The fluid velocity V is expressed by the gradient of a velocity potential ϕ, 
+and the effects of the free surface must be expressed in terms of appropriate 
+boundary conditions on this surface. The physical nature of a free surface 
+requires both a kinematic and a dynamic boundary condition—that is, the 
+normal velocities of the fluid and of the boundary surface must be equal, 
+and the pressure on the free surface must be atmospheric. In both boundary 
+conditions the simplifications resulting from linearization are significant. 
+Similar assumptions were used in chapter 5 to derive the kinematic bound­
+ary condition on the wetted surface of a hydrofoil and the dynamic bound­
+ary conditions on both trailing vortex sheets and cavity surfaces.
+We shall begin by stating the “exact” boundary conditions, assuming 
+only that the fluid is ideal and that surface tension at the free surface is 
+negligible (see section 2.3). The linearized results will follow by neglecting 
+second- and higher-order terms in the wave amplitude and associated fluid 
+motions.
+A Cartesian coordinate system (x, y, z) is adopted, with y = 0 the plane 
+of the undisturbed free surface and the y-axis positive upward. The vertical 
+elevation of any point on the free surface may be defined by a function 
+y = η(x, z, t). In the special case of two-dimensional fluid motion,1 parallel 
+to the x-y plane, the dependence on z will be deleted.

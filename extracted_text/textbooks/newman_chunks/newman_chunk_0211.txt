@@ -1,0 +1,128 @@
+in the form Figure 6.7 Particle trajectories in a plane progressive wave (a), a partial reflected wave (b), and a standing wave (c). These correspond respectively to a reflection coefficient of 0, 0.38, and 1.0 in equation (56). Note that the reflection coefficient can be measured from the maximum and minimum of the envelope, using (56). These photographs are based on time exposures, and are reproduced from a more extensive series of observa­ tions made by Ruellan and Wallet (1950).
+
+Chapter 6
+η
+θ
+θ
+ω
+θ
+θ
+ω
+=
++
+−
++
+−
++
+=
+A
+kx
+kz
+t
+A
+kx
+kz
+t
+A
+kx
+cos(
+cos
+sin
+)
+cos(
+cos
+sin
+)
+cos(
+co
+
+s )cos(
+sin
+).
+θ
+θ
+ω
+kz
+t
+−
+	
+(54)
+Note that the corresponding potential will satisfy the boundary condition 
+of zero normal velocity on the wall x = 0. The reflected wave that has 
+been added in (54) is consistent with Snell’s law and with the method of 
+images.
+If plane waves are incident upon a beach, which can absorb a portion 
+of the incident wave energy, or upon a vessel, which reflects part of the 
+wave energy and transmits the remainder, the amplitude of the reflected 
+wave will be reduced. In this case the reflected and incident waves in (52) 
+or (54) will differ, and their ratio defines a reflection coefficient R. In the 
+two-dimensional case, with the incident wave (7) traveling from −∞, (52) 
+is replaced by
+η
+ω
+ω
+=
++
+−
++
++
+A
+e ikx i t
+ikx i t
+Re[
+].
+Re
+	
+(55)
+Here a complex notation has been used since the phase of the reflected 
+wave may be nonzero, with the corresponding coefficient R complex. For a 
+beach, the magnitude of the reflection coefficient is generally small.
+The presence of small reflected waves in a wave tank is generally appar­
+ent in terms of the amplitude modulation of the wave system. Thus, (55) 
+can be rewritten in the form
+η
+ω
+=
++
+−
++
+A
+e ikx i t
+ikx
+Re[
+(
+)].
+
+
+Re
+	
+(56)
+The factor in parenthesis is the amplitude variation, which varies in x with 
+twice the wavenumber or half the wavelength. This structure usually can 
+be noted, by observing the change in amplitude of a particular wave crest. 
+Figure 6.7(b) shows an exaggerated example. The reflection coefficient can 
+be measured by recording the wave amplitude at two or more positions and 
+analyzing the measured data in conjunction with (56).
+More general wave motions, which are no longer monochromatic, can 
+be obtained by superposing plane waves of different wavenumbers or fre­
+quencies. In the two-dimensional case, we begin by forming a discrete sum 
+of waves of the form
+η
+ω
+=
+−
++
+=∑Re[
+exp(
+)],
+A
+ik x
+i
+t
+n
+n
+n
+n
+N
+
+(57)

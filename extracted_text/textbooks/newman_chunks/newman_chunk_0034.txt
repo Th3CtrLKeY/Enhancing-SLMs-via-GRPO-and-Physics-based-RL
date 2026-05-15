@@ -1,0 +1,105 @@
+D ( , / ) ( ), / . ≫1 (33) The complementary limit of small time is less obvious but of comparable importance. During the initial stage of rapid acceleration of the body and surrounding fluid, inertial effects will dominate the viscous stresses in the fluid, and (32) can be approximated by the inviscid limit C R Ut l C Ut l Ut l F F ( , / ) ( , / ), / . ≪ ∞ (34)
+
+Chapter 2
+Considerable insight into this unsteady flow problem can be gained 
+from the classical photographs made by Prandtl and his coworkers (figure 
+2.14). These show the flow past a circular cylinder accelerated impulsively 
+to a constant velocity. The first of these photographs, taken shortly after 
+the motion commences, confirms that the flow past the cylinder is a sym­
+metrical attached flow; it is essentially identical to the flow to be analyzed 
+in chapter 4 on the assumption that the fluid is ideal with vanishing vis­
+cosity. For subsequent times shown in figure 2.14, the effects of viscosity 
+Figure 2.14
+Initial stages of the flow past a circular cylinder which is accelerated impulsively from 
+a state of rest to constant velocity. (From Prandtl 1927)
+
+Model Testing 
+
+increase; the boundary layer along the cylinder surface grows and, more 
+importantly, the wake separates downstream. Initially the separated wake 
+consists of two symmetric vortices, but with increasing time these vortices 
+grow in strength. Ultimately this arrangement becomes unstable; the vor­
+tices are shed alternately from the body and convected downstream in a 
+staggered configuration. The oscillatory nature of this flow for large time 
+contradicts the assumption of a steady state, but for practical purposes the 
+drag force approaches an essentially constant limiting value, corresponding 
+to the steady-state drag coefficient (33).
+The force coefficient (34), which applies for small time t, is the result of 
+accelerating the body in an ideal fluid. As will be confirmed in chapter 4, 
+this force is simply proportional to the acceleration of the body, in manner 
+analogous to Newton’s equation F = ma. The coefficient of proportional­
+ity is the added mass or the effective mass of the fluid that surrounds the 
+body and must be accelerated with it. We will denote the added mass by 
+m11. Here the letter refers to the analogy with the body mass m in New­
+ton’s equation, and the subscripts denote the directions of the force and 
+body motion. During the initial stage where viscous forces are negligible, it 
+follows that
+F
+m U
+= −
+11  , 	
+(35)
+where U denotes the acceleration, and the force coefficient (34) takes the 
+form
+C
+Ut
+l
+m U
+U l
+F( ,
+/ )
+.
+∞
+=
+
+
+
+2 2
+
+ρ
+	
+(36)
+The relative magnitudes of the viscous-drag force and the added-mass 
+force are measured by forming the ratio of the coefficients (33) and (36). 
+Since the added mass is proportional to ρl3, it follows that
+C
+R
+C
+Ut
+l
+U l C
+R
+m U
+U
+Ul
+F
+F
+D
+( ,
+)
+( ,
+/ )
+( )
+/
+.
+∞
+∞
+=
+∝
+
+
+2 2
+
+
+ρ
+
+
+	
+(37)
+For impulsive acceleration from a state of rest to a constant velocity U, the 
+parameter U
+Ul
+2 /   is small during the period of acceleration and large subse­
+quently. Thus added-mass forces will dominate initially, and viscous forces 
+subsequently, with a gradual transition between these regimes as shown in 
+figure 2.15.

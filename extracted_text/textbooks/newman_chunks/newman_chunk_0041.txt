@@ -1,0 +1,72 @@
+its axis. Thus, the yaw moment on an axisym­ metric buoy is due entirely to viscous effects. The rolling motion of ships and submarines will be affected similarly if the body sections are nearly circular. Viscous shear stresses are significant also in the heaving motions of a slender spar buoy if the draft is very large compared to the diameter. In the latter examples viscous damping is particularly important at resonance, where the inertial and hydrostatic forces cancel each other.
+
+Figure 2.16
+Heave response of a slender spar buoy in regular waves, from Adee and Bai (1970). 
+The ordinate is the ratio of heave amplitude to wave amplitude, and the buoy is a 
+circular cylinder, with a conical bottom, as shown to scale in the sketch. The dashed 
+line is a theoretical prediction that neglects the hydrodynamic forces due to the mo­
+tions of the body. The solid line includes a correction for the added mass. The circles 
+denote experimental measurements.
+
+Chapter 2
+The second exception occurs if the body is slender, with its length com­
+parable to the wavelength and its transverse dimensions comparable to 
+the wave amplitude. If the body is rigid, it will move relative to the waves, 
+unlike a small body that is free to move with the local wave field. This situa­
+tion is analogous to the case of a fixed body. Thus, the cross-flow drag force 
+can be estimated from (49), with U the relative lateral velocity component 
+between the body section and the wave field. This situation occurs for the 
+horizontal force acting on a slender spar buoy of large draft and for the ver­
+tical force on the hull of a semisubmerged stable platform. Cross-flow drag 
+is discussed in the latter context by Söding and Häusler (1976).
+If the body is restrained by a mooring, the dynamics of this restraint 
+will affect the body motions in waves. In the simplest case the mooring 
+may be regarded as a linear elastic restraint and lumped with the hydro­
+static restoring force acting on the body. For small bodies this restraint can 
+induce relative motion between the body and waves, and then viscous drag 
+forces must be included once again. If the mooring cable is very long, vis­
+cous forces on the cable are significant as well. The complexity of the latter 
+problem is aggravated by the difficulty of modeling the cable in a wave 
+tank of limited depth. A comprehensive account of moored buoys is given 
+by Berteaux (1976).
+2.15  Ship Motions in Waves
+As our final example, we consider the case of a ship hull moving with con­
+stant forward velocity U through a system of waves. In contrast with the 
+situation of section 2.14, this example adds one physical parameter U and a 
+corresponding nondimensional Froude number U/(gl)1/2. If the ship is unre­
+strained, if viscous effects are negligible, and if the wave amplitude is suf­
+ficiently small for linearization to be valid, then the heave-amplitude ratio 
+is a generalization of (53) in the form
+y
+A
+f
+h
+l
+U
+gl
+t
+/
+(
+/
+, /
+, ,
+/(
+)
+)cos(
+).
+/
+=
++
+
+1 2
+λ
+λ β
+ω
+ε
+	
+(54)
+Similar nondimensional expressions hold for the other five degrees of 
+freedom.
+Typical experimental results are shown in figure 2.17 for roll (angular 
+motion about the longitudinal axis) and pitch (about the lateral axis) of an 
+aircraft carrier in deep water. Here the Froude number is 0.23, corresponding

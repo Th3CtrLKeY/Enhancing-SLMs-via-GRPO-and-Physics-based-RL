@@ -1,0 +1,83 @@
+capacity and convenience. Nevertheless, it is essential to understand the underlying principles covered in this text, and to compare the results of computations with simpler approximations to be confident of their validity. I am grateful to the MIT Press for suggesting this special edition and for making it available economically, both as a paperback and as an open access e-book. I am especially grateful to Professor John Grue for the fore­ word, which reflects his long experience using this text.
+
+Preface to the First Edition
+P
+r
+e
+f
+a
+c
+e
+P
+r
+e
+f
+a
+c
+e
+© Massachusetts Institute of TechnologyAll Rights Reserved
+The applications of hydrodynamics to naval architecture and ocean 
+engineering have expanded dramatically in recent years. Ship design has 
+been related increasingly to the results of scientific research, and a new 
+field of ocean engineering has emerged from the utilization of offshore 
+resources. The number of technical symposia and journals has increased 
+in proportion to this expansion, but the publication of textbooks has not 
+kept pace.
+This volume has been prepared to satisfy the need for a textbook on 
+the applications of hydrodynamics to marine problems. These pages have 
+evolved from lecture notes prepared for a first-year graduate subject in the 
+Department of Ocean Engineering at MIT, and used subsequently for under­
+graduate and graduate courses at several other universities. Most of the stu­
+dents involved have taken an introductory course in fluid mechanics, but 
+the necessary fundamentals are presented in a self-contained manner. A 
+knowledge of advanced calculus is assumed, including vector analysis and 
+complex-variable theory.
+The subject matter has been chosen primarily for its practical impor­
+tance, tempered by the limitations of space and complexity that can be tol­
+erated in a textbook. Notably absent are topics from the field of numerical 
+hydrodynamics such as three-dimensional boundary-layer computations, 
+lifting-surface techniques including propeller theory, and various numeri­
+cal solutions of wave-body problems. A textbook on these subjects would 
+be a valuable companion to this volume.
+Since most countries of the world have adopted the rationalized metric 
+Système International d'Unités (SI), this is used here except for occasional 
+references to the “knot” as a unit of speed. Conversion factors for English
+
+xx 
+Preface
+units of measure are given in the appendix, together with short tables of 
+the relevant physical properties for water and air. A unified notation has 
+been adopted, despite the specialized conventions of some fields. Cartesian 
+coordinates are chosen with the y-axis directed upward. Forces, moments, 
+and body velocities are defined by an indicial notation that differs from 
+the standard convention of ship maneuvering. The symbol L is reserved for 
+the lift force, and D for drag. Thus length is denoted by l and diameter by 
+d. Vessels with a preferred direction of forward motion are oriented toward 
+the positive x-axis, following the practice of naval architecture but contrary 
+to the usual convention of aerodynamics; a fortunate consequence is that a 
+hydrofoil with upward lift force will possess a positive circulation as defined 
+in the counterclockwise sense.
+This text was initiated with the enthusiastic encouragement of Alfred H. 
+Keil, Dean of Engineering at MIT, and Ira Dyer, Head of the Department of 
+Ocean Engineering. Financial support has been provided by the Office of 
+Naval Research Fluid Mechanics Program, which for the past thirty years 
+has fulfilled an invaluable role in the development of this field. Additional 
+thanks are due to the National Science Foundation and the David Taylor 
+Naval Ship Research and Development Center for their support of the 
+research activities that have filtered down into these pages.
+Many colleagues and former students have helped significantly with 
+encouragement, advice, and assistance. John V. Wehausen of the Uni­
+versity of California, Berkeley, pioneered in applying the discipline of 
+contemporary fluid mechanics on a broad front to the teaching of naval 
+architecture; he has been generous with his advice as well as his own 
+extensive lecture notes. Justin E. Kerwin of MIT shared in developing the 
+course from which this text has evolved, and he has been particularly 
+helpful in discussing a broad range of topics. Other colleagues to whom 
+I am indebted include Chryssostomos Chryssostomidis, Edward C. Kern, 
+Patrick Leehey, Chiang C. Mei, Jerome H. Milgram, Owen H. Oakley, Jr., 
+and Ronald W Yeung of MIT; Keith P. Kerney, Choung M. Lee, and Nils 
+Salvesen of the David Taylor Naval Ship Research and Development Cen­
+ter; Robert F. Beck and T. Francis Ogilvie of the University of Michigan; T. 
+Yao-tsu Wu of the California Institute of Technology; Odd Faltinsen of the 
+Norwegian Technical University; P. Thomas Fink of the University of New 
+South Wales; and Ernest O. Tuck of the University of Adelaide. Former

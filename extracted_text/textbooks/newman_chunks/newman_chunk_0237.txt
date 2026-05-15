@@ -1,0 +1,152 @@
+= − − 1 2 1 2 / , , , , . as , … (128) Here R = (x2 + z2)1/2, and the constants of proportionality in (127) and (128) may depend on the remaining coordinates, but not on x or R, respectively. With the time dependence (119), these are the most general forms of outgo­ ing waves due to the presence of the body. The incident wave potential ϕ0 is, by definition, excluded from these radiation conditions.
+
+Waves and Wave Effects 
+
+While the radiation conditions may appear contrived or arbitrary, the 
+need for them results from our assumption of sinusoidal time dependence 
+for all previous time. A similar situation was noted in sections 3.13 and 
+5.16, in dealing with viscous diffusion and unsteady lifting surfaces. In 
+those cases appropriate initial conditions were prescribed, to make the solu­
+tions unique. The same approach could be used here with the final results 
+unchanged, but imposing the radiation conditions (127–128) is simpler. 
+This subject is discussed at some length by Stoker (1957).
+The general form of the oscillatory force and moment acting on the 
+body can be inferred by substituting (119) in Bernoulli’s equation. Retain­
+ing only the first-order linear terms in (3), the total pressure is given by
+p
+t
+gy
+A
+i e
+j
+j
+j
+i t
+= −
+∂
+∂+
+
+
+
+
+= −
++
++
+
+
+
+
+
+
+
+
+
+=∑
+ρ
+φ
+ρ
+ξ φ
+φ
+φ
+ω
+ω
+Re
+(
+)
+
+
+
+
+
+−ρgy.
+	
+(129)
+The force F and moment M can be determined by integrating the fluid pres­
+sure (129) over the wetted surface SB. Substituting (129) in (4.81–4.82) gives 
+expressions of the form
+F
+M
+n
+r
+n
+n
+r
+n
+
+
+
+= −
+×
+
+
+
+
+−
+×
+
+
+
+
+∫∫
+∑
+=
+ρ
+ρ
+ωξ
+φ
+ω
+g
+y dS
+i
+e
+S
+j
+i t
+j
+j
+B
+Re
+
+
+dS
+i Ae
+dS
+S
+i t
+S
+B
+B
+∫∫
+∫∫
+−
+×
+
+
+
+
++
+ρ
+ω
+φ
+φ
+ω
+Re
+(
+)
+.
+n
+r
+n
+
+
+(130)
+The three integrals in (130) represent distinctly different contributions 
+to the total force and moment. The first is the hydrostatic component, 
+which is both elementary and important. The second integral in (130) is 
+reminiscent of the added-mass coefficients studied in chapter 4, except that 
+in the present case the potentials ϕj are complex. The resulting force and 
+moment are defined generally in terms of the damping and added-mass coef­
+ficients, corresponding to the real and imaginary parts of these integrals. 
+Finally, the last term in (130) is the exciting force or moment, proportional 
+to the incident wave amplitude. Each of these three contributions will be 
+discussed separately, in sections 6.16–6.18.

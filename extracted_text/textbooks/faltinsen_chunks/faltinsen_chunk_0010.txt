@@ -1,0 +1,122 @@
+value of the horizontal component of the velocity is beneath either a wave crest or a wave trough. It should be noted that the linear theory assumes the velocity potential and fluid velocity to be constant from the mean free-surface to the WAVE PROFILE GIVEN TIME INSTANT x DYNAMIC PRESSURE Z- COMPONENT VELOCITY X- COMPONENT ACCELERATION Z~ COMPONENT ACCELERATION Fig. 2.1. Wave elevation, pressure, velocity and acceleration in long- crested sinusoidal waves propagating along the positive x-axis (see Table 2.1).
+
+20 SEA ENVIRONMENT
+
+free-surface level. This was assumed when the free-surface conditions
+were formulated. The horizontal velocity distribution shown in Fig. 2.2
+for the flow under a wave crest is consistent with linear theory. Fig. 2.2
+also shows the velocity under a wave trough, where we have used the
+analytical velocity distribution up to the free-surface level. It is then
+implicitly assumed that the difference betw nthe horizontal velocity at
+the wave trough and the analytical fictiti Velocity at z=0 is small
+compared with the velocity itself. Fig. 2.3 shows how the pressure varies
+with depth both under a wave crest and a wave trough. It should be
+noted that the ‘hydrostatic’ pressure ‘—pgz’ should cancel the dynamic
+
+Wave propagation direction
+—
+
+Horizontal velocity
+distribution under
+a wave crest.
+
+Horizontal velocity
+distribution under
+a wave trough.
+
+Fig. 2.2. Horizontal velocity distribution under a wave crest and a wave
+trough according to linear wave theory. (The x- and z-axis have
+different scales).
+
+“Hydrostati Cc pressure
+pate ™
+
+_— —— KE
+“Hydrostatic” pressure } x
+Pako | Total_pressure, \ aN
+i P9ka val Be N
+ofal pressure
+| P4920 {
+| \
+KR N Linear
+Linear dyno mic \ dynamic ]
+pressure pressure
+~pav/at ~pavyat
+
+Poa P9ta
+
+i
+|
+|
+|
+I
+[
+|
+|
+
+Fig. 2.3. Pressure variation under a wave crest and a wave trough according
+to linear wave theory.
+
+are
+
+REGULAR WAVE THEORY 21
+
+pressure —p 9/2dt|,-9 at the free-surface (see equation (2.13)). This is
+exactly satisfied at the wave crest in Fig. 2.3 whereas there is a
+higher-order_error u under the wave trough. By ‘higher-order error’ we
+mean that the error is approximatel ortional to €,”, where the order
+n=2. We should note that th dynamic pressure —p Op/dt half a
+wavelength down in the fluid is only 4% of its value at z=0. The
+analytical form of the velocity and pressure distribution that we have
+used is not the only one that wou y fpnsistent with linear theory. For
+instance, if we assume that the e edt ial variation of the velocity
+distribution continues above the mean free-surface, this will also cause
+an error of O(€,”) and be consistent with linear theory.
+
+Linear theory represents a first order approximation in satisfying the
+free surface conditions. It can be improved by introducing higher order
+terms in a consistent manner—a Stokes’ expansion. The next approximation would solve the problem to second order in the parameter
+¢,/4 characterizing the wave amplitude/wavelength ratio of the linear
+
+Tae: Ce ee .
+(first-order) solution. Second-order theory means that we keep in a
+
+consistent way all terms proportional to (&,/A)’ and €,/A. For sinusoidal
+uni-directional progressive deep water waves where the solution in Table
+2.1 represents the first-order (linear) solution, it is possible to show that
+the second-order velocity potential is zero, and that the second-order
+wave elevation €, is
+
+—26,'k cos[2(ct — kx] (2.20)
+
+By combining this with the first- order solution ¢, sin(wt — kx) we see
+that the second-order solution sharpens the wave crests and makes the
+troughs more shallow.
+
+The average fluid velocity at one fixed point in the fluid is zero
+according to the second-order theory. However, if we follow fluid
+particles in time based on linear theory, its average velocity (transport
+velocity or Stokes drift velocity) over one period will be horizontal and
+equal to
+
+.’ we? (2.21)
+
+for deep water. Here 2 is the z-coordinate of the fluid particle in its
+equilibrium position (i.e. when there are no waves). As an example a
+wave of 100m wavelength and amplitude €, of 3m implies a transport
+velocity at 29 = ve
+same place. This has, for instance, consequences for what we mean by
+current and how current velocities are estimated. In our later discussion
+on current loads on ships and offshore structures we talk about an
+ambient constant velocity at fixed points. That means we should not
+include the transport velocity (equation (2.21)) as a current velocity when
+there are waves present. However, this does not mean that mass
+
+\
+Eo)
+
+0 that is approximately 20% of the orbital velocity at the.
+
+ho
+
+‘S

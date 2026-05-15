@@ -1,0 +1,85 @@
+p+ oO a B =45° \ o B -90° \ 0.40 \ N \ aay 0.32 4 \ \ 0.24 0.16 0.08 1.5 1.9 2.2 26 TVgiL Fig. 5.13. Wave drift forces F;, j = 1, 2 for long-crested irregular waves incident on a tanker. The forward speed and current are zero. Infinite water depth. (Hy = significant wave height, 7, = mean wave period, L = ship length, 6 = wave heading with B = 0° being head sea.)
+
+152 SECOND-ORDER NON-LINEAR PROBLEMS
+
+Examples of wave drift forces and moments on a tanker in an irregular
+sea of different wave headings and mean wave periods are presented in
+non-dimensionalized form in Figs. 5.13 and 5.14. The ship speed is
+zero. A JONSWAP spectrum was used in the calculations. Further,
+£ = 0° corresponds to a head sea. A negative yaw moment means that the
+moment tends to rotate the ship to a position with a larger wave heading
+angle. The effect of mean wave period is not so pronounced in the results
+presented in Fig. 5.13 and 5.14 as Strom-Tejsen et al. (1973) showed for
+added resistance of a ship at forward speed.
+
+Viscous effects on mean wave forces
+When wave drift forces become small, viscous effects may contribute to
+drift forces. This happens for semi-submersibles when the incident wave
+amplitude is large relative to cross-sectional dimensions of hull com-
+
+eel VV
+pglZHy32 | sign (Fe)
+
+- 0.10
+
+Oo B:0°
+ee ao B=45°
+9 o B=90°
+-0.08 —,
+NN.
+-0.06 3 NX
+\ "
+NX,
+-0.04 NN
+-0.02
+
+1.5 19 2.2 26 TVg/L
+
+Fig. 5.14. Wave drift yaw moment F, for long-crested irregular waves incident
+on a tanker. Notation as in Fig. 5.13. Positive yaw moment implies
+rotation of the ship towards smaller B-angles.. Moment is with
+respect to the vertical axis through the centre of gravity of the ship.
+The forward speed and current are zero. Infinite water depth.
+
+MEAN WAVE (DRIFT) FORCES AND MOMENTS 153
+
+why viscous effects contribute to mean drift forces. By using a simple
+cross-flow principle for the flow around the pontoons and columns of a
+semi-submersible, decomposing the forces into components along an
+earth fixed coordinate system and averaging the forces over one wave
+period, we will find non-zero mean wave loads that are proportional to
+the third power of the wave amplitude. Let us show this in more detail.
+We will refer to Fig. 5.15 and write the incident wave potential as
+
+o= es e* cos(wt — kx) (5.33)
+
+This means the vertical incident fluid velocity can be written as
+w= wl,e™ cos(wt — kx) (5.34)
+The drag force normal to the pontoon in the N-direction can be written
+
+as
+
+12 p
+Fy=-2] > CpbVRlVel dx (5.35)
+
+-1/2 2
+
+Here Vp is the relative velocity in the N-direction between a strip of the
+
+platform and the incident wave field. It can be written approximately as
+
+273 _ dns _
+
+Vr dt di
+
+w (5.36)
+
+This results in a longitudinal force
+
+!
+
+l ~—+}
+b b
+
+Fig. 5.15, Definition of parameters for calculation of the viscous drift force
+contribution from the pontoons of a semi-submersible.

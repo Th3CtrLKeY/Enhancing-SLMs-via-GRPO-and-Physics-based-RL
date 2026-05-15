@@ -1,0 +1,92 @@
+the body follows from Bernoulli’s equation, i.e. p+4pU2=po +f Ue (6.2) where po is the ambient pressure. The resulting pressure coefficient C, can be written as P—Po +2 C,= =1-—4sin° @ (6.3) P 4pU.. This is shown in Fig. 6.2, where experimental data for three different Reynolds numbers are also plotted. In reality the problem is unsteady. This means the experimental pressure values in Fig. 6.2 are time averaged data. The data are only presented for @-values between 0 and
+
+176 CURRENT AND WIND LOADS
+
+180°. However, the pressure values for a negative @-value between 0 and
+—180° are symmetric about @ = 0. This means there is no mean force on
+the cylinder in the lift direction, i.e. orthogonal to the current direction.
+It is evident from Fig. 6.2 that non-separated potential theory is a poor
+approximation to the real flow. The figure shows that the pressure
+coefficient and therefore also the drag coefficient Cp is strongly Reynolds
+number dependent. We note that the experimental pressure is nearly
+_Constant over a major part of the lee side of the cylinder. We can use this
+observation to express the force on the cylinder in terms of a ‘base
+underpressure’ coefficient
+
+Pa Po
+g=2 (6.4)
+
+5pU.."
+where Py is a constant ‘base pressure’. This can be done approximately
+by assuming potential flow on the upstream side of the cylinder, i.e. for
+@ between —2/2 and 2/2. For all other 6-values we assume a constant
+pressure py. This is obviously in error for @-values in the vicinity of
+fee
+
+P-Po a
+
+Cp = 05p Uso?
+
+NA
+0 20° 40° 60° 80° 100° 120° 140° 160° 180°
+6——
+
+Fig. 6.2. Average pressure distribution p around a smooth circular cylinder in
+steady incident flow. (Rn = U..D/v, D = cylinder diameter, U..=
+incident flow velocity, 6 defined in Fig. 6.1, p>) = ambient pressure.)
+(Roshko, 1961.)
+
+STEADY INCIDENT FLOW PAST A CIRCULAR CYLINDER 177
+
++2/2. However, the major contribution to the drag force comes from
+integrating pressure forces in the vicinity of 6 =0 and |6| =, Further
+shear forces can be neglected relative to pressure forces. Achenbach
+(1968) showed that shear forces on a circular cylinder were between ] and
+3% of the pressure forces. The drag force F,, i.e. the force in the
+incident flow direction, can be written approximately as
+
+=4pU., al (1—4sin? 6) cos @R dé
+
+a2
+
+30/2
++ oy (py Po) cos 6 R d0 6.5)
+w/2
+This means the drag coefficient Cp can be written as
+F,
+Co=T7 wp JpU2D~ =(-Q- (6.6)
+
+From Fig. 6.2 we note that Q =—1.25 when Rn=1.1-10°. From
+equation (6.6) it means Cp = 0.92. This is in qualitative agreement with
+accepted experimental values. If we had used potential theory also on the
+downstream side of the cylinder, the total force would be zero
+(D’Alemberts paradox).
+
+Fig. 6.3 shows experimental values for Cp over a broad range of
+Reynolds number. The effect of surface roughness is included. In
+practice surface roughness due to marine growth in the North Sea may
+represent a thickness of 10 cm down to 40 m below mean water level. For
+
+larger depths a thickness of 5 cm is a more representative value.
+
+op
+
+2000-19-51
+
+900 -10
+700 -107
+
+400 -t0F 5
+
+0.2
+210° 4 6 pet 2 4 6 8 10° 2 4
+
+Fig. 6.3. Drag coefficient Cp of rough circular cylinders in steady incident
+flow for different surface roughness values k/D (k = average height
+
+of surface roughness, D = cylinder diameter, Rn = U..D/v, U.=
+incident flow velocity.) A, R/D = 110- 107°; O, k/D = 450: 107°;
+
+O, k/D = 900: 107°; (Achenbach,
+
+1971).

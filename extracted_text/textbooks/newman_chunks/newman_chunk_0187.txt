@@ -1,0 +1,254 @@
+. (198) This is a simple partial differential equation for γ whose general solution is γ γ ( , ) ( ), . x t x Ut x = + −∞< < −1 (199) Thus, as expected from Kelvin’s theorem, the vorticity is convected down­ stream with velocity U and remains constant in a reference frame moving with the fluid. If (196) is differentiated with respect to time and (198) utilized to inte­ grate over the wake, it follows that
+
+Lifting Surfaces 
+
+d
+dt
+U
+t
+Γ = −
+−
+γ (
+, ).
+
+(200)
+This equation relates the vorticity shed at the trailing edge to the rate of 
+change of Γ, in precisely the sense that was anticipated initially.
+With the vortices in the wake described by (199), we can now construct 
+the complete solution, including an arbitrary vortex distribution on the 
+foil. Separating the integrals over the foil and wake and imposing the kine­
+matic boundary condition (193) on the vertical velocity (195) gives
+v
+x t
+Ut
+x
+d
+t
+x d
+x
+
+
+
+
+
+
+
+
+
+
+( , )
+(
+)
+( , )
+,
+.
++
++
+−
+= −
+−
+−<
+<
+−∞
+−
+−
+∫
+∫
+π
+γ ξ
+ξ
+ξ
+π
+γ ξ
+ξ
+ξ
+−
+	
+(201)
+This is a singular integral equation for the vortex strength; it is identical to 
+(60) except that the integral2 on the left side of (201) is unknown. Ignoring 
+this temporarily, the general solution is given by (73–76) in the form
+γ
+π
+ξ
+ξ
+ξ
+π
+γ ξ
+ξ
+( , )
+(
+)
+(
+)
+( , )
+(
+)
+x t
+x
+x
+v
+t
+Ut
+=
+−
+−
+−
+[
+
+
+
++
+′ +
+′ −
+−∫
+
+
+
+
+
+2 1 2
+2 1 2
+
+
+
+ξ
+ξ
+ξ
+d
+d
+′
+
++
+
+
+
+−∞
+−
+∫
+
+
+2 Γ .
+−
+	
+(202)
+The double integral in (202) can be reduced in a manner similar to 
+(164), by interchanging the order of integration, using partial fractions, and 
+(81–88). Thus it follows that
+γ
+π
+ξ
+ξ
+ξ
+ξ
+ξ
+ξ
+( , )
+(
+)
+(
+)
+( , )
+(
+)
+x t
+x
+x
+v
+t d
+x
+=
+−
+−
+−
+
+
+
++
+−
+−
+−∫
+
+
+
+
+
+
+2 1 2
+2 1 2
+
+
+
+
+1 2
+γ ξ
+ξ
+(
+)
+.
++
+
+
+
+−∞
+−
+∫
+Ut d
+
+−
+	
+(203)
+Here (196) has been used.
+If the Kutta condition is invoked as in (77), the terms in braces in (203) 
+must vanish at x = −1; this results in an integral equation for the wake 
+vorticity,
+ξ
+ξ
+γ ξ
+ξ
+ξ
+ξ
+ξ
+ξ
+−
++
+
+
+
+
++
+=
+−
++
+
+
+
+
+−∞
+−
+−
+∫
+∫
+
+
+
+
+
+1 2
+
+
+1 2
+
+
+(
+)
+( , )
+.
+Ut d
+v
+t
+d
+	
+(204)
+If the wake consists of a single starting vortex far downstream with circu­
+lation −Γ, (204) reduces to the steady-state result (34). In general, Laplace

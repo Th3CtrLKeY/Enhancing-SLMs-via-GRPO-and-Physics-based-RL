@@ -1,0 +1,98 @@
+at the two ends of the plate, because the mapping function is not analytic at these points. This feature is exploited in the Schwarz-Christoffel transformation, where polygonal profiles of arbitrary form are mapped onto a straight line, utilizing products of corner mappings analogous to (50). An extensive treat­ ment of conformal mapping is given by Milne-Thomson (1968). Finally, the Riemann mapping theorem, which states that an arbitrary closed profile can be mapped onto the unit circle, enables the solution for
+
+The Motion of an Ideal Fluid 
+
+the flow past any practical two-dimensional body to be obtained by con­
+formal transformation. However, the practical significance of the Riemann 
+mapping theorem is diminished by the numerical complexity of mapping 
+arbitrary body profiles, and generally speaking other techniques are equally 
+useful under these circumstances. Principal among the alternatives is the 
+representation of the body by a distribution of singularities on the body 
+surface. Before discussing this approach, however, we will first discuss a 
+three-dimensional method more akin to conformal mapping.
+4.9  Separation of Variables
+Aside from guessing solutions indirectly, the simplest technique for solv­
+ing three-dimensional problems is separation of variables. Laplace’s equation 
+is separable in thirteen coordinate systems including rectangular, circular 
+cylindrical, elliptic cylindrical, parabolic cylindrical, spherical, conical, 
+parabolic, prolate spheroidal, oblate spheroidal, ellipsoidal, paraboloidal, 
+bispherical, and toroidal coordinates. The features of these are given in 
+detail by Morse and Feshbach (1953). The cylindrical coordinate systems 
+are generalizations from two dimensions where there is a close relation 
+with complex-variable methods. The essential idea is to assume a solution 
+for the velocity potential as the product of three functions, each depend­
+ing separately on one of the three coordinates. If the coordinate system is 
+separable, Laplace’s equation will reduce to a system of three ordinary dif­
+ferential equations for these three functions.
+To illustrate this method, let us return to the problem of a uniform 
+stream flowing past a sphere. After the introduction of spherical coordi­
+nates (r, θ, α), which are related to the Cartesian coordinates by
+x
+r
+y
+r
+z
+r
+=
+=
+=
+cos ,
+sin cos ,
+sin sin ,
+θ
+θ
+α
+θ
+α
+Laplace’s equation takes the form
+
+
+
+
+
+
+
+
+
+
+
+r
+r r
+r
+r
+r
+∂
+∂
+∂
+∂
+
+
+
++
+∂
+∂
+∂
+∂
+
+
+
++
+∂
+∂
+=
+φ
+θ
+θ
+θ
+φ
+θ
+θ
+φ
+α
+sin
+sin
+sin
+. 	
+(59)
+Assume that the uniform stream at infinity is in the positive x-direction and 
+that the sphere is centered about the origin; then the velocity potential will

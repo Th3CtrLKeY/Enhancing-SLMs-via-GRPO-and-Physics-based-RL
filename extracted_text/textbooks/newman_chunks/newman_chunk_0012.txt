@@ -1,0 +1,41 @@
+when the pressure in the fluid is reduced below the vapor pressure pν, the physical state of the fluid abruptly changes to that of a gas. Thus, while the fluid is extremely inelastic in compression, it cannot nor­ mally sustain significant tension. Dimensional considerations suggest the cavitation number σ ρ ν = − p p U 2 , which is a measure of the likelihood of cavitation and parametrically describes the subsequent details. Here p0 is a characteristic pressure level
+
+Introduction 
+
+in the fluid, such as the hydrostatic pressure at the depth in question, and 
+the vapor pressure pν depends on the properties of the fluid and its tem­
+perature. If the cavitation number is large, cavitation will not occur, and 
+the precise value of σ is immaterial to the description and analysis of the 
+flow. If the cavitation number is sufficiently small so that cavitation occurs 
+in the flow field, dynamic similarity between two flows will exist only if 
+the corresponding cavitation numbers are equal. At normal temperatures 
+pν is substantially less than the atmospheric pressure, and thus cavitation is 
+significant only at very high speeds.
+Fluid motions that have similar geometries but different values of the rel­
+evant physical parameters are said to be dynamically similar if the relevant 
+nondimensional parameters such as the Froude and Reynolds numbers are 
+equal. It follows that the relative balance between the inertial, viscous, and 
+gravitational forces is identical, and the resulting hydrodynamic effects, 
+including fluid velocity, pressure, and forces acting on the boundaries of 
+the fluid can all be analyzed by means of relationships between the two 
+different flows. Dynamic similitude is clearly desirable if one is conducting 
+small-scale model tests that can be used to design large-scale vessels. How­
+ever, the simultaneous scaling of both Froude and Reynolds numbers is not 
+possible, at least for reasonable changes of length scale with water as the 
+full-scale fluid. To see this simply note that the ratio of the Reynolds and 
+Froude numbers, (g1/2l3/2/ν), must stay constant. For a model length sub­
+stantially smaller than the full-scale vessel, either the gravitational accelera­
+tion must be increased or the viscosity coefficient decreased, by an order of 
+magnitude. The former suggests a centrifuge and the latter a superfluid, but 
+neither is amenable to exploitation in this context.
+This discussion of dynamic similitude demonstrates that assumptions 
+or simplifications are often necessary to apply experimental methods with 
+models to the hydrodynamics of ocean vessels. This is equally true, if not 
+more so, if one wishes to pursue a strictly analytical prediction based on 
+rational mechanics. Ultimately, therefore, we must expect both experi­
+ments and theory to be used and to be supplemented by full-scale observa­
+tions to verify the original predictions.
+In the theoretical approach the motion of the fluid is defined at each 
+point in time and space by a kinematic description, usually of the vectorial 
+velocity of the fluid particles or alternatively of the three scalar compo­
+nents of the velocity. This unknown velocity function is related by means

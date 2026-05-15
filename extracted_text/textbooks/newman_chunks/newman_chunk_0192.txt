@@ -1,0 +1,181 @@
+   (220) Thus, for sinusoidal time dependence, the memory effects of the wake can be expressed as frequency-dependent force coefficients proportional to the ratio of the Hankel functions: C k H k H k iH k ( ) ( ) ( ) ( ). ( ) ( ) ( ) = + (221) This ratio is called the Theodorsen function and is plotted in an Argand diagram in figure 5.33. For low frequencies, the limiting value of the
+
+Chapter 5
+Theodorsen function is 1.0, and the lift and moment reduce to their quasisteady-state values.
+The cases of greatest practical interest are oscillatory rigid-body motions 
+in the vertical direction (heave) and about the origin (pitch). These dis­
+placements of the foil will be denoted by
+h t
+h ei t
+( )
+Re
+,
+=
+
+ω
+	
+(222)
+and
+α
+α
+ω
+( )
+Re
+,
+t
+ei t
+=
+
+(223)
+respectively, where h0 and α0 are complex constants. The resulting oscilla­
+tory mean-camber line is η = h + αx, and the normal velocity follows from 
+(193),
+v
+x t
+h
+x
+U
+0( , )
+.
+=
++
+−
+
+α
+α 	
+(224)
+Here a dot denotes the time derivative. Substituting these results with (214) 
+in (220) and evaluating the integrals using (78–79), we find that the lift 
+force is given by
+L
+U
+e
+C k
+ikh
+ik
+h
+U
+i t
+= −
+−
++
+
+
+
+
+
+
+
+
+{
+} −
+−
+
+
+
+
+
+
+
+πρ
+α
+πρ
+α
+ω
+Re
+( )
+(
+).
+
+
+	
+(225)
+The last term in (225) has been left in a general time-dependent form to 
+emphasize its origin in the added-mass sense. This contribution to the lift 
+force can be derived from equation (4.115), after noting that the velocity of 
+the foil in a body-fixed reference frame is given by
+Figure 5.33
+The Theodorsen function (221) representing the reduction in amplitude and shift in 
+phase of the lift force due to a vertical oscillation h. (From Bisplinghoff, Ashley, and 
+Halfman 1965)
+
+Lifting Surfaces 
+
+(
+cos
+sin , cos
+sin
+)
+(
+,
+).
+U
+h
+h
+U
+U h
+U
+α
+α
+α
+α
+α
++
+−
+−
+
+
+	
+(226)
+No consideration has been given to the drag force, which results in part 
+from the normal component on the foil and in part from the leading-edge 
+suction force. This component is particularly important for flapping pro­
+pulsion and has been studied extensively in the context of bird and fish 
+propulsion. A particularly simple result follows by considering the heaving 
+motion of a flat plate; here there is no normal component of the drag force 
+along the plate, and the leading-edge suction force is by its nature a nega­
+tive drag, or positive propulsion force. This interesting area of unsteady 
+hydrofoil theory has been studied by Wu (1971) and by other authors cited 
+in that reference. More recent contributions can be found in Wu, Brokaw, 
+and Brennen (1975).
+5.17  The Sinusoidal Gust Problem
+If the velocity of the hydrofoil is steady, but the surrounding fluid is in a 
+state of nonuniform motion, the resulting interaction between the foil and 
+the fluid will be unsteady. Examples of this are the motion of hydrofoils in 
+waves and of propeller blades in a spatially nonuniform wake. This type of 
+unsteady lifting-surface problem, which is known as a gust problem, dif­
+fers from those problems treated in sections 5.15 and 5.16 where the foil 
+is unsteady and the undisturbed velocity field of the surrounding fluid is 
+uniform.
+The boundary condition on the foil, in the presence of a gust, can be 
+derived from (192–193) by adding the gust potential ϕg to the perturbation 
+potential ϕ associated with the foil. The boundary condition (193) takes the 
+modified form
+v x
+t
+n
+t
+U
+n
+x
+v
+x
+t
+g
+( , , )
+( , , ),
+
+
+= ∂
+∂−
+∂
+∂
+−
+	
+(227)
+where vg denotes the upwash of the gust on the foil. Thus, if the foil is fixed, 
+the results obtained in sections 5.15 and 5.16. can be utilized for the gust 
+problem simply by setting v0 = −vg.
+We shall restrict our attention here to gusts that are sinusoidal functions 
+of x + Ut, and thus steady with respect to the free stream. If α0 is the ampli­
+tude of the resulting change in angle of attack, vg can be written in the form

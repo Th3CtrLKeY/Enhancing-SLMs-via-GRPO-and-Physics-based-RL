@@ -1,0 +1,104 @@
+is twice as large as in equation (7.20). Wang’s (1968) analysis shows that we may write the drag coefficient on a circular cylinder in unseparated laminar high Reynolds number flow as ST (aby + (BY — mB) 7.21) where 6 = Rn/KC = D?/(vT). This differs both from equation (7.20) and Stokes’ solution. The drag coefficient can be very large, (actually it goes to infinity when KC—> 0), but this does not mean that the drag-force is large. ; Cp=
+
+EMRE
+
+238 VISCOUS WAVE LOADS AND DAMPING
+
+Johnson (1978) has given empirical formulas for shear stress that apply
+to turbulent flow along fixed plane surfaces. Outside the boundary layer
+the flow is oscillating harmonically. When the surface is smooth, Johnson
+writes the maximum wall shear stress ty.n aS
+
+2 wm
+re = 0.09 RE~°? (7.22)
+where ;
+Uim
+=a. (7.23)
+
+Here U},, is maximum tangential velocity just outside the boundary
+layer. RE = 10° is proposed as an engineering criterion for transition to
+turbulence. Equation (7.22) can be used as a basis for establishing
+slow-drift. viscous surge damping of a ship. We can multiply |t,| by the
+wetted body surface and (1+), where k is a form factor with a similar
+meaning as for viscous resistance of a ship (see discussion after equation
+(6.25)). Typical k-values for viscous resistance vary between 0 and 0.5.
+
+: SEPARATED FLOW AT SMALL KC-NUMBERS
+Bearman (1985) has reported the behaviour of the flow around a circular
+cylinder for different KC-numbers when the ambient flow is planar and
+harmonically oscillating. For KC<7 he says the flow is symmetric. This
+implies zero lift force. However, we cannot set up precise limits for the
+onset of asymmetric flow. For instance, the data by Bearman (1988) show
+that KC = =5 is a limiting value between symmetric and asymmetric
+flow. Bearman (1985) reports that a change in the vortex shedding
+appears at KC=7 or 8. The majority of the vortex shedding takes place
+only on one side of cylinder. The flow has a strong memory in this range.
+Between KC = 15 and 25 a vortex is shed before the end of a half cycle.
+In addition a second vortex forms from the same shear layer. Vortices
+shed previously combine with the new vortices so that vortex pairs travel
+away in two trails at roughly 45° to the direction of the main flow. The
+directions can be switched. This depends on the starting condition. At
+KC>25 at least three full vortices are shed per half cycle. The wake
+resembles the wake in steady flow, i.e. the vortices tend to form a street
+behind the body.
+
+Results for low KC-numbers (KC < ~10) have relevance for damping
+of slow drift motions of moored structures and roll damping of ships and
+barges. Graham (1980) has done an interesting analysis for KC—0,
+which can be used to explain experimental results for KC< ~10. His
+analysis includes only the effect of separated flow on the pressure
+distribution around the body. Viscous shear forces have to be added.
+Graham argued that the different behaviour of the drag coefficients of
+different sections at small values of KC is due to the relative strengths of
+
+SEPARATED FLOW AT SMALL KC-NUMBERS 239
+
+the vortex shedding, a circular cylinder obviously being much weaker
+than a flat plate, for example. He assumes that the vortex flow for a small
+Keulegan—Carpenter number depends only on the local flow around each
+sharp edge. The edge is characterized by its internal angle 6. That means
+for a flat plate 6 = 0 and for a square section 6 = 2/2. The vortex force
+Fy on a sharp edge acts along the perpendicular to the bisector of the
+edge angle. It can be shown to be proportional to KC”, where
+n = (26 — 2)/( — 28).
+
+This means that, for example, the drag coefficient Cp for small
+KC-numbers should vary as
+
+Cp «KC75 for a flat plate
+« constant for a square section
+« KC for a circular cylinder (regarded loosely as a
+sharp-edged section with 6 = zr)
+
+These variations are in quite good agreement with measured data for
+KC < 10, for bodies in planar ambient flow (Graham, 1980). The
+experimental data for a diagonal and facing square have later been
+corrected by Bearman et al. (1984a). The experimental results show
+that
+
+Cp ~ 8.0 KC (flat plate)
+
+Cy ~ 5.0 (diagonal square)
+
+Cy ~ 3.0 (facing square) (7.24)
+Cy ~0.2KC (circular cylinder)
+
+The results for a circular cylinder are only of a qualitative nature. This is
+evident by comparing with Sarpkaya’s (1986) experimental results.
+Sarpkaya examined a circular cylinder in planar oscillatory flow of small
+amplitude. The results were presented for different KC and f-values
+(8 = Rn/KC). When the boundary layer flow was laminar and the flow
+did not separate (i.e. KC<~1) Wang’s formula (see equation (7.21))
+agreed well with the experimental results (see Fig. 7.8). When KC > ~2
+we note that the Cp-values start to increase with KC-number. This is
+what Graham’s asymptotic solution says. However, one should note that
+his theory is based on the separation point being fixed. This is not the
+case for separated flow around a circular cylinder, particularly at small
+KC-numbers.
+
+The nature of the ambient flow is important. The results by Chaplin
+(1984, 1988) demonstrate this. Chaplin (1988) presented data for a
+submerged horizontal circular cylinder in beam sea waves at small
+KC-numbers. The ambient flow was either nearly circular or elliptical.
+Chaplin argued that a circulation is set up around the cylinder. This has
+a large influence on the mass coefficients. In the particular case of a

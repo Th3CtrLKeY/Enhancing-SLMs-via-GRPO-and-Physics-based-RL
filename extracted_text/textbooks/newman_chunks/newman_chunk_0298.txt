@@ -1,0 +1,100 @@
+ε ε ε ε ε ε 5. Yaw ε ε ε ε ε ε 6. Pitch ε ε ε ε ε 2 log ε ε ε ε Note: FB denotes the body-induced pressure force, FM the body-mass force, FHS the hydrostatic force, and FFK the Froude-Krylov force due to the pressure field of the undisturbed incident wave. The dominant terms in each mode are indicated by bold-face type (ε). In all cases the body length is assumed to be O(1).
+
+Chapter 7
+analyzing the vertical force, the variation of the pressure p0 in the hori­
+zontal plane can be neglected, since the lateral dimensions of the body are 
+small compared to the wavelength. For deep water, using the incident wave 
+potential (6.16) and the linear form of Bernoulli’s equation (6.3), it follows 
+that
+F
+gA
+e
+S y e dy
+FK
+i t
+ky
+T
+=
+′
+
+
+
+
+
+
+−∫
+ρ
+ω
+Re
+( )
+.
+
+(83)
+Assuming the spar buoy is unrestrained, an equation of motion for 
+heave follows by equating the exciting force (83) to the body-mass and 
+hydrostatic forces. Thus
+[
+( )]
+( )
+,
+−
++
+=
+′
+−∫
+ω
+ρ
+ξ
+ρ
+
+
+
+
+m
+gS
+gA
+S y e dy
+ky
+T
+	
+(84)
+where
+m
+S y dy
+T
+=
+∀=
+−∫
+ρ
+ρ
+( )
+
+(85)
+is the body mass, and ξ3 is the complex heave amplitude. Equation (84) can 
+be solved for ξ3. An obvious feature of the result is an unbounded resonance 
+at the natural frequency
+ωn
+gS
+=
+∀
+[
+( )/
+]
+.
+/
+
+1 2 	
+(86)
+Except for the immediate vicinity of resonance, the simple solution of 
+(84) is quite accurate, as shown in figure 2.16. To render this solution valid 
+near resonance, a damping coefficient of order ε4 can be derived from the 
+Haskind relations (6.173). However for long cylindrical buoys, the resulting 
+wave damping will be exponentially small in proportion to e−2kT. Under this 
+circumstance viscous damping may be significant. Another higher-order 
+effect that manifests itself near resonance, as shown in figure 2.16, is the 
+reduction of the natural frequency due to the added mass of the body.
+A complementary analysis is required for the horizontal force on a ver­
+tical spar buoy and for the resulting motions of the buoy. The inner flow 
+near a body section can be analyzed using the technique developed in sec­
+tion 4.17, where the slowly varying velocity field is the horizontal compo­
+nent of the incident wave. Thus, if the incident waves are moving in the

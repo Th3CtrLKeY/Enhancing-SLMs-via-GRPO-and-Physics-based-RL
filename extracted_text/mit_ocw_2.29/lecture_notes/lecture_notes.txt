@@ -1,0 +1,9494 @@
+[Page 1]
+13.024 - Numerical Methods in Incompressible Fluid Mechanics
+
+Lecture Notes — Version 3
+
+By Jerome H. Milgram
+
+Spring 2003
+
+---PAGE BREAK---
+
+[Page 2]
+mMBL
+
+INCOMPRESSIBLE FLUID MECHANICS BACKGROUND
+
+V =iut ju+kw
+
+Conservation of Mass, Continuity Equation
+divV =V-V=0
+Ou 4 Ov in Ow _9
+Ox Oy Oz |
+
+Newtonian Dynamics, Navier-Stokes Equations
+
+DV _ ov 1 -
+= V-V)V =--VP 4+ 0V°V
+De + ( \V D +V
+P is the dynamic pressure. The total pressure, Pr, is the sum of the
+dynamic pressure and the hydrostatic pressure, -pg z, where z is positive
+
+‘ upwards. Pr = P— pgz.
+
+Ou Ou Ou Ou 10P (5 Oru a
+
+a dc ay ae par lam ap ae
+
+ov, Ov, av, dv 10P | (a, Hy, dy
+Ot Ox Oy Oz = p dy Ox? Oy 02?
+
+Ow du Ow ay Ow _10P ) (Fw , Fw 4 Ow
+Ot Ox Oy Oz op Oz Ox? —s Oy*— 2?
+
+---PAGE BREAK---
+
+[Page 3]
+PARTICLE IMAGE VELOCIMETRY
+
+Laser
+
+---PAGE BREAK---
+
+[Page 4]
+PIV Example
+
+u and v can be measured, so oe and om are known.
+
+ow _ du _ a
+Oz Ox Oy
+
+If PIV is done on multiple planes inside a fluid domain, then 2 5; is known
+over the whole domain. At a rigid boundary, w = 0 and, in principle, w
+can be found anywhere by:
+
+z Ow
+~ Fruncary a,
+
+Example
+
+In a domain bounded by 0 < z < 4, u = (3e” — ze” — 3)sinz and v = 0
+over a range of x and in 0 < z < 2. In this sub-domain,
+
+ou = (3e* — ze* — 3) cos(x)
+ae = —(3e* — ze* — 3) cos(z)
+
+w= [eae = - [Se — 3 — ze* + e* — 1 — 32] cos(zx)
+
+w= L5 oe de = = — |[4e* — 4 — ze’ — 32] cos(x)
+
+---PAGE BREAK---
+
+[Page 5]
+-2
+
+Velocity Field at z = 0.4
+
+—-——
+
+---PAGE BREAK---
+
+[Page 6]
+0.5
+
+dw/dz and w(z) at x = 1
+
+T
+
+mle
+
+15 2 2.5
+
+BLE
+
+3.5
+
+---PAGE BREAK---
+
+[Page 7]
+FPmneic.
+
+A More Interesting PIV Example
+
+Consider the following flow for z > 0 in a range of x and y. Of course, in
+an experiment you would not know the mathematical formulation. Rather
+you would just measure u and v over a set of (x,y,z) points.
+
+u(z,y,z) = (3e°' — 3cos z) sin y COS Z
+u(z,y,z) = (3e°'7 — 3cos z) cos y
+The x and y derivatives of the velocities can be computed numerically
+
+from the measurements. If the experiment were done well, they would
+have values according to the following formulae:
+
+5. = — (3e°7 — 3cos z) sin y sin x
+O
+3y =— (3e°17 — 3cos z) sin y
+Then, the continuity equation is: ow = _Ou _
+Oz Oz Oy
+
+The experimentally determined values would have the values given by:
+
+Ow
+
+ar (3e°"7 — 3cos z) sin y(sin x + 1)
+
+Integrating 2 from 0 to z at a prescribed value of (x,y) would give w(z)
+there. The values obtained would obey:
+
+w = (30e°'* — 30 — 3 sin z) sin y(sin z + 1)
+
+---PAGE BREAK---
+
+[Page 8]
+FPMEID
+
+DE
+
+AAW
+
+- lO eS ee re te
+
+|
+|
+
+\
+‘
+w
+
+i
+
+/
+
+A}
+AARLIXNNNNN | of 7 777 FINNS ™
+
+tae
+.
+
+° @ -) é oO w t o N = oY
+
+---PAGE BREAK---
+
+[Page 9]
+FMBIE
+
+dw/dz and w(z) at x=1, y=1
+
+---PAGE BREAK---
+
+[Page 10]
+AVERAGED NAVIER-STOKES EQUATIONS
+
+>
+
+V=aVeu
+
+28) 4 (+8)-9] (F+8) -—lv P 9) 4092(F 42)
+Take Average of of above equation:
+
+a +P) - —SVP +9V"V
+
+(V +04) -¥] (V0) =(0-V)V + (oY
+Thus, the Reynolds-Averaged Equation is:
+
+V ——
+Ve. VV +(v'- V)v’ =-SVP +¥V'V
+
+The ”Reynolds Stress Term” is:
+
+(v'-V)vl = (we te tw im) +
+
+O Oy Oz
++( ,Ov Ov! Ov!
+i(w5 va tus) +
+E(w + + wi)
+6) Oy Oz
+
+---PAGE BREAK---
+
+[Page 11]
+THE PRESSURE EQUATION FOR AN INCOMPRESSIBLE
+FLUID
+
+Start with the Navier-Stokes Equation
+
+ov +(V-V)V= -5vP +vV?V
+
+Take its divergence.
+
+Because V-V = 0, the only non-zero terms are:
+
+div(V-V)V = _iv?p
+p
+
+Working out the details of the LHS and interchanging the LHS and the
+RHS results in:
+
+ou) (2) (22) Ov Ou Ow Ou Ow Ov
+
+—— 2 — ——
+sy Pe (a dy dz ie
+
+du\? (Ov\?_ (Ow\?—_Avdu_—-_Awdu—s_ wv
+2 —_ — ——_ — —_—— _—_ —__
+viP= | (5) +(%) +(52) y2byde bee Oude
+
+The pressure, P, satisfies Poisson’s Equation driven by products of the
+spatial derivatives of the velocity. This is different than the common
+Bernoulli Equations because here the flow can be unsteady and rotational.
+
+---PAGE BREAK---
+
+[Page 12]
+eit 4
+
+The Vorticity equation
+
+vorticity = w = curl V=HVxV
+
+Start with the Navier Stokes equation:
+
+=>
+
+V => => 1 =>
+ov +(V-V)V =--VP+1V°V
+ot p
+
+Take the curl of this equation, term by term:
+
+92 4 (0 -V)@ + (w-V)F = Ve
+
+Da
+
+———~—“ — — . 7 2
+Dt (o-V)V+uV'o
+
+The first term on the right hand side is the rotation and stretching of the
+vorticity by the non-uniform velocity field.
+
+---PAGE BREAK---
+
+[Page 13]
+Inviscid Fluid Mechanics, Euler’s Equation
+
+Set the viscosity, . and the kinematic viscosity, vy to zero. Apply these
+“settings” to the Navier Stokes Equation.
+
+DV av
+
+~ => 1
+aaa -V)V =—
+Di i +(V-V) pve
+
+Ou Ou Ou Ou 10P
+— + us += +0 =
+
+ot Ox Oy Oz p Ox
+
+OO eg Ot = 1 OP
+at ar dy Oz pday
+
+Ow Ow Ow Ow 10P
+a tua tup tus = --
+
+ot Ox Oy Oz p Oz
+
+---PAGE BREAK---
+
+[Page 14]
+FMB Sat)
+
+Bernoulli Theorems for Inviscid Flow
+
+Theorem 1 - Irrotational Flow
+
+Vector Identity
+
+(v-v)v = 5V(IVP) - Vx (VxV)=5V(WP)-V xo
+
+1 P
+Let H=-=(\V\)?+—
+et 5 (V1) + ,
+
+For Irrotational Flow, V =V¢ and VxV =0
+B) _ _ 86 Z
+aVetVH= Va, +4) —0
+
+Og
+at F=f)
+- The function f(t) can be absorbed into ¢ by letting ¢ = ¢' + ff, f(t)dt and
+V=aVP¢’. |
+
+U
+oo og ~ + f(t) 80, +H = 0
+Finally rename ¢’ as @.
+Of LH =0
+ot
+Remember that the total pressure, Pr = P — pgz.
+
+0 |
+45 5(V)? +2 age=0
+
+---PAGE BREAK---
+
+[Page 15]
+FMRS@ (2)
+
+Theorem 2 - Steady Flow
+
+ave} - 1
+
+a lope
+Avot 5V (Ib
+
+4 1
+*) -Vx@+ “VP =0
+
+Vet VH-Vxa=0
+
+Thus, for steady flow:
+Vxw=VH
+
+Streamlines and vortex lines are perpendicular to VH.
+
+Along either a streamline or a vortex line, H is a constant. So on any one
+
+of these lines,
+
+1 P ti3 P.
+H= 5 V)" + D = a VY) + o + gz = constant
+
+If the flow is both steady and irrotational, H is the same everywhere
+because VH = 0.
+
+---PAGE BREAK---
+
+[Page 16]
+POPNNS 6 rib)
+
+Vorticity Dynamics and Kelvin’s Circulation Theorem
+Circulation = T = ¢V -dr= fe - ds
+
+DV 1 4
+— = VP 4 V°V
+Di ay +)
+
+Identity for an incompressible fluid: VV =-Vxo
+D ~
+pv = _iyp —-V’VxX@
+Dt p
+
+Following a closed material curve,
+
+= = BY dr iis ar—v fv xo): dr
+= —v $(Vx@)-d .
+
+Kelvin’s Circulation Theorem
+
+In an inviscid fluid, < =0
+
+w=
+
+Corollary: In an inviscid fluid with no circulation (such as starting from
+rest) the circulation remains zero.
+
+watts
+
+---PAGE BREAK---
+
+[Page 17]
+Practical Implication
+
+In a high Reynolds number streaming flow, fluid which has not passed close
+to a boundary or a free surface has negligible vorticity.
+
+Therefore, in high Reynolds number streaming flows, vorticity is limited
+to boundary layers, separated zones, and wakes.
+
+Concept of Vortex Lines
+
+vortex lines
+
+This line represents the vorticity in
+this area which is the circulation
+around its
+
+boundary
+
+Each line represents circulation around an area which is the same
+as the vorticity inside the area.
+
+o=curlV=VxV
+
+Therefore: diva =V-w=0
+
+The vortex field is solenoidal. Vortex lines are continuous. They can have
+curves and turns,but they cannot have ends in the fluid.
+
+---PAGE BREAK---
+
+[Page 18]
+FMBCA
+
+$f.
+SL = evel, &L
+
+_ i Lift /unit S Pan
+[= ey wax ( Joni Stor
+
+---PAGE BREAK---
+
+[Page 19]
+Fmg6 8
+
+yYaqqny
+
+NYALs
+
+---PAGE BREAK---
+
+[Page 20]
+reps
+
+eMB?
+
+Potential Flows and Mostly Potential Flows
+
+For an irrotational fluid V x V = 0
+
+This means that there exists a velocity potential, ¢, such that,
+
+V=V¢
+
+For an incompressible fluid V - V=0
+
+Thus, V -(V¢) =0
+
+V7 =0
+
+For a completely potential flow, the velocity potential satisfies Laplace’s
+equation.
+
+For an incompressible flow that is “nearly” irrotational except in boundary layers and wakes, the flow outside these boundary layers and wakes
+is approximately described by a velocity potential that satisfies Laplace’s
+equation.
+
+---PAGE BREAK---
+
+[Page 21]
+Green Functions, Green’s Theorem and Boundary Integral Equations
+
+The following development is for three-dimensional flows. The development is
+similar for two-dimensional flows except that two dimensional source functions
+are involved and the dimensionality of some integrals and associated constants
+are different.
+
+Green’s Theorem
+
+If ¢ and w both satisfy Laplace’s equation (V7¢ = 0, V7 = 0), then:
+
+/ J, [e% - v2] a5 = [ f J, ov'w— vv*¢]av =0
+
+Green Functions A three-dimensional (£, 1, ¢) space is considered with a “sink” at
+location (x,y,z). The ”sink” has the velocity potential ~,,
+
+1 1
+Y= Tene two eso
+
+where: r = (x — €)? + (y—)? + (2 —€)?
+
+Importantly, V7~), = 0 both for the differentiations done in (£,7,¢) space as well
+as for the differentiations done in (x,y,z) space. The following development can
+be formulated either way and we will choose to differentiate over (€,7, ¢).
+
+A Green Function, G is:
+
+where, V7, = 0 in the fluid domain, and (2, y, z) is called the point P.
+
+F-Luto
+
+---PAGE BREAK---
+
+[Page 22]
+FYE 300( 2)
+
+If P is outside the fluid domain, the bracketed terms on the right hand side in
+Green’s Theorem are zero. However, if P is inside the fluid domain, V?~) 4 0 at
+P. Then, if P is enclosed by a small sphere of radius €, which is excluded from the
+fluid domain, Green’s Theorem applies in the modified fluid domain. However,
+now the integrals include an integral about the small sphere.
+
+AG dd
+I Teccopnere los — ox dS¢.n,¢ =0
+
+[Ices = “OPW ig = AAP
+Ih oe ~ git =] dsence = —4n¢|[P(a, y, z)|
+
+If P(x, y, z) is on the boundary, the integral is not defined. However, if we replace
+the real boundary by one which has an infinitesmal hemisphere syrrounding P,
+the Green Function integral is zero because the functions have no singularities in
+the revised fluid domain.
+
+nN
+?
+cr r=E
+f- Luo
+a __
+od Jar
+
+I Tesnemisprere oe 7 ead dsence = 0
+
+OG —1
+/ hemisphere oa, 8 ~ ~9|P(x, Y Nx ame = 2ng|P(z, Y, x)|
+
+[ [O52 - CSE] asene = ~4rd1P(o, 9,2)
+
+---PAGE BREAK---
+
+[Page 23]
+FMB Goors)
+
+Putting the preceding parts together, if a closed fluid domain of surface S is
+considered with 7 being the outward normal vector (out of the fluid) and wy is
+taken as G with proper exclusion of the singular point of G when (z, y, z) is inside
+the domain or on its boundary,
+
+0 (x,y, z) outside S
+If; os — as] dS = ¢ —2nd(zx,y,x) (x,y,z) on S
+
+The integral is over the closed area in (€,7,¢). When the singular point is on the
+surface, an infinitesimally small circle surrounding the singular point is excluded
+from the integral.
+
+---PAGE BREAK---
+
+[Page 24]
+FMB %ooFA
+
+Example of method of solution
+
+Generate integral equation on surface of an object in a uniform flow.
+
+Suppose uniform flow onto an object is known
+oe is known.
+
+@=-Uzxz+¢
+
+Boundary condition: ge = 0,
+
+—Ui-ni+2%=0, 2=vUi-n
+
+If lo ~ovi-l= Ind
+
+[ [,o92as + 2nd = | [,GUi-nas
+
+Right hand side is known in integral equation for ¢ on boundary.
+Solve for values of ¢ on boundary (panel methods).
+Then ¢ and oe are known on boundary.
+
+Green’s Theorem then gives ¢ in all space.
+
+---PAGE BREAK---
+
+[Page 25]
+Fe grr
+
+Interpretation of Boundary Integral Equation
+in terms of source and Dipole Layers
+
+ia [Z 1 6 a os | {0 (x,y,z) outside $
+
+Ar ane An” On | d(2,y,2) (x,y,z) inside $
+“Inside S” means inside the fluid and outside “‘S” means outside the fluid.
+G is the potential of a ”unit sink” and -Og/On is the potential of a unit
+dipole.
+
+The Green’s Theorem integrals are integrals of sink distributions per unit
+area of (1/47)0¢/On over the object and of dipole distributions of strength
+
+per unit area of ¢/47 over the object. ¢
+The sinks f2¢
+an"
+
+Consider the effect of a unit sink.
+LV,
+n ] J 1
+C) @=-, Va=—7z, influx = 4nr? — An
+° r
+
+Now, look at the small patch of area A on the surface:
+
++V
+B+ts Sink Patel
+
+1 B-Vs
+
+B is the effect of the integrals on the remainder of the object. Call the
+sink strength per unit area o. Total sink Strength on the patch is oA.
+
+Net influx, based on the velocities is 2AV,.
+2AV;, =4r0A 2V, = 4n0
+
+---PAGE BREAK---
+
+[Page 26]
+fm b 6 Prf(2y
+2V, is the jump in normal velocity. This must equal the normal velocity,
+
+O¢/On in the fluid at the boundary since V = 0 inside the object.
+Od 1 Oo
+
+— -—Anrno c= —
+
+On An On
+
+Now consider an infinitesmal dipole patch of strength pu
+
+== ae. = T= “4/2
+
+£ (poneele [4- rc ro
+a Vy
+
+¥ -Al¢ Velocity
+
+Inside the infinistemally thin dipole layer of thickness @,
+AT UL
+
+v= 7. ? in fluid ~ Pinside object ~ Any
+since: inside object — 0,
+
+Pin fluid = 47H b= a, 7in fluid
+
+---PAGE BREAK---
+
+[Page 27]
+Kelvin-Neumann Problem
+
+---PAGE BREAK---
+
+[Page 28]
+Fmb ts-
+
+The Kelvin-—Neumann Problem
+
+6=2] a ssusy les an - $5] as
+
+@ is the perturbation potential (does not include —Uz).
+
+The integral over S,, which is the part of the ship hull below the waterline
+is of the same form as a Green’s theorem or “panel method” integral for
+any finite size body, except here the top is open.
+
+@ and G decay with distance from the ship fast enough for the integral
+over 53 to vanish.
+
+The integral over S:, which is the free surface external to the ship is
+special. We consider it here and call it do.
+
+$2 = a! hes 5. 5a | d= ay
+
+Since n is a unit vector in the z direction on the mean free surface,
+
+ba = =a lL, les dz - 65 | ded
+
+On the mean free surface, ge = ves and we choose G (the KelvinNeumann Green function) such that it satisfies the same boundary condition, 9 = —Z2¢
+
+> Oz g Ox?
+
+Then, applying these boundary conditions, ¢2 becomes,
+
+God _ &’G
+mE | I, [OFS 05S] aoe
+
+— — f- 655] dx dy
+
+o2 = — oan “Sf, |6
+
+---PAGE BREAK---
+
+[Page 29]
+Now, the integral over z can be done. The contributions at x = -+too vanish
+so the result is:
+
+1 U? 0¢ 0G
+
+dr g re | Ox Ox
+
+a ab 26 1 UV? L, [% a6) ,
+
+Yang g “ax” Ox
+
+The curve of the waterline is called C’, with the part forward of the maximum beam called Cy and the part aft of this is called C,. Consider the
+integrals taken along C’ in the counterclockwise direction. Then, dy is
+positive on the forebody (C) and negative on the afterbody (C4).
+
+1U [ [ase - 0G
+
+2 = Ox Ox
+
+d
+dn g rae
+
+If v is the vector in the horizontal plane that is perpendicular to the waterline and pointed out of the fluid into the ship, and dé is the differential
+of arc length along C, along the waterline dy = —v,dé, so,
+
+b= 21h, [ege ose] as-E— f [e505 | vat
+
+Now, consider a potential function, ¢’ defined in the region bounded by S,
+
+and S,. In other words, ¢’ is some function of space such that Vd’ = 0
+
+in the region where it is defined outside the actual fluid. The boundary
+
+condition we impose on ¢’ on S, is the same as the one we impose on ¢ on
+i 2 2 F
+
+Sj. On S; we impose ¢’ = ¢. wo US on Sq
+
+In the fluid region,
+
+,OG
+0= 5] Ios ese On! re | ds
+
+n’ = —n pointed into the fluid on S; and n’ is a unit vector in the z
+direction on S4.
+
+Call the contribution to ¢' from the integral on S4 by $4.
+
+(= goo ZS
+
+' g’ ge
+Se te Ge | dey
+
+---PAGE BREAK---
+
+[Page 30]
+F mB igs--3
+
+Carrying out the integral over x gives,
+
+, 1? O¢' 0G LU d¢' 0G
+wae" |, |O oF lates L,(OF F(a
+
+/ 2 t
+y=? ,|o% gE] ay = 2 [o%
+
+ing lo | ae? Oe wey be \OSe — Ge | at
+
+1 UV? O¢’ ,OG
+0= Ff, \eSG —e5G] +e L, [OSe — OSE vane
+
+o-=/f, C oF gee ea s+ pF f, oe — oR saat
+To this, we add the equation for ¢ derived before:
+
+= a/b e5 oon les Eble oe ~ O ag | Me
+The sum is:
+
+_ Ob Od 1U Op O¢
+o= x! h,¢ Fea +5] as ae hels- Be vet
+
+ra + $6 is the source (actually it is a sink) strength o.
+
+The normal derivative of + 3, jumps at the interface by the source strength,
+o. The tangential derivative of ¢@ is continuous across the interface because
+@ is continuous. oa jumps across the interface by the jump in the normal
+derivative times n,. Therefore,
+
+b= [ [,Gods—= [,Gonzvadl
+
+---PAGE BREAK---
+
+[Page 31]
+The Kelvin—Neumann Green Function
+
+The Kelvin Neumann Green Function, G*(z, y, z) is the velocity potential
+for a source located at (a,b,c) and moving at speed U and which satisfies
+the linearized free surface boundary condition:
+
+This function is:
+
+1 1
+G¥(a,y,z) = 7 + +
+
+oT co ek(zte) _ _ .
+| ” a0 f e cos[k(x — a) cos 6} cos|k(y — b) sin 6]
+
+wn 40 0
+
+dk
+k cos? @—v +
+
+a/2 2
+Av [ / ev(2te) sec" 8 sintu(a — a) sec 4] cos[u(y — b) sin 6 sec? 6} sec? 6d6
+where: |
+
+r? = (¢£—a)’?+(y —b)? + (z—c)’, ry = (x —a)’ + (y—b)? + (z +c)
+
+---PAGE BREAK---
+
+[Page 32]
+Source Only and Dipole Only Distributions
+
+° (X,4,2)
+HYPOTHETICAL REAL d
+FLUID. FLUID
+DOMAIN DOMAIN
+n
+_ yl! o_O
+n= dn = On’
+
+@ is the velocity potential in the fluid.
+
+¢' is a function that satisfies V?¢' = 0 in the region inside the object.
+
+For a field point in the fluid domain, the following equations apply:
+
+oad fortas— 2 J /o%us
+
+1 dd! 1 0G
+0= 7 | [Gz 48-7 | [ox 745
+
+o= A [fortass 2 / [ous
+
+db | a¢' , OG
+b= 7 [ [6 (Fo +55) a5- 2 [o-0) Fea
+
+fk rant
+
+---PAGE BREAK---
+
+[Page 33]
+Suppose ¢’ is chosen as the harmonic function whose values on S are the
+same as ¢. The hypothetical interior flow would have the same tangential
+velocity on the object as the real outer flow. Then:
+
+s=+/ fe (5+ 5) 4s
+
+This is a representation for ¢ in terms of surface sources only.
+
+This representation does not apply to lifting flows since they have wakes
+across which the potential jumps.
+
+Now consider the case for which ¢’ is chosen such that on S, oe = = — of.
+
+The normal velocity is continuous across the surface for this case. Then:
+
+6=-LfJ(e- ¢') oC as
+
+This is a distribution of dipoles on the object surface S.
+
+---PAGE BREAK---
+
+[Page 34]
+Fust 01
+
+Green’s Theorem in Two Dimensions
+
+For two dimensional flow, the source potential is In r and the Green function
+becomes:
+
+G(a,y,€,n) =Inr+¢d,(2,y,€,n) where: V7, = 0
+
+FLUID
+
+The analysis proceeds exactly the same as in the 3D case. When a point
+P = (z,y), which is the local origin for In r, is outside the fluid domain,
+
+[]o5= - O56] as =0
+
+When the point P is inside the fluid domain, Green’s Theorem is valid in a
+domain in which the point P is excluded by a small circle, circle € surrounding
+it since V? 4 0 at P.
+
+OG Od 0G ty)
+Then: — [ ee os — oe ds + I, loa _ ox ds =0
+OG Oo
+Here: — inelee oS — oF ds = —27r¢(P)
+0 (x,y) outside S
+
+Therefore: [, los ~ Cod ds=4 mo(x,y) (x,y) on S
+m m 2no(xz,y) (x,y) inside S
+
+---PAGE BREAK---
+
+[Page 35]
+FP MS$e(2)
+
+Sometimes, the two-dimensional Green function is taken as:
+G(z,y,£,n) = —Inr+ o,(z,y, €,) where: V7), = 0
+Then,
+0 (x,y) outside S
+
+f, | ~ cad ds= 4 —7o(z,y) (z,y) on S
+" " —2r¢(x,y) (z,y) inside S
+
+---PAGE BREAK---
+
+[Page 36]
+FMBY)
+
+Force on a Vortex
+
+\ /
+
+IN
+“ee “
+n = —icos@ — ksin@
+ri, .
+Uy = —5 sind Wy = 5 cosé
+
+p ro. oY? ( r ) 5
+——— a — cos) —
+P 5 (uv oar sin 6) + dor cos U
+P
+
+p{ TU.-. ( r )
+— —£§}__~ ging + { ——
+2 ur sin’ + 2ur
+
+Fp = [" Pnds
+an pl . r 2 -
+= —f £(—Usind +) (—icos@ — isin 6) rdé
+_ G 2n pUT . 2 _ » pUT
+= k f Sap sin?’ Or dd = —k——
+
+Tr
+
+Momentum influx = M;, Uin = iU -n = —U cosé
+
+21 A
+Fu = Mm =p f " kwyVinr dd = ~i
+
+Frotat = Fp + Fy = —kpUT
+
+---PAGE BREAK---
+
+[Page 37]
+Lift on a Vortex in a Cylinder
+
+When a vortex is in a uniform stream, to determine the lift force both the pressure
+force and the momentum influx into a circular cylinder must be considered.
+
+If the vortex is in a flow whose streamlines form a cylinder around it, there is no
+momentum influx so the pressure force is the complete force.
+
+A closed circle in a stream can be represented by a dipole.
+
+The velocity potential of a 2D dipole is ¢q = Apt.
+
+For the flow to make a circle of radius equal to 1 in a stream of speed U, A = U.
+the x— and z—directed speeds on the circle of radius 1 due to the dipole are:
+
+ug = U(z? — x”) = U(sin? 6 — cos” 6) = —U cos 20
+Wg = —2Uzz = —2U sin @ cos 6 = —U sin 20
+
+The speeds obn the circle due to the vortex are:
+
+Tf, iy
+Uy = — 5 sing Wy = 57, COs?
+
+The pressure on the circle is:
+
+P
+
+p T ; 2 ie 2 9
+—~ (u ~ U cos 29 — = sin8) + (—Usin20+ 5 cos6) —U
+2 20 27
+
+_f
+
+|
+
+G + (;-) — 2U cos 26 — UT ein 0 + OT in 6 cos. 20 — OF cos Osin 25
+20 1 1 1
+
+---PAGE BREAK---
+
+[Page 38]
+The vertical force, Fi, is:
+
+F,= [Pn - kdd = cr _P sin 6d6
+
+UT 20
+Fy = of (— sin? @ + sin? 6 cos 20 — sin 6 cos 6 sin 26) dé
+
+T p20
+= ef (— sin? @ ~ 5 cos? 26 — 5 sin* 26) dé
+_ ce (- -5-5)=-
+= oe (OT a7 9g) = UE
+
+---PAGE BREAK---
+
+[Page 39]
+Keita2da(i)
+
+Example: Design of 2D Airfoil Mean Line using Dipoles and Vortices
+
+1 yet Dw
+y P= 5 PU 5PU + u) ~ —pUu
+|
+x é
+€=2/c x= ck dx = cd& n=y/c
+
+Design Condition: Prop = —1.0pU7E(1—€) — Phottom = 1-0eUE(1 — &)
+
+uz = 1.0UE(1 — €) up = —1.0UE(1 — €)
+
+be ude! =c f° udg = LOUe [*(€ — @)d€ = 1.00 (§ _ =)
+
+2° 3
+2 3
+oy = —1.0Ue (§ — =)
+
+b(€=1)=Pue  dl€=1)=—PUe (Ht ~ be)ean = UC
+
+, eC € 1.0
+[Dipole Strength],,;, = « = 2.0Uc 374 Lwake = aU c
+
+G=Inr=In[(e— 2)? + (y—y)"]'" = =In (x — 20)” + (y — yo)?|
+(=) _ _9G (=) _ 9G
+On}, DYo On), Oyo
+
+---PAGE BREAK---
+
+[Page 40]
+Fail cla (2)
+
+Consider the upper surface:
+
+(=) _ _ OG _ Y — Yo
+On}, Oyo (@— Bo)? + (y — Yo)?
+LL) vo
+Hey) = hy Mears yy
+Bb 1 fq.) be = el” + (y= Yo)” = 2(y = Yo)”
+Oy ai [(a — to)? + (y — yo)?}? “Mo
+
+») (2? Gz Lo)” + (y¥ — Yo)? — Ay — Yo)?
+rule f Tea) + woFFP °
+
+oO
+
+_il Lo)” — (y — Yo)” de, stale) [° (x — £0)? — (y — yo)”
+hb a + m0) f [(z — 2)? + (¥ — Yo d
+
+ena + (y = Yo)"}’
+
+Og 1
+se | yet = == [u(x oat + = u(c) i eon Pal
+
+The above analysis has an incorrect non-integrable singularity at x = x, be-
+
+cause a careful limiting analysis requiring V2¢ = 0 was not done.
+
+However, another, and simpler, approach exists.
+
+A dipole represents a jump in the potential. Another way to achieve a potential
+
+jump is a vortex distribution.
+
+In length dz,, vortex strength =y(x,)dz,. y(Z~) is vorticity /unit-length.
+
+u(x) = U + —— 12) up(x) = U — 13) (x) = u(x) — u(x)
+c (Xo)
+v(x) = -f ma nay
+v(x) _ pl_7'(&o)
+slope = TT =[ mle ey
+where: 7'(£) = Kee
+
+pp?
+
+---PAGE BREAK---
+
+[Page 41]
+Now, we can solve for the mean line shape of the airfoil
+
+For an arbitrarily defined pressure distribution, the integral for the slope can
+be done numerically. Here, for the particular pressure distribution given, we
+will solve for the slope analytically.
+
+Then the shape is found by integrating the slope, s(£). This will be done
+numerically.
+
+7'(€) = 2.0€(1.0 — €)
+
+1 €o(1 — €5)
+
+dé,
+“ene, &
+
+'(&)
+= tates aiten ah
+
+(= -2 {5-1-6 [em +4]
+
+Non-Dimensional Height = n(€) = [* s(€.)d&,
+
+---PAGE BREAK---
+
+[Page 42]
+C:\MATLAB6p1\work\foiltd.m Page 1
+July 11, 2002 9:24:51 AM
+
+format compact
+
+x = 0 : 0.01 : 1.0;
+
+fac = -1.0/pi;
+
+Ss = fac.*(0.5 - (1.0-x).*( x.*log((1.0-x+eps)./(xteps))+1.0));
+h(1) = 0.0;
+
+for i = 2:101
+
+h(i) = h(i-1) + (x(i)-x(i-1))*0.5*(s(i)+s(i-1));
+end;
+
+fid = fopen('ht.dat','w');
+
+for m = 1:101
+
+fprintf(fid,'%6.2£ %7.4£ %7.4£\n',x(m), s(m), h(m));
+end;
+
+fclose (fid);
+
+plot(x,s)
+
+ylabel('Slope')
+
+xlabel('\xi')
+
+pause
+
+plot (x,h)
+
+ylabel ('Camber' )
+xlabel('\xi')
+title('Camber vs \xi')
+axis({0 1 0 0.066])
+grid
+
+---PAGE BREAK---
+
+[Page 43]
+oooocoeococoeceooceococodoco0cocococoeoccocdcocdococeccece0co ce cece coeceoco0o0co0co0d0Cceoco0c0o0o0o0oce0cecoo0o0co0a0c0c eo
+
+A
+
+.00
+O21
+.02
+.03
+
+
+.06
+.07
+.08
+
+.10
+-121
+
+.13
+
+
+.16
+
+.18
+
+
+
+
+.23
+
+
+
+
+.28
+.29
+.30
+
+
+.33
+
+
+
+.37
+-38
+.39
+
+
+
+-43
+
+-45
+
+.47
+
+
+.50
+.o1
+
+.53
+.54
+
+
+CLOPE
+
+-1592
+-1705
+
+.1818
+-1853
+.1878
+-1895
+-1905
+.1909
+.1908
+
+
+.1879
+.1862
+.1842
+.1818
+-1792
+
+.1731
+- 1697
+-1661
+
+
+
+-1497
+~1451
+-1405
+.1356
+- 1306
+
+
+.1150
+.1095
+-1040
+
+
+
+.0809
+.0749
+.0689
+-0628
+.0567
+.0505
+.0443
+- 0380
+.0317
+.0254
+-O191
+-0127
+-0064
+- 0000
+.0064
+-0127
+.0191
+
+.0317
+.0380
+
+oN 90000 COCO 0e0c0o0cCe 0cCe0 0C0Ce CCC co0coeceeoece0eoe0ce0ecece0cece0CcC°0cC 9c fF a cecececea0ce0ce0co0 Cc ec 0°
+
+HPELGET™
+
+.0016
+
+
+-0070
+.0089
+.0108
+.0127
+
+.0165
+.0184
+
+
+.0240
+.0259
+-0277
+
+.0313
+
+
+.0364
+-0381
+.0397
+
+
+
+.0457
+.0471
+.0484
+
+
+
+
+
+
+-0562
+.0571
+
+
+-0595
+.0601
+.0607
+.0612
+
+
+.0625
+
+
+-0632
+
+
+
+
+-0630
+. 0628
+.0625
+
+qgooooc0ccecec0cocececaococococcecececnccceoccecooco0ocecocoocoocoococecdnccedcc0cceco°0ce°0coceceo0o°c °c 0°00 cc 00
+
+---PAGE BREAK---
+
+[Page 44]
+POoOocooOoooocooocoocdaeocoeceococoaoaodaocococndcoceccoccecececococeoaocece0o0o0c °c}
+
+
+.59
+. 60
+
+
+- 63
+.64
+.65
+- 66
+
+. 68
+.69
+.70
+
+
+
+
+-75
+
+
+-78
+
+. 80
+
+.82
+. 83
+.84
+
+. 86
+.87
+. 88
+. 89
+
+
+
+.93
+
+
+
+-97
+-98
+
+.00
+
+.0443
+.0505
+-0567
+-0628
+. 0689
+.0749
+.0809
+
+.0926
+-0983
+.1040
+.1095
+-1150
+
+-1255
+-1306
+
+-1405
+~1451
+.1497
+.1541
+.1583
+- 1623
+.1661
+-1697
+.1731
+-1763
+-1792
+.1818
+.1842
+
+-1879
+.1893
+
+.1908
+.1909
+-1905
+.1895
+.1878
+.1853
+-1818
+-L1771
+.1705
+.1592
+
+ooo co co cocccon0gnoocoaoccaoccococa0co0cdooco0cn0co0ocgecoacacodod0o0o°ce0aocce0°0 9c 00°
+
+.0617
+.0612
+
+.0601
+.0595
+-0587
+.0580
+-O571
+.0562
+
+
+.0532
+.0521
+.0509
+.0497
+.0484
+.0471
+.0457
+.0442
+
+
+
+.0381
+.0364
+.0348
+
+
+
+.0277
+.0259
+.0240
+.0222
+.0203
+.0184
+.0165
+.0146
+-0127
+.0108
+.0089
+.0070
+.0052
+.0034
+-9016
+.0000
+
+---PAGE BREAK---
+
+[Page 45]
+0.9
+
+0.8
+
+0.7
+
+0.6
+
+0.5
+
+T
+oO
+o
+[o>]
+N
+Oo
+
+Oo
+oO
+N WwW - LO [o) v9) - w N
+
+adols
+
+---PAGE BREAK---
+
+[Page 46]
+Camber vs &
+
+©
+
+0.05
+
+0.04
+
+Jaquie
+
+© 0.03
+
+0.02
+
+0.01
+
+AT
+
+---PAGE BREAK---
+
+[Page 47]
+SLOPE
+
+height
+
+Ns
+
+0.2
+0.1
+
+-0.1
+-0.2
+
+0.08
+0.06
+0.04
+0.02
+
+0.2
+
+0.2
+
+0.4
+
+0.4
+
+0.6
+
+0.6
+
+fo Htolg ~ Cegutns
+
+0.8 1.0
+
+0.8 1.0
+
+---PAGE BREAK---
+
+[Page 48]
+foiltd
+format compact
+x=0 : 0. 01 : 1.0;
+fac = -1.0/pi
+h@) = 0.0 “C0. 5" - (1.0-x).*C x.*logC(1.0-x+eps) ./Cx+eps))4+1.0));
+for i 2: "401
+oo “hCi-1) + (x(i)-x(Ci-1))*0.5*(s(1)4+sCi-1));
+en
+fid = fopenC'ht.dat’,'w’);
+for m = 1:101
+FprintfCfid,'%6.2f %7.4f %7.4f\n',x(m), s(m), h(m));
+
+end;
+fclose (fid);
+plot(x,s)
+ylabelC'Slope')
+xlabelC'\xi')
+pause +
+
+plot(x,h)
+ylabelC'Camber')
+xlabelC'\xi")
+titleC'Camber vs \xi')
+axis({O 1 0 0.066])
+grid
+
+---PAGE BREAK---
+
+[Page 49]
+foiltda
+% Version of foiltd with one less loop for computing speed improvement
+
+x =0 : O. OL : 1.0;
+fac = -1.0/pi
+= fac.*(C. 5° - (1.0-x).*¢€ x.*log((1.0-x+eps) ./(x+eps))+1.0));
+hd) = 6, 0.05 |
+or 7
+
+hc) = nents + (x(1)-xCi-1))*0.5*(sGi)+sGi-1));
+end;
+fid = Fopen(’ hta.dat’,'w');
+
+q =.[x;s;h];
+
+forint (Hid "%6. of %*7.4F %7.4f\n',q);
+fclose (fid );
+
+plot(x,s)
+
+ylabel('Slope')
+
+xlabelC'\xi')
+
+pause
+
+plot(x,h)
+ylabel('Camber')
+XlabelC'\xi') ;
+titleC'Camber vs \xi')
+axis({[O 1 0 0.066])
+grid
+
+---PAGE BREAK---
+
+[Page 50]
+foiltdb
+% This version uses even more vectorization and no "for" loops at all.
+
+% version of foiltd with one less loop for computing speed improvement
+
+x=0 : 0. 01 : 1.0;
+fac = -1.0 0/pi
+ha) 2° 5. *CO. 5. - (1.0-x).*(€ x.*log((1.0-x+eps) ./(x+eps))4+1.0));
+= 0.0;
+xd = [0 diff]; % This is [0 x(2)-x(1) x(3)-x(2) |
+ss = t0, sq: end- 1) + s(2:end) ] % This is [0 s(2)+s(1) s(3)+s(2)
+= 5*xd .* Ss;3
+h = cumsumCh); % Each element is the sum of the ones bvefore it.
+
+Fi oa fopen! htb.dat','w');
+
+forinth chia: '%6.2F %7.4f %7.4f\n',q);
+fclose (fi d);
+
+plot(x,s)
+
+ylabelC'Slope')
+
+xlabelC'\xi')
+
+pause
+
+plot(x,h)
+
+y label ('Camber’)
+xlabel('\xi')
+title('Camber vs \xi')
+axis({[O 1 0 0.066])
+grid
+
+---PAGE BREAK---
+
+[Page 51]
+C: \MATLAB6p1\work\foiltda.m Page 1
+July 11, 2002 9:23:45 AM
+
+% Version of foiltd with one less loop for computing speed improvement
+
+x = 0 : 0.01 : 1.0;
+
+fac = -1.0/pi;
+
+s = fac.*(0.5 - (1.0-x).*( x.*log((1.0-x+eps) ./(xteps))+1.0));
+h(1) = 0.0;
+
+for i = 2:101
+
+h(i) = h(i-1) + (x(i)-x(i-1))*0.5*(s(i)+s(i-1));
+
+end;
+fid = fopen('hta.dat','w');
+q = (x;s;h];
+
+fprint£(fid,'%6.2£ %7.4£ %7.4f\n',q);
+fclose (fid);
+
+plot (x,s)
+
+ylabel('Slope')
+
+xlabel('\xi')
+
+pause
+
+plot (x,h)
+
+ylabel ('Camber' )
+xlabel ('\xi')
+title('Camber vs \xi')
+axis([0 1 0 0.066])
+grid
+
+---PAGE BREAK---
+
+[Page 52]
+A:\foiltdb.m Page 1
+July 11, 2002 9:35:36 AM
+
+% This version uses even more vectorization and no "for" loops at all.
+% Version of foiltd with one less loop for computing speed improvement
+x = 0 : 0.01 : 1.0;
+
+fac = -1.0/pi;
+
+s = fac.*(0.5 - (1.0-x).*( x.*log((1.0-x+teps) ./(x+eps))+1.0));
+
+h(1) = 0.0;
+
+xd = [0 diff(x)]; %* This is [0 x(2)-x(1) x(3)-x(2) ...]
+
+ss = [0 s(l:end-1) + s(2:end) ] % This is [0 s(2)+s(1) s(3)+s(2)
+
+h = 0.5*xd .* ss;
+
+h = cumsum(h); % Each element is the sum of the ones bvefore it.
+fid = fopen('htb.dat','w');
+
+q = [x;s;h];
+
+fprintf(fid,'%6.2£ %7.4£ %7.4f£\n',q);
+
+fclose (fid);
+
+plot(x,s)
+
+ylabel('Slope')
+
+xlabel('\xi')
+
+pause
+
+plot (x,h)
+ylabel('Camber')
+xlabel ('\xi')
+title('Camber vs \xi')
+axis({0 1 0 0.066])
+grid
+
+---PAGE BREAK---
+
+[Page 53]
+U Se Caigtirie
+
+Some Useful Results from Calculus
+
+---PAGE BREAK---
+
+[Page 54]
+Tus?
+
+Derivation of Gauss’ Theorem
+
+Let f(z,y,z) be a differentiable scalar function of (z, y, z).
+
+By the divergence theorem,
+[V-fidu= [fi-fids= [nsf ds
+
+> O
+vfast
+
+[iv fds [ictav= [inetas
+
+Similarly,
+Of
+Oy
+
+[RV frau = [Lav = [knit ds
+
+Now, add the last three equations together,
+
+[, Vidu = [afds
+
+---PAGE BREAK---
+
+[Page 55]
+/ FJ Hits SexP Or)
+
+Example of Use of Gauss Theorem:
+Froude Krylov Surge Force on a Ship
+
+— Sf
+
+P = pgAe~** cos(ka — wt) F= / [ —pn dS
+
+F,=i-/ [,—Piids=-if [ | VPav
+
+F,=-f ff, or av = pgAk [ [ [ e™ sin(kx — wt)dV
+
+Fy
+
+I
+
+pg Ak | [ [ (1 — kz) sin(ka — wt)dV
+pg Ak I, | / f ection dy dz] sin(kx — wt)dx
+—pgAk* |, / k ection 2 dy dz] sin(kz — wt)dx
+
+F,, = pgAk I, S(2x) sin(ka — wt)dx — pg Ak? I, Zea S(x) sin(ka — wt)dax
+
+- 56
+
+---PAGE BREAK---
+
+[Page 56]
+Jet4ss exA(Q)
+Example with Given Ship Shape
+
+x= -L/2 x=L/2
+I
+
+2wW /L 2
+=p (z72) OP
+For this shape:
+2WD (L 2 D
+se) = 3a (3-2) ca =
+
+Using these values:
+
+Fr, = Sg Ak (1 — ~) {cosut = sin “ + <0 =
+
+nwt I? 4\ . kL 2b 5
+sinwt || >- — 7g] sin->- +73 608-5
+
+Fs = 2 EL (2 — <3) {cosa rye sin kL + | cos =
+pg AW D 3 41 (KL)? 2 kL 2
+—sinwt (az - 4 ) sin + aeeyp 08 |
+kL (kL)$ 2 (kL)? 2
+|-acrn| = aL 0-2) | eae tes]
+pg AW DI} max 3 4. (kL)? 2 kL 2
+
+AG 4) kL, 2 KL)2\ "7
+kL (kL)3)°" 2 "(kL 2
+
+---PAGE BREAK---
+
+[Page 57]
+C:\MATLAB6p1\work\gaussexp.m Page 1
+% m-file script for gaussexp
+th = 2.0/3.0;
+DoL = 0.06;
+DoL£ = DoL/4.;
+m = 1:1:200;
+kL = 0.25.*m;
+kLi = 1.0 ./ kL;
+sn = sin(kL ./ 2.0);
+cs = cos(kL ./ 2.0);
+fnd = tt .* kL .*(1.0 - kL .* DoL£) .* ((({ -2 ./ (kL .* 2)) .* sn + kLi .* #@
+cs) .*% 2 ...
++ ( ( kbi -4.0 .* (kLi .*3)) .* sn + (2.0 ./ (kL.%2)).* cs) .*%2) .*% 0.5;
+gq = [ku;fnd];
+fid = fopen('surge.dat','w');
+fprintf (fid,'%8.3f, %9.4f£\n',q);
+fclose(fid);
+plot (kL, fnd)
+xlabel('kL')
+ylabel('Surge Force Amplitude / [ \rho g AWD ]')
+
+---PAGE BREAK---
+
+[Page 58]
+SURG
+
+0.7
+
+0.6
+
+WwW t+ oO N
+
+° f~) ro) °o
+[aMVv 564d], epnyduy ao04 efuns
+
+0.1
+
+kL
+
+---PAGE BREAK---
+
+[Page 59]
+(mre
+
+The Transport Theorem
+
+Let f(x,t) be a differentiable scalar function of x and f.
+
+Consider the integral,
+
+I(t) =] [iy f@ av
+
+f is changing with time and VY is changing with time. The normal component of the velocity of any point on the surface, S of V is called U,.
+
+Note that if U is the fluid velocity, the surface S is a material surface
+and the Transport Theorem is simply the integral form of the Substantial
+Derivative.
+
+fm di to
+
+---PAGE BREAK---
+
+[Page 60]
+fmgil
+
+Pressure Forces and Moments on an Object
+
+F=/ [, pnds M= | [, p(rxn)ds
+
+Now use the (unsteady) Bernoulli equation:
+
+=-ef fe [oo +5 V6. V9] nds
+
+M=-p/ |, [5 + 5Vo- Vol (rx n)dS
+
+The following results from applying Gauss, Transport and divergence
+theorems and boundary conditions:
+
+F=-p>[f,onds—p| [, [sevd -n5V6- V9) dS
+
+woud —n5 Vo- vel dS
+
+M = veg] [0948 - pf [rx
+
+---PAGE BREAK---
+
+[Page 61]
+An Application Using Complex Numbers
+
+---PAGE BREAK---
+
+[Page 62]
+Example of Programming with Complex Numbers
+
+Conformal Mapping of a Circle into an Airfoil
+
+2D Flow: ¢ is velocity potential, ~ is stream function.
+
+06 o8 8b _
+
+~ On Oy ~~ dy. -O%
+Complex Numbers
+
+z=ax2+ty @=¢o+w — =u-—ww
+Simple Example
+
+y
+U
+
+X
+u=Ucosa v = Usina
+¢ = Uxcosa+Uysina w = Uycosa — Ursina
+
+@=¢6+4+ 7p = Uzrcosa+ Uysina + iWycosa —iUzsina
+
+O®
+
+— —Ucosa—w sina = u-—iv
+Ox
+
+Cul e
+
+---PAGE BREAK---
+
+[Page 63]
+Cua
+Now we map a circle in the z-plane to an airfoil in the ¢-plane.
+Streamlines in z-plane map into streamlines in ¢-plane.
+
+The circle is a streamline in the z-plane and the airfoil is a streamline in
+the ¢-plane.
+
+db d®/dz_ (u—iv),
+
+(u— whe = Ge = d¢/dz  d¢/dz
+
+The Karman-Trefftz mapping function is:
+
+_ (z+a)*+(z-—a)
+$= Aa ap — (2 —a)ys
+
+A and a are real numbers and A > 1.
+
+_q)-1 \-1
+d¢ — 4)2¢2 (z—a)* ‘(2 +4)
+
+dz [(z + a)* — (z— ap}?
+
+For large z,
+
+(244 adz*1 4...) + (2 — ar2* 1 +...)
+
+— gi TO ETA)
+¢ “GX az} +...) — (24 — adz*-1 +...)
+C= ANa2z* +... a4
+— D2-la an
+
+Far field flow in z-plane is equal to far field flow in ¢-plane.
+
+d¢/dz = 0 at z =a and at z = —a. Tf either of these points are in the flow
+field, u — iv must equal zero there to avoid infinite velocity in ¢-plane.
+
+Approach
+
+Locate circle so that z = —a is inside it.
+
+Locate circle so that z = a is on circle and u — iv there is zero. z = a
+maps into the trailing edge of the airfoil and since d¢/dz = 0 there it can
+be sharp. .
+
+---PAGE BREAK---
+
+[Page 64]
+—— a ee
+
+| > >
+
+i
+he
+i
+
+|
+
+py
+
+SNS
+
+NS
+i
+
+Lip A ASRS
+Ni
+A}
+
+HZ
+
+a
+AW
+
+\
+
+aa
+
+OT
+te
+LN
+
+xX
+
+_ Flow around a circle with zero circulation. The center of the circle is located
+at x = —.3,y = 0.4. The circle passes through r =a =1.0. The flow angle of attack is
+10 degrees.
+
+The inflow angle is a = 10 degrees, the circle radius is r; = V 1.32 + 0.47 =
+1.3602 and the flow is:
+
+20 Ct
+u=Ucosa—U (*) cos(26 ~— a)
+
+v=Usina—U (*:) sin(20 — a)
+
+This flow is not zero at z= a.
+
+GUS
+
+---PAGE BREAK---
+
+[Page 65]
+Cue
+
+To make the flow zero at z = a add circulation [
+[= 4rr,U sin(—G — a) 6 =sin™ Ye
+Then:
+r.\? ri,
+u=Ucosa—U (*:) cos(20 — a) — —— sin®@
+T 20r
+
+; Te\* . r
+v=Usina~U (*) sin(20 — a) + —cos6
+rr 21Tr
+
+* Flow around a circle with circulation. The center of the circle is located at
+z= —.3,y = 0.4. The circle passes through r = a= 1.0. Note that the rear stagnation
+
+point has moved to x = a.
+
+---PAGE BREAK---
+
+[Page 66]
+Cvuie
+
+‘MT | Nes
+an | re
+i
+AC
+
+es Na
+IEC
+IN ce I
+
+SR MM OA SE MALAI Rea oe 8 Es SE SD EAN CNET
+
+= ee
+
+ZEAE
+
+ie]
+fon]
+
+f
+
+The circle maps into an airfoil shape. The included angle , 7 (in degrees)
+
+at the tail is:
+
+T = 180(2 — A)
+
+The Pressure Distribution
+
+Q=aw+tv
+
+i 4
+5f4
+
+pU? —
+
+
+P-—Py=
+
+---PAGE BREAK---
+
+[Page 67]
+“CWE
+
+Procedure to Compute Pressure Coefficient
+
+1. Make a sequence of points on the circle.
+2. Determine value of z for each point.
+
+3. Use complex number programming to determine the value of z and
+d¢/dz for each point.
+
+4. (u—iv)¢ = (u —iv),/F¢.
+D. q’ => (u _ iv)c¢ (u + ww)c.
+6. Cp = 1— (q/U)?.
+
+---PAGE BREAK---
+
+[Page 68]
+“" Daea-K
+UAT P2068¢
+we X
+
+cpl
+% cpl in matlab
+
+a=1.0;
+alpha=0. 1745;
+lambda=1. 8611;
+
+xc = -0.3;
+yc =0.4;
+UU=1.0;
+amma=-7.779695;
+pr=180./pi;
+re = sqrt((1.0-xc) .A2 + yc -A2);
+fid = open(: cpm. dat','w');
+degv = (1:1:3
+
+angv=degv sydpre
+
+XV = XC + ‘ rc .* cos(Cangv));
+
+yv = yc + ( rc .* sin(angv));
+
+ZV XV + i*yv;
+
+zetav=lambda*a* ((zv + a) .A lambda + (zv-a) .Alambda) ./ .
+((zv+a) .A lambda - (zv- -a) .A lambda);
+
+Im = lambda -
+
+dzetadzv = 4.0 rz 4 ambda A2 * a A2 * (zv-a) .A \m -*(zv+a) .Alm ./ ...
+
+_C Cav + a) * lambda - (zv -a) .A Tambda) . 2);
+= (UU*cos(alpha)) - UU*cos(2.0 .* angv - aiphad -
+“(gamma / (2.0*pi*rc)) * sin(angv) ;
+(UU * sin(alpha)) - UU*sin(2.0*angv - alpha) +...
+_(gamma/ (2. O*pi*rc)) .* cos(Cangv);
+WZ = UV -i*vw;
+wzeta = wz ./(dzetadzv + eps);
+q = wzeta. *(conj(wzeta
+cp = 1.0 -q / (Wu .A2);_
+cpm = ahi
+for m = 1:360
+forinttHid. '%7.3Ff %7.3Ff %7.3f %7.3F 47.3Ff %7.3Ff %7.3f\n'
+
+real(zetav(m)), imag(zetav(m)), cpm(m), real(zv(m)), imag(zv(m)),...
+
+real (wz(m)) , imag(wz(m))) ;
+en
+fclose(fid) ;
+
+Page 1
+
+---PAGE BREAK---
+
+[Page 69]
+1.5
+
+0.5
+
+-2
+
+-2.5
+
+-2.5
+
+-2
+
+-1.5
+
+0.5
+
+1.5 2
+
+---PAGE BREAK---
+
+[Page 70]
+-5
+-2.5
+
+-2
+
+0.5
+
+1.5
+
+Kr PROS
+
+---PAGE BREAK---
+
+[Page 71]
+Root Finding
+
+---PAGE BREAK---
+
+[Page 72]
+Fi
+
+Root Finding
+
+Suppose you wish to find the wave number, k, of gravity water waves with a
+frequency, f, of 0.2 Hz. in water that is 5 meters deep. The circular frequency
+of 0.2 Hz. waves is w = 2xf = 1.2566 radians/second. The dispersion relation
+
+for gravity water waves is:
+kgtanhkh = w”
+
+g is the acceleration of gravity, 9.81 m/s” and h is the water depth, 5 m.
+This equation can be written as:
+
+kgtanhkh ~ w? = 0
+
+If we write an equation: y(k) = kg tanhkh — w”,
+
+The problem at hand is the same as asking: ” What is the value of k such that
+y(k) = 0? The value of a quantity that makes another equal to zero is called a
+root and the question above is called Root Finding.
+
+---PAGE BREAK---
+
+[Page 73]
+oe
+
+Bisection Method
+
+0.15 0.17 0.19 0.21 0.23 0.25
+
+---PAGE BREAK---
+
+[Page 74]
+% biseck program to find k given omega
+% using the bisection root finding method
+om = 1.2566;
+g = 9.81;
+h = 5.0;
+k1 = 0.0;
+k2 = 0.5;
+k3 = 0.25;
+y = k3*g*tanh(k3*h) - om‘’2;
+for m = 1:50
+y = k3*g*tanh(k3*h) - om42;
+if (y*y < 1.0e-8);
+break
+end
+if(y >= 0.0);
+k2 = k3;
+k3 = 0.5*(k1+k2);
+elseif (y <= 0.0) ;
+k1 = k3;
+k3 = 0.5*(k1 + k2);
+else;
+fprintf(1,'‘there was no root’)
+end;
+end ;
+fprintf(1,' k = %8.4f\n',k3);
+fprintf(1,' Number of iterations =%3.0f\n',m);
+
+>> biseck
+
+k= 0.2073
+
+Number of iterations = 15
+>>
+
+CFD -Cont
+
+---PAGE BREAK---
+
+[Page 75]
+RF2ZA@
+
+---PAGE BREAK---
+
+[Page 76]
+RE 2S
+
+---PAGE BREAK---
+
+[Page 77]
+y=443x-6x°+4x*-x*
+
+—|O;|/O;O};]©
+
+2.25000 _0.308593750 -0.62500 = -1.84790039
+2.37500  -0.949462891 -0.56250  -0.39796447
+
+NN {0
+
+2.31250  -0.280044556 -0.53125 0.03350734
+.| 2.28130 0.023423625 -0.54688  -0.17879242
+2.29690 = -0.125854491 -0.53906 _-0.07170661
+
+| O)|
+
+NO} CO
+
+T*dSS 059376 -0.00071 8622
+F-05375 0.000075699
+
+i)
+
+2.28520  -0.013441856 -0.53320 0.00739897
+
+NLR IN]
+
+2.28910 -0.050608813 -0.53516 —-0.01895136
+
+CO} PO} |}
+
+---PAGE BREAK---
+
+[Page 78]
+“~
+
+Newton’s Method for Finding Roots of y(z)
+
+The approach taken in Newton’s method is to take an estimate of the location
+of a root of y(z) and then improve upon it. Thus, it is iterative, starting with
+a“guess” for x with each successive iteration being the result of the last iteration.
+The basic formula for each iteration is:
+
+dy
+dz
+
+Yi-1
+
+/
+Yi-1
+
+Li T-1 —
+
+where yj, =
+
+I=Zj-1
+
+20 0.1 0.2 03 04 0.5
+
+---PAGE BREAK---
+
+[Page 79]
+RF3&
+
+500s |9Sreztegr’6- _—|000000000°0 ss |zoiezesc’e
+20-3169'| |OO8L8LEQr'6- l(O09-00000'0-  —s—sés( EBL BLEBT'S
+
+cOv000'0 [9188EL tL Zr'6- jpge608E00'0- ss |vOPeI SZC
+Scv6l0'0 |zz996E198°6- ss |vssesslel'o- sv t609E0E'c
+8L98c1'0 |es6cssosz’zl-__—|9409pPEEO'l- ss |9eLBLcEy'C
+
+vOLLE'O O69ILSLLEP o- L6vO0E0SClL'L- yoLesb6rl'e
+ZLS061S9°0 |LVESLVELZ ZP- 002621692 te- c6V8889C'E
+L900SEZ'0 ; -|96LEv6rcr 08- SOL68E00' 7
+
+68019660 |000000000°2S2- __[000000000°9S2- ___[00000000°S
+
+: 000000000" 000000000°r 00000000"
+a
+Pp XP/AD TA
+
+Xb > XE +XSE-E =A UX - Xb + XO-XE + HHA
+
+ll
+
+XP/AP)/
+
+---PAGE BREAK---
+
+[Page 80]
+Review of Matrix Algebra
+
+An m x n matrix (m rows, n columns) ia said to be of order m x n and
+is written symbolically as:
+
+Qi1 G12 °° * Gin
+
+G21 422 °° * Gan
+A=a= .
+
+Qmi AGm2 °° * Amn
+
+Each a;; represents a numerical value. If the a,;’s are real numbers, the
+matrix is called a real matriz. If the a;;’s are complex numbers, the matrix
+is called a complex matriz.
+
+The matrix is called square if m =n. Matrices A and B are called equal
+if aj; = bj; for all i and j and they have the same number of rows and the
+same number of columns.
+
+If A and B are both order m x n matrices, the matrix C = A + Bis
+defined by the relations:
+Cig = Giz + big
+
+The matrix D = yA is defined by the relations:
+dig = Yay
+An important relation is the the matriz product, of two matrices A (m x n)
+
+and B (n x p) which is denoted by C = AB whose elements are defined
+by:
+
+a .
+k=1
+
+When A and B are square and of the same order, both AB and BA are
+defined, but except under special circumstances, AB # BA.
+
+---PAGE BREAK---
+
+[Page 81]
+An m x 1 matrix (m rows, 1 column) is called a column vector or a vector
+and is written symbolically as:
+
+Ly
+L2
+
+Im
+Each x; represents a numerical value.
+The standard form for a set of linear equations is:
+Ax =b
+
+where A is an m X n matrix called the coefficient matrix and x is an
+unknown vector of length n. b is a known vector of length n.
+
+Let aj denote the j column of A. Then the set of equations can be
+written as:
+Ya, + @eag +--+ +2,a, =b
+
+The vectors aj, 7 = 1,2,...,n are linearly dependent if there is a set of
+numbers 21,22, ...£n, with at least one z; being non zero such that:
+
+gia, +Xoagt-:-: + Zna, = 0
+
+In this instance, at least one a; is a linear combination of the remaining
+i)
+a,’s.
+
+The vectors aj, 7 = 1,2,...,n are linearly independent if they are not
+linearly dependent.
+
+If each of the m linear equations is independent then there is an exact
+solution if m = n. If m > n, there are more equations than unknowns
+and there is no exact solution. Rather, there is an approximate solution
+for x which is usually chosen to achieve minimum sum of the squared
+errors from each equation.
+
+---PAGE BREAK---
+
+[Page 82]
+Maas 2a
+
+Exam ple
+
+SX+X, aS if Xx is
+Xi t fr 2-3 4iI y, = -%
+-2X,\+3Xz=-¢ 3 -¢
+
+Roprexi mate Selutio 1S! mY, , *a= Fa AFD
+
+Need Te Fine Y. Error Vector is & “||
+— 2
+
+Som ef Sguares of erfors
+
+QL. v a
+€n2-3-9,-T92 E= €, t@, + €s
+
+2, =~ 6429, -345
+
+Es (S-39,-4, re 41 ~ 49.2) + (K—C4r24, -34.)
+
+le - JE. nd GE -
+
+1 OE 4 JE
+
+CK) ‘ } + S . _ oS _- -~
+hroh 1S rae ame “3; Boy = ° and ~ Oy, 20
+
+7 of 5 (534, ‘Ja \-1-3- J Hg) +2 (-6429,- 342)
+| —!5° +94, +39,
+3 Fy, tg,
+tn FY, -64,
+7) marel t+ Gz
+
+|!
+
+---PAGE BREAK---
+
+[Page 83]
+OF
+
+——
+
+od
+
+~~
+os
+~
+
+= 257%, F264,
+
+O74 +4 ry¥y
+
+i 2¢| Yo eS
+
+4ieh7879, 9, =-10323
+
+2= 5-85. 3637 + 19803 2 Ogeey
+
+Co
+
+-% -17379 +4 lRIR = -0.6¢667
+
+@ gi ~O+3.S7EF ~3,070792 D.66067
+
+Dab
+
+144, tY4o = Dm bop
+4 | P6457 2-57
+
+---PAGE BREAK---
+
+[Page 84]
+UAS 3
+
+Consider a square n X n matrix, A. It is called the identity matriz of order
+n, 1, ( or simply I) if
+
+adh ifisi
+7 | 0, otherwise
+
+This is often written as: aij = bi;
+
+If B is ann X p matrix,
+
+I,B =B and BI, =B
+
+The j** column of I is called the 3 unit vector and denoted by e;. Any
+n-vector b can be written as:
+
+b = > b;e;
+j=l
+
+The j** column of a matrix B is given by Be;. Therefore, if C = AB, the
+j column of C, called c; is obtained as:
+
+A collection V of linearly independent vectors in R” ( this means that the
+vectors are 1 x 7) is called a basis for R” if every n-vector can be written
+as a linear combination of the vectors in V. Obviously, the columns of I,
+which are the e;’s form a basis for R”. However, this is not the only set V
+of basis vectors. Any basis in R” contains exactly n vectors.
+
+THEOREM: The linear system Ax = b has a unique solution if and only
+if the only solution to Ax = 0 is x = 0.
+
+THEOREM: If the homogeneous linear system Ax = 0 has fewer equations
+than unknowns, it has nonzero (non trivial) solutions.
+
+THEOREM: A is an m x n matrix. If the linear system Ax = b has a
+solution for every m-vector b, then m < n.
+
+---PAGE BREAK---
+
+[Page 85]
+Meech 7}
+
+Consider a square n xX n matrix, A. If there is a square n x n matrix,
+B such that AB =I, B is called the inverse of A and denoted by A™.
+If A has an inverse A is called nonsingular and if it does not have an
+inverse, A is called singular.
+
+Fact: If A and B are invertible, then, (AB)"! = B7! A“!
+
+Suppose there is a linear system of equations Ax = b where A is invertible and b is a known vector and x is an unknown vector to be determined.
+Pre-multiplying the equation by A7! gives:
+
+A'Ax=A™!b
+
+x=A!b
+
+Thus, if the inverse of A is determined, the solution to the system of
+equations can be obtained by straightforward matrix multiplication. This
+is not a numerically efficient way to solve sets of linear equations, but it
+demonstrates theoretically that a solution exists of the coefficient matrix
+is nonsingular. )
+
+The principle of obtaining the inverse of a matrix can be demonstrated
+as follows: An n xX n matrix A exists and the goal to to determine its
+inverse B = A7! whose j* column is called b;. Ab; = e; is a system
+of n linear equations for the n elements of b;. Finding A7! in this way
+requires solving a set of n equations for each of the n column vectors bj.
+
+A more computationally efficient way to find the inverse of a nonsingular
+matrix will be shown subsequently.
+
+---PAGE BREAK---
+
+[Page 86]
+MAA S
+Determinant of a Matrix
+
+A matrix A has a determinant which is denoted by det(A) or |A|. The determinant of a matrix plays a large theoretical role in linear algebra and a practical
+role in determining the inverse of a matrix. The determinant is defined as the
+sum of all signed elementary products from the matrix. An elementary product
+is the product of n elements all of which are from different rows and different
+columns. The sign is + if the number of inversions of the indices is even and
+— if the number of invertsions is odd.
+
+n .
+— t
+— _— j ese
+| Al dM (-1)'anj ang a3)... ng
+jk,...q=1
+
+where 7,k,l,...,q are all different and z is the number of inversions in the sequence j,j,1,...,q.
+
+A recursive definition of |A| which includes a “prescription” of how to calculate
+it is as follows:
+1. If Risal x1 matrix, R = [r], det(R) =r.
+
+2. Aj; is the submatriz of A obtained by deleting the i‘ row and j column
+of A. The minor mj; (associated with the matrix A) is the determinant
+Miz = det(A,;)
+
+3. The cofactor ci; is defined by cj; = (—1)'? mi
+n
+det(A) = Siajjcj; for any i =1,2,...,n, or
+j=l
+n
+det(A) = Slaijc,; for any j = 1,2,...,n
+i=1
+
+e Adding a constant times one row of a matrix to another row does not
+change the determinant.
+
+e Adding a constant times one column of a matrix to another column does
+not does not change the determinant.
+
+---PAGE BREAK---
+
+[Page 87]
+Transpose of a Matrix
+
+The transpose of a matrix A is called A? and is obtained by making each row
+of A’ the corresponding column of A. For example, if we define C = A’,
+
+Cij = a5;
+
+Calculating the Inverse of a Matrix
+
+Consider a matrix A. It’s cofactors are c;;. The matrix C is the matrix whose
+77 element is c;;.
+
+The matrix C7 is called the adjugate or the adjoint of A and is denoted by
+adj(A).
+The inverse a A is given by:
+
+_; _ adj(A)
+
+~ det(A)
+
+Cramer’s Rule
+
+Consider the system of linear equations, Ax = b. Define A’ as the matrix
+formed by replacing the j*" column of A by the column vector b.
+
+|A?|
+Cramer’s Rule is: Li=
+
+|A|
+
+---PAGE BREAK---
+
+[Page 88]
+mah 6
+
+9 Yous
+
+‘sorrel petoads
+
+*SJUDUWIZ[O O19Z BJOUSP x @) oy} pue
+SJUSWI9]9 OIOZUOU 9jJOUSP SOUT] JYSTeIYS BY) puL r>°4 oUuL
+
+yejnsuey) Jaddy Je[NSUeL) JAMO] jeuosriq
+
+O O
+O O
+
+---PAGE BREAK---
+
+[Page 89]
+Matrix Norms
+
+First we define vector norms N(x) of the vector x in n dimensional space..
+A vector norm has the following properties:
+
+1. N(x) > 0 for all n-vectors x.
+2. N(x) = 0 if and only if x = 0.
+3. N(ax) = |a|N(x) for all real a and n-vectors x.
+
+4. N(x+y).< N(x) + N(y) for all n-vectors x and y.
+
+Norms are denoted by || - ||.
+
+n n
+lich, = D0 [zal IIx<l2 = 4) oF, IIZI]oo = max |x|
+i=1 i=l 1l<i<n
+
+An operator norm N(A) of a real valued n x n matrix A is a real valued
+function having the following properties:
+
+1. N(A) > 0.
+
+. N(A) = 0 if and only if all the elements of A are zero.
+N(aA) = |a| N(A) for all real a.
+
+. N(A+B) < N(A)+ N(B).
+N(AB) < N(A) N(B).
+
+There are a number of equivalent definitions for the v-norm of A, N(A) =
+||A]{,. One of them is:
+
+For all n-vectors z such that ||z]|, < 1,
+
+Ally = max ||Azi],
+Alle = max ||Aal|
+
+---PAGE BREAK---
+
+[Page 90]
+MASS
+
+The Condition Number of A Matrix
+
+Consider a set of linear equations, Ax = b which is to be solved numerically. The exact solution is x = A~'b. How sensitive is the accuracy of the
+solution to numerical errors? After obtaining an approximate numerical
+solution X, we can always compute the residual r as:
+
+r=b—Ax
+
+We would like to find some relationship between the computable residual
+r and the error e = x — x.
+
+r=b—Ax=Ax— Ax =A(x—%) = Ae
+
+Since |[r|| < |[Al||lell, [lel] 2
+
+. _ e 1 r
+Theo, see Ill <A Tat > TATA
+
+Now we use: |le|| <||A~*||[r]] and ||b|] < ||A]] |||]
+
+>. tell - iy, lll
+These give: ——_ < ||A]| ||A7
+ip) = AIA gy
+
+1 [fell — lel gay Lb
+Hence: —————_-_ < _—_ < ||A
+TANIA I[IbI! < fixi| = MAA Tip yy
+
+---PAGE BREAK---
+
+[Page 91]
+— 1 dri — ell 4, llell
+TAINAN TlbI < Toe] SAAT py
+
+The condition number of an n x n matrix, A, with respect to the operator
+norm || - || is called «(A) and defined by:
+
+K(A) = |[Al] [A~'I|
+
+The condition number multiplied by the norm of the relative residual is an
+upper bound on the norm of the relative error. 1/«(A) multiplied by the
+relative residual is a lower bound on the norm of the relative error.
+
+For a large condition number, the relative residual is a poor indicator of
+the relative error. For « ~ 1, the relative residual is a good measure of the
+relative error.
+
+---PAGE BREAK---
+
+[Page 92]
+GAUSSIAN ELIMINATION
+
+Triangular Systems
+
+Uy + UyaX2 te + Man —1n- F Minka = fi
+
+2X2 be + 2n—-1Xn-1 t Urnkn = fr
+back substitution
+
+Un—1,n—-1Xn—-1 + Un-1,nXn = Sn-1
+
+UnnXn = fn
+
+Solve the following upper triangular system by using back substitution.
+2x, — 5x2 +243 = 3
+3x2 —x3= 7
+
+4x3 = 8
+
+Gaussian Elimination. This general solution technique is based on the following
+basic properties of linear systems:
+
+1.
+
+Multiplying an equation by a constant does not alter the solution to the system.
+Replacing an equation by a linear combination of itself with some other equations
+(one or more) in the system does not alter the solution to the system.
+Interchanging the order of equations in the system does not affect the solution to
+the system.
+
+These Elementary Row Operations are used to form an equivalent
+triangular system of equations from an original system of equations
+to be solved.
+
+---PAGE BREAK---
+
+[Page 93]
+3x, — x2 + 2x3 = —3
+x1 $%x%2+2%3= —-4
+
+2x) + x2 —x3 = —3
+
+Use 1% equation to eliminate x, from 2”¢ and 37% equation
+3x) —X2 + 2x3 = —3
+4 1
+_ —x3, = -3
+3% + 3 3
+
+5 7. ;
+—-x~- 5 =
+327 3°
+
+Use 24 equation to eliminate x2 from 37@ equation
+
+3x, —%2 +2x%3= —3
+
++ 4 ax =—3
+37 3
+
+Wo ou
+4°37 4
+
+---PAGE BREAK---
+
+[Page 94]
+Seg 3
+
+Gaussian Elimination Operation Count for n Equations
+
+The number of multiplications and divisions is called M.
+
+The number of additions and subtractions is called A.
+
+372 6
+
+---PAGE BREAK---
+
+[Page 95]
+SLE &A
+Errors in Numerical Solutions of Sets of Linear Equations
+
+When terms that are subtracted from each other in a solution method have nearly the same
+magnitude, computational round off errors can result in large relative errors in the solution.
+
+Computational errors are generally reduced if each equation is scaled as follows:
+
+Q11 412 ° * * Gln Ly by
+Gq, Q22 - + * Gon x2 bo
+Qnl Gn2 * * * Onn || Lm bmn
+Let s; = max|a,;|, i=1,2,....,n
+j
+
+Divide the i” row of the A and b matrices by 5;.
+This is called scaling.
+
+In a Gaussian Elimination the element that is used to eliminate its column in
+the equations that do not contain it is called the pivot element
+
+Errors in numerical solutions are generally reduced if pairs of equations are
+interchanged so the magnitude of the pivot element is the largest one possible.
+
+Scaled Partial Pivoting Rule
+
+Both of the above error-reduction steps can be incorporated in what is called
+the Scaled Partial Pivoting Rule.
+
+1. Start by determining s; for each row as explained above.
+
+2. At the start of the k’;th elimination step, scan the k** column of A and
+determine the integer p such that:
+
+ee
+Sp S]
+
+3. If p # k, then interchange rows p and k.
+
+This procedure removes the need to do the scaling explicitly which can be
+another source of round off error.
+
+---PAGE BREAK---
+
+[Page 96]
+SLES
+
+---PAGE BREAK---
+
+[Page 98]
+Se
+alet Partial PiVoting SL EuD
+
+eee 102 —_
+
+---PAGE BREAK---
+
+[Page 99]
+Solution of Linear Equations by LU Decomposition
+Equation to Solve: Ax=b
+
+A is presumed to be non-singular. Suppose we can decompose A into A = LU
+
+where L is lower triangular with diagonal elements equal to 1 and U is upper
+triangular. Then the solution is straightforward.
+
+LUx =b
+Define: y = Ux Ly =b
+1 0 Olfm by
+Io, 1 O} | yo} =| be
+D3, L32 1 | | y3 bg
+y= by
+Lay + y2 = by Y2 = bo — Lob,
+
+L3iy1 + L32y2 + y3 = b3 y3 = b3 — Lary — Lzeye
+
+Ux=y
+
+Uy Uji2 U13 TZ} Yi
+O we U3] | 22 | =] ye
+0 O uzz } | x3 Yy3
+
+r3 >= y3/ U33
+t2 > (ye _ U23¢3) / U22
+ry = (wy — U127%2 — U1323) /Ur1
+
+---PAGE BREAK---
+
+[Page 100]
+Procedure for Factorization of A
+
+A is a nonsingular n x n matrix. A = LU. As an example, suppose:
+
+3 -1 3
+A= 6 0 9
+—-12 0 —10
+From the second row we subtract mi) = 2 times the first row.
+From the third row we subtract m$) = —4 times the first row.
+The result is”:
+3-1 3
+U=|0 2 3
+0 -4 2
+From the third row we subtract mi?) = —2 times the second row.
+
+The result is the desired upper triangular matrix:
+
+U=
+
+oOo Ww
+
+—1
+
+
+COW WwW
+
+The lower triangular matrix with 1’s on the diagonal is given by the formula
+
+1 00
+L= 2 10
+-4 -2 1
+
+This results in A = LU
+
+S LEG
+
+---PAGE BREAK---
+
+[Page 101]
+Cyrerti riis
+
+Curve Fitting and Interpolation
+
+---PAGE BREAK---
+
+[Page 102]
+LY!
+
+Polynomial Approximation to a Function
+
+100 an
+
+Suppose y = f(x) where f(z) is an unknown function. However, Suppose we
+have N +1 pairs of values (xz, yz), k = 0,2,...,N. An approximation to f(z) is
+the N“ order polynomial, py(z) that passes through the N +1 points. This can
+be very useful. For example derivatives or integrals of f can be approximated
+by the corresponding derivatives or integrals of py. Also, py is an interpolating
+function for f.
+
+One obvious way to determine the required N + 1 coefficients, c; for py is to
+write the N + 1 equations:
+
+NN.
+i=0
+This is equivalent to the matrix equation, X,c = y
+
+There is another way to determine an approximating (interpolating) polynomial
+that does not require solution of a matrix equation. To introduce it, suppose we
+seek the polynomial that passes through just two points (zo, yo), (x1, yi). It is
+easy to show that the polynomial is given by:
+
+lt ie 0
+p(x) = ( *) yo + ( °)
+LQ — Ty ZL} — XO
+
+p is the linear combination of two order-1 polynomials LZ and can be written as:
+
+pi(z) = Ly o(x)yo + Lia(z)y
+
+---PAGE BREAK---
+
+[Page 103]
+LP 2
+
+The polynomials Ly,(x) are called Lagrange Polynomials. The polynomial representation can be extended to the case of N + 1 points as:
+
+py(2) = 3 Ly pf (tk)
+k=0
+
+The Lagrange Polynomials, Ly,(x) are polynomials of order N and have the
+following properties:
+
+_j1 forgj=k
+Lyx(j) = 0 forj#k
+
+The polynomials that have these properties are:
+
+L— 2X3
+j=0,j¢k Tk — Vj
+
+---PAGE BREAK---
+
+[Page 104]
+H4arange
+
+Pol gy ng m ialS - Example _
+
+Y= FX)
+
+Les
+
+(a ane aa ae oa
+
+Boe-%\ KoW~X 5,
+
+p>—3
+
+XK
+
+Pale) =
+
+=
+
+Pat “Tx.
+
+Az-K%o 1
+
++27
+
+x- 3.
+
+=...
+
+XX)
+
+eme—eeay
+
+>
+
+gk xs =o
+
+a Ral,
+
+4 — cee woe ce
+3 — Ht HE (Xo)
+
+2 @)=
+
+PG) =]
+
+= § (i493) = 143 +£ (1-1) 2
+
+eee om no Aaa otis
+
+---PAGE BREAK---
+
+[Page 105]
+VOM er 1a
+
+Numerical Differentiation
+
+Numerical Differentiation is used when:
+
+1. A functional form is so complicated that it is more convenient to do
+numerical integration,
+
+2. when we have a table of values of [x;, f(x;)] and we wish to find df /dz
+for some given value(s) of z.
+
+Examples of situations for which derivatives are needed include:
+
+1. Quantities given in terms of derivatives: v = %, u = 2%.
+dt? Ox
+2. Mathematical procedures requiring derivatives:
+
+e A function y = f(z) is to be approximated by g = f(x) and f
+contains constants to be determined which minimize the error in the
+fit of the function to N points at z;. Error = DN f(xi) —f (2)|
+
+e Finding the roots of y = f(z). In other words, find the values of x
+such that f(x) = 0.
+
+Two principal methods for obtaining numerical estimates of f’(z;) when we
+have a set (table) of pairs of values [z;, f(x;) = fi], i = 1,2,..., N are:
+
+1. Develop relatively simple formulae that provide estimates of the derivative in terms of values of f; and 2;,
+
+2. Determine an analytic function g(x) which is a good approximation to
+f(z) and differentiate g(z) analytically.
+
+We will consider the first method here. The second is in the category of
+functional estimation or approximation.
+
+---PAGE BREAK---
+
+[Page 106]
+Numerical Differentiation
+
+---PAGE BREAK---
+
+[Page 107]
+Finite Difference Differentiation
+
+f(o + h) 7 Ff (Zo)
+
+Formal Definition of the Derivative f’(x,) = lim h
+>
+
+If we simply let h be “small”, we have an approximation to the derivative,
+
+(a) = Lea +h) = fhe)
+
+If h > 0 this is a forward-difference formula and
+if h < 0 this is a backward-difference formula.
+
+It has a unique relation to the Taylor series for f(x, + h)
+
+flat +h) = f(a) + hfe) + sh P'(6), © € (Gor to+h)
+
+f(g) = Leet Mae) aig)
+
+Our approximation to the derivative is obtained by dropping the last term
+which introduces an error of O(h). The smaller the value of h, the smaller the
+mathematical error. However, very small h results in numerical subtraction of
+two “nearly identical” numbers so it introduces round-off error.
+
+A centered difference formula for the derivative is:
+
+f (fo +h) — f(xo — h)
+
+P'(to) Oh
+
+The error in this formula is O(h?)
+
+---PAGE BREAK---
+
+[Page 108]
+Ning?
+
+Sometimes the points are not equally spaced so numerical implementation of
+the centered difference formula is impossible. Consider the case of y = f(z)
+with values at specific points known as sketched below:
+
+“| i | | |
+
+For all interior points (x2 to x¢) in the figure, interpolation of derivatives at the
+center of adjacent points can be used to generate the equivalent of a centered
+difference formula at each of the x-points, even when the distnces, L, are not
+equal.
+
+The resulting formula is:
+
+dm — Gm-1 1
+2dmGm-1 2
+
+f'(&m) = Um
+
+Gm dm-1
+
+where: gm = 5 (Lm+1 + Dm)
+
+For estiating the derivatives at the end points, extapolation can be used from
+the numerical derivative half way between the two endmost points using the
+forward or backward difference formula and the the derivative at the nearest
+interior point given by the above formula.
+
+gee at
+
+---PAGE BREAK---
+
+[Page 109]
+Sometimes values of a function, y, are given at unequally spaced points around
+the periphery of a plane curve as sketched below.
+
+L3 Lo
+
+L4 +—»/
+
+Ly
+
+The lengths L are arc lengths (s) between points on the curve and values of
+y are known at points ( 1, 2, ..., N) on the curve. To obtain the numerical
+approximation of the tangential derivative y'(s) at points 1,2,3, .... N, equation
+(1) can be used. However, for point m = 1, special values for some of the y’s
+and some of the L’s must be used. In particular y_1; = yy and Ly_, = Dy.
+
+Likewise for for point m = N, ymi1 = y; and Lmyy = Ly.
+
+---PAGE BREAK---
+
+[Page 110]
+NHIl4
+
+To estimate the error in Simpson’s rule, the function over four successive points
+can be expanded in a Taylor series up to order 3. With equally spaced points,
+the error in the integral from the cubic term vanishes and the dominant term
+in the error is proportional to the fourth derivative d*f /dz*. For equally spaced
+points with h = Az, the total error, Er takes the form:
+
+Ep= _ he x1 d*f (mi)
+a 90 i=1 dx
+
+7 is some value of x in the i*h interval.
+
+---PAGE BREAK---
+
+[Page 111]
+T 96ed
+
+((SI‘QI ‘ur ‘,U\$S "6% 4$°6%  45°6%, ‘T)gs3ULUdy
+‘(,satnyu s,,uosdwis pue LeplLozedeul “Te pnbueiy ew wous S_LeubequT, ‘,Uu\ $%, ‘T)4f auULUdy
+
+: O°€/YsSI= SI
+
+:pua
+C24) A+ (TH)AKO'H+ CYA + SI = SI
+. :7-UrZ:T = 404
+»CCU)AxS*O +(T) Aus" 0 + 31I)24 =
+
+£((T)Atu I) xy = it
+‘pua
+SQA + 2I = 21
+SQA + dI = ul
+T-u:z = 103
+:0 = SI.
+-0 = 7
+‘0 = JI
+(T)Z - (2)Z = y
+‘pua
+-(T Ti d% Pls) sUeISS = (x)A
+(TE 3%, ‘Pl4)pueISS = )2
+; :U:T = y 404
+CT P%, “Ply JuBISy = U
+(,4,‘'Lt4)uedoy = ply
+$(,5,', iaweu ally andut 434uU3, yandut = Lty
+
+SINIOd G3DVdS ATIVNOA HLIM NOILVYOSLNI TWIIYSWNN oa OL LdIYDS%
+2uU Luinu
+
+---PAGE BREAK---
+
+[Page 112]
+T o6ed
+
+DasdLys
+
+OTS "9
+60S '°9
+Z0S°9
+vOS*9
+00S°9
+
+0Lv'°9
+Ovy'9
+00r*9
+OSE*9
+0Sc'9
+OOT*9
+006°S
+00Ss"S
+000°S
+000°?
+000°0
+
+DNONOMNONMNONOHNONOMNO
+ONMNRONMNMRONNRONDRO
+ADOCOCOMNNNNANNMMMMST
+
+nm
+
+---PAGE BREAK---
+
+[Page 113]
+3.5
+
+2.5
+
+1.5
+
+0.5
+
+---PAGE BREAK---
+
+[Page 114]
+WY 8S:PT*6
+T ebeg
+
+<<
+
+008L9°E? SLEPS*E? OOOEL 2?
+
+soTny s,uosduts pue Teptozedezy, ‘zetTnbuejoey worzy stTerbeyul
+4XQ°OesdtTus :sweu eTTy 4ndut zejuWq
+qutunu <<
+
+2002 ‘0% 28qQ0390.
+
+MOPUTM PUeUNIOD AVILYN
+
+---PAGE BREAK---
+
+[Page 115]
+Numerical Integration
+
+---PAGE BREAK---
+
+[Page 116]
+nr
+Numerical Integration
+
+1. Used to integrate a function that we do not know how it integrate by quadrature. For example, suppose we seek [ = f?3 exp(Vx + 23dz
+
+2. Used when we want to determine f° f(x)dx and we have a set of pairs of
+values of (x, f(z)|
+
+£ 80
+G
+© 60
+<
+§ 40
+S 20
+”
+
+0% 10 20 30 40 50 60 70 80 90 100
+
+x (m)
+One approach, which we will not consider in detail here, is to fit a polynomial
+to the integrand and then to integrate the polynomial analytically.
+
+The approach we follow here is to consider integration rules which provide a numerical approximation to the integral in terms of discrete values of the integrand
+for a set of values of x.
+
+Rectangular Rule approximates the function by a set of rectangles and estimates the integral as the sum of the areas of the rectangles.
+
+i aS Tix1 — i) f (zi)
+~f(x;)
+
+f(x)
+
+---PAGE BREAK---
+
+[Page 117]
+VID
+
+Trapezoidal Rule .
+The trapezoidal rule fits a trapezoid to each successive pair of values of |x, f(z)|
+and estimates the integral as the sum of the areas of the trapezoids.
+
+x; Xp X3
+
+f(x; , 1)
+
+—
+——
+amen
+_ =
+a=
+
+Ax) 0.5((x)) + F(x; 3)
+
+Xx;
+
+“aT
+-}——_—_—_——_x;, | - x —_______ x
+
+i+1
+By expanding f(z) in each interval as a Taylor series we find the error in the
+
+approximate integral, Hr is given by:
+
+where 7; is some value of x in the 7*” interval. Since the number of terms in the
+sum is proportional to 1/h, smaller intervals result in less error.
+
+---PAGE BREAK---
+
+[Page 118]
+TRAPEZerCAL Kvle Ertor
+
+$ ) FA N= £0) he) BOW
+
+H
+
+| “FOLK - Flt F(X; +) where eet FX)=
+
+FM, ): F(x)- Wr’) + BF Cys PB.)e
+T= FR)-FOG) Hh FCO O)E hen
+E=hfG)-b ¢ ee Ci ye ee
+Teh@e) af 23 -£(Xe-/) rhe Cele THE Be
+LH hE b 6) KEG RP GOGO ©.
+r=bl etter etd], We Cyr.
+Evrae in interval Ayre Xe is Jes fe) sols")
+
+---PAGE BREAK---
+
+[Page 119]
+Mumber of jntervalS is L
+Tr le") |< Moin ascxeh
+
+Total errer< be | M + oth) |
+
+Total error < (5-085 m +0Ch*)/
+
+---PAGE BREAK---
+
+[Page 120]
+nezb
+Estimate 3 - Usual Trapezoidal Rule
+
+_b "
+
+y= f(z) =at+br+ca*+---
+
+re al) ee
+e= 5f"(8) ~3<e<5
+T= ah+c% 4. =5(r(-3) +0) +54 (ay +
+
+orror — teen ,
+rror = oat (8) + O(h*)
+
+---PAGE BREAK---
+
+[Page 121]
+BO me Oey ee Eos
+Ia
+
+2)
+=O) FO Yo “)
+| REA) re (F(x) AX
+
+Ky ko Ka xe AS xX,
+
+Rectang alar Rale AbbreVig bron I=(X, ) = (Zz
+
+E= FU) ) + C42) (X34 2) + Os Yt %3) + Fn) (hs Xu)
+
+= Xn. FRX, X38 IZ W-Xa Fy + Xu Fs Xs Fs t Xs kay
+
+Trae Zordal Rale
+
+X \ Xs X 3 Xu Xs
+(BBE (xs 14)
+
+Fzx4y4 -Paxgt Fufhy — Fy X5 * Fixe “Fyne ps Xo 7 Fsky
+
+— Lb ._.
+zr (¥3-%) + Fa(X%3-x,) + F3 (Wha) HF (Xe X3) +5 (Keka)
+TE Xn3- Xp = 2 (Xneg-Xnw, ) PS ECfaa S Pacing
+
+= 5A (%- Xx) Fo. (X3-%2) + Fz Cy -X3) + Fu(X>%y) + als (As Xu)
+
+---PAGE BREAK---
+
+[Page 122]
+NI
+
+Simpson’s Rule
+
+Simpson’s rule fits a parabola ( 274 order polynomial) to each interval between
+[x;, f(x;)] and [z:42, f(zi+2)] and estimates the integral as the sum of the areas
+under the parabolas.
+
+a b
+(a+ b)/2
+
+For Simpson’s Rule, the intervals [xj;,; — x;| and [z;,2 — v;41| must be equal and
+the x-distance interval length is called Az. For three values of z;; a,a + Az,b
+the integral is
+
+[i flolds = FFs (@) + 4f(a-+ At) + £0)
+
+Simpson’s Rule requires that there be an even number of intervals which means
+
+that there are an odd number of data pairs [z;, f(z;)] Then the integral is approximated by the sum of the areas under the approximating parabolas as
+
+i f(x)da = S SH f(a) + 4f (xix) + f(Zi+2)|
+
+'=1,3,5,... 3
+
+For the usual case of equal spacing, Az, of all the z;’s, Simpson’s Rule can be
+expressed as:
+
+In A n—- n—-2
+i Fede = S [fler) + Fle) +4 ile) +2_ > fle)
+
+1=2
+
+---PAGE BREAK---
+
+[Page 123]
+Numerical Integration of Differential Equations
+
+---PAGE BREAK---
+
+[Page 124]
+dei.
+
+Numerical Integration of Differential equations
+
+
+>
+
+
+-10
+Oo 1 2 3 4 5 6 7 8 9 10
+
+d
+Consider the differential equation: A = f(x,y) subject to y(a) = b
+x
+The condition y(a) = 6 is called an initial condition. a and b are known numbers.
+
+The approach to integrate the differential equation numerically is to start at
+x = a where we know the solution, y = b. Then we move to x = a+ Az. The
+solution at that point is: y = a+ foyeAx, where faye is the average value of oh
+over the interval from a to a+ Az. Then we proceed in the same way to obtain
+y(a + 2Az). The accuracy of the numerical solution depends of the accuracy of
+the estimate of faye. The various ways of making this estimate are called rules or
+methods. We will index the points at which y is determined by 7 so the computed
+values are yo, Y1, Y2, --- at values of x: x9, 21, Z2,.... The simplest method is Euler’s
+Method.
+
+---PAGE BREAK---
+
+[Page 125]
+Euler’s Method In Euler’s method, to estimate y;:1, fave 18 approximated by
+its value at (x;,y;) or its value at (2:41, y;) The former case is called the forward
+Euler Method and the latter case is called the backward Euler Method.
+
+For the forward Euler Method: Yier © Yitf (xi, yi) (Li41—-7:)
+Expanding y in a Taylor series about 2, gives:
+
+(x — to)” ”n
+
+y(t) = y(xo) + (x — x0) y'(xo) + 5 y (Zo) +...
+
+The error,e, for one step in the solution by the Euler Method can be obtained
+from the first omitted term in the above Taylor series:
+
+_ (= 2)? d’y
+
+. 2 dx?
+
+The meaning of the error depends on the value of z for which fy is evaluated.
+There is one point in the interval for which the computed error is exact. However,
+the location of that point is not known. If we take the absolute value of the
+maximum value of ay in the interval, the result is an upper bound on the error.
+€ is called the local error for the interval. The total error for the entire interval is
+called the global error. The sum of the values of ¢ for all the intervals is an upper
+bound on the global error. For demonstration purposes, if we have a differential
+equation that can be solved analytically, the exact global error can be calculated.
+It can be shown that the global error diminishes as the step (interval) size, Az,
+is made smaller.
+
+Modified Euler’s Method
+
+The forward Euler method uses the derivative at the initial point of the interval.
+The backward Euler method uses the derivative close to the end point of the
+interval. A numerical solution with improved accuracy is obtained by using the
+average of the derivative at the initially computed end points.
+
+Os 1 — OF
+Yiner ~ Yi t —T {y' (xi, yi) + y' rina, Yi + (Gin — 24) y' (Zi, Ys)]}
+
+---PAGE BREAK---
+
+[Page 126]
+Vv 3
+
+Modified Euler’s Method (continued)
+
+For each successive interval, the steps are:
+
+1. Evaluate the slope [y’(x;, y:)] at the start of the interval.
+. Estimate yj, at the end of the interval using Euler’s Method.
+. Evaluate the slope, y'[2i41, yit(Li41 —2i)y'(a:, yi)], at the end of the interval.
+
+. Calculate the average of the two slopes,y/,, from steps 1 and 3.
+
+oo -& WwW bd
+
+. Calculate a revised value of y;;; using the average slope,
+Yixr = Yi + (Zit — Ti)Vave-
+
+---PAGE BREAK---
+
+[Page 127]
+Fourth Order Runge Kutta Method
+
+h( S4+ 2S5+ 283+ S4)/6
+
+X.
+
+The fourth order Runge Kutta method estimates the average value of f = tu in
+an interval of length h in terms of values of f at four locations in (2, y) space. If
+the initial point of the interval is (z;,y;), one derivative is evaluated there, one
+is at r = 2; +h and two are at x = 2, + h/2, for two different values of y. If we
+depends only on x and not on y, the two intermediate values of f are the same.
+
+The four slopes are:
+
+s, = f (Xi, ys)
+
+So = f(x; + 0.5h, y; + 0.5h53)
+
+Sa = f(ai +h, yi + hs3)
+Then the value of y at the end of the interval is estimated as:
+h
+Yit1 = Yi + race + 289 + 283 + $4)
+
+---PAGE BREAK---
+
+[Page 128]
+DELS
+
+Predictor-Corrector Methods
+
+Two difficulties with high order Runge Kutta methods are the computation time
+required to compute several values of the derivative at each time step and the
+exact error is unknown. Predictor-corrector methods allow fewer computations
+if the number of corrector steps is limited and allow iterations of the corrector
+step converging to a very accurate solution if the required computation time is
+available.
+
+The approach with a predictor-corrector method involves two steps. The first is
+a prediction step using any integration method and the second is the correction
+step which improves upon the prediction. The process is explained here using
+the simplest rules: the Forward Euler Method for the prediction step and the
+trapezoidal rule for the correction step. The equation to be solved is: ow =
+f(x,y). Consider the interval from index 7 to index 1+1 with x44; —z; = h. The
+prediction step is:
+
+Yi+10 = Yix t+ hfis
+
+The second subscript on the left hand side, 0 indicates that there have been zero
+correction steps (or trials). The second subscripts, *, on the right hand side
+means that the subscripted quantities are for the final step; in this case for the
+i" integration step.
+
+Now we use the trapezoidal rule to correct the estimate of y;+1.
+
+h
+Yiti1 = Yaw + 2 [ Fi + fi+10]
+
+The rightmost term can be evaluated since we know y;+;19 from the previous
+prediction step. We can refine the estimate, using the value of y;.; from the
+prior correction step.
+
+h
+Yit1g = Vix + 2 [fi,s + fitij—a|
+
+This process can be continued until y converges. The converged result is the exact
+solution to the numerical problem as posed, but is not necessarily the solution to
+the actual continuous mathematics solution. In this case, the numerical problem
+is based on the average derivative over the interval being the average of its value
+at the two ends. This is not exactly correct for differential equations in general.
+
+---PAGE BREAK---
+
+[Page 129]
+D ere
+
+Higher Order Differential Equations
+
+_ dy dy
+Consider the equation: aa + fi(z, Woe + fo(z,y)y = 9(2,y)
+dy
+Let: ==
+et: = 2
+
+Then: 2 =-fi(z,y)z—-f.(z,y)yt+g(z,y)
+
+When we use an integration rule, at each step it is applied to the two equations
+above and everything else proceeds as it does for a first order differential equation.
+
+The same approach can be used for equations of higher order. For example:
+
+d°y d’y dy _
+dx3 + fal, 9) 5 + Alz,y)s- + fo(z, y) y= g(x,y)
+
+Make the following definitions:
+dy
+dx
+dz dy
+
+dx dx?
+
+Then: = = —fo(x,y)w — filz,y) z— fo(z,y) y + 9(2,y)
+
+In this case, the integration rule is applied to three equations at each step.
+
+---PAGE BREAK---
+
+[Page 130]
+DEEZ?
+
+Review and Extension
+
+Simple Example
+
+d*y dy
+Suppose: 7 fly, ta + g(y,t)y = hly,t)
+d*y dy
+a —fy, t) g(y, t) y + Aly, t)
+
+d
+Let: q(y,t) = os
+
+dq
+Consider the simplest integration rule: Forward Euler Integration
+g(t + 6t) = a(t) + {-F(y(t),t) alt) — g(y(t),t) y(t) + h(y(t), t)]6t
+y(t + dt) = y(t) + q(t) ot
+
+Slightly More Complicated Example
+
+om Ol, 0) Om Fla, yt) we t) + g(z,y,t)y(z,t)m = h(z,y,t)
+
+ar?
+
+Follow the above procedure for each (fixed) value of x.
+
+OPy (x,t) _ Oy(x,t)
+. _ Oy(z,t)
+Let: g(z,y,t) = A,
+
+Now we do the numerical integration by the Euler Method. Any other method can also be used.
+
+q(x, y,t+ dt) = g(a, y,t) +[-f(z, y(a, t), t) q(2, y(z, t), t) — 9(z, y(2, t), t) y(x,t) + h(a, y(a, t), t)] dt
+y(x,t + dt) = y(a,t) + q(x, y, t) dt
+
+---PAGE BREAK---
+
+[Page 131]
+o Qn ey ba a cE
+EX PRL ES Se po, ~2ey
+
+Some Examples and Numerical Errors
+
+---PAGE BREAK---
+
+[Page 132]
+nu meth
+
+PHYSICAL PROBLEM | PHYSICAL MODEL
+
+Simplifying Assumptions
+
+Geometry
+
+(Navier Stokes Eqn)
+
+Less Important Effects
+
+Euler Equation
+Linearity
+Incompressibility
+
+Laplace Equation
+
+MATHEMATICAL MODEL
+
+---PAGE BREAK---
+
+[Page 133]
+Nomer QO
+
+Types of Numerical Hydrodynamics Problems
+
+1. Evaluation of Mathematical Functions
+2. Simulation
+
+3. Direct Solution of Differential or Integral Equations
+
+Example of Function Evaluation
+
+5.0
+
+Consider a diffuser with circular crossections and radius vs length as shown.
+Units are meters. The average velocity of an incompressible fluid across
+the inlet at z = 0 is 5 m/s. Determine the average velocity across all cross
+sections.
+
+Q = 5n(2 + tanh(—5)]?
+
+_~@_ Q
+wr? [2 + tanh(x — 5)}?
+
+Vave (x)
+
+---PAGE BREAK---
+
+[Page 134]
+NY OUMET S
+
+%$ MATLAB Program diffu
+fname = input(' Type name for output file: ','s');
+fid = = open (fname, 'w") 3
+q= 5.0 * pi * (2.0 + tanh(-5.0))%2;
+x = 0 0.2 : 10.0 ;
+v=zq a (pi * (2.0 + tanh(x-5.0)) .%2);
+for j = 1:51;
+” Eprintf (fid, ' $10.4f %10.4f \n', x(4), v(3)
+end;
+
+fclose(fid);
+
+plot (x,v);
+
+xlabel('x (meters)');
+ylabel( 'v_f{ave} (m/s)');
+axis([0 10 0 10]);
+
+)
+
+---PAGE BREAK---
+
+[Page 135]
+Vave (m/s)
+
+x (meters)
+
+VOM:
+
+OO
+
+---PAGE BREAK---
+
+[Page 136]
+COMO WO UO UO DDD DOGAATATAANANAAAGAAGCUNUYHKONBHRAHA HA BW WWWWNYONNHDNKYNPFPRRFKFEP OTC OO
+
+. 0000
+-2000
+- 4000
+. 6000
+- 8000
+
+. 2000
+- 4000
+. 6000
+. 8000
+.0000
+
+- 4000
+- 6000
+- 8000
+
+-2000
+- 4000
+. 6000
+. 8000
+
+
+- 4000
+. 6000
+. 8000
+-0000
+. 2000
+-4000
+. 6000
+- 8000
+
+-2000
+-4000
+. 6000
+. 8000
+
+
+- 4000
+. 6000
+. 8000
+.0000
+.2000
+. 4000
+. 6000
+. 8000
+
+. 2000
+- 4000
+. 6000
+. 8000
+.0000
+
+oooooco°oe°o°o°0co co 98 C8 COCO ODO OOOO OOF FRRFRRPRNN WW SP HEHE HHA HH HH HSH AHH BH UW
+
+. 0000
+- 9996
+
+-9979
+- 9964
+-9942
+
+. 9860
+-9787
+. 9679
+-9518
+- 9280
+-8929
+-8415
+. 7668
+-6596
+-5085
+. 3008
+-0251
+- 6762
+-2608
+-8019
+. 3366
+-9054
+
+-2502
+
+
+.7769
+. 7046
+-6557
+
+. 6007
+-5859
+-5759
+
+- 5648
+-5618
+-5597
+-5584
+~5575
+-5569
+-5565
+
+-5560
+
+-5558
+-55958
+-9557
+
+~5557
+
+numer”
+
+---PAGE BREAK---
+
+[Page 137]
+(m/s)
+
+Vave
+
+x (meters)
+
+NeEmMmeET & &
+
+---PAGE BREAK---
+
+[Page 138]
+Example of Solution of Ordinary Differential Equation
+
+Motion of a Sphere Due to Drag
+
+—_—_______»
+vy ——_> u-
+| dt
+—_——_——_—_—_—>
+dz 1 9 dx\?
+ae? D = spCankt (v — 7)
+d 2
+
+eau = ant (V? — 2uV + u’)
+
+Discretize and use forward Euler Integration:
+
+du
+Wind = Uy + (S) At Lig. = 2+ uj,At
+
+Initial Conditions: 2) =0 ug = 0
+
+YomEetT?
+
+---PAGE BREAK---
+
+[Page 139]
+% MATLAB pro
+fid = fopen(
+rho = 1000.0;
+
+q
+
+sphere.out'
+
+0.0;
+0. o
+
+fprinttCFid, "%15.7F
+ucl
+
+for 422:
+24.
+
+2n
+
+ctewse
+
+dt
++ uci ide;
+uCj) +
+fprinet Fd "%15 .7Ff
+end;
+plot(t, Xs! -",t,u,
+xlabel(' Time (Seconds) ' );
+h=legend( 'x (meters) '
+
+%15.7F
+
+Fac* (v*v-
+
+spheredg
+
+ram spheredg
+
+,'W');
+
+O*
+7”
+
+“18. FF
+
+* m);
+
+%15.7fF \n'
+
+uCj)*v + uC
+
+%*15.7F \n
+
+VMUKETS
+
+, tC), xq),
+
+J)
+
+"u (meters/second) '
+
+Page 1
+
+*udG ))*dt
+tay, xCi), uc);
+
+, 2);
+
+---PAGE BREAK---
+
+[Page 140]
+MU METS ty
+
+Cd
+—— x (meters)
+--- u (meters/second)
+
+Time (seconds)
+
+---PAGE BREAK---
+
+[Page 141]
+POO 9OSFCCONODKDO OOOO OOOO ODO OOO OOOO OOOO OOO OOOO OOOO OOO OOO OOOO O Oe
+
+tL.
+
+. 0000000
+
+
+
+-0400000
+
+- 0600000
+-0700000
+
+.0900000
+. 1000000
+. 1100000
+
+. 1300000
+. 1400000
+. 1500000
+. 1600000
+. 1700000
+. 1800000
+. 1900000
+- 2000000
+.2100000
+- 2200000
+-2300000
+- 2400000
+- 2500000
+. 2600000
+. 2700000
+. 2800000
+. 2900000
+. 3000000
+- 3100000
+- 3200000
+. 3300000
+- 3400000
+- 3500000
+. 3600000
+. 3700000
+. 3800000
+- 3900000
+- 4000000
+- 4100000
+- 4200000
+- 4300000
+- 4400000
+- 4500000
+- 4600000
+- 4700000
+- 4800000
+- 4900000
+. 5000000
+-5100000
+. 5200000
+
+- 5400000
+- 5500000
+- 5600000
+
+“~
+
+ee eno oOo Reo eRe e oho oRokoRoRokoho Loko LohoRoloRoLoleoRoloheokelolooloRoloRolononononononene)
+
+x
+
+. 0000000
+. 0000000
+.0000785
+.0002344
+.0004664
+.0007733
+.0011539
+.0016073
+
+.0027277
+. 0033926
+-0041260
+.0049268
+.0057941
+
+.0077242
+.0087852
+-0099090
+-0110946
+
+.0136481
+.0150143
+.0164391
+.0179215
+-0194610
+.0210567
+
+.0244138
+-0261737
+
+
+
+
+
+.0378296
+
+
+
+-0465968
+.0489076
+-0512648
+-0536679
+.0561163
+
+.0611470
+
+
+- 0690198
+-0717292
+.0744804
+.0772728
+.0801060
+-0829795
+.0858929
+
+
+.0948682
+
+[FTeCOCOOOOCOOOO OOD OOO OOOO OOOO OOOO OOOO OOOO OOOO OOOO OOOO OC OOO OCC OOo
+
+uU
+
+.0078540
+.0155851
+
+- 0306900
+
+
+.0524947
+-0595457
+-0664922
+
+-0800807
+-0867271
+
+.0997350
+. 1061005
+
+
+- 1246662
+. 1306840
+
+-1424739
+- 1482493
+
+.1595691
+.1651166
+-1705911
+
+-1813267
+. 1865906
+
+.1969174
+- 2019828
+- 2069844
+- 2119236
+.2168014
+. 2216190
+
+-2310781
+-2357217
+- 2403094
+-2448422
+- 2493210
+- 2537469
+-2581207
+- 2624434
+- 2667159
+- 2709390
+.2751137
+-2792406
+- 2833207
+
+-2913435
+-2952877
+
+
+
+-
+~~ *
+
+VOmet sg
+
+---PAGE BREAK---
+
+[Page 142]
+ro
+
+DOW UUWO WW WOW WO WOW WO WOW WOW HW HOW HH OOOH DOH HOO WO
+
++t
+
+_
+=o
+
+. 6900000
+. 7000000
+
+. 7100000
+. 7200000
+
+. 7300000
+- 7400000
+- 7500000
+. 7600000
+
+. 7700000
+. 7800000
+
+. 7900000
+- 8000000
+
+. 8200000
+. 8300000
+. 8400000
+
+- 8600000
+
+.8700000
+- 8800000
+
+- 9000000
+. 9100000
+- 9200000
+. 9300000
+. 9400000
+- 9500000
+. 9600000
+- 9700000
+- 9800000
+- 93900000
+-0000000
+
+x
+
+~— oe
+
+6.9506656
+6.9595065
+6.9683485
+6.9771915
+6.9860356
+6.9948807
+7.0037269
+7.0125741
+7.0214224
+7.0302717
+7.0391220
+7.0479734
+7.0568258
+7.0656792
+7.0745337
+7.0833892
+7.0922458
+7.1011033
+7.1099619
+7.1188215
+7.1276822
+7,.1365438
+7.1454065
+7.1542702
+7.1631349
+7.1720006
+7.1808673
+7.1897351
+7.1986038
+7.2074735
+7.2163443
+7.2252160
+
+OO oO eRe Ree eR en Oe Nee ORO e ROR Oe OOO eRe eRe enero neon@)
+
+u
+
+= = _
+
+.8840910
+
+
+-8844070
+.8845120
+
+.8847213
+. 8848256
+
+- 8850338
+-8851376
+. 8852413
+.8853447
+.8854479
+-8855510
+
+. 8857566
+.8858591
+.8859614
+
+.8861655
+
+
+.8864703
+.8865715
+-8866725
+
+.8868741
+. 8869746
+.8870749
+.8871751
+-8872751
+
+MUMET SC
+
+---PAGE BREAK---
+
+[Page 143]
+Numer 4
+
+Example of Solution of Partial Differential Equation
+
+Potential Streaming Flow about a Circular Cylinder
+
+——_}> —_ —
+u-n=O
+—>
+V>—> AN
+— >
+—>
+_ a” “~
+U=iu+ jv
+
+There is an equation at each grid point:
+
+bi-1,5 — 2645 + i417 n Gij—-1 — 2Gi5 + bigar
+s2 s?
+
+=0
+
+Boundary Condition far (many diameters) from the cylinder:
+
+Gig ~ Pig i,j —V. Pi,j41 — Pijti — Pig —0
+
+8 Ss
+
+Boundary Condition on the cylinder:
+
+os bist — Pig Pig — Vij
+s
+
+cos 6 + sin @ = 0
+
+---PAGE BREAK---
+
+[Page 144]
+VUmetia
+
+cylindrical coordinates
+
+Equation at each grid point:
+
+biti j — Pi-1j . Git. — 2645 + Oi-1;
+a  * Se ed + ae A
+2rdr (dr)?
+
+Pig+i — 2bij + Gi j-1
+
+r2de2 =0
+
++
+
+Boundary Condition far (many diameters) from the cylinder:
+
+Pijt1 — Pig _ Pitt, — Pig _ ,
+i = V,cos0 do = —V,sin0
+Boundary Condition on the cylinder:
+Pijtt — Pig _ 0
+dr
+
+---PAGE BREAK---
+
+[Page 145]
+NOmet tit
+
+Example of Discretized Integral Equation
+
+Potential Streaming Flow about a Circular Cylinder Here we seek the perturbation velocity that exists in addition to the uniform flow of speed V,.
+
+Exterior flow is represented as a source distribution of strength o(@) on the
+surface of the cylinder.
+
+sy pra @)lr —7(8)]
+U(r)= | —“~——, do
+I 20 > — r/(6)|
+
+Just outside the surface of the cylinder, U - 7% = —V, cos
+Now we can form the discretized approximate equation:
+
+oi(rj = 7) “75 psy 4 21 _ _V cosé,
+
+---PAGE BREAK---
+
+[Page 146]
+VO Wet i
+Stability
+
+When applying a numerical procedure to a problem in fluid mechanics, the
+result can diverge. In other words, the process is unstable. Such instabilities
+can be fundamentally fluid mechanical or they may come from inaccuracies
+in the numerical procedure.
+
+For example, suppose a process is governed by the differential equation:
+
+d
++ = 3y with initial condition (0) = 1
+
+We know that the solution to this equation is y = e** which diverges as t
+increases. This is a fundamental instability in the process being modeled. A
+
+proper numerical solution will capture this instability.
+
+Now we explore a numerical instability using numerical values with three
+decimal places. Consider the set of values, z, defined for non-negative integers
+n by: ,
+
+‘2 dx
+
+0x2+5
+
+A recursion relation for the z’s can be made as follows:
+
+kn =
+
+1a" + 5a") _ ee+8) a r+5), 1
+
+in + Sen = ff t+5 z+5
+
+Zp = — — OZp-1
+
+Forn=0, z= [i =p 5 de = n(6) ~ In(5) = 0.182
+
+Forn>0, z= - — 5 2n-1
+z, = 1.000 — 5 x 0.182 = 0.090
+za = 0.500 — 5 x 0.090 = 0.050
+z3 = 0.333 — 5 x 0.050 = 0.083
+
+zq = 0.250 — 5 x 0.083 = —0.165
+
+The above negative value for z, must be wrong since the integrand is positive.
+It comes from numerical instability associated with roundoff error.
+
+---PAGE BREAK---
+
+[Page 147]
+Nu met 13
+
+An alternative recursion relation is:
+
+1 Lp i
+1=—-— =0.2{-—-2z
+*n-t on 8 (- »)
+
+This reduces the effect of the error by a factor of 5. We will start with an
+approximation to z;q and use the recursion relation for successively smaller
+
+values of n.
+
+Approximate Equation: zo = [° —— (1—0.2)da = 0.015
+
+——__ 40.2
+0 5(1+0.22) 0.2 fa"
+
+z19 = 0.015
+
+zg = 0 (= 0.015) 0
+
+zg = 0.2 (5- 0.017) = 0.019
+
+27 = 0.2 (5- 0. 019) = 0.021
+
+6 = 0.2(5- 0.021) ~ 0.024
+
+Z5 = 0.2 (=- 0. 024) = 0.029
+
+zq = 0.2 (=~ 0. 029) = 0.034
+
+a= 0.2(5- 0.034) = 0.043
+
+= 0.2(5 0.043) = 0.058
+
+zy = 0.2 (5- 0. 058) = 0.088
+
+zo = 0.2 (5 ~ 0.088) = 0.182
+
+Note that the result for zo is cortrect even though an approximate value was
+used for Zj9. This iteration scheme is stable.
+
+---PAGE BREAK---
+
+[Page 148]
+PANEL METHODS
+
+P|
+
+---PAGE BREAK---
+
+[Page 149]
+Zz
+Wan <—
+x U
+
+Sketch of an Object in a Uniform Stream
+
+®=-Ur+d
+
+Boundary Condition on Perturbation Potential
+
+O® Ob i»
+on — an Ut
+
+Three Dimensional Flows
+0 (x,y, 2) outside S
+If, > — os dS = { —2rd(z,y,z) (x,y,z) on S
+” ” —4ro(z,y,z) (x,y,z) inside S$
+
+1 1
+
+where: r = (a — €£)?+ (y—n)? + (2-6)?
+
+G can be taken as: G = po+H(z, y,2,€,7,¢) where H is an analytic function
+
+(V?2H = 0 in both (2, y, z) and in (£,7,¢) coordinates. It is used sometimes
+when a particular H makes the integrand zero on flow boundaries external
+
+to an object, thereby removing the necessity of integrating over them.
+
+---PAGE BREAK---
+
+[Page 150]
+Ps
+
+Interpretation of Green’s Theorem
+
+Sketch of Streamlines from Sink and from Dipole
+
+Sink Dipole
+Sketch of Sink and Dipole Streamlines
+
+The velocity potential inside the fluid domain and on object surface expressed
+as distributions of sources (or sinks for the Green function we have chosen)
+and dipoles on the surface of the object.
+
+G(z,y,z,€,7,C) is the velocity potential at (x,y,z) due to a point sink of
+unit strength at (€,7,¢)
+
+A sheet of of sinks with strength o per unit area causes the normal velocity
+to jump by 420 when crossing the surface from inside the object out into the
+fluid.
+
+ce is the velocity potential at (x,y,z) due to a point dipole of unit dipole
+
+moment at (£,7,¢) with the axis of the dipole normal to the object and
+pointing out of the fluid and into the interior of the object.
+
+A sheet of dipoles with strength y per unit area causes the velocity potential
+to jump by —47yz when crossing the surface from inside the object out to the
+fluid. That’s why the dipole moment per unit area needs to be ¢ to generate
+a velocity potential of —47¢ in the fluid just outside the surface and in the
+fluid.
+
+---PAGE BREAK---
+
+[Page 151]
+Arrangement of the Integral Equation
+e arrange the equation for @ in the form of an integral equation with
+unknowns on the left and known quantities on the right.
+
+e The equation will be applied on the surface of the object where the
+boundary conditions specify part of the equation.
+
+e Excluding an infinitesimal surface around the point (€,7,¢) = (2, y,z)
+from the region of integration makes the constant on the right hand side
+of the equation equal to 27 instead of 47.
+
+For problems where 22 5, 18 known on the fluid side of the surface, we write the
+equation for the unknown ¢ with a known right hand side.
+
+[Lex dS¢ ne + 27G(2, y, z) =| 058 ds én,C
+
+When we substitute Ui-n for ce the integral equation for the unknown
+velocity oe @ is:
+
+II, oe F dSeng + 2rd (c y,z) = | [, QUi-n(E,n, 0) Seng
+
+---PAGE BREAK---
+
+[Page 152]
+PS”
+
+Numerical Form of the Integral Equation
+
+Sketch of an Object Surface Divided into Quadrilateral Panels
+
+e A quadrilateral panel with four corners on the surface will not necessarily
+be planar.
+
+e The simplest approach is to use approximating planar panels with ¢
+constant on each panel.
+
+e For an approximating planar panel, 7, place panel centroid, c; = (&),7;,¢;)
+on the actual object surface and orient the panel such that its normal is
+in the direction of the cross-product of the two diagonal vectors of the
+non-planar panel.
+
+e This leaves gaps between the panels which are sources of error. However,
+the smaller the panels, the smaller the gaps. A less erroneous procedure
+uses non-planar panels, but the integrations for the discretized equation
+becomes more complicated.
+
+---PAGE BREAK---
+
+[Page 153]
+PC
+
+Making the Numerical Equations
+
+e Write a separate equation for values of (x,y,z) at the centroid of each
+panel.
+
+e There are N centroids where ¢@ will be calculated so there will be NV
+equations.
+
+e The calculation (field) points, which are the panel centroids will be labeled by the index i and the value of ¢ on the i*” panel is called ¢; These
+are the unknowns.
+
+e For each equation (one for each of the N valies of 7), the integrals on the
+right hand side are done over each panel (7) individually and the results
+are summed together.
+
+N OG; N ,
+| hoo 05 dS¢en¢ + 27; Oi = | fit -n;(E,7, ¢) dS¢ nc
+j= j J j= j
+
+0 otherwise
+
+{5 ifi=j
+
+The symbol G;; means the Green function with the field point at the centroid
+of the i" panel and with the source point varying over all locations in the
+j*" panel as the integration is carried out. Since, in the approximation being
+used, ¢ is a constant,
+
+N AG, N .
+» of fs On, Em + 203 dij = XI I, GigU 0 n5(E,,C) dSe.n,c
+j= J j= I
+
+Define:
+
+OGij _
+/ I, An; ASene + 20 di = Ai
+
+and
+
+_ *
+j= j
+
+---PAGE BREAK---
+
+[Page 154]
+P?
+
+For planar panels, nj(€,7,¢) is a constant on each panel and we call it n; and
+then Ui-n;(€,7,¢) is a constant on each panel so that:
+
+N 4
+By = 2, Ui nj | f, Gij Wen,c
+j= 7
+The final set of equations for the N values of ¢ is:
+
+N
+>” Ajo; = Bi equivalently A¢g=B
+j=l
+
+---PAGE BREAK---
+
+[Page 155]
+Solution Steps
+
+e Do the numerical integrals to generate the matrix A and the vector B
+which are integrals of G and we
+
+e For each field point i integrals must be done for all N values of j. .
+
+e Once A and B are determined, solve the set of linear equations is solved
+for @.
+
+e When the number of panels is less than a few thousand, it is practical to
+solve the equations by Gaussian Elimination, or an LU decomposition.
+
+e The burden of carrying out these procedures is removed from the MATLAB user by obtaining the entire solution for all the values of ¢ with
+the MATLAB statement: ¢ = A\B.
+
+e After ¢ and ue have been determined on the surface of the object the
+numerical approximation to the left hand side of Green’s Theorem can
+be used to compute ¢ at any point in the fluid.
+
+e The usual goal of a panel method in fluid mechanics is to find the pressure
+distribution on an object from which the forces and moments can be
+computed. With inviscid fluid mechanics for which the panel method
+was developed, the local pressure, P is given by Bernoulli’s equation:
+
+_o¢
+at
+
+p is the fluid density and g is the acceleration due to gravity.
+
+P=p —|V¢) — gz
+
+The first term on the right hand side applies to time-dependent motion.
+Although this has not been considered explicitely here, one can imagine an
+object moving sinusoidally so that in a reference frame attached to the object
+U is sinusoidal and the solution has time dependence. The third term is
+simply the hydrostatic pressure. The most difficult term on the right hand
+side to compute is generally the second. It is the square of the velocity at
+the object surface.
+
+PS
+
+---PAGE BREAK---
+
+[Page 156]
+PY
+
+Two Dimensional Panel Methods
+
+The development for two-dimensional flows is similar to the 3D case, except
+that two dimensional source functions are involved and the dimensionality of
+some integrals and associated constants are different.
+
+Two dimensional flows are either mathematical abstractions with all flow
+directions in a two dimensional plane or physical approximations for long
+prismatic objects with an inflow that is perpendicular to the long axis.
+
+Objects for which the Flow is Nearly Two-Dimensional
+
+For the two-dimensional case, Green’s Theorem, is:
+aC Oo 0 (x,y) outside S
+|, |@5 — G5, | =} —20(@,9) (z,y) on S
+" ” —2ro(z,y) (x,y) inside S
+
+and the Green function is:
+
+where: r= (a — €)? + (y—n)?
+
+As in the 3D case, in 2D flows, sometimes the Green function is taken as
+—Inr + h(z,y) where h is an analytic function which means eh + ch =
+0. Green’s Theorem, still holds with this Green function. It is used for
+problems with boundaries on which the integral in Green’s Theorem vanishes
+
+to simplify the integrations that are necessary.
+
+---PAGE BREAK---
+
+[Page 157]
+PIA
+
+For an incomming stream in the —z direction the total potential is:
+® = —Ux+ ¢, the boundary condition for the perturbation potential, ¢ on
+the surface of the vehicle is ie = Ui-n on the object surface.
+
+The integral equation for the unknown function, (2, y) on the object surface,
+having unknown quantities on the left and known quantities on the right hand
+1s:
+
+dG ,
+[OE ma Aen + 79(e,y) = [GUI ndle,
+
+---PAGE BREAK---
+
+[Page 158]
+Pli
+
+Numerical Form of the Two Dimensional Integral equation
+The 2D curve is divided into panels which become segments of a curve:
+
+L3 L
+
+Panelization of a Two Dimensional Object
+
+e Each panel( actually a line) is defined by two vertices on the object
+curve. Panel 1 extends from vertex 1 (labeled v; in the figure) to vertex
+2, panel 2 extends from vertex 2 to vertex 3, etc.
+
+e The centroids of each panel, are at the mid-points of the arc length of
+each panel. For flat panels, straight lines are drawn between adjacent
+vertices and the centroids, called c; are moved to the midpoints of each
+straight line panel.
+
+e The unit normal vector, n; on panel 7, is a constant along the length of
+the panel. The panels are defined by the (z, y) values of the two vertices
+at the panel ends.
+
+e For the simplest implementation the potential, ¢, is approximated as
+being a constant on each panel.
+
+With these approximations and definitions, the numerical form of the integral
+equation is:
+
+Su
+
+---PAGE BREAK---
+
+[Page 159]
+Pir
+
+Analogous to the 3D case, we define:
+
+0Gi; _
+and
+SU; |. Guat B
+Ui-n,j ial; = B;
+
+j=
+
+Again, the final set of equations for the N unknown values of ¢ is:
+
+N
+j=l
+
+Calculation of A;; and B;
+
+For a field point 7 located at the midpoint of the 7’th panel we need to
+determine for each panel j the value of Aj; by integrating oe over the j’th
+panel. We also need to determine B; by summing up the terms in the equation
+for B;. General purpose MATLAB m-functions for doing these integrals exist
+
+and will be provided to students.
+
+---PAGE BREAK---
+
+[Page 160]
+Pi 3
+
+Situations With the Generation of Lift
+
+e If the object in a streaminf flow has a sharp trailing edge, it will usually
+generate lift.
+
+e The lift is related to circulation around the object so that ¢ jumps acorss
+the trailing edge. This results in a “wake” across which the potential
+jumps by the same amount as at the trailing edge.
+
+e To obtain a flow domain in which the velocity potential is analytic (satisfies V?¢ = 0) the wake must be excluded from the domain. The line
+of the wake can be treated as part of the object upon which there is a
+uniform strength dipole sheet which makes the velocity potential jump
+when crossing it.
+
+e Here we will use an approximation in which the wake is presumed to
+follow the free stream direction. Theoretically, the wake is infinitely
+long. For practical purposes, we can model the wake as being about two
+airfoil chord lengths long since dipoles further than this from the object
+(airfoil) will have negligible effect on the flow on the object.
+
+Expanded View
+of Wake
+
+A Two-Dimensional Lifting Airfoil With a Wake
+
+---PAGE BREAK---
+
+[Page 161]
+Ply
+
+e Green’s theorem is applied to a curve which starts at the far end of the
+wake at the bottom, goes along the bottom of the wake, goes around
+the foil, and finally goes along the top of the wake. On the top and the
+bottom of the wake, on any wake panel, oe are equal and opposite For
+any control point on the foil where the potential is to be determined
+and a source panel on the wake, G is the same for the two elements
+of the integration path, one on the wake top and one exactly under
+it on the wake bottom. Therefore, for the control points on the foil,
+fware GZ2de = 0.
+
+At the start of the wake at its junction with the airfoil, there is a jump
+in potential in going from the bottom to the top.
+
+wake top ~ Pwake bottom = Ad = Qn _ —1
+
+This jump in potential is maintained all along the wake because as one
+moves aft along the wake the potential changes the same amount on the
+top and on the bottom by Jf cage u(x) dz.
+
+e Thus, for control (field) points on the foil, with L being the path around
+the foil, W being the single line along the wake from its aft most considered point to the trailing edge of the foil, and n on the wake pointing
+downward for the configuration shown in the Figure , Green’s theorem
+takes the form:
+
+[oes oe den + [Aone dle, + 7o(z,y) = [,GUi- n dle»
+
+If the wake panels are labeled N + 1 to M with lengths ds,,, the discretized form of the equations appropriate for numerical solution for
+values of ¢ at control points, 2, on the foil are:
+
+Xb, I Caton) edt,,trdi = Yo Vins |, Gil
+
+jw=N+1 Li On,;,,
+
+---PAGE BREAK---
+
+[Page 162]
+PIs
+
+To put the preceding equation in the same format that was used for the
+non-lifting case, we define:
+
+OG,
+An, djw (din — 451) = Qi
+
+I. Ret + 1 Oi; + lov
+
+w
+
+Then, the final set of equations to be solved is:
+N
+»~ Qij Oj = Bi
+j=l
+
+which has the matrix notation:
+
+Q¢=B
+
+---PAGE BREAK---
+
+[Page 163]
+PIG
+
+Computation of pressures and forces
+
+For steady flow, Bernoulli’s equation for dynamic pressure is: P = —p|V|?
+This presumes that in the very far field, the pressure is hydrostatic and
+there is no dynamic pressure there. In unsteady flows, there is an additional
+contribution to the dynamic pressure equal to — p3s which is straightforward
+to compute at each control point.
+
+Here we concentrate on computation of the —rho|V|? term in the dynamic
+pressure. It is most convenient to know this pressure, P; at each control
+point. Then the force is: F = S%, P.n,deé;
+
+The central problem is calculation of the velocity at the surface of the object.
+At each control point, 7, the total flow is tangent to the object surface so we
+need only find tangential velocity. The tangential velocity is the tangential
+derivative of the total potential, ® (perturbation potential plus any exterior
+potential such as —Uz for the steady flow problems we have been considering).
+For two-dimensional flows the tangential velocity component has a single
+direction at each control point. We know how to determine the tangential
+derivative at a point using a modified central difference procedure for smooth
+objects. Even when the object has a sharp edge, this procedure can be used
+for all control points except for those adjacent to a trailing edge. In addition,
+the numerical derivative can be determined at a point that is midway between
+the first and second control points from the trailing edge. Then the tangential
+derivative can be approximated at a control point nearest the trailing edge
+by numerical extrapolation. An example follows.
+
+We know how to calculate the numerical tangential Derivative, called d> atControl point 2. The lengths of the panels are called Ly, Lz, ... The tangential
+derivative at point m, called d,, is given by:
+
+PD, — 2
+
+dm = — 1
+0.5(Ly + Ly)
+
+Then, by extrapolation, the derivative at control point 1, called d, is numer-
+
+ically approximated as:
+dy —d
+d, = dm — qa
+
+b
+
+---PAGE BREAK---
+
+[Page 164]
+Contro;
+Point 3
+
+Tangential Derivative at a Control Point Near a Sharp Edge
+
+---PAGE BREAK---
+
+[Page 165]
+Boundary Layers
+
+SL.TIT CE
+
+---PAGE BREAK---
+
+[Page 166]
+FMS RL4
+
+Two-Dimensional Steady Boundary Layer Equations
+
+x is horizontal direction along direction of main flow velocity u. Velocity
+at outer edge of boundary layer is called U.. or Vo, or Ue or Ve.
+
+y is perpendicular to wall and velocity in this direction is v.
+
+The boundary layer begins, say, at x = 0 and the boundary layer thickness
+is 6. 6 < x. Because the boundary layer is thin, to leading order the
+pressure is constant through the thickness of the boundary layer, eo = 0.
+
+Also, v <u, and we < e,
+
+y V Outer flow
+Edge of 20 Velocity
+boundary | profile
+layer | ny,
+
+rn 4
+a, Wall shear
+L_ Stress (7,,)
+
+SSS NN
+
+/——__—- Streamlines
+
+of boundary
+layer flow
+
+Ou, Ov _
+Ox Oy
+
+fos)
+
+Oz "Oy — p Or
+
+"Oy pp Ox
+
+O*u
+
+| ie
+Oy?
+
+Lar
+poy
+
+Plate
+
+Boundary layer
+Velocity profile
+
+---PAGE BREAK---
+
+[Page 167]
+$mbhlr
+
+Boundary Layer Parameters
+
+5* Shifted streamline
+wea
+
+Streamline position without
+boundary layer
+
+| .
+VINA / LD ii ir Extra thickness
+SYNANANNAARAN
+
+6*
+
+Thickness of Boundary Layer defined as location where u is 99% of Ue.
+6 = Y\u/U-=0.99
+The wall shear stress 7,, is given by:
+
+===
+oS Vay) wan) \Oy y=0
+
+The skin friction coefficient, C's, is:
+1 2T, 2v (Ou
+
+The displacement thickness, 6* is the thickness of a flow of speed U, that.
+carries a flow rate equal to the deficit in the boundary layer because its
+speed is less than U,.
+
+6 6
+U8 = [Ue — way s= | (1- *) ay
+
+---PAGE BREAK---
+
+[Page 168]
+FmbbL 3
+
+Mass Fluxes
+
+—— Edge of boundary
+rare layer
+
+™Meft = right + ™Mtop
+. d (sy
+Mtop = i (/ pudy) Ox
+
+Momentum Equation in z direction
+
+Mright + Mtop + Mies, = F pressure + Fstress
+. Y
+Miett =, pu'dy
+Y 2 d(/Y 4
+Myight = [ pu“dy + adn (| pu dy) 6x
+
+. . d Y
+Miop = ™topUe = Ue (/ pudy) Ox
+
+---PAGE BREAK---
+
+[Page 169]
+dU.
+Fpressure = _ Py 55 = pU, U, You Fs= —TyOL
+dz dx
+
+One additional needed equation is:
+
+Y
+Y= I dy
+Then all the equations on the last two pages can be combined into:
+
+d dU. Tw
+= u(Ue — u) dx [ (Ue — uy =
+
+For y > 6 the integrands are zero so the upper limits can be changed to 6.
+
+d JO aU. Tw
+— —u\dy = —
+ah ue - U. u)dy = >
+
+This is Von Karman’s Momentum Integral Equation. It relates the integrals of the velocity profile in the boundary layer to the shear stress and
+U,. and U? whose x-derivative is proportional to the pressure gradient.
+
+The momentum thickness © is defined as:
+cu
+
+With this definition, the momentum integral equation can be written in
+the following two forms:
+
+d ,_» ep, We _
+a, Ue8| +4 U. Tz = Ty/p
+
+dO 8 i. _G oe
+
+---PAGE BREAK---
+
+[Page 170]
+Fm CL26a}
+
+A second boundary layer equation comes from equating the kinetic energy
+change along x in the boundary layer to the energy input or output from
+the pressure distribution and the energy dissipation due to shear stresses
+in the boundary layer.
+
+The kinetic energy thickness, 0* is defined as:
+x 6 u
+= [ U. (1 -*] dy
+
+The kinetic energy dissipation coefficient, Cp, is defines ad:
+
+D
+Co=—3
+pu
+where D is the dissipation per unit area (along and perpendicular to the
+surface).
+
+Using these definitions, the kinetic energy equation is:
+
+d}* +30 due
+dx . ar
+
+= 2Cp
+
+*
+
+The energy thickness ratio, H* is defined as: H* = r)
+
+It is common to combine the kinetic energy equation and Von Karman’s
+momentum equation to obtain:
+
+---PAGE BREAK---
+
+[Page 171]
+FMB ais
+
+Example of Solution of Momentum Integral BL Equation
+
+U, >
+
+eS 10 Meters >
+
+U.=2m/s  6(x) =0.01*(1—e°"*) wy) =(1- eWay)” p = 1000kg/m?
+
+Problem: Determine the shear stress, T, at x = 5 meters.
+Determination of kd from BL thickness:
+
+0.99 = (1—e*))”_, k(x)6(@) =5.3 k(x) = S—
+
+At x = 5m, k = 1347 m7}.
+
+T
+
+d__0.01{1—exp(—0.1z)] r _
+I U-(1 — e8)? [U, — U-(1 — e)?| dy + 0 = Fs
+
+dx
+
+0.01(1 — e~°!*°) = 0.01(1 — e~*) = 0.00393
+
+T _ Uz(1 _ e 53)? (1 _ (1 _ e753)? ) ‘ (0.01(1 _ e012)
+
+dz
+0.00393 d
+[ ay (Ue(d — eM)? Ue — Ue(1 — eo K)?) } dy
+
+= U;(0.000060 + 0.000100) = 0.00016 U2
+
+T = 1000 x 4 x 0.00016 = 0.64N/m?
+
+,
+— —"_ — 9.90032
+of 5pU?
+
+---PAGE BREAK---
+
+[Page 172]
+0.05
+
+0.04
+
+oO N
+° o
+fo) ©
+
+(SJ9}elW) BYEep
+
+0.01
+
+X (meters)
+
+---PAGE BREAK---
+
+[Page 173]
+O'}
+
+9°0
+
+n/n
+
+v0
+
+c 0
+
+v0
+
+O'}
+
+Q/A
+
+---PAGE BREAK---
+
+[Page 174]
+x
+
+. 000000
+.000000
+. 000000
+. 000000
+-000000
+.000000
+- 000000
+. 000000
+. 000000
+. 000000
+. 000000
+- 000000
+- 900000
+. 000000
+. 000000
+- 000000
+. 000000
+-000000
+. 000000
+. 000000
+.000000
+
+eel elelajoelololojlojoloeloelojlolojojejolol=)
+
+delta
+
+.000000
+.001643
+.005434
+.010179
+.015162
+.019979
+.024416
+.028381
+
+.034836
+. 037382
+.039534
+.041340
+
+
+
+.046007
+
+.047305
+.047788
+-048185
+
+deldata
+
+Page 1
+
+---PAGE BREAK---
+
+[Page 175]
+y/delta
+
+—WMolelololelololeloloelelolololelolojlolololololololololololelololololelelololojololojololojojolojojolejeior~
+
+. 000000
+.010000
+.020000
+.030000
+-040000
+.050000
+.060000
+.070000
+- 080000
+.090000
+. 100000
+. 110000
+. 120000
+. 130000
+- 140000
+. 150000
+. 160000
+. 170000
+. 180000
+.190000 ~
+. 200000
+. 210000
+. 220000
+. 230000
+. 240000
+- 250000
+. 260000
+- 270000
+. 280000
+- 290000
+. 300000
+- 310000
+- 320000
+. 330000
+. 340000
+. 350000
+. 360000
+. 370000
+. 380000
+. 390000
+- 400000
+- 410000
+- 420000
+. 430000
+- 440000
+- 450000
+. 460000
+- 470000
+- 480000
+- 490000
+. 500000
+. 510000
+. 520000
+. 530000
+
+Molo elololololololololololololelololelelololololeololololelolelolololojolololojolojlololojelolojoajejolosoeio)
+
+u/Ue
+
+. 000000
+- 422358
+-500261
+
+-590201
+-621605
+
+- 670886
+- 690975
+. 708884
+. 725018
+. 739674
+. 753079
+. 765409
+. 776804
+. 787378
+
+- 806423
+- 815038
+- 823127
+- 830737
+.837911
+- 844685
+- 851092
+.857160
+- 862915
+- 868379
+. 873573
+»878515
+-883221
+. 887707
+. 891986
+- 896072
+. 899974
+- 903705
+-907274
+.910689
+. 913960
+. 917093
+. 920096
+-922976
+
+- 928390
+. 930936
+. 933381
+. 935730
+- 937988
+-940158
+
+
+
+.948042
+- 949832
+.951554
+
+“udata
+
+y/delta
+
+hale el wlolalalololojol{ajlojojolojojojoeleioeloloeloloelololololalololoelolololololololelolololo)
+
+- 540000
+. 550000
+- 560000
+. 570000
+- 580000
+- 590000
+- 600000
+- 610000
+- 620000
+- 630000
+- 640000
+- 650000
+. 660000
+. 670000
+- 680000
+- 690000
+. 700000
+. 710000
+- 720000
+. 730000
+- 740000
+. 750000
+. 760000
+- 770000
+- 780000
+- 790000
+- 800000
+- 810000
+. 820000
+. 830000
+- 840000
+- 850000
+. 860000
+. 870000
+- 880000
+- 890000
+- 900000
+- 910000
+- 920000
+- 930000
+- 940000
+- 950000
+- 960000
+- 970000
+- 980000
+. 990000
+.000000
+
+waojalejelojeletololojlolelololelololejololeloleloelelelelojololololeloelelolololololololojlelole)
+
+u/Ue
+
+
+
+
+
+
+.961971
+
+
+
+
+
+
+
+.971039
+
+.972930-
+
+---PAGE BREAK---
+
+[Page 176]
+Calculation of Turbulent Boundary Layer
+when Pressure Distribution is Known
+
+Fm BBL ¢AG)
+
+This result is approximate since the boundary layer thickness will alter
+
+the pressure distribution.
+
+The principal unknowns (quantities to be determined) are: 0(x) and 6*(z).
+
+An equivalent set of unknowns is 6(z) and A(z).
+
+There are two fundamental equations:
+
+da Et Ode FO
+9 dH* 2p CG} 6 du.
+aa _ _~Yfa (Hy)
+da 72 (FOU
+
+(1)
+
+(2)
+
+To be able to integrate the unknowns along the boundary layer, the derivatives of each of them are required: d@/dx and dH/dz. Equation 1 is in
+the desired form. To put equation 2 in the desired form, use the chain rule:
+
+dH* dH dH*
+dx dx dH
+
+(3)
+
+Empirical “closure relations” for H*(H) and dH*/dH exist. Therefore we
+
+write the energy equation in the desired form as:
+
+dH Ht 1 [2Cp Cy
+
+0 due
+dx 0 aja | 2 7G,
+
+Ue Ax
+
+(4)
+
+---PAGE BREAK---
+
+[Page 177]
+6 SEG ALZ)
+
+To do the integrals numerically, we need a means of determining C;, Cp, H*
+and dH*/dH in terms of the principal quantities H and Rg, where Ry =
+U.0/v. These empirical ’closure relations” have been determined by assembling a large amount of experimental data.
+
+Laminar Closure Relations
+
+yt — {| 0-76(H - 4)?/H+1.515, H<4.0
+~ | 0.015(H — 4)?/H +1.515, H > 4.0
+
+C; = pout. — H)?/(H —1.0)] — 0.134] /Rp, H <7.4
+
+0.044/1.0 — 1.4/(H — 6)]* — 0.134] /Re, H>74
+2Cp _ f{ |0.00205(4 — H)>* + 0.207] / Ra, H <4.0
+H* — \ |-0.003(H — 4.0)?/(1 + 0.02(H — 4)?) + 0.207| /R», H > 4.0
+
+Turbulent Closure Relations
+
+H.= 3+ 400/ Re, Rg > 400
+0 A, Rg < 400
+
+Ry, —{ Be Ro > 200
+92 ~ ) 200, Ro < 200
+
+y= 1.505 + 4/Rg + (0.165 — 1.6//Ry) eo | H <H,
+~~ _ in( Rez
+(H — Hp)?(0.007 gp tteel e+ 0.015/H] + 1.505 + 4.0/Re, H > He
+
+Cr = 0.307134 In(Re) —(1.74+0.31H)
+_ 2.3026
+
+---PAGE BREAK---
+
+[Page 178]
+FAS: 3
+
+Sea Waves
+E z
+
+Dominated by inviscid irrotational solution (V7¢ = 0)
+
+Boundary Conditions
+
+06 OC , 1060 , 8680)
+Oz at OxO0nz Oy Oyl,—¢
+
+es + ; (32) + (24). + (5) a = constant (0) (dynamic)
+
+Linearized Boundary Conditions
+
+(kinematic)
+
+Case of onset flow velocity of —iU.
+Now ¢ is the perturbation potential and the total potential is —Ux + ¢.
+
+For steady flow with onset flow:
+
+06 8 _
+
+dz Ot ox
+
+a Vd
+
+I Oz —sog On?
+
+Case of 2D waves and zero onset flow so ¢ is the total potential.
+
+Od _ oe _
+Lacleco Bt Bilao 6 =°
+Dispersion Relations for waves of ciruclar frequency w = 27af and
+
+wavenumber = k = 27/X and zero onset flow.
+w? = gk deep water
+w? = gktanh kh water of depth h
+
+---PAGE BREAK---
+
+[Page 179]
+Mia sR)
+
+Fb] a 99) 1a¢
+de|_, at Ozlu0 «g OF |
+
+C= Ae“) and C= _106
+
+Deep Water
+
+o = Beke'(kt-“t) ~~ Traveling wave that satisfies Laplace’s Equation
+
+€
+
+Bke*? ei(kz—+t) _— 1 2 Bekzeilke—wt) k= 2
+
+1 .
+¢ _ — 5 (tw) B el(kz—uwt)
+
+Finite Depth
+¢ = Boosh k(z + h) et(#t—#)
+
+Bksinh khe'(*t-#) — Burt cosh kh et(*2-t)
+g
+
+Ww
+
+ktanh kh = a w* = gk tanh kh
+
+C= ~ Gm) B et(ka-wt) = B cosh(kh) etlkr—ut) A= ; cosh(kh) B
+
+---PAGE BREAK---
+
+[Page 180]
+waveclem.ep
+
+(S1I9}OUL) SOURISIC] [PJUOZILIOY
+
+09 OS OV O€ 0@ O! 0
+
+‘AYLIB[D SUIMAIIA JO} poovydsip ATfeomzsa 7 O€
+UMOYS SUOINGLYUOS SABM [ENPIAIPU] “URDU 019Z SABY SOAINO |TV
+
+sjusUOdWIOZD [eplosnulg WO, WU0,J sABA\ WOpuLY Jo UOIBIOUEy
+
+(SIOJOW) UOTJBAITY DOvjINS
+
+---PAGE BREAK---
+
+[Page 181]
+ASM QED
+
+Example of Simulation
+
+Suppose a two dimensional (long crested) wave is generated with a wavemaker in a wave tank with an elevation at a specified location given by
+
+z(t), where:
+2(t) = 0.97 sin(5.2t + 0.82) + 0.99 sin(7.8t + 1.24) + 1.08 sin(9.8¢ + 2.72)
+
+What is the maximum elevation that occurs in the time interval of 0 to 120
+seconds (2 minutes). The usual way of finding maxima of analytic functions
+by setting the derivative to zero is not practical here because there are a
+great many maxima and the largest of these must be determined. However,
+because of the great computational speed of common computers, this can
+be done numerically without much effort.
+
+MATLAB Version of program Sinmax
+
+0:0.01:120; Prog
+
+0.97*sin(5.2*t + 0.82) ...
+
++ 0.99*sin(7.8*t 41.24) 4+ 1.08*sin(9.8*t + 2.72):
+zmax = max(z);
+mmax= find(z == zmax);
+
+tmax =(t Cmmax) ) ; .
+
+printer (l. tmax = 7 .3F zmax = %48.4f\n',tmax, zmax):
+
+N et 3&
+
+[t;z];
+tid = fopen('zmaxm.dat', w');
+fprintt (rid, "%F7.2F %8. aia 1;
+ot(t,z)
+xlabelt* t');
+ylabel('z' );
+titleC"Sinmaxm' 3
+
+>> sinmaxm
+tmax = 118.490 zmax = 2.9447
+>>
+
+---PAGE BREAK---
+
+[Page 182]
+VUmed 4
+
+Sinmaxm
+
+---PAGE BREAK---
+
+[Page 183]
+Sinmaxm
+
+---PAGE BREAK---
+
+[Page 184]
+S Peel
+
+Sea Spectra
+
+We consider wave fields whose statistics are both stationary and homogeneous in the horizontal plane.
+
+A sea spectrum function S7(k,w, 0) is a partial description of the statistics
+of the wave field defined such that S7(k,w,0)dk dw 66 is the contribution
+to the average wave energy per unit surface area, EL, in the wavenumber,
+wave circular frequency and propagation angle bands; 6k dw 60.
+
+For surface elevation ¢(x,t) the average wave energy is defined as:
+E=<(C>
+where < > signifies the statistical, temporal or spatial average.
+
+Thus: < (>= [" [°° [°° Sr(k,w,0)dk bw 50
+
+Similar definitions apply when frequency, f, is used instead of circular frequency, w, and/or when spatial frequency, +, is used instead of wavenumber, k.
+
+For the frequently encountered case of linear, deep water gravity waves the
+circular frequency and the wavenumber are related to each other through
+the dispersion relation
+
+w* = gk
+
+so that w and k are not independent of each other. Then the spectrum is
+a function of only one or the other of these variables and can be written
+as: S:(w,0) or S,(k, 6). These functions are related by:
+
+S,(k, 0) = $-5,(w,8)
+Hence: <@>= [" [* s,(k,e)dkd0 = [" [* S.(w, 0)durdb
+
+For unidirectional (long crested) seas, all the waves are in a single direction
+and the spectra are described by 5;(w) or S,(k).
+
+<@>= | Sw)dw = [ S_(k)dk
+
+---PAGE BREAK---
+
+[Page 185]
+pom b 7s
+
+The fundamental linearized plane progressive wave is:
+¢ _ Aei(kr—“t)
+
+d —_ = eb? eilkr—wt)
+
+Random sea waves have spectrum S(w, 8).
+For the 2D case the spectrum is S(w).
+
+S(@)
+
+@
+
+JZ? S(w) dw is the contribution to C? of waves with circular frequencies
+between w, and w».
+
+---PAGE BREAK---
+
+[Page 186]
+S P&C. 2p
+
+(puodds/suvipes) © ‘Aouonbaly repNoD
+
+c (4
+
+(4
+
+( s/pes /_w) uinanoads
+
+---PAGE BREAK---
+
+[Page 187]
+0S-
+
+(seo) A
+
+OOL- OSt-
+
+WV SI9}9I\| 00S
+
+00c-
+
+9°0S'0v'0-
+€'0-
+& 0L*O-
+
+LO
+
+€'0
+v0
+ee)
+9°0
+
+UOI}EAS|A VOVUNS (Ssse}ow) 9
+
+---PAGE BREAK---
+
+[Page 188]
+9-
+
+S-
+
+(sue}eu) A
+
+Ol- cl- Dl-
+
+WV SJ8}8 OOS
+
+OL-
+
+SlL-
+
+Oc-
+
+CC"
+
+voL0'0-
+
+90'0S0'0v0'0-
+€0°0c0'0LO'0-
+
+} LOO
+c0'0
+€0°0
+v0'0
+S0'0
+90'0
+
+UOI}eEAR|y BOeUNS (sio}oWW) 9
+
+---PAGE BREAK---
+
+[Page 189]
+(suejow) A
+
+Gc Ol Gl- Oc Ge- O&- SE- Ob- Gh-  OSS0'0-
+
+v0'0-
+€0'0-
+
+WV S19}93\ OOO!
+
+Z0'0-
+
+LO'0-
+
+exe)
+c0'0
+€0'0
+| VO'O
+S0'0
+
+uOI}eADIA eoeNS (siajaW) 9
+
+---PAGE BREAK---
+
+[Page 190]
+(ssa}ouw) A
+
+O0l-
+
+HV SJ8}8W OOO!
+
+OS|-
+
+00¢-
+
+9'0-
+
+(UOHeARIa BOeNS sisajew) 9
+
+---PAGE BREAK---
+
+[Page 191]
+Fra
+
+Fourier Transforms
+
+Fourier Transforms are valuable tools in numerical hydrodynamics because a
+number of problems can be described in the form of Fourier transforms and they
+can be computed very quickly by the Fast Fourier Transform (FFT) method.
+Two of these problems are solving a certain class of differential equations, and
+in simulating sea waves.
+
+X(f) = Fa(t) = [~ a(t)e?rl*at
+a(t) =F X(f) = [~ X(fletaf
+
+As an example, consider a differential equation with constant coefficients of the
+form:
+
+d” m—1
+An—— + An ay
+dx”
+
+Consider Fourier Transforms from x to f where:
+
+Fly(z)] = ¥ (Ph) and Flg(x)] = G(f)
+
+Take the Fourier transform of the differential equation to get:
+
+(i2mf)"AnY (f) + (G2a fy” AnaY (f) +... + AoY (f) = G(f)
+
+This is an algebraic equation which can be numerically solved for Y(f):
+
+ViN=—p
+(i2n f)"A, + (i2af)"-1Ap_1 + Ag
+
+y(x) can be determined by inverse Fourier transformation. Not only is this
+
+less computationally intensive than solving the differential equation by direct
+
+numerical methods, but the error in the integration rule is avoided.
+
+---PAGE BREAK---
+
+[Page 192]
+FT 2.
+Fourier Transforms (continued)
+
+X(f) = Fa(t) = [~ x(t)e Prat
+x(t) = FX(f)= [- X (fea
+Suppose z(t) + 0 fort <0 and ¢t>T. Then:
+
+X(f)x [abe Pat
+
+Also, suppose x(t) is band limited such that: X(f) = 0 for |f| > Finaz- Then:
+Fmaz
+a(t) =F"X(f)= |, X (fleas
+
+Now, consider a periodic function having period ¢ that is identical to x(t) for
+0<t<T. This function has a Fourier series given by:
+
+~ L2TN 1 /T —120
+a(t)= S> Ane?rr/t , An = 7 [ ete Prat
+
+nm=-— OO
+
+The expression for A, is identical to - times the Fourier Transform evaluated at
+f = %. These Fourier coefficients, A, = 7x (2) can be numerically evaluated
+very quickly by an algorithm called the Fast Fourier Transform (FFT).
+
+From the A,’s, the function x(t) can be constructed over the t-range 0 < t <
+T. Outside this range the reconstruction is periodic whereas the real value of
+a(t) ~ 0
+
+Evaluate A, by the following rectangular rule integration:
+
+6t = t=jot jmaz=N T=No6t 2; = 2(jot)
+2F max
+1 Aa. i2nnjot 1 N- omni
+_ t _ _ e? ang iN
+An = ag D, Bd ew [HTP] b= 5 Ye
+
+---PAGE BREAK---
+
+[Page 193]
+F wan =
+
+ares M
+MT Frcs
+
+Sd mpi
+plin
+4 phe of 2 rn
+
+Fran =
+y= +
+
+= age YF
+
+a F Ha
+
+---PAGE BREAK---
+
+[Page 194]
+TT Mf oe i
+|
+
+—
+
+— a fo us — LL =
+man Mee= Ma =o Se AE
+
+nay - T [max = T 25¢ ~ Qo
+- 4 - 2 : Ww
+Gt= GF df= = Ae dth=
+
+---PAGE BREAK---
+
+[Page 195]
+FT 3
+
+Fourier Transforms (continued)
+
+X(f) = 0 for f 2 Fmaz = 55 and f ==, so 0f = 7 and maz = T fmax = >
+1 1 1
+t = = Cl Ol
+° 2Fmaz’ fot 2Fnaal N
+x2 iQnnjst} 1 Ne
+x(jot) = x; = TA exp | lz = >A eitnnj/N
+( ) J ae n Not T nahi) n
+
+Fast Computing
+
+Computing speed is minimized by minimizing the number of complex exponentials that must be computed.
+
+—i2n/N i2n/N
+
+Let: qi =e G2 =e
+
+e i2nng/N _ en 2n(n—1)5/N gi _— e t2an(j—-1)/N qe
+
+i2anj/N __ i2n(n—1)7/N ~j __ (i2an(j—1)/N on
+el2nng/N _ @i2n(n-1)3/N gi) — enn G-1)/ gf
+
+Even the powers of q can be avoided:
+
+en i2m(0)(0)/N _ 4
+
+eW2M(I()/N _. @#2m(O)(O)/N g
+en 2m(IQ)/N _ @A2M(I)/N g,
+e-2r(2)()/N _ 9-#2m(N()/N g
+e-PAM(IN _ p-i2m(N(2/N g,
+eH2m(2)(2)/N _ 9t2a(1)(3)/N g
+
+etc.
+
+---PAGE BREAK---
+
+[Page 196]
+FT 3
+
+Fourier Transforms (continued)
+
+‘Periodicity
+The actual integral transforms are of limited extent.
+z(t) =0 except forO <t<T
+
+X(f) =0 except for — Finaz < f < Finaz
+
+However, the mathematical constructions, while consistent with the integral
+transforms for: 0 <¢t < T, and —Fmax < f < Fmaz, are periodic outside
+these ranges.
+
+1% je 2m nN) i /N 1 ~i2nnj/N ian _ + Ne ge mn/N
+
+Lj4tN = > Ane2™rG+N)/N = > Ane2tralN ei2an = > A, ei2nng/N _
+n=—N/2 n=—N/2 n=—N/2
+
+Therefore: x; = cS Ane2rra/N
+n=0
+
+---PAGE BREAK---
+
+[Page 197]
+N" _t Aas
+Aah ee G
+
+Comeatationg§ FFT and TFET of rere NVuabers
+a nT 7
+
+its
+
+oe _WA sy
+MK PM EW = Hy eNE
+
+A J x FIG W
+I £ Ss aw
+
+Jo
+
+ales “if the x“ are real,
+
+A-n=y < ae — -
+
+ECW gio Wn)
+
+___Sinee 2
+Anat TOM “An eo ban Wi —
+
+~ TF x; 'S are real oo A #% is féal
+ae A ~I = An: { _ _ a _
+—_— =7 Avs A VaK _
+
+Ea
+
+N- -|
+
+tt arn
+
+“There fore, Kye ee — ae
+
+"a. pos os Mp
+
+Where Py = Bagi ns Uae oe
+
+Exam ay 98) ho
+
+---PAGE BREAK---
+
+[Page 198]
+eo €4
+
+Simulation of Random Waves
+
+Here we consider two-dimensional (long crested) waves. The waves are approximated as hydrodynamically linear in the sense that wave breaking and other
+nonlinear effects are neglected.
+
+
+00 2
+C(z,t) = > Z, cos (—“2s + Wyt + a]
+
+n=0
+
+where the Z,,’s are chosen to provide the desired wave spectrum and the a,,’s are
+random numbers uniformly distributed on 0 < a < 27.
+
+fore) 2
+An alternate expression is: ¢(z,t)= >> Z,exp t (-“e + Wyt + an)
+
+n=—0o
+
+Combining e’°" into Z,, the surface elevation vs time at x = 0 is:
+
+C(t)= Yo Zpeivnt
+
+n=—0Co
+
+---PAGE BREAK---
+
+[Page 199]
+0.05
+0.04 one-sided
+0.03
+0.02 two-sided
+0.01 -
+
+Spectrum (m’/ rad/s )
+
+Circular Frequency, o (radians/second)
+
+The region in the “almost trapezoid” is represented by a sinusoidal wave having
+frequency w, and the same energy, EF, of this region of the spectrum. The
+sinusoidal wave Ae» has energy |A?|. Thus,
+
+|A?| = S(w.)dw
+
+The waves are random processes and can be represented in two different ways.
+One way is to have stochastic waves and a stochastic spectrum whose expectation
+is equal to the spectrum being simulated (Type 1). The other way has stochastic waves and a deterministic spectrum equal to the spectrum being simulated
+(type 2).
+
+---PAGE BREAK---
+
+[Page 200]
+Ww$L-Cont
+
+Similarly, at t = 0 the surface elevation vs z is:
+
+(a)= %) Ze™*? = DY Zae™* where k, = —
+N=—00 g
+
+n=—CO
+
+With wy, = 2mndf, kn = 20ndb, (b= 1/A), t= 76t, x = jdx, and n limited
+to —# <n< x with df dt or 6béx equal to 1/N, the expressions for ¢ have
+the form of an inverse discrete Fourier transform. Hence, by first choosing the
+Zn’8 so they are consistent with the wave spectrum, the surface elevation for all
+values of t or for all values of x can be computed very rapidly by using an FFT
+program.
+
+Either set Z_, = Z7 or use non-negative n and take the real (or imaginary) part.
+We will use the method in which Z_, = Z>.
+
+This corresponds to a two-sided spectrum whose levels are half the levels of the
+corresponding 1-sided spectrum.
+
+---PAGE BREAK---
+
+[Page 201]
+WS
+Type 1
+At a fixed value of x, the sea elevation is C(t) which is a sample function of a
+random process having a 2-sided power density function, S,,(w). The associated
+1-sided spectrum is Syw(w) = 2S,(w) for w = 0. The fourier transform of ¢(t)
+
+is Z(w). The spectrum and the Fourier transform of ¢(t) are truncated at |w| =
+We = Wf.
+
+C(t) is discretized with the time interval 6t = 7/w, to satisfy the sampling theorem. Thus, C(t) is specified at the discrete times ¢; = ¢(jét), 7 = 0,1,2,..., N.
+
+The Fourier coefficient Z; corresponds to the circular frequency w; = jow,
+j= —* + 1,....,0, ae , where dw = ae. N is usually chosen as a power of 2
+for computational efficiency.
+
+For the Type 1 approach, each Fourier coefficient is separated into its real and
+imaginary parts and each of these is an uncorrelated Gaussian variate.
+
+Z;j = Lp, + 1%,
+Z,, and Z;, are identically distributed with the probability density function:
+1 Ze
+Zr,) = ——= exp |-~3
+He) = ae (—Fel
+From the physics of the modeling, where here & means “Expectation”:
+
+E [al = Sy(w;)dw
+
+[22] = B[z2] = 5Sulws)bu
+
+From the mathematics of the Gaussian pdf: oF =F |Z2,|
+
+1 1
+Oj = gow (wj)dw = Sw (|wj[)ow
+
+There are computer programs which give Gaussian distributed random numbers
+for which the user specifies o;.
+
+Type 2 Z; = 8% Sw (w;)dw = e'% 5 Sw (i) 50 ; w; > 0
+
+a; is uniformly distributed on 0 < a; < 27 and can be obtained from a random
+number computer program.
+
+---PAGE BREAK---
+
+[Page 202]
+WwS$3 @
+
+We truncate the spectrum at frequencies +N/2d6w.
+
+Thus the expression for a simulated two-dimensional (long-crested) random wave
+elevation at a point on the ocean surface is:
+
+C(t) = S24] =Sy(|ndw])dw erst
+_N/2 2
+
+where a” is a random number, < a, < 27, and ay, = —a_n.
+
+This can be extended to a long-crested wave field, dependent on x and ¢ as:
+
+nf2 |
+C(x,t) = S> |= Sy(|ndw|)bw ell(rdw)t—(ndw) bile /o)
+—N/2 2
+
+This is because |k| = w?/g.
+
+---PAGE BREAK---
+
+[Page 203]
+wavesims,m
+
+% Wavesims
+dt = 0.05;
+npts = 8192;
+nptsod = npts/2.
+
+dt* npts; sea * 8192 for 8192 total points
+t = O:dt: (tr- dt);
+(2 .0*pi) vA 4;
+
+Over
+d
+
+So
+Hous
+hol PO
+hus
+oo
+
+shh
+— Il
+oh
+
+f # L nptso2; *df * 4096 for 8192 total points
+ittold,
+
+O. "$081 *g*g/tp4;
+74 *(g/v5M4/ thd;
+
+0. seinel f/f F.A5 .* exp( -fac2 ./f .A 4);
+d (‘state’ -sum(100*clock));
+
+i * oranda, nptso2) ;
+Cnoeso2+15 = 44097 for 8192 total points
+oppo") a sqrt df);
+
+con (flipin eC :4096)))1:
+
+veta = L Feat t(zt))
+%The above gives same result as zeta = npts*real(Cifft(zt))
+plot (t,zeta);
+XlabelC'TIME (sec) ')
+ylabelC'SURFACE ELEVATION (m)');
+titleC'Simulated Sea waves at a Point');
+
+©
+T1Susua0an ie)
+Nore
+Hou te
+oo Il
+
+a
+
+NNOS TM Hoh hhoa< et
+
+---PAGE BREAK---
+
+[Page 204]
+SURFACE ELEVATION (m)
+
+'
+NO
+
+Oo
+
+'
+—_
+
+-3
+
+Simulated Sea Waves at a Point
+
+150 200 250 300
+TIME (sec)
+
+---PAGE BREAK---
+
+[Page 205]
+SURFACE ELEVATION (m)
+
+-3
+
+Simulated Sea Waves at a Point
+
+120 125 130
+TIME (sec)
+
+---PAGE BREAK---
+
+[Page 206]
+zt-mag
+
+0.18
+
+0.16
+
+0.14
+
+0.12 ff
+
+0.1
+
+0.08
+
+0.06
+
+0.04
+
+0.02
+
+
+4000 5000
+point number
+
+j 212
+
+---PAGE BREAK---
+
+[Page 207]
+zt-mag
+
+0.18
+
+0.16
+
+0.14
+
+0.12
+
+0.1
+
+0.08
+
+0.06
+
+0.04
+
+0.02
+
+frequency
+
+---PAGE BREAK---
+
+[Page 208]
+zt-mag
+
+0.18
+0.16
+0.14
+0.12
+
+0.1
+0.08
+0.06
+0.04
+
+0.02
+
+0 0.2 0.4 0.6 0.8 1 12. 14 1.6 18
+frequency
+
+---PAGE BREAK---
+
+[Page 209]
+Reyrew of. Fourier Transforms, Enverse Fearier
+
+Ta neers, FAFUS, Ke FUS and Wave.Simalation....
+
+xX GS) = =[ x x (oe Saha Ta xX 4 (e) = {4 "XG 2! See
+
+-Co
+
+a — Consicler CenetionS. - of the form: eee cece vente ve ern
+KX ltso0. EXte et Fer OS & LT
+— xe) = o exept for — ~ Fes Sf F.. ae
+
+oS te NHR ER oe EE i —
+
+Then.
+
+een emer arormanetnenmttn tenet Mia ve ~T-
+
+ao
+en enDnereS ee at ent nite eee ee ee ES. bey ax eect ennai tnaeece nme anc
+
+_C onSttuel. “Ce _Peciedia Fanari en; Xe (4). of pear
+Arles = A(t) Cor Ot KT
+
+xe | on Mss. a. Feucres 2 Ss erie. = Rimes enteton
+~ _ en Bie Ane pee Oe
+
+Nate thar Ee By. TA,
+
+Te. TT. iS very large, Malues 9 = SO) 42
+
+ave A wane Gf an NE Oy fy Poyr
+ACE lense Lo. xE). Can be. dekermmed. £rom. the
+- Fourier Coefficients qt Closely. Spaced fregaenci€s.
+
+Se rm we poe ae ee
+
+en REE IR ee i at tet eevee tes tee. ER alle oe eee - + on — eee — — pea
+ie pe tr hh Bega png = amen — ay _ te en
+
+re
+
+---PAGE BREAK---
+
+[Page 210]
+Note thet Ane + X(2) |
+
+_Sinee P= B |, An =o fer. tal 721 Fas sales}
+
+the range OStST X= ne’
+
+n=-T#,,
+
+T fn = ™M = r piette
+
+nw oe N-) . Lari,
+Pin aie ——
+S Ne- n=
+
+---PAGE BREAK---
+
+[Page 211]
+a _ Te. Simulate Cvaves | have NA Ae... ee
+__One- Ss; idle d. Pee $4 2neq S pectin. Se OY. on
+Ww hese 2. titalen de —tWwe. Side ef -S. pec#ram co
+
+the 2 leva tier n 3 a ) at @ Point § So ow...
+
+fat ee it nh annie a arate teeter
+
+where’ 1 dn se a@ ran n clara namber re
+___ rhe Ca Op SDT ca
+
+“inverse _ Fast Feurier. prans@rm
+
+---PAGE BREAK---
+
+[Page 212]
+http://www tay geta.com/randomygaussian. html
+
+j aussi Numbers
+Generating Gaussian Random wr S 4
+
+Generating Gaussian Random Numbers
+
+This note is about the topic of generating Gaussian pseudo-random numbers given a source of
+uniform pseudo-random numbers. This topic comes up more frequently than I would have expected,
+so I decided to write this up on one of the best ways to do this. At the end of this note there is a list
+of references in the literature that are relevant to this topic. You can see some code examples that
+implement the technique, and a step-by-step example for generating Weibull distributed random
+numbers.
+
+There are many ways of solving this problem (see for example Rubinstein, 1981, for an extensive
+discussion of this topic) but we will only go into one important method here. If we have an equation
+that describes our desired distribution function, then it is possible to use some mathematical trickery
+based upon the fundamental transformation law of probabilities to obtain a transformation function
+for the distributions. This transformation takes random variables from one distribution as inputs and
+outputs random variables in a new distribution function. Probably the most important of these
+transformation functions is known as the Box-Muller (1958) transformation. It allows us to
+transform uniformly distributed random variables, to a new set of random variables with a Gaussian
+(or Normal) distribution.
+
+The most basic form of the transformation looks like:
+
+sqrt( - 2 1ln(x1) ) cos( 2 pi x2 )
+sqrt( - 2 ln(xl) ) sin( 2 pi x2 )
+
+yl
+y2
+
+We start with two independent random numbers, x1 and x2, which come from a uniform distribution
+(in the range from 0 to 1). Then apply the above transformations to get two new independent random
+numbers which have a Gaussian distribution with zero mean and a standard deviation of one.
+
+This particular form of the transformation has two problems with it,
+
+1. It is slow because of many calls to the math library.
+
+2. It can have numerical stability problems when x1 is very close to zero.
+These are serious problems if you are doing stochastic modelling and generating millions of
+numbers. ,
+
+The polar form of the Box-Muller transformation is both faster and more robust numerically. The
+algorithmic description of it is:
+
+float x1, x2, w, yl, y2;
+
+x1
+x2
+
+w = sqrt( (-2.0 * log( w) ) /w);
+yi = xl * w;
+y2 =
+
+where ranf() is the routine to obtain a random number uniformly distributed in [0,1]. The polar form
+is faster because it does the equivalent of the sine and cosine geometrically without a call to the
+trigonometric function library. But because of the possiblity of many calls to ranf(Q), the uniform
+
+1 of 3 7126199 5:49 PM
+
+---PAGE BREAK---
+
+[Page 213]
+Generating Gaussian Random Numbers
+
+2 of 3
+
+random number generator should be fast (I generally recommend R250 for most applications).
+
+Probability transformations for Non Gaussian distributions
+
+Finding transformations like the Box-Muller is a tedious process, and in the case of empirical
+distributions it is not possible. When this happens, other (often approximate) methods must be
+resorted to. See the reference list below (in particular Rubinstein, 1981) for more information.
+
+There are other very useful distributions for which these probability transforms have been worked
+out. Transformations for such distributions as the Erlang, exponential, hyperexponential, and the
+Weibull distribution can be found in the literature (see for example,MacDougall, 1987).
+
+Useful References
+Box, G.E.P, M-E. Muller 1958; A note on the generation of random normal deviates, Annals Math.
+Stat, V. 29, pp. 610-611
+
+Carter, E.F, 1994; The Generation and Application of Random Numbers , Forth Dimensions Vol] XVI
+Nos 1 & 2, Forth Interest Group, Oakland California
+
+Knuth, D.E., 1981; The Art of Computer Programming, Volume 2 Seminumerical Algorithms,
+Addison-Wesley, Reading Mass., 688 pages, ISBN 0-201-03822-6
+
+MacDougall,M.H., 1987; Simulating Computer Systems, M.I.T. Press, Cambridge, Ma., 292 pages,
+ISBN 0-262-13229-X
+
+Press, W.H., B.P. Flannery, S.A. Teukolsky, W.T. Vetterling, 1986; Numerical Recipes, The Art of
+Scientific Computing, Cambridge University Press, Cambridge, 818 pages, ISBN 0-512-30811-9
+
+Rubinstein, R.Y., 1981; Simulation and the Monte Carlo method, John Wiley & Sons, ISBN
+0-47 1-08917-6
+
+See Also: A Reference list of papers on Random Number Generation.
+
+Everett (Skip) Carter
+
+Taygeta Scientific Inc.
+UUCP: ...fuunet!taygeta!skip
+WWW: http://www.taygeta.com/
+
+http://www.taygeta.com/random/gaussian. html
+
+wIss
+
+7/26/99 5:49 PM
+
+---PAGE BREAK---
+
+[Page 214]
+/* boxmuller.c
+
+*/
+
+Implements the Polar form of the Box-Muller
+
+Transformation
+
+(c) Copyright 1994, Everett F. Carter Jr.
+Permission is granted by the author to use
+this software for any application provided this
+copyright notice is preserved.
+
+#include <math.h>
+
+extern float ranf({);
+
+float box_muller(float m,
+
+{
+
+float x1, x2, w, yl;
+static float y2;
+static int use_last
+
+if (use_last)
+
+x1 = 2.0 * ranf() - 1.
+2.0 * ranf() - 1.
+xl * xl + x2 * x2;
+
+/* rvanf() is uniform in 0..1 */
+
+float s) /* normal random variate generator */
+
+= 0;
+
+/* mean m, standard deviation s */
+
+/* use value from previous call */
+
+0;
+QO;
+
+,
+
+w= sqrt( (-2.0 * log( w) ) /w);
+
+{
+yl = y2;
+use_last = 0;
+}
+else
+{
+do {
+x2 =
+wa
+} while ( w >= 1.0);
+yl = xl * w;
+y2 = x2 * w;
+use_last = 1;
+}
+
+return( m+ yl * s )
+
+i
+
+bi
+
+ty
+
+%?
+
+---PAGE BREAK---
+
+[Page 215]
+SURFACE ELEVATION (m)
+
+Simulated Sea Waves at a Point
+
+150 200 250 300
+TIME (sec)
+
+---PAGE BREAK---
+
+[Page 216]
+SURFACE ELEVATION (m)
+
+Simulated Sea Waves at a Point
+
+-2
+
+-3
+
+100 105 110 115 120 125 130 135 140 145 150
+TIME (sec)
+
+---PAGE BREAK---
+
+[Page 217]
+Ws 7
+Wave Statistics
+One way to calculate wave statistics is directly from long-term simulations.
+
+Example What is the expected value of the largest wave elevation in a day?
+
+Solution by simulation from a known wave spectrum.
+
+1. Simulate waves for many days.
+2. List the largest elevation in each day.
+
+3. Calculatethe average of the values in the list.
+
+Another Example What is the probability that the largest wave elevation in
+one day is less than the value V. Solution by simulation.
+
+1. Simulate waves for many days.
+
+2. Determine the fraction of days that the elevation does not exceed V.
+
+3. This fraction is an estimate of the desired probability.
+The above direct approach is cumbersome and computationally intensive. Many
+
+wave statistics have been theoretically determined in terms of the wave specturm.
+The associated formulae can be determined using numerical integration.
+
+---PAGE BREAK---
+
+[Page 218]
+STATA
+
+Results from Theory
+
+The spectral moments, mn, are defined in terms of the one-sided spectrum,
+Sw (w), as:
+[oe]
+Mn = [ Sw(w)dw
+
+The following results apply when the surface elevation is a gaussian random
+process.
+
+SURFACE ELEVATION
+
+TIME
+Number of Waves per Unit Time
+
+The average number of times the wave elevation, ¢, crosses the mean sea
+level (¢ = 0) per unit time while increasing is called f, and given by:
+
+1 mg
+fo = 574 mo
+
+The average number of wave crests per unit time is called f, and is given
+by:
+1 m4
+
+fe
+
+27 \ m2
+
+The bandwidth, «¢, is given by:
+
+e=vl—fo/f
+
+---PAGE BREAK---
+
+[Page 219]
+STAT 2-
+
+Definition of a gaussian random process For any number of variables,
+the joint probability density (pdf) of all the variables is a joint gaussian
+random variable at each time for a gaussian random process. This probability density function is given by:
+
+Lara -i
+— (XIX
+
+P(X1,L2,..-,Ln) = Tamra] exp
+
+[X] is the column vector of the variables. A is the n-by-n covariance matrix
+whose elements are given by:
+
+Ai; = Elziz;]
+For most wave statistics of interest, the doubly joint pdf between surface
+
+elevation, ¢ and vertical surface velocity, ¢, and the triply joint pdf where
+the surface acceleration, ¢, is included are all that are needed.
+
+2 19
+p(¢,¢) = = mat ee
+
+,/MomMs <P 2MpM2
+
+2(6,6,0) = : exp| manad? + (morng — m3)C? + momn2e? + 2m3¢C
+
+(27)3/24/r(mgm4 — m3) Qma (magma — m3)
+
+---PAGE BREAK---
+
+[Page 220]
+STATR
+
+The normalized Gaussian probability distribution function (pdf), U(x), is:
+1 fe 2
+_ 2° /2
+
+Call the crest height €.
+
+The normalized crest height, 7, is defined by: 7 = wa
+mo
+
+The probability distribution function for 7 is:
+
+P(n) = (2) ~Vi-é@e"y (A==,)
+
+and the pdf for 7 is:
+
+2 /1 — 2
+P(N) = 5 oP -2| +V¥i- ene"? w (A=)
+€ E
+
+FigureZ,5 Probability density function of TN for various
+values of the band width e.
+
+Typically, ¢ = 0.6.
+
+For engineering purposes we are interested in large seas (n >> 1). This
+corresponds to the tail of the pdf for 7. In this region:
+
+p(n) = VI~@ ne"? P(n)=1-V1-@e"??
+
+---PAGE BREAK---
+
+[Page 221]
+STAT 4
+
+Average Amplitude of the 1/n’th Highest waves
+
+Call the smallest normalized wave amplitude in the 1/n’th highest Waves
+™M/n-
+
+n =1 — P(mn)
+
+Example: n = 10.
+
+1 - (probability that a wave amplitude is less than the smallest of the 10%
+largest waves) is 1/10.
+
+This is because the probability that a (random) wave is smaller than 10%
+is 90%.
+
+For n >> 1, use the approximate P.
+
+—=vV1-€exp
+n
+
+Mn = ¥2In(nv1 — e*)
+Amongst the 1/n’th highest waves, the conditional pdf is:
+
+Pn>mjr(M) = P(N) = nV 1 — en exp(—7"/2), Mn <7 < 00
+
+The expectation of these amplitudes is the average of the 1/n’th highest _
+
+waves. xo
+Mn = nv1—@ [ me dn
+l/n
+
+Let n' = /1—e? n. Then, n’ is the number of zero up-crossings in a record
+with n crests. The result of the integration is:
+
+oe
+
+an + V2r | — U(v2inn’)|
+
+M/n =n
+
+---PAGE BREAK---
+
+[Page 222]
+STATES Gj
+
+Extreme Waves
+Consider n non-dimensional random wave Amplitudes. Each has same pdf.
+What are the probabilities of the largest waves in the set?
+
+Aproach
+
+Order the waves from smallest to largest.
+
+¢; is the smallest and @¢, is the largest wave amplitude. Now, each of the
+¢’s has a different pdf.
+
+We want to find the pdf for ¢n.
+
+Probability that @, is less than a particular value ¢,, is equal to the probability that all the waves are smaller than @p,.
+
+Po,(bno) = [Pa(Pne]”
+
+The amplitude that has a probability, a, of being exceeded by ¢, is called
+aPn-
+
+Pn(aPn) = [Prladn)|” =l-a
+
+Meaning of the Nomenclature
+
+Suppose a = 0.01. Then the amplitude whose probability of being
+exceeded by ¢,, is 0.01 is named 9.9;¢n.-
+
+The probability that @, is less than o.91¢, is 0.99.
+
+Pylabn) = (A - a)/"
+
+---PAGE BREAK---
+
+[Page 223]
+Sr AVS /2j
+
+Since we are interested large waves, we can use the expressions for the tails
+of the probability functions:
+
+P(n)=1-v1-@é en l?
+
+Then, 1— V1 —e?exp
+
+= 568] = (1-0)!
+
+Solve for adn : $, = j2n(-—Yi= 8
+ve for a@n: adn = T=@-a)im
+
+Note: The value of n for a given period of time T' can be obtained from:
+
+1 M4
+fo= 5 my
+
+---PAGE BREAK---
+
+[Page 224]
+CA-G2.
+
+STIFF E ge qtios
+
+ol =—100y F100} initral Condition, 4 (o)= 9,
+
+le
+Exact Solution y (x) = CY, -)2
+
+This IS stab le in Seance that Small. Chinge my .
+
+Initial Cond;ton Ceaaeses Smeail Chang c.
+Bxameole, tf J Co) = 4 $e, |
+y (eC greener" tl
+
+F . ~f(ocoXx
+Change in Solution, 5, ms Eee
+
+MH. Se lution.
+
+Solution ba the forward Euler method
+
+x
+Ht 3%
+
+4 gt Cioeg, reel Ci-00 $4) Jn rier 9x
+
+This olifference a2 gZuakion has Gan @xXact So ly tr om.
+
+Yo = (4, -')(1- 1080 sx)" 4
+
+~100X
+
+Fer Ckample rf Joh, an Ce
+= (1-100 5x)” Mn
+
+NotZ! Mi 3x 7 0.02 J che Solution (numerical) diverges
+(1- F0o sx)" IS am aPPloKimatin to e fe" tt is
+a Poet a PP CORK em ate om unless SX «tS Vert Sma]
+
+2 Ve. n thea he
+
+K x
+°° haraly Contributes to the Selation
+Feo xX>. ol
+
+---PAGE BREAK---
+
+[Page 225]
+This problem iS eften
+
+CVE ree me b+ rmplrart |
+methods One rs
+
+the backward Euler meted
+
+Snee =4,¢ £ (Xan, Inve) ox
+
+Fer out Ekam Ql e F(Anny 4 ar) = Grseg,,, los )
+
+} Aan Yt (-102 Gnu + loo) $x -
+
+[ +100 §x)= #100 GF ‘ _ dnrlee ea
+Ant (‘ dn xX ) Jor ~ PT eOOSx
+
+The exact Solution te thes rs:
+|
+
+Jn wa Ploo gx)”
+
++ |
+
+This 1S Not Unstable for ang 5x
+
+---PAGE BREAK---
+
+[Page 226]
+Cabi ck)
+
+Dynamics of Horizontal Shallow Sag Cables in Water
+
+Static Solution
+
+A is the horizontal component of the Tension.
+w is the weight in water/unit length.
+
+T is the tension.
+
+L is the static length.
+
+H w H Ww
+y = — cosh =a S cosh 7-«
+For T > wl
+T, To
+y= = 1+ 570 +..)-— T=T,=H
+(6)
+dy wax
+dz -T;,
+dy w
+a = a =a static curvature = @
+oO
+
+---PAGE BREAK---
+
+[Page 227]
+CALIG
+
+Dynamics
+
+q(t) Val
+
+a
+
+vertical mechanical force/unit length = (To + T) (a + me)
+
+T<+—
+
+q is the displacement normal to the cable towards the inside of the static
+curvature.
+
+dynamic vertical mechanical force/unit length = (T, + T) (a + x3) —T,a
+. . , q |dq
+hydrodynamic vertical force/unit length = oo aed
+
+where: b = spCaD, p is the density of water, Cg is the drag coefficient and
+D is the diameter of the cable.
+
+Equation of Motion
+
+mod a4 dq |dq
+may = (T +7) (c +54 — oF Fl Toa
+
+Strain Compatibility
+
+Tension increase due to g = increased length x Tr
+
+F is the elastic modulus and A is the cross sectional Area of the cable.
+
+~ EA 2
+T= ; p.- af” qds + sh (= 2) as
+where: p, is the sum of the tangential extensions of the ends of the cable.
+
+---PAGE BREAK---
+
+[Page 228]
+OIS32bs TIT
+
+Oscillating Rigid Objects
+
+---PAGE BREAK---
+
+[Page 229]
+Faso - Ass Neo
+Fage=- Ags Ne Faas
+
+sat Ass Fug e
+
+SIDE
+View
+
+A= 2th Ns
+
+Fees
+
+445 N3- LN 5 Fez 2 Cwt
+
+11) .=-PaxN5- Aas ~ C13 - Cr Ly Ns ~ bg by 2, Ne
+
+B33 33 &
+(Mas, 1, + (btba)N, + Gst6a)M, FARA NS
+bet
+
+Pas C3as
+
+---PAGE BREAK---
+
+[Page 230]
+oo. °» 2 ° _ 2z¢
+Tri = Ase Ne Age SM 8s M5 625 “bry Me
+pm ° L id FE. ows
+
+Bs3 CZ
+
+Dey, tlh, 4 ba ha) tt Chto GMs t (Lthes i
+
+(bbe toads Me #(C Ore, LL ne ~ Re
+_ ~——__"
+
+Bes Css
+
+---PAGE BREAK---
+
+[Page 231]
+STPRoT ber
+
+‘Potentials and Boundary Conditions
+
+or = br + bn + LG
+
+On the Free Surface:
+
+aw? TiS Hah toe
+
+Ox Ox? 5 op =0
+
+and: |—w? — Viw2- ee + 9—| o; =0
+Ox Ox? " Oz| "?
+
+On the Hull:
+061, bp
+
+On On =0
+
+Pressure on the hull:
+
+p=~p (iw Ux) bre — pats + Gy - Ce
+
+---PAGE BREAK---
+
+[Page 232]
+STLTex — ,
+Bb srila srray STL (a)
+
+Strip Theory
+
+Sway "
+
+. ; roll ne = yaw
+Sign convention for translatory and angular displacements
+
+For inviscid, irrotational theory,
+
+ér = ¢1+¢p+ > nj; + interaction terms
+k=1
+In linear theory the interaction terms are neglected. Here we focus on the
+@;’s and the forces and moments associated with them.
+
+In general, a force in the j’th direction will lead to motions in the six
+degrees of freedom, m, k = 1, 2,3, 4,5, 6.
+
+Sinusoidal forces which generate sinusoidal motions are considered. The
+equations of motion for sinusoidal excitation are:
+
+6 °
+Mo {(Myx + Aju)iin + Burt + Chem} = Fye™’, j =1,2,3,4,5,6
+k=1 :
+
+me(t) = Cne™*
+
+Me
+
+{—w? (Myx + Ajn)Ce + wBynCe + Conk} = Fy, j = 1,2,3,4, 5,6
+
+k=1
+
+k=1
+
+---PAGE BREAK---
+
+[Page 233]
+STE)
+—Mjx7, is an inertial force in the j’th direction due to motion in the k’th
+direction.
+
+—Ajaiin, —Bjrm, and —Cjxn, are hydrodynamic and hydrostatic forces in
+the j’th direction due to motion in the k’th direction.
+
+---PAGE BREAK---
+
+[Page 234]
+For a ship having port/starboard symmetry:
+
+M
+
+
+
+Mz
+
+Myx =
+
+| Aq
+A31
+
+Asi
+
+By
+B3)
+
+Bs
+
+oo°cooc ©
+
+M
+
+—-Mz
+
+Beo
+
+coooococ }&
+
+0 0 Mz
+0 —~Mz 0
+M 0 0
+0 I, 0
+0 0 Is
+0 —IT¢4 0
+Q13 0 Ais 0
+QO Ao O Arg
+A33 O Az, O
+By O Bi O
+0 Bo O Bog
+B33 0 B35 0
+B53 0 Bs, 0
+0 O O O
+0 oO O O
+C33 0 C35 0
+0 Cy 0 0
+C53 0 C55 0
+0 0 0 O
+
+St 2
+
+---PAGE BREAK---
+
+[Page 235]
+STI pP
+Boundary Conditions on Hull
+
+n=(n,,n,, n, ) n N3 +—_U
+
+Definitions: (n,n2,n3) = 7% (n4,15,26) =7 Xt
+
+Except for j = 5 and j = 6:
+
+2 Gojel = Seen, Ge = Giunje’ SF = tu,
+
+On
+
+For j = 5 (pitch) and for j = 6 (yaw) there is a change in the normal
+velocity associated with U:
+
+Here, for positive pitch, there is an upward (positive z) component of veloc-
+
+ity equal to —U¢; et. This has a component normal to the hull surface of
+—U Os etns.
+
+For n = 5: 095 _ ins + Ung
+On
+
+For n = 6: 096 _ ing —Ung
+On
+
+---PAGE BREAK---
+
+[Page 236]
+OTS e_
+
+For slender ships surge forces F, are much smaller than the other forces. Furthermore, surge motions have little effect except for the special case of towing.
+We neglect surge here.
+
+Under these conditions, the pitch and heave equations are decoupled from the
+sway, roll and yaw equations.
+
+PITCH AND HEAVE EQUATIONS
+
+[—w?(M + Ags) + iwB33 + C33] C3 + [—w? Ags + iw Bas + C35] Cs = F3
+
+[—w? Ass + iwBs3 + C53] C3 + [—w*(Is + Ass) + iwBss + C55] Cs = Fe
+
+Hydrodynamic and Hydrostatic Coefficients
+The hydrodynamic forces on the ship due to oscillatory motions of the ship are
+called radiation forces. For a motion of the form 7(t) = ¢,e, the linearized
+force in the 7 direction is called T;,e". Tj, will be a complex number having
+areal part and an imaginary part. It is conventionally written in the following
+form:
+
+Tin = (w°Ajn — twBjx — Cin)
+Ajx is the added mass for forces in the j direction due to motion in the k
+direction.
+B;x, is the damping coefficient for forces in the j direction due to motion in
+the k direction.
+Cj, is the hydrostatic “spring constant”.
+
+dé
+Ui, A
+A33 = I, ag3dé — 3 O33 B33 = I, b33d€ + Uag,
+U U U?
+Ags = — |, &assdé — (2 P33 + 033 — 5 3
+
+aU?
+B35 = — |, €bsadé + UA33 — Uxaag3 — 5288
+
+Aj; and B3, are the speed independent parts of the respective coefficients.
+
+---PAGE BREAK---
+
+[Page 237]
+ST 34
+
+U, U
+As3 = — |, €assde + 2 P33 + 50 Abs
+Bsg = — |, Ebsgd& — UAS, — Un ads
+
+U? U U?
+2 22,A A
+
+U2 5 U2
+Bss = I, €*b33dé + (2 P33 —Ux,a33 + 5 aby
+
+Cig = pg |, bdé = pg Awp
+
+b is the beam of each section and Ay is the waterplane area.
+
+C35 = C53 = —pg | &bdé = —pgMyp
+
+Css = pg |, Pbdé = pglwp
+
+Myp is the moment of area of the waterplane and I, is the moment of inertia
+of the waterplane.
+
+U
+F3; = pa [fs + h3)d€é + pa-—xahy
+
+U U
+Ki = —po | elf + hg) + hs dé — pa-—aahg
+
+a is the wave amplitude. f3; = F3e” is the Froude-Krilov force.
+
+---PAGE BREAK---
+
+[Page 238]
+ST Sea
+
+F;(z) _ ge trees | Nyet*¥5in 6 ek dg
+
+N3 is the vertical component of the 2D normal to the section. Np, is the
+horizontal component of the 2D normal. @ is the wave propagation angle. dé
+is the element of arc length around the section.
+
+hg is the sectional diffraction force.
+
+hg(x) = woe 8 | (iNg + No sin Bye" Fe*ygd€
+
+wo = gk Wo = w+ kU cos B
+
+w3 is the velocity potential for a 2D cylinder of shape C, oscillating in heave.
+3 is the solution to V2 ~3 = 0 subject to the boundary condition for heave
+motion. It can be obtain by several ways including panel methods.
+
+Thus, to do the the longitudinal integrals (d€), one must know the 2D hydrostatic terms and the 2D added mass, damping, and velocity potential for
+heave.
+
+---PAGE BREAK---
+
+[Page 239]
+ST Ee
+
+SWAY, ROLL AND YAW EQUATIONS
+|—w? (Age +M)+ iw Bog| Co+(—w* (Aaa — Mz) + iw Bo,| Ca+[—w* Ang + iw Byg| Cg = Fy
+
+[—w*( Aas — Mz.) + iw Bayo] Co+ [—w" (Aaa + I) + iwBa, + Cu] C4
++ [—w* (Age — I) + iw Bag| 6 = Fy,
+
+[—w* Ags + iw Beo| Go+|—w?( Aga _ T4) + iw Beal C4+(—w* (Age + Ig) + iw Beo| (g = Fe
+
+All the coefficients can be determined from the 2D sectional sway and roll
+added mass and damping, the 2D sectional potentials for sway and roll and
+the hydrostatic roll restoring force.
+
+For all the five motions considered, the response at the resonant frequency is
+largely controlled by the wave generation damping (B coefficients) except for
+roll where the damping at resonance is dominated by the viscous damping.
+Therefore, for strip theory to give accurate results for roll, an estimate for the
+viscous damping coefficient must be added to Bs5.
+
+---PAGE BREAK---
+
+[Page 240]
+ST 44
+
+SIMULATIONS OF SHIP MOTIONS IN RANDOM SEAS
+
+The complete problem includes effects of waves coming from all directions.
+Here, for simplicity and clarity we will consider long-crested random waves
+coming from one direction.
+
+The “system functions”, €;(w), are complex numbers, dependent on frequency.
+For each one, the magnitude is the ratio of the sinusoidal motion amplitude to
+the wave amplitude. The phase is the phase lead of the motion with respect
+to the wave elevation at the origin of the coordinate system.
+
+Suppose we have a wave spectrum, S,(w). The wave elevation at the origen of
+the ship, or offshore structure, at the origin of the coordinate system, can be
+simulated as:
+
+N .
+Cy (t) — s- Z,,e1rdut
+n=—N
+
+where: Z, =e’ 5 Se(nbve)bu
+
+Within the restrictions of linear theory, each ship motion can be simulated in
+the specified random wave field as:
+
+N .
+nj(t) = Yo &)(nbw) Ze
+n=—N
+
+---PAGE BREAK---
+
+[Page 241]
+ST 4k
+
+Added Resistance and Drift Forces
+
+An important ”second order” effect is the average force an oscillating wave
+field can imoise on an object. These forces are typically small in comparison
+of oscillating forces and spring-like resorting forces ’so the horizontal mean
+forces are most important. For a ship, this force is called the added resistance
+and for an offshore structure it is called the drift force.
+
+One again, for simplicity and clarity we will consider waves propagating in a
+single direction. If a sinusoidal wave has amplitude A, the dominant mean
+force has the form rq(w)A”. rq(w) is called the added resistance operator. It
+is found by solving the second order hydrodynamic problem. However, Some
+first order effects contribute.
+
+Consider the term in Euler’s equation (V - V)V When V is sinusoidal, this
+term will contribute zero frequency terms.
+
+In the presence of a wave spectrum S(w), the total added reesistance is:
+
+Radded = f » Or a(w) S(w) dws
+
+FORCE
+ADDED RESISTANCE DRIFT o
+<__—_
+WAVES
+
+---PAGE BREAK---
+
+[Page 242]
+S746 2Gerritsma and Beukelman Theory for Added Resistance
+
+The “exact” formulation for the added resistance operator, ra(w,.) requires
+solution of the complicated 3-D second order problem. However, Gerritsma
+and Beukelman ! developed a semi-empirical formulation for rg(we) based on
+strip theory that is remarkably accurate. The basis of their theory was as
+follows:
+
+1. Each section of the ship encounters a relative vertical velocity that depends on the wave, and the heave and pitch of the ship.
+
+2. This relative vertical motion generates waves which carry energy away
+from the ship. .
+
+3. Equating this radiated energy, per unit time, to the added resistance times
+the ship speed provides a formula for the added resistance.
+
+This formula is:
+
+role) = 5 fh Ne - yan) V2(0)dn
+
+where the ship extends from 0 to £ and k = wavenumber of the wave,
+
+N(a) = heave damping coefficient per unit length of ship at position z,
+V = forward speed of ship,
+
+m(ax) = added mass per unit length of ship cross section at position z,
+
+V,(z) = relative vertical water velocity amplitude at position z.
+
+V,=2-204+V0-6G,
+
+where z is the heave velocity of the ship at x = 0, @ is the pitch angle of the
+ship, and C is the average of the velocity of the fluid motion in the wave over
+the width of the ship cross section at its local depth.
+
+1Gerritsma, J., and Beukelman, W., “Analysis of the Increase in Resistance in Waves of a Fast Cargo
+Ship”, Technical report 169 s, Netherlands Ship Research Centre TNO, April, 1972
+
+---PAGE BREAK---
+
+[Page 243]
+Srte
+
+Nonlinear Wave Force Calculations
+
+Second order wave forces arise both from the second order potential, which increases the accuracy with which the nonlinear terms in the free surface boundary condition are met, and also from the influence of the first order solution
+on the nonlinear term in Euler’s equation. For example, consider the term:
+ust, As an example, a field of two sinusoidal waves is :
+
+u = A;sin(kyx — wt) + Ae sin(ker — wot)
+
+a = Ak, cos(kyx _ wt) + Agko cos(kox _ wyt)
+At x=0:
+u = —A, sin(w,t) — Ag sin(wt)
+a = A, cos(w,t) + Ae cos(wet)
+Ou Oo, .
+ua = —Ajk, sin(wyt) cos(w;t) — Aj Agke sin(w;t) cos(wet)
+
+—A,Apky sin(wyt) cos(w,t) — Ak» sin(wt) cos(wet)
+
+Consider just one of the four terms:
+
+(35)
+Ox 1
+
+— Aj, Aok2 sin(w it) cos(wet)
+
+_ _AiAske Ay Agk,
+
+sin(w + Ww )t _ sin(wy —_ we )t
+
+If w, and wy are only sligtitly different, w1-+-w» is a comparatively high frequency
+and w  — Ww is a very low frequency.
+
+---PAGE BREAK---
+
+[Page 244]
+Vertical Sea Loads Vv V,
+
+V,; = compression force V. = torsional moment
+
+V; = horizontal shear V,; = vertical bending
+orce
+y, for moment
+3 ertical shear V. = horizontal bending
+moment
+
+The complete strip theory sea loads are considered in the reference ’Ship Motions and Sea Loads”, by Salvesen, Tuck and Faltinsen. Here we consider the
+vertical loads which lead to the shear force, V; and the longitudinal vertical bending moment, V;. Sinusoidal forces and motions are considered. For
+
+example,
+
+V; = Vje™" where the real part of all complex expressions is implied
+
+Likewise, nj; = ¢je"”"
+
+The fluid forces are separated into hydrostatic forces R;, sea wave exciting
+forces E';, and hydrodynamic forces resulting from unsteady ship motions D,.
+I; is the inertial component of the j*" structural force due to motions of the
+ship. Then, the structural loads can be expressed symbolically as:
+
+Vi = Tj) — Ry — Bj — Dj
+
+We are concerned with terms having subscripts 3 and 5. All the longitudinal
+integrals in the following are over the portion of the ship forward of the section
+under consideration. We denote these integrals as:
+
+Ip = J, —w*m(E) [Cs — £5] a
+
+---PAGE BREAK---
+
+[Page 245]
+In = — J, —w?m(£) [€ — a] Cs — €65] dé
+Rs = —pg J, (E) [ts — &¢5] dé
+Rs = pg J, O(E) {E — 2] [Gs ~ &¢s] a
+U
+E3 = pa KC + h3)d& + (Zn) |
+U
+Es = pa I, {(é — x)(f3 + hg) + ch} dg
+
+D3
+
+~ I, {w?a33(¢3 + €¢5) + iwbs3 (C3 — €¢5) + Ub33¢s + iw ag3¢5} dé —
+
+- ant — ECs) + Ub33(¢3 — E¢5) + U7 03365 — “tts
+€=2
+
+D3; = I a33(€ — x) {—w? (3 — ECs) + twbs3(¢3 — ECs )} dé +
+
+Ih, {ita — £65) + Ub33(C3 — 265) + U7 0335 — “bate dg
+
+---PAGE BREAK---
+
+[Page 246]
+APPENDIX
+Further Material on Panel Methods and Strip Theory
+
+---PAGE BREAK---
+
+[Page 247]
+Panel Methods
+
+13.024 Numerical Marine
+Hydrodynamics
+
+Alexis Mantzaris
+
+13.024 Numerical Marine Hydrodynamics
+
+During the last decade, advancements in computer technology have made
+possible the development of new classes of three-dimensional numerical tools
+for analyzing problems in Naval Architecture, such as ship wave resistance
+and motions.
+
+Early attempts to model ships in potential flow focused on variations of
+slender body and strip theory to study simplified body geometries and free
+surface conditions.
+
+As computing power increased, so did the development of three-dimensional
+methods. Of these, considerable attention has been received by boundary
+element or panel methods.
+
+---PAGE BREAK---
+
+[Page 248]
+Panel Methods at a Glance
+
+Distribute sources and dipoles on body
+Discretize
+
+Green’s Theorem gives system of equations
+
+for singularity strength on each panel in
+terms of boundary conditions
+
+Forces on body found from flow solution
+
+13.024 Numerical Marine Hydrodynamics
+
+Panel methods attempt to solve the Laplace equation in the fluid domain by
+distributing sources and dipoles on the body and, in some methods, on the free
+surface.
+
+These surfaces are divided into panels, each one associated with a source and
+dipole distribution of unknown strength.
+
+Green’s theorem relates the source and dipole distribution strength to the
+potential and normal velocity on each panel.
+
+The boundary conditions to be applied to the problem are often linearized and
+they determine either the potential or the normal velocity on each panel.
+
+Having solved for the unknown source and dipole strengths, Green’s theorem
+may be used to find the potential at any point in the fluid domain.
+
+Hydrodynamic forces are found from pressure integration and are used with
+Newton’s Law to determine motions.
+
+---PAGE BREAK---
+
+[Page 249]
+Cases to be Examined
+
+¢ Unbounded fluid flows
+
+~ Steady motion through unsteady flow field
+¢ Lifting flows
+
+— Forced motion in free stream
+
+Wave flows
+
+~ Ship under steady motion in calm water
+
+— Free motions of buoy in waves
+
+13.024 Numerical Marine Hydrodynamics
+
+Panel methods can ultimately solve complex problems involving free motions
+of forward moving vessels with lifting surfaces in incident waves. Jumping
+right in to the formulation of such a problem, however, would be rather
+overwhelming.
+
+We will, therefore, start by formulating a simple problem and move on to
+progressively more complex cases.
+
+---PAGE BREAK---
+
+[Page 250]
+Flow in Unbounded Fluid
+
+Non-lifting body in unsteady flow
+
+Unsteady incident
+
+/
+
+Total potential: = Ot 1) —Ux
+
+;
+
+Free stream
+
+Perturbation
+
+13.024 Numerical Marine Hydrodynamics
+
+Body advancing with speed U in an unsteady flow field
+Body-fixed coordinate system.
+Unit normal n, to body surface Sx, pointing out of fluid.
+Reasons to solve this problem:
+* Get pressure distribution on body
+* Determine added mass
+¢ Introduce techniques to be used with more complex problems
+Separate total potential into:
+* free stream potential
+* incident potential excluding free stream
+
+* perturbation from incident potential
+
+---PAGE BREAK---
+
+[Page 251]
+Body Boundary Condition
+
+(No flux condition)
+
+13.024 Numerical Marine Hydrodynamics
+
+The norma] velocity of fluid must be zero in the body-fixed coordinate system.
+
+Using the decomposition of total potential into its components, it follows that
+the normal velocity of the perturbation flow must be equal and opposite to the
+the incident flow, which is given.
+
+---PAGE BREAK---
+
+[Page 252]
+Boundary Integral Equation
+
+Green’s Theorem for field points on
+body surface, S,
+
+a
+o=>-Ih, [ose
+
+13.024 Numerical Marine Hydrodynamics
+
+The application of Green’s second identity transforms the boundary value
+problem stated previously into a boundary integral equation. This facilitates
+the numerical solution as the entire fluid volume does not have to be
+discretized.
+
+The integral over the part of the control surface at infinity vanishes because
+the flow sufficiently far from the body is undisturbed. The integrals over the
+connecting surfaces S* and S cancel each other out. So what is left defines the
+potential on the body in terms of a source (G) and dipole (dG/dn) distribution
+on the body surface. The strength of the source distribution is given by the
+magnitude of the normal velocity on the body, while the strength of the dipole
+distribution is equal to the magnitude of the potential on the body.
+
+For this particular problem, d@/dn is given from the boundary condition, while
+@ is unknown.
+
+---PAGE BREAK---
+
+[Page 253]
+Numerical Solution
+
+Discretize integral equation and
+substitute body BC
+
+0g,
+
+On,
+
+aG,
+2x9, +25 = LG; Un, -—+
+j Apo j
+
+System of linear equations for unknowng,
+
+13.024 Numerical Marine Hydrodynamics
+
+The body is discretized into n panels, each of area Aj.
+
+The singularity distribution on each panel can be constant, or of higher order.
+In any case, G;; is the potential at the control point of panel i, due the source
+distribution on panel /.
+
+Having a higher order distribution on each panel results in less panels needed
+for convergence and leads to a more robust way of calculating the tangential
+velocities on the body, if needed. More on higher order distributions later.
+
+In the above system of ” linear equations, the RHS is known from the body
+boundary condition. The potential on each panel may thus be found by a
+standard linear solver. The flow is hence completely specified.
+
+---PAGE BREAK---
+
+[Page 254]
+Hydrodynamic Forces and
+Moments
+
+; I, 1 ;
+
+— om. 1 . 8
+M = Fir gVO. VO, xr)
+
+13.024 Numerical Marine Hydrodynamics
+
+From the potential and its gradient on the body, it is straightforward to
+determine the pressure distribution and hence the hydrodynamic forces and
+moments.
+
+These forces are often linearized by assuming small perturbations about the
+free stream.
+
+---PAGE BREAK---
+
+[Page 255]
+Lifting Flows
+
+Forced motions in steady free stream
+
+13.024 Numerical Marine Hydrodynamics
+
+Lifting surfaces common in Naval Architecture include hydrofoils, rudders,
+control fins, sailboat keels and sails, and catamaran hulls.
+
+A special treatment is needed for such lift-producing bodies because the
+potential flow solution to the problem as previously formulated would include
+infinite velocities at the sharp trailing edge of the foil under angle of attack.
+
+In order to ensure a smooth flow at the trailing edge, which in real life is
+attained due to the presence § viscosity, the wake shed from the hydrofoil must
+be modeled.
+
+The problem examined here involves a hydrofoil performing small motions
+about a steady forward motion. So in addition to the effect of lift, there is a
+new element in the formulation of the boundary value problem. The body now
+moves with respect to the coordinate system, which is translating with a steady
+velocity, U.
+
+---PAGE BREAK---
+
+[Page 256]
+Wake Model
+
+Thin free vortex sheet
+
+Across wake:
+
+¢ Continuous normal velocity
+¢ Discontinuous potential Gump=A®)
+¢ Zero pressure jump:
+
+dAg _,dAQ _
+
+ae -y SP =9
+
+ot ox
+
+(Bernoulli, linearized about free stream)
+
+13.024 Numerical Marine Hydrodynamics
+
+The wake is modeled as a free vortex sheet shed downstream from the trailing
+edge of the foil. Mathematically this may be defined as a dipole distribution
+on a surface Sy, of zero thickness.
+
+The operator A denotes a jump in a quantity from one side of the wake to the
+other.
+
+Across the wake we have continuity of normal velocity and a jump in
+potential. The pressure on both sides of the wake should be equal because
+otherwise we would have infinite particle acceleration since the wake is
+infinitesimally thin.
+
+The wake can be shed either straight back, following the free stream, or it
+could have each point follow the total velocity induced at its location by both
+the foil and the rest of the wake. In general, however, the additional
+computational load and stability problems do not justify the slight increase in
+accuracy achieved by tracking the exact position of the wake.
+
+---PAGE BREAK---
+
+[Page 257]
+Kutta Condition
+
+e Requires zero pressure jump at trailing edge
+of foil.
+
+¢ This is ensured by continuity of potential,
+together with the condition of zero pressure
+jump across the wake
+
+D rE. body = Dip spake
+
+13.024 Numerical Marine Hydrodynamics
+
+The flow past a lifting body cannot be uniquely determined unless some
+additional condition is specified which sets the amount of circulation produced
+by the foil. As previously formulated, (without the wake) there would be no
+circulation and the velocity at the sharp trailing edge of the foil would be
+infinite.
+
+This situation may be avoided if a Kutta condition requiring tangential
+velocities at the trailing edge is enforced. An alternate way of enforcing this
+condition is to require continuous pressure at the trailing edge. In fact, this
+condition is preferred here because it can be easily linearized about the free
+stream.
+
+The requirement of zero pressure jump at the trailing edge in the wake is
+already satisfied as we saw before. Thus, by also requiring continuity of
+potential from the body into the wake at the trailing edge, the Kutta condition
+of zero pressure jump on the body is automatically satisfied.
+
+26%
+
+---PAGE BREAK---
+
+[Page 258]
+Forced Motions
+
+Displacement about frame of reference
+due to translation and rotation:
+
+5(%,t)=E,(t)+ eq (xz
+
+E&, =(€,6,,6) En =(E,,65,45)
+
+13.024 Numerical Marine Hydrodynamics
+
+Since for this problem the body is not fixed with respect to the coordinate
+system, we need to define its motions.
+
+The rigid body motions in six degree of freedom can be fully described by a
+translation and a rotation vector.
+
+The displacement of any point on the body with respect to its original position
+may be described in terms of these two vectors and its original displacement
+from the origin.
+
+---PAGE BREAK---
+
+[Page 259]
+_ Body Boundary Conditions
+
+Applied at exact body surface:
+
+on Ot
+
+Linearized and applied at mean position of body
+(assuming small body motions)
+
+13.024 Numerical Marine Hydrodynamics 13
+
+The boundary condition is defined in terms of the body motions in order to
+preserve the zero normal flux requirement.
+
+This condition should, strictly, be applied to the exact position of the body
+surface. This would require the re-discretization of the body surface at each
+time step. Although some panel methods take this approach to the problem,
+the solution becomes much easier numerically if the motions can be assumed
+small and can be linearized about the mean position of the body.
+
+The linear body boundary condition is derived by applying a Taylor expansion
+about the mean body position and retaining linear terms.
+
+---PAGE BREAK---
+
+[Page 260]
+Boundary Integral Equation
+
+Green’s Theorem for field points on
+the body
+
+2np + |[ o as +f A
+
+13.024 Numerical Marine Hydrodynamics
+
+Green’s theorem is used once more to derive the integral equations.
+
+As with the non-lifting case, the integral over the control surface at infinity
+vanishes. The integral over the connecting surfaces that run over the wake do
+not completely cancel each other, however, due to the discontinuity in
+potential across the wake. Instead, we get a term involving an integral over Sy
+of the potential jump multiplied by the dipole potential.
+
+The problem can no longer be solved by placing panels only on the body. The
+.wake also needs to be discretized.
+
+---PAGE BREAK---
+
+[Page 261]
+Numerical Solution
+
+Discretize and Fourier Transform
+integral equation, using body BC
+
+Nowy § QG,, Neate 0G,,
+2n0,+ ¥ 9, —~+ Ag,—=
+
+Nbouy
+
+= IG, f alé, “A; +& (5, xij )k Ulésn, —S6My }
+
+j=l
+
+13.024 Numerical Marine Hydrodynamics
+
+Due to the wake shed downstream, this problem has memory and thus the
+solution depends on the flow at previous time instances. This means that the
+solution has to be evolved in time, or needs to be solved by tanking the Fourier
+transform and solving for each frequency component present.
+
+The integral equation shown above is in the frequency domain, if the forced
+motions are sinusoidal. Solution in the time domain would require the
+numerical evaluation of the time derivatives.
+
+The system of equations shown above are simply the integral equation at each
+panel, with the body boundary condition substituted at the RHS.
+
+There are, however, more unknowns than integral equations due to the extra
+panels of unknown potential jump in the wake. The extra equations to close
+the problem are derived from the wake condition of zero pressure jump.
+
+---PAGE BREAK---
+
+[Page 262]
+Numerical Solution
+
+Wake Condition:
+
+To be solved simultaneously with integral equation
+
+at .E.... AQ wake = [Per — Plower Jha
+
+OAQ, _
+
+in wake... i@ Ag, -U 0
+
+13.024 Numerical Marine Hydrodynamics
+
+For a solution in the frequency domain, the wake condition is discretized and
+yields one extra equation for each panel in the wake.
+
+If the problem is solved in the time domain, the potential jump can be
+expressed exclusively in terms of the potential jump at panels during the
+previous time step. Instead of unknown potential jump on the entire set of
+wake panels, the only extra unknowns would thus be a strip of panels
+immediately downstream of the trailing edge of the foil. This reduces the size
+of the matrix to be solved, at the cost of having to evolve the solution in time.
+
+The wake condition involves the evaluation of spatial derivatives of the
+potential jump. We will examine methods for doing this later.
+
+---PAGE BREAK---
+
+[Page 263]
+Hydrodynamic Forces and
+Moments
+
+N body
+
+F =p [ioe -u 2+ *Ve ‘VQ, ji A;
+Xx
+
+7]
+
+i=]
+
+Npbody
+
+ii =p [ioe -USE+3¥9,-Ve, ix)
+i=l x
+
+13.024 Numerical Marine Hydrodynamics
+
+After having solved the flow, the calculation of the hydrodynamic forces and
+moments is again a matter of integrating the pressure distribution over the
+surface of the body.
+
+For steady flows it is also possible to determine the lift and drag based on a
+Trefftz plane integration:
+
+1 si2 ao
+D=—p { Aaa
+pl 5
+sl2
+L=pU [Addy
+
+where s is the span of the foil.
+
+---PAGE BREAK---
+
+[Page 264]
+Higher Order Potential
+Distribution
+
+Bi-quadratic B-Spline: )=
+
+13.024 Numerical Marine Hydrodynamics
+
+In general, the potential distribution on each panel is not constant.
+
+A B-spline representation, for example, represents the potential as a
+summation with weight c; of all basis functions B; centered on each panelj. A
+second order basis function is shown above. Note that the field point needs to
+be converted into local panel coordinates for the evaluation of the basis
+functions.
+
+The spline coefficients c;, determine the amount of contribution from each
+panel, and become the unknowns in the integral equations. Due to the overlap
+of the basis functions in determining the potential at the center of several
+panels, however, the unknown spline coefficients are still one per panel.
+
+A consequence of higher order B-spline distributions is that end conditions
+need to be specified at the edges of the spline sheets, so that the spline
+coefficients may be uniquely determined.
+
+Higher order singularity distributions require fewer panels to achieve
+numerical flow convergence. Note that similarly, geometrical convergence
+may be achieved faster if the surface is described not in terms of flat
+quadrilateral panels, but by B-spline surfaces.
+
+---PAGE BREAK---
+
+[Page 265]
+Evaluation of tangential
+derivatives
+
+99; Pin — Pi
+
+af hg
+
+constant distribution:
+
+ab, (€)
+3g b,(n)
+
+, el")
+higher order: 3E = Sic
+
+j
+
+13.024 Numerical Marine Hydrodynamics
+
+As already seen, there is a need for the calculation of the tangential velocity on
+a panel. This may be done by finite differences, and one example is shown
+above. Of course, any other finite differences scheme could be used, provided
+that it does not make the overall method unstable.
+
+If the potential distribution is of higher order then the tangential velocities can
+be found analytically from direct differentiation of the basis functions.
+
+Note that the above derivatives are given in panel local coordinates. Since the
+derivatives are usually required with respect to the global coordinate system, a
+transformation is needed for each panel.
+
+---PAGE BREAK---
+
+[Page 266]
+Free Surface Flows
+
+Steady ship motion in calm water
+
+Perturbation Free stream
+
+13.024 Numerical Marine Hydrodynamics
+
+The evaluation of the steady wave resistance of a ship has always been of great
+importance to Naval Architects. Three dimensional panel methods have the
+ability to estimate this quantity without resorting to expensive towing tank
+testing.
+
+We will formulate the problem of a ship advancing steadily through calm
+water, linearizing the solution about the free stream. The total flow is
+therefore broken down into a free stream and a small perturbation flow
+components.
+
+---PAGE BREAK---
+
+[Page 267]
+Free Surface Boundary
+Conditions
+
+Dynamic:
+zero total pressure on free surface
+
+og ,,0g 1
+=-p| “*-y 2£4-Vg.V =0
+Pa AF ata? +86 |
+
+Kinematic:
+particle on free surface remains there
+
+dQ
+—+Vo-V [z—]=0
+a }: ‘]
+C = wave elevation
+
+13.024 Numerical Marine Hydrodynamics
+
+Boundary conditions are required to determine the behavior of the flow near
+
+the free surface, and hence uniquely determine the solution.
+
+The dynamic condition requires the pressure at the free surface to be equal to
+the atmospheric pressure, which will be taken arbitrarily to be equal to zero.
+
+The condition is thus expressed by the Bernoulli equation above.
+
+The kinematic condition requires that a particle on the free surface remains on
+the free surface forever. This means that the material derivative of its vertical
+distance from the free surface should be zero.
+
+---PAGE BREAK---
+
+[Page 268]
+Linearization about Free Stream
+
+Kelvin boundary conditions
+
+0g, 99
+x ae 8S
+
+og 796 _ 96
+ot ox az
+
+13.024 Numerical Marine Hydrodynamics
+
+The free surface boundary conditions previously stated are non-linear and are
+to be applied at the exact position of the free surface, which is unknown. The
+numerical solution algorithm becomes much simpler and computationally
+efficient if these conditions can be linearized and applied to a known surface.
+
+The above linear conditions, also known as the Kelvin free surface boundary
+conditions, were derived using a Taylor expansion about z=0 for small wave
+elevations and slopes, and ignoring higher order terms.
+
+The wave elevation can, of course, be eliminated by combining the two
+equations, resulting in a condition involving only the perturbation potential
+and its temporal and spatial derivatives.
+
+---PAGE BREAK---
+
+[Page 269]
+Boundary Integral Equation
+
+0 0G
+ony = Joes, C on én a
+
+Take Kelvin wave source as the Green function
+
+As shown in hydrodynamics review of this course,
+waterline integral replaces integral over free surface:
+
+2n9 = ji,[o%e- eZ lass U Io® 9S | eat
+g Ox Ox |cosy
+
+wi
+Y = flare angle
+
+13.024 Numerical Marine Hydrodynamics 23
+
+Green’s theorem is used again to derive the integral equation, only this time an
+integral over the free surface is needed, as well as over the body. Using a
+Green function that satisfies the linear free surface conditions, however, the
+free surface integral may be collapsed into a waterline integral. This means
+that no panels are needed on the free surface.
+
+One difficulty is that the first derivative of the very complicated Green
+function is required, but this can be done numerically.
+
+Note that this formulation of the integral equation relies on the use of the
+linearized Kelvin boundary conditions. This is because Green functions
+satisfying any other free surface linearization are not readily obtainable.
+
+---PAGE BREAK---
+
+[Page 270]
+Numerical Solution
+
+Discretize Integral Equation and
+Substitute Body BC
+OG n
+
+i
+
+0G,, Ww
+229, +>.9, =" —Y> 9,
+'
+
+g jon 1 a h. COSY,
+
+=U)'G,n,, + = y6,
+Jj
+
+jam A, COS Sy j
+Linear system of equations for ~,
+
+13.024 Numerical Marine Hydrodynamics
+
+Discretizing the integral equation, a system of linear equations is obtained for
+the potential on each panel, as before.
+
+Care must be taken in evaluating the waterline integral, since the value of the
+potential on the free surface needs to be estimated from the potential on the
+body, which is often discretized only below the z=0 plane.
+
+---PAGE BREAK---
+
+[Page 271]
+Wave Resistance
+
+From Momentum Conservation
+
+_ PE fpr
+By = [|pn.as ; ot
+
+(Proof follows)
+
+13.024 Numerical Marine Hydrodynamics
+
+The wave resistance of a ship may be found from the above formula after the
+flow has been solved.
+
+The pressure should include the quadratic term in Bernoulli’s equation, even
+though terms of comparable magnitude have been omitted in the linearization
+of the free surface boundary conditions.
+
+If the quadratic terms are omitted, the resistance of full-shaped vessels is overpredicted. The reason for this is that close to such bluff bodies, which is where
+we are performing the pressure integration, the perturbation potential is
+actually of the same order as the free stream potential, so the linearization is
+not accurate.
+
+Linearizing about a double-body basis flow, as we will see later, solves this
+problem and the quadratic terms are not as important.
+
+---PAGE BREAK---
+
+[Page 272]
+Wave Resistance
+
+Conservation of Momentum
+
+Mp ff |2i+ve(vo-)|as=0
+
+SgUSp US
+
+13,024 Numerical Marine Hydrodynamics
+
+The proof of the formula given for the wave resistance follows from the
+application of the momentum conservation principle inside an appropriately
+chosen control volume of fluid.
+
+Within the enclosed volume, the rate of change of fluid momentum vanishes.
+
+Note that because of the radiation condition, the only surface at infinity where
+the integrand does not vanish is far downstream of the body, at S,.
+
+---PAGE BREAK---
+
+[Page 273]
+Control Volume at Exact Position
+of Fluid Surfaces
+
+Using boundary conditions:
+
+From radiation condition and Bernoulli:
+2 2 2
+__ PS fry, P p_(99) ,[ 99) ,( oe
+aa jee ar (2) (2) (2)
+
+C, is the intersection of S,,with z=0
+S, is the part of S,, lying below z=0
+
+13.024 Numerical Marine Hydrodynamics
+
+Taking the exact wetted surface of the hull, the exact position of the free
+surface, and S,,, as the control surfaces (all at rest with respect to the body) and
+using the body and free surface boundary conditions, the only terms that do not
+vanish are the pressure integration over the body wetted surface (which is
+defined as the non-linear wave resistance), and the momentum flux and
+pressure integration at infinity.
+
+The fluid velocity in the x and z directions may be found from the Kelvin free
+surface boundary conditions, and the fluid pressure from Bernoulli.
+
+The resulting expression is an exact representation of the wave resistance in
+terms of far-field quantities.
+
+---PAGE BREAK---
+
+[Page 274]
+Control volume at linearized
+position of fluid surfaces
+
+Using Kelvin boundary conditions and Bernoulli:
+
+a avy (ag) (apy
+fon as-peffeas fi] (22) (F| (Z| fesxc
+
+After application of Stokes theorem:
+PEE phe qe P2 [ergy Pf (f] (28) (20) (20)
+[Jpn.as 2 4.6 cosy 2 fe ¢y i Ge * oz as
+
+RHS is equal to wave resistance, Ry, from momentum
+conservation in control volume bound by exact surfaces
+
+13.024 Numerical Marine Hydrodynamics
+
+Repeating the same procedure for a control volume bound by the linearized
+free surface (z=0 plane), the body below z=0, and the same surface at infinity,
+a similar expression is derived. This time, the momentum flux across the free
+surface does not vanish because the normal fluid velocity at z=0 is not zero.
+The Kelvin conditions are used to express the fluid velocities on the free
+surface in terms of the wave elevation.
+
+Finally, an application of Stokes theorem transforms the surface integral over
+the z=0 plane to a pair of line integrals at the body and at infinity.
+
+The line integral along with the surface integral at infinity are recognized as
+the wave resistance as previously derived using a control volume bound by the
+exact free surface.
+
+An expression is therefore derived for wave resistance in terms of near-field
+quantities, starting from the principle of momentum conservation. Comparing
+this expression to the one derived from pressure integration, we observe that
+they are similar, but the waterline integral terms have the opposite sign!!
+
+This paradox is due to the inconsistency of retaining second order terms in the
+definition of wave resistance, but omitting them from the free surface
+linearization, as previously mentioned. As the beam of the ship approaches
+zero, the waterline integral term vanishes and the two definitions are in
+agreement.
+
+---PAGE BREAK---
+
+[Page 275]
+Free Surface Flows
+
+Free Motions of Body in Waves
+
+Zero forward speed
+
+Unsteady incident
+
+z
+
+y
+
+Total potential: GD = p+ ~p
+
+Perturbation
+
+13,024 Numerical Marine Hydrodynamics
+
+The determination of the motions of floating bodies in waves is another
+problem of interest to ocean engineers. Here we will examine the panel
+method solution of a buoy in incident monochromatic waves. Solutions to
+more complex problems with forward speed and multiple frequencies can be
+easily obtained by a simple extension of this problem and the previous one
+examined.
+
+Since there is no forward speed in this problem, the total potential is divided
+into the incident wave and perturbation potentials.
+
+---PAGE BREAK---
+
+[Page 276]
+Solution Method
+
+System of Equations: Unknowns:
+
+¢ Boundary Integral ¢ Potential on each
+Equation panel
+
+¢ Body Boundary ¢ Normal Velocity on
+Condition each panel
+
+° Equations of Motion ¢ Body motions
+
+13.024 Numerical Marine Hydrodynamics
+
+So far the motions of the body have been prescribed, which resulted in the
+body boundary conditions being completely specified. For freely floating
+bodies in waves, however, the body boundary condition is a function of the
+motions, which are unknown. The motions are connected to the hydrodynamic
+forces through the equations of motion to close the problem.
+
+---PAGE BREAK---
+
+[Page 277]
+System of Equations
+
+Boundary integral equation
+
+Sy
+
+on ) ox ox | cosy
+
+8 ow
+
+Body boundary condition
+
+9g _
+on
+
+13.024 Numerical Marine Hydrodynamics
+
+As before, the body boundary condition may be substituted into the integral
+equation. This time, however, the body motions are unknown, so the integral
+needs to be solved simultaneously with the equations of motion.
+
+---PAGE BREAK---
+
+[Page 278]
+Equations of Motion
+
+Mé+Cé = floes Vo. voids
+
+0 = 67 +OXX (n,,n,,n,)=ii
+
+Sr =(¢,,4,.65) (n,,ns,Ng)= XX
+
+E, = (€,,65,66) M = inertia matrix
+
+& =(€,6,,6,,6,,6,) C = matrix of restoring coefs
+
+13.024 Numerical Marine Hydrodynamics
+
+The equations of motion balance the inertia forces and the hydrostatic
+restoring forces with the hydrodynamic forces obtained from the flow solution.
+
+A notation is adopted that merges the translation and rotation vectors so that
+the equations of motion become a six-dimensional matrix equation, balancing
+both forces and moments.
+
+---PAGE BREAK---
+
+[Page 279]
+Rankine Panel Methods
+
+Panels both on body and free surface
+Boundary integral equation becomes:
+
+229 = Sf, “s jose - oe dS
+
+Use Rankine source (G=1/4mr) as elementary
+singularity
+
+Boundary conditions determine potential and
+normal velocity on free surface
+
+Linearize about basis flow (double body)
+
+13.024 Numerical Marine Hydrodynamics
+
+Rankine panel methods distribute panels on both the body and the free surface.
+They thus have a greater freedom in the free surface boundary conditions that
+they can apply. This comes at the expense of introducing extra errors due to
+the discretization of the free surface.
+
+The integral equation retains the free surface term (without collapsing it into a
+waterline integral as with Neumann-Kelvin methods) and thus has extra
+unknown source and dipole distributions associated with the free surface
+panels. These are found from the dynamic and kinematic free surface
+boundary conditions.
+
+Another advantage of Rankine panel methods is that they do not have to have
+their solution linearized about the free stream, which is rather poor especially
+near the ends of the vessel. Instead, they can linearize the solution about a
+double-body basis flow, which produces more accurate results.
+
+---PAGE BREAK---
+
+[Page 280]
+Discretization Issues
+
+¢ Distortion of the free surface
+— Dispersion
+— Damping
+¢ Stability
+— Spatial
+— Temporal
+¢ Radiation condition
+— Truncation errors and domain size sensitivity
+
+13.024 Numerical Marine Hydrodynamics
+
+A discrete free surface has a different dispersion relation than a continuous
+one.. For finite panel sizes spurious wavelengths smaller than five panel
+lengths are supported and need to be filtered out. Any damping of the
+numerical method (i.e. Rayleigh viscosity), so that the radiation condition may
+be satisfied, also affects the numerical dispersion relation.
+
+For a convergent numerical algorithm the numerical dispersion relation should
+approach the continuous dispersion relation in the limit of infinitesimally small
+panel sizes. The numerical dispersion relation results in stability criteria, from
+which required relations between quantities such as pane] dimensions, Froude
+number, time step, can be derived.
+
+Another difference between the continuous and numerical free surfaces is the
+truncation of the free surface. The condition at the edge of the computational
+domain should be such that the sensitivity of the solution to the size of the
+domain is minimized. One way of imposing the radiation condition so that
+reflected waves from the edge of the domain are minimized is to apply
+matching at some control volume around the fluid domain which contains a
+flow satisfying the radiation condition. An alternate (easier) way is to use a
+numerical beach where the kinematic boundary condition is modified to allow
+a mass flux through the free surface (Newtonian cooling), thus damping
+wavelengths less than about twice the extent of the beach.
+
+---PAGE BREAK---
+
+[Page 281]
+Linearization about basis flow
+
+ov oY
+= —=0 onS,
+
+‘on a
+
+basis flow
+
+™
+
+Total potential: OD=¥+@—Ux
+
+\
+
+free stream
+
+wave flow << ‘P
+
+13.024 Numerical Marine Hydrodynamics
+
+The Neumann-Keivin linearization assumes that the perturbation potential is
+small compared to the free stream. This assumption is not very good,
+especially near the bow and stern of a ship where the perturbation velocity is
+equal and opposite to that of the free stream.
+
+A better linearization for ships with forward motion is to divide the total
+potential into the free stream, perturbation, and basis flow potentials. The
+basis flow is usually taken to be the solution past the hull with the free surface
+treated as rigid walls. Since this problem can be solved by taking a mirror
+image of the hull below the waterline, this basis flow is also known as the
+“double-body” flow.
+
+---PAGE BREAK---
+
+[Page 282]
+Basis Flow Solution
+
+After discretization, solve basis flow
+as shown for bodies in unbounded
+fluid.
+
+Body Boundary Condition:
+OV
+
+—=Un,
+
+on
+
+13.024 Numerical Marine Hydrodynamics
+
+The double-body basis is a special case of a problem we have already seen. A
+stationary non-lifting body in an unbounded free stream is simpler than all the
+cases that we have examined thus far.
+
+The solution is obtained after the body is discretized and before proceeding to
+the wave flow. Note that the panels on the free surface are not needed for the
+solution of the basis flow.
+
+---PAGE BREAK---
+
+[Page 283]
+Wave Flow Body Boundary
+Conditions
+
+0p _006 .
+on ot
+
+linearized about basis flow, for small motions:
+
+13.024 Numerical Marine Hydrodynamics
+
+Since the forcing due to the free stream is accounted for in the basis flow, the
+body boundary condition for the wave flow component of the solution includes
+only the normal velocity due to the body unsteady motions.
+
+Taking a Taylor expansion about the mean body position, and ignoring higher
+order terms, a linear body boundary condition is derived. As before, the
+combined translation/rotation vector is used to describe the body motions.
+
+The m-terms provide a coupling between the basis flow and the unsteady wave
+solution, and their evaluation is important, especially near the ends of the ship.
+
+---PAGE BREAK---
+
+[Page 284]
+Wave Flow Free Surface
+
+Boundary Conditions
+linearized about ‘VY and applied at z=0
+Dynamic
+Ov 1
+
+0p _,,99
+oP pL 4 TY. Vg =-26 +U -— V8 -V
+ot ox P= 8b ox 2
+
+Kinematic
+
+av, a
+Oz? ot az
+
+oo yp 8 yy.ye=
+ot ox
+
+13.024 Numerical Marine Hydrodynamics
+
+The free surface boundary conditions are linearized assuming that the wave
+flow is small compared to the basis flow. As with the Kelvin condition, these
+linearized boundary conditions are applied at the z=0 plane.
+
+---PAGE BREAK---
+
+[Page 285]
+Numerical Solution
+
+For wave flow, To obtain:
+simultaneously solve:
+
+Boundary integral Potential on body and
+equation free surface
+
+Kinematic FSBC Normal Velocity on
+Dynamic FSBC body and free surface
+Body boundary Wave elevation
+condition Body motions
+Equations of motion
+
+13.024 Numerical Marine Hydrodynamics
+
+Rankine panel methods do not have the free surface boundary conditions
+satisfied automatically from the choice of Green function, and hence they need
+to be solved simultaneously with the integral equation, equations of motion,
+and body boundary condition.
+
+---PAGE BREAK---
+
+[Page 286]
+Non-Linear Methods
+
+¢ Higher order free surface boundary
+conditions
+
+¢ Body-exact formulations
+
+¢ Iterative linearization about a wave solution
+
+13.024 Numerical Marine Hydrodynamics
+
+¢ There are cases when the linearization of the free surface conditions is not
+sufficient. Computation of higher order solutions is essential for some
+problems such as drift motions, slamming, etc. It is possible to use Rankine
+panel methods to solve the second order free surface boundary condition, but
+this would, in general, no longer involve a system of linear equations. The
+solution would therefore need to be found using some sort of non-linear solver.
+
+* Body-exact methods discretize the body at its exact position at each time
+step, thus eliminating the error associated with the linearization of the free
+surface boundary conditions for large body motions. This can be very
+important, as seen from the inconsistencies that result when the body is only
+discretized below the z=0 plane.
+
+¢ Taking the linearization about the double-body basis flow one step further, it
+is possible to obtain the linear solution and linearize the free surface conditions
+about that.solution. Linearizing the flow iteratively about the previous
+solution, the full non-linear free surface conditions should be satisfied when
+convergence is reached. This approach is practical only for the steady flow
+problem, but even for the unsteady problem several methods exist that
+linearize the flow about flows such as the steady wave solution or the incident
+wave. With these methods it is usually necessary to discretize the body and
+the free surface after each iteration, thus adding to the computational load. An
+exception is for raised panel methods, discussed later.
+
+---PAGE BREAK---
+
+[Page 287]
+Raised Panel Methods
+
+Panels above z=0 plane
+
+¢ No free surface discretization necessary at each iteration
+
+* Influence coefficients of free surface panels to body
+collocation points calculated only once
+
+¢ Due to distance, h, the velocity field induced in the
+fluid domain from each panel is smoother
+
+13.024 Numerical Marine Hydrodynamics
+
+One successful way of implementing the body-exact iterative linearization
+about a basis wave flow is by using a “raised panel” method. Such methods
+place singularity distributions at a distance above the z=0 plane, with the
+collocation points still on the free surface.
+
+The benefits of such methods are that the free surface panels do not have to be
+re-created at each iteration, and the free surface to body influence coefficients
+need only be calculated once. The method also has nice numerical properties
+since the infinite velocities which are self-induced on each free surface panel
+are no longer in the fluid domain. In addition, the process of linearizing the
+flow about the previous solution is made more straightforward since the flow
+field at the last iteration is always defined at the next estimation of the position
+of the free surface.
+
+---PAGE BREAK---
+
+[Page 288]
+13.024 Numerical Marine Hydrodynamics
+
+---PAGE BREAK---
+
+[Page 289]
+Strip Theory
+
+Derivation of:
+¢ Hydrodynamic Coefficients
+
+¢ Exciting Force and Moment
+
+Assumptions:
+¢ Linear and harmonic motions
+
+* Viscous effects negligible
+
+---PAGE BREAK---
+
+[Page 290]
+Potential Flow Decomposition
+
+¢ Time-independent and time-dependent components
+®(x, y, z:t)=[-Ux+ 9, (x, y, z)]+o,(x, », ze
+
+¢ Incident, Diffraction, Radiation components
+
+br =) + b+ D6 0,
+
+-Ux+ 0g is the steady contribution with U the forward speed of the ship, $, is
+the complex amplitude of the unsteady potential, and w is the frequency of
+encounter in the moving reference frame. It is understood that the real part is
+to be taken in expressions involving ei
+
+$, is the incident wave potential, p is the diffraction potential, and 9; is the
+contribution to the potential from the j mode of motion (1=surge, 2=sway,
+3=heave, 4=roll, S=pitch, 6=yaw)
+
+The decomposition of the potential into the above components is convenient
+for the linearization of the boundary conditions, as will be seen later.
+
+---PAGE BREAK---
+
+[Page 291]
+Linearized Boundary Conditions
+
+¢ Steady Perturbation Potential
+
+, 0
+— Body BC: —|-+Ux+¢,]=0
+(applied at hull mean position) A) in
+
+— Free Surface BC: U? d Ps +2 CR —0
+(applied at 2=0) ax’ oz
+
+In order to linearize the boundary conditions it is assumed that the geometry is
+such that the steady perturbation potential $, and its derivatives are small.
+
+By assuming that the oscillatory motions are of small amplitude, the timedependent component of the potential, ,, and its derivatives may also be
+considered small.
+
+Under these assumptions the problem may be linearized by disregarding
+higher-order terms as well as cross-products on both , and y.
+
+The above expressions for the linear boundary conditions were derived from
+the exact body and free surface conditions by including only linear terms and
+applying Taylor expansions about the mean hull position in the body BC and
+about the undisturbed free surface (z=0) in the free surface BC.
+
+---PAGE BREAK---
+
+[Page 292]
+Linearized Boundary Conditions
+Incident and Diffracted Potentials
+
+, 0¢, Oa
+~ Body BC: % , 9% _¢
+(applied at hull mean position) on on
+
+— Free Surface BC: .
+(applied at z=0)
+
+where 6 is 6; or dp
+
+---PAGE BREAK---
+
+[Page 293]
+Linearized Boundary Conditions
+
+¢ Radiation Potentials
+
+~ Body BC:
+(applied at hull mean position)
+
+(applied at z=0) J
+
+— Free Surface BC: : ] ’ 0 () 0
+X
+
+dz
+
+U
+0 . $5 = $s +—¢)
+9,=¢; for j=1,2,3,4 i@
+
+o U.,
+$5 = 9% io
+
+It can be shown that the radiation body BC is given by:
+09g,
+285 ian .+Um,
+in J
+
+The m-terms provide a coupling between the basis flow $, and the timedependent potential.
+
+(n,m) =~(fi-V) Ee (mmama)=fa-¥) fe |
+
+(m,,m,,m,)=0
+(m,,ms,m,)=(0,n,-n;)
+ag;
+
+=ian,
+
+For our case, where: ¢, =—Ux we have:
+
+Let 9; =¢° +9" , where 6,° is speed independent and satisfies
+
+on the body, in addition to the Laplace equation and free-surface and infinity
+conditions.
+
+It then follows that: ¢; =O for j=1,2,3,4
+
+and =o
+O, =!
+
+---PAGE BREAK---
+
+[Page 294]
+Pressure Linearization
+
+¢ From Bernoulli:
+p= -o(io ad ape ~ pall, +0,y- Cx)e™
+
+buoyancy term ignored
+(included in hydrostatic restoring coefficient)
+
+Hydrodynamic force and moment:
+
+H,= -efn (io -0 5. a
+
+(integration over the mean position of hull)
+
+Similarly to the boundary conditions, the pressure is expanded as a Taylor
+series about the undisturbed position of the hull and the expression is
+linearized by neglecting quadratic and higher order terms in $s and $y.
+
+The hydrodynamic forces and moments, H, include the exciting forces as well
+as the forces due to the ship motions (added mass and damping forces). They
+do dot include the hydrostatic restoring forces which are included elsewhere.
+
+---PAGE BREAK---
+
+[Page 295]
+Hydrodynamic Forces
+
+A, =F + DT so
+=1
+
+— Exciting Force & Moment
+
+F,=-pf nfio-0 slo +@, ds
+
+— Radiation Force & Moment
+. a .
+T,=~plf nfio-us pas =A, -i0B,
+
+— Need A, B, F to get equation of motion
+
+T;, is the hydrodynamic force in the j* direction, due to a unit oscillatory
+displacement in the k"* direction.
+
+The real and imaginary parts of this force is proportional] to the added mass
+and damping coefficients respectively. These coefficients, along with the
+exiting force, will be expressed in terms of integrals of the sectional (2D)
+coefficients over the length of the hull.
+
+The equation of motion of the ship will then be fully specified:
+
+Ybo(u, +Ax )+i@B, +C, |g, =F,
+
+k=1
+
+---PAGE BREAK---
+
+[Page 296]
+Radiation Forces
+
+¢ Variant of Stokes’ Theorem
+
+[fn Las=ufmpds—u nga
+s s Cn
+
+¢ From which:
+T;, = -pio|. njP,ds+ Up|f m ds -Upl., njo,dl
+eH
+Ty
+¢ Use the decomposition of the radiation potential to
+express T,, in terms of speed-independent terms
+
+In deriving the variant of Stokes’ theorem, a small angle between the waterline
+and the x-axis is assumed. S is the hull surface forward of the cross section
+Ca.
+
+As we did for the radiation potential, we can divide the hydrodynamic force
+into speed-independent and speed-dependent components. The speedindependent components are defined as follows:
+
+A _ . 0
+Ty = = —pio|, n iPr ds tin =—pio|. n@, ds
+Then, using the properties of the radiation potential, we have:
+for j,k=1,2,3,4: for j=1,2,3,4:
+U UU U? ,
+Ty =T° + U_ tA Ts =T,3 + Diet io —ts- oD zhi
+ia t;
+
+y U U’?,
+
+0 0
+
+Ti = Ts T0 Ty +g tt
+i@ ia a
+
+for k=1,2,3,4: and finally:
+U U?,
+U U Ts = Tog + 13+ 155 -te
+T., =T® -—T> +— 14 55 = 455 + at 55 53
+5k Sk io 3k io Sk j i@ o
+u U _7o,U ag Ux, U
+Tg, =Ta + jo? —it Tog =To5 + eee +— io l66 P* a
+
+---PAGE BREAK---
+
+[Page 297]
+Strip Theory Approximations
+
+¢ Length >> Beam, Draft
+
+ds = d&dl => T, =-pia| [n,gfdlaé = [t,dé
+LC, L
+
+f) da
+ox ody az
+n, =N.
+
+(j =2,3,4)
+N: 2D normal
+
+<< n,n, > {ns =—-XN.
+” ; ° ° n: 3D normal
+
+f)
+uj a
+@>> &
+
+n, =xN,
+
+The above approximations are all consistent with the trip theory assumption of
+a long and slender ship.
+
+The last condition, which states that the frequency of encounter is high,
+requires that the maximum wave length is of the same order as the ship’s
+beam. This enables us to simplify the radiation potential free surface
+condition so that ° is indeed speed-independent as assumed.
+
+Under these assumptions, the 3D Laplace equation and the boundary
+conditions reduce to the 2D Laplace equation with the corresponding 2D
+boundary conditions.
+
+---PAGE BREAK---
+
+[Page 298]
+Radiation Forces in terms of 2D
+hydrodynamic coefficients
+
+Tz = finaé T= Jeaé Ta = feadé
+Ty=Te=[Etnd— Ty =T3=—[E tad Ty, =Ta = ftydé
+Tg = [etndé Ty = [Etadé Ty =Teq = [Eta
+
+All the rest T;,°=0, for ships with lateral symmetry
+
+where: 1, =—piw{[NOidl=@"a,-iab, for j=2,34
+c,
+
+fy = —piw | N,gpdl = WA, — 1b,
+Cc,
+
+From the assumptions of strip theory, the two-dimensional radiation potential
+at each section, w,, is equal to the three dimensional potential 0,° for sway,
+
+heave and roll:
+¢=y, for k=2,3,4
+
+In addition, from the hull condition, we have for pitch and yaw:
+
+$f =-xY, and $2 =xVW,
+
+and oo <<¢? for k=2...6
+
+The above relations were used in conjunction with the expressions for the
+sectional radiation forces and the strip theory approximations to get the zerospeed radiation forces in terms of the 2D forces.
+
+So from all the above, and from the relation between the speed-independent
+and speed-dependent components of the radiation force, we have all we need
+in order to express the added mass and damping coefficients in terms of the
+sectional two-dimensional added mass and damping.
+
+---PAGE BREAK---
+
+[Page 299]
+Incident Wave Exciting Forces
+
+Fi = -pffn{ tous. ra
+s =>
+
+ea F} =-pia, |[n,o,ds
+d, - & 7 k(xc0s B-ysin B) ke S
+QD
+
+(Froude-Kriloff force and moment)
+
+a: wave amplitude
+
+k: wave number
+
+B: heading angle
+
+@ : wave frequency, related to frequency of encounter by @,=a@+kUcosB
+
+---PAGE BREAK---
+
+[Page 300]
+Diffraction Forces
+
+FP =p ln iow 5 Pods
+e Using: 5
+
+— Stokes’ theorem
+— Hull BC
+— Green’s 2"4 identity
+
+FP =o sae Fareed fore
+
+we Bet
+
+The same form of Stokes’ theorem that was used for the radiation forces
+earlier is applied to the diffraction forces.
+
+The hull condition for the radiation potentials is then used to get products of
+potentials and normal velocities.
+
+Green’s identity, which involves such products, is then used to eliminate the
+radiation normal velocities (they get substituted by the diffraction normal
+velocities)
+
+The hull boundary condition is then used to replace the diffraction normal
+velocities by the negative of the incident wave normal velocities which are
+known.
+
+Use may then be made of the relations between the speed-independent and
+speed-dependent components of the radiation potentials to get an expression
+involving only the speed-independent components.
+
+Finally, the incident wave potential, which is a known quantity, may be
+substituted.
+
+---PAGE BREAK---
+
+[Page 301]
+Excitation Forces in terms of 2D
+sectional forces
+
+FccK, k=2...6
+U .
+F,=paf(f, +h,\dé + pa hi j=2,3,4
+L
+U U
+
+Fx pal +h) hs bes pa
+
+where: p,(x)=ge*o*? [Nje®™Fe%al (2D Froude —Kriloff)
+G
+
+h, (x)=a,e"°"? fan, —N, sin B)x enPeX or dl (2D diffraction)
+c,
+
+The excitation forces in terms of the sectional Froude-Kriloff and diffraction
+forces are derived from the previously derived expressions by making use of
+] the strip theory approximations.

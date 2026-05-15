@@ -1,0 +1,212 @@
+−1; this results in an integral equation for the wake vorticity, ξ ξ γ ξ ξ ξ ξ ξ ξ − +     + = − +     −∞ − − ∫ ∫ 1 2 1 2 ( ) ( , ) . Ut d v t d (204) If the wake consists of a single starting vortex far downstream with circu­ lation −Γ, (204) reduces to the steady-state result (34). In general, Laplace
+
+Chapter 5
+transforms can be used to solve the integral equation (204) for the vortex 
+density in the wake, in a manner outlined by Woods (1961).
+Before attempting to deal with (204), we shall compute the lift force and 
+moment acting on the foil. Using Bernoulli’s equation (197), the lift force 
+is given by
+L
+t
+U
+x
+dx
+=
+∂
+∂−
+∂
+∂
+
+
+
+−
++
+−∫
+ρ
+φ
+φ
+
+
+. 	
+(205)
+From the symmetry of the lifting problem, the velocity potential is odd 
+in y and thus must vanish on the real axis upstream of the leading edge. 
+There is a square-root infinity in the velocity components at x = 1, imply­
+ing a square-root zero of the velocity potential at the leading edge. Thus it 
+follows that
+∂
+∂
+=
+∂
+∂
++
+= −
++
+∂
+∂
+−
+−
+−
+∫
+∫
+∫
+φ
+φ
+t dx
+t d
+x
+x
+u
+t dx
+
+
+
+
+
+
+
+
+(
+)
+(
+)
+. 	
+(206)
+If this result with (194) is substituted in (205), the lift is given by
+L
+x
+t
+U
+dx
+=
++
+∂
+∂+
+
+
+
+
+−∫
+ρ
+γ
+γ
+(
+)
+.
+
+
+
+(207)
+Similarly, the moment about x = 0 is obtained in the form
+M
+t
+U
+x
+xdx
+x
+t
+U x dx
+=
+∂
+∂−
+∂
+∂
+
+
+
+
+=
+−
+−
+∂
+∂+
+
+
+
+
+−
++
+−
+−
+∫
+∫
+ρ
+φ
+φ
+ρ
+γ
+γ
+
+
+
+
+
+
+2 1
+(
+)
+.
+	
+(208)
+Substituting the vortex distribution (203), interchanging orders of inte­
+gration, and using (81–88) in the usual manner gives
+L
+v
+t
+t
+d
+U
+Ut
+= −
+−
+∂
+∂
++
+−
++
++
+−
+∂
++
+∂
+−∫
+
+
+
+
+2 1 2
+
+
+
+
+1 2
+ρ
+ξ
+ξ
+ξ
+ρ
+ρ
+ξ
+ξ
+γ ξ
+(
+)
+( , )
+[
+(
+)
+]
+(
+)
+Γ
+t
+dξ
+−∞
+−
+∫
+
+.
+	
+(209)
+The wake integral in (209) can be integrated by parts after substituting (198) 
+for ∂γ/∂t. Using (196), the expression for the lift force reduces to the form

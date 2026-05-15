@@ -1,0 +1,105 @@
+are positive. Thus the center of gravity of a stable floating body may be situated above the center of buoyancy. Comprehensive treatments of static stability for ships are given by Moore (1967) and by Rawson and Tupper (1968). 6.17 Damping and Added Mass In chapter 4 we showed that if a body moves in an infinite ideal fluid, hydrodynamic pressure forces and moments will result which can be expressed most simply in terms of the added-mass coefficients mij. A more
+
+Waves and Wave Effects 
+
+complicated and less general situation follows for a body moving on or near 
+a free surface; the corresponding force and moment are expressed by the 
+second term on the right side of (130), with the restrictions that the body 
+motions are small and sinusoidal in time.
+The six components of this force and moment can be written in the 
+matrix form
+F
+e
+f
+i
+i
+j
+i t
+ij
+j
+=
+
+
+
+
+
+
+=
+=∑
+Re
+,
+, ,
+, ,
+ξ
+ω
+
+
+1 2
+
+…
+	
+(150)
+where
+f
+n
+dS
+ij
+i
+j
+SB
+= −
+∂
+∂
+∫∫
+ρ
+φ φ
+. 	
+(151)
+The last result follows from (130) and the boundary conditions (120–121). 
+The coefficient fij is the complex force in the direction i, due to a sinusoidal 
+motion of unit amplitude in the direction j.
+The coefficient defined by (151) is analogous to the added-mass coef­
+ficient mij defined by (4.114) for a body undergoing small oscillations in 
+an unbounded fluid. Here, however, we shall find that the coefficients fij 
+are complex as a result of the free surface, and the real and imaginary parts 
+depend on the frequency ω. For this reason the coefficients (151) take the 
+form
+f
+a
+i b
+ij
+ij
+ij
+=
+−
+ω
+ω
+
+. 	
+(152)
+Equivalently, the force (150) can be expressed in the form
+F
+a U
+b U
+i
+ij
+j
+ij
+j
+j
+= −
++
+=∑(
+),
+
+
+
+(153)
+which is a decomposition of the sinusoidal force, associated with each 
+mode of motion, into components in phase with the velocity and accelera­
+tion of the corresponding modes.
+The coefficient aij is known as the added-mass coefficient, since it repre­
+sents the force component proportional to the acceleration. It should be 
+emphasized that aij will differ from the corresponding added-mass coeffi­
+cient mij for a body in the absence of a free surface, and one must not 
+assume that all of the properties of mij apply to aij.

@@ -1,0 +1,80 @@
+problem, with a specified load dis­ tribution, is actually simpler to solve, since (30) becomes a definite integral instead of an integral equation with an unknown integrand. In the present case, with γ = constant, and after invoking the boundary condition (22) for the vertical velocity, we have ∂ ∂ = − = − + − η γ π ξ ξ γ π x U d x U l x l x l l log ½ ½ . −∫ (48)
+
+Chapter 5
+Integrating with respect to x, we obtain the desired mean camber
+η
+γ
+π
+= −
++
+(
+)
++
+(
+) +
+−
+(
+)
+−
+(
+)
+{
+}
+2 U
+l
+x
+x l
+l
+x
+x l
+½
+½
+½
+½
+log
+log
+. 	
+(49)
+From (48) it is apparent that requiring uniform load distribution has led 
+to a mean-camber line with infinite slope at both ends. This is not a serious 
+objection at the leading edge where the effects of thickness will alleviate the 
+singularity, but the infinite slope at the trailing edge causes flow separation 
+or cavitation and hence should be avoided. This difficulty might have been 
+anticipated, since the Kutta condition cannot be satisfied unless the load­
+ing vanishes at the trailing edge.
+A more practical foil shape may be obtained by relaxing the require­
+ment of uniform loading near the trailing edge and assuming a vortex dis­
+tribution that vanishes there. The simplest family of such foils is the NACA 
+a series, with constant loading from the leading edge downstream over a 
+distance al, followed by a linear attenuation as shown in figure 5.11. The 
+corresponding mean-camber lines are shown in figure 5.12, and a = 0.8 is 
+a common choice for practical purposes. A detailed account of these and 
+other foil geometries is given by Abbott and von Doenhoff (1959).
+5.5  Drag Force on a Two-Dimensional Foil
+Thus far in our discussion of two-dimensional steady foils, we have 
+neglected the drag force parallel to the x-axis. One reason for this omission 
+is that lifting surfaces are intended to produce lift forces with a minimum 
+of drag or with a large lift-drag ratio L/D. However, a second reason for 
+Figure 5.11
+Loading of NACA a mean-camber lines.
+
+Lifting Surfaces 
+
+omitting drag from the preceding analysis is that no drag force acts upon a 
+steady two-dimensional foil in an inviscid fluid. Viscous drag must be antici­
+pated in a real fluid, and experimental results such as those shown in figure 
+2.7 confirm this, but the magnitude of the total drag force is comparable 
+to the skin-friction drag coefficient for small angles of attack. Subsequently, 
+in dealing with three-dimensional lifting surfaces and with unsteady twodimensional foils, a nonzero drag force will occur in the inviscid theory, but 
+this cannot be analyzed within the steady two-dimensional theory.
+The absence of a drag force, despite the existence of lift, can be veri­
+fied from the general form of the Kutta-Joukowski theorem (equation 15; 
+see also problem 3). The most general form of this theorem states that the 
+hydrodynamic force vector is equal in magnitude to the product ρUΓ, with 
+Γ the total circulation about the foil; it also states that this force is normal 
+to the direction of the streaming flow.
+A more elementary proof of zero drag follows from an energy analysis. 
+The velocity field induced by the foil is steady state in a coordinate system 
+moving with the foil and vanishes at large distances from the foil. The 
+Figure 5.12
+Mean-camber lines for NACA a series.

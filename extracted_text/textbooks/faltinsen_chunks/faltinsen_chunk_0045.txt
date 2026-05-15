@@ -1,0 +1,121 @@
+angle of attack a of the incident flow velocity relative to the foil. (a) Explain that the linear dynamic lift force per unit length on the foil can be approximated by Fip= . ei _ tu (web. cos(@et ~ kx;) __ dns dns ) - SB 4 Bay dt de "ss where (x;,y, 2;) is the geometric centre of the foil and @ = a is the angle of attack of the incident flow in still water. Fig. 3.27. Hydrofoil-catamaran.
+
+a
+z
+oh
+
+LINEAR WAVE-INDUCED MOTIONS
+
+URE AI ENO RL Ca RT TB LOBE GT mE
+
+(b) There are additional vertical hydrodynamic forces per unit
+
+length on the foil that can be written approximately as
+
+F3,= pr (5) (- Wyw,.6,e°7 sin(wet — kx;) — oD 5 +%, AB)
+Explain this when U = 0. (Hint: Explain the contribution
+from the first term in the brackets in a similar way as we did
+in explaining the diffraction part of the mass term in
+Morison’s equation (see equation (3.34))).
+
+(c) Consider a hydrofoil-catamaran like the one in Fig. 3.27 but
+with two foils. The centre of gravity is midships and the
+longitudinal position of the foils are x; = +L/2. The foils are
+equal and the span is s. Show that the added mass and
+damping coefficients in heave and pitch for the vessel can be
+written as
+
+L2
+Az = 2n0(5) s
+
+B33= 9 Ia _ lsU
+A3s = As3 = B35 = Bs3 = 0
+Ass = A33(L/2)°
+
+Bss = B33(L/2)"
+
+Show that the foils cause the following non-zero restoring
+coefficient
+
+dc
+C35 = —p—— da =
+
+IsU?
+
+a=ao
+
+Show that the vertical excitation force F3 and pitch excitation
+moment F, can be written as
+
+L\? h L\ .
+F3= ~2px(5) SWo@,.6,e°" cos (k 5) sin w.t
+
+dc,
++p—
+
+lsUwo6,e% cos k =) COS Wet
+da 2
+
+a=ay
+ly? ner eh
+F,= -pz(5) $Wp0-6,e°L sin(k 5) COS Wet
+
+-—p=-
+
+L
+5 de lsULwo6,e% sin(k 5) sin wet
+
+a=a9
+
+EXERCISES 95
+
+(d) Consider an example of the case presented in (c). The vessel
+mass M = 1.3 - 10°kg, the pitch radius of gyration r55 =
+8.9 m, the length L of the vessel is 30 m, the chord length
+l= 1m, the foil span s is 5 m, dC,,/da@ = 5.5 and the ship
+speed U = 25 ms~'. Assume there is some buoyancy effect of
+the hulls and include the dynamic effect of the hulls only as
+hydrostatic restoring terms. The total waterplane area is
+30 m?. C3, and Cs; due to the hulls are zero and Cs5/C33 =
+60 m?.
+
+Consider the uncoupled equations for heave and pitch.
+What are the undamped natural periods 7,3 and T,,s for
+heave and pitch? What are the ratios € of the damping relative
+to the critical damping? (Hint: The critical damping in heave
+is 20M + A33)22/T,3.) (Answers: Ty3 = 4.38, Ts = 5.28, €
+for heave: 1.7, € for pitch: 5.3.)
+
+3.4 Sway and roll motion of a buoy
+Consider a buoy in regular incident waves in deep water. The buoy is a
+
+_ cylinder with circular cross-section and the incident waves are propagat-
+
+ing along the positive y-axis (see Fig. 3.28). The wavelength A is
+assumed to be larger than 5 times the diameter so that the buoy does not
+generate any waves of significance. Linear potential theory can be
+assumed. In the figure, B means the centre of buoyancy and G the centre
+of gravity. The coupled equations for sway and roll can formally be
+written
+
+Png
+
+d?
+(M+An)>> Sr t Aus ae
+
+4=F, cos wt
+
+CP
+
+where 72 is the sway motion of the centre of gravity. The moments are
+referred to the x-axis through the centre of gravity. /, is the moment of
+inertia in roll. The velocity potential for the incident waves is written as
+
+g= BE oh e” cos(wt — ky)
+
+(a) Show by strip theory that
+An = pAd, Ax = —pAdBG,
+
+Ag = —pAdBG, Aa = pa(S + dBG’)
+
+F,= 2pgAC,(1 -—e7™), F4= ~2pgAl,(C + De)

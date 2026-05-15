@@ -1,0 +1,72 @@
+ae 4=F, cos wt CP where 72 is the sway motion of the centre of gravity. The moments are referred to the x-axis through the centre of gravity. /, is the moment of inertia in roll. The velocity potential for the incident waves is written as g= BE oh e” cos(wt — ky) (a) Show by strip theory that An = pAd, Ax = —pAdBG, Ag = —pAdBG, Aa = pa(S + dBG’) F,= 2pgAC,(1 -—e7™), F4= ~2pgAl,(C + De)
+
+96 LINEAR WAVE-INDUCED MOTIONS
+where
+d ~~ 1 qd — 1
+C= (S+B ) —T, =c- =
+, G k D 5 BG t+;
+
+(b) Show that the natural circular frequency for the coupled
+oscillation in roll and sway is
+
+_ ( pgVGM )
+(4 + Aga) ~ 3MBG?
+
+(c) Assume a diameter D = 2 m, the draught d= 10m, BG =1m
+and the height of the buoy L = 14m. The wavelength
+A = 20 m and the wave height is 0.5 m. The roll inertia
+moment with respect to the axis through the centre of gravity
+is 1,=0.15ML?.
+
+(@) Show that the natural period for coupled roll and sway
+motion is 12.3 s.
+
+Fig. 3.28. Buoy (B = centre of buoyancy, G = centre of gravity).
+
+EXERCISES 97
+
+(ii) Show that.the roll motion can be written as
+N4 = 0.012 cos wt (rad)
+and the sway motion of the centre of gravity is
+Nz = —0.07 cos wt (m)
+
+Discuss how the buoy sways and rolls relative to the incident
+waves.
+
+(uit) Is there any point on the buoy where the horizontal motion is
+always equal to zero?
+
+(iv) Find the horizontal acceleration of the top of the buoy
+(Answer: 0.59 cos wt (ms~7)).
+
+3.5 Roll motions of ships
+We will assume a beam sea and use strip theory. For simplicity we will
+assume the roll motion is uncoupled from other motions. The uncoupled
+linear roll equation in regular waves can be written as
+
+Fu d ,
+rt Bast + Cuns= Fe sin wt (3.80)
+
+(a) Give a short explanation of the terms in equation (3.80) and
+be precise about what moment axis is used.
+
+(b) Assume that the damping term is due to wave radiation.
+Derive a relationship between the far-field radiated waves due
+to forced roll motion and By,.
+
+(c) The steady-state solution of equation (3.80) can be written as
+
+F,sin(wt + @)) (3.81)
+
+n= a2 24
+caf (1-(c2)) + 26a) ]
+O, On
+where
+ora(-Se-)
+n\T4 + Aga
+Bag . . woe
+g= Wd Aao. (fraction between damping and critical
+204+ A4)@n “damping 214 + Aas)@n)
+- 22
+6, = arctan —
+1- 02

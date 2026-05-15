@@ -1,0 +1,82 @@
+stability of the sway and yaw motion of the ship. Liapis (1985) used the following equations for analysis of stability of sway and yaw motion 2n My Tr dt 3 72 + Cyyna + Cyynte = 0 (6.73) dng Cyyna + Muyy G2 + Cowie = 0 where Fo Myy=M + Ax, Myy =16+ Aes Cy = (4 oF, a a OM count) 2 Here 72 is the sway motion of the centre of gravity, M is the mass, A22
+
+220 CURRENT AND WIND LOADS
+
+the added mass in sway, J, the mass inertia moment in yaw and Age the
+added mass moment in yaw for the ship. 9M/dy is the rate of change of
+the current yaw moment on the ship with respect to the angle p at the
+equilibrium angle ~ = 0 when the ship is rotating in positive yaw angle
+direction. F, is the transverse current force. OF,/dy can be explained in
+a similar way to OM/dw. Fy is the tension in the bow hawser, / is the
+length of the bow hawser and —a is the x-coordinate of the fairlead. The
+effect of the elasticity of the hawser is neglected. The restoring effect
+from the hawser that is incorporated in equation (6.73) can be shown by
+Fig. 6.36. From the figure we see that the variation in the angle Aw on
+the bow hawser can be written as
+
+Ay =(n2— ane)/l (6.74)
+
+The transverse force from the bow hawser on the ship can therefore be
+expressed as
+
+—F (Aw — ne) (6.75)
+
+Equations (6.74) and (6.75) explain the effect of the bow hawser in the
+Cyy and C,,, term. By taking the yaw moment of the force expressed by
+(6.75), we obtain the bow hawser terms in C,,, and C,,.
+
+(a) What approximations are used in formulating equation
+(6.73)?
+
+Attachment point
+
+to buoy
+ay
+Attachment point to ship
+{ (-a, 12-aN6,0)
+eee!
+ayl
+
+Fig. 6.36. Illustration used in analysis of restoring effect of a bow hawser on the
+sway and yaw motion of a ship.
+
+EXERCISES 221
+
+(b) Express the bow hawser tension F’y in terms of current loads
+on the ship and thrust from the propellers.
+
+(c) Assume the time dependence of 72 and n, can be written as
+e”. Show that o satisfies
+
+a,0* + 4,07 + a) =0 (6.76)
+where
+
+a,= MyyMyy
+
+a OM Fo
+a,= my] aFo($ + 1) - a + Myy TT
+OM OF.
+a%=- a ( +a Se) >0 (criterion for static stability)
+(d) The sway and yaw motions are stable if the real part of all
+solutions of o are negative. According to Routh (1955) this
+means that a, > 2apa,)?. Show that this is equivalent to
+
+F aM OF,\)}/F,\}
+
+2 20 _ 5] “a = “0
+(mya + Mow) 7 2| mative 5, +252) ( r)
++my(aFo- 5) >0 (6.77)
+
+(e) Show that:
+If the tension in the bow hawser Fy > F .., the ship is stable for
+any length | of the bow hawser. If Fo < F ¢., the ship is stable for
+1<l,, and unstable for 1 > 1,,.
+
+Here
+got _ tw OF,
+=e tn OP My OV (6.78)
+Muy 4g?
+Myy .
+. Myy
+= 79
+my, \Op Oy Myy

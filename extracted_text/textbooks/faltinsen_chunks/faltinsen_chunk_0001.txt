@@ -1,0 +1,55 @@
+with basic hydrodynamics of potential and viscous flow. I was encouraged by Professor J. N. Newman, MIT, to write the book. Being an editor for the book he has also given me much valuable advice. Dr. Svein Skjgrdal has spent a lot of time giving detailed comments on different versions of the manuscript. He has also been helpful in seeing the topics from a practical point of view. Many other people should be thanked for their critical review and contributions.
+
+Vili PREFACE
+
+These include: Dr J. M. R. Graham of Imperial College, London; Dr
+Martin Greenhow of Brunel University, London; Professor Makoto
+Ohkusu of Kyushu University; Professor Paul Sclavounos of MIT;
+Professor Finn Gunnar Nielsen of Norsk Hydro; Professor Enok Palm of
+University of Oslo; Dr John Grue of University of Oslo, Dr Bjorn
+Sortland of Marintek; Siv.ing. Terje Nedrelid of Marintek, Professor
+Bjornar Pettersen of NTH and Professor Dag Myrhaug of NTH.
+Graduate students who have been particularly helpful have been Seung II
+Ahn, Rong Zhao, Geir Loland, Jan Kvalsvold, Knut Streitlien and Jens
+Bloch Helmers. Rong Zhao has done the calculations presented in
+several of the figures and Vigdis O. Dahl is responsible for the skilful
+drawing of many of the figures. Marianne Kjolaas has typed the many
+versions of the manuscript in an accurate and efficient way.
+
+1 INTRODUCTION
+
+Knowledge about wave induced loads and motions of ships and offshore
+structures is important both in design and operational studies. The
+significant wave height (the mean of the highest one-third of the waves)
+can be larger than 2 m for 60% of the time in hostile areas like the North
+Sea. Wave heights higher than 30m can occur. The mean wave period
+can .be from 15 to 20s in extreme weather situations and it is seldom
+below 4s. Environmental loads due to current and wind are also
+important. Extreme wind velocities of 40 to 45 ms7~' have to be used in
+the design of offshore structures in the North Sea.
+
+Fig. 1.1 shows five examples of offshore structures. Two of them, the
+jacket type and the gravity platform, penetrate the sea floor. At present,
+fixed structures have been built for water depths up to about 300 m. Two
+of the structures, the semi-submersible and the floating production ship,
+are free-floating. The tension leg platform (TLP) is restrained from
+oscillating vertically by tethers, which are vertical anchorlines that are
+tensioned by the platform buoyancy being larger than the platform
+weight. Both the ship and the semi-submersible are kept in position by a
+spread mooring system. An alternative would be to use thrusters and a
+dynamic positioning system. Pipes (risers) are used as connections
+between equipment on the sea floor and the platform.
+
+Ships serve a large variety of purposes. Examples are transportation of
+goods and passengers, naval operations, drilling, marine operations,
+fishing, sport and leisure activities. Fig. 1.2 shows three types of ships: a
+monohull, a SWATH and a SES. The monohull is exemplified by a
+LNG (liquid natural gas) carrier with spherical tanks. SWATH stands
+for small-waterplane-area, twin-hull ship and consists of two fullysubmerged hulls that are connected to the above water structure by one
+or several thin struts. Between the hulls there may be fitted fins or foils
+as in Fig. 1.2. SES (surface effect ship) is an air-cushion supported
+high-speed vehicle where the air-cushion is enclosed on the sides by
+rigid sidewalls.and on the bow and stern by compliant seals. By high
+speed we mean high Froude number (Fn). This is defined as Fn =
+U/(Lg)(U = ship speed, L = ship length, g = acceleration of gravity). A
+ship is considered a high-speed marine vehicle when Fn > ~0.5. From a

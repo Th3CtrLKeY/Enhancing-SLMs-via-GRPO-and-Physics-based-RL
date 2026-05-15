@@ -1,0 +1,231 @@
+l t t y t t x d ( ) ( ) = − − +     − − +       × +     ′ − σ π 1 2 1 2 1 2 t l x ∫   −< < , . (165) Substitution of the source strength (165) in (159) and (160) gives the velocity and pressure distribution on the strut and the cavity surface. The
+
+Lifting Surfaces 
+
+cavity shape may be found by imposing the kinematic boundary condition 
+(161) on the cavity surface and integration of (165). In particular, requiring 
+the cavity to be closed implies that the integral of the source strength, over 
+the body plus the cavity, must be equal to zero. Integrating (161) and (165) 
+gives the relation
+
+
+
+
+
+
+1 2
+
+
+
+
+=
+= −
+−
++
+
+
+
+
+−
+
+
+
+′
+−
+′
+−∫
+∫
+q x dx
+U l
+U
+l
+t
+t
+y
+t dt
+U y
+l
+( )
+( )
+(
+π
+σ
+t dt
+)
+.
+
+
+∫
+	
+(166)
+Here the last integral comes from the contribution of the sources in the 
+segment (0, 1), and (82), (88) have been used. Reduction of (166) gives an 
+equation between the cavitation number σ and cavity length l,
+
+
+1 2
+
+
+
+=
++
++
+
+
+
+
+′
+∫
+π σl
+l
+t
+t
+y
+t dt
+( )
+. 	
+(167)
+Since the pressure acting on the wetted surface of the strut is greater than 
+the vapor pressure pv, acting on the base, a positive drag force will result, 
+equal to
+D
+p
+p
+y
+x dx
+uU
+U
+y
+x dx
+v
+= −
+−
+(
+) ′
+= −
++
+
+
+
+
+′
+∫
+∫
+
+
+
+
+
+
+
+
+
+
+
+( )
+( )
+.
+ρ
+σ
+	
+(168)
+Using equation (159) for the velocity u gives
+D
+U
+q
+x d
+U
+y
+x dx
+l
+=
+−
+−
+
+
+
+
+
+
+′
+−∫
+∫
+ρ
+π
+ξ
+ξ
+ξ
+π σ
+( )
+( )
+.
+
+
+
+
+−
+	
+(169)
+By substituting equations (161) and (165) for the source strength q(x) on 
+the body and cavity respectively, and (167) for the cavitation number, and 
+by using the Hilbert transforms (80–88), we may express (169) in the form
+D
+U
+y
+x
+x
+l
+x
+y
+t
+l
+t
+t
+l
+t
+x dt dx
+=
+′
++
+
+
+
+
+×
+′
++
+
+
+
+
+−
+−
+
+
+
+
+∫
+ρ
+π
+
+
+1 2
+
+
+
+1 2
+
+
+
+( )
+( )
+
+∫
+.
+−
+	
+(170)
+Equation (170) can be recast in a simpler form as follows. First we invert the 
+order of integration. (The more rigorous reader may find justification for 
+this operation in Muskhelishvili 1953, p. 59.) If the dummy variables (x, t) 
+are inverted at the same time, an alternative expression is obtained:

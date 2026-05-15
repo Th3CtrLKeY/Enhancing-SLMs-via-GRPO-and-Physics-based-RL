@@ -1,0 +1,91 @@
+to last long enough for the sea to develop fully. Thus, while wind speeds of this inten­ sity are not uncommon, the corresponding wave height and length shown in table 6.1 are rare. Table 6.1 Statistical Parameters and Approximate Sea State of the Pierson-Moskowitz Spec­ trum, for the Wind Speeds Shown in Figure 6.25 Wind Speed (knots) Sea State (approx.) Significant Wave Height (meters) Average Period (seconds) Average Wavelength (meters) 0.6 2.7 2.2 5.3 5.0 8.0 8.9 10.7 13.9 13.4
+
+Waves and Wave Effects 
+
+Much of the uncertainty regarding the process by which the wind speed 
+is related to the waves can be avoided by identifying the Pierson Moskow­
+itz spectrum in terms of the significant wave height rather than the wind 
+speed or sea state. The situation is somewhat more complicated than this, 
+however. If the sea is not fully developed, the corresponding wavelengths 
+will be shorter since dispersion has less opportunity to occur. Thus, the 
+Pierson-Moskowitz spectrum underestimates the peak frequency for the 
+higher spectra and conversely for smaller waves. To account for this prob­
+lem, the two-parameter spectrum (201) is used with full-scale observations 
+of the significant wave height and period. The parameters α and β are then 
+determined from (211–212).
+Fetch-limited wave spectra measured during the Joint North Sea Wave 
+Project (JONSWAP) show higher peaks compared to the Pierson-Moskowitz 
+spectrum and the two-parameter family (201). The engineering implica­
+tions of the JONSWAP results are discussed by Houmb and Overik (1976).
+The significant wave height is relevant as an indication of the most likely 
+waves to be encountered, but for design purposes a more conservative esti­
+mate is required. Thus we are led to consider the statistics of extreme values.
+From the Rayleigh distribution (204), the cumulative probability of a 
+single wave being less than A = ζ(m0)1/2 is
+P
+p
+d
+e
+( )
+(
+)
+.
+/
+ζ
+ζ
+ζ
+ζ
+ζ
+=
+′
+′ =
+−
+∫
+−
+
+
+
+
+(213)
+The probability that the amplitudes of N statistically independent waves are 
+all less than A is PN, and the probability that at least one wave amplitude 
+will exceed this value is
+
+
+
+
+−
+=
+−
+−
+−
+P
+e
+N
+N
+(
+) .
+/
+ζ
+	
+(214)
+The negative derivative of (214) gives the probability density of the extreme 
+value in N cycles, in the form
+g
+N
+P
+p
+N
+( )
+( )[ ( )]
+.
+ζ
+ζ
+ζ
+=
+−1 	
+(215)
+The wave amplitude for which this probability density function is a 
+maximum can be found by setting the derivative of (215) equal to zero. 
+Simplifying the resulting expression for N ≫ 1, the most probable extreme 
+value in N waves is given by

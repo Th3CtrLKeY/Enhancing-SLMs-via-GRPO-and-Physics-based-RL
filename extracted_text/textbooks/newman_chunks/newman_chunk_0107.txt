@@ -1,0 +1,38 @@
+appropriate solution. For polar coordinates (r, θ) in two dimensions, the analog to (68) is the expansion φ θ = + + + = ∞ ∑cos [ / ] log n A r B r A B r n n n n n 1 (70) together with a similar series with cos nθ replaced by sin nθ. This is equiv­ alent to expressing the complex potential in its most general form as a Laurent series plus a logarithmic source term.
+
+Chapter 4
+A common feature of (68) and (70) is that two sets of independent 
+radial functions arise, one singular at the origin and the other at infin­
+ity. The latter is appropriate for internal flows, where the fluid is contained 
+within a spherical or circular container with prescribed normal velocity 
+on the boundary. However, for external flows in a fluid domain that extends 
+to infinity radially, the solutions of Laplace’s equation proportional to rn 
+are ruled out, with the exception of a uniform free stream obtained when 
+n = 1. On the other hand, for external flows the entire set of solutions sin­
+gular at r = 0 is admissible, since the fluid domain is exterior to this point. 
+Individual terms in this set are known as multipoles; the source and dipole 
+are the first two members. (The next two are quadrupoles and octapoles.) The 
+multipole of order n can be derived by differentiating the source potential 
+n times.
+The method of separation of variables can be applied, using the same 
+scheme with more complicated coordinate systems, to determine the flow 
+past spheroids and ellipsoids and more generally to solve problems where 
+the boundary geometry coincides with one of the coordinate surfaces of the 
+separable systems listed above. Details of these problems and the resulting 
+solutions are discussed by Lamb (1932) and by Morse and Feshbach (1953). 
+The solutions obtained are analogous in form to (68) and (70), with unde­
+termined coefficients that must be found from the boundary conditions 
+of the problem, but with more complicated special functions representing 
+the spatial dependence. Several applications of this technique in the field 
+of ship hydrodynamics are included in the collected works of Havelock 
+(1963).
+4.10  Fixed Bodies and Moving Bodies
+In the previous sections, streaming flows have been considered where the 
+body is fixed and the fluid at infinity has a uniform constant velocity. 
+Except for the change in reference frame, these are identical to correspond­
+ing problems where the body moves with constant velocity through oth­
+erwise undisturbed fluid, provided the relative velocity between the body 
+and the fluid at infinity is the same in both cases. However, the boundary 
+conditions must be changed if the fluid velocity is referred consistently to 
+a fixed reference frame, and the two solutions will differ by the free-stream 
+potential.

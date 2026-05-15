@@ -1,0 +1,68 @@
+the ship. I 3.8 Frequency of encounter spectrum Consider incident long-crested waves on a ship with forward speed U. The wave spectrum is given as S(w ). Assume the frequency of i encounter spectrum 53°(w,) of heave has been determined. (a) Explain why the frequency of encounter spectrum S°(,) of i the incident waves can be related to the wave spectrum by S*(We) |\dwe| = S(wo) |dwol | when there is a one-to-one relationship between w, and w 9. ;
+
+4 NUMERICAL METHODS FOR
+‘ LINEAR WAVE-INDUCED MOTIONS
+AND LOADS
+
+There exist practical numerical tools based on _ three-dimensional
+analyses that predict linear wave-induced motions and loads on largevolume structures at zero Froude number. A wave spectrum is used to
+describe a sea state and results in an irregular sea can be obtained by
+linear superposition of results from regular incident waves. Panel
+methods are the most common techniques used to analyse the linear
+steady state response of large-volume structures in regular waves. An
+example of panelling of a TLP is shown in Fig. 4.1, where a total of
+12 608 panels is used for the whole structure. In general about 1000
+elements would be sufficient. There exist different panel methods. One
+way is to distribute sources (and sinks) over the mean wetted body
+surface. Another way is to use a mixed distribution of both sources, sinks
+and normal dipoles distributed over the mean wetted body surface. Panel
+methods are also called boundary element methods.
+
+Panel methods are based on potential theory. It is assumed that
+oscillation amplitudes of the fluid and the body are small relative to
+cross-sectional dimensions of the body. The effect of flow separation is
+neglected. This means that the method should not be applied to jacket
+type structures, risers or tethers. The method can only predict damping
+due to radiation of surface waves. This means a panel method does not
+satisfactorily predict rolling motion of a ship close to the roll resonance
+period because the wave radiation damping moment due to roll may be
+small and viscous damping effects due to flow separation are
+important. Another case where panel methods fail to give physically
+correct answers and viscous effects are important is in predicting vertical
+forces on a TLP in extreme wave situations in a frequency region where
+small excitation loads occur. This happens in general in a period range
+between 15 and 20s. and is important in establishing design loads for the
+tethers of a TLP. The reason for the small forces was discussed in
+connection with equation (3.41). The vertical hydrodynamic forces at the
+intersection between the pontoons and the columns counteract the
+hydrodynamic forces on the pontoons. Since the hydrodynamic forces
+due to potential flow effects become small other physical effects are
+important. In this case viscous effects matter.
+
+SOURCE TECHNIQUE , 103
+
+SOURCE TECHNIQUE
+We will discuss the source technique in detail and start by repeating what
+a source is. A source is a point from which fluid is imagined to flow out
+uniformly in all directions. If the total flux outwards across a small closed
+surface surrounding the point is Q, then Q is called the ‘strength’ of the
+source. A negative source is called a ‘sink’. We will from now on use the
+word source both for sources and sinks.
+The velocity potential at any point P, due to a three-dimensional point
+source, in a liquid at rest at infinity, is
+
+¢ = -Q/(4nR) 4.)
+
+where R denotes the radial distance of P from the source point. This
+gives a radial flow from the point and if ds is an element of a spherical
+surface having its centre at the source, we have the velocity flux through
+the spherical surface as
+
+9¢ 4-12 _
+[[$o-cS 4nR?=Q | ; (4.2)
+
+In two dimensions the expression for the velocity potential due to a
+
+Fig. 4.1. Submerged portion of one quadrant of a six-column TLP discretized
+with 3152 panels per quadrant (12 608 panels for the total structure)
+(Korsmeyer et al., 1988.)

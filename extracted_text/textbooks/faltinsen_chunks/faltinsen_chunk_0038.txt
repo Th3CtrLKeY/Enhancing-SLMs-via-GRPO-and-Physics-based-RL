@@ -1,0 +1,101 @@
+one pontoon. A337”) will be set equal to 2.3 - pA where A is the cross-sectional area of one pontoon. It now follows that M + Ag3 = p(2LA + || Ay) + 2° 2.3 pAL = 7.59 - 10” (kg) The restoring coefficient C33 = pgAy = 3.16 - 10° (kg s~”) The vertical excitation force is obtained by strip theory. We may write A Li2 A F,=2] (pA'+ 2.3 pA)az dx + p,—+ pp — ~L/2 2 2
+
+80 LINEAR WAVE-INDUCED MOTIONS
+
+The first term represents the vertical force on the two pontoons assuming
+no vertical columns. The two last terms are corrections because of the
+vertical columns. We write the incident wave potential as
+
+o= =, e** cos(wt + kx)
+
+This means
+a3= —w*l,e" sin(wt + kx)
+
+where z2,, = —18.5 m. In the last two terms in the expression for F;
+Pa= pgtesin(wt + kx), pp = pare’ sin(wt + kx2)
+
+where 2,= —15 m, x; = —37.5 m, x, = 37.5 m. We may now write
+
+F;=—6.6pAw’6,e"" Pi sin(kL/2)sin wt
+
+Ay .
++ 2 pgb,e"* 2 sin wt cos(kx,)
+
+=-5.9-10°sin wt (N)
+
+The heave motion of the centre of gravity of the semi-submersible may
+now be found from equation (3.68) by substituting 713 = |73| sin wt. We
+find
+
+n3=0.2sin wt (m)
+
+The pitch equation of the semi-submersible can be written as
+d? .
+Us + Ass) Sat Cssns = Fs (3.69)
+
+The pitch inertia moment J; will be set equal to As;. This is not
+generally true. The pitch added mass As; may be obtained by strip
+theory and by following the definition of Ass, i.e. by studying forced
+pitch oscillation 1; and the resulting pitch moment on the semisubmersible. A strip of length dx of the pontoons will be exposed to a
+vertical acceleration —xij5 due to the forced pitch oscillation. This creates
+a vertical force A;3;?”xi,5dx on the strip which again causes a pitch
+moment about an axis parallel to the y-axis through the centre of gravity.
+The total contribution to the pitch moment from the pontoons can be
+written as
+
+Li2
+—2 I x7A33°™ dx Ns
+-Li2
+
+MINIMALIZATION OF VERTICAL SHIP MOTIONS 81
+
+Let us now study the effect from the columns. A strip of length dz on one
+of the columns will be exposed to a horizontal acceleration (z + 10)#5 due
+to the forced pitch oscillation. This creates a horizontal force
+~A,,;?>(z + 10)#5, which in turn causes a pitch moment about the
+y-axis. We may write
+
+£12 0
+Ass = 2 | A337 x? dx +44} A,?P(z + 10)? dz
+. —L/2 15
+
+where A,;? = p7107/4 and length is measured in metres. We find
+Ass = 4.1-10!°kg m?. Css follows from hydrostatic considerations and
+can be written as
+
+Css = pgVGM, = 2.8 . 10° kg m? s~?
+The wave exciting pitch moment can be written as
+
+F,= | 6.6pA we" sin(wt + kx)x dx
+
+—L.
+
+—x, = pgl.e** sin(wt + kx,)
+A, he
+7A pete sin(wt + kx)
+
+~2 [ (2 + 10X0.25pA,
+-15
++Ay,?>)w?E,e" cos(wt + kx,) dz
+
+~2 (z + 10X0.25pAy
+=15
+
++ Ay?) w? b,c" cos(wt + kx) dz
+
+The two last terms are contribution to the wave exciting pitch moment
+from ‘the horizontal forces on the columns. If we neglect the last two
+terms, we will find F; = 2.3 - 10% cos wt(Nm).
+
+By substituting 7; =|75| cos wt in equation (3.69) it now follows that
+the pitch motion is
+
+Ns = —0.008 cos we(rad)
+
+MINIMALIZATION OF VERTICAL SHIP
+MOTIONS
+We now discuss which parameters influence the heave and pitch of the
+
+ship. In order to do this we choose a simplified mathematical model and
+consider first a ship of constant cross-section in head sea at zero Froude
+number. We do not recommend the use of this model for accurate

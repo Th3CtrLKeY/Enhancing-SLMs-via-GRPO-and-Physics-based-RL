@@ -1,0 +1,153 @@
+The contribution to the exciting force from the scattering potential ϕ7 is included in the body-potential contributions listed in column one. Similar estimates can be made for the forces on a horizontal body, as shown in table 7.3. In surge, the body-induced force is longitudinal, and hence O(ε4 log ε), while the body-mass force and the Froude-Krylov force are O(ε2). For vertical motions in the inner region, associated with pitch and heave, the two-dimensional flow is source-like since the submerged
+
+Hydrodynamics of Slender Bodies 
+
+sectional area of the body is changing in time. As a result the body poten­
+tials in these modes are O(ε log ε) and the corresponding force components 
+are O(ε2 log ε). The dominant vertical forces are the hydrostatic component, 
+proportional to the waterplane area of order ε, and the vertical component 
+of the Froude-Krylov force which, from (6.165), is of the same order. An 
+exception occurs for a submerged body, where the waterplane area is zero 
+and the remaining vertical force components are O(ε2).
+Equations of motion for the six degrees of freedom can be derived from 
+the forces listed in table 7.3. In each mode the bold-faced terms are domi­
+nant, and thus the leading-order equations of motion are simplified. We 
+shall outline the details of this procedure for the vertical and horizontal 
+forces acting on a spar buoy, and for the vertical force acting on a slender 
+ship.
+For a spar buoy situated at x = z = 0, the vertical Froude-Krylov force can 
+be expressed in the form
+F
+p n dS
+S y p
+y dy
+FK
+y
+S
+T
+B
+=
+′
+∫∫
+∫
+−
+
+
+
+( )
+( )
+. 	
+(82)
+Here S(y) is the sectional area of the body, T is the draft, and p0(y) is the 
+pressure field of the incident wave system, at a depth y. Note that in 
+Table 7.3
+Orders of Magnitude of the Different Types of Forces and Moments Acting on a 
+Vertical or Horizontal Slender Body, in Waves of Wavelength Comparable to the 
+Body Length
+Mode
+Vertical Body Axis
+Horizontal Body Axis
+FB
+FM
+FHS
+FFK
+FB
+FM
+FHS
+FFK
+1. Surge
+ε
+
+ε
+
+
+ε
+
+ε
+4 log ε
+ε
+
+
+ε
+
+2. Heave
+ε
+4 log ε
+ε
+
+ε
+
+ε
+
+ε
+2 log ε
+ε
+
+ε
+ε
+3. Sway
+ε
+
+ε
+
+
+ε
+
+ε
+
+ε
+
+
+ε
+
+4. Roll
+ε
+
+ε
+
+ε
+
+ε
+
+ε
+
+ε
+
+ε
+
+ε
+
+5. Yaw
+ε
+
+ε
+
+
+ε
+
+ε
+
+ε
+
+
+ε
+
+6. Pitch
+ε
+
+ε
+
+ε
+
+ε
+
+ε
+2 log ε
+ε
+
+ε
+ε
+Note: FB denotes the body-induced pressure force, FM the body-mass force, FHS the 
+hydrostatic force, and FFK the Froude-Krylov force due to the pressure field of the 
+undisturbed incident wave. The dominant terms in each mode are indicated by 
+bold-face type (ε). In all cases the body length is assumed to be O(1).

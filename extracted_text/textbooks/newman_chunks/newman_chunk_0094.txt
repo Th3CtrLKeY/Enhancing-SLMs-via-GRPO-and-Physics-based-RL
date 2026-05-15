@@ -1,0 +1,49 @@
+−ϕ2, is a homogeneous solution with zero normal derivative on the boundary surface S and also a solution of Laplace’s equation throughout the fluid volume . By a wellknown consequence of the divergence theorem (3.5), φ φ φ φ φ φ φ φ φ φ ∂ ∂ = ∇ ⋅ = ∇⋅ ∇ = ∇⋅∇+ ∇ ∫∫ ∫∫ ∫∫∫ ∫∫∫ n dS d d d S S ( ) ( ) [ ] . S     (29)
+
+Chapter 4
+Under the specified conditions, substituting the potential ϕ3 gives
+
+
+
+=
+∇
+⋅∇
+∫∫∫(
+)
+.
+φ
+φ d
+
+	
+(30)
+Since the integrand of this volume integral is positive definite, it must 
+vanish everywhere throughout the fluid. Hence there is no fluid motion if 
+there is no normal velocity on the boundaries, and the potential ϕ3 can be 
+at most a constant.
+From this uniqueness proof it follows that the kinematic boundary con­
+dition (28) contains precisely the right amount of information regarding 
+the fluid motion. To prescribe more information on the boundaries would 
+be to overspecify the solution. On the other hand, there will be problems 
+where the position and velocity of the boundary are unknown, in par­
+ticular on the free surface where waves occur and the form of the wave 
+motion, and free surface elevation, is not known a priori. In this instance 
+the kinematic boundary condition (28) remains valid, but the velocity U 
+of the boundary is unknown. Additional information must be provided, 
+and the physically relevant condition is that the pressure on the free sur­
+face is equal to atmospheric pressure. Thus the dynamic boundary condi­
+tion is based on Bernoulli’s equation (26), with the pressure p prescribed. 
+Further discussion of this situation is deferred until we discuss free-surface 
+flows in chapter 6.
+4.5  Simple Potential Flows
+The simplest example of ideal fluid motion is the uniform stream, say with 
+velocity U flowing in the x-direction. The velocity potential of this flow is 
+clearly ϕ = Ux. More generally the components of similar streaming flows in 
+the y- and z-directions can be superposed to obtain the velocity potential 
+ϕ = Ux + Vy + Wz. This potential is a solution of Laplace’s equation (16), and 
+operating with the gradient (15) confirms that this is indeed the potential 
+of a flow with velocity components (U, V, W).
+This streaming flow will be disturbed by the presence of a body or bod­
+ies or of some other type of boundary geometry such as the variable form 
+of a flow channel. From the mathematical viewpoint such a disturbance 
+requires the introduction of singularities; the simplest of these are the source 
+potential and its compatriot, the sink. Since these singularities are literally a

@@ -1,0 +1,106 @@
+L in long-crested head sea waves that can be described by a wave spectrum S(w). In the following calculations use S(@) J (@2x)7! 05<etey 5 HeT, an pel 0 for other frequencies F zi (Nm) a f3.o-10° p25-10° £20-10° 0.4 0.6 08 1.0 12 14 w (rad s’) Fig. 5.24. Wave-drift force F, of the TLP described in Fig. 3.15 and Table 5.1. 0° wave heading. (w = circular frequency of oscillations, ¢, = wave amplitude of the incident waves.)
+
+SECOND-ORDER NON-LINEAR PROBLEMS
+
+Assume the longitudinal wave drift force F, in regular head sea waves of
+wavelength A and wave amplitude €, can be written in the simplistic
+
+form
+
+(a
+
+Ne
+
+(b)
+
+(@)
+
+Fy [o% 0<A/L<0.5
+
+pelt,’ “Lo for other wavelengths
+
+Show that the mean longitudinal wave force in an irregular
+sea can be written as
+
+F, = 0.0006pgLHy’T 1\(@max ~ ® min)
+
+where Wmax = 3/T; and Wmin the largest value of 2Vag/L
+and a/T, whenever those values are less than @naxOtherwise @ nin = @max:
+
+Use equation (5.48) to calculate the standard deviation o, of
+the slow-drift surge motion. Show that the slow-drift
+excitation spectrum S,(u,) can be expressed as
+
+Sp(Un) = 2(0.0006pgLH y*T)*(w2 — 1)
+
+and explain the meaning of w, and w,. Assume the slow-drift
+damping is only due to wave-drift damping. Express the
+slow-drift damping coefficient B,,~ in regular waves in the
+following simplistic way
+
+By? p 0<A/L<0.5
+p(Lg)t,? LO for other wavelengths
+Show that the slow-drift damping B,,” D in irregular seas can
+be written as
+
+By = 0.014p(Lg)?Hy?7T (max ~ min)
+Show that
+
+pT (Lg) (w2 — @) i
+
+, = 0.00147,,
+° ! Ay (M + Ai)(@max ~~ @ min)
+
+where T,, = 27/p,, and M and Aj, are respectively the mass of
+the ship and the added mass in surge of the ship.
+
+5.3. Added resistance of ships in waves
+
+Equation (5.24) is a crude approximation for the added
+resistance of a ship in the ‘ship motion’ range. Use this
+formula to discuss how the added resistance depends on main
+hull characteristics. (Hint: See relevant discussion of heave
+and pitch motion in chapter 3.)
+
+EXERCISES 173
+
+(b) The added resistance Raw of a ship is normally non-
+
+dimensionalized as Raw/(pg6."B*/L). Another way of nondimensionalizing Raw is to divide Raw by pgt.’B. Which of
+the two non-dimensionalized values of added resistance will
+show least sensitivity to main hull characteristics?
+
+(c) Equation (5.28) can be used to calculate the added resistance
+
+of a ship in a short-term sea state where the waves are
+long-crested. Consider situations where the ‘ship motion’
+range of the added resistance contributes most to the integral
+in equation (5.28). Approximate the integral as
+
+F; = 2S(a,) [ ° je do (5.66)
+
+where F(a, B) only contains the ship-motion part of the
+added resistance. This means the bow-wave reflection part of
+added resistance for small wavelengths is excluded. In this
+way the integral in equation (5.66) converges. w, in equation
+(5.66) is the frequency where the non-dimensionalized added
+resistance in regular waves has a peak value (see Fig. 5.11).
+Assume a modified Pierson—Moskowitz spectrum with two
+parameters Hy and T, (see equation (2.24)) and head sea
+waves. Select a value of w,. Discuss for what ship length and
+ship speed your choice of w, is realistic. Use Table 2.2 for
+the joint frequency of significant wave height and spectral
+peak period representative for the northern North Sea.
+Assume the integral in equation (5.66) is known. Discuss how
+much the added resistance for a ship can vary for realistic
+combinations of Hy and 7).
+
+(d) Consider an infinitely long horizontal cylinder of arbitrary
+
+cross-section in beam sea regular waves. Assume the cylinder
+has no mean velocity and the current velocity is zero. Use
+Gerritsma & Beukelman’s formula (equation (5.23)) and show
+that it can be written in the same form as Maruo’s formula
+(equation (5.16)). (Hint: Use equation (3.26).) What effects
+are included in Maruo’s formula, but not in Gerritsma &
+Beukelman’s formula?

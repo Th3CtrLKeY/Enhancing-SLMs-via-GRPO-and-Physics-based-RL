@@ -1,0 +1,116 @@
+cylinder relative to the bottom of the cylinder (see Fig. 9.3). This means =f —#O Nyx) = ; Vie — cD] dc (9.8) M(c) = V dt/de (9.9) We do not know u(c). Equation (9.8) is therefore an integral equation that determines y(c). When y(c) is found we can use equation (9.9) to find c as a function of time. We will try to find an approximate solution Here Ay and A, are unknown constants. By integrating the right hand
+
+288 WATER IMPACT AND ENTRY
+
+side of equation (9.8) it follows that
+
+nel) = Ao * +A\x’ (9.11)
+
+For a circular cytinder it follows that
+
+x?+(R- ny =R?
+
+i.e.
+
+x? =2m,R
+This means Ap =0 and A; = 1/(2R). By using equation (9.9) it follows
+that
+
+e ¢
+Vi=l a5
+t [ OR dc
+
+This means
+
+c =2V(VIR) (9.12)
+
+By comparing equation (9.12) with equation (9.4) we see that the wetted ;
+length is /2 times the wetted length measured from the calm water. The
+
+“slamming coefficient C, is found to be 2m at the initial time of impact.
+
+This is higher than the experimental value of 5.15 found by Campbell &
+Weynberg (1980).
+
+The hydrodynamic pressure on the body can partly be obtained by
+equation (9.2). The pressure coefficient C, is given by
+
+The result can be compared with the experimental values by Campbell &
+Weynberg (see Fig. 9.6). The agreement is reasonable except for the
+maximum pressure value. According to equation (9.13) C,7 when
+x—> c(t). This is partly a consequence of incorrect boundary conditions
+‘on the free surface in the immediate vicinity of |x| = c(t). If we use a
+microscopic view of the flow in this area we will find the fluid moves with
+a very high velocity (see Fig. 9.7). This can be seen from the velocity
+
+for |x| <c(t) = 2V(ViR)
+
+(9.13)
+
+de/dt =(VR/t) of the wetted area. In the jet flow which is present at 3
+
+x > c(t), the pressure is nearly constant across the jet. This means the
+pressure on the body is close to atmospheric pressure. The maximum
+hydrodynamic pressure in the immediate vicinity of |x| =c® is according to Wagner (1932) and Armand & Cointe (1986) equal to 0.5p(dc/dey
+(see Fig. 9.7), i.e.
+
+Coe, = (de/dt)?/V?
+
+(9.14)
+
+SLAMMING
+
+Using Wagner’s solution this mean
+n ; ; sthatC, =R i
+rl = VARY “yen for instance Vt/R =0.012 it Ae teers at
+Hess about ice the measured value by Campbell & Weynberg (1980),
+orenimately e P sition Where the maximum pressure occurs is a
+one Teneo bein ve nt © other hand experimental errors are possible,
+the area over which the pressure is foomued “ePends strongly on
+If we used von Karman’s solution then C
+
+Pmax
+
+=0.5R/(Vt) at
+
+C,--P.
+P™ V2pv2 Theory Vt/R=0.012
+
+! Faired_distributi
+i oF Vi/R=0012
+40 +0 Mean data from
+_ pressure
+o histories
+
+Faired mea
+
+pressure
+when ‘transducer
+just immersed
+
+30 |
+
+0.024
+
+0.048
+
+0.060
+0.072
+
+u
+T
+
+02 03 04 05
+
+Sin B (eps)
+PS
+
+Fig. 9.6. Comparison between experimental and theoretical values of
+Slammin e Pressure D during entry of a circular cylinder with
+corresponding ia velocity Vv ¢ = time variable with : = 0
+corresp g to initial time of impact). Experiments: Campbell &
+
+ynberg (1980). (Adapted from Campbell & Weynberg 1980 )
+> .
+
+0 O14 13

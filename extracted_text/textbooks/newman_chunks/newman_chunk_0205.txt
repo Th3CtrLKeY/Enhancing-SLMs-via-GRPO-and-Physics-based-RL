@@ -1,0 +1,281 @@
+the tank. Each wave crest is connected in successive photographs by diagonal lines, which advance in time with the phase velocity. Both the phase velocity and wavelength are reduced as the waves propagate toward the shallow end of the tank. The interval between successive photographs is 0.25s, and the wave period is 0.4s. The water depth is 0.11m at the left end, decreasing to zero at the right. Nonlinear distortion occurs when the depth is comparable to the wave height.
+
+Chapter 6
+A systematic procedure can be used to expand the boundary condition 
+(30), as well as (4), from the exact free surface to the plane y = 0, using 
+Taylor series expansions of the potential and its derivatives. A typical 
+example is
+φ
+η
+φ
+η
+φ
+η
+φ
+( , , , )
+( , , , )
+x
+z t
+x
+z t
+y
+y
+y
+y
+=
++
+∂
+∂
+
+
+
+
++
+∂
+∂
+
+
+
+
++
+=
+=
+
+
+
+
+
+
+
+
+. 	
+(31)
+Using this scheme for each of the derivatives in (4) and (30), we can obtain 
+a sequence of boundary conditions valid on the known surface y = 0. The 
+first three members are
+∂
+∂
++
+∂
+∂
+=
++
+
+
+
+
+φ
+φ
+φ
+t
+g
+y
+O(
+), 	
+(32)
+∂
+∂
++
+∂
+∂
++ ∇⋅∇∂
+∂−
+∂
+∂
+∂
+∂
+∂
+∂
++
+∂
+∂
+
+
+
+=
++
+
+
+
+
+
+
+
+
+φ
+φ
+φ
+φ
+φ
+φ
+φ
+φ
+t
+g
+y
+t
+g
+t
+y
+t
+g
+y
+O(
+), 	
+(33)
+∂
+∂
++
+∂
+∂
++ ∇⋅∇∂
+∂+
+∇⋅∇∇⋅∇
+−
+∂
+∂
+∂
+∂
+∂
+∂
++
+∂
+∂
+
+
+
+
+
+
+
+
+φ
+φ
+φ
+φ
+φ
+φ
+φ
+φ
+φ
+φ
+t
+g
+y
+t
+g
+t
+y
+t
+g
+y
+(
+)
++ ∇⋅∇∂
+∂
+
+
+
+
+−
+−
+∂
+∂
+∂
+∂∂+
+∇⋅∇
+
+
+
+
+∂
+∂
+∂
+∂
++
+
+
+
+
+
+
+
+
+φ
+φ
+φ
+φ
+φ
+φ
+φ
+t
+g
+g
+t
+y t
+y
+t
+g
+y
+g
+t
+y
+t
+g
+y
+O
+∂
+∂
+
+
+
+
++
+∂
+∂
+
+
+
+
+∂
+∂
+∂
+∂
++
+∂
+∂
+
+
+
+=
++
+φ
+φ
+φ
+φ
+φ
+
+
+
+
+
+
+
+
+
+
+(
+).
+	
+(34)
+The symbol O() indicates the order of magnitude of the neglected terms.
+Equation (34) can be simplified by invoking Laplace’s equation and (32) 
+to eliminate the last group of terms. Nevertheless, the complexity of this 
+systematic procedure increases rapidly with the order of accuracy of the 
+boundary condition.
+Plane progressive waves in deep water are of particular interest and 
+importance, and equations (32–34) can be utilized to obtain the third-order 
+expansion for plane waves.
+Direct substitution of the first-order plane-wave potential (16) in the 
+second-order boundary condition (33) reveals that the second-order terms 
+in (33) vanish. Therefore the first-order potential is a solution of the secondorder boundary value problem, and we can state that

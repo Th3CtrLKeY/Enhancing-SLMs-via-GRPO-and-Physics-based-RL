@@ -1,0 +1,110 @@
+Γ ( )( ) ( ), z z D = (151) Γ Γ ( ) ( ) ( ) ( ) ( ) . z l z d d d z s s = − −∫ ζ ζ ζ ζ − (152) To proceed beyond this point on the basis of (142) would not be consistent with the approximations already made in deriving (142). For the elliptic planform, the lift coefficient derived from (151–152) is readily obtained, in the form
+
+Lifting Surfaces 
+
+CL
+( )
+,
+
+
+=
+πα 	
+(153)
+C
+C
+A
+L
+L
+( )
+( )
+(
+).
+
+
+
+
+
++
+=
+−
+πα
+	
+(154)
+At first glance the second approximation (154) differs from Prandtl’s result 
+(148), but if the denominator of (148) is expanded in a Laurent series, in 
+inverse powers of the aspect ratio, it follows that
+C
+A
+O
+A
+L =
+−
++
+
+
+
+
+
+πα(
+)
+(
+). 	
+(155)
+Thus we see that these results are consistent, up to the point where a com­
+parison is justified.
+These results are shown in figure 5.22, which includes the conventional 
+lifting-line lift coefficient (148) and the second-order systematic approxi­
+mation (154), as well as a third-order approximation derived by Van Dyke 
+(1975) and exact lifting-surface calculations. The third-order approxima­
+tion is not simply a more accurate Laurent series approximation of (148) 
+but a consistent theory including all terms1 of order 1/A2. One example of 
+Figure 5.22
+Lift coefficient of elliptic wing. (From Van Dyke 1975, fig. 9.4)
+
+Chapter 5
+the corrections appearing at this order is an effective change not only in 
+the angle of attack but also in the curvature of the streamlines, which rep­
+resents a change in the camber.
+If one attempts to judge the merits of these different approaches from 
+figure 5.22, the conclusions are somewhat mixed. Prandtl’s “inconsistent” 
+lifting-line theory is remarkably useful for all aspect ratios from zero to 
+infinity. It overpredicts the lift coefficient, with a relative error of about 5 
+percent at A = 8, increasing to 10 percent at A = 4, 20 percent at A = 2, and 
+100 percent at A = 0. On the other hand, the consistent results are more 
+accurate for large aspect ratio but become completely invalid as the aspect 
+ratio is reduced. Thus, while Prandtl’s approximation is not systematic, the 
+most important higher-order effects seem to have been included through 
+good luck or shrewd insight or a combination of the two. This favorable 
+outcome is not observed often in asymptotic approximations, and con­
+temporary researchers in marine hydrodynamics who lack Prandtl’s insight 
+should not expect to be so successful!
+5.12  Cavity Flows
+Cavitation may have a variety of causes. The most common example is 
+boiling water, where the vapor pressure is increased by raising the water 
+temperature. Generally in marine hydrodynamics applications, cavitation 
+results because the fluid pressure is reduced to the vapor pressure limit. This 
+will occur if the body velocity U is sufficiently large, since the pressure is 
+a decreasing function of fluid velocity. Alternatively, the ambient pressure 
+may be reduced by decreasing the body submergence and corresponding 
+hydrostatic pressure or by evacuating a variable-pressure water tunnel or 
+towing tank. Finally, cavitation may result if the body geometry is modified 
+to reduce the pressure, for instance, if the angle of attack of a hydrofoil is 
+increased.
+The relevant nondimensional parameter describing the occurrence of 
+cavitation and the details of the resulting flow is the cavitation number
+σ
+ρ
+=
+−
+p
+p
+U
+v
+
+
+
+
+. 	
+(156)
+Here p0 is the ambient pressure of the flow, usually at a large distance from 
+the body, and pv is the vapor pressure of the fluid.

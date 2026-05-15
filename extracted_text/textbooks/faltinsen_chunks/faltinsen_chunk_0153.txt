@@ -1,0 +1,272 @@
+sinusoidal time-dependence, forward speed, 123 sinusoidal time-dependence, zero speed, frequency of encounter, definition, 55 Froude-Kriloff forces and moments, 39, 59-66, 225 Froude number, 1 Fuchs, R. A., 10, 61, 115 galloping, 212-15 ship at single-point mooring system, 219-22 Gauss theorem, 135, 297 Gerritsma, J., 85, 146 Graham, J. M. R., 238—41, 256 gravity platform, 1-2 Green function, 113 Green’s second identity, 64, 66, 118-21, Greenhow, M., 54, 299, 301-6, 308-12 Griffin, O. M., 211-12 group velocity, 18 Grue, J., 124
+
+326 INDEX
+
+Havelock, T. H., 110
+heave
+definition, 3, 39, 41
+natural periods of different structures, 4
+Heinecke, E., 207
+Hess, J. L., 116
+Hoerner, S. F., 191
+Hughes, G., 187
+hundred year wave, 31
+Huse, E., 160
+hydrodynamic classification of structures,
+10-11
+hydrofoil catamaran, vertical motions, 92-5
+
+Ikeda, Y., 73, 87, 241
+
+irregular frequencies, 114-16, 128
+
+Isaacson, M., 186, 223, 249
+
+Isherwood, R. M., 207
+
+ISSC (International Ship and Offshore
+Structures Congress), 23
+
+ITTC (International Towing Tank
+Conference), 23
+
+Iwashita, H., 126
+
+jacket structure, 1-2
+Johansen, F. C., 181-2
+John, F., 114-15
+Johnson, I. G., 238
+
+Kato, H., 73, 87, 241
+
+Kettleborough, C. F., 293
+
+Keulegan, G. H., 251
+
+Keulegan—Carpenter number, 223
+
+Kim, M. H., 168-9
+
+Kinematic boundary conditions, 14-15
+
+kinematic viscosity coefficient, air and
+water, 175
+
+Kinsman, B., 23
+
+Koehler, B. R., 293
+
+Korsmeyer, F. T., 103
+
+Laitone, E. V., 111, 123
+Lamb, H., 184
+Laplace equation, 13
+large-volume structure, 102
+Lecointe, Y., 226
+Lee, C-H., 116
+Lee, W. T., 32
+Lewis form, 51, 83-4
+Li, 54, 299, 306
+Liapis, N., 219
+lift coefficient, steady flow, 186
+lift forces, high Keulegan—Carpenter
+number, 248-9, 254
+Lin, W-M., 301-5, 309-12
+lock-in, 207-12, 217-19
+amplitude of transverse oscillations,
+210-11
+drag coefficient, 211-12
+
+lane tare nradictinn
+
+linear response, 38-9
+
+sea states, 32
+
+waves, 29-31
+
+wind, 31-3
+Longuet-Higgins, M. S., 138, 169
+Lundgren, H., 291
+
+Maruo, H., 136-7, 140
+mass coefficient
+definition, 61, 224-6
+experimental tools, 249-53; analysis of
+Cy,-coefficient, 251
+small KC-number, 239-40
+McCamy, R. S., 10, 61, 115
+Mei, C, C., 122
+metacentric height, 58, 87, 89
+Michael, W. H., 226
+Michelsen, F., 117
+Miloh, T., 308
+Minsaas, K. J., 273, 275
+modal period (Ty), 25
+momentum of fluid, 134
+moonpool, fluid motion, 99-100
+mooring system
+single point, 219-22
+spread, 265-8, 278
+tension leg, 1, 257
+turret mooring, 278-80
+Morison, J. R., 61, 223
+Morison’s equation, 61, 223-6, 253
+motions
+arbitrary point, linear theory, 41
+high-frequency, 3—5
+slow-drift, 3-5
+wave-frequency, 3-5
+Motter, L. E., 296
+Munk moment, 188-190, 197-202
+Murdey, D. C., 85
+
+natural period
+free-surface tank, 35, 87
+moonpool, 99
+SES, heave, 91
+uncoupled body motions, 68-71
+U-tube tank, 88
+Newman, J. N., 17, 18, 45, 65-6, 111,
+121, 136, 157, 168-9, 184, 188,
+200-1, 287
+
+Ochi, M. K., 27, 296
+Ogilvie, T. F., 22, 68, 139
+Ohkusu, M., 126
+Overvik, T., 215
+
+Palm, E., 124
+Parkinson, G. V., 214
+Pettersen, B., 226-7
+phase angle, 37
+
+phase velocity, 18
+Pinkster, J. A., 142, 159
+
+INDEX
+
+pressure coefficient, 175
+smooth circular cylinder, steady flow,
+
+Price, W. G., 98, 166
+
+radiation condition, 110
+Rayleigh distribution, 25-6, 38, 164, 294
+reduced velocity, 174, 223
+relative current number, 223
+restoring coefficients, 58
+Reynolds number, 174, 223
+ringing, 5
+riser, 1
+
+lock-in, 208-9, 217-19
+roll, definition, 3, 39, 41
+Roshko, A., 176
+roughness number, 174, 223
+Routh, E, J., 221
+
+Salvesen, N., 56, 64
+
+Sarpkaya, T., 186, 210-11, 223-4, 226,
+229, 239-40, 249
+
+Schlichting, H., 178-80, 203, 230, 234,
+
+Schmidt, D. K., 245-6
+Schmitke, R. T., 85
+Schwartz, L. W., 22, 76
+Sclavounos, P., 116, 121
+sea state, statistics, wind and waves, 32
+semi-submersible motions, linear
+heave, beam sea, 76-9
+heave and pitch, head sea, 79-81
+SES (Surface Effect Ship), definition, |
+resonance heave motion, 91-2
+shear stress, oscillatory flow
+laminar flow, 236-7
+turbulent flow, 238
+ship motion criteria, 8-9
+ship motions, linear
+minimalization, heave and pitch, 81-5
+roll, 97-9
+roll stabilization, 85-9
+Shoaff, R. L., 210-11, 226
+short-term prediction
+linear response, 37-8
+slow-drift motions, extreme values, 164
+waves, 23-9
+single point mooring system, galloping
+motion, 219-22
+sink, 103
+Skop, R. A., 211
+slamming coefficient, circular cylinder, 287,
+299-300
+slamming loads
+bow-flare section, 308, 314-15
+horizontal bracing, 308, 313
+vertical cylinder, 313
+slamming pressure
+acoustic, 290-1
+circular cylinder, 287-92
+
+threshold velocity, 296
+von Karmann theory, 287
+Wagner theory, 287-92
+wedge, 292~3
+sloshing, 7, 282, 284
+slow-drift motions, waves
+moored ship, 160, 164-6, 171-2
+most probable largest value, 164
+Newman’s approximation, 157~9
+second-order transfer functions, 156-9
+spectral density, excitation loads, 159
+standard deviation, 159-60
+tension leg platform, 170-1
+turret moored ship, 278-80
+slow-drift motions, wind, 166-8
+tension leg platform, 171
+small-volume structure, 61
+Smith, A. M. O., 116
+Smith, P. A., 226
+Sorensen, N. E., 193
+Sortland, B., 220, 243, 249-51
+sound velocity, water, 290~1
+source
+harmonically oscillating with free-surface
+effects, forward speed or current
+effects, 123-6; zero forward speed,
+110-13
+infinite fluid, 103
+source technique
+induced velocity by source element,
+106-8, 127
+infinite fluid, two-dimensional, 104-9
+wave effects, three-dimensional, 109-17
+source and dipole technique
+wall effects, two-dimensional, 128
+wave effects, three-dimensional, 119-21
+Sparks, C. P., 211, 217-18
+speed reduction
+involuntary, 7-8
+voluntary, 7-8, 282, 296
+splitter plate, 191-2
+springing, 5, 7, 131, 223
+Stansby, P. K., 226
+Stegun, I. A., 111, 254
+Stokes, G. G., 237
+Stokes drift velocity, 21-2
+strip theory,
+semi-submersible, 52-3
+ship, 50, 56, 197, 200
+Strom-Tejsen, J., 146, 151
+Strouhal number, 186, 207
+circular cylinder, steady current,
+roughness effect, 207
+subcritical flow, circular smooth cylinder,
+
+substantial derivative, 14
+sum-frequency effects, 168-9
+supercritical flow, circular smooth cylinder,
+178 :
+surge, definition, 3, 39, 41

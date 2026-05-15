@@ -1,0 +1,80 @@
+non-shadow part of the waterplane curve (see Fig. 5.8). The. formula i is not restricted to a ship and may for instance be_used in connection. with. towing of marine structures_in waves. Equati 6. 22) is sensitive to the geometric form in the bow region. This is illustrated in Fig. 5.10 for a ship, where Fy means a reference value for the added resistance. To illustrate the effect of forward speed, we see that equation (5.22) Fig. 5.9. Definition of parameters.
+
+146 SECOND-ORDER NON-LINEAR PROBLEMS
+
+shows that
+
+Added resistance (Fn #0) _ 2 ,U
+Added resistance (Fn =0) _ g
+
+If we set A/L =0.5, the ratio becomes 1+7- Fn, which means a strong
+forward speed dependence. The formula also indicates that the effect of
+current cannot be neglected. This was confirmed by Zhao et al. (1988);
+who pointed out that current velocities of 1ms~' may very well
+represent a 50% increase in drift forces on large volume structures. This
+was based on both numerical and experimental investigations. Qualitatively-one can understand that current must have an effect on mean wave
+forces if one considers that drift forces are due to a structure’s ability to
+cause waves and the fact that current has an influence on the wave field
+(see Fig. 4.13).
+
+A typical curve for the added resistance Raw of a ship at a moderate
+Froude number in head sea regular waves is presented in Fig. 5.1).
+There are two main features in the figure.
+
+(a) For small wavelengths (A/L < 0.5) the added resistance is
+mainly due to reflection of waves from the bow of the ship.
+This effect is described by equation (5.22).
+
+(6) For large wavelengths the added resistance has a maximum
+when A is of the order of the ship length. This maximum
+occurs when the relative vertical motion between the ship and
+the waves is large. For moderate Froude numbers below 0.3
+the maximum value of Oaw = Raw/(pgt,”B’/L) is normally
+below 20. For a high speed hull form at Fn = 0.8 StromTejsen et al. (1973) reported values of aw close to 35.
+
+Gerritsma & Beukelman (1972) have derived a widely-used f formula for
+
+Fig. 5.10. Influence of bow form on added resistance for small wave lengths.
+(F = reference value for added resistance.) Head sea waves.
+
+MEAN WAVE (DRIFT) FORCES AND MOMENTS 147
+
+strip-theory approximation and shows that
+
+k
+Raw= 5 [ (Bx? + UL AN?)Vare de 5.23)
+20. IL dx . .
+
+The integration is along the length of the ship and V,,(x)-is the
+amplitude of the. relative vertical velocity between the ship and the
+waves. The formula demonstrates that added resistance depends strongly
+on the relative vertical motion between the ship and the waves. The
+quality of the predictions by the formula is sensitive to the accuracy of
+the calculation of relative vertical velocity. The formula should be used
+with care for unconventional ship forms and fishing vessels. It is also
+questionable in the small wavelength range for blunt ship forms. One
+reason is that the formula is based on slender -body (strip) theory and
+neglects the effect of reflection of waves from the bow of the ship.
+
+We can obtain a crude approximation for the added resistance of a ship
+in the ‘ship- motion’ r: range by starting out with a formula proposed by
+Faltinsen et al. (1980). This formula was derived by a direct pressure
+
+integration approach and is valid for regular sinusoidal incident waves.
+
+When the added resistance is at its maximum, a dominant contribution
+
+in the formula is the relative motion term
+
+t |
+Due to bow !' ! Due to 1
+
+wave reflection; shipmotions |
+!
+
+0.5 1.0 A/L
+
+Fig. 5.11. Typical wavelength dependence of added resistance Raw of a ship at
+moderate Froude number in regular head sea waves. (€, = wave
+‘amplitude of incident waves, A = wavelength, L = ship length,
+B =beam of the ship.)

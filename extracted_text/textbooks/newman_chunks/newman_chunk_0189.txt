@@ -1,0 +1,280 @@
+t t d U Ut = − − ∂ ∂ + − + + − ∂ + ∂ −∫ 2 1 2 1 2 ρ ξ ξ ξ ρ ρ ξ ξ γ ξ ( ) ( , ) [ ( ) ] ( ) Γ t dξ −∞ − ∫ . (209) The wake integral in (209) can be integrated by parts after substituting (198) for ∂γ/∂t. Using (196), the expression for the lift force reduces to the form
+
+Lifting Surfaces 
+
+L
+v
+t
+t
+d
+U
+Ut
+d
+= −
+−
+∂
+∂
++
++
+−
+−
+−∞
+−
+∫
+∫
+
+
+
+2 1 2
+
+
+
+
+1 2
+
+ρ
+ξ
+ξ
+ξ
+ρ
+γ ξ
+ξ ξ
+ξ
+(
+)
+( , )
+(
+)(
+)
+. 	
+(210)
+By similar analysis starting with (208), the moment about x = 0 is given by
+M
+v
+t
+t
+d
+U
+v
+t d
+= −
+−
+∂
+∂
+= −
+−
+= +
+−
+−
+∫
+∫
+ρ ξ
+ξ
+ξ
+ξ
+ρ
+ξ
+ξ
+ξ
+(
+)
+( , )
+(
+)
+( , )
+
+
+
+
+2 1 2
+
+
+
+2 1 2
+
+
+
+
+
+
+1 2
+
+ρ
+γ ξ
+ξ
+ξ
+U
+Ut
+d
+(
+)(
+)
+.
++
+−
+−∞
+−
+∫
+	
+(211)
+It may be confirmed that (210) and (211) reduce to equations (15) and (37), 
+respectively, if the motion is independent of time and the wake consists 
+only of a starting vortex of circulation −Γ at x = −∞.
+The first term for the lift in (210) is the added-mass force associated 
+with a generalized vertical acceleration along the plate. Likewise, the first 
+term in (211) is the added moment of inertia, and the second term gives 
+the moment resulting from equation (4.99). The last integrals in (210) and 
+(211) represent the effect of the wake; these introduce memory effects that 
+depend on the past history of the motion.
+It is curious that if the moment is transformed to the quarter-chord posi­
+tion, the memory effects associated with the wake vanish. To show this, we 
+use (210) and (211) to compute the moment about the quarter-chord point 
+in the form
+M
+L
+M
+U
+v
+t d
+v
+x
+−
+≡
+= −
+−
++
+−
+−
+∂
+=
+−∫
+
+
+
+
+
+
+
+
+2 1 2
+
+
+
+2 1 2
+
+ρ
+ξ
+ξ
+ξ
+ρ
+ξ
+ξ
+ξ
+(
+)
+( , )
+(
+)(
+)
+( ,t
+t
+d
+U
+Ut d
+)
+(
+)
+.
+∂
++
+−
++
+
+
+
+
++
+−
+−∞
+−
+∫
+∫
+ξ
+ρ
+ξ
+ξ
+γ ξ
+ξ
+
+
+1 2
+
+
+
+
+
+(212)
+Using (204) to replace the last term, we get
+M
+v
+t
+t
+d
+U
+x=
+−
+=
+−
+−
+∂
+∂
+−
++
+−
++
+
+
+
+
+∫
+
+
+2 1 2
+
+
+
+
+
+
+
+
+
+
+ρ
+ξ
+ξ
+ξ
+ξ
+ρ
+ξ
+ξ
+ξ
+(
+)(
+)
+( , )
+(
+)
+
+
+
+
+v
+t d
+( , )
+.
+ξ
+ξ
+−∫
+	
+(213)

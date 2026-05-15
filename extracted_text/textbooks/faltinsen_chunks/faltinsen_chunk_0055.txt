@@ -1,0 +1,102 @@
+that is in the same direction as the dashed line from the source point shows the velocity vector due to the source. The velocity vector due to the image sink is illustrated in a similar way. The horizontal and vertical solid lines are respectively the horizontal and vertical components of the velocity vectors. The total horizontal velocity is zero on the free-surface, which means the velocity potential is a constant on the free-surface. The constant is chosen to be zero.
+
+II4 NUMERICAL METHODS
+
+can be approximated by plane quadrilateral elements. The number of
+
+‘elements N is 810 in this case. The discretization of the problem leads to
+
+a linear equation system for the unknown source density in a similar way
+
+to the forced heave problem for a circular cylinder in infinite fluid. The
+
+differences, which we will point out, are
+
+. 1. The source density is complex in the wave problem.
+Physically it means that the source density is generally not
+in-phase or 180° out-of-phase with the heave velocity as it is
+in an infinite fluid problem (see equation (4.7)). This means
+
+° there are N real and N imaginary unknowns or N complex
+
+unknowns if the body is approximated by N elements and no
+symmetry and antisymmetry properties are accounted for.
+Symmetry and antisymmetry properties can be accounted for
+in a similar way to the two-dimensional problem. This means
+the equation systems written in complex variables are reduced
+to N/2 x N/2 or N/4 x N/4 with respectively one or two
+symmetry planes.
+
+2. The source expression is far more complicated to compute
+numerically in a wave problem compared with an infinite
+fluid problem (see equation (4.25) compared to equation
+(4.1)).
+
+3. The normal velocity induced on an element by a source
+distribution over the same element is different in a twodimensional and a three-dimensional problem (see exercise
+4.1). We find
+
+Le |e -s@r+O-noyt+@-coyrr sas]
+=—22 (4.30)
+
+Here (%;, 9; %) is the geometrical area centre of element S;.
+4. A solution may not exist for all frequencies if the potential is
+represented as a distribution of wave sources over the body
+surface. For a surface piercing body there exist an infinite
+number of discrete frequencies (irregular frequencies) that
+cause the three-dimensional source technique to break down
+(John, 1950). The assumption in John’s analysis is that no
+point of the immersed surface would be outside a cylinder
+
+Fig. 4.7. Approximation of the submerged part of a ship hull by plane
+quadrilateral elements. Total number of elements is 810.
+
+SOURCE TECHNIQUE Lis
+
+drawn vertically downward from the intersection of the body
+with the free-surface, and that the free-surface would be
+intersected orthogonally by the body in its mean or rest
+position. A ship without a bulbous bow will for instance
+normally satisfy this assumption. However, it is possible that
+John’s analysis applies to a broader class of bodies than he
+restricted himself to. John shows that the lowest irregular
+circular frequency @, satisfies w,(D/g) = 1.0, where D is the
+draught of the structure. If we translate this to a ship at zero
+forward speed it means that we are sure there are no irregular
+frequencies when A/L > 2a D/L where L is the ship length.
+In practice the irregular frequencies do not represent a serious
+problem for analysis of ship motions at zero forward speed.
+The wavelengths of importance in predicting ship motions are
+not in a range where irregular frequencies occur. For a
+vertical cylinder standing on the sea bed and penetrating the
+free-surface, the wavelength corresponding to the lowest
+irregular frequency for surge and heave is respectively 0.82D
+and 1.31D with D being the diameter. In practice, the
+solution will also-be unsatisfactory in the neighbourhood of
+the irregular frequencies.
+
+We must emphasize that the irregular frequencies are not
+caused by any physical phenomenon. Therefore if a different
+technique is used, a solution may be found at the irregular
+frequencies for the source technique. An example of a
+different technique is a purely analytical solution. This exists
+in very special cases, for instance to calculate the wave loads
+on a fixed vertical cylinder standing on the sea bed and
+penetrating the free-surface (McCamy & Fuchs, 1954).
+
+Irregular frequencies in the source technique represent
+eigenfrequencies for a fictitious fluid motion inside the body
+with the same free-surface condition as outside the body and
+the body boundary condition @ = 0. In general it is difficult
+to find the eigenfrequencies analytically before one solves the
+exterior physical problem. The word fictitious for the interior
+flow is stressed. The flow is not a physical ‘sloshing’ motion.
+In the sloshing case the body boundary condition would be
+Og/dn = 0. However, to get an idea what the irregular
+frequencies might be we should have the sloshing modes in
+mind. For a submerged body no irregular frequencies exist.
+
+What is happening mathematically at an irregular
+frequency is that the determinant of the coefficient matrix in
+the linear equation system for the unknown source densities
+goes to zero when the number of unknowns goes to infinity.

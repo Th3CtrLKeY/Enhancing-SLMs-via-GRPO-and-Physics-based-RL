@@ -1,0 +1,210 @@
+[Page 1]
+Numerical Differentiation
+
+---PAGE BREAK---
+
+[Page 2]
+Finite Difference Differentiation
+
+f(o + h) — Ff (Zo)
+
+Formal Definition of the Derivative f’(x,) = lim h
+>
+
+If we simply let h be “small”, we have an approximation to the derivative,
+
+f(a) x» Lea +) = fhe)
+
+If h > 0 this is a forward-difference formula and
+if h < 0 this is a backward-difference formula.
+
+It has a unique relation to the Taylor series for f(x, + h)
+
+flat +h) = f (00) + hfe) + sh P'(6), © € (Gor to+h)
+
+f(a) = Tee EN Keo) Fe)
+
+Our approximation to the derivative is obtained by dropping the last term
+which introduces an error of O(h). The smaller the value of h, the smaller the
+mathematical error. However, very small h results in numerical subtraction of
+two “nearly identical” numbers so it introduces round-off error.
+
+A centered difference formula for the derivative is:
+
+f (fo +h) — f(to — h)
+
+P'(to) Oh
+
+The error in this formula is O(h?)
+
+---PAGE BREAK---
+
+[Page 3]
+Nbeianges
+
+Sometimes the points are not equally spaced so numerical implementation of
+the centered difference formula is impossible. Consider the case of y = f(z)
+with values at specific points known as sketched below:
+
+Ly | Lo | |
+
+For all interior points (x2 to z¢) in the figure, interpolation of derivatives at the
+center of adjacent points can be used to generate the equivalent of a centered
+difference formula at each of the x-points, even when the distnces, L, are not
+equal.
+
+The resulting formula is:
+
+Qm — Im-1
+
+!
+Lm) = Um a
+- ) y 24m Qm-1 2
+
+Ym+1 toe=2) (1)
+Qm Qm-1
+
+where: Gm = 5 (Lm+1 + Lm)
+
+For estiating the derivatives at the end points, extapolation can be used from
+the numerical derivative half way between the two endmost points using the
+forward or backward difference formula and the the derivative at the nearest
+interior point given by the above formula.
+
+Rs
+
+*
+
+=
+ey
+
+---PAGE BREAK---
+
+[Page 4]
+Sometimes values of a function, y, are given at unequally spaced points around
+the periphery of a plane curve as sketched below.
+
+L3
+
+7 +)
+
+Ly
+
+The lengths L are arc lengths (s) between points on the curve and values of
+y are known at points ( 1, 2, ..., N) on the curve. To obtain the numerical
+approximation of the tangential derivative y'(s) at points 1,2,3, .... N, equation
+(1) can be used. However, for point m = 1, special values for some of the y’s
+and some of the L’s must be used. In particular y_; = yy and Ly_, = Dy.
+
+Likewise for for point m = N, ymi1 = y; and Lmyy = Ty.
+
+---PAGE BREAK---
+
+[Page 5]
+NI4
+
+To estimate the error in Simpson’s rule, the function over four successive points
+can be expanded in a Taylor series up to order 3. With equally spaced points,
+the error in the integral from the cubic term vanishes and the dominant term
+in the error is proportional to the fourth derivative d‘f/dz*. For equally spaced
+points with h = Az, the total error, Ey takes the form:
+
+Ep= _ AP dt f(m)
+a 90 i=l dx
+
+7; is some value of z in the zh interval.
+
+---PAGE BREAK---
+
+[Page 6]
+T obed
+
+§(SI‘VI ‘4I ‘,U\4S°6% 35° 6% 36 °6%, ‘T) gp uULUdy
+‘(, sa_pny s,,uosdwis pue LeplLozedeul ‘ue_nbuejday wouy S_eubezuT, ‘,u\ > Tate
+. O’°E YUsSI= SI
+
+: :pua
+
+(2+ )At (T+) AxO* p+ OYA + SI = SI
+:2-US ZiT = 4 Os
+= CCU)AxS*O +(T)AxS°O + AI)DeY = FI
+»CCT)AtI)xY = dT
+
+‘pus
+:Q)A + AI = FI
+SQA + dI = UI
+T-u:Z = ¥ 404
+:0 = SI
+‘0 = 11
+'0 = dl
+*(T)2Z - (22 = y
+: puso
+“(T' 43%, ‘PlLyysueISE = CDA
+*(T‘ 13%. ‘PlJ)IsURISS = C4)Z
+-U:T = 4 4O4
+*(T* ,P%, ‘Plp)JUBISY = U
+*(,4, Ltd)uedos = ply
+
+((,5,', taweu ally andut vaqua,)andut = [ty
+SINIOd GaDVdS ATIWNOA HLIM NOILVYOSLNI TWDIYSWNAN OG OL 1d IYDS%
+2uLuinu
+
+---PAGE BREAK---
+
+[Page 7]
+IT o6ed
+
+Dasdiys
+
+OTS ‘°9
+60S °9
+Z0S°9
+v0S'°9
+00S ‘9
+
+OLv'°9
+Ovy'9
+00r'9
+OSE*9
+0Sc‘9
+OOT'9
+006°S
+00S°S
+000°S
+000°
+000°0
+
+DNONODNODNIOMNAONONOMNYA
+ONMNRONMNRONNRONNNRO
+AOD OCO nM FANAANNNANNMMNMNmM Ss
+
+nm
+
+---PAGE BREAK---
+
+[Page 8]
+3.5
+
+2.5
+
+1.5
+
+0.5
+
+---PAGE BREAK---
+
+[Page 9]
+WY 8S:PT:6
+T ebeg
+
+<<
+
+008L9°E? SLEPS ES OOOEL* 2?
+
+soeTny s,uosduts pue Teptozedezy, ‘zetTnbuejoey worzy sTerbeyul
+4aXQ°OeSsdtTyus :sweu eTTyJ 4ndut zejug
+qutunu <<
+
+2002 ‘0% 28qQ0390.
+
+MOPUTM PUePUNIOD AVILYN

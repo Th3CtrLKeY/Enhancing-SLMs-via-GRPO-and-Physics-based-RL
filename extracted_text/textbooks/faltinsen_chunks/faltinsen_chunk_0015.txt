@@ -1,0 +1,162 @@
+ie. M , P(H)=1- S PAM) 9. (2.39) j=l Here P(H) is the long term probability that the wave height does not exceed H. By wave height we mean crest-to-trough wave height and not “Significant wave height. When using equation (2.32), we have set H=2A. If we use Table 2.2 we see that M=15, Hy?=0.5m, H,® = 1.5m and so forth. The probability level Q = 1 — P(H) and the number of response cycles are related by Q= z)-
+
+Table 2.2. Joint frequency of significant wave height and spectral peak period. Representative data for the northern North Sea
+
+Significant
+
+wave height
+(m) (upper
+limit of
+
+Spectral peak period (s)
+
+22 Sum
+
+12 13 14 15 16 17 18 19 21
+
+interval)
+
+32 155
+25 792
+15 442
+
+16 17
+
+
+263 135
+
+
+
+
+
+
+
+
+
+
+
+
+1569 1634 1362
+
+59 403
+
+
+1233 3223 5106
+
+9 212
+
+67 16 15
+
+
+2452 1543
+
+
+
+831 2295
+
+
+
+
+22 #10
+
+
+
+
+
+lll
+
+2163 1437
+
+1696 1228
+
+
+
+
+
+398 86191 84
+
+
+
+
+
+
+
+
+
+
+
+
+88 197
+
+
+
+
+ll
+
+
+
+
+
+
+
+10225 7256 4570 2554 1285 594 263 117 52 45 100001
+
+14454 12849
+
+68 623 2446 5712 9576 12799 14513
+
+Sum
+
+WIND 31
+
+For instance, during 100 years by assuming an average period 7s we find
+
+100 - 365 - 24 - 3600
+
+i.e. Q=107*7. By using (2.39) we can find the value H for which
+Q=107*7. We have then found the wave height of what is called the
+‘100 year wave’ in offshore engineering.
+
+We can also use Table 2.2 as a basis for obtaining long-term
+probability of response variables like the heave motion of a ship. In that
+case we need to combine the joint probability of the significant wave
+height and mean wave period with the short term statistical distribution
+of the heave amplitude. Another way we can use Table 2.2 is in
+operation studies. We can find out the percentage of time during a year
+that an operation can be performed according to limiting criteria for the
+operation. An example of such a criterion might be that an offshore
+loading can only be performed for significant wave heights less than 7 m.
+Table 2.2 tells us that it is not possible to do the loading for 1.7% of the
+time during a year. A shortcoming of a joint frequency table of wave
+periods and significant wave heights is that it does not tell anything about
+the duration of the sea states. This is important information for studies of
+marine operations. In addition we need statistical information on sea
+
+direction.
+
+=4,5- 10°,
+
+WIND
+Fig. 2.8 shows the cumulative distribution function for one hour mean
+
+wind speed at 10 m above mean sea level (MSL) using representative data
+for the northern North Sea. The extreme wind speed with return period
+of 100 years can be found to be 41 m s~!, Time average wind speeds over
+prescribed time periods are used in calculating steady wind forces on
+marine structures. However, fluctuating wind forces due to gust may also
+be of importance. In some cases gust winds can excite resonant
+oscillations of offshore structures. An example is slow-drift horizontal
+motion of moored structures. There exist different spectral formulations
+of wind gust; for example the Harris wind spectrum is given by
+
+f:S0)___48h
+Uy (2+f mt
+where Uj is the one hour mean wind speed at 10 m above sea level, fis
+the frequency in Hz and f=Lf/Uj. An example of the scale length L is
+1800 m and of the surface drag coefficient k is 0.0030. Equation (2.40) is
+not recommended for frequencies lower than 0.01 Hz. A discussion of
+different wind spectrum formulations is given in the report of the 10th
+
+ISSC.
+
+(2.40)

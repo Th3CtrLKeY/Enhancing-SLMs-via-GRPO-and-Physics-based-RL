@@ -1,0 +1,927 @@
+[Page 1]
+ 
+ 
+ 
+ 
+ 
+ 
+Lecture 9 
+ - Marine Hydrodynamics 
+Lecture 9 
+Lecture 9 is structured as follows: In paragraph 3.5 we return to the full Navier-Stokes 
+equations (unsteady, viscous momentum equations) to deduce the vorticity equation and 
+study some additional properties of vorticity. In paragraph 3.6 we introduce the concept of 
+potential ﬂow and velocity potential. We formulate the governing equations and boundary 
+conditions for potential ﬂow and ﬁnally introduce the stream function. 
+3.5 Vorticity Equation 
+Return to viscous incompressible ﬂow. The Navier-Stokes equations in vector form 
+∂⃗v + ⃗v · ∇⃗v = −∇ p + gy + ν∇2⃗v 
+∂t 
+ρ 
+By taking the curl of the Navier-Stokes equations we obtain the vorticity equation. In 
+detail and taking into account ∇× ⃗u ≡ω⃗ we have 
+∇× (Navier-Stokes) →∇×  ∂⃗v + ∇× (⃗v · ∇⃗v) =  −∇× ∇ p + gy + ∇×  
+ 
+ν∇2⃗v 
+ 
+∂t 
+ρ 
+The ﬁrst term on the left side, for ﬁxed reference frames, becomes 
+∂⃗v
+ ∂
+ 
+∂⃗ω 
+∇×  
+=
+(∇× ⃗v) =
+∂t
+∂t 
+∂t 
+In the same manner the last term on the right side becomes 
+∇×  ν∇2⃗v = ν∇2ω⃗ 
+Applying the identity ∇× ∇· scalar = 0 the pressure term vanishes, provided that the 
+density is uniform 
+
+ 
+∇×  ∇(p + gy)
+= 0
+ 
+ρ 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+ 
+ 
+ 
+ 
+The inertia term ⃗v · ∇⃗v, as shown in Lecture 8, §3.4, can be rewritten as 
+
+v2 
+⃗v · ∇⃗v = ∇(⃗v · ⃗v) −⃗v × (∇× ⃗v) =  ∇
+−⃗v × ⃗ω where v 2 ≡|⃗v|2 = ⃗v · ⃗v 
+
+
+and then the second term on the left side can be rewritten as 
+
+v 
+∇× (⃗v · ∇) ⃗v = ∇× ∇ 
+−∇× (⃗v × ⃗ω) =  ∇× (⃗ω × ⃗v)
+
+=
+(⃗v · ∇) ⃗ω −(⃗ω · ∇) ⃗v + ⃗ω (∇· ⃗v) +  ⃗v (∇· ⃗ω) 
+ 
+	 
+
+
+	 
+=0 
+=0 since 
+incompressible 
+∇·(∇×⃗v)=0 
+ﬂuid 
+Putting everything together, we obtain the vorticity equation 
+D⃗ω = (ω⃗ · ∇) ⃗v + ν∇2⃗ω
+Dt 
+Comments-results obtained from the vorticity equation 
+• Kelvin’s Theorem revisited - from vorticity equation: 
+If ν ≡0, then D⃗ω = (⃗ω · ∇) ⃗v, so if  ω⃗≡0 everywhere at one time, ω⃗ ≡0 always.
+Dt 
+• ν can be thought of as diﬀusivity of vorticity (and momentum), i.e., ⃗ω once generated 
+(on boundaries only) will spread/diﬀuse in space if ν is present. 
+ωv 
+ωv 
+Dv v 
+= υ∇ 
+
+v v + ... 
+D ω v 
+= υ∇ 
+
+ω v + ... 
+Dt Dt 
+Dt
+Dt Dt 
+Dt
+
+---PAGE BREAK---
+
+[Page 3]
+∂T 
+• Diﬀusion of vorticity is analogous to the heat equation: 
+= K∇2T, where K is the 
+∂t 
+heat diﬀusivity. 
+Numerical example for ν ∼ 1 mm2/s. For diﬀusion time t = 1 second, diﬀusion 
+√  
+distance L ∼ O 
+νt ∼ O (mm). For diﬀusion distance L = 1cm, the necessary 
+diﬀusion time is t ∼O (L2/ν) ∼O(10)sec. 
+• In 2D space (x, y), 
+∂ 
+⃗v = (u, v, 0) and 
+≡0 
+∂z 
+So, ω⃗ = ∇× ⃗v is ⊥ to ⃗v (ω⃗ is parallel to the z-axis). Then, 
+⎛
+⎞ 
+⎜ 
+∂ 
+∂
+∂ ⎟
+(⃗ω · ∇) ⃗v = ⎝ ωx 
++ ωy 
++ ωz 
+⎠ ⃗v ≡0, 
+	 ∂x 
+	 ∂y 
+∂z 
+
+
+	 
+
+so in 2D we have 
+D⃗ω = ν∇2ω⃗
+Dt 
+If ν = 0,  D⃗ω = 0, i.e., in 2D following a particle the angular velocity is conserved. 
+Dt 
+Reason: In 2D space the length of a vortex tube cannot change due to continuity.
+
+---PAGE BREAK---
+
+[Page 4]
+• In 3D space, 
+Dωi 
+∂vi 
+∂2ωi 
+= 
+ωj 
++ 
+ν 
+Dt 
+∂xj 
+∂xj ∂xj 
+  	  
+
+
+	  
+vortex turning and stretching 
+diﬀusion 
+for example, 
+Dω2 
+∂u2 
+∂u2 
+∂u2 
+= ω1 
++ 
+ω2 
++ ω3 
++ diﬀusion 
+Dt 
+∂x1 
+∂x2 
+∂x3 
+  	  
+  	  
+  	  
+vortex turning 
+vortex stretching 
+vortex turning 
+1x
+x ≡ 
+2x
+y ≡ 
+3x
+z ≡ 
+1x
+x ≡ 
+2x
+y ≡ 
+3x
+z ≡ 
+
+2 =
+u 
+
+dy 
+
+
+> 
+∂ 
+∂ 
+x 
+u 
+dy 
+
+
+
+rate
+stretching 
+vortex 
+
+
+
+
+
+>
+⇒
+>
+∂ 
+∂ 
+Dt 
+D 
+x 
+u 
+ω 
+
+
+
+rate
+turning
+vortex 
+
+
+
+
+
+
+
+>
+⎯
+⎯
+→
+⎯
+>
+∂ 
+∂ 
+> 
+Dt 
+D 
+x 
+u 
+ω
+ω 
+
+2 =
+u 
+
+dz 
+
+
+>
+∂ 
+∂ 
+x 
+u 
+dz
+
+---PAGE BREAK---
+
+[Page 5]
+3.5.1 Example: Pile on a River 
+Scouring 
+What really happens as length of the vortex tube L increases? 
+IFCF is no longer a valid assumption. 
+Why? 
+Ideal ﬂow assumption implies that the inertia forces are much larger than the viscous 
+eﬀects. The Reynolds number, with respect to the vortex tube diameter D is given by 
+UD 
+Re ∼ ν 
+As the vortex tube length increases ⇒ the diameter D becomes really small ⇒ 
+Re is not 
+that big after all. 
+Therefore IFCF is no longer valid.
+
+---PAGE BREAK---
+
+[Page 6]
+ 
+ 
+3.6 Potential Flow 
+Potential Flow (P-Flow) is an ideal and irrotational ﬂuid ﬂow 
++ 
+⎫ 
+Inviscid Fluid 
+ν = 0
+⎬ 
+Ideal Flow 
++ 
+⎭ 
+∇·
+≡ 
+Incompressible Flow 
+⃗= 0
+P-Flow 
+v 
+Irrotational Flow 
+⃗ω = 0
+Γ = 0
+or 
+⎧ 
+⎪
+⎪
+⎪
+⎪
+⎨ 
+⎪
+⎪
+⎪
+⎪
+⎩ 
+3.6.1 Velocity potential 
+For ideal ﬂow under conservative body forces by Kelvin’s theorem if ⃗ω ≡0 at some 
+time t, then ⃗ω ≡0 ≡ irrotational ﬂow always. In this case the ﬂow is P-Flow. 
+Given a vector ﬁeld ⃗v for which ⃗ω = ∇× ⃗v ≡ 0, there exists a potential function 
+(scalar) - the velocity potential - denoted as φ, for which 
+⃗v = ∇φ 
+Note that 
+⃗
+v = ∇× ∇φ ≡0
+ω = ∇× ⃗
+for any φ, so irrotational ﬂow guaranteed automatically. At a point ⃗x and time t, 
+the velocity vector ⃗v(⃗x, t) in cartesian coordinates in terms of the potential function 
+φ(⃗x, t) is given by 
+∂φ ∂φ ∂φ 
+⃗v (⃗x, t) =  ∇φ (⃗x, t) =  
+,
+,
+∂x ∂y ∂z
+
+---PAGE BREAK---
+
+[Page 7]
+φ (x) 
+u 
+u 
+∂φ 
+u = 0 
+∂φ
+> 0 
+< 0 
+∂x 
+∂x 
+u 
+> 0 
+u 
+< 0 
+from low φ ⎯⎯→to high φ 
+x
+The velocity vector ⃗v is the gradient of the potential function φ, so it always points 
+towards higher values of the potential function. 
+3.6.2 Governing Equations and Boundary Conditions for Potential Flow 
+(a) Continuity 
+∇· ⃗v = 0 =  ∇· ∇φ ⇒∇2φ = 0  
+Number of unknowns → 
+φ 
+Number of equations →
+∇2φ = 0  
+Therefore we have closure. In addition, the velocity potential φ and the pressure p 
+are decoupled. The velocity potential φ can be solved independently ﬁrst, and after 
+φ is obtained we can evaluate the pressure p. 
+p = f (⃗v) =  f (∇φ) 
+→ Solve for φ, then ﬁnd pressure.
+
+---PAGE BREAK---
+
+[Page 8]
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+(b) Bernoulli equation for P-Flow 
+This is a scalar equation for the pressure under the assumption of P-Flow for 
+steady or unsteady ﬂow. 
+Euler equation: 
+∂⃗v 
+v2 
+p
++ ∇
+− ⃗v × ⃗ω = −∇ 
++ gy
+∂t 
+
+ρ 
+Substituting ⃗v = ∇φ and ⃗ω = 0 into Euler’s equation above, we obtain 
+∂φ 
+
+
+p
+∇ 
++ ∇ 
+|∇φ| 
+= −∇ 
++ gy
+∂t 
+
+ρ 
+or 
+∂φ 
+
+
+p
+∇ 
++ 
+|∇φ| +
++ gy = 0,
+∂t 
+
+ρ 
+which implies that 
+∂φ 
+
+
+p
++ 
+|∇φ| +
++ gy = f(t)
+∂t 
+
+ρ 
+everywhere in the ﬂuid for unsteady, potential ﬂow. The equation above can be 
+written as 
+p = −ρ ∂φ + 1 |∇φ|2 + gy + F(t)
+∂t 
+
+which is the Bernoulli equation for unsteady or steady potential ﬂow. 
+DO NOT CONFUSE WITH 
+BERNOULLI EQUATION FROM § 3.4, 
+USED FOR STEADY, ROTATIONAL FLOW
+
+---PAGE BREAK---
+
+[Page 9]
+ 
+ 
+ 
+ 
+Summary: Bernoulli equationS for ideal ﬂow. 
+(a) For steady rotational or irrotational ﬂow along streamline: 
+1 2 
+p = −ρ
+v + gy + C(ψ)
+
+(b) For unsteady or steady irrotational ﬂow everywhere in the ﬂuid: 
+∂φ 
+
+
+p = −ρ 
++ 
+|∇φ| + gy + F(t)
+∂t 
+
+∂
+(c) For hydrostatics, ⃗v ≡0, ∂t = 0:  
+p = −ρgy + c ← hydrostatic pressure (Archimedes’ principle) 
+(d) Steady and no gravity eﬀect ( ∂ = 0, g  ≡0):
+∂t 
+ρv2 
+ρ 
+p = − 
++ c = − |∇φ|2 + c ←Venturi pressure (created by velocity) 
+
+
+(e) Inertial, acceleration eﬀect: 
+Eulerian inertia 
+	 
+∂φ 
+p ∼
+−
+ 
+ρ ∂t 
++ · · ·  
+∂ 
+∇p ∼
+−
+ 
+ρ
+⃗v 
+∂t 
+· · ·
+ 
++ 
+p 
+u 
+p + ∂p δx 
+∂x 
+δx
+
+---PAGE BREAK---
+
+[Page 10]
+ 
+ 
+(c) Boundary Conditions 
+• KBC on an impervious boundary 
+∂φ 
+⃗v n
+· ˆ =  ⃗· ˆ 
+no ﬂux across boundary ⇒ 
+= Un
+u n
+given 
+	
+ 
+ 
+	 
+∂n 
+nˆ·∇φ
+Un given 
+• DBC: specify pressure at the boundary, i.e., 
+∂φ 
+
+
+−ρ 
++ 
+|∇φ| + gy = given 
+∂t 
+
+Note: On a free-surface p = patm.
+
+---PAGE BREAK---
+
+[Page 11]
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+	 
+⃗ 
+      
+      
+ 
+ 
+ 
+ 
+ 
+ 
+3.6.3 Stream function 
+• Continuity: ∇· ⃗v = 0; Irrotationality: ∇× ⃗v = ⃗ω = 0  
+• Velocity potential: ⃗v = ∇φ, then ∇× ⃗v = ∇× (∇φ) ≡ 0 for any φ, i.e., 
+irrotationality is satisﬁed automatically. Required for continuity: 
+∇· ⃗v = ∇2φ = 0  
+• Stream function ψ⃗ deﬁned by 
+⃗v = ∇× ψ⃗ 
+Then ∇·⃗v = ∇·  ∇× ψ⃗ ≡0 for any ψ⃗, i.e., satisﬁes continuity automatically. 
+Required for irrotationality: 
+∇× ⃗v = 0  ⇒∇×  ∇× ψ⃗ = ∇ ∇· ψ⃗ −∇2ψ⃗ = 0 
+(1) 
+still 3 unknown 
+ψ⃗=(ψx,ψy ,ψz ) 
+• For 2D and axisymmetric ﬂows, ψ⃗ is a scalar ψ (stream functions are more ‘use­
+ful’ for 2D and axisymmetric ﬂows). 
+∂
+For 2D ﬂow: ⃗v = (u, v, 0) and ∂z ≡0. 
+ˆi 
+ˆj 
+ˆk 
+∂ 
+∂ 
+∂ 
+∂x 
+∂y 
+∂z 
+ψx ψy ψz 
+= 
+∂ 
+∂
+∂
+∂ 
+kˆ 
+ˆi + 
+ˆj + 
+⃗v = ∇× ψ = 
+− 
+ψy − 
+ψz 
+ψz 
+ψx
+∂y 
+∂x 
+∂x 
+∂y 
+∂ψ 
+∂ψ
+Set ψx = ψy ≡0 and ψz = ψ, then u = ∂y ; v = −∂x 
+So, for 2D: 
+∂
+∂
+∂ 
+∇· ψ⃗ = 
+ψx + 
+ψy + 
+ψz ≡0 
+∂x 
+∂y 
+∂z 
+Then, from the irrotationality (see (1)) ⇒
+∇2ψ = 0 and ψ satisﬁes Laplace’s 
+equation.
+
+---PAGE BREAK---
+
+[Page 12]
+⃗ 
+
+	 
+ 
+ 
+ 
+∂
+• 2D polar coordinates: ⃗v = (vr, vθ ) and ∂z ≡0. 
+ê 
+êr 
+r 
+x 
+y 
+v
+vz
+vr 
+θ 
+eˆr 
+reˆθ eˆz 
+∂ 
+∂ 
+∂ 
+∂r 
+∂θ 
+∂z 
+ψr ψθ 
+ψz 
+= 
+ 	    	   
+
+1 ∂ψz 
+∂ψz 
+
+∂
+∂ 
+⃗v = ∇× ψ = 
+− 
+rψθ −
+eˆr 
+eˆθ + 
+ψr eˆz
+r ∂θ  
+∂r 
+r
+∂r
+ 
+∂θ 
+r 
+Again let 
+ψr = ψθ ≡0 and ψz = ψ , then 
+1 ∂ψ 
+∂ψ 
+vr = 
+and vθ = − 
+r ∂θ  
+∂r  
+• For 3D but axisymmetric ﬂows, ψ⃗ also reduces to ψ (read JNN 4.6 for details).
+
+---PAGE BREAK---
+
+[Page 13]
+
+ 
+ 	
+ 
+	 
+ 
+• Physical Meaning of ψ. 
+In 2D 
+u = ∂ψ 
+∂y and 
+∂ψ 
+v = − ∂x 
+We deﬁne 
+ ⃗x 
+ ⃗x 
+ψ(⃗x, t) =  ψ(⃗x0, t) +  
+v · ˆ 
+x0, t) +  
+(udy − vdx)
+⃗ ndℓ 
+= ψ(⃗ 
+⃗x0 
+⃗x0 
+total volume ﬂux 
+from left to right 
+accross a curve C 
+between ⃗x and ⃗x0 
+v x 
+tv 
+o 
+xv
+C’ 
+C
+nˆ 
+For ψ to be single-valued, 
+must be path independent. 
+
+
+ 
+
+ 
+ 
+
+ 
+=
+ or
+ − 
+= 0  −→ 
+v ˆ 
+v
+ds
+ 
+= 0
+⃗ · n dℓ = 
+∇·  ⃗
+C
+C 
+C
+C 
+C−C 
+S 
+=0, continuity 
+Therefore, ψ is unique because of continuity.
+
+---PAGE BREAK---
+
+[Page 14]
+	 
+Let ⃗x1, ⃗x2 be two points on a given streamline (⃗v · nˆ = 0 on streamline) 
+streamline 
+⃗x 2 
+ψ (⃗
+= ψ (⃗
++ 
+⃗v · nˆ dℓ
+x2) 
+x1) 
+	 
+  	 
+  	 
+=0
+ψ
+ψ
+⃗x
+
+
+
+along a 
+streamline 
+Therefore, ψ1 = ψ2, i.e., ψ is a constant along any streamline. For example, on 
+an impervious stationary body ⃗v · nˆ = 0,  so  ψ = constant on the body is the 
+appropriate boundary condition. If the body is moving ⃗v · nˆ = Un 
+ψ = ψ0 + 
+Un dℓ on the boddy 
+given 
+∂φ
+ψ = constant ≡
+= 0 
+∂n 
+ψ = given 
+u = 0 
+o 
+ψ
+
+---PAGE BREAK---
+
+[Page 15]
+Flux Δψ = −vΔx = uΔy. 
+∂ψ 
+∂ψ 
+Therefore, u = 
+and v = − 
+∂y 
+∂x 
+streamline 
+streamline 
+-v 
+u 
+(x,y) 
+(x +Δx, y) 
+ψ 
+ψ + Δψ 
+(x, y + Δy)
+
+---PAGE BREAK---
+
+[Page 16]
+Summary of velocity potential formulation vs. stream-function formulation for ideal ﬂows 
+⎧
+⎨ 
+⎩ 
+For irrotational ﬂow 
+use φ 
+For incompressible ﬂow 
+use ψ 
+For P-Flow 
+use φ or ψ
+⎫
+⎬ 
+⎭ 
+velocity potential 
+stream-function 
+deﬁnition 
+continuity ∇· ⃗v = 0  
+irrotationality ∇× ⃗v = 0  
+⃗v = ∇φ 
+∇2φ = 0  
+automatically satisﬁed 
+⃗v = ∇×  ⃗ψ 
+automatically satisﬁed 
+∇×  
+ 
+∇×  ⃗ψ 
+ 
+= ∇ 
+ 
+∇·  ⃗ψ 
+ 
+−∇2 ⃗ψ = 0  
+2D: w = 0, ∂ 
+∂z = 0  
+continuity 
+irrotationality 
+∇2φ = 0  
+automatically satisﬁed 
+automatically satisﬁed 
+2ψ = 0
+ψ ≡ψz : ∇ 
+Cauchy-Riemann equations for (φ, ψ) = (real, imaginary) part of an analytic complex 
+function of z = x + iy 
+Cartesian (x, y) 
+u = ∂φ 
+∂x 
+u = ∂ψ 
+∂y 
+v = ∂φ 
+∂y 
+v = −∂ψ 
+∂x 
+Polar (r,θ) 
+vr = ∂φ 
+∂r 
+vθ = 1 
+r 
+∂φ 
+∂θ 
+vr = 1 
+r 
+∂ψ 
+∂θ 
+vθ = −∂ψ 
+∂r 
+Given φ or ψ for 2D ﬂow, use Cauchy-Riemann equations to ﬁnd the other: 
+e.g. If φ = xy, then ψ = ?  
+∂φ 
+∂ψ 
+u = 
+= y = 
+→ 
+1 2
+ψ = y + f1(x)
+∂x 
+∂y 
+
+∂φ 
+∂ψ 
+
+v =
+= x = −
+→ ψ = − x 2 + f2(y)
+∂y 
+∂x 
+
+
+⎫ 
+⎪
+⎪
+⎪
+⎬ 
+⎪
+⎪
+⎪
+⎭ 
+
+⇒ψ =
+(y 2 −x 2) +  const

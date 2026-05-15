@@ -1,0 +1,63 @@
+full-scale vessel differ by the Reynolds-number dependent difference in the respective frictionaldrag coefficients. Thus (CD)model > (CD)ship, and the extra thrust required to propel the model must be furnished from the model propeller or from an external force. To preserve the correct thrust and torque coefficients of the model propeller, this extra differential thrust force is generally provided by the towing carriage. However, this cannot account for all of the Reynoldsnumber dependent differences between the model and full-scale ship; in
+
+Model Testing 
+
+particular, the boundary layer of the model will be thicker, and thus the 
+wake retardation of the model will be larger.
+It is assumed that the model drag D is known from a towing test with­
+out the propeller and, similarly, that the open-water characteristics of the 
+propeller have been determined from a separate experiment or from charts, 
+such as figure 2.10. For the self-propelled test the propeller thrust T is pre­
+scribed from the balance of propulsion and drag forces, and the necessary 
+torque Q and shaft rotation rate n can be measured from the model.
+The retardation of the wake behind the model is measured by the wake 
+fraction w. Thus, if U is the forward velocity of the hull through the undis­
+turbed water and UA is the effective velocity of advance experienced by the 
+propeller in the presence of the hull, Then
+w
+U
+U
+A
+=
+−
+
+/
+. 	
+(27)
+Typically, 0 < w < 0.4; the larger value applies for very full hulls. The wake 
+fraction can be measured directly, with the propeller removed, or it can 
+be deduced indirectly from the thrust-identity condition, which yields the 
+Taylor wake wT. The Taylor wake is determined by substituting the thrust 
+coefficient KT, as determined from the self-propelled test, in the open-water 
+propeller chart, to determine the advance ratio J and the corresponding 
+advance velocity
+U
+ndJ
+A =
+. 	
+(28)
+With this value of UA, the Taylor wake wT is defined by (27).
+Since the wake behind the hull is not a parallel inflow with constant 
+uniform velocity, the correction of the propeller performance based simply 
+on a wake fraction is only approximate. While the thrust coefficients KT 
+are defined to be equal, there may be a small difference in the torque coef­
+ficients KQ, as shown in figure 2.13. This difference is accounted for by the 
+relative rotative efficiency
+ηR
+Q
+OW
+Q
+SP
+K
+K
+= (
+)
+(
+)
+, 	
+(29)
+where the subscripts OW and SP denote the open-water and self-propelled 
+conditions. In general, 1.0 < ηR < 1.1.
+In the converse effect of the propeller on the hull, the suction of the 
+propeller generally reduces the pressure at the stern and hence increases 
+the drag force

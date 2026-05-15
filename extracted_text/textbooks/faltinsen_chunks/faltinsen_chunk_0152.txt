@@ -1,0 +1,226 @@
+A comparative study of theoretical models for slowdrift sway motions of a marine structure. In Proc, Seventh Int. Conf. Offshore Mech. and Arctic Engng., (OMAE), vol. 2, pp. 153-58. New York: The American Society of Mechanical Engineering. Zhao, R., Faltinsen, O. M., Krokstad, J. R. & Aanesland, V. (1988). Wave-current interaction effects on large-volume structures. In Proc. Int. Conf. Behaviour of Offshore Structures, (BOSS ’88), ed. T. Moan, N. Janbu & O. Faltinsen, vol. 2, pp. 623-38, Trondheim: Tapir Publishers.
+
+INDEX
+
+Aarsnes, J. V., 193-7
+Abramowitz, M., 111, 254
+Abramson, H. N., 282, 284
+Achenbach, E., 177, 207
+added mass
+catamaran section in sway, 48-9
+circle near wall, 54
+circle with axis in free-surface (heave,
+high-frequency limit), 43-5
+circle with axis in free-surface (heave and
+sway), 49-50
+definition, 41-2
+ellipse, sway, infinite fluid, 53
+Lewis form sections (heave, highfrequency limit), 51-2
+rectangular sections, sway, infinite fluid,
+53-4
+ship, forward speed effects, 55-7
+added resistance in waves, 7-8, 145-8,
+172-3
+Airy wave theory, 17
+anti-roll tank
+free-surface tank, 86-9
+U-tube tank, 86-9
+Aquirre, J. E., 207
+Armand, J. L., 288
+
+Bai, K. J., 118
+barge, motions and loads, 89-91, 127-8
+Batchelor, G. K., 237
+Bearman, P. W., 229, 238, 239, 245, 248
+bending moment, barge in waves, 90-1
+Bernoulli’s equation, 13-14
+linearized, unsteady flow, forward speed,
+57; zero mean speed, 18, 45
+Beukelman, W., 146
+Bishop, R. E. D., 98, 166
+Bjgrheden, O., 272
+Blevins, R. D., 211
+block coefficient, 69
+boundary condition,
+on body, 14
+see also free-surface condition
+boundary value problem
+forced heave, circular cylinder, 43-4
+i 1
+
+faread hana theras dima
+
+Boyce, T. R., 207
+broaching, 7
+
+Brown, C. E., 226
+
+buoy, sway and roll, 95-7
+Bgrresen, R., 124-5
+
+cable line
+elastic solution, 268-70, 277-8
+inelastic solution, 260-5, 277-8
+Campbell, I. M. C., 287-9, 299-300
+Carpenter, L. H., 251
+catamaran
+damping, zero speed, 73
+sway added mass, zero speed, 48-9
+catenary equations, 260-1
+Chaplin, J. R., 226, 235, 239
+Chislett, M. S., 272
+Chorin, A. J., 226
+circulation, 183
+Coanda effect, 270-2
+Cointe, R., 288
+conservation of momentum, 134-7
+coordinate system, 39, 41
+correlation length, steady flow, circular
+cylinder, 186
+crane operations, forces, 306-8, 313-14
+critical damping, 95, 97, 214
+critical flow, circular smooth cylinder, 178
+cross-flow principle, 188, 225
+current,
+depth profile, 34
+effect on wave loads, large-volume
+structures, 124-6
+fishing net, forces and flow, 215-17
+offshore structure, loads, 200-6
+riser, lock-in, 208-9, 217-19
+ship, loads, 187-200
+single point mooring system, galloping,
+219-22
+
+D’Alembert’s paradox, 177, 200
+damping level, linear motions, 71-3
+damping, viscous
+
+anchor lines, 160, 278
+
+bilge keel, roll, 73, 98, 240-1
+
+addw mnling chin cactiane enll 72
+
+INDEX
+
+241-4
+skin friction, roll, 72
+slow-drift surge, ship, 238
+damping, wave-drift, 161-4
+damping, wave radiation
+catamaran, heave and pitch, 73
+circle with axis in free-surface (heave and
+sway), 49-50
+definition, 41-2
+rectangular ship section, roll, 72
+ship, forward speed effects, 56~7
+damping coefficient, relation to radiated
+waves, 45-7
+Davenport, A. G., 166-7
+Delany, N. K., 193
+density, air and water, 175
+diffraction forces and moments, 39, 58-66
+diffraction problem, 117
+dipole, infinite fluid, 119-20, 128
+dispersion relation
+deep water, 16~17
+finite depth, 16
+Dommermuth, D. G., 22-3
+double-body problem, 44, 200
+drag coefficient
+circular cylinder in steady current,
+roughness effect, 177
+definition, 61, 177, 224-6
+experimental tools, 249-53; analysis of
+Cp-coefficient, 251
+high Keulegan—Carpenter number,
+244-8; formula, 248
+lock-in, 211-12
+non separated laminar flow, circular
+cylinder, 237
+ship sections in steady current, 190-7
+small Keulegan—Carpenter number,
+237-44, 254-6; bilge keel effect, 243;
+bilge radius effect, 242, 244; formulas,
+separated flow, 239, 256; rectangular
+sections, 242
+two circular cylinders in steady current,
+203-6
+drift forces and moments
+based on conservation of momentum,
+134-7
+direct pressure integration, 142-3
+finite water depth, beam sea, twodimensional flow, 138
+irregular sea, 148-52
+Lewis form section, beam sea, 139-40
+Maruo’s formula, beam sea, twodimensional flow, 137-9
+mean value formula, irregular sea, 150
+small wavelengths, 142-6
+tanker, irregular sea, 151-2
+tanker, regular waves, transverse force,
+
+three-dimensional flow, conservation of
+energy, 140-1
+
+current, 163
+viscous effects, 152-5
+dynamic free-surface condition, 15
+dynamic positioning, 276-7
+dynamic pressure, 16
+
+energy, potential flow, 45
+conservation, 139
+time derivative, 45
+equations of motions, body in regular
+waves, 66-8
+equivalent linearization
+harmonic motions, 98
+irregular sea, 98, 100, 166
+Euler’s equations, 134-5
+
+Fage, A., 177, 181-2
+Faltinsen, O. M., 65, 74, 117, 141, 145,
+147, 158-9, 162, 164, 189, 192,
+226-7, 243
+Feng, C. C., 209-10
+fishing nets, current forces and flow,
+215-17
+flow separation
+steady flow, 179-81
+unsteady flow, 228-34
+Frank, W., 64
+free decay tests, 252-3
+free-shear layer, 184, 227
+free-surface condition
+exact, 14-15
+second-order problem, 168
+free-surface condition, linearized, 15, 17,
+
+sinusoidal time-dependence, current, 124
+sinusoidal time-dependence, forward
+speed, 123
+sinusoidal time-dependence, zero speed,
+
+frequency of encounter, definition, 55
+Froude-Kriloff forces and moments, 39,
+59-66, 225
+Froude number, 1
+Fuchs, R. A., 10, 61, 115
+
+galloping, 212-15
+ship at single-point mooring system,
+219-22
+Gauss theorem, 135, 297
+Gerritsma, J., 85, 146
+Graham, J. M. R., 238—41, 256
+gravity platform, 1-2
+Green function, 113
+Green’s second identity, 64, 66, 118-21,
+
+Greenhow, M., 54, 299, 301-6, 308-12
+Griffin, O. M., 211-12
+
+group velocity, 18
+
+Grue, J., 124

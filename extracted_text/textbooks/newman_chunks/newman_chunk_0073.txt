@@ -1,0 +1,186 @@
+the other hand, for a product of two velocities, or derivatives of the velocities, it is necessary to include the average of the products of the fluc­ tuating components, such as u u u u u u u u u u i j i i j j i j i j = + ′ + ′ = + ′ ′ ( )( ) . (84) Now let us examine the consequences of substituting (81) in the conti­ nuity equation (15a),
+
+Chapter 3
+∂
+∂
++ ∂′
+∂
+=
+u
+x
+u
+x
+i
+i
+i
+i
+0. 	
+(85)
+If averages are taken, this equation applies independently to the mean 
+velocity,
+∂
+∂
+=
+u
+x
+i
+i
+0, 	
+(86)
+and hence, by subtraction of (86) from (85), also to the fluctuating 
+components:
+∂′
+∂
+=
+u
+x
+i
+i
+0. 	
+(87)
+If we follow the same procedure with the Navier-Stokes equations (25), 
+there is a contribution to the averaged equations from the nonlinear terms, 
+involving the fluctuating components. Thus
+∂
+∂
++
+∂
+∂
++ ′ ∂′
+∂
+= −
+∂
+∂
++ ∇
+u
+t
+u
+u
+x
+u
+u
+x
+p
+x
+u
+i
+j
+i
+j
+j
+i
+j
+i
+i
+
+
+ρ
+ν
+. 	
+(88)
+Using the continuity equation, we can transform the additional contribu­
+tion represented by the third term in (88) as follows:
+′ ∂′
+∂′ = ∂
+∂
+′ ′ −′ ∂′
+∂
+= ∂
+∂
+′ ′
+u
+u
+x
+x u u
+u
+u
+x
+x u u
+j
+i
+j
+j
+i
+j
+i
+j
+j
+j
+i
+j.
+	
+(89)
+If this is transferred to the right side of (88), we obtain
+∂
+∂
++
+∂
+∂
+= −
+∂
+∂
++ ∇
+−∂
+∂
+u
+t
+u
+u
+x
+p
+x
+u
+x u u
+i
+j
+i
+j
+i
+i
+j
+i
+j
+
+
+ρ
+ν
+. 	
+(90)
+If (90) is regarded as an equation for the mean velocity ūi, the only effect 
+of the velocity fluctuations is to contribute an additional stress system. 
+By comparison with Euler’s equations (18), this Reynolds stress is equal to 
+−
+′ ′
+ρu u
+i
+j. In other words, the total stress tensor can be written in the form
+τ
+δ
+µ
+ρ
+ij
+ij
+i
+j
+j
+i
+i
+j
+p
+u
+x
+u
+x
+u u
+= −
++
+∂
+∂
++ ∂
+∂
+
+
+
+−
+′ ′. 	
+(91)

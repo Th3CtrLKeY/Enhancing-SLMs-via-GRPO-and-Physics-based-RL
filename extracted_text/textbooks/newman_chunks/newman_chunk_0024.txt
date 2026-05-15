@@ -1,0 +1,51 @@
+can be predicted from the flat-plate drag coefficient CF. The pressure drag is more important for two-dimensional cylinders or struts, because of the increased obstruction of the flow past the body in two dimensions. Figure 2.4 shows the total drag coefficient for a circular cylin­ der, two streamlined struts with thickness-length ratios of 1/2 and 1/4, and the limiting case of zero thickness given by twice the flat-plate frictional drag coefficient. This figure illustrates the conflicting roles of transition to
+
+Model Testing 
+
+turbulence, which decreases the drag of bluff bodies and increases the drag 
+of fine bodies.
+If the body has sharp edges not aligned with the flow, separation will 
+generally occur at these edges irrespective of the Reynolds number or the 
+state of the upstream boundary layer. For example, a circular disc mov­
+ing normal to its plane will experience separation at the periphery; the 
+drag coefficient for this body is about 1.1 for all Reynolds numbers greater 
+than 103.
+In summary, the drag coefficient of a body moving in a viscous fluid will 
+depend in general on the Reynolds number; but for a bluff body at large 
+Reynolds numbers the drag coefficient is insensitive to Reynolds number 
+except insofar as this affects the point of separation.
+Figure 2.4
+Drag coefficient as a function of Reynolds number for two-dimensional cylinders 
+of maximum thickness-to-length ratio t/l. For the flat plate (t/l = 0) the curve shown 
+is twice the skin-friction coefficient of figure 2.3, and the shaded areas of this and 
+the circular cylinder indicate the general range of uncertainty depending on ambi­
+ent turbulence and roughness of the surface. For the intermediate cylinders, the 
+precise values of the drag coefficients will depend on the shape, especially near 
+transition.
+
+Chapter 2
+2.7  Hydrofoil Lift and Drag
+Hydrofoils, rudders, propeller blades, yacht sails, and keels are diverse 
+examples of lifting surfaces. Generally these are thin streamlined bodies, 
+intended to develop a hydrodynamic lift force L. The term hydrofoil will be 
+used in a generalized sense to encompass all possible applications of lifting 
+surfaces, as opposed to the strict definition of the supporting devices for a 
+hydrofoil boat.
+The performance of hydrofoils in water is analogous to that of airplane 
+wings (and sails) in air, the principal distinction between these being the 
+density of the fluid medium. The term lift derives from the aeronautical 
+context and is used for the corresponding force component on a lifting 
+surface regardless of its orientation in space. In particular, the lift force on a 
+rudder, yacht sail, or keel is generally horizontal.
+Inevitably, hydrofoils experience a drag force D, and the total force F is 
+a vector quantity, with components (D, L). In a reference frame moving 
+with the hydrofoil, the drag component is in the same direction as the free 
+stream, as shown in figure 2.5. By definition, the lift force is perpendicular 
+to the free stream, regardless of the angle of attack, α, between the orienta­
+tion of the hydrofoil and the free-stream direction.
+Figure 2.5
+Flow past a hydrofoil section. The angle of attack α is generally defined with respect 
+to the “nose-tail line,” between the center of the minimum radius of curvature of 
+the leading edge and the sharp trailing edge. L and D denote the lift and drag com­
+ponents of the total force F, and are defined respectively to be perpendicular and 
+parallel to the free-stream velocity vector.

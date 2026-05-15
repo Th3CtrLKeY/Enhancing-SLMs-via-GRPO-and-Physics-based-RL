@@ -1,0 +1,166 @@
+gives T U U m i j ij = 1 . (121) Therefore the added-mass coefficients are the constants in a quadratic equa­ tion for 2T, in terms of the body velocities. This result can be obtained from physical arguments by equating the change in fluid energy to the work done in accelerating the body, but for rotational modes (i = 4, 5, 6) the rate of rotation of coordinates must be accounted for, as in equations (105) and (107).
+
+The Motion of an Ideal Fluid 
+
+The third and final property of the added-mass coefficients considered 
+here is a relation between the translation added-mass coefficients and the 
+dipole moment describing the fluid motion at large distances from the 
+body. For sufficiently large radial distances r from the body, the disturbance 
+due to the body can be written in the form
+φ =
++
+⋅∇
+
+
++
+A
+r
+r
+O
+r
+
+
+
+
+A
+( /
+). 	
+(122)
+Here, A0 is the net source strength, A the dipole moment, and neglected 
+terms correspond to higher-order multipoles (quadrupoles, etc.). If the body 
+is rigid, there can be no net flux out of the body surface SB, and hence from 
+continuity the source strength A0 = 0. For symmetrical rotational modes 
+the dipole moment will vanish, and thus we restrict ourselves here to the 
+translations (i = 1, 2, 3), where it can be assumed that
+φi
+ij
+j
+A
+x r
+r
+
+∂
+∂
+→∞
+1,
+.
+as 
+	
+(123)
+Thus, the far-field disturbance is identical to that of a dipole or a combi­
+nation of dipoles. We recall the case of a sphere (38) where from symmetry 
+Aij = 0 for i ≠ j, and where (123) is exact for all r. In effect, translation of an 
+arbitrary three-dimensional body will cause a far-field fluid motion qualita­
+tively similar to a sphere, and the details of the body shape are unimportant 
+in the far field.
+An equation for the dipole moment Aij can be obtained from Green’s 
+theorem. Using (76), we may write the potential at a point exterior to the 
+body in the form
+φ
+π
+ξ
+η
+ζ
+ϕ
+φ
+ξ
+( , , )
+[(
+)
+(
+)
+(
+) ]
+[(
+)
+/
+x y z
+x
+y
+z
+n
+n
+x
+SB
+=
+−
++
+−
++
+−
+∂
+∂
+{
+−
+∂
+∂
+−
+−
+∫∫
+
+
+
+
+
+1 2
+
+
+
+1 2
++
+−
++
+−
+}
+−
+(
+)
+(
+) ]
+]
+,
+/
+y
+z
+dS
+η
+ζ
+	
+(124)
+where the first term is a distribution of sources and the second a distribu­
+tion of normal dipoles. If r = [x2 + y2 + z2]1/2 is large compared to the body 
+dimensions and terms of order r−3 are neglected, we can write from Taylor 
+series expansions
+[(
+)
+(
+)
+(
+) ]
+/
+x
+y
+z
+r
+r
+−
++
+−
++
+−
+−
+⋅∇
+
+
+
+−
+ξ
+η
+ζ
+
+
+
+1 2
+
+
+x

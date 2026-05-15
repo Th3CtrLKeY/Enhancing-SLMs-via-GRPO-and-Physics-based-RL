@@ -1,0 +1,91 @@
+by (112), and δij is the Kroenecker delta function δij i j i j = ≠ =  if if ; . Thus, from equation (128), the far-field disturbance and associated dipole moment Aij are directly related to the body volume and the added-mass coefficients mij. From the symmetry of mij it follows that Aij = Aji. Finally, we note without rederivation the analogous results for two-dimensional motion, φi ij j A x r ∂ ∂ log , (129) and
+
+The Motion of an Ideal Fluid 
+
+A
+S
+m
+ij
+ij
+ij
+= −
++
+
+2π
+δ
+ρ
+(
+/
+), 	
+(130)
+where S is the cross-sectional area.
+4.15  The Added Mass of Simple Forms
+The simplest examples of added-mass coefficients are those for a circular 
+two-dimensional cylinder, and in three dimensions for a sphere. For the 
+circular section, the dipole moment is obtained from equation (39), and 
+comparison with (129) gives
+A
+R
+ij
+ij
+= −
+2δ . 	
+(131)
+Here R is the cylinder radius, and the minus sign is inserted because the 
+streaming flow is positive in (39); hence the body velocity relative to the 
+fluid is −U. From (130) it follows that
+m
+R
+S
+ij
+ij
+ij
+=
+=
+πρ
+δ
+ρ δ
+
+. 	
+(132)
+Thus, the added mass of a circular cylinder is precisely equal to the dis­
+placed mass of fluid. For a sphere, equation (38) yields the dipole moment
+A
+R
+ij
+ij
+= 1
+
+3δ . 	
+(133)
+The minus sign in this equation is canceled by the minus sign associated 
+with the derivative in (123). From (128) it follows that
+m
+R
+ij
+ij
+ij
+−
+=
+∀
+
+
+
+
+
+πρ
+δ
+ρ δ , 	
+(134)
+so that for a sphere, the added mass is half of the displaced mass. This 
+reduced added-mass effect, by comparison with the two-dimensional case, 
+can be explained by stating that the sphere obstructs less fluid, since the 
+fluid can flow around the sphere in all meridional planes.
+In many situations involving elongated or cylindrical bodies, such as 
+slender pilings, ship hulls, and mooring cables, the three-dimensional 
+added-mass coefficients can be approximated by a strip theory synthesis, in 
+which the flow at each section is assumed to be locally two dimensional. 
+Thus, the simpler two-dimensional added-mass coefficients are of practi­
+cal importance. The case of a circular cylinder is given by (132), and the 
+corresponding results for an elliptical cylinder can be derived in a similar 
+manner, taking advantage of the conformal transformation (51) to map the

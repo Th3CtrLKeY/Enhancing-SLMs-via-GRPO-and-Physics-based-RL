@@ -1,0 +1,85 @@
+1979). However, this is not what happens in reality for 8=80° 0.5 1.0 u/U,{9) Fig. 6.4. Example of tangential velocity distribution u inside a steady laminar boundary layer flow around a circular cylinder. The results are for one angular position @ and are presented as a function of the y-coordinate normal to the body surface (y = 0 is at the. body surface). U,(@) = tangential potential flow velocity just outside the boundary layer at the same angular position 0.
+
+180 CURRENT AND WIND LOADS
+
+laminar boundary layer flow past a circular cylinder. The correct
+separation angles are approximately +80°. This shows that equation (6.1)
+derived from non-separated potential theory does not represent the
+velocity field and pressure field outside the boundary layer along the
+whole cylinder surface. This was also evident from Fig. 6.2. If we had
+used the experimental pressure distribution in the boundary layer
+calculations we would have ended up with the correct separation points.
+
+The boundary layer flow will only be laminar up to a certain Reynolds
+number, beyond which transition to turbulence occurs. In order to
+illustrate this let us define a local Reynolds number Rn, = U..x/v, where
+x is the distance along the cylinder surface from the forward stagnation_
+Downstream of this point small disturbances will be amplified. Fig. 6.5
+shows where the point of instability occurs for flow past a circular
+cylinder. This is based on calculations. However, we should note that the
+flow outside the boundary layer has been represented by equation (6.1).
+This is the reason why the separation point S is not correct. The figure
+tells us that the point of instability for Reynolds number 10* is slightly
+ahead of the separation point. We note that with increasing Reynolds
+number the point of instability occurs further upstream on the cylinder.
+However, the flow will not become turbulent immediately downstream of
+the instability point. There is a certain transition range before the flow
+becorties turbulent. The distance from the point of instability to the )_the
+point where the turbulent flow starts has to be experimentally
+determined. ee
+
+7 Rn=10°
+Rn=td Rn=1 Rn=105
+Rogie SEPARATION
+
+POINT
+
+Fig. 6.5. Position of points of instability against the Reynolds number Rn for
+steady incident flow past a circular cylinder. (Adapted from
+Schlichting, 1979.)
+
+WAKE BEHAVIOUR 181
+
+The separation points for turbulent boundary layer flow differs from
+laminar boundary layer. For supercritical and transcritical flow where the
+boundary layer is always turbulent upstream of the separation points, the
+separation angles are about +120°. From this one sees that the flow
+separates. more easily in laminar. boundary layer flow than in. turbulent
+layer flow. This is a characteristic for any body shape.
+
+WAKE BEHAVIOUR ve Y
+Up to now we have concentrated on what is happening on the cylinder
+surface. Only the time-aver; ged flow has been discussed. In reality the
+flow is unsteady and eddies are alternatively shed from each side of the
+
+pt c LK dcylinder_and_convected with the flow. The are of the eddies is
+
+Fage & Johansen (1928) studied experimentally the vorticity distribution in the separated flow close to the separation points. The vorticity was
+found to be concentrated in thin sheets leaving the separation points. At
+some distance behind the body, the sheets were observed to break up
+
+t i ‘ \, into trails o of discrete vortices. Most details were presented for cross-flow
+ge past_a flat plate. The vorticity was estimated by measuring ; the ‘flow
+velocity and estimating the vorticity from. the two-dimensional definition
+
+of vorticity, i.e. by
+
+ov Ou
+
+o,= ax ay (6.9)
+(see equation (2.2)). The area of vorticity close to the flat plate and
+outside the boundary layer is presented in Fig. 6.6. An example of the
+velocity and vorticity distribution across the vortex sheet, i.e. the area of
+
+FLAT PLATE
+0.9 Uob= “0.65 m? s|
+Area of vorticity
+is shaded
+y
+of ve, | .
+Yo,
+
+Plate of breadth b
+
+Fig. 6.6. Area of vorticity close to an edge of a flat plate in cross-flow.
+(Adapted from Fage & Johansen, 1928.)

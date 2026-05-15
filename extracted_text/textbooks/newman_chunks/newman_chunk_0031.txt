@@ -1,0 +1,90 @@
+be assumed proportional to the frictional drag or, alternatively, that the frictional drag curve should be more steeply sloped than the Schoenherr line. Two such empirical alternatives, the “Hughes line” and the “I.T.T.C. line,” are shown in figure 2.12. The I.T.T.C. (International Towing Tank Conference) line has become the most widely accepted extrapolation to use with Froude’s procedure. For purposes of extrapolating model results to obtain full-scale resis­ tance coefficients, adding a constant to the extrapolator will not affect the
+
+Chapter 2
+Figure 2.11
+Total drag coefficients of the Lucy Ashton and several geosim models of the same vessel (from Troost and Zakay 1954). The faired curves 
+represent constant values of the Froude number and, if Froude’s hypothesis were strictly valid, these would be parallel with spacing inde­
+pendent of the Reynolds number. Note that, even for this small full-scale vessel (58 m long), there is a large gap between the largest model 
+results and the full-scale results.
+
+Model Testing 
+
+ultimate prediction of CD This fact can be emphasized by writing Froude’s 
+hypothesis in the form
+(
+)
+(
+)
+(
+)
+(
+)
+.
+C
+C
+C
+C
+D
+D
+F
+F
+ship
+model
+model
+ship
+=
+−
++
+	
+(26)
+Therefore, the difference in level between the I.T.T.C. and Hughes line in 
+figure 2.12 is not significant to the resulting predictions based on the alter­
+native employment of one curve or the other.
+Further study of the geosim results in figure 2.11 shows that while the 
+viscous form-drag coefficient, as measured at low Froude numbers, increases 
+with decreasing Reynolds number, the drag coefficient curves for higher 
+Froude numbers display the opposite tendency. Thus, the residual-drag 
+coefficient actually decreases while the form drag is increasing. This is a 
+fortunate circumstance, since the corresponding errors in Froude’s hypoth­
+esis will cancel. However, it implies that both the wave drag and form drag 
+depend separately on Reynolds number. Fortunately these effects are small, 
+particularly for the larger models shown in figure 2.11, and it is apparent 
+Figure 2.12
+Frictional drag coefficients or extrapolators. The ATTC and ITTC lines are those rec­
+ommended by the American and International Towing Tank Conferences; the for­
+mer is identical to the Schoenherr line. (From Todd 1967; reproduced by permission 
+of the Society of Naval Architects and Marine Engineers)
+
+Chapter 2
+from this discussion why large towing tanks are built to accommodate 
+models of 7 m to 10 m length.
+Finally, the use of a roughness allowance, which is generally taken to be an 
+additive contribution of +0.0004 to the full-scale value of CF, is attributed 
+to the significant surface roughness of full-scale hulls, due to rivet heads, 
+welding seams, marine fouling, and so forth. Such roughness effects are sig­
+nificant, and accounting for them in this way is not irrational if guided by 
+empirical results from full-scale trials. On the other hand, it is disconcerting 
+to find different values of the roughness coefficient used as a catchall to 
+account for various observed scale effects, based upon the performance of 
+ships; it is especially troublesome when the resulting value is negative. As a 
+recognition of this inconsistency, it is now common to refer to the correla­
+tion allowance, instead of to the roughness allowance.
+2.10  Propeller-Hull Interactions
+Having discussed propellers and ship hulls separately in sections 2.8 and 
+2.9, we should also comment briefly on their interactions. The most obvi­
+ous of these is that the propeller operates in the wake of the hull; there the 
+velocity is generally retarded to a degree depending on the fullness of the 
+hull and the position of the propeller. A more subtle interaction results 
+when the suction effect of the propeller modifies the flow past the hull 
+and the resulting drag on the hull. Similar interactions may occur in other 
+contexts; in particular, when a second vessel operates in the wake of a body, 
+the characteristics of the flow in the wake are a principal determinant of the 
+second vessel’s performance.
+The conventional experiment to study propeller-hull interactions is a 
+self-propelled test, which uses a model fitted with and propelled by a scalemodel propeller. The first difficulty with such a test is that with Froude 
+scaling, the drag coefficients of the model and full-scale vessel differ by 
+the Reynolds-number dependent difference in the respective frictionaldrag coefficients. Thus (CD)model > (CD)ship, and the extra thrust required to 
+propel the model must be furnished from the model propeller or from an 
+external force. To preserve the correct thrust and torque coefficients of the 
+model propeller, this extra differential thrust force is generally provided by 
+the towing carriage. However, this cannot account for all of the Reynoldsnumber dependent differences between the model and full-scale ship; in

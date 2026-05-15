@@ -1,0 +1,39 @@
+cm. What is the natural frequency of the cable? Is this situation likely to become more serious at higher speeds? 14. For an oscillatory flow U(t) = Aω sin ωt, normal to a circular cylinder of diameter d, find the ratio A/d such that the viscous and inertial forces in Morison’s equation (50) are equal. Assume that the added mass m11 is equal to the displaced mass and that the drag coefficient based on the diameter is equal to 1.0.
+
+Model Testing 
+
+15. A floating spar buoy of draft 2 m contains an accelerometer to detect its 
+heave motion relative to an inertial reference frame, while floating freely in 
+waves. Based on the results shown in figure 2.16, predict the range of wave­
+lengths for which this buoy can measure the wave height to an accuracy of 
+20 percent without making corrections for hydrodynamic effects.
+References
+Abbott, I. H., and A. E. von Doenhoff. 1959. Theory of wing sections. New York: 
+Dover.
+Adee, B. H., and Bai, K. J. 1970. Experimental studies of the behavior of spar type stable 
+platforms in waves. College of Engineering, University of California, Berkeley report 
+NA-70–4.
+Berger, E., and R. Wille. 1972. Periodic flow phenomena. Annual Review of Fluid 
+Mechanics 4:313–340.
+Berteaux, H. O. 1976. Buoy engineering. New York: Wiley-Interscience.
+Birkhoff, G. 1955. Hydrodynamics—a study in logic, fact, and similitude. New York: 
+Dover.
+Bishop, R. E. D., and W. G. Price eds. 1975. International symposium on the dynamics 
+of marine vehicles and structures in waves. London: Institution of Mechanical 
+Engineers.
+Goldstein, S., ed. 1938. Modern developments in fluid dynamics. 2 Vols. Oxford: Oxford 
+University Press. Reprinted 1965, New York: Dover.
+Griffin, O. M., and S. E. Ramberg. 1976. Vortex shedding from a vibrating cylinder, 
+J. Fluid Mech. 75: 267–271 + 5 plates.
+Hogben, N. 1974. Fluid loading of offshore structures, a state of art appraisal: Wave 
+loads. Royal Institution of Naval Architects Marine Technology Monograph.
+Korvin-Kroukovsky, B. V. 1961. Theory of seakeeping. New York: Society of Naval 
+Architects and Marine Engineers.
+Lewis, E. V. 1967. The motion of ships in waves. In Principles of naval architecture, 
+ed. J. P. Comstock, 607–717. New York: Society of Naval Architects and Marine 
+Engineers.
+Mair, W. A., and D. J. Maull. 1971. Bluff bodies and vortex shedding—A report on 
+Euromech 17. Journal of Fluid Mechanics 45:209–224.
+Milgram, J. H. 1976. Waves and wave forces. In Proceedings of the conference on the 
+behaviour of offshore structures (BOSS ’76). pp. 11–38. Trondheim: The Norwegian 
+Institute of Technology.

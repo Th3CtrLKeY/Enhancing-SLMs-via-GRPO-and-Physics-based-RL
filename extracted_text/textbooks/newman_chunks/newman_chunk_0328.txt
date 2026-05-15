@@ -1,0 +1,88 @@
+163(10) symmetry, 148, 153 of two-dimensional bodies, 144–154, 153, 162 (7), 163(10), 163(11), 163(12) Added-mass tensor, 146 Added moment of inertia of circle, 152, 152 of flat plate, 152, 152, 163(9) spheroid, 153, 154, 163(9) of square, 152 Adee, B. H., 47 Advance ratio, 26, 28 Air, density and viscosity coefficients, 3–4 Aircraft carriers, motion in waves, 48–49, 49, 374 Air-water interface, 14 Alternating tensor, 145 Amplitude dispersion, 260 Analytic function, 123–129, 124, 162(6) Angle of attack flat plate, 243(6)
+
+Index
+of hydrofoils, 50(4)
+induced, 212–213
+of propellers, 26, 27, 28
+relation to lift coefficient, 180–182
+of unsteady hydrofoil, 244(16)
+Apparent mass and damping, 43
+Archimedes’ principle, 9–11, 305
+Argand diagram, 237, 238
+Aspect ratio, 167–168, 214
+Aspect-ratio lifting surface, 167
+Asymptotic approximation, 210, 
+212–216
+Atmospheric pressure, 66
+ATTC (American Towing Tank 
+Conference) friction coefficient, 
+
+Axisymmetric body
+flow past, 88, 117–120, 118, 121–123, 
+
+heave response, 46, 47
+Bark, F. H., 64
+Beach, waves incident upon, 50(1)
+Beam-length ratio, 153
+Beam waves, 377
+Beaufort scale of sea state, 330
+Beck, R. F., 397
+Berger, E., 41
+Bernoulli’s equation, 3, 112–114, 119, 
+139–141, 174, 249, 301
+for inner region hydrodynamic 
+pressure, 394
+for lift force, 227, 234
+linearized, 177, 218, 335(2), 378
+wave energy, 274
+Berteaux, H. O., 48
+Bessel functions, 237, 240
+Biot-Savart law, 200
+Birkhoff, G., 10
+Bishop, R. E. D., 50, 323, 326, 327, 330, 
+334, 368
+Bisplinghoff, R. L., 238
+Blasius, H., 78–79
+Blasius laminar boundary layer, 19, 79, 
+81, 88, 103(5), 103(6)
+Body force, 66–67
+Body-mass force, 147, 155–156
+on nonuniform stream, 156–159
+on spar buoy, 370–372, 371
+of spheroid, 164(14), 164(15)
+Body motions
+comparison with mechanical 
+oscillator, 322
+effect of mooring on, 48
+of fixed vs. moving bodies, 132–133, 
+
+in horizontal plane, 333
+in irregular waves, 297, 333
+in regular waves, 46, 319–323
+of ships in waves, 45–50, 369–388
+in unbounded fluid, 141–147
+unsteady, 133
+vertical heave oscillations, 45–48
+Body potential, 369–371
+Body of revolution. See Axisymmetric 
+body
+Boundary condition
+on body in waves, 384
+body-wall interactions, 160–161
+dynamic, 66, 114, 115–116, 248, 
+249–250
+on fixed body, 132–133, 133
+flat plate, 162(6)
+in flow between parallel walls, 67–68
+free surface, 66, 116, 248–250, 254
+on hydrofoil, 172–176
+in ideal fluid, 114–116
+kinematic, 66, 67, 114–115, 248–249, 
+
+on lifting surface, 178–180
+linearized, 222, 224–225
+on moving body, 143–144
+relation to complex potential, 161(1)
+in shallow water, 392
+on slender body, 343–344, 345
+Angle of attack (cont.)

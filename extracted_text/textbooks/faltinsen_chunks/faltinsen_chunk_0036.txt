@@ -1,0 +1,103 @@
+tendon loads in a survival situation. These loads are sensitive to the frequency range of interest. By ‘design wave approach’ we mean that we only consider the response due to one regular wave system. Let us say we chose a wave period in the vicinity of 15s (w = 0.42 rad/s). We see from Fig. 3.18 that the tendon loads are sensitive to what wave period we select. Standard procedures exist for calculating irregular sea effects when the Ry (3.58)
+
+76 LINEAR WAVE-INDUCED MOTIONS
+
+response is linear (see the introduction to this chapter). The simplest way
+of applying this to the heave motion requires us to assume that the most
+probable largest heave motion 2, in N oscillations (N large) or time, ¢,
+can be approximated as
+
+Zmmax = 0(2 log N)3 (3.59)
+where
+
+2_f n3(@) |?
+
+oO [se| 22 | dw (3.60)
+
+Net (3.61)
+
+This approach is valid for a long-crested sea of given significant wave
+height Hy, direction and mean wave period T,. However, by combining
+these results with results for other wave directions and a scatter diagram
+for Hy and T, (or modal period Ty) (see Table 2.2) it is possible to obtain
+long-term statistical values.
+
+It should be noted that the hydrodynamic theory in the mass—force
+domain implicitly assumes that the incident waves are not disturbed by
+the platform. In order to evaluate the necessary deck elevation (air gap) it
+would then be necessary to use the most probable highest wave of a
+specific return period (for instance, 100 years). On the other hand, we
+should bear in mind that the theory is based on linearity. To demonstrate
+that non-linearities have an effect, we will consider an idealized case with
+regular waves that are periodic in space and time. For a wave of
+steepness H/A=0.1 the wave elevation at the crest is roughly 20%
+higher than that predicted by the linear theory (Schwartz, 1974). A
+steepness of 0.1 is not at all unrealistic for extreme wave situations,
+which shows that the consequences of non-linearities should be kept in
+mind. However, at present there are no rational or practical ways of
+evaluating these effects for an irregular sea, so model tests are needed.
+
+In the wave-interaction domain we have to rely on a_ threedimensional source technique. The method is well established as an
+engineering tool for calculating linear wave-induced motions and loads
+on large volume structures in regular incident waves without the
+presence of current. This will be discussed in chapter 4.
+
+HEAVE MOTION OF A SEMI-SUBMERSIBLE
+We will analyse semi-submersibles that consist of two pontoons with
+columns on each floater (see Fig. 3.9). The platform has fore-and-aft
+symmetry and operates in deep water. The heave motion in beam seas
+will be studied. The undamped equation of motion in the mass—force
+
+HEAVE MOTION OF A SEMI-SUBMERSIBLE 77
+
+domain can be written as
+d’n3
+(M + A33) ae * peAwns = F(t) (3.62)
+By following a similar analysis as for the TLP we will find that
+A
+F(t) = pg, sin wt e*" cos(kB/ 2)(A yet - (Vp + =)
+
+(3.63)
+
+where A,, is the waterplane area of the semi-submersible, z, and z,, are
+respectively the z-coordinates of the top and the geometric centre of a
+pontoon, B is the distance between the centre planes of each pontoon and
+V, is the total volume of the pontoons. In deriving equation (3.63) it is
+assumed that the free-surface elevation at the centre plane of the
+platform is €,sin wt. By using the fact that k(z,— 2) is small we can
+approximate equation (3.63) by
+
+F,(t) = €, sin wt e** cos(kB/2)(pgAy — w°(M + Ass)
+— pwAy,2m) (3.64)
+From (3.62) it follows that
+
+he
+72 — sin wt e* cos(kB/2){ 1- ——2— (3.65)
+
+ba 1- (2)
+
+Wn
+
+where
+pgAw )
+
+= (few 3.66
+On i +Ay (3.66)
+
+is the natural circular frequency. in heave. The heave motion is either
+in-phase or 180° out-of-phase with the wave elevation at the centre plane
+of the platform. When w=@,, the heave motion is infinite. This is
+unrealistic and is mainly due to neglection of viscous effects. It follows
+from equation (3.65) that the heave motion is zero when
+
+es ee
+i. OF = emt One)
+
+or cos(kB/2)=0, i.e. A=2B/(2n+1) (n=0,1,2...). The highest
+period where the theoretical heave value is zero is normally found from
+equation (3.67). For instance, if T,,= 22s and |z,,| = 20m, we find the
+cancellation period corresponding to (3.67) is 20.1 sec. Equation (3.65)
+tells us that the heave response in beam sea in the mass—force domain is
+mainly a function of the dimensionless parameters w/w, and @,” |2ml/g
+
+(3.67)

@@ -1,0 +1,218 @@
+edges. Obviously, it would be coincidental if the Kutta condition at the trailing edge was satisfied at this stage, for we have proceeded so far without regard for the singularities at the two ends of the cut. This problem is related to the nonunique choice of a square-root func­ tion used to generate the pseudo-velocity function (61). If we had antici­ pated the desire to satisfy the Kutta condition at the trailing edge, we might have used the alternative function
+
+Chapter 5
+
+
+u
+iv
+u
+iv
+z
+z
+−
+=
+−
+−
++
+
+
+
+
+(
+)
+,
+
+
+1 2
+	
+(70)
+instead of (61), and thus obtained the final solution, corresponding to (69), 
+as
+γ
+π
+ξ
+ξ
+ξ
+ξ
+ξ
+( )
+( )
+.
+x
+x
+x
+v
+x d
+=
++
+−
+
+
+
+
+−
++
+
+
+
+
+−
++
+−
+2 1
+
+
+
+1 2
+1 2
+
+
+−∫
+	
+(71)
+In fact, (71) is the desired solution, singular only at the leading edge. At 
+this point, however, we may feel some concern about the lack of a unique 
+answer to the original integral equation. In essence, (69) and (71) are two 
+particular solutions of the integral equation (60), and in general a homoge­
+neous solution must be added in a manner analogous to that employed in 
+solving differential equations.
+The homogeneous solution of (60) satisfies this integral equation with 
+the left side set equal to zero. To find this function, we could guess, look 
+through a table of integrals, or simply accept that the answer is the inverse 
+square-root function [1 − x2]−1/2. To verify this more systematically, let us 
+find the difference between the two particular solutions (69) and (71). After 
+some algebra, the result is
+
+
+
+
+
+
+
+
+2 1 2
+2 1 2
+
+
+2 1 2
+π
+ξ
+ξ
+ξ
+ξ
+ξ
+ξ
+π
+(
+)
+( )(
+)
+(
+)
+−
+−
+−
+−
++
+
+
+
+
+=
+−
++
+−
+x
+v
+x
+x d
+x
+v+
+−
+−
++
+
+
+
+
+=
+−
+( )
+(
+)
+,
+ξ
+ξ
+ξ
+ξ
+π
+
+
+
+
+1 2
+
+
+2 1 2
+d
+C
+x
+−∫
+−∫
+	
+(72)
+where C is a constant, equal to the last integral. Thus the inverse squareroot function on the right side of (72) is a homogeneous solution of the 
+integral equation (60).
+To relate the constant C in (72) to the total circulation, we write the gen­
+eral solution for γ in the form
+γ
+π
+ξ
+ξ
+ξ
+ξ
+( )
+(
+)
+( )(
+)
+,
+x
+x
+v
+x
+d
+C
+=
+−
+−
+−
++
+
+
+
+
+
+
++
+−
+
+
+
+
+2 1 2
+2 1 2
+
+
+−∫
+	
+(73)
+where C is now an arbitrary constant. Integrating (73) between (−1, 1) gives 
+the total circulation,
+Γ =
+−∫γ ( )
+.
+x dx
+
+
+(74)

@@ -1,0 +1,174 @@
+(141–143) are defined in terms of the static condition of the vessel, and the primes have been deleted with this understanding. The horizontal components of the hydrostatic force and the vertical component of the moment are identically zero. For a submerged body the waterplane area S and moments (142–143) vanish, and (139–140) simplify accordingly. In the conventional terminology of naval architecture, (S1/S, 0, S3/S) are the coordinates of the center of flotation. This is the point of rotation for a
+
+Waves and Wave Effects 
+
+freely floating body subject to an applied horizontal moment. The integrals 
+(142) vanish if the origin is placed at the center of flotation, and with a 
+suitable rotation of the horizontal coordinates it can be assumed that S13 = 
+0 as well.5 This particular choice of the coordinate system will be assumed 
+hereafter. Thus the vertical force (139) is independent of the roll and pitch 
+motions, and the terms in (139–140), which involve S1, S3, and S13 can be 
+deleted.
+For subsequent use it is convenient to add to the hydrostatic force and 
+moment the corresponding components due to the weight of the body. 
+The force associated with the body weight is simply (0, −mg, 0), where m 
+is the body mass. The corresponding moment is given, to first order in the 
+motions ξj, by the vector
+(
+, ,
+).
+mgz
+mgy
+mgx
+mgx
+mgz
+mgy
+G
+G
+G
+G
+G
+G
++
+−
+−
+−
++
+ξ
+ξ
+ξ
+ξ
+
+
+
+
+
+Using an indicial notation for the components of the resulting total static 
+force (F1, F2, F3), and moment (F4, F5, F6), it follows from (139–140) that
+F
+m g
+mz
+z
+g
+mx
+x
+g
+c
+i
+i
+G
+B
+i
+G
+B
+i
+ij
+j
+j
+=
+∀−
++
+−∀
+−
+−∀
+−
+=∑
+(
+)
+(
+)
+(
+)
+.
+ρ
+δ
+ρ
+δ
+ρ
+δ
+ξ
+
+
+
+
+
+(144)
+Here δij is the Kroenecker delta function, equal to one if i = j and zero other­
+wise, and cij is the matrix with nonzero elements
+c
+gS
+c
+gS
+g y
+mgy
+c
+g
+x
+mx
+c
+g
+z
+B
+G
+B
+G
+B
+
+
+
+
+
+=
+=
++
+∀
+−
+= −
+∀
+−
+= −
+∀
+−
+ρ
+ρ
+ρ
+ρ
+ρ
+,
+,
+(
+),
+(
+mz
+c
+gS
+g y
+mgy
+G
+B
+G
+),
+.
+
+
+=
++
+∀
+−
+ρ
+ρ
+	
+(145)
+For other values of (i, j), cij = 0.
+The expression (144), for the total static force and moment, consists of 
+terms of zero- and first-order in the body motions ξj, with second-order 
+terms neglected. If the body is in equilibrium, for ξj = 0, the zero-order 
+terms must vanish. For equilibrium of the vertical force, the mass of a freely 
+floating body must equal the displaced mass,
+m =
+∀
+ρ , 	
+(146)
+in accordance with Archimedes’ principle. With this equality, equilibrium 
+of the zero-order moments in (144) requires that the center of gravity and 
+center of buoyancy must lie on the same vertical line,

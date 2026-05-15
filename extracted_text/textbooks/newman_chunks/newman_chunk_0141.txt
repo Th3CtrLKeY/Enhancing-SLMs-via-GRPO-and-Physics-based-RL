@@ -1,0 +1,156 @@
+perturbation veloc­ ity gives p p uU − ∞ ρ . (14) Thus, the linearized pressure is simply proportional to the horizontal per­ turbation velocity component u = ∂ϕ/∂x. The vertical lift force L acting on the foil is obtained, to the same order of approximation, by integrating the jump in pressure across the cut. Thus, it follows that L p p dx U udx U = − = = ∞ ∫ ∫ ( ) , ρ ρ Γ (15)
+
+Lifting Surfaces 
+
+where Γ is the total circulation around the foil as defined by (4.4). Equa­
+tion (15) is a derivation, for linearized thin foils, of the more general KuttaJoukowski theorem. This theorem states that for any two-dimensional body, 
+moving with constant velocity in an unbounded inviscid fluid, the hydro­
+dynamic pressure force is directed normal to the velocity vector and is equal 
+to the product of the fluid density, body velocity, and the circulation about 
+the body (see problem 3).
+The hydrodynamic moment M about the z-axis is given by the corre­
+sponding integral
+M
+U
+uxdx
+=
+∫
+ρ 
+. 	
+(16)
+Now, to solve the boundary-value problem for the thin two-dimensional 
+hydrofoil, it is convenient to decompose the velocity potential into even 
+and odd functions of y:
+φ
+φ
+φ
+( , )
+( , )
+( , ),
+x y
+x y
+x y
+e
+o
+=
++
+	
+(17)
+φ
+φ
+φ
+φ
+e
+e
+x y
+x
+y
+x y
+x
+y
+( , )
+( ,
+)
+[ ( , )
+( ,
+)],
+=
+−
+=
++
+−
+
+
+(18)
+φ
+φ
+φ
+φ
+o
+o
+x y
+x
+y
+x y
+x
+y
+( , )
+( ,
+)
+[ ( , )
+( ,
+)].
+= −
+−
+=
+−
+−
+
+
+(19)
+The boundary conditions on y = 0± take the form
+∂
+∂
+=
+′ −
+′
+=
+±
+φe
+u
+l
+y
+U y
+y
+y
+∓1
+
+
+(
+),
+,
+on 
+	
+(20)
+∂
+∂
+= −
+′ +
+′
+=
+±
+φo
+u
+l
+y
+U y
+y
+y
+
+
+
+(
+),
+.
+on 
+	
+(21)
+Since the operator ∂/∂y is odd, ∂ϕe/∂y is odd and ∂ϕo/∂y is even with respect 
+to y.
+The even and odd potentials correspond to two distinctly different phys­
+ical problems. From (20), ϕe is the potential for a symmetrical strut, of thick­
+ness yu − yl, at zero angle of attack. On the other hand, from (21), ϕo is the 
+potential of an asymmetric flow, past an arc of zero thickness defined by the 
+curve y
+y
+y
+u
+t
+=
++
+
+2 (
+), or the mean-camber line. Both problems are illustrated 
+in figure 5.8.
+The original problem has now been decomposed into two parts, one rep­
+resenting the effects of thickness and the other representing the effects of

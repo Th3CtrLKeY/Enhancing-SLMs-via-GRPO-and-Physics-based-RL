@@ -1,0 +1,76 @@
+unit length f(x)—Lateral external load per unit length normally calculated by Morison’s equation (see equation (3.34)). Sparks show that rigidity has a negligible effect on riser curvature except for limited zones close to the ends. We will therefore neglect it in the following analysis. Our purpose is to set up expressions for the eigenmodes and natural frequencies. This means we shall set f(x)=0. The equation we shall study is therefore 2, 2, rest wom + Ay) £2 =0 i (6.67)
+
+218 CURRENT AND WIND LOADS
+
+We will consider a near vertical riser without buoyancy element. We can
+then write
+
+T(x) = Tp, + Wx (6.68)
+
+where 7 is effective tension at the riser foot. Sparks points out that the
+second term in equation (6.67) is negligible. It would therefore not make
+any significant difference if we write (6.67) as
+
+(T3 + Wx $343 swe (m + An) aa dy =0 (6.69)
+
+The eigenmodes and natural frequencies that satisfy equation (6.69) and
+boundary conditions y = 0 at x =0 and x = L (L= length of riser) are
+
+Wrlxje i" = sin(z, — ape" n=1,2,... (6.70)
+
+where
+
+(6.71)
+
+2a _4L (m+A;,)!
+o, nn VT,+VTp, (6.72)
+Here 7, is the top tension. We should note that WL =(T, — 73).
+
+(a) Consider the riser presented in Fig. 6.27. Try to use equation
+(6.72) as an approximate solution for the natural periods and
+compare the results with Fig. 6.28.
+
+(b) Assuming uniform current along a riser, use equations
+(6.70)—(6.72) to describe the eigenmodes and natural periods.
+Set up a formula for the maximum amplitude A,,,, of
+transverse oscillations due to vortex-induced oscillations (see
+equation (6.54)). The expressions should be in terms of main
+characteristics of the riser and the current velocity. Choose
+dimensions and apply the formula.
+
+(c) Estimate the drag coefficient due to ‘lock-in’ by using a strip
+theory approach.
+
+6.3 Galloping motions (instabilities) of a ship moored to a
+single point mooring system
+Consider a ship moored to a single point mooring system (see Fig. 6.35).
+When the ship is in its equilibrium position, the incident current is in the
+longitudinal direction of the ship, i.e. along the positive x-axis. We will
+neglect the effects of wind and waves (in principle it is straightforward to
+
+EXERCISES 219
+
+Fig. 6.35. Definition of parameters for analysis of stability of ships moored to
+single point mooring system.
+
+include them in the analysis). The effect of the buoy motion will be
+neglected. According to Liapis (1985) this is a reasonable approximation.
+We will study the stability of the sway and yaw motion of the ship.
+Liapis (1985) used the following equations for analysis of stability of sway
+and yaw motion
+2n
+
+My Tr dt 3 72 + Cyyna + Cyynte = 0
+(6.73)
+dng
+Cyyna + Muyy G2 + Cowie = 0
+where
+Fo
+Myy=M + Ax, Myy =16+ Aes Cy =
+
+(4 oF, a
+
+a OM
+count) 2
+
+Here 72 is the sway motion of the centre of gravity, M is the mass, A22

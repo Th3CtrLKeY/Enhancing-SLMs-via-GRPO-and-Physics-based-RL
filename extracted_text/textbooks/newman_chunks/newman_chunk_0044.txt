@@ -1,0 +1,67 @@
+number, find the atmop­ sheric pressure in a “vacuum towing tank” necessary to produce the same cavitation number. Assume the temperature range 0–30°C, with the worst possible temperature full scale and the best possible temperature in the towing tank. 10. A model of a sailing yacht is towed with a small angle of attack, or leeway angle, about the vertical axis. The drag force and side force are measured separately. If the yacht hull operating in this manner can be
+
+Chapter 2
+regarded as a vertical hydrofoil in the presence of the free surface, what 
+are the appropriate scaling laws to apply to each force component? Distin­
+guish between parameters that should be scaled in principle and those that 
+would be most important in a model test. In fresh water (15°C), towingtank tests of a model 2 m long with wetted-surface area 1.5 m2 give a 
+measured drag force of 10 N and a side force of 28 N at a speed of 1.4 m/s. 
+What are the corresponding full-scale results for a yacht 10 m long in salt 
+water (15°C)?
+11. Construct a simple mathematical model for the propulsive equilibrium 
+of a canoe, assuming the canoe velocity Uc and paddle velocity Up are con­
+stants. If these velocities are both defined relative to the surrounding water, 
+show that the propulsive efficiency is
+η =
++
+=
++ 
+
+
+
+
+
+
+
+
+
+−
+U
+U
+U
+SC
+SC
+c
+c
+p
+D c
+D
+p
+
+1 2
+
+(
+)
+(
+)
+/
+where (SCD)c,p is the product of the area and the drag coefficient for the 
+canoe or paddle respectively. How does the efficiency depend on the size 
+of the paddle?
+12. A submerged spherical body of volume 0.5 m3 and density equal to 
+half the density of water is moored in the deep ocean with a taut vertical 
+cable 1000 m long. Neglecting all hydrodynamic forces, but including the 
+upward buoyancy force on the body, find the tension in the cable and the 
+natural period of this inverted pendulum. Comment on how the unsteady 
+force in section 2.11 would affect this period. Estimate the horizontal excur­
+sion of the buoy and the angle of the mooring cable in a steady current of 
+0.5 knots.
+13. Resonant strumming of a taut cable with circular cross-section is 
+observed at a flow velocity of 10 knots perpendicular to the cable. The 
+diameter of the cable is 2 cm. What is the natural frequency of the cable? Is 
+this situation likely to become more serious at higher speeds?
+14. For an oscillatory flow U(t) = Aω sin ωt, normal to a circular cylinder of 
+diameter d, find the ratio A/d such that the viscous and inertial forces in 
+Morison’s equation (50) are equal. Assume that the added mass m11 is equal 
+to the displaced mass and that the drag coefficient based on the diameter 
+is equal to 1.0.

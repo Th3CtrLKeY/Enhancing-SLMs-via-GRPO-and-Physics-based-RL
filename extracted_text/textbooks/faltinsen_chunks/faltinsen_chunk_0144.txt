@@ -1,0 +1,105 @@
+pressure can be obtained by om g equation (9.25) with the joint probability of significant wave height Ay and mean wave period 7. This.is similar tothe method déscribed in chapter 3 for long-term Predictions ‘of linear wave-induced “* Tn a given sea state we can also use equation (9.25) to evaluate the “probability of slamming. It is then necessary to define how large a _ pressure has to be to call it slamming. One indirect way is to define a
+
+296 WATER IMPACT AND ENTRY
+
+threshold velocity V., and say that slamming occurs when the relative
+velocity is larger than V.,. For instance Ochi (1964) sets the threshold
+velocity equal to
+
+Ve, = 0.093(gL)} (9.27)
+
+where L is the ship length. The probability that slamming occurs can
+then be written as
+
+P(slamming) = exp( - (vs, + a’ )) (9.28)
+
+20, 20,
+
+This can for instance be used for studies of voluntary speed reduction.
+An often used criterion is that a typical ship master reduces the speed if
+slams occur more than 3 of 100 times that waves pass the ship. This
+means that if P(slamming) is calculated to be larger than 0.03, the ship
+speed U used in evaluating o, and a, in equation (9.28) is too high. It
+should be reduced to a level so that P(slamming) is less than_0.03.
+However, it should be kept in mind that additional criteria are also used
+for ‘voluntary’ speed reduction. Ochi & Motter (1974) say that for a ship
+in fully-loaded condition voluntary speed reduction does not occur if
+
+P(water on deck) < 0.07
+
+and (or)
+P(significant acceleration in the bow > 0.4 g)< 0.07
+For a ship in ballast condition voluntary speed reduction does not occur
+if
+P(slamming) < 0.03
+and (or)
+P(significant acceleration in the bow > 0.4 g) < 0.03
+
+Fig. 9.10 shows an example of calculations of voluntary speed reduction
+for a 170 m long ship in head sea long-crested waves as a function of sea
+state or significant wave height. For smaller sea states the involuntary
+
+speed reduction due to added resistance in waves and wind determines’
+
+the reduction in ship speed at full engine power.
+
+WATER ENTRY PROBLEMS
+
+In the case of a horizontal jacket truss in the splash zone one is not .
+particularly interested in the high pressures occurring when the water hits :
+
+the member. One is more interested in the force on the body as the
+
+cylinder hits the water and proceeds through the water. One’ of the first .
+
+‘calculations of this type was done by von Karman (1929) for a related
+
+WATER ENTRY PROBLEMS 297
+
+problem with seaplanes. He used the free-surface condition ¢ =0 and
+measured the wetted length from the calm water level. The force was
+written as d(A33V)/dt where A;; is the infinite-frequency added mass
+coefficient. in heave for the body asa function of submergence. The
+added mass calculations were simplified by using flat plate results giving
+the same result as equation (9.3) when c(t) is measured from the
+intersection point between the cylinder and the still water level. The
+formula does not account for buoyancy and incident wave effects.
+
+The formula can be derived by momentum considerations. We will
+show this when there are no incident wave effects. Infinite water depth is
+assumed, We start out with equation (5.7) which says that
+
+Me —p fl [(E+22)n+ vv, - u,)| ds (9.29)
+
+We should note that the positive normal direction is out of the fluid
+domain. The momentum of the fluid inside S can be written as
+
+M(t) = {I pégnds (9.30)
+
+RY
+
+This follows from Gauss’ theorem (see equation (5.6)). By using e=0
+
+‘on the still water level and neglecting free-surface waves, we get no
+contribution from the free-surface integration in equations (9.29) and
+e 30). Further, by replacing the pressure p at S.. by Bernoulli’s
+
+Ship speed
+(knots)
+
+Head sea long-crested
+waves
+
+20 Ship length L =170 m
+
+Involuntary
+speed
+reduction Voluntary speed
+
+reduction
+
+3 6 9 12 Significant
+wave height (m)
+
+Fig. 9.10. Ship speed in various sea states due to involuntary and voluntary
+speed reduction.

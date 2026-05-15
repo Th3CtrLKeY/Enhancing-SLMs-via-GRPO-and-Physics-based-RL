@@ -1,0 +1,189 @@
+as follows. A new pseudo-velocity function is defined as u iv u iv z − = − − ( )( ) . 2 1 2 (61) This new function must satisfy the following boundary conditions, on the upper side of the real axis: v v x x = − < +( ) , , 2 1 2 (62) v x = > , . (63) Figure 5.14 Boundary values on the cut real axis in the thickness and lifting problems.
+
+Lifting Surfaces 
+
+Here the second condition (63) results from the fact that u = 0 on the real 
+axis outside the cut. Mathematically, this problem is indistinguishable from 
+the upper half of the thickness problem, except for the modification in 
+the vertical velocity due to the square root (62). Thus, the pseudo-velocity 
+function (61) can be generated with a source distribution, of strength given 
+by (57), or by
+
+
+q x
+v x
+v
+x
+x
+x
+( )
+( )
+( )(
+)
+,
+,
+=
+=
+−
+<
++
+
+
+
+
+2 1 2
+	
+(64)
+q x
+x
+( )
+,
+.
+=
+>
+
+
+(65)
+From (52) it follows that in the upper half-plane,
+
+
+u z
+iv z
+v
+z
+d
+( )
+( )
+( )(
+)
+.
+−
+= −
+−
+−
++
+−∫
+
+
+2 1 2
+
+
+π
+ξ
+ξ
+ξ
+ξ 	
+(66)
+Thus, from (61), the original velocity function in the upper half-plane must 
+be of the form
+u
+iv
+z
+v
+z
+d
+−
+= −
+−
+−
+−
++
+−∫
+
+
+
+
+2 1 2
+2 1 2
+
+
+π
+ξ
+ξ
+ξ
+ξ
+(
+)
+( )(
+)
+. 	
+(67)
+The integral equation (60) for the vortex strength γ can then be solved 
+by using (67) to determine the horizontal velocity component on the upper 
+side of the cut,
+u x
+x
+v
+x
+d
+( ,
+)
+(
+)
+( )(
+)
+.
+
+
+
+
+
+2 1 2
+2 1 2
+
+
++ = −
+−
+−
+−
++
+−
+π
+ξ
+ξ
+ξ
+ξ
+−∫
+	
+(68)
+From (59), the solution for γ is
+γ
+π
+ξ
+ξ
+ξ
+ξ
+( )
+(
+)
+( )(
+)
+.
+x
+x
+v
+x
+d
+=
+−
+−
+−
++
+−∫
+
+
+
+
+2 1 2
+2 1 2
+
+
+(69)
+One deficiency of (69) is the presence of square-root singularities at both 
+the leading and trailing edges. Obviously, it would be coincidental if the 
+Kutta condition at the trailing edge was satisfied at this stage, for we have 
+proceeded so far without regard for the singularities at the two ends of the 
+cut. This problem is related to the nonunique choice of a square-root func­
+tion used to generate the pseudo-velocity function (61). If we had antici­
+pated the desire to satisfy the Kutta condition at the trailing edge, we might 
+have used the alternative function

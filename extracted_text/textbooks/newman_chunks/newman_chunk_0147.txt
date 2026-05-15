@@ -1,0 +1,78 @@
+represents the effects of camber, and the term 2πα represents the effect of the angle of attack. A similar result applies for the moment. Proceeding with our analysis of camber for a parabolic arc, we can set the angle of attack equal to zero in (43), in view of the decomposition (44). Evaluating the integrals (32), (35), and (37), we get γ β x U l x ( ) = ( ) −   1 2 ½ , (45)
+
+Lifting Surfaces 
+
+C
+l
+L = ½
+,
+πβ
+	
+(46)
+CM = 0. 	
+(47)
+For nonzero angles of attack, the corresponding results (42), (39), and (40) 
+can be superposed.
+The vortex strength (45) is indeed more uniform than that of the flat 
+plate, and the leading-edge singularity has been removed. This feature is 
+common to all mean-camber lines symmetric about the mid-chord point, 
+since the resulting vortex strength must be symmetric in x and thus will 
+vanish not only at the trailing edge but also at the leading edge. By the 
+same argument, the center of pressure must be at the mid-chord point for 
+such foils, and (47) confirms this for the parabolic arc.
+Since a nonzero angle of attack will add the flat-plate load distribution to 
+the cambered foil, the leading-edge singularity will return in this case, and 
+only at the ideal angle of attack will there be no leading-edge singularity. 
+The ideal angle of attack corresponds to the situation where the forward 
+stagnation point of the foil coincides with the leading edge, and the slopes 
+of the dividing streamline and the mean-camber line are equal at this point. 
+For mean-camber lines symmetrical about the mid-chord point, the ideal 
+angle of attack is zero, but for more general foil shapes, the ideal angle of 
+attack can be nonzero.
+The parabolic arc represents a substantial improvement over the flat 
+plate from the standpoint of uniform loading and pressure distribution, but 
+further improvement is possible if more complicated mean-camber lines 
+are considered. Rather than proceed to analyze alternative foil shapes, how­
+ever, it is more expedient to approach the optimum loading distribution 
+problem by finding the shape of the mean-camber line such that the load­
+ing is a constant. This indirect or design problem, with a specified load dis­
+tribution, is actually simpler to solve, since (30) becomes a definite integral 
+instead of an integral equation with an unknown integrand. In the present 
+case, with γ = constant, and after invoking the boundary condition (22) for 
+the vertical velocity, we have
+∂
+∂
+=
+−
+=
+−
++
+−
+η
+γ
+π
+ξ
+ξ
+γ
+π
+x
+U
+d
+x
+U
+l
+x
+l
+x
+l
+l
+
+
+
+
+log ½
+½
+.
+−∫
+	
+(48)

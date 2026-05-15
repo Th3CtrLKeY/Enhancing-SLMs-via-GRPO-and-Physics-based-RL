@@ -1,0 +1,91 @@
+be assumed, with ε = 0. The parameter k Vp = ω / (8) is the wavenumber, the number of waves per unit distance along the x-axis. Clearly, k = 2π λ / , (9) where the wavelength λ is the distance between successive points on the wave with the same phase, as shown in figure 2.1. The solution of this problem is expressed in terms of a two-dimensional velocity potential ϕ(x, y, t), which must satisfy Laplace’s equation, the
+
+Waves and Wave Effects 
+
+free-surface condition (6), an appropriate boundary condition on the bot­
+tom of the fluid, and must yield the wave elevation (7) from (5). Clearly 
+this potential must be sinusoidal in the same sense as (7); therefore we seek 
+a solution of the form
+φ
+ω
+( , , )
+Re[ ( )
+].
+x y t
+Y y e ikx i t
+=
+−
++
+	
+(10)
+From Laplace’s equation, Y must satisfy the ordinary differential equation
+d Y
+dy
+k Y
+
+
+
+
+−
+=
+, 	
+(11)
+throughout the domain of the fluid.
+The most general solution of (11) is given in terms of exponential func­
+tions, in the form
+Y
+Ce
+De
+ky
+ky
+=
++
+−. 	
+(12)
+Here C and D are constants to be determined from the boundary conditions 
+on the free surface and bottom.
+For now we assume that the fluid depth is infinite; hence (11) must hold 
+for −∞ < y < 0. To avoid an unbounded motion deep beneath the free sur­
+face, the constant D in (12) must vanish; thus
+Y
+Ceky
+=
+. 	
+(13)
+If this function is substituted in (10), the velocity potential is given by
+φ
+ω
+=
+−
++
+Re[
+].
+Ceky ikx i t
+	
+(14)
+Use (5) to compute the linearized wave elevation, with y = 0, and compare 
+the result with the prescribed plane wave (7); then the constant C must 
+take the value
+C
+igA
+=
+/
+.
+ω 	
+(15)
+The potential (14) can be rewritten in the form
+φ
+ω
+ω
+=
+−
+gA e
+kx
+t
+ky sin(
+). 	
+(16)
+At this point in our derivation, the solution appears complete; yet the 
+free-surface condition (6) has not been imposed. Therefore (16) is too gen­
+eral, and if this potential is substituted in (6) an additional condition is 
+obtained, relating the wavenumber and the frequency in the form

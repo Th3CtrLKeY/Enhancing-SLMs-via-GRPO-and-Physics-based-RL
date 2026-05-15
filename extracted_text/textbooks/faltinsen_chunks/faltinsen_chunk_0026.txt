@@ -1,0 +1,112 @@
+when T) = 22U/g. According to equation (3.29) w, can be negative. If this occurs we will interpret w, as the absolute value of the right hand side of equation (3.29). Because the ship will Fig. 3.12. A ship in regular head sea waves with an explanation of the frequency of encounter effect. (U = forward speed of the ship, T. = encounter period between the ship and the waves, c = phase speed of the waves, 4 = wavelength).
+
+56 LINEAR WAVE-INDUCED MOTIONS
+
+oscillate with the circular frequency of encounter, the added mass and
+damping coefficients have to be evaluated for @..
+In the theoretical derivation of ship motions at forward speed, the
+added mass and damping coefficients can be written in the form
+2 2)
+Ay =Ay° + UA? + U Aik’
+
+By = By + UByo? + UB
+
+For instance Salvesen et al.’s (1970) strip theory states that added mass
+and damping coefficients for heave and pitch of ships with pointed ends
+
+can be expressed as
+A33 =[ A337 (x) dx
+L
+Bay= | B33?) dx
+L
+@D) U B
+Ass= — | xAss°%e) de +25 Bs
+L e
+B35 = -| xB33°(x) dx — UA33
+L
+
+(3.30)
+
+U
+We Ba;
+
+As3 = -| xA33°(x) dx —
+1.
+
+Bs3 = -{ xB33°(x) dx + UA3s
+L
+
+U
+Ass = [ x7 A337? (xc) dx + aft
+L e
+
+e
+
+U
+Bss= i x7B33°P(x) dx + —5 Bas
+A We
+
+e
+7 2
+
+One reason for the terms proportional to U and U*, can be seen by
+
+examining the Bernoulli’s equation. To show this we first write the total
+
+velocity potential as
+
+@=Ux+o
+
+Here the steady velocity potential Ux represents the forward speed effect
+of the ship in a coordinate system moving with the forward speed of the
+ship. Further, @ is the harmonically oscillating velocity potential when
+the ship is forced to oscillate either in heave or pitch with the frequency
+
+of encounter.
+
+RESPONSE IN REGULAR WAVES 57
+
+By using Bernoulli’s equation (2.4), disregarding the hydrostatic
+pressure term —pgz and keeping linear terms in @, it follows that the
+linear. pressure part contributing to the added mass and damping
+
+coefficients is
+
+=—p 2? _ py 2
+p=—-ps PU a
+
+The pressure part proportional to U_will _Bive speed-dependent added
+mass and damping terms. Another reason for the speed-dependent, terms
+
+(3.31)
+
+come from ..the..body boundary condition. In the body boundary
+condition for @ an additional speed-dependent term will occur when we
+analyse forced pitch motion. This is exemplified in Fig. 3.13. A flow has
+to be set up to counteract the ‘incident’ velocity Un, in the crosssectional plane.
+
+A more complete three-dimensional-analysis of linear wave-induced
+motion and loads at forward speed is complicated. For practical purposes
+strip theory is still recommended even if it does not properly account for
+all physical effects. In many cases strip theory shows good agreement
+with experiments. However, it is important to note its limitations. A strip
+theory is basically a high frequency theory. That means it is more
+applicable in head and bow sea waves than in following and quartering
+sea for a ship at forward speed. The Seakeeping Committee of the 16th
+ITTC reports, for instance, substantial disagreement between calculated
+results and experimental investigations of vertical wave loads in following
+waves.
+
+It should also be noted that strip theory is alow Froude number
+
+theory. It does not properly account for the interaction between. the
+
+steady wave system and the oscillatory effects of ship motions. Care
+
+should be shown in applying the theory for En = U/(Lg)t > ~0.4.
+Another limitation of strip theory is the assumption of linearity between
+response and incident wave amplitude. This means it is questionable to
+apply in high s with ship slamming and water on deck occurring.
+
+Fig. 3.13. Influence of forward speed U on the body boundary condition for a
+ship forced to oscillate in pitch 75.

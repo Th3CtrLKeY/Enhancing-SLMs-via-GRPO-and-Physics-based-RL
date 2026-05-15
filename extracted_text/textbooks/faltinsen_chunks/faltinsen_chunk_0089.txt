@@ -1,0 +1,116 @@
+noted T° and 1 cannot be estimated from von Karman’s theory. The reason is that there is_no. body geometry involved. Von Karman’s theory is not limited to a a circular cylinder. For simplicity let us set h = D where D is the cylinder diameter and let us approximate the ocities by U,...We may write T,U.= zs (6.19) (6.17) 0.28 The non-dimensional vortex shedding frequency may be represented by Fig. 6.9. Arrangement of vortices in a von Karman vortex street.
+
+186 CURRENT AND WIND LOADS
+
+the Strouhal number (St) and defined by
+
+fxD
+U.
+
+where f, = 1/T,. We then find St= 0.28. This is a reasonable value for
+transcritical flow. However it does not agree with experimental values for
+eat flow. Better agreement is found if we use h~1.2D and
+
+U..— T/(LV8) ~0.85U.... This leads to St= 0.2. This is a reasonable
+value for subcritical flow.
+
+We should note that we do not always see a vortex street behind the
+body neither is there always a single vortex shedding frequency. In
+critical and supercritical flow there is a spectrum of vortex. shedding
+frequencies.
+~~ In subcritical flow past a circular cylinder we may divide the wake into
+three parts. The first is the so-called formation region (J;,,<=5R); the
+second, the stable region where the vortices exhibit the characteristics of
+a fairly uniform vortex street (SR </,,<12R) and the third, the unstable
+region extending beyond 12R. The lateral spacing of the vortex cores
+gradually increases within the stable region and like the longitudinal
+spacing depends on the Reynolds number. Experimental values of the
+mean relative spacing 4/1 vary from 0.19 to 0.3.
+
+The vortex shedding results in oscillatory forces on the body both in
+the drag and lift direction. If there is a single vortex shedding frequency
+the force F, in the lift direction can be approximated as
+
+Fit) = |F 1] cos(2afyt + a) (6.21)
+
+where @ is a phase angle. The lift force amplitude |F,| is normally
+expressed in terms of a lift coefficient C,, which for a circular cylinder is
+defined as
+
+St= (6.20)
+
+Fi
+4pU.D
+In this case |F,] means the lift force amplitude per unit length...
+
+There is large scatter in experimentally determined lift coefficients.
+The largest C-value reported by Sarpkaya & Isaacson (1981) was 1.35
+
+CL= (6.22)
+
+for subcritical flow past a fixed circular cylinder. It should be noted that
+
+the vortex shedding is more or less uncorrelated along the cylinder axis.
+For subcritical flow past a fixed circular cylinder the correlation length is
+smaller than 5 times the diameter and for transcritical flow it may not be
+more than 1-2 times the diameter. The consequence of this is that the
+phase angle @w in equation (6.21) varies along the cylinder axis. This
+means that the integrated lift force along the length of a cylinder will be
+small due to cancellation of force contributions from different crosssections of the cylinder.
+
+CURRENT LOADS ON SHIPS 187
+
+If there is a single vortex shedding frequency the force in the drag
+direction can be approximated as
+Fo®= Fp » + Ap cos(4stfyt + B) (6.23)
+
+Here F ‘pl is ti s time _independent and is the basis for the normally defined
+drag Coefficients. (see for instance Fig. 6.3). The _amplitude Ap of the
+oscillatory part of the drag force is typically 20% of. Fy. We note from
+equations (6.21) and (6.23) that the’ oscillation frequency of the
+oscillatory part of the drag force is twice the oscillation frequency of the
+vortex shedding frequency and the lift force. The reason why the
+oscillation frequency is 2f, is that a vortex is shed from the cylinder with
+a period T,/2. The fact that this occurs from alternate sides does not
+matter for the drag force. However, for the lift force the force direction is
+influenced by which side of the cylinder the vortex is shed. Therefore the
+period of the lift force is T,. Due to lack of correlation of vortex
+shedding along the cylinder axis, the phase angle 6 in equation (6.23)
+will vary strongly along the cylinder axis in the same way as @ in
+equation (6.21).
+
+The oscillatory forces due to vortex shedding may cause resonance
+oscillations of structures. This will be discussed later in the chapter.
+
+CURRENT LOADS ON SHIPS a
+
+Empirical formulas are often used to calculate current forces and
+moments on a ship. The drag force F,° on the ship in the longitudinal
+direction will be mainly due to frictional | forces. In the calculation of
+F,° one may generalize ‘procedures followed in the estimation of
+ship resistance of a ship in still water. The Froude number
+
+= U,/(Lg)(U, = current velocity, L= ship length) is so small that
+wave resistance can be totally neglected relative to viscous resistance.
+The following approximate formula may be used:
+
+, 0.075
+co a 6.24
+Fjf= (ogi! =2F 2eSUe cos B lcos Bl ( :)
+
+Here B is t the angle between the current t velocity and the longitudinal
+
+x-axis. (The positive x-direction is in the aft direction). S is the wetted
+
+‘surface of the ship and
+
+UL |cos B|
+v
+
+Rn= (6.25)
+
+An alternative is to use a generalized Hughes (1954) formula. That
+means we replace 0.075/(logio F Rn — 2)? in equation (6.24) by 0.066(1 + R)
+_/(ogig Rn - 2. 03)" where & is a. form. factor found from experiments.
+“Typical values vary between 0. .2and 0.4 when B=0. If the flow
+separates in the stern, k may be up.to_0. 8.

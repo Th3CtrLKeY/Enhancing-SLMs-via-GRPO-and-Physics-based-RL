@@ -1,0 +1,258 @@
+figure 3.2. Most common fluids, including water and air, are found to conform to the Newtonian stress relations (23) for all practical purposes. An excep­ tion occurs if dilute solutions of polymers are formed which disrupt the isotropic nature of the fluid. The resulting stress relations are said to be “non-Newtonian.” In certain cases the frictional drag on a body can be reduced by this means, as described in the surveys by Lumley (1969) and Bark, Hinch, and Landahl (1975).
+
+The Motion of a Viscous Fluid 
+
+3.7  The Navier-Stokes Equations
+It is now a simple matter to obtain the Navier-Stokes equations, which 
+express conservation of momentum for a Newtonian fluid, by substituting 
+the stress-strain relations (23) in Euler’s equations (18). The required deriva­
+tives of the stress tensor are
+∂
+∂
+= −∂
+∂
++
+∂
+∂
+∂
+∂
++ ∂
+∂
+
+
+
+
+= −∂
+∂
++
+∂
+∂∂
+τ
+µ
+µ
+ij
+j
+i
+j
+i
+j
+j
+i
+i
+i
+j
+j
+x
+p
+x
+x
+u
+x
+u
+x
+p
+x
+u
+x x
+
+,
+	
+(24)
+since, from the continuity equation (15a), ∂
+∂∂
+= ∂
+∂
+∂
+∂
+=
+
+
+u
+x x
+x
+u
+x
+j
+j
+i
+i
+j
+j
+.
+Thus, we obtain the desired Navier-Stokes equations:
+∂
+∂
++
+∂
+∂
+= −
+∂
+∂
++
+∂
+∂∂
++
+u
+t
+u
+u
+x
+p
+x
+u
+x x
+F
+i
+j
+i
+j
+i
+i
+j
+j
+i
+
+
+
+ρ
+ν
+ρ
+,
+where ν = μ/ρ is the kinematic viscosity coefficient. Written in vector form,
+∂
+∂
++
+⋅∇
+= −
+∇+ ∇
++
+V
+V
+V
+V
+F
+t
+p
+(
+)
+,
+
+
+
+ρ
+ν
+ρ
+	
+(25b)
+or, finally, in Cartesian coordinates:
+∂
+∂+
+∂
+∂
++
+∂
+∂
++
+∂
+∂
+= −
+∂
+∂
++ ∇
++
+∂
+∂+
+∂
+∂
++
+∂
+∂
++
+u
+t
+u u
+x
+v u
+y
+w u
+z
+p
+x
+u
+F
+v
+t
+u v
+x
+v v
+y
+w
+x
+
+
+
+ρ
+ν
+ρ
+∂
+∂
+= −
+∂
+∂
++ ∇
++
+∂
+∂
++
+∂
+∂
++
+∂
+∂
++
+∂
+∂
+= −
+∂
+∂
++ ∇
+v
+z
+p
+y
+v
+F
+w
+t
+u w
+x
+v w
+y
+w w
+z
+p
+z
+w
+y
+
+
+
+
+
+ρ
+ν
+ρ
+ρ
+ν
++ 1
+ρ Fz.
+	
+(25c)
+This system of three partial differential equations, together with the con­
+tinuity equation (15), governs the motion of a viscous fluid subject only 
+to the assumptions of constant density and a Newtonian stress-strain rela­
+tionship. The latter is justified for all practical purposes in the case of most 
+fluids, including water and air.
+The difficulty comes in attempting to solve the Navier-Stokes equations; 
+they form a coupled system of nonlinear partial differential equations 
+and have been solved analytically only for some very simple geometrical

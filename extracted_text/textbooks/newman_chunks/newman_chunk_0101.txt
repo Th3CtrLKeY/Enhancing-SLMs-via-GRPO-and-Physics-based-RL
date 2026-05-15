@@ -1,0 +1,97 @@
+between these is the local behavior near the origin. The case n = 2 has a stagnation point. This is Table 4.1 Simple Examples of Complex Potentials and the Corresponding Velocity Fields F(z) u − iv Type of Flow Uz U Stream log z 1/z Source 1/z −1/z Dipole Uz + A/z U − A/z Stream of velocity U flowing past a circle of radius (A/U) 1/2 z n n z n−1 Corner flow within a sector of angle π/n.
+
+The Motion of an Ideal Fluid 
+
+characteristic of interior corner flows, where the included angle is less than 
+180°, or where the exponent n is greater than one. On the other hand, for 
+n = 1/2 an infinite velocity occurs at the sharp edge, and this is characteris­
+tic of all exterior corner flows where 1/2 < n < 1.
+4.8  Conformal Mapping
+A particularly useful facet of the application of analytic function theory to 
+two-dimensional flows is the use of conformal mapping techniques. Here, 
+the objective is to map a complicated geometry onto a simpler one, replac­
+ing the fluid flow and body profile in the physical z-plane by a fictitious 
+flow past a hypothetical profile in, say, the ζ-plane, where ζ is related to z 
+by a known analytic function.
+One of the simplest examples is the corner flow considered in the preced­
+ing section. A corner with included angle θ can be mapped onto a straight 
+line in the ζ-plane by the transformation ζ = zπ/θ, as shown in figure 4.5. 
+In the ζ-plane the flow past the straight line is simply a uniform stream; 
+hence the complex potential is F(ζ) = ζ. Inverting the mapping procedure, 
+it follows that
+F z
+z
+( )
+.
+/
+=
+π θ
+	
+(50)
+Figure 4.4
+Simple complex potentials and the corresponding streamlines.
+
+Chapter 4
+This answer agrees with the result shown in table 4.1, which was deduced 
+by the indirect process of first choosing a potential and subsequently deter­
+mining the flow geometry.
+As a more interesting example of conformal mapping, let us generalize 
+the complex potential for the flow past a circle. Replacing the potential by 
+the variable ζ we are led to consider the mapping
+ζ
+θ
+θ
+θ
+θ
+=
++
+=
++
+=
++
++
+−
+−
+Uz
+A z
+Ure
+A
+r e
+Ur
+A r
+i Ur
+A r
+i
+i
+/
+(
+/ )cos
+(
+/ )sin ,
+	
+(51)
+where z = reiθ has been substituted. Equation (51) defines a family of con­
+focal ellipses in the ζ-plane; the major semiaxis Ur + A/r and the minor 
+semiaxis Ur − A/r coincide with the real and imaginary axes respectively. In 
+particular, the circle r = (A/U)1/2 in the z-plane is mapped onto the segment 
+between ± 2(AU)1/2 in the ζ-plane. For convenience we shall set A = U = 1/2, 
+so that the circle of unit radius in the z-plane is mapped onto the straight 
+line (−1, 1) in the ζ-plane. Physically we can suppose that this segment cor­
+responds with a flat plate, which is the conformal mapping of the circle. In 
+this special case (51) reduces to the mapping
+ζ =
++
+
+
+
+(
+/ ).
+z
+z
+	
+(52)
+Figure 4.5
+The complex potential F(z) = z
+π/θ, and the corresponding conformal mapping onto 
+the plane ζ = z
+π/θ.

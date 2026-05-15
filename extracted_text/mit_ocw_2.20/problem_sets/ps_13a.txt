@@ -1,0 +1,23 @@
+[Page 1]
+2.20 Problem Set 13A
+Name: ____________________ 
+1. Supplementary Problem Wa13. 
+2. For a plane progressive wave of height 6 m and length 200 m in deep water,  
+(a) find the phase velocity, the maximum velocity magnitude of a fluid particle, and the 
+position where this maximum occurs. 
+(b) How do these change if the fluid depth is 30 m? 
+3. A sinusoidal wave of wavelength O and half-amplitude a travels on the surface of a 
+body of water of mean depth h. A pressure-measuring gage is mounted on the bottom. 
+The gage will indicate an average pressure (equal to that at  the mean depth) and a 
+fluctuating pressure due to the wave passing by. 
+(a) Compute the fluctuating part of the pressure on the bottom. 
+(b) For O >> h , show that the variation in the bottom pressure is equal to the change in 
+elevation of the fluid as the wave passes overhead. 
+4. The boundary condition which makes water wave problems complicated is the 
+[kinematic] [dynamic] boundary condition on the [bottom] [free surface]. When we 
+linearize the water wave problem, we are simplifying the equation for:  
+[free surface pressure] [free surface kinematics]  [both] by ignoring terms that are 
+nonlinear in K and M. 
+5. The equation that uniquely relates wave frequency and wavenumber is the 
+___________ relationship. It is derived from the boundary conditions on the 
+________________ .

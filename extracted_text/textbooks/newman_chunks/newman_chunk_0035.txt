@@ -1,0 +1,83 @@
+C R m U U Ul F F D ( , ) ( , / ) ( ) / . ∞ ∞ = ∝ 2 2 ρ (37) For impulsive acceleration from a state of rest to a constant velocity U, the parameter U Ul 2 / is small during the period of acceleration and large subse­ quently. Thus added-mass forces will dominate initially, and viscous forces subsequently, with a gradual transition between these regimes as shown in figure 2.15.
+
+Chapter 2
+The results in figure 2.15 are for a circular cylinder, synthesized from 
+experiments of Sarpkaya (1966) in which the acceleration is practically con­
+stant for a short period of time and the velocity is constant thereafter. The 
+Reynolds numbers for this experiment are R ≃ 105. The details of the initial 
+force peak depend on the magnitude and duration of the acceleration.
+2.12  Vortex Shedding
+When a bluff cylindrical body such as a circular cylinder is moved with 
+constant velocity normal to its axis, one might expect the resulting flow to 
+be steady and laterally symmetrical. In fact, neither of these assumptions is 
+correct, because of the oscillatory shedding of vortices into the wake shown 
+in the last photograph of figure 2.14.
+The ultimate configuration of vortices downstream in the wake is anti­
+symmetrical as predicted from a stability analysis by von Kármán, and the 
+staggered array of shed vortices is known as a Kármán street. The vortices 
+are shed into the wake at a frequency f = ω/2π, and as a result of their anti­
+symmetrical arrangement a lateral lift force will act on the body with the 
+same frequency. The magnitude of the lift force and the frequency can be 
+nondimensionalized in the forms
+L
+U l
+C
+R
+L
+max /
+( ),
+
+
+
+ρ
+=
+	
+(38)
+fl U
+S R
+/
+( ),
+=
+	
+(39)
+Figure 2.15
+Force coefficient for a circular cylinder accelerated from an initial state of rest to a 
+constant velocity U, based on experiments of Sarpkaya (1966).
+
+Model Testing 
+
+where Lmax denotes the maximum value of the lift force, per unit length 
+along the cylinder, and S is the Strouhal number. These parameters have 
+been measured experimentally, especially for circular cylinders where CL 
+is typically equal to 0.5 and the Strouhal number is about 0.22 for Reyn­
+olds numbers in the laminar regime. As noted by Roshko (1961), the Strou­
+hal number for circular cylinders appears to be proportional to the inverse 
+of the drag coefficient. For Reynolds numbers between 102 and 107, but 
+excluding the transitional regime R ≃ 106, the Strouhal number is approxi­
+mated closely by S = 0.23/CD.
+From an engineering standpoint, the oscillatory lift force may be of more 
+practical importance than the drag, especially if a hydroelastic resonance 
+occurs between the Strouhal frequency and a structural mode of vibration 
+of the body. Strumming oscillations of cables are a consequence of this 
+phenomena, as well as lateral vibrations induced upon pilings and other 
+fixed structures in a current. The magnitude of the oscillatory lift force can 
+be reduced by cable fairing or simply by installing a small splitter plate on 
+the after-side of the cylinder. For long slender cylinders with axis normal to 
+the flow direction, the correlation of the vortices along the cylinder axis is 
+particularly important, and small devices that destroy this correlation are 
+effective in reducing the total lift force. On the other hand, lateral vibra­
+tions of the body in response to the lift force will serve to correlate the 
+phase of the vortex shedding, thereby increasing the magnitude of the lift. 
+Extensive bibliographies of this subject are given by Mair and Maull (1971) 
+and Berger and Wille (1972). More recent work is described by Griffin and 
+Ramberg (1976).
+2.13  Wave Force on a Stationary Body
+Ocean waves are of particular interest to ocean engineers and naval archi­
+tects because of the interactions between these waves and structures on 
+or beneath the free surface. Our first example of such a problem is the 
+unsteady force acting upon a fixed structure in the presence of waves. For 
+simplicity, we treat only the x-component of this force, but a similar analy­
+sis applies for the total force vector.
+Assuming geometrical similarity, we can describe the structure by a 
+length scale l, which may be the length or the diameter of the body. If we 
+neglect surface tension effects and assume a plane progressive wave system

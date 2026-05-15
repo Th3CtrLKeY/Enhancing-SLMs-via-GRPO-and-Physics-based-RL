@@ -1,0 +1,71 @@
+unrestrained body will bob up and down like a cork upon the sea, with little or no relative motion between itself and the surrounding fluid. Thus, there will be no significant viscous drag for small unrestrained bodies in waves, and viscosity may be neglected in general. Subject to these assumptions, (51) reduces to the simpler form y A f A h l t / ( / , / , / , , ). = λ λ λ β ω (52)
+
+Chapter 2
+If the wave amplitude is small compared to the wavelength and depth, 
+nonlinear effects can be neglected. The linearized approximation to (52) 
+then takes the form
+y
+A
+f
+h
+l
+t
+f
+h
+l
+t
+/
+( ,
+/
+, /
+, ,
+)
+(
+/
+, /
+, )cos(
+),
+=
+=
++
+
+
+λ
+λ β ω
+λ
+λ β
+ω
+ε
+	
+(53)
+where for a prescribed body shape, the amplitude f0 and phase angle ε 
+depend only on h/λ, l/λ, and β. In deep water there is no dependence on 
+the depth ratio h/λ.
+For axisymmetric bodies with vertical axis, the heave response is inde­
+pendent of the angle of incidence β. As a particular example, figure 2.16 
+shows the heave-amplitude ratio for a slender spar buoy of draft T in deep 
+water. We note that f0 → 1 in the limit of T/λ ≪ 1, in accordance with our 
+presumption that a very small body will move with the same velocity as 
+the surrounding fluid. In the opposite limit, T/λ ≫ 1, the body is large 
+compared to the wavelength, and f0 → 0. At an intermediate wavelength of 
+about six times the draft, a sharp resonance occurs which is analogous to 
+the motion of a weakly-damped mechanical oscillator. This severe resonant 
+motion for the spar buoy is a consequence of vertical slenderness. We shall 
+see in the next section as well as in chapter 6 that most floating bodies 
+experience relatively moderate resonant motions by comparison with the 
+spar buoy shown in figure 2.16.
+Two important exceptions occur where viscous forces significantly affect 
+the motions of unrestrained bodies in waves. First, if the body shape is such 
+that the inertial forces are small, then frictional forces due to viscous shear 
+will be important, as in the case of the steady drag on a flat plate or stream­
+lined body. Second, cross-flow drag will be significant for a long slender 
+body if the length is such that the motions do not coincide with the local 
+wave velocity.
+An obvious example of the first exception is the angular motion of a 
+body of revolution about its axis. Thus, the yaw moment on an axisym­
+metric buoy is due entirely to viscous effects. The rolling motion of ships 
+and submarines will be affected similarly if the body sections are nearly 
+circular. Viscous shear stresses are significant also in the heaving motions 
+of a slender spar buoy if the draft is very large compared to the diameter. In 
+the latter examples viscous damping is particularly important at resonance, 
+where the inertial and hydrostatic forces cancel each other.

@@ -1,0 +1,147 @@
+constant, per unit width in the z-direction, is given by dE dt t x V gy U dy h = ∂ ∂ ∂ ∂ + +     { } −∫ ρ φ φ η , (75) where U is the velocity of this control surface in the + x-direction. If (75) is set equal to zero, U must be equal to the mean velocity of the energy flux in the fluid. On this basis it follows that
+
+Waves and Wave Effects 
+
+U
+t
+x dy
+V
+gy dy
+h
+h
+= −
+∂
+∂
+∂
+∂
++
+
+
+
+
+−
+−
+∫
+∫
+ρ
+φ
+φ
+ρ
+η
+η
+
+
+
+. 	
+(76)
+The denominator is the energy density (66), which can be evaluated from 
+(69). As in (66–68), the contribution of the interval 0 < y < η to the integral 
+in the numerator of (76) is of third order in A, and the leading-order contri­
+bution of order A2 can be computed with the upper limit set equal to zero. 
+On this basis, using the infinite-depth potential (16) gives
+U
+t
+x dy
+gA
+gk
+e
+kx
+t dy
+g
+ky
+= −
+∂
+∂
+∂
+∂
+=
+−
+=
+=
+−∞
+−∞
+∫
+∫
+ρ
+φ
+φ
+ρ
+ω
+ω
+ω
+
+
+
+
+
+
+
+
+
+
+
+cos (
+)
+/
+2Vp,
+	
+(77)
+where (18) has been used to substitute the phase velocity Vp. Comparing 
+this result with (63), we see that the energy’s velocity U is equal to the group 
+velocity Vg. The same conclusion holds in the general case of finite depth h, 
+as can be confirmed by substituting (23) for the potential in the numerator 
+of (77).
+The mean rate of energy flux across a fixed control surface is the product 
+of the energy density and the group velocity,
+dE
+dt
+V E
+g
+=
+. 	
+(78)
+This result can be calculated directly from (75) with U = 0.
+Figure 6.11
+Vertical control surfaces used to measure the rate of energy flux. Since the fluid do­
+main bounded by these control surfaces is of constant width, the average energy 
+within this domain must be constant and the rate at which energy crosses each verti­
+cal surface must be equal to (75).
+
+Chapter 6
+Equation (78) can be used in conjunction with the energy-density (69) 
+to predict the change in height of a sinusoidal wave as it propagates through 
+a region of gradually changing depth. Provided the change in depth is small 
+over distances on the order of a wavelength, these relations can be applied 
+locally at each depth, and it can be assumed moreover that the reflected 
+energy is negligible. It then follows that the energy-flux (78) is constant 
+for all depths, and since the frequency ω remains constant, the local wave 
+height must be inversely proportional to the square root of the group 
+velocity. Referring to figure 6.9, the shoaling coefficient can be deduced as 
+the inverse square root of the group velocity shown by the dashed line. 
+Simultaneously, the wavelength and phase velocity will decrease with 
+depth (see the solid line in figure 6.9). Taking both effects into account, the 
+steepness of the waves will increase as the waves near the beach, leading 
+ultimately to wave breaking when the wave height is comparable to the 
+local depth.
+This description of two-dimensional waves incident upon a beach is 
+based on the assumption of no energy reflection, which is valid provided 
+the bottom slope is small. Figure 6.4 illustrates this situation on a small 
+scale, with the bottom slope of the wave tank inclined at an angle of 2.5 
+degrees. The increasing steepness of the waves is apparent, but the change 
+in wave amplitude is not obvious. This can be explained from figure 6.9 by 
+noting that the shoaling coefficient exceeds l.0 only if the local depth is less 
+than 0.06 times the deep-water wavelength. Thus, for virtually the entire 
+length of the wave tank in figure 6.4, the shoaling coefficient is less than 
+one and the wave amplitude is attenuated.
+This dynamic analysis of energy flux provides an alternative interpreta­
+tion of the group velocity, complementary to that based on the kinematic 
+argument in section 6.7. From the physical viewpoint the equivalence of 
+these results is not surprising, particularly since each group of waves shown 
+in figure 6.8 is bounded by a region of relatively small wave amplitudes 
+and correspondingly small amounts of energy. If no energy is transferred 
+between adjacent groups, then the energy must travel with the velocity of 
+the group. A similar argument holds for the propagation of the front in fig­
+ure 6.10, between a region of a calm water and a system of plane waves; in 
+this situation, no wave energy can be transferred across the front.
+Since the group velocity is less than the phase velocity, the energy in a 
+plane progressive wave system will be propagated at a slower speed than

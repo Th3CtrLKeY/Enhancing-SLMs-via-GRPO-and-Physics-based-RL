@@ -1,0 +1,41 @@
+equal to the trailing vorticity γT(z) at the trailing edge, (123) determines the value of the trailing vorticity as γ T z z ( ) ( ). = ′ Γ (124) We emphasize that γT is independent of the x-coordinate, by virtue of (118) and because there can be no bound vorticity in the wake. These vortex distributions are sketched in figure 5.18. Here the lifting surface, (or, strictly, its projection on the plane y = 0) contains a distribution
+
+Chapter 5
+of bound and free vortices; the latter is joined at the trailing edge to a sheet 
+of trailing vortices that extend downstream.
+A particularly simple case is the lifting surface of small chord length, or 
+large aspect ratio, and constant sectional loading. The bound vortex distri­
+bution is then constant along the span and confined to a small chord, but 
+at the tips, it must be connected to two discrete trailing vortices as shown 
+in figure 5.19. Note that (124) still holds in this case, but the derivative is 
+equal to zero except at the tips,, where it is infinite, and hence γT is given 
+by a pair of delta functions.
+Figure 5.18
+Sketch showing examples of the discrete vortices, which make up the continuous 
+vortex sheets on the foil and downstream in the wake.
+Figure 5.19
+Horseshoe vortex of strength γ.
+
+Lifting Surfaces 
+
+The line vortex shown in figure 5.19 is a horseshoe vortex, which itself 
+satisfies the requirement of conservation of circulation. A system of these 
+may be superposed to represent a more general lifting surface. Horseshoe 
+vortices of equal span may be distributed in the chordwise direction to 
+make a foil of rectangular planform and constant sectional loading γ, as 
+shown in figure 5.20. However, while the loading in this case is constant 
+along the span, the downwash, or the velocity −v (x, 0, z) induced on the 
+planform by this vortex distribution, must depend on z, and a pronounced 
+local downwash will exist near the tips induced by the trailing vortices. 
+Thus, from the boundary condition (114), the geometry of the foil in this 
+case is not independent of span wise position and, indeed, must be physi­
+cally unrealistic near the tips.
+Another special case results by distributing horseshoe vortices of varying 
+span along the same chordwise position, as shown in figure 5.21. Here the 
+individual elements combine to form a single bound vortex Γ (z), and the 
+Figure 5.20
+Lifting surface with uniform spanwise loading, composed of horseshoe vortices of 
+equal span.
+Figure 5.21
+Lifting-line, composed of horseshoe vortices with coincident bound elements but 
+different spans.

@@ -1,0 +1,69 @@
+(mya + Mow) 7 2| mative 5, +252) ( r) +my(aFo- 5) >0 (6.77) (e) Show that: If the tension in the bow hawser Fy > F .., the ship is stable for any length | of the bow hawser. If Fo < F ¢., the ship is stable for 1<l,, and unstable for 1 > 1,,. Here got _ tw OF, =e tn OP My OV (6.78) Muy 4g? Myy . . Myy = 79 my, \Op Oy Myy
+
+222 CURRENT AND WIND LOADS
+
+where
+
+OF, aM
+A= -a[ myy(Fo+ 52) +mya(aFo- 57) | (6.80) | 7 VISCOUS WAVE LOADS AND
+: DAMPING
+
+(Hint: Consider the left hand side of equation (6.77) as a i
+second degree polynomial with independent variable ¢ =
+(F,/1)} and study the sign of this polynomial.)
+
+(f) Choose a ~ L/2, myy /myy = (L/4)’ and set the propeller
+thrust equal to zero. (L = ship length.) Show that equation
+(6.79) can be written in the form
+
+ee ee
+L (logy) Rn — 2) Ars
+
+where S is the wetted area of the ship, Rn = U,L/v,
+Azs = LD and D is the draught. Use Figs. 6.11 and 6.13 to
+estimate typical values of 8M/dw and oF ,/dy and give
+estimations of C in equation (6.81).
+Calculate J, for a ship with L = 300 m, S/A,s5 = 4.0 and
+
+when U, = 1.5 knots. Choose a reasonable value of C.
+
+(g) Discuss how propeller thrust and ship hull geometry can
+influence the stability.
+
+Viscous flow phenomena are of importance in several problems related to
+wave loads on ships and offshore structures. Examples are wave loads on
+jackets, risers, tethers and pipelines, roll damping of ships and barges,
+slow-drift oscillation damping of moored structures in irregular sea and
+wind, anchor line damping, and ‘springing’ damping of TLPs.
+The main factors influencing the flow are:
+Reynolds number Rn = UD/v (U = characteristic free stream
+velocity, D = characteristic length of the body, v = kinematic
+viscosity coefficient),
+Roughness number = k/D (k = characteristic cross-sectional
+dimension of the roughness on the body surface),
+Keulegan—Carpenter number (KC) (= UyT/D for ambient
+oscillatory planar flow with velocity Uy sin((22/T)t + €) past
+a fixed body),
+Relative current number (=U,/U when the current velocity
+U, is in the same direction as the oscillatory flow velocity
+Uy sin(22/T)t + €)),
+Body form,
+Free-surface effects,
+Sea-floor effects,
+Nature of ambient flow relative to the structure’s orientation,
+Reduced velocity (Up = U/(f,D) for an elastically mounted
+cylinder with natural frequency f,).
+
+Sometimes 6 = Rn/KC = D?/(vT) is also used to characterize the flow.
+Detailed discussions of many of the factors mentioned above can be
+found in Sarpkaya & Isaacson (1981). For harmonically oscillating flow
+around a fixed circular cylinder of diameter D, we may write KC=
+2nA/D, where A is the amplitude of oscillation of the fluid far away from
+the body. We then see that KC expresses the distance a free stream fluid
+particle moves relative to the body diameter.
+
+(6.81)
+
+MORISON’S EQUATION
+Morison’s equation (Morison et al. 1950) is often used to calculate wave
+loads on circular cylindrical structural members of fixed offshore

@@ -1,0 +1,89 @@
+the time ¢ (Ochi, 1982). The most probable maximum crest-to-trough wave height Hinax during the same time period is simply 2A,,.x- The effect of short-crestedness may be important. A short-crested sea is characterized by a two-dimensional wave spectrum, which in practice is often written as S(@, 0) = S(w)f(@) (2.36) where @ is an angle measuring wave propagation direction of elementary wave components in the sea. An example of f(@) might be —cos? 0, —2/2<O0<2/2 f(O)=4 2% (2.37) 0; elsewhere
+
+SEA ENVIRONMENT
+
+WAVE ELEVATION (m)
+
+6.00
+
+0.00
+
+6.00
+
+0.00
+
+6.00
+
+0.00
+
+6.00
+
+0.00
+
+6.00
+
+0.0c¢
+
+al
+
+1000 5000 10000 150.00 200.00 time ({s)
+
+Fig. 2.7. Different realizations of a wave record Hs=8m, T,= 10s, ISSC-
+
+spectrum.
+
+STATISTICAL DESCRIPTION OF WAVES . 29
+
+where @ =0 corresponds to the main wave propagation direction. Other
+ways of representing a short-crested sea spectrum may be found in the
+report of the 10th ISSC. For short-crested sea equation (2.22) can be
+generalized to
+
+N
+b= |
+
+X sin(@,t — kyx cos 4, — kyy sin O, + €,) (2.38)
+
+x
+
+(2S(w;, 04) Aw; A@,)?
+
+Long-term sea state
+So far we have discussed a ‘short-term’ description of the sea, which
+means the significant wave height and the mean wave period are assumed
+constant during the time considered. The significant wave height and
+mean wave period will vary in a ‘long-term’ description of the sea. In
+
+order to construct a ‘long-term’ prediction of the sea we need to know
+the joint frequency of the significant wave height and the mean wave
+period. An example is presented in Table 2.2. These data are representative for the northern North Sea. The frequency table shows, for instance,
+that the probability of the significant wave height being between 3 and
+4m and the spectral peak period being 10s is 2960/100 001 = 0.0296. It
+also shows that the probability of the significant wave height being larger
+than 2 m is 1 — (8636 + 32 155)/100 001 = 0.59. This table can be used in
+many ways, for example to obtain long-term statistics of the wave
+amplitude or wave height. For each significant wave height interval we
+find the probability of occurrence p, from the table. For instance the
+probability that Hy is between 4 and 5m is 9118/100001. Since the
+probability function for the maxima of the wave elevation for given
+significant wave height follows a Rayleigh distribution (see equation
+(2.32)) we can obtain the long-term probability as a simple summation,
+ie.
+
+M ,
+P(H)=1- S PAM) 9. (2.39)
+
+j=l
+
+Here P(H) is the long term probability that the wave height does not
+exceed H. By wave height we mean crest-to-trough wave height and not
+
+“Significant wave height. When using equation (2.32), we have set
+
+H=2A. If we use Table 2.2 we see that M=15, Hy?=0.5m,
+H,® = 1.5m and so forth. The probability level Q = 1 — P(H) and the
+number of response cycles are related by
+
+Q=
+
+z)-

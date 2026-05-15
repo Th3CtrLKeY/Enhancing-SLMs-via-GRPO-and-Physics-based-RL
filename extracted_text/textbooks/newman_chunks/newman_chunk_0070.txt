@@ -1,0 +1,168 @@
+(73) Here the condition that u = 0 on the boundary y = 0 has been satisfied by eliminating the constant term in the polynomial. The remaining four boundary conditions that can be imposed on physical grounds are that on the inner boundary y = 0, the boundary layer equation (46) holds, or ν ρ ∂ ∂ = ∂ ∂ = − = u y p x U dU dx y , , on and that, on the outer boundary,
+
+Chapter 3
+u
+U
+u
+y
+u
+y
+y
+=
+∂
+∂
+=
+∂
+∂
+=
+=
+,
+,
+,
+.
+
+
+
+
+on 
+δ
+(The first derivative ∂u/∂y must vanish if u is to approach U asymptotically, 
+and the second derivative then vanishes as a consequence of equation 
+(46).) These four conditions determine the four constants a, b, c, and d in 
+equation (73) in terms of the thickness parameter δ. If we introduce the 
+nondimensional parameter
+Λ = δ
+ν
+2 dU
+dx , 	
+(74)
+the four coefficients in (73) are determined as
+a
+b
+c
+d
+=
++
+= −
+= −+
+=
+−
+
+
+
+
+
+
+
+Λ
+Λ
+Λ
+Λ
+/ ,
+/ ,
+/ ,
+/ .
+The velocity distribution within the boundary layer is approximated 
+then by a one-parameter family of curves that depends only on the shape 
+factor Λ. A plot of this family appears in figure 3.8. Certain values of the 
+shape factor Λ have special significance. The value Λ = 0 corresponds to a 
+boundary layer with zero pressure gradient, i.e., the case of the flat plate 
+treated in the preceding section. Positive values of Λ correspond to favor­
+able (decreasing) pressure gradients as described in figure 3.8, and negative 
+values of Λ correspond to unfavorable pressure gradients. The criterion (63) 
+for inception of separation corresponds to the value Λ = −12; larger negative 
+values suggest the reverse flow region further downstream. Positive values 
+of Λ greater than 12 are excluded, since these imply a velocity within the 
+boundary layer larger than that outside.
+For different values of the shape factor Λ, values of the displacement and 
+momentum thickness and of the shear stress can be computed with the 
+following results:
+δ
+δ
+δ
+*
+,
+=
+−
+
+
+
+
+=
+−
+
+
+
+
+∫1
+
+
+
+
+u
+U
+dy
+Λ
+	
+(75)
+θ
+δ
+δ
+=
+−
+
+
+
+
+=
+−
+−
+
+
+
+
+∫
+u
+U
+u
+U
+dy
+
+
+
+
+9 072
+
+
+Λ
+Λ
+,
+, 	
+(76)
+τ
+µ
+µ
+δ
+xy
+y
+u
+y
+U
+=
+∂
+∂
+
+
+
+
+=
++
+
+
+
+
+=0
+
+
+Λ . 	
+(77)

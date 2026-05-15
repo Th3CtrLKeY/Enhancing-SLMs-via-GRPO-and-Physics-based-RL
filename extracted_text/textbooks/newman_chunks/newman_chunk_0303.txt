@@ -1,0 +1,152 @@
+moment can be analyzed with the heave and pitch oscillations suppressed. In both prob­ lems the Froude number U/(gl)1/2 is assumed to be O(1). First we consider the forced heave and pitch motions in calm water, in the frequency regime where ω2B/g = O(1). Under this circumstance, and unlike the low-frequency regime of section 7.6, both terms must be retained in the linearized free-surface condition (6.6). The motion is periodic in the moving reference frame, where (6.6) takes the form
+
+Hydrodynamics of Slender Bodies 
+
+∂
+∂−
+∂
+∂
+
+
+
+
++
+∂
+∂
+=
+t
+U
+x
+g
+y
+
+
+φ
+φ
+	
+(96)
+or
+−
+−
+∂
+∂
++
+∂
+∂
++
+∂
+∂
+=
+=
+ω φ
+ω
+φ
+φ
+φ
+
+
+
+
+
+
+
+i U
+x
+U
+x
+g
+y
+y
+,
+.
+on 
+	
+(97)
+The total vertical displacement of the ship, at a longitudinal position x, 
+is given by
+η
+ξ
+ξ
+ω
+( , )
+(
+)
+,
+x t
+x
+ei t
+=
++
+
+
+(98)
+where ξ2 and ξ6 are the complex amplitudes of heave and pitch, as defined 
+in figure 6.19. This vertical motion, as well as the ship’s geometry, are 
+slowly varying in the x-direction. Thus a two-dimensional approximation 
+equivalent to (16) can be adopted for the velocity potential in the inner 
+region, near the ship hull, in the form
+φ =
++
+U
+V
+Φ
+Φ
+
+2. 	
+(99)
+Here U is the forward velocity, and
+V x t
+t
+U
+x
+e
+x
+i t
+( , )
+[
+(
+)]
+=
+∂
+∂−
+∂
+∂
+
+
+
+
++
+ω ξ
+ξ
+
+
+(100)
+is the local vertical velocity of the ship hull with respect to the fixed refer­
+ence system.
+Equation (100) is analogous to (19), for the lateral velocity of a slender 
+body. Since ξ2 and ξ6 are constant, the only contribution from the term 
+U∂/∂x is an apparent vertical velocity equal to the product of the pitch angle 
+and the forward speed.
+The velocity potentials Φ1 and Φ2 in (99) satisfy the free-surface condi­
+tion (6.6) with respect to the fixed reference frame, or (97) with respect to 
+the moving reference frame, as well as the two-dimensional Laplace equa­
+tion (12) and a suitable radiation condition.2 On the hull surface, Φ1 satis­
+fies the boundary condition (17), whereas
+∂
+∂
+=
+Φ
+Σ
+
+N
+n
+x
+y
+B
+,
+( ).
+on 
+	
+(101)
+From the slenderness assumption, and the estimates (10), it can be antici­
+pated that the potential Φ1 will be of order ε2, or possibly O(ε2 log ε), as in

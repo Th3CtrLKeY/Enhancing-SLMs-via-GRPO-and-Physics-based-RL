@@ -1,0 +1,94 @@
+This is also the natural period for the cushion and arises from the compressibility of the air in the cushion. We shall show how we can derive equation (3.79). We will neglect hydrodynamic forces on the sidewalls and the seals and assume an adiabatic pressure—density relation for the air. Show that for small dynamic pressure variations Ap in the air cushion we may write the following linearized pressure— density relation p=pll+ph/Ly(1 + pa/Po)l] CALLEN Fig. 3.26. Surface Effect Ship (SES).
+
+92 LINEAR WAVE-INDUCED MOTIONS
+
+where p = Ap/py and p, is the air density at the pressure
+Pat Po. (Hint: p = wp” where a@ is constant).
+
+We will assume the air cushion is rectangular-box-shaped
+and neglect air leakage and effect of fan flow. Show that the
+linearized continuity equation for the air in the cushion can
+be written as
+A, 273 + Ww Aphy du _
+
+dt dt = y(1+p,/po) dt
+where Vw is the change in the air cushion volume due to the
+waves. (Hint: Use that d(o&2)/d¢ = 0 where Q is air cushion
+volume).
+
+Show from Newton’s law that
+
+d2
+MP — poAsu =0
+Show equation (3.79) by neglecting the forcing function in the
+continuity equation and by assuming the solutions for heave
+and dynamic pressure to be of the form e'.
+
+(b) Consider a 200 tonne ship with a cushion length 40 m,
+cushion beam 10 m and a cushion plenum height 2 m. Show
+that T,,3 = 0.5 s if the effect of the buoyancy of the rigid
+sidewalls is neglected.
+
+(c) Show that the ratio between 7,3 in model and in full scale is
+proportional to Ly,/L if model tests are done with a model at
+length scale ratio Ly,/L (Ly = model scale length, L = full
+scale length). What are the consequences of this when model
+tests of heave accelerations are done?
+
+(d) Consider a sea state with a modal period Ty) = 2.5s. Assume
+long-crested head sea waves and assume for simplicity one
+regular wave system with period 7’) = 2.5 s. What vessel
+speed causes heave resonance?
+
+(e) Ride control systems are used to damp resonance heave
+oscillations. By examining equation (3.79) discuss what
+additional possibilities there are to reduce the effect of
+resonance heave oscillations in an operational situation.
+
+(f) Assume the surface wave elevation is given by &, sin(w,¢ +
+kx). Show that the wave volume pumping dVw/dt =
+—A,f,, cos(w.t) sin(wL/A)/(aL/A). L = length of the air
+
+cushion.
+
+3.3 Vertical motions of hydrofoil catamarans
+Fig. 3.27 shows an example on a hydrofoil-catamaran with four foils. At
+design speed most of the weight of the vessel is carried by the hydrofoils.
+
+EXERCISES 93
+
+Depending on the design the buoyancy of the catamaran hulls may be
+0-30% of the weight of the vessel at maximum speed.
+
+Consider incident regular head sea waves in deep water. Define the
+velocity potential of the incident waves as
+
+wy
+
+Wo
+
+‘op e** cos(wet — kx)
+
+The coordinate system is defined in Fig. 3.2. Assume the wavelength is
+large relative to the cross-dimensions of the foil. Neglect the hydrodynamic forces on the catamaran hulls and use strip theory for the foils.
+Assume quasi-steady flow when the lift forces on the foils are analysed.
+The effect of the free-surface can be neglected. The lift force Fy, per unit
+length on a two-dimensional section of the foil will be expressed as
+
+F,= 5 ClU?
+
+where / is the chord-length of the foil and C;, is the lift coefficient. C;,
+depends on the foil characteristics and the angle of attack a of the
+incident flow velocity relative to the foil.
+(a) Explain that the linear dynamic lift force per unit length on
+the foil can be approximated by
+
+Fip= . ei _ tu (web. cos(@et ~ kx;)
+__ dns dns )
+- SB 4 Bay
+dt de "ss
+
+where (x;,y, 2;) is the geometric centre of the foil and @ = a
+is the angle of attack of the incident flow in still water.
+
+Fig. 3.27. Hydrofoil-catamaran.

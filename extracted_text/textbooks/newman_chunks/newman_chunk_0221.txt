@@ -1,0 +1,96 @@
+the velocity U. One might expect that increasing the body size or the velocity will increase A and thus the wave resistance. However, the latter conclusion overlooks the possibili­ ties of destructive interference, which may be emphasized with a simple example. Let us consider a single small disturbance, which generates waves of amplitude a. The resulting free-surface profile, in a coordinate system mov­ ing with the disturbance, will have the form η ε = + a kx cos( ), (82)
+
+Chapter 6
+where k = g/U2 and the phase angle ε is unimportant. From (80), the wave 
+resistance of this disturbance by itself is given by 1
+
+
+ρga .
+Next we consider the result of superposing a second disturbance, of 
+equal but opposite magnitude, situated at a distance l downstream of the 
+first. The total free-surface elevation resulting from this superposition of 
+two disturbances is
+η
+ε
+ε
+ε
+=
++
+−
++
++
+=
+−
++
+a
+kx
+a
+kx
+kl
+ae
+e
+i kx
+ikl
+cos(
+)
+cos(
+)
+Re{
+(
+)}.
+(
+) 1
+	
+(83)
+The total wave amplitude downstream of both disturbances is
+A
+a
+e
+a
+kl
+ikl
+=
+−
+=
+
+
+
+
+sin(
+) , 	
+(84)
+and the associated wave resistance is given by
+D
+ga
+kl
+= ρ
+
+
+
+
+sin (
+). 	
+(85)
+The amplitude (84) and drag (85) are oscillatory functions of the velocity 
+and length; the drag varies between zero and four times the corresponding 
+value for a single disturbance.
+If the Froude number F = U/(gl)1/2 is introduced and (85) is plotted as 
+shown in figure 6.13, the importance of interference effects is obvious, 
+especially for the lower speeds. For spacing l equal to an integer number of 
+wavelengths, the waves and resulting wave resistance are zero, whereas for 
+spacings of an integer plus a half times the wavelength, the disturbance is 
+a maximum.
+This simplified example can be related in practice to the bow and stern 
+wave systems of a more realistic vessel, particularly if the bow flow is rep­
+resented by a point source and the stern by a point sink, as in the Rankine 
+bodies of chapter 4. To the extent that this analogy is valid it can be pre­
+sumed that the length l is the distance between the source and sink, which 
+will be less than the overall length of the body. Similar interference effects 
+between the bow and stern exist in the three-dimensional case, but with 
+reduced magnitude, as we shall see in sections 6.12 and 6.13.
+Analogous results follow if two positive disturbances are superposed. 
+Thus, if a pair of two-dimensional vessels moves in tandem, with one in 
+the other’s wake, the total wave resistance of the pair will fluctuate as in 
+figure 6.13 but with a shift of 1
+2 λ in the definition of l. However, the drag 
+in question is the sum of the individual components acting on each vessel,

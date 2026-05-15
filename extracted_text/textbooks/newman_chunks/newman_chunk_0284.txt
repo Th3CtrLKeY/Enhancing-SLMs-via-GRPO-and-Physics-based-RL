@@ -1,0 +1,55 @@
+the body does not affect this analy­ sis, and a trailing vortex sheet may originate from the abrupt trailing edge at the tail. From the viewpoint of lifting-surface theory, this vortex sheet is associated directly with the lift force (45). These results can be applied to planar lifting surfaces of small aspect ratio, where the body profile ∑B is a flat plate of local span s(x), provided no vorticity is shed upstream of the tail. This restriction requires the trailing
+
+Chapter 7
+edge to be abrupt and situated at the tail. In addition, the angle of attack 
+must be sufficiently small to avoid leading-edge separation. Under these 
+conditions, the results above reduce to the low aspect ratio lifting-surface 
+theory. In the notation of chapter 5, the lift coefficient follows from (45) 
+in the form
+C
+A
+L = 1
+2 π α, 	
+(48)
+where A = s2/S is the aspect ratio based on the maximum span and planform 
+area S. As shown in figure 5.22, (48) gives precisely half the limiting value, 
+for A ≪ 1, of the lifting-line theory (5.148). This difference is not surpris­
+ing, since the lifting-line theory assumes that A ≫ 1.
+The longitudinal distribution of the lift force on an uncambered lifting 
+surface of small aspect ratio is proportional to the rate of change of added 
+mass. For a “delta wing” with triangular planform, the lift force will be dis­
+tributed uniformly along the length. If the span increases more rapidly, the 
+center of pressure will move forward. In the limiting case of a rectangular 
+planform, with constant span along the length, the lift force will be con­
+centrated at the leading edge, with a differential lift given by
+′ =
+−
+F
+U
+s
+x
+x
+z
+N
+π ρ
+α
+δ
+
+
+2 (
+), 	
+(49)
+where δ(x − xN) denotes a delta function. This limit is physically unreason­
+able, but experiments show that the center of pressure for a rectangular 
+lifting surface of small aspect ratio is very close to the leading edge, particu­
+larly in the regime of small angles of attack where leading-edge separation 
+does not occur.
+For a planar lifting surface of small aspect ratio with the maximum span 
+at the tail, the trailing vortex sheet downstream of the body must be inde­
+pendent of the coordinate x, with a constant downwash velocity equal to 
+UαT, Thus, it makes no difference whether the body terminates at the posi­
+tion of maximum span or continues downstream with decreasing span, 
+provided the local angle of attack is constant. For this reason, the low aspect 
+ratio theory holds for uncambered lifting surfaces of more general planform, 
+if the maximum span is used in (48). In this particular case, there is no lift 
+force on the portion of the body downstream of the maximum span.

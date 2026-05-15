@@ -1,0 +1,57 @@
+the viscous stress. In this region we expect the parameter y/δ to be important, in conjunction with the outer “boundary condition” that u = U when y/δ = 1. This suggests the appropriate form for the outer approximation of (95), or the velocity-defect law U u u f y − = τ δ 2( / ). (99) The velocity difference has been used to impose the outer boundary condi­ tion in the form f2 1 ( ) . = (100)
+
+Chapter 3
+Moreover, equation (99) reflects the significant fact that in the outer region, 
+momentum flux is balanced by the Reynolds stress and the former depends 
+not on the absolute velocity u but on the velocity defect U − u.
+To amplify briefly on the justification for the velocity-defect law, let us 
+view the flow in a frame of reference moving with the free stream. Here 
+the relative fluid velocity is ur = u − U, which can be expressed in the non­
+dimensional form (99). In these terms, U now enters only in the boundary 
+condition on the plate y = 0, where ur = −U. However, in terms of the flow in 
+the outer region, the plate is deeply embedded within the viscous sublayer; 
+its effect on the momentum balance in the outer region is represented by 
+the shear stress at the wall, and hence by the friction velocity uτ. On this 
+basis the relative velocity ur in the outer region must depend only on uτ and 
+y/δ, as assumed in (99).
+At this point two complementary expressions have been obtained for 
+the velocity in the turbulent boundary layer; the inner approximation (96) 
+is valid in the viscous sublayer, and the outer approximation (99) is valid in 
+the main portion of the boundary layer where the Reynolds stress is domi­
+nant. Neither of these is a complete solution, of course, but they at least 
+represent simplifications of the overall problem compared with the more 
+general velocity (95) which depends on two parameters. Moreover, further 
+progress can be made with the apparently bold assumption that there exists 
+an overlap region where both approximations are valid simultaneously—that 
+is, where
+f u y
+U
+u
+f
+y
+
+
+(
+/ )
+/
+( / ).
+τ
+τ
+ν
+δ
+=
+−
+	
+(101)
+This seems at first to be an unjustifiable assumption, since the inner 
+expression f1 has been derived by neglecting the Reynolds stress, whereas 
+the outer function on the right side of (101) is assumed to hold if and 
+only if the Reynolds stress is dominant. The principal justification for 
+(101) is that it leads to conclusions that compare well with experiments, 
+namely a logarithmic velocity profile that will be derived later. First, how­
+ever, a mathematical justification for (101) can be found from the concept 
+of matched asymptotic expansions. Thus, the inner approximation should 
+hold when y/δ ≪ 1, and the outer approximation if uτy/ν ≫ 1. Can both 
+these inequalities hold simultaneously for some suitable values of the dis­
+tance from the wall y? In other words, can an intermediate value of y be 
+found such that ν/uτ ≪ y ≪ δ? Clearly this is possible, provided ν/uτ ≪ δ or

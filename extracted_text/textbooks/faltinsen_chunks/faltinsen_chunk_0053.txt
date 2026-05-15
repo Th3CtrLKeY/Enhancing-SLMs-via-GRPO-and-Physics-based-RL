@@ -1,0 +1,95 @@
+has zero forward speed. The velocity potential @ is determined from the following equations: ap vo ap _,_ in the fluid domain => + =0 4.19 Ox? * oy? Az? onz=0 (4.19) og outside the mean position -w? —= 4.20 wore oz 0 of the ship surface ( ) og =n dn; on the mean position (4.21) on dt of the ship surface op De =0 on s=-—h for finite water depth (4.22) [Vo|—0 when z—--~© for infinite water depth
+
+IIo NUMERICAL METHODS
+
+Radiation condition (4.23)
+
+Equation (4.19) is the three-dimensional Laplace equation for the
+velocity potential. Physically it means that the flow is incompressible and
+irrotational. Equation (4.20) is the classical linear free-surface condition
+for steady-state harmonic oscillatory motion of circular frequency w (see
+equation (2.15)). Equation (4.21) is the body boundary condition which
+ensures no flow through the body surface. The unit normal vector
+n = (7, M2, M3) to the ship surface is defined to be positive when pointing
+into the fluid domain. The bottom condition (equation (4.22)) says that
+there is no flow through the sea bed. The radiation condition (equation
+(4.23)) has not been written in mathematical terms, but physically it is
+necessary to ensure that the waves propagate away from the ship. It may
+not be obvious a priori why we need a radiation condition. However, in
+deriving the details of the mathematical solution we will find an ambiguity
+if we do not enforce the radiation condition. Mathematically there is a
+possibility both for outgoing and incident waves, but the latter is
+impossible from a physical point of view. An example of an outgoing
+wave system in three dimensions and deep water is
+
+kz
+
+o~ ve sin(kr — wt + €) (4.24)
+
+Here r = (y? + 2”)? is a large horizontal distance from the body. If we had
+written sin(kr + wt + €) instead of sin(kr — wt + €) we would have had a
+circular incoming wave system. We note that @ and therefore also the
+wave amplitude decays like 1/\/r far away.
+
+It is possible to show that the solution to the boundary-value
+problem can be represented by a distribution of sources over the mean
+wetted hull surface. However, the source potential is not the same as we
+used in infinite fluid, i.e. equation (4.1). The potential has to be
+corrected so that (4.20), (4.22) and (4.23) are satisfied. Obviously the
+correction has to satisfy the Laplace equation. The strength of the source
+density is found by satisfying the body boundary condition (4.21).
+
+For infinite water depth Havelock (1942, 1955) has shown that the
+source potential can be written as the real part of
+
+G(x, y, 23 &, 0, Set = lz +
+Av (* ; Kolkr)
+— [ [vcosk(z + €)—k sink(z + Olay 3 dk
+
+—2avere* OY vr) + innever@* O7,¢y7) [ems (4.25)
+
+SOURCE TECHNIQUE Itt
+
+where i is the complex unit and
+R=(x-EY +(y—nY +(e - 6)
+R'=(x-EP+-nPt(e+ by
+
+r=((x- EP +(y— ny)?
+
+w?
+
+y=—
+&
+
+We should note that the expression is the same if we simultaneously
+
+interchange x with &, y with n and z with €.
+
+Further, 79 is the Bessel function of the first kind of zero order; Yo is
+the Bessel function of the second kind of zero order; Ky is the modified
+Bessel function of zero order, (see Abramowitz & Stegun, 1964). Other
+ways of writing the source potential can be found in Wehausen &
+Laitone (1960: pp. 475-9), together with expressions valid for finite
+water depth. Efficient ways of calculating these sources have been
+derived by Newman (1985). We can show that equation (4.25) satisfies
+the radiation condition in the form (4.24) by using asymptotic expansions
+for Bessel functions for large r-values (see Abramowitz & Stegun, 1964).
+We can write
+
+Re{(—Yo(vr) + ifo(vr))e"'*"}
++4( 5) cof) Jo
+
+where Re denotes the real part. This term is order of magnitude r~? (i.e.
+O(r7}) for large values of r. We easily see that the two first terms in the
+brackets in equation (4.25) are O(r~') for large values of r. Since Ky is
+exponentially small for large r and the integrand is always finite, the third
+term in the brackets can be shown to be negligible compared with the
+last two terms. This means we have shown that the source potential
+represents outgoing waves far away from the source point. It is also
+possible to show that the free-surface condition (equation (4.20)) is
+satisfied. Fig. 4.4 shows a picture of the wave system caused by a source.
+It is possible to show from equation (4.25) that
+
+14 |e when w—>0 (4.26)
+
+Ge7i#t_, late

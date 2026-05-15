@@ -1,0 +1,67 @@
+equation (2.2)). The area of vorticity close to the flat plate and outside the boundary layer is presented in Fig. 6.6. An example of the velocity and vorticity distribution across the vortex sheet, i.e. the area of FLAT PLATE 0.9 Uob= “0.65 m? s| Area of vorticity is shaded y of ve, | . Yo, Plate of breadth b Fig. 6.6. Area of vorticity close to an edge of a flat plate in cross-flow. (Adapted from Fage & Johansen, 1928.)
+
+182 CURRENT AND WIND LOADS
+
+Uw
+Ua
+Horizontal velocity
+-100 7
+U
+| %=0034
+Vorticity
+
+
+0.5 0.6 y/p
+
+Fig. 6.7. Example of horizontal velocity («) and vorticity (w,) distribution
+across the area of vorticity in Fig. 6.6. w, is defined by equation
+(6.9). Notation defined in Fig. 6.6. (Adapted from Fage & Johansen,
+1928.)
+
+WAKE BEHAVIOUR 183
+
+vorticity, is presented in Fig. 6.7. It is evident that the velocity has a
+strong gradient across the vortex sheet and that the flow velocity is small
+on the back side of the body.
+
+The amount of vorticity passing a section of the sheet per unit time can
+be estimated by
+
+“7/dv Ou
+K= [ (S-S)ugy (6.10)
+ly, \Ox oy
+
+where y; and y2 are y-coordinates outside the vortex sheet on the upper
+and lower side, respectively.
+
+When the vortex sheet is thin, we can neglect 9v/dx relative to du/dy.
+This means equation (6.10) can be written :
+
+1 Ou
+K=-[ Sudy=-4Ue- U2) (6.11)
+
+Here U, and U2 are respectively velocities at the outer and inner
+boundaries of the vortex sheet. Equation (6.11) applies also in the
+boundary layer. In this case y means the coordinate normal to the
+cylinder surface and u is the velocity component tangential to the
+cylinder surface. If equation (6.11) is applied at the separation point, we
+can write it as
+
+K=-1iU? (6.12)
+
+where U, is the tangential velocity just outside the boundary layer on the
+~~ Tf we imagine the vorticity stays concentrated in a vortex sheet leaving
+each separation point, we can relate 3U,’ to the rate of change of
+circulation OI'/dt around the vortex sheet. The circulation I can be
+
+written as
+r= V-ds (6.13)
+Cc
+
+where V is the fluid velocity and ds is an element of C. The integration
+curve C has to be closed, intersect the separation point and otherwise be
+outside the analysed vortex sheet and not intersect other vortex sheets.
+This is illustrated in Fig. 6.8, where we for simplicity have assumed that
+the vortex sheet (free-shear layer) is infinitely thin. The integration
+direction in equation (6.13) is in the counter-clockwise direction. Then
+for the vortex sheets leaving the two separation points A and B in Fig.

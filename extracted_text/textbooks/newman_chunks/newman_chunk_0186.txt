@@ -1,0 +1,129 @@
+η φ η φ η η (192) where second-order terms in ϕ and η are neglected. Applying this condi­ tion on the cut gives an equation for the vertical velocity component on y = 0, v x t t U x v x t x ( , , ) ( , ), . = ∂ ∂− ∂ ∂ ≡ − < < η η (193) This is the appropriate generalization of the boundary condition (22) for the steady-state lifting problem.
+
+Chapter 5
+While various techniques can be used to solve this problem, it is natural 
+to seek a generalization of the corresponding steady-state case and thus to 
+represent the foil and its wake by a distribution of vortices. With an obvious 
+extension of (59–60), the velocity components on the upper or lower sides 
+of this vortex sheet will be
+u
+x t
+x t
+±
+=
+( , )
+( , ),
+∓1
+2 γ
+	
+(194)
+and
+v
+x t
+t
+x d
+±
+−∞
+= −
+−
+∫
+( , )
+( , )
+.
+
+
+
+π
+γ ξ
+ξ
+ξ 	
+(195)
+The condition that the total circulation about the foil plus its wake should 
+equal zero requires that
+γ
+γ
+( , )
+( , )
+( )
+.
+x t dx
+x t dx
+t
+−∞
+−∞
+−
+∫
+∫
+=
++
+=
+
+
+
+Γ
+	
+(196)
+The linearized pressure is obtained as in (14), but includes the unsteady 
+contribution from (4.26). Thus
+p
+p
+t
+U
+x
+−
+= −
+∂
+∂−
+∂
+∂
+
+
+
+
+∞
+ρ
+φ
+φ . 	
+(197)
+The dynamic boundary condition on the wake requires that the jump in 
+(197) across the wake should be zero. Differentiating (197) with respect to x 
+and substituting (194), we get
+∂
+∂−
+∂
+∂
+=
+−∞<
+< −
+γ
+γ
+t
+U
+x
+x
+
+
+,
+. 	
+(198)
+This is a simple partial differential equation for γ whose general solution is
+γ
+γ
+( , )
+(
+),
+.
+x t
+x
+Ut
+x
+=
++
+−∞<
+< −1 	
+(199)
+Thus, as expected from Kelvin’s theorem, the vorticity is convected down­
+stream with velocity U and remains constant in a reference frame moving 
+with the fluid.
+If (196) is differentiated with respect to time and (198) utilized to inte­
+grate over the wake, it follows that

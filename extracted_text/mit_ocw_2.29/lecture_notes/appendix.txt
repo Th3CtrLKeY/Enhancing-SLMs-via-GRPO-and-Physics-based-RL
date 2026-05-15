@@ -1,0 +1,1630 @@
+[Page 1]
+APPENDIX
+Further Material on Panel Methods and Strip Theory
+
+---PAGE BREAK---
+
+[Page 2]
+Panel Methods
+
+13.024 Numerical Marine
+Hydrodynamics
+
+Alexis Mantzaris
+
+13.024 Numerical Marine Hydrodynamics
+
+During the last decade, advancements in computer technology have made
+possible the development of new classes of three-dimensional numerical tools
+for analyzing problems in Naval Architecture, such as ship wave resistance
+and motions.
+
+Early attempts to model ships in potential flow focused on variations of
+slender body and strip theory to study simplified body geometries and free
+surface conditions.
+
+As computing power increased, so did the development of three-dimensional
+methods. Of these, considerable attention has been received by boundary
+element or panel methods.
+
+---PAGE BREAK---
+
+[Page 3]
+Panel Methods at a Glance
+
+Distribute sources and dipoles on body
+Discretize
+
+Green’s Theorem gives system of equations
+
+for singularity strength on each panel in
+terms of boundary conditions
+
+Forces on body found from flow solution
+
+13.024 Numerical Marine Hydrodynamics
+
+Panel methods attempt to solve the Laplace equation in the fluid domain by
+distributing sources and dipoles on the body and, in some methods, on the free
+surface.
+
+These surfaces are divided into panels, each one associated with a source and
+dipole distribution of unknown strength.
+
+Green’s theorem relates the source and dipole distribution strength to the
+potential and normal velocity on each panel.
+
+The boundary conditions to be applied to the problem are often linearized and
+they determine either the potential or the normal velocity on each panel.
+
+Having solved for the unknown source and dipole strengths, Green’s theorem
+may be used to find the potential at any point in the fluid domain.
+
+Hydrodynamic forces are found from pressure integration and are used with
+Newton’s Law to determine motions.
+
+---PAGE BREAK---
+
+[Page 4]
+Cases to be Examined
+
+¢ Unbounded fluid flows
+
+~ Steady motion through unsteady flow field
+¢ Lifting flows
+
+— Forced motion in free stream
+
+Wave flows
+
+~ Ship under steady motion in calm water
+
+— Free motions of buoy in waves
+
+13.024 Numerical Marine Hydrodynamics
+
+Panel methods can ultimately solve complex problems involving free motions
+of forward moving vessels with lifting surfaces in incident waves. Jumping
+right in to the formulation of such a problem, however, would be rather
+overwhelming.
+
+We will, therefore, start by formulating a simple problem and move on to
+progressively more complex cases.
+
+---PAGE BREAK---
+
+[Page 5]
+Flow in Unbounded Fluid
+
+Non-lifting body in unsteady flow
+
+Unsteady incident
+
+/
+
+Total potential: = Ot 1) —Ux
+
+;
+
+Free stream
+
+Perturbation
+
+13.024 Numerical Marine Hydrodynamics
+
+Body advancing with speed U in an unsteady flow field
+Body-fixed coordinate system.
+Unit normal n, to body surface Sx, pointing out of fluid.
+Reasons to solve this problem:
+* Get pressure distribution on body
+* Determine added mass
+¢ Introduce techniques to be used with more complex problems
+Separate total potential into:
+* free stream potential
+* incident potential excluding free stream
+
+* perturbation from incident potential
+
+---PAGE BREAK---
+
+[Page 6]
+Body Boundary Condition
+
+(No flux condition)
+
+13.024 Numerical Marine Hydrodynamics
+
+The norma] velocity of fluid must be zero in the body-fixed coordinate system.
+
+Using the decomposition of total potential into its components, it follows that
+the normal velocity of the perturbation flow must be equal and opposite to the
+the incident flow, which is given.
+
+---PAGE BREAK---
+
+[Page 7]
+Boundary Integral Equation
+
+Green’s Theorem for field points on
+body surface, S,
+
+a
+o=>-Ih, [ose
+
+13.024 Numerical Marine Hydrodynamics
+
+The application of Green’s second identity transforms the boundary value
+problem stated previously into a boundary integral equation. This facilitates
+the numerical solution as the entire fluid volume does not have to be
+discretized.
+
+The integral over the part of the control surface at infinity vanishes because
+the flow sufficiently far from the body is undisturbed. The integrals over the
+connecting surfaces S* and S cancel each other out. So what is left defines the
+potential on the body in terms of a source (G) and dipole (dG/dn) distribution
+on the body surface. The strength of the source distribution is given by the
+magnitude of the normal velocity on the body, while the strength of the dipole
+distribution is equal to the magnitude of the potential on the body.
+
+For this particular problem, d@/dn is given from the boundary condition, while
+@ is unknown.
+
+---PAGE BREAK---
+
+[Page 8]
+Numerical Solution
+
+Discretize integral equation and
+substitute body BC
+
+0g,
+
+On,
+
+aG,
+2x9, +25 = LG; Un, -—+
+j Apo j
+
+System of linear equations for unknowng,
+
+13.024 Numerical Marine Hydrodynamics
+
+The body is discretized into n panels, each of area Aj.
+
+The singularity distribution on each panel can be constant, or of higher order.
+In any case, G;; is the potential at the control point of panel i, due the source
+distribution on panel /.
+
+Having a higher order distribution on each panel results in less panels needed
+for convergence and leads to a more robust way of calculating the tangential
+velocities on the body, if needed. More on higher order distributions later.
+
+In the above system of ” linear equations, the RHS is known from the body
+boundary condition. The potential on each panel may thus be found by a
+standard linear solver. The flow is hence completely specified.
+
+---PAGE BREAK---
+
+[Page 9]
+Hydrodynamic Forces and
+Moments
+
+; I, 1 ;
+
+— om. 1 . 8
+M = Fir gVO. VO, xr)
+
+13.024 Numerical Marine Hydrodynamics
+
+From the potential and its gradient on the body, it is straightforward to
+determine the pressure distribution and hence the hydrodynamic forces and
+moments.
+
+These forces are often linearized by assuming small perturbations about the
+free stream.
+
+---PAGE BREAK---
+
+[Page 10]
+Lifting Flows
+
+Forced motions in steady free stream
+
+13.024 Numerical Marine Hydrodynamics
+
+Lifting surfaces common in Naval Architecture include hydrofoils, rudders,
+control fins, sailboat keels and sails, and catamaran hulls.
+
+A special treatment is needed for such lift-producing bodies because the
+potential flow solution to the problem as previously formulated would include
+infinite velocities at the sharp trailing edge of the foil under angle of attack.
+
+In order to ensure a smooth flow at the trailing edge, which in real life is
+attained due to the presence § viscosity, the wake shed from the hydrofoil must
+be modeled.
+
+The problem examined here involves a hydrofoil performing small motions
+about a steady forward motion. So in addition to the effect of lift, there is a
+new element in the formulation of the boundary value problem. The body now
+moves with respect to the coordinate system, which is translating with a steady
+velocity, U.
+
+---PAGE BREAK---
+
+[Page 11]
+Wake Model
+
+Thin free vortex sheet
+
+Across wake:
+
+¢ Continuous normal velocity
+¢ Discontinuous potential Gump=A®)
+¢ Zero pressure jump:
+
+dAg _,dAQ _
+
+ae -y SP =9
+
+ot ox
+
+(Bernoulli, linearized about free stream)
+
+13.024 Numerical Marine Hydrodynamics
+
+The wake is modeled as a free vortex sheet shed downstream from the trailing
+edge of the foil. Mathematically this may be defined as a dipole distribution
+on a surface Sy, of zero thickness.
+
+The operator A denotes a jump in a quantity from one side of the wake to the
+other.
+
+Across the wake we have continuity of normal velocity and a jump in
+potential. The pressure on both sides of the wake should be equal because
+otherwise we would have infinite particle acceleration since the wake is
+infinitesimally thin.
+
+The wake can be shed either straight back, following the free stream, or it
+could have each point follow the total velocity induced at its location by both
+the foil and the rest of the wake. In general, however, the additional
+computational load and stability problems do not justify the slight increase in
+accuracy achieved by tracking the exact position of the wake.
+
+---PAGE BREAK---
+
+[Page 12]
+Kutta Condition
+
+e Requires zero pressure jump at trailing edge
+of foil.
+
+¢ This is ensured by continuity of potential,
+together with the condition of zero pressure
+jump across the wake
+
+D rE. body = Dip spake
+
+13.024 Numerical Marine Hydrodynamics
+
+The flow past a lifting body cannot be uniquely determined unless some
+additional condition is specified which sets the amount of circulation produced
+by the foil. As previously formulated, (without the wake) there would be no
+circulation and the velocity at the sharp trailing edge of the foil would be
+infinite.
+
+This situation may be avoided if a Kutta condition requiring tangential
+velocities at the trailing edge is enforced. An alternate way of enforcing this
+condition is to require continuous pressure at the trailing edge. In fact, this
+condition is preferred here because it can be easily linearized about the free
+stream.
+
+The requirement of zero pressure jump at the trailing edge in the wake is
+already satisfied as we saw before. Thus, by also requiring continuity of
+potential from the body into the wake at the trailing edge, the Kutta condition
+of zero pressure jump on the body is automatically satisfied.
+
+26%
+
+---PAGE BREAK---
+
+[Page 13]
+Forced Motions
+
+Displacement about frame of reference
+due to translation and rotation:
+
+5(%,t)=E,(t)+ eq (xz
+
+E&, =(€,6,,6) En =(E,,65,45)
+
+13.024 Numerical Marine Hydrodynamics
+
+Since for this problem the body is not fixed with respect to the coordinate
+system, we need to define its motions.
+
+The rigid body motions in six degree of freedom can be fully described by a
+translation and a rotation vector.
+
+The displacement of any point on the body with respect to its original position
+may be described in terms of these two vectors and its original displacement
+from the origin.
+
+---PAGE BREAK---
+
+[Page 14]
+_ Body Boundary Conditions
+
+Applied at exact body surface:
+
+on Ot
+
+Linearized and applied at mean position of body
+(assuming small body motions)
+
+13.024 Numerical Marine Hydrodynamics 13
+
+The boundary condition is defined in terms of the body motions in order to
+preserve the zero normal flux requirement.
+
+This condition should, strictly, be applied to the exact position of the body
+surface. This would require the re-discretization of the body surface at each
+time step. Although some panel methods take this approach to the problem,
+the solution becomes much easier numerically if the motions can be assumed
+small and can be linearized about the mean position of the body.
+
+The linear body boundary condition is derived by applying a Taylor expansion
+about the mean body position and retaining linear terms.
+
+---PAGE BREAK---
+
+[Page 15]
+Boundary Integral Equation
+
+Green’s Theorem for field points on
+the body
+
+2np + |[ o as +f A
+
+13.024 Numerical Marine Hydrodynamics
+
+Green’s theorem is used once more to derive the integral equations.
+
+As with the non-lifting case, the integral over the control surface at infinity
+vanishes. The integral over the connecting surfaces that run over the wake do
+not completely cancel each other, however, due to the discontinuity in
+potential across the wake. Instead, we get a term involving an integral over Sy
+of the potential jump multiplied by the dipole potential.
+
+The problem can no longer be solved by placing panels only on the body. The
+.wake also needs to be discretized.
+
+---PAGE BREAK---
+
+[Page 16]
+Numerical Solution
+
+Discretize and Fourier Transform
+integral equation, using body BC
+
+Nowy § QG,, Neate 0G,,
+2n0,+ ¥ 9, —~+ Ag,—=
+
+Nbouy
+
+= IG, f alé, “A; +& (5, xij )k Ulésn, —S6My }
+
+j=l
+
+13.024 Numerical Marine Hydrodynamics
+
+Due to the wake shed downstream, this problem has memory and thus the
+solution depends on the flow at previous time instances. This means that the
+solution has to be evolved in time, or needs to be solved by tanking the Fourier
+transform and solving for each frequency component present.
+
+The integral equation shown above is in the frequency domain, if the forced
+motions are sinusoidal. Solution in the time domain would require the
+numerical evaluation of the time derivatives.
+
+The system of equations shown above are simply the integral equation at each
+panel, with the body boundary condition substituted at the RHS.
+
+There are, however, more unknowns than integral equations due to the extra
+panels of unknown potential jump in the wake. The extra equations to close
+the problem are derived from the wake condition of zero pressure jump.
+
+---PAGE BREAK---
+
+[Page 17]
+Numerical Solution
+
+Wake Condition:
+
+To be solved simultaneously with integral equation
+
+at .E.... AQ wake = [Per — Plower Jha
+
+OAQ, _
+
+in wake... i@ Ag, -U 0
+
+13.024 Numerical Marine Hydrodynamics
+
+For a solution in the frequency domain, the wake condition is discretized and
+yields one extra equation for each panel in the wake.
+
+If the problem is solved in the time domain, the potential jump can be
+expressed exclusively in terms of the potential jump at panels during the
+previous time step. Instead of unknown potential jump on the entire set of
+wake panels, the only extra unknowns would thus be a strip of panels
+immediately downstream of the trailing edge of the foil. This reduces the size
+of the matrix to be solved, at the cost of having to evolve the solution in time.
+
+The wake condition involves the evaluation of spatial derivatives of the
+potential jump. We will examine methods for doing this later.
+
+---PAGE BREAK---
+
+[Page 18]
+Hydrodynamic Forces and
+Moments
+
+N body
+
+F =p [ioe -u 2+ *Ve ‘VQ, ji A;
+Xx
+
+7]
+
+i=]
+
+Npbody
+
+ii =p [ioe -USE+3¥9,-Ve, ix)
+i=l x
+
+13.024 Numerical Marine Hydrodynamics
+
+After having solved the flow, the calculation of the hydrodynamic forces and
+moments is again a matter of integrating the pressure distribution over the
+surface of the body.
+
+For steady flows it is also possible to determine the lift and drag based on a
+Trefftz plane integration:
+
+1 si2 ao
+D=—p { Aaa
+pl 5
+sl2
+L=pU [Addy
+
+where s is the span of the foil.
+
+---PAGE BREAK---
+
+[Page 19]
+Higher Order Potential
+Distribution
+
+Bi-quadratic B-Spline: )=
+
+13.024 Numerical Marine Hydrodynamics
+
+In general, the potential distribution on each panel is not constant.
+
+A B-spline representation, for example, represents the potential as a
+summation with weight c; of all basis functions B; centered on each panelj. A
+second order basis function is shown above. Note that the field point needs to
+be converted into local panel coordinates for the evaluation of the basis
+functions.
+
+The spline coefficients c;, determine the amount of contribution from each
+panel, and become the unknowns in the integral equations. Due to the overlap
+of the basis functions in determining the potential at the center of several
+panels, however, the unknown spline coefficients are still one per panel.
+
+A consequence of higher order B-spline distributions is that end conditions
+need to be specified at the edges of the spline sheets, so that the spline
+coefficients may be uniquely determined.
+
+Higher order singularity distributions require fewer panels to achieve
+numerical flow convergence. Note that similarly, geometrical convergence
+may be achieved faster if the surface is described not in terms of flat
+quadrilateral panels, but by B-spline surfaces.
+
+---PAGE BREAK---
+
+[Page 20]
+Evaluation of tangential
+derivatives
+
+99; Pin — Pi
+
+af hg
+
+constant distribution:
+
+ab, (€)
+3g b,(n)
+
+, el")
+higher order: 3E = Sic
+
+j
+
+13.024 Numerical Marine Hydrodynamics
+
+As already seen, there is a need for the calculation of the tangential velocity on
+a panel. This may be done by finite differences, and one example is shown
+above. Of course, any other finite differences scheme could be used, provided
+that it does not make the overall method unstable.
+
+If the potential distribution is of higher order then the tangential velocities can
+be found analytically from direct differentiation of the basis functions.
+
+Note that the above derivatives are given in panel local coordinates. Since the
+derivatives are usually required with respect to the global coordinate system, a
+transformation is needed for each panel.
+
+---PAGE BREAK---
+
+[Page 21]
+Free Surface Flows
+
+Steady ship motion in calm water
+
+Perturbation Free stream
+
+13.024 Numerical Marine Hydrodynamics
+
+The evaluation of the steady wave resistance of a ship has always been of great
+importance to Naval Architects. Three dimensional panel methods have the
+ability to estimate this quantity without resorting to expensive towing tank
+testing.
+
+We will formulate the problem of a ship advancing steadily through calm
+water, linearizing the solution about the free stream. The total flow is
+therefore broken down into a free stream and a small perturbation flow
+components.
+
+---PAGE BREAK---
+
+[Page 22]
+Free Surface Boundary
+Conditions
+
+Dynamic:
+zero total pressure on free surface
+
+og ,,0g 1
+=-p| “*-y 2£4-Vg.V =0
+Pa AF ata? +86 |
+
+Kinematic:
+particle on free surface remains there
+
+dQ
+—+Vo-V [z—]=0
+a }: ‘]
+C = wave elevation
+
+13.024 Numerical Marine Hydrodynamics
+
+Boundary conditions are required to determine the behavior of the flow near
+
+the free surface, and hence uniquely determine the solution.
+
+The dynamic condition requires the pressure at the free surface to be equal to
+the atmospheric pressure, which will be taken arbitrarily to be equal to zero.
+
+The condition is thus expressed by the Bernoulli equation above.
+
+The kinematic condition requires that a particle on the free surface remains on
+the free surface forever. This means that the material derivative of its vertical
+distance from the free surface should be zero.
+
+---PAGE BREAK---
+
+[Page 23]
+Linearization about Free Stream
+
+Kelvin boundary conditions
+
+0g, 99
+x ae 8S
+
+og 796 _ 96
+ot ox az
+
+13.024 Numerical Marine Hydrodynamics
+
+The free surface boundary conditions previously stated are non-linear and are
+to be applied at the exact position of the free surface, which is unknown. The
+numerical solution algorithm becomes much simpler and computationally
+efficient if these conditions can be linearized and applied to a known surface.
+
+The above linear conditions, also known as the Kelvin free surface boundary
+conditions, were derived using a Taylor expansion about z=0 for small wave
+elevations and slopes, and ignoring higher order terms.
+
+The wave elevation can, of course, be eliminated by combining the two
+equations, resulting in a condition involving only the perturbation potential
+and its temporal and spatial derivatives.
+
+---PAGE BREAK---
+
+[Page 24]
+Boundary Integral Equation
+
+0 0G
+ony = Joes, C on én a
+
+Take Kelvin wave source as the Green function
+
+As shown in hydrodynamics review of this course,
+waterline integral replaces integral over free surface:
+
+2n9 = ji,[o%e- eZ lass U Io® 9S | eat
+g Ox Ox |cosy
+
+wi
+Y = flare angle
+
+13.024 Numerical Marine Hydrodynamics 23
+
+Green’s theorem is used again to derive the integral equation, only this time an
+integral over the free surface is needed, as well as over the body. Using a
+Green function that satisfies the linear free surface conditions, however, the
+free surface integral may be collapsed into a waterline integral. This means
+that no panels are needed on the free surface.
+
+One difficulty is that the first derivative of the very complicated Green
+function is required, but this can be done numerically.
+
+Note that this formulation of the integral equation relies on the use of the
+linearized Kelvin boundary conditions. This is because Green functions
+satisfying any other free surface linearization are not readily obtainable.
+
+---PAGE BREAK---
+
+[Page 25]
+Numerical Solution
+
+Discretize Integral Equation and
+Substitute Body BC
+OG n
+
+i
+
+0G,, Ww
+229, +>.9, =" —Y> 9,
+'
+
+g jon 1 a h. COSY,
+
+=U)'G,n,, + = y6,
+Jj
+
+jam A, COS Sy j
+Linear system of equations for ~,
+
+13.024 Numerical Marine Hydrodynamics
+
+Discretizing the integral equation, a system of linear equations is obtained for
+the potential on each panel, as before.
+
+Care must be taken in evaluating the waterline integral, since the value of the
+potential on the free surface needs to be estimated from the potential on the
+body, which is often discretized only below the z=0 plane.
+
+---PAGE BREAK---
+
+[Page 26]
+Wave Resistance
+
+From Momentum Conservation
+
+_ PE fpr
+By = [|pn.as ; ot
+
+(Proof follows)
+
+13.024 Numerical Marine Hydrodynamics
+
+The wave resistance of a ship may be found from the above formula after the
+flow has been solved.
+
+The pressure should include the quadratic term in Bernoulli’s equation, even
+though terms of comparable magnitude have been omitted in the linearization
+of the free surface boundary conditions.
+
+If the quadratic terms are omitted, the resistance of full-shaped vessels is overpredicted. The reason for this is that close to such bluff bodies, which is where
+we are performing the pressure integration, the perturbation potential is
+actually of the same order as the free stream potential, so the linearization is
+not accurate.
+
+Linearizing about a double-body basis flow, as we will see later, solves this
+problem and the quadratic terms are not as important.
+
+---PAGE BREAK---
+
+[Page 27]
+Wave Resistance
+
+Conservation of Momentum
+
+Mp ff |2i+ve(vo-)|as=0
+
+SgUSp US
+
+13,024 Numerical Marine Hydrodynamics
+
+The proof of the formula given for the wave resistance follows from the
+application of the momentum conservation principle inside an appropriately
+chosen control volume of fluid.
+
+Within the enclosed volume, the rate of change of fluid momentum vanishes.
+
+Note that because of the radiation condition, the only surface at infinity where
+the integrand does not vanish is far downstream of the body, at S,.
+
+---PAGE BREAK---
+
+[Page 28]
+Control Volume at Exact Position
+of Fluid Surfaces
+
+Using boundary conditions:
+
+From radiation condition and Bernoulli:
+2 2 2
+__ PS fry, P p_(99) ,[ 99) ,( oe
+aa jee ar (2) (2) (2)
+
+C, is the intersection of S,,with z=0
+S, is the part of S,, lying below z=0
+
+13.024 Numerical Marine Hydrodynamics
+
+Taking the exact wetted surface of the hull, the exact position of the free
+surface, and S,,, as the control surfaces (all at rest with respect to the body) and
+using the body and free surface boundary conditions, the only terms that do not
+vanish are the pressure integration over the body wetted surface (which is
+defined as the non-linear wave resistance), and the momentum flux and
+pressure integration at infinity.
+
+The fluid velocity in the x and z directions may be found from the Kelvin free
+surface boundary conditions, and the fluid pressure from Bernoulli.
+
+The resulting expression is an exact representation of the wave resistance in
+terms of far-field quantities.
+
+---PAGE BREAK---
+
+[Page 29]
+Control volume at linearized
+position of fluid surfaces
+
+Using Kelvin boundary conditions and Bernoulli:
+
+a avy (ag) (apy
+fon as-peffeas fi] (22) (F| (Z| fesxc
+
+After application of Stokes theorem:
+PEE phe qe P2 [ergy Pf (f] (28) (20) (20)
+[Jpn.as 2 4.6 cosy 2 fe ¢y i Ge * oz as
+
+RHS is equal to wave resistance, Ry, from momentum
+conservation in control volume bound by exact surfaces
+
+13.024 Numerical Marine Hydrodynamics
+
+Repeating the same procedure for a control volume bound by the linearized
+free surface (z=0 plane), the body below z=0, and the same surface at infinity,
+a similar expression is derived. This time, the momentum flux across the free
+surface does not vanish because the normal fluid velocity at z=0 is not zero.
+The Kelvin conditions are used to express the fluid velocities on the free
+surface in terms of the wave elevation.
+
+Finally, an application of Stokes theorem transforms the surface integral over
+the z=0 plane to a pair of line integrals at the body and at infinity.
+
+The line integral along with the surface integral at infinity are recognized as
+the wave resistance as previously derived using a control volume bound by the
+exact free surface.
+
+An expression is therefore derived for wave resistance in terms of near-field
+quantities, starting from the principle of momentum conservation. Comparing
+this expression to the one derived from pressure integration, we observe that
+they are similar, but the waterline integral terms have the opposite sign!!
+
+This paradox is due to the inconsistency of retaining second order terms in the
+definition of wave resistance, but omitting them from the free surface
+linearization, as previously mentioned. As the beam of the ship approaches
+zero, the waterline integral term vanishes and the two definitions are in
+agreement.
+
+---PAGE BREAK---
+
+[Page 30]
+Free Surface Flows
+
+Free Motions of Body in Waves
+
+Zero forward speed
+
+Unsteady incident
+
+z
+
+y
+
+Total potential: GD = p+ ~p
+
+Perturbation
+
+13,024 Numerical Marine Hydrodynamics
+
+The determination of the motions of floating bodies in waves is another
+problem of interest to ocean engineers. Here we will examine the panel
+method solution of a buoy in incident monochromatic waves. Solutions to
+more complex problems with forward speed and multiple frequencies can be
+easily obtained by a simple extension of this problem and the previous one
+examined.
+
+Since there is no forward speed in this problem, the total potential is divided
+into the incident wave and perturbation potentials.
+
+---PAGE BREAK---
+
+[Page 31]
+Solution Method
+
+System of Equations: Unknowns:
+
+¢ Boundary Integral ¢ Potential on each
+Equation panel
+
+¢ Body Boundary ¢ Normal Velocity on
+Condition each panel
+
+° Equations of Motion ¢ Body motions
+
+13.024 Numerical Marine Hydrodynamics
+
+So far the motions of the body have been prescribed, which resulted in the
+body boundary conditions being completely specified. For freely floating
+bodies in waves, however, the body boundary condition is a function of the
+motions, which are unknown. The motions are connected to the hydrodynamic
+forces through the equations of motion to close the problem.
+
+---PAGE BREAK---
+
+[Page 32]
+System of Equations
+
+Boundary integral equation
+
+Sy
+
+on ) ox ox | cosy
+
+8 ow
+
+Body boundary condition
+
+9g _
+on
+
+13.024 Numerical Marine Hydrodynamics
+
+As before, the body boundary condition may be substituted into the integral
+equation. This time, however, the body motions are unknown, so the integral
+needs to be solved simultaneously with the equations of motion.
+
+---PAGE BREAK---
+
+[Page 33]
+Equations of Motion
+
+Mé+Cé = floes Vo. voids
+
+0 = 67 +OXX (n,,n,,n,)=ii
+
+Sr =(¢,,4,.65) (n,,ns,Ng)= XX
+
+E, = (€,,65,66) M = inertia matrix
+
+& =(€,6,,6,,6,,6,) C = matrix of restoring coefs
+
+13.024 Numerical Marine Hydrodynamics
+
+The equations of motion balance the inertia forces and the hydrostatic
+restoring forces with the hydrodynamic forces obtained from the flow solution.
+
+A notation is adopted that merges the translation and rotation vectors so that
+the equations of motion become a six-dimensional matrix equation, balancing
+both forces and moments.
+
+---PAGE BREAK---
+
+[Page 34]
+Rankine Panel Methods
+
+Panels both on body and free surface
+Boundary integral equation becomes:
+
+229 = Sf, “s jose - oe dS
+
+Use Rankine source (G=1/4mr) as elementary
+singularity
+
+Boundary conditions determine potential and
+normal velocity on free surface
+
+Linearize about basis flow (double body)
+
+13.024 Numerical Marine Hydrodynamics
+
+Rankine panel methods distribute panels on both the body and the free surface.
+They thus have a greater freedom in the free surface boundary conditions that
+they can apply. This comes at the expense of introducing extra errors due to
+the discretization of the free surface.
+
+The integral equation retains the free surface term (without collapsing it into a
+waterline integral as with Neumann-Kelvin methods) and thus has extra
+unknown source and dipole distributions associated with the free surface
+panels. These are found from the dynamic and kinematic free surface
+boundary conditions.
+
+Another advantage of Rankine panel methods is that they do not have to have
+their solution linearized about the free stream, which is rather poor especially
+near the ends of the vessel. Instead, they can linearize the solution about a
+double-body basis flow, which produces more accurate results.
+
+---PAGE BREAK---
+
+[Page 35]
+Discretization Issues
+
+¢ Distortion of the free surface
+— Dispersion
+— Damping
+¢ Stability
+— Spatial
+— Temporal
+¢ Radiation condition
+— Truncation errors and domain size sensitivity
+
+13.024 Numerical Marine Hydrodynamics
+
+A discrete free surface has a different dispersion relation than a continuous
+one.. For finite panel sizes spurious wavelengths smaller than five panel
+lengths are supported and need to be filtered out. Any damping of the
+numerical method (i.e. Rayleigh viscosity), so that the radiation condition may
+be satisfied, also affects the numerical dispersion relation.
+
+For a convergent numerical algorithm the numerical dispersion relation should
+approach the continuous dispersion relation in the limit of infinitesimally small
+panel sizes. The numerical dispersion relation results in stability criteria, from
+which required relations between quantities such as pane] dimensions, Froude
+number, time step, can be derived.
+
+Another difference between the continuous and numerical free surfaces is the
+truncation of the free surface. The condition at the edge of the computational
+domain should be such that the sensitivity of the solution to the size of the
+domain is minimized. One way of imposing the radiation condition so that
+reflected waves from the edge of the domain are minimized is to apply
+matching at some control volume around the fluid domain which contains a
+flow satisfying the radiation condition. An alternate (easier) way is to use a
+numerical beach where the kinematic boundary condition is modified to allow
+a mass flux through the free surface (Newtonian cooling), thus damping
+wavelengths less than about twice the extent of the beach.
+
+---PAGE BREAK---
+
+[Page 36]
+Linearization about basis flow
+
+ov oY
+= —=0 onS,
+
+‘on a
+
+basis flow
+
+™
+
+Total potential: OD=¥+@—Ux
+
+\
+
+free stream
+
+wave flow << ‘P
+
+13.024 Numerical Marine Hydrodynamics
+
+The Neumann-Keivin linearization assumes that the perturbation potential is
+small compared to the free stream. This assumption is not very good,
+especially near the bow and stern of a ship where the perturbation velocity is
+equal and opposite to that of the free stream.
+
+A better linearization for ships with forward motion is to divide the total
+potential into the free stream, perturbation, and basis flow potentials. The
+basis flow is usually taken to be the solution past the hull with the free surface
+treated as rigid walls. Since this problem can be solved by taking a mirror
+image of the hull below the waterline, this basis flow is also known as the
+“double-body” flow.
+
+---PAGE BREAK---
+
+[Page 37]
+Basis Flow Solution
+
+After discretization, solve basis flow
+as shown for bodies in unbounded
+fluid.
+
+Body Boundary Condition:
+OV
+
+—=Un,
+
+on
+
+13.024 Numerical Marine Hydrodynamics
+
+The double-body basis is a special case of a problem we have already seen. A
+stationary non-lifting body in an unbounded free stream is simpler than all the
+cases that we have examined thus far.
+
+The solution is obtained after the body is discretized and before proceeding to
+the wave flow. Note that the panels on the free surface are not needed for the
+solution of the basis flow.
+
+---PAGE BREAK---
+
+[Page 38]
+Wave Flow Body Boundary
+Conditions
+
+0p _006 .
+on ot
+
+linearized about basis flow, for small motions:
+
+13.024 Numerical Marine Hydrodynamics
+
+Since the forcing due to the free stream is accounted for in the basis flow, the
+body boundary condition for the wave flow component of the solution includes
+only the normal velocity due to the body unsteady motions.
+
+Taking a Taylor expansion about the mean body position, and ignoring higher
+order terms, a linear body boundary condition is derived. As before, the
+combined translation/rotation vector is used to describe the body motions.
+
+The m-terms provide a coupling between the basis flow and the unsteady wave
+solution, and their evaluation is important, especially near the ends of the ship.
+
+---PAGE BREAK---
+
+[Page 39]
+Wave Flow Free Surface
+
+Boundary Conditions
+linearized about ‘VY and applied at z=0
+Dynamic
+Ov 1
+
+0p _,,99
+oP pL 4 TY. Vg =-26 +U -— V8 -V
+ot ox P= 8b ox 2
+
+Kinematic
+
+av, a
+Oz? ot az
+
+oo yp 8 yy.ye=
+ot ox
+
+13.024 Numerical Marine Hydrodynamics
+
+The free surface boundary conditions are linearized assuming that the wave
+flow is small compared to the basis flow. As with the Kelvin condition, these
+linearized boundary conditions are applied at the z=0 plane.
+
+---PAGE BREAK---
+
+[Page 40]
+Numerical Solution
+
+For wave flow, To obtain:
+simultaneously solve:
+
+Boundary integral Potential on body and
+equation free surface
+
+Kinematic FSBC Normal Velocity on
+Dynamic FSBC body and free surface
+Body boundary Wave elevation
+condition Body motions
+Equations of motion
+
+13.024 Numerical Marine Hydrodynamics
+
+Rankine panel methods do not have the free surface boundary conditions
+satisfied automatically from the choice of Green function, and hence they need
+to be solved simultaneously with the integral equation, equations of motion,
+and body boundary condition.
+
+---PAGE BREAK---
+
+[Page 41]
+Non-Linear Methods
+
+¢ Higher order free surface boundary
+conditions
+
+¢ Body-exact formulations
+
+¢ Iterative linearization about a wave solution
+
+13.024 Numerical Marine Hydrodynamics
+
+¢ There are cases when the linearization of the free surface conditions is not
+sufficient. Computation of higher order solutions is essential for some
+problems such as drift motions, slamming, etc. It is possible to use Rankine
+panel methods to solve the second order free surface boundary condition, but
+this would, in general, no longer involve a system of linear equations. The
+solution would therefore need to be found using some sort of non-linear solver.
+
+* Body-exact methods discretize the body at its exact position at each time
+step, thus eliminating the error associated with the linearization of the free
+surface boundary conditions for large body motions. This can be very
+important, as seen from the inconsistencies that result when the body is only
+discretized below the z=0 plane.
+
+¢ Taking the linearization about the double-body basis flow one step further, it
+is possible to obtain the linear solution and linearize the free surface conditions
+about that.solution. Linearizing the flow iteratively about the previous
+solution, the full non-linear free surface conditions should be satisfied when
+convergence is reached. This approach is practical only for the steady flow
+problem, but even for the unsteady problem several methods exist that
+linearize the flow about flows such as the steady wave solution or the incident
+wave. With these methods it is usually necessary to discretize the body and
+the free surface after each iteration, thus adding to the computational load. An
+exception is for raised panel methods, discussed later.
+
+---PAGE BREAK---
+
+[Page 42]
+Raised Panel Methods
+
+Panels above z=0 plane
+
+¢ No free surface discretization necessary at each iteration
+
+* Influence coefficients of free surface panels to body
+collocation points calculated only once
+
+¢ Due to distance, h, the velocity field induced in the
+fluid domain from each panel is smoother
+
+13.024 Numerical Marine Hydrodynamics
+
+One successful way of implementing the body-exact iterative linearization
+about a basis wave flow is by using a “raised panel” method. Such methods
+place singularity distributions at a distance above the z=0 plane, with the
+collocation points still on the free surface.
+
+The benefits of such methods are that the free surface panels do not have to be
+re-created at each iteration, and the free surface to body influence coefficients
+need only be calculated once. The method also has nice numerical properties
+since the infinite velocities which are self-induced on each free surface panel
+are no longer in the fluid domain. In addition, the process of linearizing the
+flow about the previous solution is made more straightforward since the flow
+field at the last iteration is always defined at the next estimation of the position
+of the free surface.
+
+---PAGE BREAK---
+
+[Page 43]
+13.024 Numerical Marine Hydrodynamics
+
+---PAGE BREAK---
+
+[Page 44]
+Strip Theory
+
+Derivation of:
+¢ Hydrodynamic Coefficients
+
+¢ Exciting Force and Moment
+
+Assumptions:
+¢ Linear and harmonic motions
+
+* Viscous effects negligible
+
+---PAGE BREAK---
+
+[Page 45]
+Potential Flow Decomposition
+
+¢ Time-independent and time-dependent components
+®(x, y, z:t)=[-Ux+ 9, (x, y, z)]+o,(x, », ze
+
+¢ Incident, Diffraction, Radiation components
+
+br =) + b+ D6 0,
+
+-Ux+ 0g is the steady contribution with U the forward speed of the ship, $, is
+the complex amplitude of the unsteady potential, and w is the frequency of
+encounter in the moving reference frame. It is understood that the real part is
+to be taken in expressions involving ei
+
+$, is the incident wave potential, p is the diffraction potential, and 9; is the
+contribution to the potential from the j mode of motion (1=surge, 2=sway,
+3=heave, 4=roll, S=pitch, 6=yaw)
+
+The decomposition of the potential into the above components is convenient
+for the linearization of the boundary conditions, as will be seen later.
+
+---PAGE BREAK---
+
+[Page 46]
+Linearized Boundary Conditions
+
+¢ Steady Perturbation Potential
+
+, 0
+— Body BC: —|-+Ux+¢,]=0
+(applied at hull mean position) A) in
+
+— Free Surface BC: U? d Ps +2 CR —0
+(applied at 2=0) ax’ oz
+
+In order to linearize the boundary conditions it is assumed that the geometry is
+such that the steady perturbation potential $, and its derivatives are small.
+
+By assuming that the oscillatory motions are of small amplitude, the timedependent component of the potential, ,, and its derivatives may also be
+considered small.
+
+Under these assumptions the problem may be linearized by disregarding
+higher-order terms as well as cross-products on both , and y.
+
+The above expressions for the linear boundary conditions were derived from
+the exact body and free surface conditions by including only linear terms and
+applying Taylor expansions about the mean hull position in the body BC and
+about the undisturbed free surface (z=0) in the free surface BC.
+
+---PAGE BREAK---
+
+[Page 47]
+Linearized Boundary Conditions
+Incident and Diffracted Potentials
+
+, 0¢, Oa
+~ Body BC: % , 9% _¢
+(applied at hull mean position) on on
+
+— Free Surface BC: .
+(applied at z=0)
+
+where 6 is 6; or dp
+
+---PAGE BREAK---
+
+[Page 48]
+Linearized Boundary Conditions
+
+¢ Radiation Potentials
+
+~ Body BC:
+(applied at hull mean position)
+
+(applied at z=0) J
+
+— Free Surface BC: : ] ’ 0 () 0
+X
+
+dz
+
+U
+0 . $5 = $s +—¢)
+9,=¢; for j=1,2,3,4 i@
+
+o U.,
+$5 = 9% io
+
+It can be shown that the radiation body BC is given by:
+09g,
+285 ian .+Um,
+in J
+
+The m-terms provide a coupling between the basis flow $, and the timedependent potential.
+
+(n,m) =~(fi-V) Ee (mmama)=fa-¥) fe |
+
+(m,,m,,m,)=0
+(m,,ms,m,)=(0,n,-n;)
+ag;
+
+=ian,
+
+For our case, where: ¢, =—Ux we have:
+
+Let 9; =¢° +9" , where 6,° is speed independent and satisfies
+
+on the body, in addition to the Laplace equation and free-surface and infinity
+conditions.
+
+It then follows that: ¢; =O for j=1,2,3,4
+
+and =o
+O, =!
+
+---PAGE BREAK---
+
+[Page 49]
+Pressure Linearization
+
+¢ From Bernoulli:
+p= -o(io ad ape ~ pall, +0,y- Cx)e™
+
+buoyancy term ignored
+(included in hydrostatic restoring coefficient)
+
+Hydrodynamic force and moment:
+
+H,= -efn (io -0 5. a
+
+(integration over the mean position of hull)
+
+Similarly to the boundary conditions, the pressure is expanded as a Taylor
+series about the undisturbed position of the hull and the expression is
+linearized by neglecting quadratic and higher order terms in $s and $y.
+
+The hydrodynamic forces and moments, H, include the exciting forces as well
+as the forces due to the ship motions (added mass and damping forces). They
+do dot include the hydrostatic restoring forces which are included elsewhere.
+
+---PAGE BREAK---
+
+[Page 50]
+Hydrodynamic Forces
+
+A, =F + DT so
+=1
+
+— Exciting Force & Moment
+
+F,=-pf nfio-0 slo +@, ds
+
+— Radiation Force & Moment
+. a .
+T,=~plf nfio-us pas =A, -i0B,
+
+— Need A, B, F to get equation of motion
+
+T;, is the hydrodynamic force in the j* direction, due to a unit oscillatory
+displacement in the k"* direction.
+
+The real and imaginary parts of this force is proportional] to the added mass
+and damping coefficients respectively. These coefficients, along with the
+exiting force, will be expressed in terms of integrals of the sectional (2D)
+coefficients over the length of the hull.
+
+The equation of motion of the ship will then be fully specified:
+
+Ybo(u, +Ax )+i@B, +C, |g, =F,
+
+k=1
+
+---PAGE BREAK---
+
+[Page 51]
+Radiation Forces
+
+¢ Variant of Stokes’ Theorem
+
+[fn Las=ufmpds—u nga
+s s Cn
+
+¢ From which:
+T;, = -pio|. njP,ds+ Up|f m ds -Upl., njo,dl
+eH
+Ty
+¢ Use the decomposition of the radiation potential to
+express T,, in terms of speed-independent terms
+
+In deriving the variant of Stokes’ theorem, a small angle between the waterline
+and the x-axis is assumed. S is the hull surface forward of the cross section
+Ca.
+
+As we did for the radiation potential, we can divide the hydrodynamic force
+into speed-independent and speed-dependent components. The speedindependent components are defined as follows:
+
+A _ . 0
+Ty = = —pio|, n iPr ds tin =—pio|. n@, ds
+Then, using the properties of the radiation potential, we have:
+for j,k=1,2,3,4: for j=1,2,3,4:
+U UU U? ,
+Ty =T° + U_ tA Ts =T,3 + Diet io —ts- oD zhi
+ia t;
+
+y U U’?,
+
+0 0
+
+Ti = Ts T0 Ty +g tt
+i@ ia a
+
+for k=1,2,3,4: and finally:
+U U?,
+U U Ts = Tog + 13+ 155 -te
+T., =T® -—T> +— 14 55 = 455 + at 55 53
+5k Sk io 3k io Sk j i@ o
+u U _7o,U ag Ux, U
+Tg, =Ta + jo? —it Tog =To5 + eee +— io l66 P* a
+
+---PAGE BREAK---
+
+[Page 52]
+Strip Theory Approximations
+
+¢ Length >> Beam, Draft
+
+ds = d&dl => T, =-pia| [n,gfdlaé = [t,dé
+LC, L
+
+f) da
+ox ody az
+n, =N.
+
+(j =2,3,4)
+N: 2D normal
+
+<< n,n, > {ns =—-XN.
+” ; ° ° n: 3D normal
+
+f)
+uj a
+@>> &
+
+n, =xN,
+
+The above approximations are all consistent with the trip theory assumption of
+a long and slender ship.
+
+The last condition, which states that the frequency of encounter is high,
+requires that the maximum wave length is of the same order as the ship’s
+beam. This enables us to simplify the radiation potential free surface
+condition so that ° is indeed speed-independent as assumed.
+
+Under these assumptions, the 3D Laplace equation and the boundary
+conditions reduce to the 2D Laplace equation with the corresponding 2D
+boundary conditions.
+
+---PAGE BREAK---
+
+[Page 53]
+Radiation Forces in terms of 2D
+hydrodynamic coefficients
+
+Tz = finaé T= Jeaé Ta = feadé
+Ty=Te=[Etnd— Ty =T3=—[E tad Ty, =Ta = ftydé
+Tg = [etndé Ty = [Etadé Ty =Teq = [Eta
+
+All the rest T;,°=0, for ships with lateral symmetry
+
+where: 1, =—piw{[NOidl=@"a,-iab, for j=2,34
+c,
+
+fy = —piw | N,gpdl = WA, — 1b,
+Cc,
+
+From the assumptions of strip theory, the two-dimensional radiation potential
+at each section, w,, is equal to the three dimensional potential 0,° for sway,
+
+heave and roll:
+¢=y, for k=2,3,4
+
+In addition, from the hull condition, we have for pitch and yaw:
+
+$f =-xY, and $2 =xVW,
+
+and oo <<¢? for k=2...6
+
+The above relations were used in conjunction with the expressions for the
+sectional radiation forces and the strip theory approximations to get the zerospeed radiation forces in terms of the 2D forces.
+
+So from all the above, and from the relation between the speed-independent
+and speed-dependent components of the radiation force, we have all we need
+in order to express the added mass and damping coefficients in terms of the
+sectional two-dimensional added mass and damping.
+
+---PAGE BREAK---
+
+[Page 54]
+Incident Wave Exciting Forces
+
+Fi = -pffn{ tous. ra
+s =>
+
+ea F} =-pia, |[n,o,ds
+d, - & 7 k(xc0s B-ysin B) ke S
+QD
+
+(Froude-Kriloff force and moment)
+
+a: wave amplitude
+
+k: wave number
+
+B: heading angle
+
+@ : wave frequency, related to frequency of encounter by @,=a@+kUcosB
+
+---PAGE BREAK---
+
+[Page 55]
+Diffraction Forces
+
+FP =p ln iow 5 Pods
+e Using: 5
+
+— Stokes’ theorem
+— Hull BC
+— Green’s 2"4 identity
+
+FP =o sae Fareed fore
+
+we Bet
+
+The same form of Stokes’ theorem that was used for the radiation forces
+earlier is applied to the diffraction forces.
+
+The hull condition for the radiation potentials is then used to get products of
+potentials and normal velocities.
+
+Green’s identity, which involves such products, is then used to eliminate the
+radiation normal velocities (they get substituted by the diffraction normal
+velocities)
+
+The hull boundary condition is then used to replace the diffraction normal
+velocities by the negative of the incident wave normal velocities which are
+known.
+
+Use may then be made of the relations between the speed-independent and
+speed-dependent components of the radiation potentials to get an expression
+involving only the speed-independent components.
+
+Finally, the incident wave potential, which is a known quantity, may be
+substituted.
+
+---PAGE BREAK---
+
+[Page 56]
+Excitation Forces in terms of 2D
+sectional forces
+
+FccK, k=2...6
+U .
+F,=paf(f, +h,\dé + pa hi j=2,3,4
+L
+U U
+
+Fx pal +h) hs bes pa
+
+where: p,(x)=ge*o*? [Nje®™Fe%al (2D Froude —Kriloff)
+G
+
+h, (x)=a,e"°"? fan, —N, sin B)x enPeX or dl (2D diffraction)
+c,
+
+The excitation forces in terms of the sectional Froude-Kriloff and diffraction
+forces are derived from the previously derived expressions by making use of
+] the strip theory approximations.

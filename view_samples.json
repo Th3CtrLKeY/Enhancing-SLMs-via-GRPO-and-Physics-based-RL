@@ -1,0 +1,25 @@
+[
+  {
+    "question": "Calculate the drag force on a sphere with a diameter of 0.1 meters, moving through water at a velocity of 5 meters per second. Assume a drag coefficient of 0.47 and a water density of 1000 kilograms per cubic meter.",
+    "chain_of_thought": "The drag force (F_d) can be calculated using the formula F_d = 0.5 * \u03c1 * v^2 * C_d * A, where \u03c1 is the fluid density, v is the velocity, C_d is the drag coefficient, and A is the cross-sectional area of the sphere. The cross-sectional area of a sphere is given by A = \u03c0 * (d/2)^2, where d is the diameter. Substituting the given values, we get F_d = 0.5 * 1000 * (5)^2 * 0.47 * \u03c0 * (0.1/2)^2 = 0.5 * 1000 * 25 * 0.47 * \u03c0 * 0.0025 = 46.48 Newtons.",
+    "answer": "46.48",
+    "type": "numerical",
+    "source": "Newman - Marine Hydrodynamics \u2014 newman_chunk_0000.txt",
+    "source_file": "newman_chunk_0000.txt"
+  },
+  {
+    "question": "What is the primary mechanism of energy loss in a turbulent boundary layer?",
+    "chain_of_thought": "In a turbulent boundary layer, the primary mechanism of energy loss is due to the formation of eddies and vortices, which lead to an increase in the shear stress and a corresponding decrease in the flow's kinetic energy.",
+    "answer": "A",
+    "type": "mcq",
+    "source": "Newman - Marine Hydrodynamics \u2014 newman_chunk_0000.txt",
+    "source_file": "newman_chunk_0000.txt",
+    "options": {
+      "A": "Viscous dissipation",
+      "B": "Turbulent mixing",
+      "C": "Surface roughness",
+      "D": "Compressibility effects"
+    },
+    "explanation": "Viscous dissipation is the primary mechanism of energy loss in a turbulent boundary layer, as it accounts for the conversion of kinetic energy into heat due to the action of viscosity."
+  }
+]

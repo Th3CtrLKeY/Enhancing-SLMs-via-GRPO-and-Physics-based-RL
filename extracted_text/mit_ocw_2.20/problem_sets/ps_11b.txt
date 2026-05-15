@@ -1,0 +1,100 @@
+[Page 1]
+2.20 Problem Set 11B
+Name: ____________________ 
+1. Consider an approximate velocity profile within a laminar boundary layer over a wall 
+given by: 
+
+£¦
+¤¦ ¥ 
+
+a x  
+( )K 
+y 
+G ( )
+( )K + b x 
+x
+( ;  x)
+u y  
+< 
+(1)
+= 
+G
+( )
+U x  
+y p ( )
+x 
+K 
+measure of the boundary layer thickness at x. 
+(a) By applying one boundary condition at y =G which matches the boundary layer flow 
+with the outer flow U x
+( ) , obtain an algebraic relationship between a and b. 
+(b) Now write both a(x) and b(x) in terms of a new parameter /( ) such that the
+x 
+relationship between a and b found in (a) is maintained. In other words, find a( )
+/  and 
+b( )
+/ . 
+(c) Write the velocity profile (1) in terms of / instead of a and b. 
+w 
+(d) Using the assumed velocity profile and the x-momentum boundary layer equation 
+( ) and b x
+( )
+G ( ) , and a x  
+( ) are constants at any given x, and G x
+where 
+/ 
+is a
+y 
+x 
+
+s u 
+x 
+s u 
++ 
+U dU 
+s u 
++Q
+u 
+v 
+= 
+
+s
+s y
+y 
+evaluated at y = 0 , obtain an expression for / in terms of U, G , and Q . Also obtain an 
+expression for the pressure gradient dp / dx in terms of U ,U, / , G , and Q . 
+(Hint: Polhausen approach, but a different profile than the Lecture 17 notes - be careful) 
+(e) For what value of / is dp / dx zero? The pressure gradient is favorable when / is 
+[greater than, less than] the value _______ . 
+s 
+dx
+
+---PAGE BREAK---
+
+[Page 2]
+(f) For the velocity profile corresponding to dp / dx = dU / dx = 0, compute the (i) 
+*
+displacement thickness G , (ii) momentum thickness T , and (iii) wall shear stress W at
+
+( ) . Let U x
+any location x in terms of G x 
+( ) = U = constant in this case. 
+
+Assume U
+U  from this point on. This corresponds to uniform flow over a flat plate. 
+=
+
+(g) Derive a differential equation for G x
+( ) using the von Karman momentum integral 
+equation. 
+(h) Solve the differential equation in (g) for G x
+( )  with the boundary condition G (0) = 0 . 
+* 
+How do G ( )  /
+x
+x
+ 
+and T / x depend on the local Reynolds number Re x ? How does this 
+compare with the Blasius flat plate laminar boundary layer result? 
+2. Supplementary Problem Va22. 
+3. Supplementary Problem Va 24.

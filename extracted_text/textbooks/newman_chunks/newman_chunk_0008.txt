@@ -1,0 +1,55 @@
+H. Milgram, Owen H. Oakley, Jr., and Ronald W Yeung of MIT; Keith P. Kerney, Choung M. Lee, and Nils Salvesen of the David Taylor Naval Ship Research and Development Cen­ ter; Robert F. Beck and T. Francis Ogilvie of the University of Michigan; T. Yao-tsu Wu of the California Institute of Technology; Odd Faltinsen of the Norwegian Technical University; P. Thomas Fink of the University of New South Wales; and Ernest O. Tuck of the University of Adelaide. Former
+
+Preface 
+xxi
+students who have been particularly helpful in a variety of ways include 
+Elwyn S. Baker, Charles N. Flagg, George S. Hazen, Ki-Han Kim, James H. 
+Mays, and Paul J. Shapiro.
+The original illustrations are from the talented pen of Lessel Mansour. 
+The manuscript was typed with proficiency by Jan M. Klimmek, Jacqueline 
+A. Sciacca, and Kathy C. Barrington. My wife Kathleen helped with many 
+editorial tasks and has patiently endured the diversion of my time.
+
+1  Introduction
+Chapter 
+
+I
+n
+t
+r
+o
+d
+u
+c
+t
+i
+o
+n
+© Massachusetts Institute of TechnologyAll Rights Reserved
+The applications of hydrodynamics to naval architecture and ocean engi­
+neering cover many separate topics and range over a broad level of sophis­
+tication. The topics are as diverse as the propulsion and steering of ships 
+and the behavior in waves of a moored buoy or oil-drilling platform. 
+The former are classical problems of naval architecture, predated only 
+by Archimedean hydrostatics. The buoy and platform problems are more 
+recent from the standpoint of scientific and engineering analyses. The 
+degree of sophistication varies from empirical design methodology to the­
+oretical research activities whose justification is based on long-range hopes 
+of application.
+The fields of technology are also diverse, and to solve these problems 
+requires a knowledge not only of fluid mechanics but also of solid mechan­
+ics (to describe the mooring system especially), control theory (to represent 
+the mechanical and human systems involved), as well as statistics and ran­
+dom processes (to deal with the highly irregular environment of the ocean). 
+Here we shall focus our attention specifically on the hydrodynamic aspects, 
+emphasizing those unique to this field as opposed to the other engineering 
+disciplines where fluid mechanics is applicable.
+Faced with the choice between empirical design information and esoteric 
+theory, we will follow a middle course to provide the necessary background 
+for an intelligent evaluation and application of empirical procedures and 
+also serve as an introduction to more specialized study on the research end 
+of the spectrum. This approach has the advantage of being a compromise 
+between two viewpoints, which sometimes appear to conflict; it also uni­
+fies the seemingly diverse problems of marine hydrodynamics by exam­
+ining them not as separate problems but instead as related applications 
+of the general field of hydrodynamics. For example, propellers, rudders,

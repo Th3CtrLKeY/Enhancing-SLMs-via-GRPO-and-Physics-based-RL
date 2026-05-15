@@ -1,0 +1,217 @@
+− + i i ikx i t ( sin )exp( cos ), Ψ Ψ (112) where the functions Ψ2 and Ψ3 satisfy the boundary conditions ∂ ∂ = Ψ 2 N ny, (113) ∂ ∂ = Ψ 3 N nz, (114) on the body contour ∑B. From (113–114) it can be inferred that Ψ2 and Ψ3 are slowly varying functions of the longitudinal position along the ship length, in the same sense as the corresponding forced-motion potentials Φ2 and Φ3.
+
+Hydrodynamics of Slender Bodies 
+
+Operating with Laplace’s equation on (112), and neglecting longitu­
+dinal derivatives of Ψ2 and Ψ3, it follows that these are solutions of the 
+two-dimensional Laplace equation (12) to leading order in kB. However, 
+application of the free-surface condition (96–97) to (112) gives the bound­
+ary condition
+−
+−
+∂
+∂
++
+∂
+∂
++
+∂
+∂
+=
+=
+=
+ω
+ω
+
+
+
+
+
+
+
+
+
+2 3
+Ψ
+Ψ
+Ψ
+Ψ
+j
+j
+j
+j
+i
+U
+x
+U
+x
+g
+y
+y
+j
+,
+(
+, ).
+on 
+	
+(115)
+The only difference between the boundary-value problems for the func­
+tions Ψj and the corresponding forced-motion potentials Φj is that the 
+frequency of encounter ω appears in (97), whereas the incident wave fre­
+quency ω0 appears in (115). Thus the potentials Ψj can be regarded as forcedmotion potentials, with oscillation occurring at the incident wave frequency ω0, as 
+measured in a fixed reference frame.
+Restricting our attention to the vertical exciting force and moment, for 
+a ship with symmetry about the plane z = 0, the potential Ψ3 in (112) can 
+be neglected. Substituting (112) in (103), the contribution from ϕ7 to the 
+differential force is given by
+′ = −
+∂
+∂−
+∂
+∂
+
+
+
+
+=
+∂
+∂−
+∂
+∂
+
+
+
+
+−
+∫
+F
+t
+U
+x
+n dl
+A
+t
+U
+x
+i
+ikx
+y
+y
+x
+B
+
+
+
+ρ
+φ
+ρω
+Σ ( )
+exp(
+cos
+)
+[ exp(
+cos
+( )
+θ
+ω
+ω
++
+
+
+
+
+
+
+
+
+=
+∂
+∂−
+∂
+∂
+
+
+
+
+−
+∫
+i t
+n dl
+A
+t
+U
+x
+i
+ikx
+y
+x
+B
+Ψ
+Σ
+
+
+θ
+ω
+ω
++ i t Z x
+) ( ,
+)].
+
+(116)
+Here (104) has been used, along with the conclusion following (115).
+Adding the forces (109) and (l16), the differential exciting force is 
+obtained in the form
+′ =
+−
+−
++
++
+∂
+∂−
+∂
+∂
+
+
+
+
+F
+A
+g B x
+kS x
+ikx
+i t
+i
+t
+U
+x
+z
+yex
+{
+[ ( )
+( )]exp(
+cos
+)
+[ (
+ρ
+θ
+ω
+ω0
+x
+ikx
+i t
+,
+)exp(
+cos )
+]}.
+ω
+θ
+ω
+
+−
++
+	
+(117)
+Before integrating (117) along the ship length, we note the special case 
+of a cylindrical body with profile ∑B independent of x, such as the parallel 
+middle body of a ship, or a horizontal pipeline. In this case B, S, and Z are 
+constants, and (l17) reduces to the expression

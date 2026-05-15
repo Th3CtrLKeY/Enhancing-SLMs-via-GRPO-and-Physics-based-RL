@@ -1,0 +1,112 @@
+around bodies, we can determine in a qualitative way when flow separation occurs for subcritical flows. Consider a two-dimensional stationary body in a high Reynolds number flow. Outside the body the fluid domain extends to infinity. The boundary layer on the body surface is assumed to be thin and laminar. The ambient flow velocity U.. is written as U..= Uy sin(wt — vw) + U, (7.5) where Uy, U, are constants, ¢ is the time variable, w =22/T is the
+
+230 VISCOUS WAVE LOADS AND DAMPING
+
+circular frequency of oscillation and @ is a phase angle. We will select a
+so that U,, is zero at t=0. This means a = sin™'(U,/U,). Initially, the
+vorticity is zero. We will assume that U,/Uy<1. This means the
+ambient flow velocity changes direction with time.
+
+The flow will be analysed until the ambient flow velocity reaches its
+first maximum value, i.e. until wt = 2/2 + @ (see Fig. 7.2). At that time
+the free stream acceleration is zero. We will investigate for which
+KC-value and U,/Uy-ratios the flow separates during this initial time
+period. The separation criterion to be used is that the shear stress
+vanishes at a point on the body surface. This separation criterion is for
+purpose of estimation. It is not generally accepted for unsteady flow. If
+the flow has not separated when wt=2/2+ a i.e. when the force
+according to Morison’s equation (see equation (7.1)) is only due to drag
+forces, it is assumed that the flow separation has no influence on the drag
+forces. This idea has no meaning if the ambient flow never changes
+direction with time. The model is expected to behave better the smaller
+the ratio U,/Ux, is.
+
+Consider a coordinate system (x, y) where x and y are locally tangential
+and normal to the body surface. The tangential fluid velocity u in the
+boundary layer is approximated by
+
+ux, ys t) = U(X Vs t) + u(x, 9, t) +... (7.6)
+where up and zw, are first- and second-order approximations to u. From
+Schlichting (1979: p. 410) it follows that the boundary layer equations
+can be approximated by
+
+Uy _ y 37ug _ OU, t)
+
+at ay? at
+where U(x, t) is the tangential fluid velocity just outside the boundary
+layer. The boundary conditions are
+
+(7.7)
+
+Up = 0 at y=0 and up = U(x, t) at y=
+Further
+
+du, Ou, dU duo dup
+Hy Sy _ yg He ,
+a Oy Ox ae Oy (7.8)
+
+Fig. 7.2. Ambient flow velocity used in start-up flow studies (see equation
+
+(7.5)).
+
+FLOW SEPARATION 231
+
+with boundary conditions
+
+Ou,
+
+—=0aty=~
+
+oy
+
+In equation (7.8) vp is the first-order approximation of the vertical
+velocity in the boundary layer. When uy is known, it follows from the
+continuity equation and body boundary conditions that
+
+u,=Oaty=0,
+
+y
+Y=-| =dy (7.9)
+
+By solving a potential flow problem outside the boundary layer we can
+determine U(x, t). We write
+
+U(@, t) = (Um sin(wt — aw) + U.) P(x) (7.10)
+
+The approximate solution (equation (7.6)) has validity only during an
+initial phase when diffusion effects expressed by (equation (7.7)) dominate over convection effects. However, it is difficult to know a priori how
+large the values of wt can be for the solution to be valid.
+
+Equation (7.7) with boundary conditions can be solved analytically
+(Faltinsen (unpublished)). We can formally write the shear stress on the
+
+‘ body as
+
+= =o = V(S)umeeals + ous ,,| (7.11)
+
+where f,; and f, are independent of the body shape, but functions of
+U-/Usm, wand wt. Numerical results when U,/Uy, = 0 and aw = 0 in the
+form of 0.52f,/f. as functions of wt are presented in Fig. 7.3. When
+wt— 0, we see that f\/f.—> ©.
+
+It follows from equation (7.11) and the signs of f,; and f2, that
+separation (i.e. Ou/Ay |,29 = 0) can only occur when d@/dx is negative,
+which fits with our intuition about adverse pressure gradients. Further,
+initial separation will occur at the point of minimum d®/dx, which may
+or may not occur at the downstream stagnation point of the body. For
+bodies with a sharp corner d@/dx is infinite. From equation (7.11) it
+follows that separation occurs immediately at sharp corners.
+
+Let us study a circular cylinder. This means
+
+. x
+P(x) =2 sing
+
+with x =0 and x = 2R corresponding to the forward and aft stagnation
+
+- points on the cylinder. The separation condition for a circular cylinder
+
+can then be written as
+
+au x
+afi tf KC cos 5 = 0

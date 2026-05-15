@@ -1,0 +1,103 @@
+in the fluid. Also, since water is incompressible, i.e. V-V= 0, it follows that the velocity potential has to satisfy the Laplace equation 2 2. FE, FF, F8_9 (2.3) ox oy oz The complete mathematical problem of finding a velocity potential of irrotational, incompressible fluid motion consists of the solution of the Laplace equation with relevant boundary conditions on the fluid. We will show examples of boundary conditions later. The pressure p follows from Bernoulli’s equation. If we assume the
+
+14 SEA ENVIRONMENT
+
+z-axis to be vertical and positive upwards we can write
+
+p+ pez + pio 4e2y.vac (2.4)
+at 2
+
+where C is an arbitrary function of time. We will include the time
+dependence of C in the velocity potential and let C be a constant.
+Equation (2.4) is true for unsteady, irrotational and inviscid fluid motion.
+It is assumed that the only external force field is gravity. We will let z =0
+correspond to the mean free-surface level. The constant C can be related
+to the atmospheric pressure or the ambient pressure, as in equation
+(2.11).
+
+Kinematic boundary conditions
+For a fixed body in a moving fluid we have the body boundary condition
+
+= =0 on the body surface (2.5)
+Here 0/dn denotes differentiatién along the nosmal to the body surface.
+We will define the positive normal direction to be into the fluid domain.
+Equation (2.5) expresses impermeability, i.e. that no fluid enters or
+leaves the body surface. The tangential velocity component on a body
+surface in a potential flow problem is unspecified. If the body is moving
+with velocity U, equation (2.5) can be generalized to
+
+ap
+
+on U-n_ on the body surface (2.6)
+
+t se
+
+Here U can be any type of body velocity. For a rigid body it includes
+translatory and rotary motion effects in general. This means U may be
+different for different points on the body surface.
+
+Before we formulate the kinematic free-surface condition we recall the
+meaning of the substantial derivative DF/Dt of a function F(x, y, 2, ¢t).
+This expresses the rate of change with time of the function F if we follow
+a fluid particle in space. Mathematically we can express it as
+
+DF OF
+—=—4+V-VF 2.7
+Dt oa (2.7)
+where V is the fluid velocity at the point (x,y, 2) at time ¢.
+As an example let us define the free-surface by the equation
+
+2= (x,y, ¢) (2.8)
+where € is the wave elevation. We then define the function
+F(x, y, 2, th=2z- aCaan t)=0 (2.9)
+
+BASIC ASSUMPTIONS 15
+
+A fluid particle on the free-surface is assumed to stay on the freesurface. This means it always satisfies equation (2.9) and that DF /Dt = 0.
+The following kinematic boundary condition then applies on the
+free-surface
+
+F(a - Sey.) + V0 Ve S(x,y, )=0
+
+at apat apat ag
+
+—4+——~—+—>—-—=0 = E(x, y, 0 2.10
+
+31 * ax ax t By dy a 0 OR FEE 210)
+We have expressed here the fluid velocity V in equation (2.7) by the
+
+velocity potential @ (see equation (2.1)).
+
+Dynamic free-surface condition
+The dynamic free-surface condition is simply that the water pressure is
+equal to the constant atmospheric pressure pp on the free-surface. If we
+choose the constant C in equation (2.4) as po/p so that the equation holds
+with no fluid motion, then
+
+ar $e (J) (ZB) +B)
+on z=€(x,y¥,t) (2.11)
+
+The free-surface conditions (2.10) and (2.11) are non-linear. We do not
+know where the free-surface is before we have solved the problem.
+However, by linearizing the free-surface conditions we are able to
+simplify the problem and still get sufficient information in most cases. In
+the study of interactions between linear waves and linear wave-induced
+motions and loads on ships” ‘and offshore. structutes, the linear freeSurface condition will depend on the forward speed or the presence of a
+current, We assume here that the Structure has no forward speed and
+tinast ail . . . . .
+
+that the current is zero. Linear theory means that the velocity potential is
+proportional to the wave amplitude. It is valid if the wave amplitude is
+small relative to a characteristic wavelength and body dimension. By a
+Taylor expansion we can transfer the free-surface conditions from the
+free-surface position z = &(x,¥, t) to the mean free-surface at z= 0. By
+keeping linear terms in the wave amplitude we find from equations (2.10)
+
+and (2.11) that
+
+a _ 26
+
+on z=0 (kinematic condition) (2.12)
+ot OZ
+
+got+ = =0 on z=0 (dynamic condition) (2.13)

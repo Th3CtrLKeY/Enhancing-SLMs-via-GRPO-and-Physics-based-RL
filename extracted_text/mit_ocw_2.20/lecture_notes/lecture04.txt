@@ -1,0 +1,541 @@
+[Page 1]
+Lecture 4 
+ - Marine Hydrodynamics 
+Lecture 4 
+Introduction 
+Governing Equations so far: 
+Knowns 
+Equations 
+# 
+Unknowns 
+# 
+density 
+ρ(⃗x, t) 
+body force Fi 
+Continuity 
+(conservation of mass) 
+Euler 
+(conservation of momentum) 
+
+
+velocities vi(⃗x, t) 
+stresses 
+τij (⃗x, t) 
+
+⃝6 
+
+
+⃝ 3 of the 9 unknowns of the stress tensor are eliminated by symmetry 
+The number of unknowns (9) is > than the number of equations (4), i.e. we don’t have 
+closure. We need constitutive laws to relate the kinematics vi to the dynamics τij . 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+̸ 
+1.9 Newtonian Fluids 
+1. Consider a ﬂuid at rest (vi ≡ 0). Then according to Pascal’s Law: 
+τij = −psδij (Pascal’s Law) 
+⎡ 
+⎤ 
+−ps 
+
+
+⎦
+τ = ⎣ 0 
+−ps 
+
+
+
+−ps 
+where ps is the hydrostatic pressure and δij is the Kroenecker delta function, equal 
+to 1 if i = j and 0 if  i = j. 
+2. Consider a ﬂuid in motion. The ﬂuid stress is deﬁned as: 
+τij ≡
+−pδij 
++ 
+τˆij 
+  	 
+	 
+isotropic components 
+all non-isotropic components 
+on diagonal 
+both on/oﬀ diagonal 
+where p is the thermodynamic pressure and ˆτij are the dynamic stresses. It should 
+be emphasized that −pδij includes all the isotropic components of the stress tensor 
+on the diagonal, while ˆτij represents all the non-isotropic components, which may or 
+may not be on the diagonal (shear and normal stresses). The dynamic stresses ˆτij is 
+related to the velocity gradients by empirical relations. 
+Experiments with a wide class of ‘Newtonian’ ﬂuids showed that the dynamic stresses 
+are proportional to the rate of strain. 
+τij 
+Newtonian Fluid 
+Fluid 
+∂uk 
+∂x m
+
+---PAGE BREAK---
+
+[Page 3]
+  	  
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+   	 
+
+ 
+ 
+τˆij ≈ linear function of the 
+( rate of strain 
+≡ 
+velocity gradient) 
+ 
+	 
+ 
+	 
+∂
+∂X 
+∂
+∂X 
+∂uk 
+= 
+∂t
+∂x 
+∂x
+∂t 
+∂xm 
+u 
+∂uk
+i.e. τˆij ≈ 
+αijkm 
+i, j, k, m = 1, 2, 3 
+  	  
+∂xm 
+34=81 
+empirical coeﬃcients 
+(constants for Newtonian ﬂuids) 
+For isotropic ﬂuids, this reduces to: 
+∂ui 
+∂uj 
+∂ul
+τˆij = μ 
++
++ λ
+,
+∂xj 
+∂xi 
+∂xl 
+∇·⃗v 
+The ﬂuid properties in the previous relation are: 
+• μ - (coeﬃcient of) dynamic viscosity. 
+• λ - bulk elasticity, ‘second’ coeﬃcient of viscosity 
+∂ui 
+For incompressible ﬂow, we have shown that ∇· ⃗v = 
+= 0.  
+∂xi 
+Therefore, for an incompressible, isotropic, Newtonian ﬂuid the dynamic or viscous 
+stresses ˆτij are expressed as: 
+∂ui 
+∂uj
+τˆij = μ 
++ 
+∂xj 
+∂xi
+
+---PAGE BREAK---
+
+[Page 4]
+ 
+1.9.1 Discussion on viscous stresses τˆij 
+1. Verify that for ⃗v = 0 we recover Pascal’s law. 
+∂ui 
+Proof: ⃗v = 0  ⇒ 
+= 0  ⇒ τˆij = 0  ⇒ τij = −pδij + 0 ⇒ hydrostatic conditions 
+∂xj 
+2. Verify that ˆτij = τˆji. 
+∂ui 
+∂uj
+Proof: ˆτij = μ 
++
+= τˆji ⇒ symmetry of stress tensor 
+∂xj 
+∂xi 
+3. When ˆτij , i = j the viscous stress is a normal stress and is given by: 
+∂ui
+τˆii = 2μ ∂xi 
+The normal viscous stresses ˆτii are the diagonal terms of the viscous stress tensor. 
+The ˆτii in general are not isotropic. 
+4. When ˆ
+̸ j the viscous stress is a shear stress and is given by: 
+τij , i =
+∂ui 
+∂uj
+τˆij = μ 
++ 
+∂xj 
+∂xi 
+The shear viscous stresses ˆ
+̸ 
+j are the oﬀ diagonal terms of the viscous stress 
+τij , i = 
+tensor. 
+⎤
+⎡ 
+5. A 2D viscous tensor has the form: μ 
+⎢⎢⎣ 
+∂u 
+∂u
+∂v 
+
++ 
+∂x 
+∂y
+∂x 
+∂u
+∂v 
+∂v 
++
+
+∂y
+∂x 
+∂y 
+⎥⎥⎦ 
+6. Notation 1: The viscous stresses ˆτij are often referred to (somewhat confusingly) as 
+shear stresses, despite the fact that when i = j the viscous stress is a normal stress. 
+∂ui 
+∂uj
+7. Notation 2: Often τij ↔ τˆij and τij is used to denote μ 
+∂xj + ∂xi .
+
+---PAGE BREAK---
+
+[Page 5]
+ 
+ 
+	 
+  	  
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+   
+1.10 Navier-Stokes equations(for Incompressible, Newtonian Fluid) 
+Equations 
+# Unknowns 
+# 
+Continuity 
+1 velocities vi(⃗x, t) 
+
+Euler 
+3 stresses ˆτij (⃗x, t) 
+
+Newtonian 
+6 pressure p(⃗x, t) 
+
+ﬂuid symmetry 
+
+
+closure 
+To form the Navier-Stokes equations for incompressible, Newtonian ﬂuids, we ﬁrst substi­
+tute the equation for the stress tensor for a Newtonian ﬂuid, i.e. 
+∂ui 
+∂uj
+τij = −pδij + ˆτij 
+= 
+−pδij + μ 
++ 
+↑ 
+∂xj 
+∂xi
+Newtonian Fluid 
+into Euler’s equation: 
+Dui 
+∂τij
+ρ 
+= Fi + 
+Dt 
+∂xj 
+∂p 
+∂
+∂ui 
+∂uj
+= Fi − 
++ μ 
++ 
+∂xi 
+∂xj 
+∂xj 
+∂xi 
+∂p 
+∂2ui 
+∂ 
+∂uj
+= Fi − 
++ μ 
++ 
+∂xi 
+∂x2 
+j 
+∂xi 
+∂xj 
+Continuity = 0 
+Therefore the Navier-Stokes equations for an incompressible, Newtonian ﬂuid in cartesian 
+coordinates are given as: 
+Dui 
+∂ui 
+∂ui 
+1 ∂p 
+∂2ui 
+
+=
++ uj 
+= − 
++ ν 
+2 + Fi 
+Tensor form 
+Dt
+∂t 
+∂xj 
+ρ ∂xi 
+∂xj 
+ρ 
+D⃗v
+ ∂⃗v 
+
+
+=
++ ⃗v · ∇⃗v = −∇p + ν∇2⃗v + F⃗ 
+Vector form 
+Dt
+∂t
+ρ 
+ρ 
+where ν ≡ μ
+ρ denoted as the kinematic viscosity [ L2/T ].
+
+---PAGE BREAK---
+
+[Page 6]
+• Unknowns and governing equations for incompressible, Newtonian ﬂuids 
+Equations 
+# Unknowns 
+# 
+Continuity 
+1 pressure p(⃗x, t) 
+
+Navier-Stokes 
+3 velocities vi(⃗x, t) 
+
+
+
+• Values of constants (density, dynamic and kinematic viscosity) used in 13.021 
+water 
+air 
+units 
+density 
+ρ 
+
+
+[kg/m3] 
+dynamic viscosity 
+μ 
+10−3 
+10−2 
+[kg/ms] 
+kinematic viscosity ν 
+10−6 
+10−5 
+[m2/s] 
+• Notation 1: The Continuity and the Navier-Stokes equations form the Governing 
+Equations for incompressible, Newtonian ﬂuids. 
+Continuity + Navier-Stokes = Governing Equations 
+Dvi 
+1 ∂p 
+
+Notation 2: Alternatively, we refer to each equation Dt = −ρ ∂xi + ν∇ vi + 1 
+ρ Fi 
+as the ith Momentum Equation. In this case, the Continuity and the Momentum 
+equations form the Navier-Stokes System of Equations. 
+Continuity + Momentum Equations = Navier-Stokes System of Equations 
+Both notations are equivalent, and in this text it will be made clear from the context 
+when the term Navier-Stokes refers to the Momentum Equations or to the System of 
+Governing Equations.
+
+---PAGE BREAK---
+
+[Page 7]
+1.11 Boundary Conditions 
+In the previous paragraphs we formulated the governing equations that describe the ﬂow 
+of an incompressible, Newtonian ﬂuid. The governing equations (N-S) are a system of 
+partial diﬀerential equations (PDE’s). This 4 × 4 system of equations describes all the 
+incompressible ﬂows, from rain droplets to surface waves. 
+One of the reasons this system of equations provides such diﬀerent solutions lies on the 
+variety of the imposed boundary conditions. To complete the description of this problem 
+it is imperative that we specify appropriate boundary conditions. For the N-S equations 
+we need to specify ‘Kinematic Boundary Conditions’ and ‘Dynamic Boundary Conditions’. 
+1. Kinematic Boundary Conditions specify the boundary kinematics (position, ve­
+locity,  . . . ).  On  an  impermeable solid boundary, velocity of the ﬂuid = velocity of the 
+body. i.e. velocity continuity. 
+⃗v = ⃗u ‘no-slip’ + ‘no-ﬂux’ boundary condition 
+where ⃗v is the ﬂuid velocity at the body and ⃗u is the body surface velocity 
+· ˆ =  ⃗
+ˆ
+• ⃗v n
+u n
+· 
+‘no ﬂux’ ← continuous ﬂow 
+⃗v t
+· ˆ 
+u tˆ 
+‘no slip’ ← ﬁnite shear stress 
+• 
+= ⃗· 
+v v 
+u v
+
+---PAGE BREAK---
+
+[Page 8]
+2. Dynamic Boundary Conditions specify the boundary dynamics ( pressure, sheer 
+stress, . . . ).  
+Stress continuity: 
+p 
+= p ′ + p interface 
+τij = τij 
+′ + τij, interface 
+The most common example of interfacial stress is surface tension. 
+τ
+p interface, 
+ij interface 
+τij' 
+p' 
+τij
+p 
+1.12 Surface Tension 
+• Notation: Σ [Tension force / Length] ≡ [Surface energy / Area]. 
+• Surface tension is due to the intermolecular attraction forces in the ﬂuid. 
+• At the interface of two ﬂuids, surface tension implies in a pressure jump across the 
+interface. Σ gives rise to Δp across an interface. 
+• For a water/air interface: Σ = 0.07 N/m. This is a function of temperature, impurities 
+etc. . . 
+• 2D Example: 
+dθ 
+dθ 
+cos 
+· Δp Rdθ  = 2Σsin 
+≈ 2Σ dθ
+· 
+
+
+
+  	 
+  	 
+≈1 
+≈ dθ 
+
+∴ Δp = Σ 
+R 
+Higher curvature implies in higher pressure jump at the interface.
+
+---PAGE BREAK---
+
+[Page 9]
+ 
+ 
+ 
+p 
+Σ 
+Σ 
+p’=p+Δp 
+dθ 
+R 
+dθ/2 
+• 3D Example: Compound curvature 
+
+
+Δp = 
++
+Σ 
+R1 
+R2 
+where R1 and R2 are the principle radii of curvature. 
+1.13 Body Forces – Gravity 
+• Conservative forces 
+F⃗ = −∇ϕ for some ϕ, 
+where ϕ is the force potential. 
+
+
+F⃗ · d⃗x = 0  or  
+F⃗ · d⃗x = −
+∇ϕ · d⃗x = ϕ(⃗x1) − ϕ(⃗x2)
+
+---PAGE BREAK---
+
+[Page 10]
+  	  
+• A special case of a conservative force is gravity F⃗ = −ρgkˆ. 
+– In this case the gravitational potential is given by ϕg = ρgz. Therefore: 
+F⃗ = ∇(−ϕg) =  
+∇(−ρgz)
+= ∇ps 
+≡ hydrostatic pressure ps 
+– Substitute in Navier-Stokes equation 
+ρD⃗v = −∇p + 
+F⃗ 
++ρν∇2⃗v 
+Dt 
+	 
+body force 
+= −∇p + ∇(−ρgz) +  ρν∇2⃗v 
+– Deﬁne: 
+total pressure ≡ hydrostatic pressure + hydrodynamic pressure 
+p 
+= 
+ps 
++ 
+pd 
+p 
+= 
+−ρgz 
++ 
+pd 
+=⇒ 
+pd = p + ρgz 
+– Re-write Navier-Stokes: 
+D⃗v 
+ 
+ 
+ρ 
+= −∇ 
+p + ρgz 
++ ρν∇2⃗v 
+Dt 
+  	  
+pd = p + ρgz 
+D⃗v 
+ρ 
+= −∇pd + ρν∇2⃗v 
+Dt 
+Therefore: 
+– Presence of gravity body force is equivalent to replacing the total pressure by a 
+dynamic pressure (pd = p − ps = p + ρgz) in the Navier-Stokes(N-S) equation. 
+– Solve the N-S equation with pd. To calculate the total pressure p simply add 
+back the hydrostatic component p = pd + ps = pd − ρgz.

@@ -1,0 +1,246 @@
+point at the crest, and with the free surface inclined 30 degrees from the horizontal on each side of the crest. In deep water this will occur when the ratio of wave height to wave­ length is approximately 0.14, or about 1/7, as shown in figure 6.5. Details of this analysis are summarized by Wehausen and Laitone (1960). A description of nonlinear progressive waves was first derived in 1802 by Gerstner, who showed that the free-surface boundary conditions could be
+
+Waves and Wave Effects 
+
+satisfied exactly by a trochoidal2 wave profile. This trochoidal wave system 
+has been used extensively in the field of naval architecture, but it is scien­
+tifically deficient since the velocity field is not irrotational. The practical 
+appeal of the trochoidal wave results from the similarity of its appearance 
+to actual waves, but the same is true of the second-order Stokes wave profile 
+(37), which actually agrees with the second-order approximation of a tro­
+choid! Descriptions of the trochoidal wave system may be found in Lamb 
+(1932), as well as in Wehausen and Laitone (1960). Wehausen and Laitone 
+note that while the occurrence of vorticity in ocean waves cannot be ruled 
+out, due to viscous effects, the sign of vorticity in Gerstner’s wave is oppo­
+site that expected from the action of shear stresses due to wind blowing 
+over the free surface. In any event, the mechanism of wave generation by 
+wind involves more complex processes than a simple shear stress on the 
+interface, as discussed by Phillips (1966).
+6.5  Mass Transport
+One of the more interesting nonlinear features of plane progressive waves 
+is the occurrence of a second-order mean drift of the fluid particles, in the 
+same direction as the wave propagation. This effect can be calculated most 
+easily for the infinite-depth case, since the velocity potential (16) is exact 
+to second order in the wave amplitude. The existence of a net flux follows 
+because the horizontal velocity component (19) is equal in magnitude and 
+opposite in sign beneath the crest and trough, at points of equal depth y 
+below the mean free surface. Since u is positive beneath the crest, where the 
+total elevation of the fluid is greater, the total horizontal flux beneath the 
+Figure 6.5
+The “steepest wave” profile.
+
+Chapter 6
+crest will exceed that beneath the trough, and on the average a net mass 
+transport will occur.
+The orbital motion of a particular fluid particle can be computed in 
+terms of the Lagrangian coordinates [x0(t), y0(t)] which define the position 
+of a particle. These must satisfy the relation s
+dx
+dt
+u x y
+t
+
+
+
+= (
+, ),
+,
+	
+(41)
+dy
+dt
+v x
+y
+t
+
+
+
+= (
+,
+, ). 	
+(42)
+If x0 and y0 differ by a small amount, of order A, from the fixed position 
+(x, y), Taylor series can be used to expand (41–42) in the form
+dx
+dt
+u x y t
+x
+x
+u
+x
+y
+y
+u
+x
+O A
+
+
+
+
+=
++
+−
+∂
+∂
++
+−
+∂
+∂
++
+( , , )
+(
+)
+(
+)
+(
+), 	
+(43)
+dy
+dt
+v x y t
+x
+x
+v
+x
+y
+y
+v
+y
+O A
+
+
+
+
+=
++
+−
+∂
+∂
++
+−
+∂
+∂
++
+( , , )
+(
+)
+(
+)
+(
+). 	
+(44)
+Integrating (19) and (20) with respect to time gives the first-order trajectories
+(
+)
+sin(
+)
+(
+),
+x
+x
+u dt
+Ae
+kx
+t
+O A
+ky
+
+
+−
+=
+= −
+−
++
+∫
+ω
+	
+(45)
+(
+)
+cos(
+)
+(
+).
+y
+y
+v dt
+Ae
+kx
+t
+O A
+ky
+
+
+−
+=
+=
+−
++
+∫
+ω
+	
+(46)
+If these expressions are substituted with (19–20) in (43–44), it follows 
+that
+dx
+dt
+Ae
+kx
+t
+kA e
+O A
+ky
+ky
+
+
+
+
+=
+−
++
++
+ω
+ω
+ω
+cos(
+)
+(
+), 	
+(47)
+dy
+dt
+Ae
+kx
+t
+O A
+ky
+
+
+=
+−
++
+ω
+ω
+sin(
+)
+(
+). 	
+(48)
+The second-order vertical motion of a given particle of fluid is strictly 
+periodic, with the velocity given by (48), but the horizontal velocity (47) 
+contains a steady Stokes’ drift. Integrating (47) vertically with respect to all 
+particles of fluid −∞ < y0 < 0 yields the total mean flux
+Q
+A
+kA Vp
+=
+=
+
+
+
+
+
+
+ω
+. 	
+(49)

@@ -1,0 +1,174 @@
+Turbulent Boundary Layers: Closing Remarks Problems References 4 The Motion of an Ideal Fluid 4.1 Irrotational Flows 4.2 The Velocity Potential 4.3 Bernoulli's Equations 4.4 Boundary Conditions 4.5 Simple Potential Flows 4.6 The Stream Function 4.7 The Complex Potential 4.8 Conformal Mapping 4.9 Separation of Variables 4.10 Fixed Bodies and Moving Bodies 4.11 Green's Theorem and Distributions of Singularities 4.12 Hydrodynamic Pressure Forces 4.13 Force on a Moving Body in an Unbounded Fluid 4.14 General Properties of the Added-Mass Coefficients
+
+Contents 
+ix
+4.15 The Added Mass of Simple Forms 
+
+4.16 The Body-Mass Force 
+
+4.17 Force on a Body in a Nonuniform Stream 
+
+4.18 The Method of Images 
+
+Problems 
+
+References 
+
+5	 Lifting Surfaces 
+
+5.1 Two-Dimensional Hydrofoil Theory 
+
+5.2 Linearized Two-Dimensional Theory 
+
+5.3 The Lifting Problem 
+
+5.4 Simple Foil Shapes 
+
+5.5 Drag Force on a Two-Dimensional Foil 
+
+5.6 Two-Dimensional Source and Vortex Distributions 
+
+5.7 Singular Integral Equations 
+
+5.8 Three-Dimensional Vortices 
+
+5.9 Three-Dimensional Planar Lifting Surfaces 
+
+5.10 Induced Drag 
+
+5.11 Lifting-Line Theory 
+
+5.12 Cavity Flows 
+
+5.13 Symmetric Cavity Flows 
+
+5.14 Supercavitating Lifting Foils 
+
+5.15 Unsteady Hydrofoil Theory 
+
+5.16 Oscillatory Time Dependence 
+
+5.17 The Sinusoidal Gust Problem 
+
+5.18 Transient Problems 
+
+Problems 
+
+References 
+
+6	 Waves and Wave Effects 
+
+6.1 Linearized Free-Surface Condition 
+
+6.2 Plane Progressive Waves 
+
+6.3 Finite-Depth Effects 
+
+6.4 Nonlinear Effects 
+
+6.5 Mass Transport 
+
+6.6 Superposition of Plane Waves 
+
+6.7 Group Velocity 
+
+6.8 Wave Energy
+
+x 
+Contents
+6.9 Two-Dimensional Ship Waves 
+
+6.10 Three-Dimensional Ship Waves 
+
+6.11 The Method of Stationary Phase 
+
+6.12 Energy Radiation and Wave Resistance 
+
+6.13 Thin-Ship Theory of Wave Resistance 
+
+6.14 Wave Pattern Analysis 
+
+6.15 Body Response in Regular Waves 
+
+6.16 Hydrostatics 
+
+6.17 Damping and Added Mass 
+
+6.18 Wave-Exciting Force and Moment 
+
+6.19 Motion of Floating Bodies in Regular Waves 
+
+6.20 Ocean Waves 
+
+6.21 Motions of Bodies in Irregular Waves 
+
+Problems 
+
+References 
+
+7	 Hydrodynamics of Slender Bodies 
+
+7.1 Slender Body in an Unbounded Fluid 
+
+7.2 Longitudinal Motion 
+
+7.3 The Lateral Force 
+
+7.4 Ship Maneuvering: The Hydrodynamic Forces 
+
+7.5 Ship Maneuvering: The Equations of Motion 
+
+7.6 Slender Bodies in Waves 
+
+7.7 Strip Theory for Ship Motions 
+
+7.8 Slender Bodies in Shallow Water 
+
+Problems 
+
+References 
+
+Appendix: Units of Measurement and Physical Constants 
+
+Notes 
+
+Index
+
+Foreword
+F
+o
+r
+e
+w
+o
+r
+d
+John 
+Grue
+© Massachusetts Institute of TechnologyAll Rights Reserved
+I became acquainted with this book in 1980 while completing my master’s 
+degree in mechanics at the University of Oslo. After the North Sea oil boom 
+of the 1970s, it was apparent that there was a need for improved higher 
+education and research related to the oil industry. The University of Oslo 
+developed a curriculum in marine hydrodynamics, and interest in the field 
+grew rapidly as students signed up for the program. I was one of them.
+The course in marine hydrodynamics was offered for the first time dur­
+ing the 1980–1981 academic year, and has been lectured approximately 
+once a year since its inception. J. N. Newman’s textbook felt like a gift to 
+our cohort and to our professor, Enok Palm. The entire book comprised a 
+new curriculum with the exception of chapter 3, as viscous flow was cov­
+ered in other courses. Like us, Palm was new to the subject, so the course 
+was taught as a seminar. I was assigned the duty of giving lectures based 
+on the book because our professor believed that having the youngest (and 
+presumably the least experienced) student give the lectures would slow the 
+pace of the course. I presented two hours of lectures each week for the entire 
+academic year. During the lectures, Palm conducted a detailed examination 
+of all statements and deductions I wrote on the blackboard, and I fielded 
+questions from my classmates as well. By the end of the spring term, I knew 
+the book by heart. The following year, the entire research division of Det 
+Norske Veritas (now DNV GL) attended the course. This time, Enok Palm 
+lectured the course himself. “I just can’t ask a master’s student to teach such 
+an important course to the scientific leaders of Veritas,” he told me. I was 
+given the duty of leading the exercises instead.
+Reading this book—a real classic—has been the most defining experi­
+ence of my scientific career. I use it frequently in my teaching and scientific

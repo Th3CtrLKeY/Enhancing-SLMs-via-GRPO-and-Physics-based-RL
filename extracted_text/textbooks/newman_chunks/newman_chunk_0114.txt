@@ -1,0 +1,418 @@
+primary reasons for studying the fluid motion past a body is our desire to predict the forces and moments acting on the body due to the dynamic pressure of the fluid. Thus, we wish to consider the six com­ ponents of the force and moment vectors, which are represented by the integrals of the pressure over the body surface, or F n = ∫∫p dS SB , (81) M r n = × ∫∫p dS SB ( ) . (82)
+
+The Motion of an Ideal Fluid 
+
+Here, the normal vector n is taken to be positive when pointing out of the 
+fluid volume and hence into the body. Substituting for the dynamic pres­
+sure from Bernoulli’s equation, we get
+F
+n
+= −
+∂
+∂+
+∇⋅∇
+
+
+
+
+∫∫
+ρ
+φ
+φ
+φ
+t
+dS
+SB
+
+
+, 	
+(83)
+M
+r
+n
+= −
+∂
+∂+
+∇⋅∇
+
+
+
+
+×
+∫∫
+ρ
+φ
+φ
+φ
+t
+dS
+SB
+
+
+(
+)
+. 	
+(84)
+Equations (83) and (84) can be recast by using Gauss’ theorem,
+∇
+=
+∫∫∫
+∫∫
+f d
+f
+dS
+S
+
+
+n
+, 	
+(85)
+together with the transport theorem in equation (3.11). First let us sur­
+round the body by a fixed control surface SC, exterior to the body surface 
+SB as shown in figure 4.7. Thus SB + SC forms a closed surface, enclosing 
+a fluid volume ( )t . The rate of change of the fluid momentum in this 
+volume is
+ρ
+φ
+ρ
+φ
+ρ
+φ
+ρ
+φ
+d
+dt
+dS
+d
+dt
+d
+t d
+S
+S
+t
+t
+B
+C
+n
++∫∫
+∫∫∫
+∫∫∫
+=
+∇
+=
+∇∂
+∂
+
+
+
+
++
+∇
+
+
+
+
+( )
+( )
+(U n
+n
+U n
+⋅
+=
+∂
+∂
++ ∇
+⋅
+
+
+
+
++
++
+∫∫
+∫∫
+)
+(
+)
+,
+dS
+t
+dS
+S
+S
+S
+S
+B
+C
+B
+C
+ρ
+φ
+φ
+	
+(86)
+where first Gauss’ theorem and then the transport theorem have been used.
+Figure 4.7
+Fixed control surface SC surrounding the moving body surface SB.
+
+Chapter 4
+On the fixed control surface SC, U·n = 0, and the time-derivative and 
+surface integration can be interchanged. As a result, the first and last surface 
+integrals in (86) may be equated separately over SC and hence over SB. Using 
+the boundary condition ∂ϕ/∂n = U·n on the body surface gives
+ρ
+φ
+ρ
+φ
+φ
+φ
+d
+dt
+dS
+t
+n
+dS
+S
+S
+B
+B
+n
+n
+∫∫
+∫∫
+=
+∂
+∂
++ ∂
+∂∇
+
+
+
+
+. 	
+(87)
+Adding (87) and (83) gives the hydrodynamic pressure force in the alterna­
+tive form
+F
+n
+n
+= −
++
+∂
+∂∇−
+∇⋅∇
+
+
+
+
+∫∫
+∫∫
+ρ
+φ
+ρ
+φ
+φ
+φ
+φ
+d
+dt
+dS
+n
+dS
+S
+S
+B
+B
+/
+.
+
+
+(88)
+Moreover, using the divergence and Gauss theorems,
+∂
+∂∇−
+∇⋅∇
+
+
+
+
+=
+∂
+∂
+∂
+∂
+∇
+
+
+
+−
+∇
+∂
+∂
+
++∫∫
+φ
+φ
+φ
+φ
+φ
+φ
+φ
+n
+dS
+x
+x
+x
+S
+S
+j
+j
+j
+B
+C
+
+
+
+
+n
+
+
+
+
+
+
+
+
+
+
+
+=
+∇
+∂
+∂∂
+=
+∇∇
+∫∫∫
+∫∫∫
+∫
+
+
+
+d
+x x d
+d
+t
+j
+j
+t
+t
+
+
+
+
+
+
+( )
+( )
+( )
+φ
+φ
+φ
+φ
+∫∫
+= 0.
+	
+(89)
+It follows that the second integral in (88) may be replaced by the negative 
+of the same integral over SC to give the desired expression for the force
+F
+n
+n
+= −
+−
+∂
+∂∇−
+∇⋅∇
+
+
+
+
+∫∫
+∫∫
+ρ
+φ
+ρ
+φ
+φ
+φ
+φ
+d
+dt
+dS
+n
+dS
+S
+S
+B
+C
+
+
+. 	
+(90)
+A physical interpretation of this result can be inferred from the fact 
+that the second member of (86) is the rate of change of fluid momentum 
+enclosed between SB and SC, which must be equal to the sum of the external 
+pressure, forces acting on SB + SC plus the rate of flux of momentum across 
+SC. Thus
+F
+F
+n
+n
+B
+C
+S
+t
+S
+n
+dS
+d
+dt
+d
+d
+dt
+dS
+t
+d
+C
+B
++
++
+∂
+∂∇
+= −
+∇
+= −
+−
+∂
+∂
+∫∫
+∫∫∫
+∫∫
+ρ
+φ
+φ
+ρ
+φ
+ρ
+φ
+ρ
+φ
+
+( )
+S
+SC∫∫
+.
+	
+(91)
+If Bernoulli’s equation is used as in (83) to evaluate FC, (90) follows directly.
+Similarly, the relation

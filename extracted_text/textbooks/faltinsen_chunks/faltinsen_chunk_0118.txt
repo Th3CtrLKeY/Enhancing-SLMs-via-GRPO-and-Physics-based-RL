@@ -1,0 +1,88 @@
+x x x x x x BL re 1 D227, p20.22 b <> b x Experimental value, 0 =0 b Aas O Experimental value, 0 = 0,03 b {- B___| Q& Experimental value, D = 0.06 O 5 10 15 KC Fig. 7.10. Effect of bilge keels on the drag coefficient Cp at small KCnumbers. (KC = UyT/D, Um = ambient oscillatory flow velocity amplitude in the beam direction, T = oscillation period.) (Experimental results by Faltinsen & Sortland, 1987.)
+
+|
+
+244 VISCOUS WAVE LOADS AND DAMPING
+
+The discussion above for eddy-making damping of ship sections is
+summarized in Table 7.1.
+
+The discussion of eddy-making damping of slow-drift sway and yaw
+motion of a ship also has relevance for slow-drift damping of other
+structures, for example a TLP.
+
+SEPARATED FLOW AT HIGH KC-NUMBERS
+Knowledge of drag coefficients at high KC-numbers is important in
+predicting wave loads on jackets and risers in extreme weather
+conditions.
+
+Table 7.1
+
+Effect of: KC<=10 KC> +10
+Free surface no yes
+Beam/draught no yes/no
+Bilge keel yes yes
+
+Bilge radius yes yes
+
+Scale effect:
+
+(a) No sharp corners yes/no yes
+
+(b) Bilge keels no no
+
+measured
+a
+
+Co
+a
+
+1 D =—>
+
+r
+d
+
+0 0.5 27D 1.0
+
+Fig. 7.11. Drag coefficient Cp as a function of bilge radius r (¢/D = 1.0).
+(KC = UxT/D, Ux = forced harmonic velocity amplitude of the
+cylinder, T = oscillation period.) (Tanaka et al., 1982.)
+
+SEPARATED FLOW AT HIGH KC-NUMBERS 245
+
+Bearman et al. (1979) presented measurements of a series of twodimensional bodies in plane oscillatory flow for KC-values between 3
+and 70. They concentrated on bluff bodies with sharp-edged separation
+and measured the in-line force on a flat plate, square, diamond and
+circular cylinder. Beyond a KC-value of about 10 to 15 the curves for the
+flat plate, circular and diamond cylinders are remarkably similar, and by
+KC= 50 the Cp-values are all only a little higher than their steady flow
+values, Cp”. To demonstrate this similarity, the values of Cp above
+KC = 10 are shown plotted in Fig. 7.12 where they have been divided by
+their steady flow value. The square section cylinder showed a different
+trend.
+
+We will try to explain the results in Fig. 7.12 by estimating the
+increased effective incident flow due to returning eddies. In order to
+estimate the drag coefficient we will study the force when the ambient
+velocity
+
+U. = Ux sin wt (7.28)
+
+is a maximum or a minimum, i.e. at wf =(2n + 1)/2)a, n=0,1,...
+To illustrate the procedure we will study the force on the body when
+wt = 3/2. The eddies that for instance are created at wt = 7/2 then
+return as an increased incident flow.
+
+The circulation T° of the eddies will be estimated by a quasi-steady
+approach. Schmidt & Tilman (1972) measured the circulation of eddies
+as a function of longitudinal distance x from a circular cylinder in
+
+Co
+an
+2 © CIRCULAR CYLINDER
+° D DIAMOND CYLINDER
+15 + FLAT PLATE
+
+10 20 30 40 50 KC
+Fig. 7.12. The ratio between Cp ata given KC and Cp” at KC = @ (i.e. steady
+incident flow). (Bearman et al., 1979.)

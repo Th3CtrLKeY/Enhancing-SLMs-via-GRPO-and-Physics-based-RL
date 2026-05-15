@@ -1,0 +1,214 @@
+chosen in accordance with (62), it follows that U m m m U m x m U m x m U x m m M T S j T T S T T T T S + + − + − + + + ( ) ( ) ( ) ( ) ( σ ) . σ j = (72) The resulting quadratic equation is of the form A B C j j σ σ + + = , (73)
+
+Chapter 7
+where
+A
+m
+m
+m
+M
+S
+S
+=
++
++
+(
+)(
+),
+
+
+
+(74)
+B
+U m
+m
+M
+x
+m
+m
+T
+S
+T
+S
+=
++
++
++
+
+
+
+
+
+[(
+)
+(
+) (
+)], 	
+(75)
+C
+U
+mm
+m x
+m
+m
+S
+T
+T
+S
+= −
++
++
+
+
+
+
+[
+(
+)]. 	
+(76)
+The solutions of the quadratic equation (73) are given by
+σ
+σ
+
+
+
+1 2
+
+
+
+
+
+=
+−
+±
+−
+A
+B
+B
+AC
+[
+(
+)
+].
+/
+	
+(77)
+Figure 7.6
+The three cases where the stability indices σi are real and negative (a), complex (b), 
+or real and positive (c). The left figures show typical positions of the stability indices 
+in the complex plane, and the right figures show the corresponding solutions for the 
+ship motions, as functions of time, subject to an initial disturbance from equilib­
+rium. All scales are arbitrary.
+
+Hydrodynamics of Slender Bodies 
+
+It is clear that (74–75) will be positive quantities, whereas the sign of (76) is 
+uncertain since xT is negative. It follows that
+Re(
+)
+Re
+[
+(
+)
+]
+.
+/
+σ 2
+
+1 2
+
+
+
+
+=
+−
+−
+−
+{
+} <
+A
+B
+B
+AC
+	
+(78)
+However,
+Re(
+)
+Re
+[
+(
+)
+]
+,
+,
+,
+,
+/
+σ1
+
+1 2
+
+
+
+
+
+
+
+=
+−
++
+−
+{
+} <
+>
+>
+<
+A
+B
+B
+AC
+C
+C
+for 
+for 
+	
+(79)
+respectively. Thus C must be positive for stability, and the sign of (76) is 
+crucial. Essentially the same factor occurs in connection with the steadystate turning motion, as the denominator of (67–68), and thus stability in 
+a steady-state turn is necessary and sufficient to ensure dynamic stability in 
+the more general sense.
+For a nonlifting body with a pointed tail, such that mT = 0, C is negative 
+and the vessel is always unstable. This situation results from the destabiliz­
+ing effect of the Munk moment; in general an elongated nonlifting body 
+will be stable only when moving broadside to the flow. Directional stability 
+of a streamlined body in the longitudinal direction depends on a tail fin, as 
+in the case of an arrow or a wind vane. Specifically, directional stability of 
+a ship requires that
+m
+x
+mm
+m
+m
+T
+T
+S
+S
+>
++
+
+
+(80)
+For given values of the body mass and added-mass coefficients, the moment 
+arm xT must be sufficiently large for (80) to be satisfied. Noting our choice 
+of the origin in accordance with (62), we can achieve this objective by mov­
+ing the center of gravity forward, as well as in the more obvious manner 
+by moving the tail fin aft. Thus the position of the center of gravity is of 
+great significance for the dynamic stability of ships, and indeed for other 
+vehicles as well1.
+From the hydrodynamic standpoint, the stability criterion (80) can be 
+enhanced by increasing the added mass at the stern or by decreasing it else­
+where. Thus a ship’s stability will increase as the vessel is trimmed down at 
+the stern (see problem 7).
+Excessive stability is undesirable in ship design because it impairs the 
+turning ability. Thus a small positive value for the parameter C is optimum.

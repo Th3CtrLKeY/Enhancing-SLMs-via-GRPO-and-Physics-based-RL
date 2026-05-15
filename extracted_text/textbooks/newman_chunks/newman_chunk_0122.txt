@@ -1,0 +1,167 @@
+that the hydrodynamic force differs in direction from the acceleration. The added mass can be interpreted as a particular volume of fluid par­ ticles that are accelerated with the body. Strictly, however, the particles of fluid adjacent to the body will accelerate to varying degrees, depend­ ing on their position relative to the body. In principle, every fluid particle will accelerate to some extent as the body moves, and the added mass is a weighted integration of this entire mass.
+
+Chapter 4
+One convenient feature of the added-mass coefficients is their symme­
+try, mij = mji. To confirm this property, Green’s theorem (71) is applied to 
+the potentials ϕi and ϕj over the closed surface SB + SC. The contribution 
+from the external surface SC will vanish as r → ∞, as noted above. Hence, it 
+follows that
+φ
+φ
+φ
+φ
+i
+j
+j
+i
+S
+n
+n dS
+B
+∂
+∂
+−
+∂
+∂
+
+
+
+
+=
+∫∫
+0, 	
+(117)
+or
+m
+m
+ij
+ji
+=
+. 	
+(118)
+Thus, there are twenty-one independent coefficients, and this number is 
+reduced substantially if the body is symmetrical about one or more axes.
+A simple relation exists between the added-mass coefficients and the 
+kinetic energy of the fluid. From (114) and the divergence theorem,
+m
+n dS
+d
+d
+ij
+j
+i
+S
+j
+i
+i
+j
+B
+=
+∂
+∂
+=
+∇⋅
+∇
+=
+∇
+⋅∇
+∫∫
+∫∫∫
+∫∫∫
+ρ
+φ
+φ
+ρ
+φ
+φ
+ρ
+φ
+φ
+(
+)
+(
+)
+
+
+
+
+	
+(119)
+since ∇
+=
+
+
+φi
+. Here, the vanishing of ϕ at infinity has been invoked to omit 
+the surface integral at infinity, and the volume integrals are over the entire 
+fluid volume. The total velocity potential in the fluid is given by (101), and 
+the kinetic energy of the fluid is
+T
+d
+U
+U
+d
+U U
+d
+i
+i
+j
+j
+i
+j
+i
+j
+=
+∇⋅∇
+=
+∇
+⋅
+∇
+=
+∇
+⋅∇
+∫∫∫
+∫∫∫
+
+
+
+
+
+
+ρ
+φ
+φ
+ρ
+φ
+φ
+ρ
+φ
+φ
+(
+)
+(
+) (
+)
+
+
+
+∫∫∫
+.
+	
+(120)
+Combining this result with (119) gives
+T
+U U m
+i
+j
+ij
+= 1
+
+. 	
+(121)
+Therefore the added-mass coefficients are the constants in a quadratic equa­
+tion for 2T, in terms of the body velocities. This result can be obtained from 
+physical arguments by equating the change in fluid energy to the work 
+done in accelerating the body, but for rotational modes (i = 4, 5, 6) the 
+rate of rotation of coordinates must be accounted for, as in equations (105) 
+and (107).

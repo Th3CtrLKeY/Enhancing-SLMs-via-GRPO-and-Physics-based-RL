@@ -1,0 +1,153 @@
+Marine Hydrodynamics
+
+J. N. Newman
+foreword by John Grue
+Marine Hydrodynamics
+40th anniversary edition
+The MIT Press
+Cambridge, Massachusetts
+London, England
+
+© 2017 Massachusetts Institute of Technology
+All rights reserved. No part of this book may be reproduced in any form by any 
+electronic or mechanical means (including photocopying, recording, or information 
+storage and retrieval) without permission in writing from the publisher.
+This book was set in ITC Stone Serif Std and ITC Stone Sans Std by Toppan Best-set 
+Premedia Limited. Printed and bound in the United States of America.
+Library of Congress Cataloging-in-Publication Data
+Names: Newman, J. N. (John Nicholas), 1935– author.
+Title: Marine hydrodynamics / J. N. Newman ; foreword by John Grue.
+Description: 40th anniversary edition. | Cambridge, MA : The MIT Press, 
+   [2017] | Includes bibliographical references and index.
+Identifiers: LCCN 2017023272 | ISBN 9780262534826 (pbk. : alk. paper)
+Subjects: LCSH: Ships--Hydrodynamics. | Hydrodynamics.
+Classification: LCC VM156 .N48 2017 | DDC 623.8/12--dc23 LC record available at 
+https://lccn.loc.gov/2017023272
+10  9  8  7  6  5  4  3  2  1
+
+To my family and friends
+
+Contents
+Foreword 
+xi
+Preface to the 40th Anniversary Edition 
+xvii
+Preface to the First Edition 
+xix
+1	 Introduction 
+
+2	 Model Testing 
+
+2.1 Falling Body in a Vacuum 
+
+2.2 Pendulum 
+
+2.3 Water Waves 
+
+2.4 Drag Force on a Sphere 
+
+2.5 Viscous Drag on a Flat Plate 
+
+2.6 Viscous Drag on General Bodies 
+
+2.7 Hydrofoil Lift and Drag 
+
+2.8 Screw Propeller 
+
+2.9 Drag on a Ship Hull 
+
+2.10 Propeller-Hull Interactions 
+
+2.11 Unsteady Force on an Accelerating Body 
+
+2.12 Vortex Shedding 
+
+2.13 Wave Force on a Stationary Body 
+
+2.14 Body Motions in Waves 
+
+2.15 Ship Motions in Waves 
+
+Problems 
+
+References 
+
+3	 The Motion of a Viscous Fluid 
+
+3.1 Description of the Flow 
+
+3.2 Conservation of Mass and Momentum
+
+viii 
+Contents
+3.3 The Transport Theorem 
+
+3.4 The Continuity Equation 
+
+3.5 Euler's Equations 
+
+3.6 Stress Relations in a Newtonian Fluid 
+
+3.7 The Navier-Stokes Equations 
+
+3.8 Boundary Conditions 
+
+3.9 Body Forces and Gravity 
+
+3.10 The Flow between Two Parallel Walls (Plane Couette Flow) 
+
+3.11 The Flow through a Pipe (Poiseuille Flow) 
+
+3.12 External Flow Past One Flat Plate 
+
+3.13 Unsteady Motion of a Flat Plate 
+
+3.14 Laminar Boundary Layers: Steady Flow Past a Flat Plate 
+
+3.15 Laminar Boundary Layers: Steady Two-Dimensional Flow 
+
+3.16 Laminar Boundary Layers: Closing Remarks 
+
+3.17 Turbulent Flow: General Aspects 
+
+3.18 Turbulent Boundary Layer on a Flat Plate 
+
+3.19 The 1/7-Power Approximation 
+
+3.20 Roughness Effects on Turbulent Boundary Layers 
+
+3.21 Turbulent Boundary Layers: Closing Remarks 
+
+Problems 
+
+References 
+
+4	 The Motion of an Ideal Fluid 
+
+4.1 Irrotational Flows 
+
+4.2 The Velocity Potential 
+
+4.3 Bernoulli's Equations 
+
+4.4 Boundary Conditions 
+
+4.5 Simple Potential Flows 
+
+4.6 The Stream Function 
+
+4.7 The Complex Potential 
+
+4.8 Conformal Mapping 
+
+4.9 Separation of Variables 
+
+4.10 Fixed Bodies and Moving Bodies 
+
+4.11 Green's Theorem and Distributions of Singularities 
+
+4.12 Hydrodynamic Pressure Forces 
+
+4.13 Force on a Moving Body in an Unbounded Fluid 
+
+4.14 General Properties of the Added-Mass Coefficients

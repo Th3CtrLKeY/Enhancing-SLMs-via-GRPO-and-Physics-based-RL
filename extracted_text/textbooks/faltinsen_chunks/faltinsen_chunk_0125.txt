@@ -1,0 +1,63 @@
+deadweight or drilled-in anchors. The mooring lines provide essentially total restraint against vertical movement of their upper ends. In a spread mooring system, several pre-tensioned anchor lines are arrayed around the structure to hold it in the desired location. The normal case is that the anchors can be easily moved. This implies that the ‘anchor in operation cannot be loaded by too large vertical forces, and, to ensure that the anchors are kept in position, it is necessary that a
+
+i
+¥
+E
+
+258 STATIONKEEPING
+
+significant part of the anchor lines lie on the seabed. The cables are made
+up of either chain, rope or a combination of both. The ropes are available
+in constructions from steel, natural fibre and synthetic fibres. Segmented
+anchor lines, i.e. cables composed of two or more lengths of different
+material, are used to get a heavy cable at the bottom (i.e. chain), and a
+light line close to the water surface. This gives greater stiffness and
+lighter anchor lines, than the use of chain or wire alone. The tension
+forces in the cables, which are the means of applying restraining forces
+on the floating structure, are due to the cable weight and/or its elastic
+properties, depending on the manner in which the cable system is laid.
+
+The initial tension, or pre-tension in a cable is often established by the
+use of winches on the vessel or platform (often called a floating unit in
+offshore connection). The winches pull on the cables to establish the
+desired cable configuration. As the unit moves in response to unsteady
+environmental loads, the tension in the cables changes due to varying
+cable geometry. Thus the mooring cables have an effective stiffness
+composed of an elastic and a geometric stiffness, which, combined with
+the motions of the unit, introduce forces depending on the mooring cable
+characteristics.
+
+In the following text we will show how to analyse a cable line from a
+static point of view.
+
+Static analysis of a cable line .
+A picture of the anchor line is shown in Fig. 8.1. We assume a horizontal
+sea bed. The cable is in a vertical plane coinciding with x—z-plane. We
+neglect bending stiffness which is a good approximation for chains. It is
+also appropriate for wires with a large radius of curvature. We neglect
+dynamic effects in the line.
+
+Fig. 8.2 shows one element of the cable line. Forces D and F acting on
+the element are the mean hydrodynamic forces per unit length in the
+normal and tangential direction respectively. w is the weight per unit
+length of the line in water, A is the cross-sectional area of the cable line, E
+is the elastic modulus and T is the line tension. Because w is the weight
+in water, this introduces correction forces, —pgAz and —pgAz — pgA dz
+at the ends of the element. In this way we can calculate correctly the
+hydrostatic forces on the element.
+
+From Fig. 8.2 we find that
+
+dT — pgA dz = [w sin @ — F(1+ T/(AE))] ds
+T dp — pgAz dd =[w cos $ +DU + T /(AE))] ds
+
+These equations are non-linear and it is in general not possible to find an
+explicit solution. However, for many operations it is a good approximation to neglect the effect of the current forces F and D. We will also
+
+MOORING SYSTEMS
+
+Anchor
+
+Seafloor
+
+T+dT-pgzA-pgAdz

@@ -1,0 +1,122 @@
+passing across the boundary layer. Since v = 0 on the plate it follows that this component of the velocity must be small throughout the boundary layer, or u ≫ v. As a result of these inequalities, the Navier-Stokes equations can be simplified to the forms u u x v u y p x u y ∂ ∂ + ∂ ∂ = − ∂ ∂ + ∂ ∂ ρ ν , (46) = ∂ ∂ ρ p y . (47)
+
+The Motion of a Viscous Fluid 
+
+Here the concept that u changes most significantly in the transverse direc­
+tion has been used to discard the second derivative with respect to the 
+horizontal coordinate, or ∂2u/∂x2 ≪ ∂2u/∂y2.
+From (47) it follows that the pressure p is not changed significantly in 
+passing through the boundary layer, as one might anticipate on physical 
+grounds. As a result, the longitudinal pressure gradient ∂p/∂x can be set 
+equal to its value outside the boundary layer. For a flat plate the inviscid 
+flow outside the boundary layer is uniform, with velocity U = constant. 
+Thus the pressure gradient ∂p/∂x = 0, and the laminar boundary-layer equa­
+tions for a flat plate are the two relatively simple equations
+u u
+x
+v u
+y
+u
+y
+∂
+∂
++
+∂
+∂
+−
+∂
+∂
+=
+ν
+
+
+0, 	
+(48)
+∂
+∂
++ ∂
+∂
+=
+u
+x
+v
+y
+0. 	
+(49)
+It remains to nondimensionalize these equations. Taking advantage of 
+the disparate length scales, we stretch the transverse coordinate in propor­
+tion to δ; hence, appropriate independent variables are
+x
+x l
+y
+yR
+l
+′ =
+′ =
+/ ,
+/ .
+/
+1 2
+Then, guided by the continuity equation, we nondimensionalize the veloc­
+ity components in the form
+u
+u U
+v
+vR
+U
+′ =
+′ =
+/
+,
+/
+.
+/
+1 2
+With these substitutions, equations (48) and (49) are replaced by
+u
+u
+x
+v
+u
+y
+u
+y
+′ ∂′
+∂′ + ′ ∂′
+∂′ −∂
+′
+∂′
+=
+
+
+0, 	
+(50)
+∂′
+∂′ + ∂′
+∂′ =
+u
+x
+v
+y
+0, 	
+(51)
+with the boundary conditions
+u
+v
+y
+′ =
+′ =
+′ =
+
+
+on 
+,
+u
+y
+′ →
+′ →∞
+
+for 
+.
+Since (50–51) do not involve the viscosity coefficient or Reynolds number 
+explicitly, the solution of these equations will be a similarity solution valid

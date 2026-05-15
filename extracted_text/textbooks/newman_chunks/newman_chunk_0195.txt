@@ -1,0 +1,36 @@
+drag forces on a sailboat keel, assuming that the keel profile is one half of an ellipse with high aspect-ratio and that the bottom of the hull is a large flat plane coincident with the minor axis of the ellipse. 12. Write the complex potential of a pair of vortices, with opposite strengths, separated by a distance 2a. A free vortex in a fluid is generally assumed to be convected with the velocity of the fluid at the point where
+
+Chapter 5
+the vortex is situated. On this basis, what is the free motion of the vortex 
+pair discussed above? What is the free motion if the two vortices have the 
+same circulation?
+13. A two-dimensional uncambered hydrofoil is pivoted about a point at 
+distance d downstream from the leading edge. For what values of d is the 
+hydrofoil statically stable at zero angle of attack? Discuss qualitatively the 
+situation that would result if the pivot is further downstream.
+14. An uncambered three-dimensional lifting surface with aspect ratio 
+A = 5 experiences a lift coefficient of 0.4 at an angle of attack α = 5 degrees. 
+What is the minimum induced drag coefficient in this condition and at 
+α = 10 degrees?
+15. A two-dimensional hydrofoil consists of a parabolic arc situated at an 
+angle of attack, as in equation (43). Compare the lift and drag forces of this 
+foil in the fully wetted and supercavitating conditions.
+16. A hydrofoil set at an angle of attack of 7 degrees relative to the zero-lift 
+angle moves through a wave system such that the unsteady component of 
+the angle of attack is ±4 degrees. Compare the magnitudes of the mean and 
+unsteady lift forces, assuming the hydrofoil travels a distance of five chord 
+lengths in each period of oscillation.
+References
+Abbott, I. H., and A. E. von Doenhoff. 1959. Theory of wing sections. New York: 
+Dover.
+Abramowitz, M., and I. A. Stegun, eds. 1964. Handbook of mathematical functions. 
+Washington: U.S. Government Printing Office.
+Acosta, A. J. 1973. Hydrofoils and hydrofoil craft. Annual Review of Fluid Mechanics 
+5:161–184.
+Barker, S. J., and T. M. Ward. 1976. Experiments on two- and three-dimensional cavitat­
+ing hydrofoil models with and without flaps. California Institute of Technology, Gug­
+genheim Aeronautical Laboratory report HSWT-1130.
+Batchelor, G. K. 1967. An introduction to fluid dynamics. Cambridge: Cambridge Uni­
+versity Press.
+Bisplinghoff, R. L., H. Ashley, and R. L. Halfman. 1965. Aeroelasticity. Reading, Mass.: 
+Addison-Wesley.

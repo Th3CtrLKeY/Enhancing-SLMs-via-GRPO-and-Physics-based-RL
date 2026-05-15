@@ -1,0 +1,112 @@
+ship and including the Froude—Kriloff force we can write the vertical excitation force F'; and the pitch moment Fs as , [rol> [fal J -f ‘a ote ef {A332 ay sin(ot — kx cos B) LR —B33?” cos(wt — kx cos B)} (3.44) Here p; is given by equation (3.43) and Sg, is the mean wetted body surface. Newman (1962) has derived simple formulas for beam sea incident waves on an infinitely long horizontal cylinder and for incident waves on
+
+66 LINEAR WAVE-INDUCED MOTIONS
+
+a vertical axisymmetric body. The formulas are valid for any frequency,
+but assumes the structure has zero forward speed and no current. The
+derivation is based on Green’s second identity. In that way the velocity
+potential for forced motion of the body is introduced mathematically.
+Newman is able to relate the force component number i to the damping
+coefficient B,;. For an infinitely long cylinder in beam sea, Newman
+(1962) writes the exciting force amplitude |F;| per unit length as
+
+2 3
+i= c( 3,2), i=2,3,4 3.45)
+
+where B,@ is the two-dimensional damping coefficient in mode i, |F,|
+
+is the horizontal force amplitude, |F'3| is the vertical force amplitude and
+
+|F4| is the roll moment amplitude.
+For an axisymmetric body we can write
+
+3 ;
+i= 6,(25248,) , i=1,...,5 (3.46)
+
+where A = 1 for i = 3 (heave) and equal to 2 for i= 1,2, 4,5. Newman’s
+formula does not tell us what the phase of the wave excitation loads are
+relative to the incident waves.
+
+For a general body shape, numerical techniques have to be used to
+evaluate wave excitation loads (see chapter 4). This is based on properly
+integrating Froude—Kriloff and diffraction pressure forces. If one only
+wants to find the wave excitation loads and not the detailed pressure
+distribution, the Haskind relation can be used (Newman, 1977). In its
+original form it is assumed that the structure has zero forward speed.
+There is no current present. The derivation is based on Green’s second
+identity. The formulas use the velocity potentials due to forced motion of
+the structure instead of the diffraction potential of the structure.
+Equations (3.45) and (3.46) can be derived from the Haskind relations.
+An advantage of the Haskind relations is that they provide an independent test that the wave excitation loads are correctly calculated by a
+computer program.
+
+The equations of motions
+When the hydrodynamic forces have been found it is straightforward to
+set up the equations of rigid body motions. This follows by using the
+equations of linear and angular momentum. For steady-state sinusoidal
+motions we may write
+
+;
+> (Myr + Aje)iie + Butte + Gene) = Fev’ G=l,...,6)
+k=l
+
+(3.47)
+
+where M;, are the components of the generalized mass matrix for the
+
+RESPONSE IN REGULAR WAVES 67
+
+structure and F; are the complex amplitudes of the exciting forces and
+moment-components with the force and moment-components given by
+the real part of Fje~'* (i is complex unit). The equations for j=1,2,3
+follows from Newton’s law. For instance, let us consider j= 1. For a
+structure that has lateral symmetry (symmetric about the x—z¢ plane) and
+with the centre of gravity at (0, 0, %q) in its mean oscillatory position, we
+can write the linearized acceleration of the centre of gravity in the
+
+x-direction as
+
+an dn
+ae 126 ae
+
+From this the components of the mass matrix M;, follow as
+
+M,,=M, M,.=0, M,3=0, M,4=0,
+Ms = Mzg, M,,=0
+
+Here M is the mass of the structure. Similarly for j = 2, 3. Forj = 4,5, 6
+we have to use the equations of angular momentum. We can then set up
+the following mass matrix
+
+M
+
+
+0 0 0 Meg 0
+M
+_ 0
+#1 0 -Mzg 0 |, 0 -
+
+
+0 oO JF 0
+
+0 0 ~-In 0 IT,
+
+where J; is the moment of inertia in the jth mode and J;,, is the product of
+inertia with respect to the coordinate system (x, y, 2).
+
+For a structure with no forward speed and where there is no current
+present it can be shown by Green’s second identity that the added mass
+and damping coefficients satisfy the symmetry relations A, =A,
+Br = By.
+
+For a structure with lateral symmetry, the six coupled equations of
+motions reduce to two sets of equations, one set of three coupled
+equations for surge, heave and pitch and another set of three coupled
+equations for sway, roll and yaw. Thus for a structure with lateral
+symmetry, surge, heave anc pitch are not coupled with sway, roll and
+yaw. This will be assumed in the following text. In order to understand
+why surge, heave and pitch are not coupled with sway, roll and yaw, we
+need to study the added mass and damping coefficients. Let us illustrate
+this by an example and analyse coupled added mass A23 between sway
+and heave for the case presented in Fig. 3.3, i.e. we consider forced
+heave motion of a circular cylinder when w—>~, The pressure on the

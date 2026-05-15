@@ -1,0 +1,120 @@
+θ ϕ → Ux = Ur cos θ Velocity Potential ϕ = U(r + r0 2/r) cos θ φ θ = + U r r r ( )cos / Horizontal Translation of Body with Fluid at Rest at Infinity Circle Sphere Boundary Condition on Body ∂ϕ/∂r = U cos θ ∂ϕ/∂r = U cos θ Boundary Condition at Infinity ϕ → 0 ϕ → 0 Velocity Potential ϕ = −(Ur0 2/r) cos θ φ θ = −( )cos Ur r/
+
+Chapter 4
+Alternatively, from the standpoint of the flow exterior to the body, a dis­
+tribution on the body surface alone might suffice. This latter speculative 
+conjecture turns out to be correct, and in the process of establishing it a 
+number of useful results will be obtained.
+For reasons that will become clear later, let us consider two solutions 
+of Laplace’s equation in a volume  of fluid bounded by a closed surface 
+S. Denoting these two potentials by ϕ and φ and applying the divergence 
+theorem we get
+φ ϕ
+ϕ φ
+φ ϕ
+ϕ φ
+φ
+ϕ
+φ
+ϕ
+ϕ
+φ
+∂
+∂
+−
+∂
+∂
+
+
+
+
+=
+∇⋅
+∇
+−∇
+=
+∇
++ ∇⋅∇
+−∇
+−
+∫∫
+∫∫∫
+n
+n dS
+d
+S
+(
+)
+(
+
+
+
+
+∇
+⋅∇
+=
+∫∫∫
+ϕ
+φ)
+.
+d
+
+
+(71)
+This important result is a form of Green’s theorem that will be utilized later in 
+a variety of contexts. Here we shall consider the consequence of replacing 
+φ by the potential of a source.
+In the following analysis it is convenient to set the source strength 
+m = −1. Of more significance is the position of this unit source, which 
+must be carefully specified. We shall define the source point ξ ≡ (ξ, η, ζ) as the 
+position of the source in the coordinates x = (x, y, z). For a unit source the 
+potential at the field point x is given by
+ϕ
+π
+π
+ξ
+η
+ζ
+=
+=
+−
++
+−
++
+−
+−
+1 4
+1 4
+
+
+
+1 2
+/
+( /
+)[(
+)
+(
+)
+(
+) ]
+.
+/
+r
+x
+y
+z
+	
+(72)
+In accordance with the principle of reciprocity, the value of (72) is 
+unchanged if the source point and field point are interchanged. By the 
+same token, (72) is a solution of Laplace’s equation with respect to ξ as well 
+as x. Thus, in utilizing this source potential in Green’s theorem (71) we 
+can integrate with respect to either coordinate system. Mathematically the 
+results are equivalent, but different physical interpretations follow.
+In the subsequent derivation we shall perform the surface integration of 
+(71) with respect to the coordinates of the source point ξ. This requires that 
+the potential ϕ and the normal derivative ∂ϕ/∂n be defined with respect to 
+(ξ, η, ζ) by a simple change of the dummy variable of integration. Physi­
+cally we shall integrate over a continuous distribution of sources and nor­
+mal dipoles that are located on the surface S, with a fixed value of the field 
+point x.

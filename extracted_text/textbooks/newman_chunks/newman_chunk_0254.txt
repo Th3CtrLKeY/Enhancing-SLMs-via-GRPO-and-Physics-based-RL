@@ -1,0 +1,73 @@
+θ ω ω = − − (192) for three and two dimensions, respectively. More precise estimates can be developed from Davis (1976), and for horizontal motions as noted in prob­ lem 15. Returning to the transfer function (190) for intermediate frequencies, the most significant feature will be a resonant response at the natural fre­ quency where the virtual mass and restoring forces cancel, or where ωn c a M = +     1 2 / . (193)
+
+Chapter 6
+At or near this resonant frequency, the body will experience a response of 
+large amplitude and a phase shift increasing from zero for low frequencies 
+to 180 degrees for ω ≫ ωn.
+As in the case of a mechanical oscillator, the resonant response will be 
+inversely proportional to the damping coefficient, but here there is a con­
+nection between the exciting force and the damping coefficient from the 
+Haskind relations. In particular, for two-dimensional or axisymmetric bod­
+ies the damping coefficient will be proportional to the square of the excit­
+ing force, and the resonant response will be inversely proportional to the 
+exciting force. Thus, bodies deliberately designed with small exciting forces 
+will experience a large resonant response, in a highly-tuned manner. Verti­
+cal spar buoys are important examples of this situation, as shown in figure 
+2.16 and in problem 17. By comparison, the floating hemisphere shown in 
+figure 6.24 is typical of the situation where the exciting force, damping, and 
+resonant response assume relatively moderate values.
+The analogy with a mechanical oscillator can be emphasized by rewrit­
+ing (187) in the time-dependent form
+(
+) ( )
+( )
+( )
+Re(
+).
+M
+a
+t
+b
+t
+c
+t
+AX e
+ij
+ij
+j
+ij
+j
+ij
+j
+i
+i t
++
++
++
+=
+
+
+ξ
+ξ
+ξ
+ω
+	
+(194)
+However, the simplicity of this result is deceptive, and the analogy with 
+a mechanical oscillator must not be pushed too far. Equation (194) has 
+been derived assuming the motions are sinusoidal in time, as evidenced 
+by the fact that the added-mass and damping coefficients depend on the 
+frequency ω. Thus, one cannot extend (194) directly to the case where the 
+time-dependence is more general, although one can do so by suitable super­
+position of the incident waves and body motions at each frequency. We 
+shall return to this representation in section 6.21.
+The distinction between the left side of (194) and a mechanical oscillator 
+with constant coefficients can be further emphasized by noting that when 
+the body is forced to oscillate, waves will be generated on the free surface. 
+As time increases, these waves will propagate outward from the body, but 
+they will continue to affect the fluid pressure and hence the body force for 
+all subsequent times. Thus memory effects are introduced, in a manner pre­
+cisely analogous to the unsteady lifting surface theory in chapter 5.
+One consequence of the memory effects is that if ξj(t) is an arbitrary 
+function of time, and if the linearization assumption is invoked, the pres­
+sure force acting on the body must be of the general form

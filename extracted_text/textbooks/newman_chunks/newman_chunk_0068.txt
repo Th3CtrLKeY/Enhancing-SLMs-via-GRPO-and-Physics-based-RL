@@ -1,0 +1,216 @@
+low pressure. The separation point, if it exists, will be a stagnation point at which the flow from ahead and behind meets and abruptly changes direction. Ahead of this point the tangential velocity will be positive, and behind it the veloc­ ity will be negative, as shown in figure 3.7. It is clear from this figure that separation will occur when the shear stress is zero, or ( / ) . ∂ ∂ = = u y y 0 (63)
+
+The Motion of a Viscous Fluid 
+
+It is also apparent that a necessary condition is that
+(
+/
+)
+.
+∂
+∂
+>
+=
+
+
+
+
+u
+y
+y
+This requirement can be related to the pressure gradient from the boundarylayer equation (46). For this purpose we set y = 0; thus u = v = 0, and we 
+obtain from (46) the relation
+µ ∂
+∂
+= ∂
+∂
+=
+
+
+
+u
+y
+p
+x
+y
+on
+. 	
+(64)
+This qualitative discussion is obviously not sufficient to determine the 
+drag due to shear stresses acting on the body surface. Before describing an 
+approximate computational method, we first note that from conservation 
+Figure 3.7
+Flow past a body with separation. The second figure shows the local flow near the 
+separation point, in terms of local coordinates that are tangential (x) and normal (y) 
+to the body at the separation point. The graphs show the different velocity profiles, 
+in the boundary layer, for a favorable pressure gradient on the forebody (A), an un­
+favorable pressure gradient on the afterbody (B), at the separation point (C), and 
+downstream of the separation point (D). Note the qualitative similarity for each of 
+these velocity profiles with the Couette flows shown in figure 3.3.
+
+Chapter 3
+of momentum in the boundary layer, the shear stress on the body surface 
+can be related to the displacement thickness, momentum thickness, and 
+the pressure gradient of the velocity field outside the boundary layer, in a 
+simple manner due to von Kármán. For this purpose we integrate equation 
+(46) in the normal direction, across the boundary layer:
+u u
+x
+v u
+y dy
+p
+x dy
+u
+y dy
+∂
+∂
++
+∂
+∂
+
+
+
+
+= −
+∂
+∂
++
+∂
+∂
+∫
+∫
+∫
+
+
+
+
+
+
+δ
+δ
+δ
+ρ
+ν
+. 	
+(65)
+Here the upper limit of integration δ is somewhat arbitrary; ultimately we 
+shall require only that it be sufficiently large that the velocity attains its 
+asymptotic value u = U. From Bernoulli’s equation (4.21) for the pressure 
+outside the boundary layer,
+p
+U
+= −
++
+
+
+
+ρ
+constant. 	
+(66)
+Thus the pressure gradient (constant across the boundary layer) is
+∂
+∂
+= −
+p
+x
+U dU
+dx
+ρ
+. 	
+(67)
+Now, regrouping the terms in (65),
+u u
+x
+v u
+y
+U dU
+dx
+dy
+u
+y dy
+u
+y
+y
+∂
+∂
++
+∂
+∂
+−
+
+
+
+
+=
+∂
+∂
+=
+∂
+∂
+
+
+
+
+−
+∫
+∫
+=
+
+
+
+
+δ
+δ
+δ
+ν
+ν
+ν ∂
+∂
+
+
+
+
+= −
+=
+u
+y
+y
+xy
+
+τ
+ρ
+/ ,
+	
+(68)
+since ∂u/∂y → 0 outside the boundary layer. Next we integrate the continu­
+ity equation in a similar manner to obtain
+∂
+∂
++ ∂
+∂
+
+
+
+
+=
+∫
+u
+x
+v
+y dy
+y
+
+
+(69)
+or, since v = 0 on the boundary y = 0,
+v x y
+u
+x dy
+y
+( , )
+.
+= −∂
+∂∫
+
+(70)
+Substituting this expression for v in (68), and integrating by parts, we obtain

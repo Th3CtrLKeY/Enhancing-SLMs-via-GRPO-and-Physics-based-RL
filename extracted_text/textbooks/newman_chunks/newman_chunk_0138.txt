@@ -1,0 +1,45 @@
+tangential manner (as shown in figure 5.2) is fundamental to the theory of lifting surfaces. Another possibility that can be envisaged is shown in figure 5.4; this involves an infinite velocity around the trailing edge and a stagnation point on the upper (or possibly the lower) surface of the foil. In fact, the streamlines as drawn in figure 5.4 correspond to a potential flow without circulation, whereas the expected situation shown in figure 5.2 Figure 5.2 Assumed flow past foil.
+
+Chapter 5
+is obtained from that in figure 5.4 by adding a positive counterclockwise 
+circulation around the foil, sufficient to move the stagnation point back to 
+the trailing edge. This may seem to contradict Kelvin’s theorem that the 
+circulation is constant about any material contour always containing the 
+same fluid particles, since this constant must equal zero if the fluid motion 
+started from a state of rest.
+This apparent contradiction can be resolved by noting that a material 
+contour surrounding the foil cannot be related to another that is initially 
+upstream, since the foil will “pierce” the fluid on the upstream contour. 
+The contour that is initially upstream can only be related to a subsequent 
+contour that surrounds the foil and a portion of its wake, as shown in figure 
+5.5, and the circulation about this contour will indeed remain zero. A more 
+illuminating contour is one sufficiently large to surround the foil initially 
+and at all subsequent times, as shown in figure 5.6. Here the circulation 
+must be zero, and the circulation about the foil must, therefore, be canceled 
+by an equal and opposite starting vortex shed from the trailing edge into the 
+wake during the initial acceleration. The shedding of this starting vortex 
+can be observed by accelerating a flat plate in a kitchen sink. If the plate is 
+Figure 5.3
+Separated flow due to a bluff body (left) or excessive angle of attack (right).
+Figure 5.4
+Flow past foil without circulation.
+
+Lifting Surfaces 
+
+at right angles to the flow, vortices will be shed from both edges, but if it is 
+at a small angle to the flow, only the trailing edge will shed a vortex.
+If our interest is in the steady-state hydrofoil problem, the starting vor­
+tex can be disregarded, since it will be situated infinitely far downstream 
+and, in reality, will be dissipated by viscous diffusion. Thus, for the twodimensional steady-state problem, it is reasonable to expect irrotational 
+flow throughout the surrounding fluid, but with a net circulation about 
+the foil. This circulation is essential to the development of a lift force since 
+Figure 5.5
+The material contour shown here is initially upstream of the foil, at time t = t1. A 
+short time later (t = t2), it has surrounded the foil and a portion of the wake (- - - - -). 
+From Kelvin’s theorem, and the initial conditions upstream, the circulation around 
+this contour is zero for all times.
+Figure 5.6
+The material contour shown here is sufficiently large to surround the foil at its origi­
+nal position of rest, and subsequently after acceleration to a steady velocity U. The 
+circulation about this contour is zero, so that the foil must shed a starting vortex of 
+strength Γ, equal and opposite to the circulation of the foil.

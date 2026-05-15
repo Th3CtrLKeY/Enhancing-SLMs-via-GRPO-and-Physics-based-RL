@@ -1,0 +1,91 @@
+The quantities A, B and o are arbitrary constants. There also exist other solutions that are proportional to e~**, coskz and sin kz. However, we must disregard them since there should not be any fluid disturbance far down in the fluid, i.e. when z—> —®. From the free-surface condition (2.15) we can find that there exists a connection between the wave number & and the circular frequency @ used in equation (2.17). We find the dispersion relation: o'- (2.18) g
+
+18 ~ SEA ENVIRONMENT
+
+In general, equation (2.17) does not represent travelling (propagating)
+waves. We must then combine solutions like (2.17) so that the x- and
+t-dependence is like cos(wt + kx + y) where y is a constant phase angle.
+The plus sign corresponds to waves propagating along the negative
+x-axis and the minus sign corresponds to waves propagating along the
+positive x-axis. The velocity of the wave form, i.e. the phase velocity c,
+is w/k. This is different from the fluid velocity, which can be found from
+
+equation (2.1). The group velocity C, or the energy propagation velocity
+
+is a third type | of velocity used in ‘describing wave. features. It can be
+found by
+
+C, = da/dk (2.19)
+
+(see e.g. Newman, 1977: pp. 257-66). If we use equation (2.18) we find
+that, C, is 0.5g/@ for deep water waves, which is half the phase velocity.
+The group velocity is important when we want to know the propagation
+velocity of the front of a harmonically oscillating wavetrain. As an
+example we can consider a wave maker in a model basin that generates
+harmonically oscillating waves. If we want to know the time it takes for
+the wave front to reach the ‘beach’ at the end of the model basin, we
+should use the group veloctiy (or energy propagation velocity) in the
+analysis.
+
+We have only discussed waves propagating along the positive or
+negative x-axis, We can obtain expressions for waves propagating in an
+arbitrary direction 6 relative to the x-axis by simply writing the x-, yand ¢t-dependence of the velocity potential as cos(wt— kx cos B —
+ky sin B + y). The z-dependence is e**. We can check this by substituting the expression into the Laplace equation. Another way to see the x-,
+y-dependence is to first introduce a coordinate system (x’, y’, z) where
+there is an angle B between the x-axis and the x’-axis. This means
+x=x'cos $+’ sin B. By substituting this into the expressions for waves
+propagating along the positive x-axis, and afterwards renaming the
+(x',y’)-coordinates (x,y), we have obtained expressions for waves
+propagating in an arbitrary direction 8. We should note that the waves
+we are considering have infinitely long: crest lengths and that the wave
+amplitude does not depend on. the position along the mean free-surface.
+We later discuss other type of propagating water waves where this is not
+true.
+
+We will now discuss the results given in Table 2.1. From the
+expressions in the table we note that the maximum values of the different
+physical variables do not happen at the same time. To get a better idea of
+this we have drawn a picture of the wave elevation at one time instant
+(see Fig. 2.1). Beneath we have drawn a picture of how the dynamic
+pressure due to the wave will look. With dynamic pressure we mean the
+pressure part —p dp/dt (see equation (2.4)). We have not stated the
+
+REGULAR WAVE THEORY 19
+3 ‘4
+
+7 Hy bd
+
+2D. 9 th
+5 of the pressure, whi s depth dependent. However, we note
+
+that under a wave trough we will get a negative dynamic pressure and |
+under the wave crest there will be a positive dynamic pressure. This is
+what we might expect from quasi-static considerations. We note further
+that under the wave crest the fluid velocity is in the wave propagation
+direction. Beneath a wave trough the fluid velocity is opposite to the
+wave propagation direction. We should note that the maximum absolute
+value of the horizontal component of the fluid acceleration is beneath a
+wave node. The maximum absolute value of the horizontal component of
+the velocity is beneath either a wave crest or a wave trough.
+
+It should be noted that the linear theory assumes the velocity potential
+and fluid velocity to be constant from the mean free-surface to the
+
+WAVE PROFILE GIVEN TIME INSTANT
+x
+
+DYNAMIC
+PRESSURE
+
+Z- COMPONENT
+VELOCITY
+
+X- COMPONENT
+ACCELERATION
+
+Z~ COMPONENT
+ACCELERATION
+
+Fig. 2.1. Wave elevation, pressure, velocity and acceleration in long- crested
+sinusoidal waves propagating along the positive x-axis (see Table
+2.1).

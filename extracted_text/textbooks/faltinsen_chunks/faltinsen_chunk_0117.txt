@@ -1,0 +1,76 @@
+in equation (6.26) and analyse cross-flow past twodimensional cross-sections of the ship. The drag coefficients depend for instance on free-surface effects, beam-draught ratio, bilge keel dimensions, bilge radius, current, Peynolds number, roughness ratio and Keulegan~—Carpenter (KC) number. Some of these effects will be discussed below. In chapter 6 we discussed KC = © more extensively. Free-surface effects The free-surface acts similar to an infinitely long splitter plate (see ’ discussion in chapter 6 on free-surface effects on Cp-values for ship
+
+242 VISCOUS WAVE LOADS AND DAMPING
+
+sections). This means that one can apply drag coefficients for the double
+body with splitter plates. The doubly body consists of the submerged
+body and the image body above the free-surface. The splitter plate effect
+causes a clear lowering effect on the drag coefficient for high KCnumbers. When the KC-number is low the eddies will stay symmetric
+for the double body without a splitter plate which means the free-surface
+has little effect for low KC-numbers.
+
+Beam-draught ratio effects
+In general there is little dependence on beam-—draught ratio for
+rectangular cross-sections. One exception may be for beam—draught
+ratios lower than ~1 and KC smaller than ~10 (see Fig. 7.9).
+
+Bilge keel effects
+The drag coefficients for low KC-numbers depend significantly on the
+bilge keel. This is illustrated in Fig. 7.10. We note that the effect is
+strongest for the lowest KC-values. For large KC-values the drag
+coefficient is not very sensitive to the breadth of the bilge keel.
+
+Bilge radius effects
+There is a strong effect of the bilge radius on the drag coefficients.
+Increasing the bilge radius means decreasing the drag coefficient (see Fig.
+7.11).
+
+1.0 d/D 2.0
+
+Fig. 7.9. Drag coefficient Cp as a function of aspect ratio d/D. Rectangular
+cylinders with sharp corners. D = Projected width. (KC = U uT/D,
+Us, = forced harmonic velocity amplitude of the cylinder, T =
+oscillation period.) (Tanaka et al., 1982.)
+
+SEPARATED FLOW AT SMALL KC-NUMBERS 243
+
+Effect of laminar or turbulent flow (scale effects)
+When separation occurs at sharp corners like bilge keels, there are not
+any severe scale effects. For high KC-number-flow around midship
+sections with no sharp corners, the drag coefficient in model scale may be
+roughly speaking twice the value in full scale. The scale effect on the
+drag coefficient at small KC-numbers is not so severe. The latter case is
+relevant for slow-drift oscillations in the absence of current.
+
+Co
+
+4,4 a
+ao & a
+ray
+3 4
+°
+0 FP 2 %Q% 6
+Q% je) a
+(ole) ° in
+°
+. 90
+2 x * x x °
+x* x KX,
+x x
+x
+x x
+x
+BL re
+1 D227, p20.22
+b
+<> b x Experimental value, 0 =0
+b
+Aas O Experimental value, 0 = 0,03
+b
+{- B___| Q& Experimental value, D = 0.06
+O 5 10 15
+KC
+
+Fig. 7.10. Effect of bilge keels on the drag coefficient Cp at small KCnumbers. (KC = UyT/D, Um = ambient oscillatory flow velocity
+amplitude in the beam direction, T = oscillation period.)
+(Experimental results by Faltinsen & Sortland, 1987.)

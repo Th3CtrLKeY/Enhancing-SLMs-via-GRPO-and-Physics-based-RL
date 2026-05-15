@@ -1,0 +1,38 @@
+buoy. Estimate the exciting force from the Froude-Krylov approximation, the damping coefficient from the Haskind relations, and compute the heave response. Compare your answer with the results shown in figure 2.16. 18. A spherical floating platform of diameter 50 m is ballasted to float on its equatorial plane and is unrestrained in a sea state corresponding to a 40 knot Pierson-Moskowitz spectrum. On the same scale of frequency, plot the heave response per unit wave amplitude from figure 6.24, the
+
+Chapter 6
+frequency spectrum of the incident waves, and the frequency spectrum of 
+the heave response of the buoy in these waves. Using graphical integra­
+tion, find the average of the one-third highest heave amplitudes, the most 
+probable extreme value of the heave amplitude in 1000 wave encounters, 
+and the design extreme value of the heave amplitude in the same number 
+of waves.
+References
+Bishop, R. E. D., and W. G. Price eds. 1975. Proceedings of the international symposium 
+on the dynamics of marine vehicles and structures in waves. London: Institution of 
+Mechanical Engineering.
+Cummins, W. E. 1962. The impulse response function and ship motions. Schiffstech­
+nik 9:101–109.
+Davis, A. M. J. 1976. On the short surface waves due to an oscillating, partially 
+immersed body. Journal of Fluid Mechanics 75:791–807.
+Eggers, K., S. Sharma, and L. Ward. 1967. An assessment of some experimental 
+methods for determining the wavemaking characteristics of a ship form. Society of 
+Naval Architects and Marine Engineers Transactions 75:112–157.
+Gadd, G. 1976. A method of computing the flow and surface wave pattern around 
+full forms. Royal Institution of Naval Architects Transactions 118:207–216.
+Graff, W., A. Kracht, and G. Weinblum. 1964. Some extensions of D. W. Taylor’s 
+standard series. Society of Naval Architects and Marine Engineers Transactions 
+72:374–403.
+Haskind, M. D. 1953. Oscillation of a ship on a calm sea. English translation, Society 
+of Naval Architects and Marine Engineers. T & R Bulletin 1–12.
+Havelock, T. H. 1963. Collected papers. ONR/ACR-103. Washington: U.S. Government 
+Printing Office.
+Houmb, O. G., and T. Overik. 1976. Parameterization of wave spectra and long term 
+joint distribution of wave height and period. In Proceedings of the conference on the 
+behaviour of offshore structures (BOSS ’76). pp. 144–169. Trondheim: The Norwegian 
+Institute of Technology.
+Kim, W. D. 1966. On a freely floating ship in waves. J. Ship Res. 10:182–191+200.
+Kinoshita, M. 1943. Wave resistance of a sphere in a shallow sea. J. Society of Naval 
+Architects of Japan, 19–37.
+Kinsman, B. 1965. Wind waves—their generation and propagation on the ocean surface. 
+Englewood Cliffs, N. J.: Prentice-Hall.

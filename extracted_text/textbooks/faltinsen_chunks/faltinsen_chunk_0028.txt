@@ -1,0 +1,114 @@
+component of the total velocity on the structure is equal to zero. Let us illustrate this by considering a vertical cylinder standing on the sea floor and penetrating the free-surface. A horizontal submerged cross-section of the cylinder is shown in Fig. 3.14. The figure defines polar coordinates such that x=rcos@, y=rsin@. The unit normal vector n is written as n= cos i+ sin 6j. The undisturbed pressure, i.e. the Froude—Kriloff pres- Fig. 3.14. Horizontal submerged cross-section of a vertical cylinder.
+
+60 LINEAR WAVE-INDUCED MOTIONS
+
+sure, can be written as (see Table 2.1):
+cosh k(zg + h)
+P= pEts cosh kh
+for waves propagating along the positive x-axis. The Froude—Kriloff
+force on the element dz can be written as
+cosh k(z + h)
+~~ coshkh
+
+sin(wt — kx)
+
+dF = —ipgf, dzR
+
+x{ sin(wt — RR cos 8) cos 6 dé
+
+We will now assume that the wavelength is much larger than the radius R of
+the cylinder. This implies that RR is small. We can write
+
+cosh k(z + h) (f .
+| ———— deR 6 d@ sin wt
+dF ipge, cosh kh ; cos in
+
+—|{ kRcos*@ dé cos ort|
+
+We may note that the large part of the pressure, i.e. the part that is in
+
+phase with sin wt, does not give any contribution to the horizontal force.
+We can now write
+
+cosh k(z + h)
+cosh kh
+
+Here ptR? dz is the mass of the displaced fluid of the cylinder strip and
+- @|x=09 is the x-component of the fluid acceleration at x = 0 at the average
+g-coordinate for the strip as if the cylinder were not there.
+
+The undisturbed pressure force is only one part of the total force on
+the strip. We can understand this by studying the undisturbed velocity
+field. This causes a fluid transport through the cylinder wall. This is
+unphysical and the cylinder must therefore set up a pressure field which
+causes a velocity field that counteracts the normal component of the
+undisturbed velocity field at the cylinder wall. To find the diffraction
+force due to the additional pressure distribution we may argue as follows.
+Due to the long wavelength assumption we may say that the problem of
+finding the additional pressure distribution is equivalent to a problem
+where the cylinder is forced to oscillate with a velocity —ul,=0, where
+ul|,=9 is the x-component of the fluid velocity at x =0 at the average
+z-coordinate for the strip as if the cylinder were not there. In this way there
+will be no resultant fluid transport through the cylinder wall. From basic
+hydrodynamics we know that the force on the body due to the forced
+oscillatory velocity —u|,9 can be written as
+
+dF = ipgl,kaR? dz cos wt = ipaR? dz a|,-o
+
+Ai i\x=ol
+
+RESPONSE IN REGULAR WAVES 61
+
+where Aj, is the proper added mass, which for the circular cylinder is
+equal to the mass of the > displaced fluid volume.
+
+What we have shown above is a derivation of the mass force in
+Morison’s equation based on potential theory. With mass force we mean
+a force that is proportional to the undisturbed fluid acceleration a,. The
+
+horizontal force per unit length on a strip of the cylinder can, according
+to Morison’s equation (Morison et al., 1950) be written as
+
+D?
+dF = px-Cya, + £CpD |u| u (3.34)
+
+Positive force direction is in the wave propagation direction. Further, p
+is the mass density of the water, D is the cylinder diameter, u and a, are
+horizontal undisturbed fluid velocity and acceleration at the mid-point of
+the strip. In reality the mass and drag coefficients Cy and Cp have to be
+empirically determined and are dependent on many parameters like
+
+Reynolds number, Keulegan—Carpenter number, a Yelative current
+
+number and surface roughness ratio. This will be discussed in detail in
+chapter 7, In this chapter the non-linear drag term is assumed to be
+negligible. What we have shown is that potential theory gives Cy = 2 for
+a ciretlar_ cylinder, where half the contribution comes from the
+Froude-Kriloff force and the other half comes from the diffraction force.
+
+If viscous effects are accounted for, Cm will differ from 2. We shouid
+remember that the wavelength was assumed to be large relative to the
+diameter. For arbitrary wavelength we may use the linear analytical
+
+Solution by McCamy & Fuchs (1954). The theory is based on potential
+
+flow and is valid for a circular cylinder standing on the sea floor and
+penetrating the free-surface. This theory shows that there is one force
+part in phase with a, and another force part in phase with the velocity u.
+
+We may generalize the derivation above for any small-volume
+structure. By small volume we mean that the wavelength A is large
+relative to a characteristic cross-sectional dimension of the body. For
+instance, for the vertical cylinder it means that A>5D where D is the
+cylinder diameter. The force on a relatively small body can be written as
+
+F=iF | +jF,+kF; (3.35)
+
+where
+F,= -[f pn; ds + Aja, + Aja2 + Aj3a3 (3.36)
+s
+
+Here p is the pressure in the undisturbed wave field and n= (n,, 22, 73)
+is the unit vector normal to the body surface defined to be positive into
+the fluid. The integration is over the average wetted surface of the body.
+Further, a), a2 and a; are acceleration components along the x-, y- and

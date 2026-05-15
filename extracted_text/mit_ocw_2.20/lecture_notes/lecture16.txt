@@ -1,0 +1,1294 @@
+[Page 1]
+Lecture 16 
+D
+(drag)
+x
+F
+(lift)
+y
+F
+
+U
+ - Marine Hydrodynamics 
+Lecture 16 
+4.1.4 Vortex Shedding and Vortex Induced Vibrations 
+Consider a steady ﬂow Uo over a bluﬀ body with diameter D. 
+We would expect the average forces to be: 
+ 
+Fy 
+Fx 
+t 
+F 
+However, the measured oscillatory forces are: 
+Average 
+Average 
+t
+F
+Fx
+Fy
+• The measured drag Fx is found to oscillate about a non-zero mean value with 
+frequency 2f. 
+• The measured lift Fy is found to oscillate about a zero mean value with frequency 
+f. 
+• f = ω/2π is the frequency of vortex shedding or Strouhal frequency. 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+Uo
+D
+Von 
+Karman 
+Street
+Fy
+Fx
+Reason: Flow separation leads to vortex shedding. The vortices are shed in a staggered 
+array, within an unsteady non-symmetric wake called von Karman Street. The frequency 
+of vortex shedding is the Strouhal frequency and is a function of Uo, D, and ν. 
+i) Strouhal Number We deﬁne the (dimensionless) Strouhal number S ≡ 
+Strouhal frequency 
+z}|{
+f D 
+U0 
+. 
+The Strouhal number S has a regime dependence on the Re number S = S(Re). 
+
+
+
+0.22
+0.3
+S(Re)
+Re
+For a cylinder: 
+Laminar ﬂow S ∼ 0.22 
+• 
+Turbulent ﬂow S ∼ 0.3 
+• 
+ii) Drag and Lift The drag and lift coeﬃcients CD and CL are functions of the correlation 
+length. 
+For ‘∞’ correlation length: 
+If the cylinder is ﬁxed, CL ∼ O(1) comparable to CD. 
+• 
+• If the cylinder is free to move, as the Strouhal frequency fS approaches one of 
+the cylinder’s natural frequencies fn, ‘lock-in’ occurs. Therefore, if one natural 
+frequency is close to the Strouhal Frequency fn ∼ fS , we have large amplitude 
+motions 
+Vortex Induced Vibration (VIV).
+⇒
+
+---PAGE BREAK---
+
+[Page 3]
+L
+b 
+D 
+Uo 
+4.2 Drag on a Very Streamlined Body 
+UL 
+ReL ≡ 
+ν 
+Cf ≡ 
+D 
+
+2 ρU 2 
+(Lb)
+|{z}
+S=wetted area 
+one side of plate 
+Cf = Cf (ReL , L/b) 
+Cf 
+0.01 
+Laminar 
+
+Re 
+0.001 
+Turbulent 
+
+= ν ∂u ´
+Unlike a bluﬀ body, Cf is a strong function of ReL since D is proportional to ν 
+³
+τ 
+∂y . 
+See an example of Cf versus ReL for a ﬂat plate in the ﬁgure below. 
+Skin friction coeﬃcient as a function of the Re for a ﬂat plate 
+• ReL depends on plate smoothness, ambient turbulence, . . . 
+In general, Cf ’s are much smaller than CD’s (Cf /CD ∼ O(0.1) to O(0.01)). Therefore, 
+• 
+designing streamlined bodies allows minimal separation and smaller form drag at the 
+expense of friction drag. 
+• In general, for streamlined bodies CTotal Drag is a combination of CD (Re) and Cf (ReL ), 
+
+µ 
+¶
+and the total drag is D = 2 ρU 2 CD 
+S 
++ Cf 
+Aw 
+, where CD has a regime 
+frontal area 
+wetted area 
+dependence on Re and Cf is a continuous function ReL .
+
+---PAGE BREAK---
+
+[Page 4]
+4.3 Known Solutions of the Navier-Stokes Equations 
+4.3.1 Boundary Value Problem 
+Navier-Stokes’: 
+• 
+∂~v 
+
+
+∂t + (~v · r) ~v = −ρrp + νr 2~v + ρf~
+Conservation of mass: 
+• 
+r · ~v = 0 
+• Boundary conditions on solid boundaries “no-slip”: 
+~v = U~
+Equations very diﬃcult to solve, analytic solution only for a few very special cases (usually 
+when ~
+v = 0. . . ) 
+v · r~
+
+---PAGE BREAK---
+
+[Page 5]
+4.3.2 Steady Laminar Flow Between 2 Long Parallel Plates: Plane Couette Flow 
+ 
+y
+h 
+z
+x 
+U 
+Steady, viscous, incompressible ﬂow between two inﬁnite plates. The ﬂow is driven by a 
+pressure gradient in x and/or motion of the upper plate with velocity U parallel to the 
+x-axis. Neglect gravity. 
+Assumptions 
+Governing Equations 
+Boundary Conditions 
+i. Steady Flow: 
+∂ 
+∂t = 0 
+ii. (x, z) >> h: 
+∂~v 
+∂x = ∂~v 
+∂z = 0 
+iii. Pressure: 
+independent of z 
+Continuity: 
+∂u 
+∂x + ∂v 
+∂y + ∂w 
+∂z = 0 
+NS: 
+∂~v 
+∂t + ~v · r~v = −1 
+ρ rp + νr2~v 
+~v = (0, 0, 0) on y = 0 
+~v = (0, 0, 0) on y = h 
+Continuity 
+∂u 
+∂v 
+∂w 
+∂v 
++
++
+= 0 
+= 0 
+v = v(x, z) 
+v = 0 
+(1)
+∂x
+∂y 
+∂z
+⇒ ∂y 
+⇒
+⇒
+|{z}
+|{z}
+BC: v(x,
+↑
+0,z)=0 
+=0, 
+from assumption ii
+
+---PAGE BREAK---
+
+[Page 6]
+|{z}
+Momentum x 
+∂u 
+∂u 
+∂u 
+∂u 
+1 ∂p 
+µ ∂2u
+∂2u
+∂2u ¶ 
++u 
++ v
++ w 
+= − 
++ ν
++
++ 
+∂t
+∂x
+|{z} ∂y 
+∂z
+ρ ∂x 
+∂x2 
+∂y2 
+∂z2 
+⇒
+=0, (1)
+|{z}
+=0, 
+|{z}
+ii 
+|{z}
+|{z}
+ii 
+|{z}
+i 
+=0, 
+=0, ii 
+=0, 
+=0, ii 
+∂2u 
+1 ∂p 
+ν 
+= 
+(2)
+∂y2 
+ρ ∂x 
+Momentum y 
+∂v 
+1 ∂p 
++~
+v
+
+v 
+∂t
+v · r 
+=0
+|{z}
+, 
+= −ρ ∂y + νr |{z}
+(1) 
+⇒ 
+(1) 
+=0, 
+=0, i 
+∂p 
+∂p 
+dp
+= 0 
+p = p(x) and 
+= 
+(3)
+∂y 
+⇒
+∂x 
+dx
+↑
+assumption iii 
+Momentum z 
+∂w 
+∂w 
+∂u 
+∂w 
+1 ∂p 
+µ ∂2w
+∂2w
+∂2w ¶ 
++u 
++ v
++ w 
+= − 
++ν
++
++ 
+∂t
+∂x
+|{z} ∂y 
+∂z
+ρ ∂z
+∂x2 
+∂y2 
+∂z2 
+⇒
+=0, (1)
+|{z}
+|{z}
+ii 
+|{z}
+|{z}
+iii 
+|{z} 
+|
+=0
+{z
+, 
+}
+ii
+=0, i 
+=0, 
+=0, ii 
+=0, 
+=0, ii 
+∂2w = 0 
+w = ay + b
+w = 0 
+(4)
+∂y2 
+⇒
+⇒
+↑
+w(x,0,z)=0 
+w(x,h,z)=0 
+From Equations (1), (4) 
+∂u 
+du 
+~v = (u, 0, 0). Also 
+u = u(y) and 
+= 
+(5)
+⇒
+∂y 
+dy
+↑
+assumption ii 
+From Equations (2), (3, and (5) 
+d2u 
+1 d2p 
+1 µ dp ¶ 
+
+1 µ 
+dp ¶
+y 
+dy2 = ρν dx2 ⇒ u = −2µ −dx y +C1y+C2 
+⇒
+u = 
+− 
+(h − y)y + U 
+2µ
+dx 
+h 
+µ=
+↑
+ρν 
+u(x,0
+↑
+,z)=0 
+w(x,h,z)=U
+
+---PAGE BREAK---
+
+[Page 7]
+y
+)
+(y
+u
+
+)
+(
+=
+=U
+h
+u
+
+)
+
+(
+=
+u
+p
+p
+
+)
+(
+>
+−dx
+dp
+profile
+Parabolic
+h
+y
+)
+(y
+u
+U
+h
+u
+=
+)
+(
+
+)
+
+(
+=
+u
+
+)
+(
+=
+−dx
+dp
+profile
+Linear
+h
+U
+Special cases for Couette ﬂow 
+• 
+
+dp 
+dp
+Px−Px+L
+u(y) = 2µ (h − y)y(−dx ) + U h
+y , where (−dx ) = 
+L 
+dp 
+dp
+I. U = 0, 
+¡ 
+− 
+¢ 
+> 0 
+II. U = 0
+
+, 
+¡ 
+− 
+¢ 
+= 0
+dx 
+dx 
+Velocity
+•
+u(y) = 1 
+dp ) 
+u(y) = U y 
+2µ (h − y)y(−dx 
+h 
+Max velocity
+•
+dp
+umax = u(h/2) = 8
+h
+µ 
+2 (−dx ) 
+umax = U 
+Volume ﬂow rate 
+• 
+h3 
+dp
+Q = 
+R
+
+h u(y)dy = 8µ (−dx ) 
+Q = h U
+
+Average velocity
+•
+Q
+h2 
+dp
+u¯ = h = 6µ (−dx ) 
+u¯ = U 
+
+Viscous stress on bottom plate (skin friction)
+•
+du ¯ 
+U
+τw = µ du ¯ 
+= h 
+dp ¢ 
+> 0 
+τw = µ dy 
+= µ h
+dy 
+
+¡ 
+− dx 
+y=0 
+y=0
+
+---PAGE BREAK---
+
+[Page 8]
+,0
+)
+(,0
+>
+>
+−
+>
+G
+dx
+dp
+U
+w
+τ
+U
+h
+u
+=
+)
+(
+h
+U
+
+,0
+)
+(,0
+<
+<
+−
+>
+G
+dx
+dp
+U
+flow
+back
+U
+h
+u
+=
+)
+(
+U
+w
+τ
+III. U 6= 0, 
+¡ 
+− dp 
+dx 
+¢ 
+6= 0 
+¡ 
+− dp 
+dx 
+¢ 
+> 0 
+¡ 
+− dp 
+dx 
+¢ 
+< 0 
+•Viscous stress on bottom plate (skin friction) 
+τw = h 
+
+¡ 
+− dp 
+dx 
+¢ 
++ µ U 
+h 
+τw 
+< 
+= 
+>0 when (− dp 
+dx) 
+< 
+= 
+> − 2µU 
+h2 , in which case the ﬂow is 
+½ attached 
+insipient 
+separated
+
+---PAGE BREAK---
+
+[Page 9]
+,0
+)
+(,0
+>
+>
+−
+>
+G
+dx
+dp
+U
+U
+h
+u
+=
+)
+(
+h
+U
+
+,0
+)
+(,0
+<
+<
+−
+>
+G
+dx
+dp
+U
+
+
+,0
+)
+(,0
+=
+⇒
+−
+=
+<
+−
+>
+w
+G
+dx
+dp
+U
+τ
+U
+h
+u
+=
+)
+(
+U
+U
+U
+h
+u
+=
+)
+(
+flow
+back
+dp
+For the general case of U = 0 and 
+
+¡ 
+− 
+¢ 
+= 0, 
+
+dx 
+τw = h¡ 
+− dp ¢ 
++ µU 
+
+dx 
+h 
+We deﬁne a Dimensionless Pressure Gradient G 
+G ≡ h2 ¡ 
+− dp ¢ 
+2µU 
+dx 
+such that 
+G > 0 denotes a favorable pressure gradient 
+• 
+G < 0 denotes an adverse pressure gradient 
+• 
+G = −1 denotes an incipient ﬂow 
+• 
+G < −1 denotes a separated or back-ﬂow 
+• 
+Lessons learned in § 4.3.2: 
+1. Reviewed how to simplify the Navier-Stokes equations. 
+2. Obtained one solution to the Navier-Stokes equations. 
+3. Realized that once the Navier-Stokes are solved we know 
+everything. 
+In the next paragraph we are going to study one more solution to the Navier-Stokes equa­
+tion, in polar coordinates.
+
+---PAGE BREAK---
+
+[Page 10]
+L 
+y 
+a 
+x 
+z 
+θ  
+ 
+  
+ 
+ 
+ 
+L 
+y 
+a 
+x 
+z 
+θ  
+| 
+{z 
+} 
+4.3.3 Steady Laminar Flow in a Pipe: Poiseuille Flow 
+r = a
+Vx(r)
+Steady, laminar pipe ﬂow. 
+KBC: vx(a) = 0 (no slip) and 
+
+
+dvx
+(r = y2 + z , ~v = (vx, vr, vθ)) 
+dr (0) = 0 (symmetry). 
+Assumptions 
+Governing Equations 
+Boundary Conditions 
+i. Steady Flow: 
+∂ 
+∂t = 0 
+ii. (x, z) >> h: 
+∂~v 
+∂x = ∂~v 
+∂θ = 0 
+⇒ ~v = ~v(r) 
+iii. Pressure: 
+independent of θ 
+Continuity: 
+
+r 
+∂rvr 
+∂r + 1 
+r 
+∂vθ 
+∂θ + ∂vx 
+∂x = 0 
+NS: 
+In polar coordinates (see SAH pp.74) 
+vx(r = a) = 0 no-slip 
+dvx 
+dr |r=0 = 0 symmetry 
+Following a procedure similar to that for plane Couette ﬂow (left as an exercise) we can 
+show that 
+1 dp 
+µ1 d µ dvx 
+¶¶ 
+vr = vθ = 0, vx = vx(r), p = p(x), and 
+= ν
+r 
+ρ dx 
+r dr 
+dr 
+
+r component of r
+in cylindrical coordinates 
+After applying the boundary conditions we ﬁnd: 
+1 µ dp 
+
+vx(r) = 4µ −dx 
+¶ ¡
+a − r 2¢ 
+Therefore the volume ﬂow rate is given by 
+2π
+a 
+Q = 
+Z 
+dθ 
+Z 
+rdrvx(r) = π a 4¡ 
+− dp ¢ 
+8µ 
+dx
+
+
+and the skin friction evaluates to 
+∂vr 
+∂vx 
+∂vx 
+a 
+dp
+τw = τx(−r) = −τxy = −µ ( ∂x + ∂r ) 
+¯¯ 
+r=a 
+= −µ ∂r 
+¯¯ 
+r=a 
+⇒ τw = 2 
+¡ 
+− dx 
+¢
+
+---PAGE BREAK---
+
+[Page 11]
+x
+y
+
+U
+x
+with
+increases
+thickness
+layer
+boundary
+h
+x >>
+for
+flow
+Couette
+h
+4.4 Boundary Layer Growth Over an Inﬁnite Flat Plate for 
+Unsteady Flow 
+Boundary layer thickness is related to the area where the viscosity and vorticity eﬀects are 
+diﬀused. 
+For a ﬂow over an inﬁnite ﬂat plate, the boundary layer thickness increases unless it is 
+constrained in the y direction and/or by time (unsteady ﬂow). 
+1. Steady ﬂow, constrained in y 
+For a steady ﬂow past a ﬂat plate, the boundary layer thickness increases with x. 
+If the ﬂow is constrained in y, eventually the viscous eﬀects are diﬀused along the 
+entire cross section and the ﬂow becomes invariant in the streamwise direction. 
+In paragraphs 4.3.2 and 4.3.3, we studied two cases of steady laminar viscous ﬂows, 
+where the viscous eﬀects had diﬀused along the entire cross section. 
+µ Couette 
+¶
+µ h ¶
+Steady 
+ﬂow, we assumed that viscous eﬀects diﬀused through entire 
+.
+Poiseuille 
+a
+
+---PAGE BREAK---
+
+[Page 12]
+| 
+{z 
+} 
+2. Unsteady ﬂow, unconstrained in y 
+Consider the simplest example of an inﬁnite plate in unsteady motion. 
+z
+y 
+x
+U(t) 
+Assumptions rp = 0, ∂~v = ∂~v = 0 
+~v = ~v (y, t)
+∂x 
+∂z 
+⇒ 
+Can show v = w = 0 and u = u(y, t). 
+Finally, from u momentum (Navier-Stokes in x) we obtain 
+⎛
+⎞ 
+∂u 
+∂u 
+∂u 
+∂u 
+1 ∂p 
+∂2u
+∂2u
+∂2u 
+∂t + u ∂x + v
+∂y + w ∂z = −ρ ∂x +ν ⎜
+∂x2 + ∂y2 + ∂z2 
+⎟
+⎝
+⎠ ⇒
+=0
+|{z}
+=0 
+|{z}
+| {z
+=0 
+} 
+|{z}
+=0 
+|{z}
+=0 
+|{z}
+=0 
+∂u 
+∂2u 
+= ν 
+‘ momentum ’ diﬀusion equation 
+(6)
+∂t 
+∂y2 
+velocity 
+(heat) 
+Equation (6) is: 
+? ﬁrst order PDE in time 
+requires 1 Initial Condition 
+→ 
+? second order PDE in y 
+requires 2 Boundary Conditions 
+→ 
+- u(y, t) = U(t) at y = 0, for t > 0 
+- u(y, t) 
+0 as y →∞ 
+→ 
+From Equation (6), we observe that the ﬂow over a moving ﬂat plate is due to viscous 
+dissipation only.
+
+---PAGE BREAK---
+
+[Page 13]
+4.5.1 Sinusoidally Oscillating Plate 
+i. Evaluation of the Velocity Proﬁle for Stokes Boundary Layer 
+The ﬂow over an oscillating ﬂat plate is referred to as ‘Stokes Boundary Layer’. 
+Recall that eiα = cos α + i sin α where α is real. 
+Assume that the plate is oscillating with U(t) = Uo cos ωt = Real {Uoeiωt}. From linear 
+theory, it is known that the ﬂuid velocity must have the form 
+u (y, t) = Real 
+©
+f (y) e iωtª 
+, 
+(7) 
+where f(y) is the unknown complex (magnitude & phase) amplitude of oscillation. 
+To obtain an expression for f(y), simply substitute (7) in (6). This leads to: 
+d2f 
+iωf = ν 
+(8)
+dy2 
+Equation (8) is a 2nd order ODE for f(y). The general solution is 
+(1+i) 
+√
+ω/2ν 
+ 
+y + C2e
+−(1+i) 
+√
+ω/2ν 
+ 
+y
+f (y) = C1e 
+(9) 
+The velocity proﬁle is obtained from Equations (7), (9) after we apply the Boundary 
+Conditions. 
+u(y, t) must be bounded as y →∞⇔ C1 = 0 
+¾ 
+u (y, t) = Uo(e−y√
+
+ω
+ν ) cos 
+¡ 
+− y 
+r ω + ωt
+¢ 
+u(y = 0, t) = U(t) 
+f(y = 0) = Uo 
+C2 = Uo 
+2ν
+⇔ 
+⇔ 
+Stokes Boundary Layer
+
+---PAGE BREAK---
+
+[Page 14]
+o
+U
+y
+u
+)
+(
+y
+ν
+ω
+
+y
+e
+−
+e
+/
+
+δ
+δ
+≡
+e
+/
+
+
+
+−
+λ = 2πδ
+ii. Some Calculations for the Stokes Boundary Layer 
+Once the velocity proﬁle is evaluated, we know everything about the ﬂow. 
+Stokes Boundary Layer. Velocity ratio u
+U
+(y
+o 
+) as a function of the distance from the plate y. 
+Observe: 
+2ν ) 
+Uo 
+2ν 
+u(y, t) = 
+(e−y√ ω 
+cos 
+¡ 
+− y 
+r ω + ωt
+¢ 
+(10) 
+Exponentially decaying 
+|
+{z
+}
+| 
+{z 
+}
+envelope 
+Oscillating component 
+SBL thickness 
+The ratio U
+u 
+o is composed of an exponentially decaying part 
+thickness of SBL decays 
+→
+exponentially with y. We deﬁne various parameters that can be used as measures of 
+the SBL thickness: 
+We deﬁne δ1/e as the distance y from the plate where 
+u(δ
+U
+
+o
+/e) = 1 
+e . Substituting
+• 
+q
+2ν
+into (10), we ﬁnd that δ ≡ δ1/e = 
+ω 
+q
+2ν
+u(λ)
+The oscillating component has wave length λ = 2π
+ω = 2πδ. At λ, Uo = 0.002. 
+•
+∼
+We deﬁne δ1% as the distance y from the plate, where u(δ1%) = 1%. Substituting 
+• 
+Uo 
+into (10), we ﬁnd that δ1% = − ln(u(δ1%) )
+q
+2ν = 4.6δ.
+Uo 
+ω ∼
+
+---PAGE BREAK---
+
+[Page 15]
+Numerical examples: 
+For oscillating plate in water (ν = 10−6m2/s= 1mm2/s) we have 
+δ1% 
+4.6 √
+T ∼
+= 
+= 2.6
+r 
+T
+in sec
+|{z}
+√π 
+|{z}
+in mm 
+T = 2π 
+ω 
+δ1% 
+1s 
+3mm 
+10s 
+≤1cm 
+Excursion length and SBL 
+The plate undergoes a motion of amplitude A. 
+˙
+Uo
+X = A sin(ωt) 
+U = X = Aω cos(ωt) 
+ω = 
+⇒ 
+|{z}
+⇒ 
+A 
+Uo 
+Comparing the SBL thickness ∼ δ with A, we ﬁnd 
+δ 
+p
+ν/ω 
+p
+νA/Uo 
+r ν 
+
+=
+= 
+A ∼ 
+A 
+A
+UoA ∼ p
+ReA
+↑
+Uo
+ω= A 
+Skin friction 
+The skin friction on the plate is given by 
+τw = µ ∂u¯ 
+= . . . = µUo 
+r ω ¡ 
+sin ωt − cos ωt
+¢ 
+∂y y=0 
+2ν 
+The maximum skin friction on the wall is 
+rω 
+|τw|max = µUo 
+ν 
+and occurs at ωt = 3
+
+π , 7
+
+π , · · ·
+
+---PAGE BREAK---
+
+[Page 16]
+U(t) 
+t 
+Uo 
+4.5.2 Impulsively Started Plate 
+Recall Equation (6) that describes the the ﬂow u(y, t) over an inﬁnite ﬂat plate undergoing 
+unsteady motion. 
+∂u 
+∂2u 
+= ν 
+∂t 
+∂y2 
+For an impulsively started plate, the Boundary Conditions are: 
+u(o, t) = Uo 
+¾ 
+for t > 0, i.e. u(y, 0) = 0 
+u(∞, t) = 0 
+Notice that the problem stated by Equation (6) with the above Boundary Conditions has no 
+explicit time scale. In this case it is standard procedure to (a) use Dimensional Analysis 
+to ﬁnd the similarity parameters of the problem, and (b) look for solution in terms of the 
+similarity parameters: 
+u 
+u = f (Uo, y, t, ν) ⇒U
+u 
+o 
+= f
+¡ 
+
+√y
+νt 
+¢ 
+⇒ 
+= f(η) 
+Self similar solution 
+Uo
+↑
+DA 
+| 
+≡{z
+η } 
+similarity parameter 
+The velocity proﬁle is thus given by?: 
+u 
+2 Zη
+= erfc (η) = 1 − erf (η) = 1 − 
+e−α2 dα 
+Complementary 
+error function 
+Uo 
+| {z }
+√π
+
+---PAGE BREAK---
+
+[Page 17]
+|
+} 
+r 
+? Hints on obtaining the solution: 
+η = 2
+√y
+νt 
+∂u =ν ∂2 u 
+∂ 
+∂η ∂ 
+y
+∂ 
+∂t 
+∂y2 
+d(u/Uo) 
+d2(u/Uo) 
+∂t = ∂t ∂η = −4t
+√
+νt ∂η 
+−→ −η 
+dη 
+= 
+dη2 
+−→ . . . 
+∂2 
+∂2 
+{z
+2nd 
+= 
+¡ ∂η ¢2 ∂2 
+
+order ODE 
+= 
+∂y2 
+∂y 
+∂η2 
+4νt ∂η2 
+⎫
+⎪
+⎬ 
+⎪
+⎭ 
+Boundary layer thickness 
+In the same manner as for the SBL, we deﬁne various parameters that can be used to 
+measure the boundary layer thickness: 
+δ ≡ 2
+√
+νt. 
+= 0.16. 
+• 
+At y = δ −→ u
+U
+(δ
+o 
+) ∼ 
+δ1% ∼ 
+= 1.82δ. 
+• 
+Excursion length and boundary layer thickness 
+At time t, the plate has travelled a distance L = Uot
+t = U
+L 
+o . 
+→
+Comparing the boundary layer thickness ∼ δ with L, we ﬁnd 
+δ 
+√
+νt 
+p
+νL/Uo 
+ν 
+
+L ∼ 
+= 
+= 
+L ∼ p
+ReL 
+L
+L 
+Uo
+Skin friction 
+The skin friction on the plate is given by 
+∂u¯¯ 
+Uo
+τw = µ ∂y y=0 
+= . . . = −µ√
+πνt

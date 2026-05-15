@@ -1,0 +1,200 @@
+[Page 1]
+2.20 Problem Set 2A 
+Name: ____________________ 
+1. The velocity vector field 
+)
+,
+,
+(
+)
+,
+,
+,
+(
+w
+v
+u
+t
+z
+y
+x
+V
+=
+
+is given by 
+k
+t
+i
+xy
+V
+ˆ
+ˆ
+
+
++
+=
+
+. At the point 
+(-1,2,0) evaluate the following: 
+(a)
+V
+V
+
+
+
+×
+×
+∇
+)
+(
+(b)
+V
+V
+
+
+
+)
+(
+∇
+⋅
+2. Stokes’ Theorem states that for a 2-sided surface S in three dimensions having a closed 
+curve C as its boundary, 
+
+
+⋅
+=
+×
+∇
+⋅
+S
+C
+ld
+V
+dS
+V
+n
+
+
+
+
+)
+(
+ˆ
+.
+where V
+
+ is a continuously differentiable vector function, nˆ  is the unit normal to the 
+chosen positve side of S, and ld
+
+ is in the corresponding positive direction along C.
+Verify the theorem using direct integration for the case where 
+j
+x
+i
+y
+V
+ˆ
+ˆ
+
+2 +
+=
+
+ and S is a 
+circular disk of radius R in the x-y plane having 
+k
+n
+ˆ
+ˆ =
+.
+3. Suppose a fluid is rotating about an axis fixed in space at a constant angular velocity 
+ω . Choose the origin of a rectangular coordinate system to be on this axis. The position 
+vector to any point in the fluid is 
+k
+z
+jy
+ix
+r
+ˆ
+ˆ
+ˆ
++
++
+=
+
+. Knowing that the velocity of any point 
+is then 
+r
+V
+
+
+
+×
+= ω
+, determine the following: 
+(a)
+V
+
+
+⋅
+∇
+     and  (b) 
+V
+
+
+×
+∇
+.
+Hint: Consider 
+r
+
+⋅
+∇
+,
+r
+
+×
+∇
+and
+r
+u ∇
+⋅
+
+
+ (u  any vector) 
+4. Using the divergence theorem, evaluate 
+⋅
+S
+dA
+n
+F ˆ
+
+ over the closed surface of the cube 
+bounded by the planes 
+
+±
+=
+x
+,
+
+±
+=
+y
+,
+
+±
+=
+z
+ where 
+k
+z
+jy
+ix
+F
+ˆ
+ˆ
+ˆ
++
++
+=
+
+.

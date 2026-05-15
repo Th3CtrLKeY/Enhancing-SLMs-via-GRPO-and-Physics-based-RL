@@ -1,0 +1,49 @@
+qualitative features of the Kelvin wave pattern are confirmed. Figure 6.17, taken directly above the wake of the ship, permits a quantitative confirmation of the two angles noted, although in this case the transverse waves are not obvious. Figure 6.17 also shows a commonly observed feature, namely that the apex of the sectors containing the Kelvin waves is displaced upstream from the ship’s bow by an amount typically as large as one ship length. Figure 6.15 The Kelvin ship-wave pattern.
+
+Chapter 6
+A departure from the linearized potential theory that appears in figures 
+6.16 and 6.17 is a pronounced breaking wave, originating at the bow and 
+trailing aft on either side of the ship into the wake. The effect of this break­
+ing wave on the resistance of the ship, a particularly interesting topic in 
+contemporary naval architecture, will be discussed in section 6.14.
+6.11  The Method of Stationary Phase
+A more mathematical approach to the Kelvin ship-wave system can be 
+based upon the method of stationary phase, developed originally by Kelvin 
+Figure 6.16
+Kelvin ship waves as observed in an aerial photograph. The transverse waves can be 
+seen in this photograph, although the steeper diverging waves appear to be domi­
+nant. Note the nodal lines which divide the diverging waves along two or three radial 
+lines, with 180° phase shifts across these lines. (Courtesy of U. S. Navy)
+
+Waves and Wave Effects 
+
+for the same purpose. This will furnish an alternative viewpoint to the heu­
+ristic argument based on the group velocity and will provide the necessary 
+information regarding the wave amplitude for subsequent use in analyzing 
+the energy flux and wave resistance.
+An asymptotic approximation is desired for the integral (89), based on 
+the assumption that the distance from the origin is very large compared to 
+the wavelength. To derive the stationary-phase approximation in a more 
+general context, let us consider the integral
+I
+F
+e
+d
+iRG
+= ∫( )
+,
+( )
+θ
+θ
+θ
+	
+(98)
+where F(θ) and G(θ) are arbitrary regular functions and R is a large param­
+eter such as the polar radius. The function F may be complex, but G will 
+be assumed real. For large values of R, the phase RG will vary rapidly, and 
+the integrand of (98) will be a highly-oscillatory function. The resulting 
+Figure 6.17
+Aerial photograph of ship waves with the angles 19 1
+2 ° and 35° superposed. A single 
+nodal line can be detected on each side by the 180° phase shift as in figure 6.16. 
+(From Newman 1970)

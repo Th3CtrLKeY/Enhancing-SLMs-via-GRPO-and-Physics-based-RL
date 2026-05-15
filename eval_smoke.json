@@ -1,0 +1,164 @@
+{
+  "checkpoint": "./sft_model_output/checkpoint-183",
+  "base_model": "Qwen/Qwen2.5-3B-Instruct",
+  "dataset": "data/grpo_eval.jsonl",
+  "llm_judge_enabled": false,
+  "n_records": 5,
+  "type_stats": {
+    "numerical": {
+      "n": 3,
+      "accuracy_pct": 0.0,
+      "mean_reward": 0.0
+    },
+    "mcq": {
+      "n": 1,
+      "accuracy_pct": 0.0,
+      "mean_reward": 0.0
+    }
+  },
+  "failures": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "gt": "Isotropic relation",
+      "completion_tail": ", where fluid particles move smoothly along streamlines without lateral mixing. The turbulence introduces random velocity fluctuations at all scales within the boundary layer, which complicates the analysis but also allows for more realistic modeling of real-world flows.\n\nTherefore, the answer is: B",
+      "original_question": "What is the primary assumption underlying the derivation of the momentum equation for a turbulent boundary layer?",
+      "question_prompt": "What is the primary assumption underlying the derivation of the momentum equation for a turbulent boundary layer?\n\nOptions:\nA: Laminar flow assumption\nB: Turbulent flow assumption\nC: Isotropic relation\nD: Reynolds number independence",
+      "dataset_answer_raw": "Isotropic relation",
+      "dataset_chain_of_thought": "The primary assumption is that the fluctuating components of the velocity satisfy the isotropic relation ′ = ′ u v 2.",
+      "reference_assistant": null,
+      "gt_letter": "Isotropic relation",
+      "gt_text": null
+    },
+    {
+      "index": 1,
+      "type": "numerical",
+      "gt": "-0.4",
+      "completion_tail": "(1 - z^2), we can substitute this into the integral: ∫_0^L 0.2 * (1 - z^2) dz. To solve this integral, we first find the antiderivative of the integrand: [0.2z - 0.2/3*z^3] evaluated from 0 to L. This gives us the trailing vorticity γ_T(L) = 0.2L - 0.2/3*L^3.\n\nFinal Answer:\nγ_T(L) = 0.2L - 0.2/3*L^3",
+      "original_question": "Calculate the trailing vorticity γ_T(z) for a lifting surface with a circulation distribution given by Γ(z) = 0.2 * (1 - z^2) m^2/s. Assume that the derivative of the circulation distribution with respect to z is dΓ/dz = -0.4z m^2/s^2.",
+      "question_prompt": "Calculate the trailing vorticity γ_T(z) for a lifting surface with a circulation distribution given by Γ(z) = 0.2 * (1 - z^2) m^2/s. Assume that the derivative of the circulation distribution with respect to z is dΓ/dz = -0.4z m^2/s^2.",
+      "dataset_answer_raw": "γ_T(z) = -0.4z m^2/s^2",
+      "dataset_chain_of_thought": "To calculate the trailing vorticity γ_T(z), we can use the formula γ_T(z) = dΓ/dz. Given the circulation distribution Γ(z) = 0.2 * (1 - z^2) m^2/s, we can find the derivative of the circulation distribution with respect to z. The derivative of Γ(z) with respect to z is dΓ/dz = d(0.2 * (1 - z^2))/dz = -0.4z m^2/s^2. Now, we can calculate the trailing vorticity γ_T(z) using the formula γ_T(z) = dΓ/dz. Substituting the value of dΓ/dz, we get γ_T(z) = -0.4z m^2/s^2.",
+      "reference_assistant": null
+    },
+    {
+      "index": 3,
+      "type": "numerical",
+      "gt": "0.552",
+      "completion_tail": "t:\nThe tidal velocity component U_t can be calculated using the formula U_t(h) = U_t(0) * (h / H), where H is the total water depth. In this case, U_t(0) = 0.5 m/s and h = 50 meters. Plugging these values into the formula gives U_t(50) = 0.5 * (50 / 100) = 0.25 m/s.\n\nFinal Answer:\nU_t(50) = 0.25 m/s",
+      "original_question": "Calculate the tidal velocity component U_t at a depth of 20 meters below the sea surface, given the tidal velocity at the surface U_t(0) = 0.5 m/s and the water depth h = 50 meters.",
+      "question_prompt": "Calculate the tidal velocity component U_t at a depth of 20 meters below the sea surface, given the tidal velocity at the surface U_t(0) = 0.5 m/s and the water depth h = 50 meters.",
+      "dataset_answer_raw": "0.552 m/s",
+      "dataset_chain_of_thought": "Using the formula U_t(z) = U_t(0) * log10(1 + (z + h) / (h - 10)) / log10(1 + h / (h - 10)), we can substitute the given values: U_t(-20) = 0.5 * log10(1 + (20 + 50) / (50 - 10)) / log10(1 + 50 / (50 - 10)) = 0.5 * log10(1 + 70 / 40) / log10(1 + 50 / 40) = 0.5 * log10(2.75) / log10(2.5) = 0.5 * 0.439 / 0.398 = 0.552 m/s.",
+      "reference_assistant": null
+    },
+    {
+      "index": 4,
+      "type": "numerical",
+      "gt": "0.00005",
+      "completion_tail": "lated using the formula δ' = (Cf * δ) / (ρ * u∞), where Cf is the local frictional-drag coefficient, δ is the boundary layer thickness, ρ is the fluid density, and u∞ is the free stream velocity. Plugging in the given values: δ' = (0.001 * 0.1) / (1000 * 20) = 5 x 10^-8 m.\n\nFinal Answer:\n5 x 10^-8 m",
+      "original_question": "Determine the momentum thickness of a boundary layer with a free stream velocity of 20 m/s, a local frictional-drag coefficient of 0.001, and a boundary layer thickness of 0.1 meters. Assume the fluid density is 1000 kg/m^3.",
+      "question_prompt": "Determine the momentum thickness of a boundary layer with a free stream velocity of 20 m/s, a local frictional-drag coefficient of 0.001, and a boundary layer thickness of 0.1 meters. Assume the fluid density is 1000 kg/m^3.",
+      "dataset_answer_raw": "0.00005",
+      "dataset_chain_of_thought": "First, we need to calculate the wall shear stress: τ = 0.5 * ρ * U^2 * c_f = 0.5 * 1000 * (20)^2 * 0.001 = 40 N/m^2. Then, we can use the equation for the momentum thickness: θ = ∫(U - u) / U dy, where u is the velocity profile. However, since we don't have the velocity profile, we can use the approximate equation: θ = δ * (c_f / 2) = 0.1 * (0.001 / 2) = 0.00005 meters.",
+      "reference_assistant": null
+    }
+  ],
+  "per_item": [
+    {
+      "index": 0,
+      "type": "mcq",
+      "source": "Newman - Marine Hydrodynamics — newman_chunk_0078.txt",
+      "ground_truth_scoring": "Isotropic relation",
+      "mcq_gt_letter": "Isotropic relation",
+      "mcq_gt_text": null,
+      "completion": "The correct answer is B.\n\nExplanation:\nThe derivation of the momentum equation for a turbulent boundary layer relies on the assumption that the flow is turbulent. This means that the flow has significant fluctuations and cannot be described as laminar, where fluid particles move smoothly along streamlines without lateral mixing. The turbulence introduces random velocity fluctuations at all scales within the boundary layer, which complicates the analysis but also allows for more realistic modeling of real-world flows.\n\nTherefore, the answer is: B",
+      "reward": 0.0,
+      "passed": false,
+      "elapsed_s": 3.12,
+      "skipped": false,
+      "original_question": "What is the primary assumption underlying the derivation of the momentum equation for a turbulent boundary layer?",
+      "question_prompt": "What is the primary assumption underlying the derivation of the momentum equation for a turbulent boundary layer?\n\nOptions:\nA: Laminar flow assumption\nB: Turbulent flow assumption\nC: Isotropic relation\nD: Reynolds number independence",
+      "dataset_answer_raw": "Isotropic relation",
+      "dataset_chain_of_thought": "The primary assumption is that the fluctuating components of the velocity satisfy the isotropic relation ′ = ′ u v 2.",
+      "reference_assistant": null
+    },
+    {
+      "index": 1,
+      "type": "numerical",
+      "source": "Newman - Marine Hydrodynamics — newman_chunk_0165.txt",
+      "ground_truth_scoring": "-0.4",
+      "mcq_gt_letter": null,
+      "mcq_gt_text": null,
+      "completion": "Chain of Thought:\nTo find the trailing vorticity, we need to integrate the circulation distribution over the spanwise direction from the leading edge to the trailing edge. The integral can be expressed as ∫_0^L Γ(z) dz, where L is the length of the lifting surface. Given the circulation distribution Γ(z) = 0.2 * (1 - z^2), we can substitute this into the integral: ∫_0^L 0.2 * (1 - z^2) dz. To solve this integral, we first find the antiderivative of the integrand: [0.2z - 0.2/3*z^3] evaluated from 0 to L. This gives us the trailing vorticity γ_T(L) = 0.2L - 0.2/3*L^3.\n\nFinal Answer:\nγ_T(L) = 0.2L - 0.2/3*L^3",
+      "reward": 0.0,
+      "passed": false,
+      "elapsed_s": 5.67,
+      "skipped": false,
+      "original_question": "Calculate the trailing vorticity γ_T(z) for a lifting surface with a circulation distribution given by Γ(z) = 0.2 * (1 - z^2) m^2/s. Assume that the derivative of the circulation distribution with respect to z is dΓ/dz = -0.4z m^2/s^2.",
+      "question_prompt": "Calculate the trailing vorticity γ_T(z) for a lifting surface with a circulation distribution given by Γ(z) = 0.2 * (1 - z^2) m^2/s. Assume that the derivative of the circulation distribution with respect to z is dΓ/dz = -0.4z m^2/s^2.",
+      "dataset_answer_raw": "γ_T(z) = -0.4z m^2/s^2",
+      "dataset_chain_of_thought": "To calculate the trailing vorticity γ_T(z), we can use the formula γ_T(z) = dΓ/dz. Given the circulation distribution Γ(z) = 0.2 * (1 - z^2) m^2/s, we can find the derivative of the circulation distribution with respect to z. The derivative of Γ(z) with respect to z is dΓ/dz = d(0.2 * (1 - z^2))/dz = -0.4z m^2/s^2. Now, we can calculate the trailing vorticity γ_T(z) using the formula γ_T(z) = dΓ/dz. Substituting the value of dΓ/dz, we get γ_T(z) = -0.4z m^2/s^2.",
+      "reference_assistant": null
+    },
+    {
+      "index": 2,
+      "type": "conceptual",
+      "source": "Newman - Marine Hydrodynamics — newman_chunk_0060.txt",
+      "reward": null,
+      "skipped": true,
+      "ground_truth_for_judge": "λ = 2π(2ν/ω)1/2",
+      "original_question": "Derive the relationship between the wavelength and the frequency of the damped transverse wave in the context of a viscous fluid's motion.",
+      "question_prompt": "Derive the relationship between the wavelength and the frequency of the damped transverse wave in the context of a viscous fluid's motion.",
+      "dataset_answer_raw": "λ = 2π(2ν/ω)1/2",
+      "dataset_chain_of_thought": "The wavelength λ is related to the frequency ω by λ = 2π(2ν/ω)1/2. This relationship can be derived by considering the solution to the governing equation, which is a damped transverse wave. The wavelength is determined by the balance between the inertial and viscous effects in the fluid. The frequency ω determines the rate at which the wave oscillates, while the kinematic viscosity ν determines the rate at which the wave is damped.",
+      "reference_assistant": null
+    },
+    {
+      "index": 3,
+      "type": "numerical",
+      "source": "Faltinsen - Sea Loads — faltinsen_chunk_0017.txt",
+      "ground_truth_scoring": "0.552",
+      "mcq_gt_letter": null,
+      "mcq_gt_text": null,
+      "completion": "Chain of Thought:\nThe tidal velocity component U_t can be calculated using the formula U_t(h) = U_t(0) * (h / H), where H is the total water depth. In this case, U_t(0) = 0.5 m/s and h = 50 meters. Plugging these values into the formula gives U_t(50) = 0.5 * (50 / 100) = 0.25 m/s.\n\nFinal Answer:\nU_t(50) = 0.25 m/s",
+      "reward": 0.0,
+      "passed": false,
+      "elapsed_s": 3.46,
+      "skipped": false,
+      "original_question": "Calculate the tidal velocity component U_t at a depth of 20 meters below the sea surface, given the tidal velocity at the surface U_t(0) = 0.5 m/s and the water depth h = 50 meters.",
+      "question_prompt": "Calculate the tidal velocity component U_t at a depth of 20 meters below the sea surface, given the tidal velocity at the surface U_t(0) = 0.5 m/s and the water depth h = 50 meters.",
+      "dataset_answer_raw": "0.552 m/s",
+      "dataset_chain_of_thought": "Using the formula U_t(z) = U_t(0) * log10(1 + (z + h) / (h - 10)) / log10(1 + h / (h - 10)), we can substitute the given values: U_t(-20) = 0.5 * log10(1 + (20 + 50) / (50 - 10)) / log10(1 + 50 / (50 - 10)) = 0.5 * log10(1 + 70 / 40) / log10(1 + 50 / 40) = 0.5 * log10(2.75) / log10(2.5) = 0.5 * 0.439 / 0.398 = 0.552 m/s.",
+      "reference_assistant": null
+    },
+    {
+      "index": 4,
+      "type": "numerical",
+      "source": "Newman - Marine Hydrodynamics — newman_chunk_0079.txt",
+      "ground_truth_scoring": "0.00005",
+      "mcq_gt_letter": null,
+      "mcq_gt_text": null,
+      "completion": "Chain of Thought:\nThe momentum thickness (δ') can be calculated using the formula δ' = (Cf * δ) / (ρ * u∞), where Cf is the local frictional-drag coefficient, δ is the boundary layer thickness, ρ is the fluid density, and u∞ is the free stream velocity. Plugging in the given values: δ' = (0.001 * 0.1) / (1000 * 20) = 5 x 10^-8 m.\n\nFinal Answer:\n5 x 10^-8 m",
+      "reward": 0.0,
+      "passed": false,
+      "elapsed_s": 3.66,
+      "skipped": false,
+      "original_question": "Determine the momentum thickness of a boundary layer with a free stream velocity of 20 m/s, a local frictional-drag coefficient of 0.001, and a boundary layer thickness of 0.1 meters. Assume the fluid density is 1000 kg/m^3.",
+      "question_prompt": "Determine the momentum thickness of a boundary layer with a free stream velocity of 20 m/s, a local frictional-drag coefficient of 0.001, and a boundary layer thickness of 0.1 meters. Assume the fluid density is 1000 kg/m^3.",
+      "dataset_answer_raw": "0.00005",
+      "dataset_chain_of_thought": "First, we need to calculate the wall shear stress: τ = 0.5 * ρ * U^2 * c_f = 0.5 * 1000 * (20)^2 * 0.001 = 40 N/m^2. Then, we can use the equation for the momentum thickness: θ = ∫(U - u) / U dy, where u is the velocity profile. However, since we don't have the velocity profile, we can use the approximate equation: θ = δ * (c_f / 2) = 0.1 * (0.001 / 2) = 0.00005 meters.",
+      "reference_assistant": null
+    }
+  ],
+  "per_item_fields": {
+    "original_question": "Question text from JSONL before appending MCQ Options block (flat).",
+    "question_prompt": "Exact user message sent to the model (includes Options for flat MCQ).",
+    "dataset_answer_raw": "Flat: rec['answer'] as stored. ChatML: null (see reference_assistant).",
+    "dataset_chain_of_thought": "Flat: rec['chain_of_thought'] if present.",
+    "reference_assistant": "ChatML: gold assistant message from dataset. Flat: null.",
+    "completion": "Model-generated response.",
+    "ground_truth_scoring": "Normalised value passed to physics_reward_function (numerical/mcq).",
+    "ground_truth_for_judge": "Reference text for conceptual LLM judge."
+  }
+}

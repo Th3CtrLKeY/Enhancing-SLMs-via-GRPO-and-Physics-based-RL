@@ -1,0 +1,83 @@
+&] . a QO wi O04 SELON LLG RES 02 SERS NNER ESS ‘ % O7 DO "I o-8 0-7 Fig. 5.19. Calculated values of the second-order transfer function Ty’* (see equation (5.39)) for the difference frequency horizontal force on a two-dimensional circular cross-section with an axis in the mean free surface and radius R. No effect of roll. Infinite water depth. The data are presented as a function of the circular frequencies @; and @,. (Faltinsen & Zhao, 1989.)
+
+160 SECOND-ORDER NON-LINEAR PROBLEMS
+
+The mean square values give a useful measure of the extreme values.
+Typically 0, will be 4 to 4 of the extreme values.
+
+Let u,, = V(c/m). Then in case of small damping we may approximate
+equation (5.47) by
+
+co
+
+du
+
+2 = naan EEE
+Ox SF(Hn) lb (c —mpey + bey?
+
+= Sin) 55 (5.48)
+
+The reason why we can set Sp(u,) outside the integral sign is that the
+major contribution to the integral in equation (5.47) comes from the
+vicinity of u = 4, when b is small.
+
+This demonstrates that small damping b means large motions and that
+the magnitude of response depends on how much slow-drift excitation
+energy exists at 4 = “,. By small damping we mean small relative to the
+critical damping 2mu,.
+
+We will now use the formula for a, to discuss the standard deviation of
+the slow-drift surge motion of a moored tanker. The slow-drift spectrum
+Sx for surge can be calculated when we know the longitudinal drift forces
+in regular waves. The slow-drift spectrum will be wave heading
+dependent. The drift forces can for instance be calculated by using
+three-dimensional source technique (see chapter 4) and the equation for
+conservation of momentum in the fluid (see equation (5.9)). The
+restoring coefficient c follows by the mooring characteristics and the
+natural circular frequency by u, = V(c/(M +Aj,)), where M and Aj, are
+the mass and the added mass in surge of the ship. The added mass in
+surge can be calculated by a three-dimensional source technique. It will
+amount to 10-20% of the mass of the ship. The damping 6 is due to hull
+damping and anchor line damping. The hull damping is caused by
+skin friction, eddy-making and wave-drift damping (Wichers, 1982).
+Due to the low frequency of oscillation wave radiation damping can be
+neglected. For higher sea states the wave-drift damping is the dominant
+hull damping component. As an example, for a 235m long ship the
+wave-drift damping amounted to 85% of the total damping for Hy=
+8.1m, while the wave-drift damping was negligible for Hy = 2.8m. The
+anchor line may also contribute significantly to the damping (Huse,
+1986). This is not accounted for in the present discussion.
+
+For slow-drift oscillations of a TLP or slow-drift oscillations in sway
+of a ship both eddy-making damping and wave-drift damping have to be
+included.
+
+SLOW DRIFT MOTIONS IN IRREGULAR WAVES 161
+
+Wave-drift damping
+Wave-drift damping is caused by the waves and can be seen by
+comparing free-decay model tests of a ship in still water and in regular
+waves (see Fig. 5.20). We can try to explain the wave-drift damping in
+surge by interpreting the slow-drift surge motion as a quasi-steady
+forward and backward speed. It is well known that the added resistance
+of a ship in waves is speed dependent. This is for instance evident from
+
+Motion decay surge. Calm water
+
+Surge (m)
+
+° 100 200 300 400 500 600
+Time (s)
+
+Motion decay surge. Regular waves T=12s,H=8m
+
+Surge (m)
+
+Surge (m)
+
+fe) 100 200 300 400 500 600
+Time (s)
+
+Fig. 5.20. Influence of wave-drift damping demonstrated by free decay tests in
+surge of a tension leg platform both in calm water and in regular
+waves, (Wave period T = 12s, wave height H = 8 m).

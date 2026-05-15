@@ -1,0 +1,181 @@
+and the perturbation velocity should vanish at infinity. Thus the solution of the cavity-flow problem in the mapped plane is identical to that of the fully wetted lifting problem in the physical plane. The solution is given by a line distribution of vortices along the cut (−1, 0), as in equation (55); the appropriate distribution satisfying the Kutta condition at x = −1 can be inferred from (71), Figure 5.31 Boundary conditions of the reflected complex velocity in the ζ-plane.
+
+Lifting Surfaces 
+
+
+
+2 1
+
+
+
+1 2
+1 2
+
+
+γ ξ
+π
+ξ
+ξ
+ξ
+ξ
+( )
+( )
+,
+.
+=
++
+−
+
+
+
+
+−
++
+
+
+
+
+−
+−
+<
+<
+−∫
+t
+t
+f t
+t
+dt
+−
+	
+(178)
+On the lower surface of the foil, the horizontal velocity component u_(ξ) 
+is equal to 1
+2 γ ξ
+( ), as in (59), and the lift force can be derived from the 
+linearized Bernoulli equation,
+L
+p
+p dx
+U
+u
+x dx
+v
+=
+−
+=
+−
+−
+−
+∫
+∫
+(
+)
+( )
+.
+
+
+
+
+ρ
+	
+(179)
+To evaluate the last integral, the variable of integration may be changed 
+from the physical coordinate x to the mapped coordinate ξ. Thus,
+L
+U
+dx
+d d
+U
+d
+=
+= −
+−
+−
+∫
+∫
+
+
+
+
+
+
+ρ
+γ ξ
+ξ ξ
+ρ
+γ ξ ξ
+ξ
+( )
+( )
+. 	
+(180)
+This can be recognized as the negative of the moment, about the leading 
+edge, of a fully wetted foil of unit chord length. Thus, with α(x) the slope 
+of the supercavitating foil and η(x) the mean-camber line of an equivalent 
+fully wetted foil,
+α
+η
+(
+)
+(
+)
+.
+−
+=
+x
+d
+dx
+
+cavitating foil
+equivalent fully wetted foil 	
+(181)
+The supercavitating lift coefficient is given by
+(
+)
+(
+)
+.
+C
+C
+L
+M
+cavitating
+equivalent
+= −
+	
+(182)
+Similarly, the moment coefficient for the cavitating foil is equal to the third 
+moment of the equivalent fully wetted foil.
+The drag coefficient of the cavitating foil can be related to the lift coef­
+ficient of the fully wetted foil, following an analysis similar to that used in 
+deriving (174). The drag force is obtained from (179) after multiplying the 
+integrand by the slope α(x):
+D
+U
+u
+x
+x dx
+u
+x v x dx
+=
+= −
+−
+−
+−
+−
+∫
+∫
+ρ
+α
+ρ
+( ) ( )
+( ) ( )
+.
+
+
+
+
+(183)
+Here the boundary condition (I75) has been used to replace the slope by 
+the vertical velocity component. Changing the variable of integration, as 
+in (180), gives

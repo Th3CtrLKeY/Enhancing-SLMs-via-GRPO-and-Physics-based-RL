@@ -1,0 +1,55 @@
+is that of a sharp-edged gust. The result­ ing lift force, known as the Kussner function, is shown in figure 5.35. In this case the lift force rises from an initial value of zero. Half of the ultimate steady-state lift develops before the gust passes the trailing edge, and 90 percent is developed when the foil moves a distance of about eight chord lengths beyond the gust. The details of this and other transient motions are given by Woods (1961).
+
+Chapter 5
+Problems
+1. Integrate the normal and tangential components of the complex velocity 
+(51) around a circular contour centered at the singular point, and confirm 
+that q and γ are the total flux rate and circulation, respectively.
+2. For a two-dimensional point vortex at r = 0, show that ▽ × V = 0 and 
+▽ · V = 0 if r > 0.
+3. Derive the Kutta-Joukowski theorem (15) for steady two-dimensional 
+flow, without linearizing the Bernoulli equation. Start with (4.90) and 
+assume that at large distances from the foil the velocity potential consists 
+of the combination of a free stream of velocity U and a point vortex of 
+circulation Γ.
+Figure 5.35
+Transient lift force due to a sudden change in vertical velocity (Wagner’s function) 
+and due to passage through a sharp-edged gust (Kussner’s function). The ordinate 
+denotes the number of chord lengths traveled after increasing the angle of attack, or 
+after encountering the gust at the leading edge.
+
+Lifting Surfaces 
+
+4. Show that the complex velocity function u − iv= −(iΓ/2π) (z2 − 1)−1/2 satis­
+fies the condition of zero normal velocity on a flat plate situated on the cut 
+(−1, 1), and behaves like a vortex of circulation Γ at large distances from the 
+origin. Why is this not the correct solution for a flat-plate hydrofoil?
+5. Derive equation (41) for the nonlinear lift coefficient of a flat plate by 
+superposition of a flow tangential to the plate with velocity U cos a, a flow 
+of the form (4.58) normal to the plate, and a suitable amount of circulation 
+to satisfy the Kutta condition. The complex velocity for the latter compo­
+nent is given in problem 4.
+6. What is the ideal angle of attack for a flat plate?
+7. If the lift coefficient of a cambered two-dimensional hydrofoil is 0.8, at 
+α = 5 degrees, what is CL at α = 10 degrees?
+8. According to the Weissinger “quarter-three-quarter-chord” approxima­
+tion, the bound vortex distribution of a lifting surface can be approximated 
+by a single point vortex situated at the quarter-chord position x = l/4 with 
+circulation chosen to satisfy the boundary condition at the three-quarterchord position x = −l/4. Show from the Kutta-Joukowski theorem that the 
+resulting lift coefficient is exact for the two-dimensional parabolic meancamber line (43) and that the quarter-and three-quarter chord positions 
+form the only combination that gives the correct result in this case.
+9. From the approximation described in problem 8 and the method of 
+images, show that a two-dimensional hydrofoil moving above a horizontal 
+plane will experience an increased lift force due to the “ground effect” of 
+the plane surface, whereas the interference between two foils with the same 
+angle of attack in a “biplane” configuration will decrease the lift force on 
+each.
+10. Show that a uniform distribution of two-dimensional dipoles, oriented 
+in the vertical direction and distributed along the negative x-axis, is identi­
+cal to a point vortex at the origin.
+11. Find the lift and drag forces on a sailboat keel, assuming that the keel 
+profile is one half of an ellipse with high aspect-ratio and that the bottom 
+of the hull is a large flat plane coincident with the minor axis of the ellipse.
+12. Write the complex potential of a pair of vortices, with opposite 
+strengths, separated by a distance 2a. A free vortex in a fluid is generally 
+assumed to be convected with the velocity of the fluid at the point where

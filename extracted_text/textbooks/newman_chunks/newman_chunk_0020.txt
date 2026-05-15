@@ -1,0 +1,62 @@
+very small compared to the distance to the nearest boundary or other body within the fluid. If the surface of the sphere is smooth, the only length scale of the prob­ lem is the sphere diameter. The drag force D must be a unique function2 of the diameter d, the sphere velocity U, the fluid density ρ, and the kinematic viscosity coefficient υ. In the dimensional form D f d U = ( , , , ). ρ ν (10)
+
+Model Testing 
+
+Nondimensionalizing these five parameters yields two nondimensional 
+quantities, which can be expressed in the form
+D
+U d
+f Ud
+ρ
+ν
+
+2 =
+(
+/ ), 	
+(11)
+where R = Ud/υ is the Reynolds number based on the sphere diameter.
+In this analysis the body weight W and buoyancy force ρg∀, where 
+∀ = displaced volume, are not involved because we are considering only the 
+hydrodynamic drag force associated with steady translation of the body. 
+The translation may be in the horizontal plane or in the vertical direction 
+with the static weight and buoyancy forces subtracted from the total force. 
+On the other hand, if the body is freely falling (or rising), the excess weight 
+(W
+g
+−
+∀
+ρ
+) is an important physical parameter. In the steady case, where 
+a freely falling body has reached its terminal velocity, the excess weight is 
+balanced by the steady-state drag force.
+Writing (11) in a more conventional form, we have
+D
+U S
+C
+R
+D
+
+
+
+ρ
+=
+( ), 	
+(12)
+where S = πd2/4 is the frontal area of the sphere and CD is the drag coeffi­
+cient. Nothing more can be said about the drag, unless experimental obser­
+vations of the drag coefficient are available for various Reynolds numbers, 
+but the information now required has been reduced to a bare minimum. To 
+predict the drag of any sphere in any fluid, it is sufficient to perform experi­
+ments with a single sphere over a range of velocities and in a single fluid. 
+This is illustrated in figure 2.2, which shows experimental measurements 
+of the drag coefficient for several fluids, including water and air, and for a 
+variety of sphere diameters.
+An explanation of the results shown in figure 2.2 requires a descrip­
+tion of fluid mechanics beyond the scope of dimensional analysis. Nev­
+ertheless, a brief qualitative discussion will provide an understanding of 
+this and other drag problems to be studied subsequently in this chapter. 
+For moderate Reynolds numbers, the dominant contribution to the drag 
+force is due to separation, which occurs near the midplane of the sphere. 
+Upstream of the separation point viscous effects are confined to a thin 
+boundary layer adjacent to the sphere surface, and the vicinity of the stag­
+nation point at the front of the sphere will be a region of relatively high

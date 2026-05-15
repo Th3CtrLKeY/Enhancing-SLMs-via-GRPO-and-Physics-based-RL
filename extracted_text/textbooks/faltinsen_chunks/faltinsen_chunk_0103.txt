@@ -1,0 +1,107 @@
+the hydrodynamic forces. cause a sufficiently large negative damping of the transverse oscillations. We will show this in more detail. The equation of motion for the transverse oscillation 72 of the cylinder Fig. 6.30. Helical strake used as a device for suppression of vortex-induced oscillations. Fig. 6.31. Cross-sectional plane of a long cylinder used in discussion of galloping motions. (U, = incident current velocity, U.. = incidem velocity seen from a reference frame following the motion 7, of the cylinder.)
+
+214 CURRENT AND WIND LOADS
+
+can formally be written
+
+(M +A,,)4 (M+ Axo, 2
+
+Gr + Cum =F, (6.60)
+where , = 2af,
+oscillation of the structure. The restoring force —C,.7, may be due to
+linear springs attached to the body. Further, €, is the non-hydrodynamic
+damping as a fraction of the critical damping. The transverse force F, in
+equation (6.60) is found by a quasi-steady approach. From a reference
+
+frame fixed to the body one sees an incident flow with direction
+
+d an
+
+relative to the x-axis. Based on experimental data we assume that a drag
+coefficient
+
+(6.61)
+
+C=
+
+y
+
+Prr2
+= U.“A
+
+(6.62)
+
+is given as a function of 8. This is similar to the data presented in Fig.
+6.11 for transverse current forces on a ship. U., means the ambient fluid
+‘velocity and A is the projected area of the body on the x-axis. By a
+Taylor expansion about 6 = 0 we find that
+
+Prr2
+Fy= UZA
+~0S oa p-o2
+By substituting this into equation (6.60) we find that
+d? 2 +( acy )\@ dn.
++A M+A +=
+(M 2) a2 + (26.0 22) On 5) Pu. Ax OB |peo! de
+
++C222=0 (6.63)
+
+When the damping coefficient of this equation is negative, the n2 motion
+will be unstable. This means that a small initial disturbance of the be _ body
+will increase exponentially with time. Unstable motions are what we call
+galloping. According to equation (6.63) this will occur if
+
+acy, <- 8a (M + Az)
+op B=0 Up pAD
+
+For a circular cylinder 9C,/9f|g-o = 0. This means that galloping does
+not occur. In order to predict the amplitudes of galloping we have to
+simulate equation (6.60) with F, as a function of the instantaneous value
+of the transverse velocity dy,/dt. Parkinson (1985) gave a discussion as to
+how to combine galloping predictions with vortex-induced oscillations.
+
+cs (6.64)
+
+= cat + A,,)}? is the natural circular frequency of
+
+EXERCISES 215
+
+Overvik (1982) (see Fig. 6.32) saw galloping clearly in some of his tests
+for riser bundles. It happened typically for Up > 10. Galloping motions
+may also occur for ships at a single point mooring system or for a ship
+which is towed (see exercise 6.3).
+
+The galloping motions are_not self- limited as are ‘lock-in’ oscillations.
+Actually at high velocities the amplitude of oscillation is proportional to
+the incident velocity. This also seems to be the case in Overvik’s tests
+(see Fig. 6.32). On the other hand there are limitations on how large Up
+can be in Fig. 6.32 in, practical cases. We will discuss this. Let us use
+Fig. 6 6.28 which shows the natural periods for the structure shown in Fig.
+6.27. Galloping will not occur for this riser, but let us use the natural
+periods as indicative of the natural periods for a riser bundle where
+problem may occur. We can write Up=T,U,/D and assume U,=
+lms~' and D=1m. From Fig. 6.28 we note that the highest natural
+period 7, is less than 10s when the water depth is 100m. This means
+that Up < 10. Experience shows that there will not be any large amplitude
+due to. galloping motion when Up < 10. However, for 500 m water depth
+the Up-value corresponding to the first eigenmode is larger than 30. This
+means the possibility of galloping should be considered.
+
+EXERCISES
+
+6.1 Current forces and flow through fishing nets
+Fig. 6.33 shows a quadratic part of a cage. The netting panel has a mesh
+size 4 = 0.02 m and a twine diameter D, = 0.002 m.
+
+2a
+Oe
+
+2.0
+
+5 10 15
+
+20 Up
+Fig. 6.32. Transverse double amplitude 2 - A versus reduced velocity U, for
+case C3, of Overvik’s (1982) model tests. (Up = U./(f,D.), Ue =
+current velocity, f, = natural frequency of oscillations of the |
+cylinder, D, is defined in the figure.)

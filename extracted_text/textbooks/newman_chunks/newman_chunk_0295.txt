@@ -1,0 +1,71 @@
+force coefficients from exper­ iments where a captive model is forced to oscillate sinusoidally. The latter approach to this subject is discussed by Mandel (1967), Abkow­ itz (1969), and by several authors in Bishop, Parkinson, and Eatock Taylor (1972). The survey by Norrbin (1970) deals with ship maneuvering in open and restricted water. Frank et al. (1976) discuss the more general equations of motion in convolution form, similar to (6.195), emphasizing the relation between these and the simpler equations (52–53).
+
+Hydrodynamics of Slender Bodies 
+
+7.6  Slender Bodies in Waves
+The oscillatory motions of a slender body on the free surface can be 
+described in accordance with the linear theory developed in chapter 6, with 
+the additional assumption here that the body is slender. We shall consider 
+the separate cases of a vertical slender body, such as a spar buoy, and a hori­
+zontal slender body, such as a ship or submarine.
+The body is defined by two disparate length scales, the length l and max­
+imum lateral dimension d, with the slenderness parameter ε = d/l assumed 
+small. The presence of waves on the free surface introduces a third length 
+scale, the wavelength λ, and it is necessary to stipulate the order of magni­
+tude of λ in relation to l and d. We shall consider explicitly the case where 
+the wavelength is comparable to the body length, λ/l = O(l), and thus the 
+body diameter is small compared to the wavelength. The converse problem 
+of short waves, with λ/l ≪ 1, will be treated in section 7.7.
+The slender-body theory for a body in an infinite fluid can be general­
+ized by imposing the linearized free-surface boundary condition (6.6). This 
+approach requires that the potential for a source beneath the free surface be 
+utilized. However, the leading-order forces acting on the body are indepen­
+dent of this complication and can be discussed in a relatively simple man­
+ner. Here we shall follow the latter course, guided by our earlier conclusions 
+regarding the orders of magnitude of the longitudinal and lateral flows and 
+of the resulting hydrodynamic forces on the body.
+Proceeding as in section 6.15, we may express the velocity potential in 
+the form
+φ
+ξ φ
+φ
+φ
+ω
+=
++
++
+
+
+
+
+
+
+
+
+
+
+
+
+=∑
+Re
+(
+)
+.
+e
+A
+i t
+j
+j
+j 1
+
+
+
+(81)
+Here ξj denotes the complex amplitude of the six rigid-body motions, A is 
+amplitude of the incident wave, Aϕ0eiωt is the corresponding velocity poten­
+tial, and Aϕ7eiωt is the scattered potential due to the disturbance of the inci­
+dent wave by the body.
+The incident wave potential is given by (6.16) or (6.23) for infinite or 
+finite water depth, respectively. Since this potential is independent of the 
+body, its order of magnitude with respect to ε is O(1). The remaining poten­
+tials ϕj (j = 1, 2, …, 7) are body potentials that will depend on ε.

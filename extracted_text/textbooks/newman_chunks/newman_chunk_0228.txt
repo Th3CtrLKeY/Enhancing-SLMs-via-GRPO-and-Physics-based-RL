@@ -1,0 +1,59 @@
+is opposite that of the slope of the curve plotted in figure 6.14. Thus, the plus or minus sign in the phase of (107) corresponds respectively to the transverse and diverging wave systems; a net phase shift of 90° occurs between these as shown in figure 6.15. The amplitude of the waves in (107) is proportional to R−1/2. This rate of attenuation could be anticipated since in three dimensions the energy flux (73–74) spreads out radially in the horizontal plane.
+
+Chapter 6
+These results can be extended to ship waves in finite depth, starting with 
+(89) and the appropriate relation from (23) for k(θ). For subcritical Froude 
+numbers, U/(gh)1/2 < 1, the wave pattern is similar to the deepwater situa­
+tion, but with a larger included angle which ultimately approaches 90° as 
+U/(gh)1/2 → 1. At supercritical Froude numbers, transverse waves are ruled 
+out, since these are unable to move with sufficient phase velocity to main­
+tain a steady position. The diverging waves that remain are confined within 
+an included angle similar to the Mach cone in supersonic aerodynamics. 
+The details are worked out in an early paper by Havelock (1963); some cor­
+rections appear in Kinoshita (1943).
+6.12  Energy Radiation and Wave Resistance
+The wave resistance of a three-dimensional ship can be related to the 
+energy radiation downstream in the wake, as in the corresponding analysis 
+of the two-dimensional problem. A control volume is considered, bounded 
+downstream by a vertical control surface x = constant, which moves with 
+the ship as in figure 6.12(b). The energy of the fluid in this control volume 
+is constant, and the energy flux across the control surface can be equated to 
+the work done to overcome the wave resistance.
+In a fixed reference frame, the energy of each plane-wave component 
+moves in the direction θ with the group velocity Vg. The velocity of energy 
+transfer across the control surface, which moves through the fluid with 
+velocity U, is given by Vg cosθ − U. Multiplying by the energy density 1
+
+
+ρgA  
+and integrating along the width of the control surface, we find that the 
+total energy flux moving in the positive x-direction is
+dE
+dt
+g
+A V
+U dz
+g
+=
+−
+−∞
+∞
+∫
+
+
+
+ρ
+θ
+(
+cos
+)
+. 	
+(108)
+This energy-flux integral can be extended to the case where the ampli­
+tude A and direction θ are functions of the position (x, z), if the changes 
+in these quantities are small over distances comparable to a wavelength. 
+The diverging and transverse components of the Kelvin ship-wave sys­
+tem are slowly varying in this sense, provided the distance downstream 
+from the ship is large compared to the wavelength. With this caveat, (108) 
+can be used to determine the energy flux of the diverging and transverse 
+waves.

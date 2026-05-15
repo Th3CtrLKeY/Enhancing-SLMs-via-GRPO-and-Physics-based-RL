@@ -1,0 +1,440 @@
+[Page 1]
+Lecture 7 
+ - Marine Hydrodynamics 
+Lecture 7 
+Chapter 3 – Ideal Fluid Flow 
+The structure of Lecture 7 has as follows: In paragraph 3.0 we introduce the concept of 
+inviscid ﬂuid and formulate the governing equations and boundary conditions for an ideal 
+ﬂuid ﬂow. In paragraph 3.1 we introduce the concept of circulation and state Kelvin’s 
+theorem (a conservation law for angular momentum). In paragraph 3.2 we introduce the 
+concept of vorticity. 
+⎧ 
+Inviscid Fluid 
+ν = 0
+⎪ 
+⎨ 
++
+Ideal Fluid Flow ≡ ⎪ 
+Dρ 
+⎩ Incompressible Flow (§ 1.1) 
+= 0  or  ∇· ⃗v = 0  
+Dt 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+3.0 Governing Equations and Boundary Conditions for Ideal Flow 
+• Inviscid Fluid, Ideal Flow 
+Recall Reynolds number is a qualitative measure of the importance of viscous forces 
+compared to inertia forces, 
+UL 
+inertia forces 
+Re =
+= 
+ν 
+viscous forces 
+For many marine hydrodynamics problems studied in 13.021 the characteristic lengths 
+and velocities are L ≥ 1m and U ≥ 1m/s respectively. The kinematic viscosity in 
+water is νwater = 10−6m2/s leading thus to typical Reynolds numbers with respect to 
+U and L in the order of 
+UL 
+Re = 
+≥ 106 >>> 1 ⇒ 
+ν 
+
+viscous forces 
+∼
+≃ 0 
+Re 
+inertia forces 
+This means that viscous eﬀects are << compared to inertial eﬀects - or conﬁned 
+within very small regions. In other words, for many marine hydrodynamics prob­
+lems, viscous eﬀects can be neglected for the bulk of the ﬂow. 
+Neglecting viscous eﬀects is equivalent to setting the kinematic viscosity ν = 0, but 
+ν = 0  ⇔ inviscid ﬂuid 
+Therefore, for the typical marine hydrodynamics problems we assume 
+incompressible ﬂow + inviscid ﬂuid ≡ ideal ﬂuid ﬂow 
+which turns out to be a good approximation for many problems.
+
+---PAGE BREAK---
+
+[Page 3]
+ 
+ 
+ 
+ 
+	 
+• Governing Equations for Ideal Fluid Flow 
+– Continuity Equation: 
+∇· ⃗v = 0  
+– Momentum (Navier-Stokes ⇒Euler) equations: 
+∂⃗v 
+
++ ⃗v · ∇⃗v = −∇p −gˆj
+∂t 
+ρ 
+By neglecting the viscous stress term (ν∇2⃗v) the Navier-Stokes equations reduce 
+to the Euler equations. (Careful not to confuse this with the Euler equation in 
+§1.6). 
+The N-S equations are second order PDE’s with respect to space 
+(2nd order in ∇2), thus: (a) require 2 kinematic boundary conditions, and (b) 
+produce smooth solutions in the velocity ﬁeld. 
+The Euler equations are ﬁrst order PDE’s, thus: (a) require 1 kinematic bound­ 
+ary condition, and (b) may allow discontinuities in the velocity ﬁeld. 
+• Boundary Conditions for Euler equations (Ideal Flow): 
+– KBC: 
+v
+nˆ =  u n
+← ‘no ﬂux’ + free (to) slip 
+·
+· ˆ =  Un 
+given 
+Note: ‘No slip’ condition ⃗v t
+· ˆ= U⃗ · tˆ does not apply. 
+The ‘no slip’ condition is required to ensure that the velocity gradients are ﬁnite 
+and therefore the viscous stresses ˆτij are ﬁnite. 
+But since ν = 0 the viscous stresses are identically zero (ˆτij ∝ μ = ρν = 0)  
+and the velocity gradients can be inﬁnite. Or else the velocity ﬁeld need not be 
+continuous.
+
+---PAGE BREAK---
+
+[Page 4]
+∂u 
+Viscousflow τ ∝μ 
+w 
+∂y 
+< ∞ < ∞ 
+∂u
+U 
+Inviscidflow τ ∝0 
+w 
+∂y 
+– DBC: 
+)
+dy
+(
+u
+)
+
+(
+u
+y 
+p = . . .  Pressure given on the boundary 
+Similarly to the argument for the KBC, viscous stresses ˆτij cannot be speciﬁed 
+on any boundary since ν = 0.  
+• Summary of consequences neglecting viscous eﬀects this far: 
+– Neglecting viscous eﬀects is equivalent to setting the kinematic viscosity equal 
+to zero: 
+ν = 0  
+Setting ν = 0  ⇐⇒ inviscid ﬂuid 
+– Setting ν = 0 the viscous term in the Navier-Stokes equations drops out and we 
+obtain the Euler equations. 
+The Euler equations are 1st order PDE’s in space, thus (a) require only one 
+boundary condition for the velocity and (b) may allow for velocity jumps. 
+– Setting ν = 0 all the viscous stresses ˆτij ∝ μ = ρν are identically 0. This may 
+allow for inﬁnite velocity gradients. 
+This aﬀects (a) the KBC, allowing free slip, and (b) the DBC, where no viscous 
+stresses can be speciﬁed on any boundary.
+
+---PAGE BREAK---
+
+[Page 5]
+  	  
+3.1 Circulation – Kelvin’s Theorem 
+3.1.1 Γ ≡ Instantaneous circulation around any arbitrary closed contour C. 
+C 
+x
+dv 
+v v 
+Γ =  
+⃗· ⃗
+v dx 
+C tangential 
+velocity 
+The circulation Γ is an Eulerian idea and is instantaneous, a ‘snapshot’.
+
+---PAGE BREAK---
+
+[Page 6]
+3.1.2 Kelvin’s Theorem (KT) : 
+For ideal ﬂuid under conservative body forces, 
+dΓ = 0 following any material contour C,
+dt 
+i.e., Γ remains constant under for Ideal Fluid under Conservative Forces (IFCF). 
+This is a statement of conservation of angular momentum. 
+(Mathematical Proof: cf JNN pp 103) 
+Kinematics of a small deformable body: 
+(a) Uniform translation → Linear momentum 
+(b) Rigid body rotation → Angular momentum 
+(c) Pure strain→ No linear or angular momentum involved (no change in volume 
+(d) Volume dilatation 
+For Ideal Fluid under Conservative body Forces: 
+(a) Linear momentum → Can change 
+(b) Angular momentum → By K.T., cannot change 
+(c) Pure strain→ Can change 
+(d) Volume dilatation → Not allowed (incompressible ﬂuid) 
+Kelvin’s Theorem is a statement of conservation of angular momentum 
+under IFCF.
+
+---PAGE BREAK---
+
+[Page 7]
+Example 1: Angular momentum of point mass. 
+v1 
+v2 
+m1 
+m2
+r2 
+r1 
+θ 
+Angular momentum of point mass: 
+L⃗ = |⃗r × (m⃗v)| = mvr = mr 2θ˙ 
+Conservation of angular momentum: 
+L⃗ 
+= 
+L⃗ 
+
+
+m1=m2 
+m1v1r1 = m2v2r2 =⇒ 
+v1r1 = v2r2 or 
+r1
+2θ˙ 1 = r2
+2θ˙ 2 
+Conservation of angular momentum does not imply constant angular 
+velocity: 
+Angular Momentum  angular velocity ω⃗
+
+---PAGE BREAK---
+
+[Page 8]
+Example 2: Conservation of circulation around a shrinking circular material volume 
+Vm. 
+2r 
+
+υ 
+
+υ 
+1r 
+m 
+V 
+m 
+V 
+2π 
+2π 
+Γ1 = 
+dθr1v1 = 
+dθr2v2 = Γ2 
+
+
+Example 3: Conservation of circulation around a shrinking arbitrary material vol­
+ume Vm, Cm. 
+Γ1 = 
+⃗v1 · d⃗x = 
+⃗v2 · d⃗x = Γ2 
+C1 
+C2
+
+---PAGE BREAK---
+
+[Page 9]
+ 
+ 
+ 
+ 
+ 
+3.2 Vorticity 
+3.2.1 Deﬁnition of Vorticity 
+⃗
+v = 
+∂w − ∂v ˆi − 
+∂w − ∂u ˆj + 
+∂v − ∂u kˆ
+ω = ∇× ⃗ 
+∂y 
+∂z 
+∂x 
+∂z 
+∂x
+∂y 
+Relationship of vorticity to circulation - Apply Stokes’ Theorem: 
+
+ 
+
+ 
+
+ 
+Γ =  
+⃗d⃗ 
+x =
+(∇× ⃗ · ndS = 
+⃗
+ndS ≡Flux of vorticity out of S 
+v · 
+v) ˆ 
+ω · ˆ
+C 
+any S ‘covering’ C 
+any S ‘covering’ C 
+3.2.2 What is Vorticity? 
+For example, special case: 2D ﬂow - w = 0;  
+∂ = 0;  ωy = ωx = 0 and 
+∂z 
+∂v 
+∂u 
+ωz = 
+− 
+∂x 
+∂y 
+(a) Translation: u = constant, v = constant 
+time t + Δt 
+j
+iu
+ˆ
+ˆ υ
++ 
+j
+iu
+ˆ
+ˆ υ
++ 
+j
+iu
+ˆ
+ˆ υ
++ 
+j
+iu
+ˆ
+ˆ υ
++ 
+time t 
+∂v 
+∂u 
+= 0, 
+= 0  ⇒ωz = 0 →no vorticity 
+∂x 
+∂y
+
+---PAGE BREAK---
+
+[Page 10]
+(b) Pure Strain (no volume change): 
+Areat +  Δt 
+Areat 
+No volume change 
+Areat = Areat +  Δt 
+∂u
+∂v 
+∂u 
+∂v 
+= − 
+; u = -v; 
+= 0;  
+= 0  ⇒ ωz = 0  
+∂x
+∂y
+∂y 
+∂x
+
+---PAGE BREAK---
+
+[Page 11]
+(c) Angular deformation 
+rυ
+= ⎛⎜⎝
+dy⎞⎟⎠Δt
+∂u
+δ x 
+∂y 
+= ∂u 
++ ∂υ 
+υr
+υr 
+dy 
+dx 
+t + Δt
+∂y
+i 
+∂y
+j
+dy ˆ 
+dy ˆ 
+time 
+δ y = (∂υ 
+dx)Δt
+∂x
+time t 
+∂u
+i + ∂υ 
+∂
+∂
+dx ˆ 
+dx ˆj
+= 0 
+= 
+x
+x
+∂u 
+∂v 
+⃗
+= 
+→ δx = δy( for dx =
+ω = 0 only if 
+dy)
+∂y 
+∂x
+
+---PAGE BREAK---
+
+[Page 12]
+ 
+(d) Pure rotation with angular velocity Ω 
+
+=
+υr 
+jˆ
+dx
+Ω
+=
+υr 
+iˆ
+dy
+Ω
+−
+=
+υr 
+dy 
+dx 
+t
+time 
+t
+t Δ
++
+time 
+Ω 
+t
+Δ
+Ω 
+t
+Δ
+Ω 
+∂v 
+∂u 
+= Ω;  
+= −Ω; ωz = 2Ω  
+∂x 
+∂y 
+i.e. vorticity ∝ 2(angular velocity). 
+3.2.3 Irrotational Flow 
+A ﬂow is irrotational if the vorticity is zero everywhere or if the circulation is zero 
+along any arbitrary closed contour: 
+ω ≡ 0 everywhere ⇔ Γ ≡ 0 for any C 
+Further on, if at t = to, the ﬂow is irrotational, i.e., Γ ≡ 0 for all C, then Kelvin’s 
+theorem states that under IFCF, Γ ≡ 0 for all C for all time t: 
+once irrotational, always irrotational 
+(Special case of Kelvin’s theorem)

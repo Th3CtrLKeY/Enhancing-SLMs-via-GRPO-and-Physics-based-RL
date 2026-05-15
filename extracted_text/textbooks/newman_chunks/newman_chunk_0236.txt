@@ -1,0 +1,129 @@
+of the inci­ dent wave system and the addition of a disturbance to the incident wave potential associated with the scattering effect of the body. This process can be emphasized by the additional decomposition φ φ φ A = + 7, (123) where ϕ0 is the incident wave potential and ϕ7 is the scattering potential that must be introduced to represent the disturbance of the incident waves by the fixed body. The incident wave potential may be regarded as known,
+
+Chapter 6
+from (16) for infinite depth or from (23) for finite depth, and the scattering 
+potential must satisfy the boundary condition
+∂
+∂
+= −∂
+∂
+φ
+φ
+
+
+/
+/
+,
+.
+n
+n
+SB
+on
+	
+(124)
+In addition to the body boundary conditions (120–124), each potential 
+ϕj must satisfy Laplace’s equation
+∇
+=
+=
+
+
+0 1
+
+φj
+j
+,
+, ,
+, ,
+…
+	
+(125)
+throughout the domain of the fluid, and the condition (21) on the bottom 
+for finite depth, or alternatively ϕj → 0 as y → −∞ for infinite depth. On the 
+free surface, the linearized boundary condition follows from (6) and (119) 
+in the form
+−
++ ∂
+∂
+=
+=
+=
+ω φ
+φ
+
+
+
+0 1
+
+g
+y
+y
+j
+j
+j
+,
+,
+, ,
+, .
+on
+…
+	
+(126)
+At this stage, boundary conditions have been prescribed on the body 
+surface, free surface, and bottom; but the boundary-value problem is not 
+unique. In particular, an arbitrary constant times the diffraction potential 
+(123) can be added to any one of the potentials ϕj, j = 1, 2, …, 7, without 
+violating these boundary conditions. To overcome this problem it is neces­
+sary to impose a radiation condition at infinity, which states that the waves 
+on the free surface, other than those due to the incident potential itself, are 
+due to the presence of the body. Thus, the waves associated with the poten­
+tials ϕj, j = 1, 2, …, 7, must be radiating away from the body. The appropriate 
+condition in two dimensions is
+φj
+ikx
+e
+x
+j
+∝
+→± ∞
+=
+∓
+…
+,
+, ,
+, .
+as
+,
+1 2
+
+(127)
+In three dimensions, with energy conservation or the stationary-phase 
+approximation as a guide, the waves at infinity must be of the general form
+φj
+ikR
+R
+e
+R
+j
+∝
+→∞
+=
+−
+−
+1 2
+1 2
+
+/
+,
+, ,
+, .
+as
+,
+…
+	
+(128)
+Here R = (x2 + z2)1/2, and the constants of proportionality in (127) and (128) 
+may depend on the remaining coordinates, but not on x or R, respectively. 
+With the time dependence (119), these are the most general forms of outgo­
+ing waves due to the presence of the body. The incident wave potential ϕ0 
+is, by definition, excluded from these radiation conditions.

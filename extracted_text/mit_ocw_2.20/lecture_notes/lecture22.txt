@@ -1,0 +1,354 @@
+[Page 1]
+ℓ 
+ℓ 
+ℓ 
+ 
+ 
+Lecture 22 
+ - Marine Hydrodynamics 
+Lecture 22 
+6.9 Wave Forces on a Body 
+UP 
+U = ωA 
+Uℓ 
+ωAℓ 
+Re =
+= 
+ν
+ν 
+UT
+AωT 
+A 
+Kc =
+= 
+= 2π 
+F 
+A
+ℓ
+h 
+CF =
+= f 
+,
+, Re,
+, roughness, . . .
+ρgAℓ2 
+λ
+λ 
+λ
+ 
+ 
+Wave 
+Diﬀraction 
+steepness parameter 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+6.9.1 Types of Forces 
+1. Viscous forces Form drag, viscous drag = f(Re, Kc, roughness, . . .). 
+• Form drag (CD) 
+Associated primarily with ﬂow separation - normal stresses. 
+#. 
+/	!
+"" 
+• Friction drag (CF ) 
+Associated with skin friction τw, i.e., ⃗F ∼ 
+ 
+τwdS. 
+body 
+(wetted surface) 
+b.l.
+τω
+U
+
+---PAGE BREAK---
+
+[Page 3]
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2. Inertial forces Froude-Krylov forces, diﬀraction forces, radiation forces. 
+Forces arising from potential ﬂow wave theory, 
+F⃗= 
+ndS, where p = −ρ 
+
+∂φ 
+1 |∇φ|2 
+pˆ
++ gy + 
+∂t 
+
+body 
+(wetted surface) 
+=0, for linear theory, 
+small amplitude waves 
+For linear theory, the velocity potential φ and the pressure p can be decomposed to 
+φ = 
+φI 
++ 
+φD 
++ 
+φR 
+ 
+ 
+ 
+Incident wave 
+Diﬀracted wave 
+Radiated wave 
+potential (a) 
+potential (b.1) 
+potential (b.2) 
+p 
+∂φI 
+∂φD 
+∂φR
+−
+=
++
++ 
++ gy
+ρ 
+∂t 
+∂t 
+∂t 
+(a) Incident wave potential 
+• Froude-Krylov Force approximation When ℓ<< λ, the incident wave ﬁeld is not 
+signiﬁcantly modiﬁed by the presence of the body, therefore ignore φD and φR. 
+Froude-Krylov approximation: 
+φ ≈φI 
+		 
+ ∂φI 
+ 
+
+∂φI 
+ 
+= 
+−ρ 
++ gy ndS ← 
+can calculate knowing (incident) 
+⇒F⃗FK 
+ˆ
+wave kinematics (and body geometry) 
+p ≈−ρ 
++ gy 
+∂t 
+∂t 
+body 
+ 
+surface 
+≡pI 
+• Mathematical approximation After applying the divergence theorem, the F⃗FK 
+can be rewritten as F⃗FK = − 
+pIˆ
+∇pId∀.
+ndS = − 
+body 
+body 
+surface 
+volume 
+If the body dimensions are very small comparable to the wave length, we can 
+assume that ∇pI is approximately constant through the body volume ∀ and 
+‘pull’ the ∇pI out of the integral. Thus, the F⃗FK can be approximated as 
+ 
+
+			 
+ 
+ 
+⃗
+∼
+FFK = 
+−∇pI  
+d∀= ∀ 
+−∇pI  
+at body 
+at body 
+body 
+body 
+center 
+volume 
+center 
+volume 
+The last relation is particularly useful for small bodies of non-trivial geometry ­
+for 13.021, that is all bodies that do not have a rectangular cross section.
+
+---PAGE BREAK---
+
+[Page 4]
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+		 
+ 
+ 
+(b) Diﬀraction and Radiation Forces 
+(b.1) Diﬀraction or scattering force When ℓ ≮< λ, the wave ﬁeld near the body 
+will be aﬀected even if the body is stationary, so that no-ﬂux B.C. is satisﬁed. 
+%!!	$
+ 
+φ( 
+φ- 
+φ- 
+ 
+φ- 
+∂
+φ
+∂
+φ- 
+φ( 
+= 5 = 
+(φ ( + φ - )
+∂ 
+∂ 
+∂φ 
+∂φ 
+ 
+	
+- = − 
+( ←  
+∂ 
+∂ 
+F⃗D = 
+∂φD 
+ˆ
+−ρ 
+ndS 
+∂t 
+body 
+surface 
+(b.2) Radiation Force - added mass and damping coeﬃcient Even in the 
+absence of an incident wave, a body in motion creates waves and hence inertial wave 
+forces. 
+ 
+φ 
+ 
+φ 
+
+
+∂φ 
+ 
+= 2 ⋅  
+ 
+∂ 
+⃗
+∂φR 
+ndS 
+U˙ j −
+FR = 
+−ρ 
+ˆ
+= − mij 
+dij Uj
+∂t 
+ 
+ 
+body 
+added 
+wave 
+surface 
+mass 
+radiation 
+damping
+
+---PAGE BREAK---
+
+[Page 5]
+ℓ 
+ℓ 
+
+  
+   
+6.9.2 Important parameters 
+(1)Kc = UT = 2π A
+ℓ 
+⎫ 
+⎪
+⎪
+⎪
+⎬ 
+⎪
+⎪
+⎪
+⎭ 
+Interrelated through maximum wave steepness 
+A ≤ 0.07
+λ 
+A
+ℓ ≤ 0.07
+(2)diﬀraction parameter λ 
+ℓ
+λ 
+• If Kc ≤ 1: no appreciable ﬂow separation, viscous eﬀect conﬁned to boundary layer 
+(hence small), solve problem via potential theory. In addition, depending on the value 
+of the ratio λ
+ℓ , 
+– If λ
+ℓ << 1, ignore diﬀraction , wave eﬀects in radiation problem (i.e., dij ≈ 
+0, mij ≈ mij inﬁnite ﬂuid added mass). F-K approximation might be used, 
+calculate F⃗FK . 
+– If ℓ >> 1/5, must consider wave diﬀraction, radiation ( A ≤ 0.07 ≤ 0.035).
+λ 
+ℓ 
+ℓ/λ 
+• If Kc >> 1: separation important, viscous forces can not be neglected. Further on if 
+ℓ 
+0.07 
+ℓ 
+≤ 
+so 
+<< 1 ignore diﬀraction, i.e., the Froude-Krylov approximation is valid. 
+λ 
+A/ℓ 
+λ 
+
+F = ρℓ2 U(t) |U(t)|CD(Re)
+
+ 
+relative 
+velocity 
+• Intermediate Kc - both viscous and inertial eﬀects important, use Morrison’s formula. 
+F = 1 ρℓ2U(t)|U(t)|CD(Re) +  ρℓ3 ˙
+(Re, Kc
+UCm
+)
+
+---PAGE BREAK---
+
+[Page 6]
+• Summary 
+Limiting case: 
+wave breaking occurs 
+I 
+II 
+III 
+I. Use: CD and F − K approximation. 
+II. Use: CF and F − K approximation. 
+III. CD is not important and F − K approximation is not valid.

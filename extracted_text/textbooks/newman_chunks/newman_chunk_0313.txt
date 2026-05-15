@@ -1,0 +1,115 @@
+( ) . x z gh t (125) This is the wave equation, which governs two-dimensional acoustic waves with the speed of sound c replacing (gh)1/2 in (125). Thus shallow-water waves are closely related to acoustic waves. For steady-state motion in a moving reference frame, the time derivative ∂ /∂t is replaced by −U∂/∂x, and (125) takes the form ( ) , ( ) ( ) − ∂ ∂ + ∂ ∂ = F x z h φ φ (126)
+
+Chapter 7
+where Fh is the Froude number based on the fluid depth,
+F
+U
+gh
+h =
+/(
+)
+.
+/
+1 2 	
+(127)
+With this parameter replaced by the Mach number U/c, (126) is the equa­
+tion governing linearized steady-state two-dimensional flow in aerodynam­
+ics, with compressibility effects represented by the speed of sound.
+From the mathematical standpoint, (126) is an elliptic equation in the 
+subcritical case (Fh < 1), and a hyperbolic equation in the supercritical case 
+(Fh > l). Physically these correspond respectively to the aerodynamic con­
+ditions of subsonic and supersonic flow. From either viewpoint the flow 
+is expected to change markedly as one passes through the critical Froude 
+number Fh = 1, and separate solutions of (126) must be developed for each 
+case.
+In the subcritical case, (126) can be reduced to Laplace’s equation by the 
+Prandtl-Glauert transformation. If the lateral coordinate is transformed by a 
+factor
+′ =
+−
+z
+z
+Fh
+(
+)
+,
+/
+
+2 1 2
+	
+(128)
+while the longitudinal coordinate x = x′ is unchanged, it follows that
+∂
+∂′
++ ∂
+∂′
+=
+
+
+
+
+
+
+
+φ
+φ
+( )
+( )
+.
+x
+z
+	
+(129)
+For supercritical flow, Fh > 1, the method of characteristics can be used to 
+show that the general solution of (126) is of the form4
+φ( )
+/
+( , )
+[
+(
+)
+].
+
+
+1 2
+
+x z
+f x
+F
+z
+h
+=
+±
+−
+	
+(130)
+For steady forward motion in the positive x-direction, the indeterminacy of 
+the sign in (130) is removed by imposing a radiation condition. Thus only 
+the characteristics that radiate downstream from the body are retained, and 
+if the motion is symmetrical about z = 0 it follows that the velocity poten­
+tial is of the form
+φ( )
+/
+( , )
+[
+(
+)
+].
+
+
+1 2
+
+x z
+f x
+F
+z
+h
+=
++
+−
+	
+(131)
+In the inner region, near the body surface, motions that are slowly vary­
+ing in the longitudinal direction can be approximated as two-dimensional 
+flows. If we restrict our attention to the low-frequency regime, as in sec­
+tion 7.6, the inner solution is governed by the rigid free surface condition

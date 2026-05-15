@@ -1,0 +1,89 @@
+‘the maximum pressure occurring close to the centre line of the cylinder. When x > ~0.5 m the slamming pressure is determined from Wagner’s analysis. As pointed out earlier the slamming pressures are very local in Ve oO TEST No 1 ~ 9 2 4 3 p, 0.1 p, 0.2 x/R Fig. 9.8. Maximum impact pressures on a circular cylinder as a function of time after initial impact (V = 8ms~', R =5 m). (Hagiwara '& Yuhara, 1976.) P2 P,
+
+292 WATER IMPACT AND ENTRY
+
+time and space and the maximum slamming pressure does not occur
+simultaneously around the cylinder surface.
+
+In design of local structural parts against slamming loads, the peak
+value of the slamming pressure gives a conservative estimate of thé load
+distribution. This has been discussed by Hagiwara & Yuhara (1976).
+They introduce an ‘equivalent static pressure’ p,q in analysing the strain
+of a rectangular panel due to slamming load. eq is defined as uniformly
+distributed static pressure which causes static strain equal to the
+maximum transient strain during impact. In an example with a
+0.45 m X 0.31 m panel, which is part of a circular cylinder surface of
+radius 5 m, they found that the magnitude of Peq was about one-third of
+the maximum impact pressure Pmax- However, this result will obviously
+be a function of the size of the panel.
+
+Case 2. Wedge
+
+We will apply Wagner’s (1932) analysis to a wedge. We define a deadrise_
+
+angle B which is the angle between the wedge side and a horizontal line
+through the wedge apex. The vertical coordinate ny(x) of the wedge
+surface relative to the wedge apex can be written as
+
+n(x) = x tan B (9.16)
+
+It now follows from equation (9.11) that Ao(a/2) = tan B. From equations (9.10) and (9.9) it follows that
+
+nV
+n= l
+of) 2 tan B (9.17)
+From equation (9.14) it follows that
+ad
+Conan = cotan’ B (9.18)
+
+Theoretical calculations are shown in Fig. 9.9 together with experimental
+results. The calculations are in fair agreement with experimental results.
+We note that equation (9.18) breaks down when B— 0, i.e. when the
+bottom of the wedge becomes more and more flat. When a flat-bottomed
+body enters the free-surface, it is known that the airflow between the
+body and the free-surface is important at time. instances when the
+airgap between the body surface and the free-surface is small relative
+to the transverse dimensions of the body (Verhagen, 1967). The
+free-surface elevation depends on the pressure in the air above the
+free-surface and the pressure in the air depends on the gap between
+the free-surface and the bottom. The water elevation is first noticeable at the edges of the body (see Fig. 9.4). This causes the air to be
+entrapped between the free-surface and the body. If the body has a
+small deadrise angle, say 2—3°, the air will not be entrapped (Koehler &
+
+SLAMMING 293
+
+Kettleborough, 1977). The entrapped air will have a pronounced
+cushioning effect, and the impact pressure on the hull is therefore
+sensitive to small changes in angle between bottom and water surface.
+This indicates that it is difficult to create deterministic flow situations for
+impact problems. This was also pointed out in the discussion of Fig. 9.2.
+
+When calculating bottom slamming on ships the relative vertical
+velocity between the ship and the waves is an important quantity. We
+ought to be precise about what we mean by vertical velocity. It is not the
+vertical velocity in a (x, y, 2) system fixed in space (see Fig. 3.13), but it
+is the 2”-component of the velocity in a coordinate system (x", y”, 3") that
+is fixed relative to the ship and coincides with the (x, y, z)-system when
+the ship does not oscillate (see Fig. 3.13).
+
+THEORY
+—— -—— WAGNER
+
+EXPERIMENTS
+300 +} -2 7-7-7 CHUANG
+YAMAMOTO ET AL.
+
+FUJITA
+HAGIWARA ET AL.
+
+N
+oS
+Ss
+
+MAXIMUM PRESSURE Pmay/4p y?
+
+0 5 10 15
+B DEAD RISE ANGLE IN DEGREES
+
+Fig. 9.9. Variation of maximum impact pressure with deadrise angle for a
+wedge shaped body. (Hagiwara & Yuhara, 1976.)

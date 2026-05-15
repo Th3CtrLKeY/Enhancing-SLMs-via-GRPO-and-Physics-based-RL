@@ -1,0 +1,77 @@
+is the wave amplitude at. the. wall. The third term in {(- ) (F ‘| 2 Jaw \\ dy Zz Pp ° 14, a = ay 3 gee at 2e2* dz = 286. “- Whee The total sum is (pg/2)¢,?. This is the correct asymptotic value for small wavelengths according to Maruo’s formula. We can generalize the asymptotic formula to any structure as long as the structure has vertical Fig. 5.7. Incident waves and drift forces on a vertical wall.
+
+144. SECOND-ORDER NON-LINEAR PROBLEMS
+
+sides at the waterplane. We can write
+
+F,= Pee [ sin’(6 + B) n; dl (5.21)
+Ly
+
+Here F, is the drift-force component in the x-direction, F is the
+drift-force component in the y-direction and F is the yaw-drift moment
+with respect to the z-axis (see Fig. 5.8 for definitions).
+Further
+n, = sin @
+nz = cos 0
+
+Ng =X COS 8 — yo sin O
+
+The integration in equation (5.21) is along the non-shadow part L, of the
+waterplane curve, i.e. from A to B. Further, B is the wave propagation
+direction and the angle @ is defined in Fig. 5.8.
+
+We have worked out three special cases below
+
+Example 1
+Infinitely long horizontal cylinder
+
+- = _PB.o. o., F,=0, Fi=> £.’sinB|sinB|, £=0 (per unit length)
+
+Example 2
+Structure with circular waterplane area of radius r
+
+F,=3pg6.rcosB, F,=4pgo2rsinB,  F.=0
+
+Shadow region
+
+wave
+propagation
+direction
+
+Fig. 5.8. Definition of ship and wave parameters used in equation (5.21).
+
+MEAN WAVE (DRIFT) FORCES AND MOMENTS 145
+
+Example 3
+Structure with waterplane area consisting of two circular ends of radius r
+and a parallel part of length 22 (see Fig. 5.9). We find that
+
+F,=4pgt.rcosB, F,=pgt,’(rsin B + lsin B |sin B))
+
+It should be noted that the angular dependences shown in the formula
+above are, strictly speaking, only valid for small wavelengths. For other
+wavelengths quite different angular dependence may occur (Faltinsen et
+al., 1979).
+
+Added resistance of ships in waves
+Equation (5.21) does not take into account current or the forward motion
+of a structure. Faltinsen et al. (1980) have derived a formula for added
+
+tesistance, Raw, of a ship in small wavelengths. Added resistance is the
+
+same as the longitudinal drift-force component. The formula is assumed
+to be valid for small Froude numbers, i.e. F,<=~0.2, and blunt ship
+forms. All wave headings are considered. For head sea we can write
+
+gi tes(1+ 22°) [ sin?6n, dl (5.22)
+Here @y is t the « circular r frequency, of oscillation of the waves and U is the
+forward sp d of the. ship. L, is the non-shadow part of the waterplane
+curve (see Fig. 5.8). The. formula i is not restricted to a ship and may for
+instance be_used in connection. with. towing of marine structures_in
+waves. Equati 6. 22) is sensitive to the geometric form in the bow
+region. This is illustrated in Fig. 5.10 for a ship, where Fy means a
+reference value for the added resistance.
+
+To illustrate the effect of forward speed, we see that equation (5.22)
+
+Fig. 5.9. Definition of parameters.

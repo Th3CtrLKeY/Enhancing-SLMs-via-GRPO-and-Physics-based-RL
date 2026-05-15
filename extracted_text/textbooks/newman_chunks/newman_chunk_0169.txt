@@ -1,0 +1,165 @@
+into (127), we obtain the drag formula D z y dz s s = − ∂ ∂ −∫ ρ φ Γ( ) , (129) where the integration is taken across the vortex wake far behind the foil. The vertical velocity component ∂ϕ/∂y, far downstream on the trailing vortex sheet, can be computed from the equation (60) for a two-dimensional vortex distribution. With a suitable change in the coordinate system and using (124) to evaluate the trailing vortex density, we get
+
+Chapter 5
+∂
+∂
+=
+−
+−∫
+φ
+π
+ζ
+ζ
+ζ
+ζ
+y
+d
+d
+d
+z
+s
+s
+
+
+
+
+Γ( )
+.
+−
+	
+(130)
+(The change of sign from (60) is necessitated by the transformation from 
+the x-y plane to the y-z plane, while defining the vorticity consistently in 
+terms of the right-hand rule.) With this result, (129) may be replaced by a 
+formula involving only the bound circulation:
+D
+z dz
+d
+d
+d
+z
+s
+s
+s
+s
+=
+−
+−
+−
+∫
+∫
+ρ
+π
+ζ
+ζ
+ζ
+ζ
+
+
+
+
+
+Γ
+Γ
+( )
+( )
+.
+−
+	
+(131)
+The lift force (121) can be derived by a similar analysis of the flow in the 
+Trefftz plane. Thus, starting with the y-component of (4.90), and includ­
+ing only the linear term, we get the following expression corresponding to 
+(126):
+L
+U
+y dy dz
+U
+dz
+s
+s
+= −
+∂
+∂
+=
+−∞
+∞
+−
++
+−
+∫
+∫
+∫
+ρ
+φ
+ρ
+φ
+/
+[ ]
+,
+
+
+(132)
+and (121) follows from (128).
+For a given spanwise distribution of circulation Γ(z), equations (121) and 
+(131) can be used to compute the total lift and drag forces. Since the lift is 
+linearly proportional to Γ, it follows from (131) that the induced drag will 
+be proportional to the square of the lift and will depend quadratically on 
+the angle of attack and camber. Thus, the lift-drag ratio L/D is inversely pro­
+portional to the angle of attack and camber, and hence L/D ≫ 1 if the foil 
+satisfies the original assumptions of the linear theory. (At this point it may 
+be a relief to note that the lift-drag ratio is large, since that is presumably 
+the raison d'être for the lifting surface!) That the lift-drag ratio is inversely 
+proportional to the angle of attack is another reason for keeping this angle 
+small, in addition to the objectives of avoiding stall, cavitation, and non­
+linear effects.
+The lift-drag ratio is not a satisfactory figure of merit since this can be 
+made arbitrarily large by reducing the angle of attack and resulting lift 
+force. A more appropriate parameter is the nondimensional ratio
+K
+AC
+C
+U s
+D
+L
+s
+z
+z
+d
+dz
+z dz
+D
+L
+=
+=
+=
+′
+−
+(
+)
+∫
+∫
+∫
+π
+π ρ
+ζ
+ζ
+ζ
+
+
+
+
+
+
+
+
+Γ
+Γ
+Γ
+( ) [
+( )/(
+)]
+( )
+.
+	
+(133)

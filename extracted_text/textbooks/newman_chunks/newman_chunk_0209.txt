@@ -1,0 +1,61 @@
+) ( ), (47) dy dt Ae kx t O A ky = − + ω ω sin( ) ( ). (48) The second-order vertical motion of a given particle of fluid is strictly periodic, with the velocity given by (48), but the horizontal velocity (47) contains a steady Stokes’ drift. Integrating (47) vertically with respect to all particles of fluid −∞ < y0 < 0 yields the total mean flux Q A kA Vp = = ω . (49)
+
+Waves and Wave Effects 
+
+The same result could be derived directly from a computation of the aver­
+age flux across a vertical column of fluid −∞ < y < η (see problem 3).
+The presence of a mean drift is obvious from the observation of small 
+vessels floating in waves, although here the mean motion of the vessel may 
+be affected more by wind forces and other nonlinear effects such as surf­
+ing. Mass transport can result in the piling up of water at a beach, with an 
+associated increase in the local mean depth. In some cases a long-shore cur­
+rent is associated with this phenomenon. This effect is discussed by Wiegel 
+(1964). In shallow water, viscous effects significantly modify the mean drift 
+flow, in a manner described by Longuet-Higgins (1953) and by Ünlüata and 
+Mei (1970).
+6.6  Superposition of Plane Waves
+The plane progressive wave described in sections 6.2 and 6.3 is a single, 
+discrete wave system, with a prescribed monochromatic component of 
+frequency ω and wavenumber k, moving in the positive x-direction. This 
+wave system can be generalized in several respects. First, the wave profile 
+(7) rewritten in the form
+η
+ω
+=
++
+A
+kx
+t
+cos(
+), 	
+(50)
+corresponds to a plane progressive wave moving in the negative x-direction. 
+The subsequent relations derived in sections 6.2 and 6.3 are unchanged, 
+except that the phase function (kx − ωt) is replaced by (kx + ωt) throughout, 
+and the signs of some expressions must be reversed.
+More generally, in three dimensions, a plane wave moving in an arbi­
+trary direction, at a polar angle θ in the horizontal x-z plane, can be ana­
+lyzed by rotating the coordinate system appropriately. As shown in figure 
+6.6, the coordinate x′ may be defined to coincide with the direction of wave 
+propagation. Since x′ = x cosθ + z sinθ, the appropriate generalization of (7) 
+is given by
+η
+θ
+θ
+ω
+=
++
+−
+A
+kx
+kz
+t
+cos(
+cos
+sin
+), 	
+(51)
+with similar expressions for the velocity potentials (16) and (23). Note that 
+for θ = π, (51) reduces to (50).
+In the linearized theory, solutions may be superposed without violating 
+the boundary conditions or Laplace’s equation. Thus considerable scope

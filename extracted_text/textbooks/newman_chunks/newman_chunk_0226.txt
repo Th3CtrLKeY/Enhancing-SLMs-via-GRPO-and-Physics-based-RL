@@ -1,0 +1,181 @@
+eter such as the polar radius. The function F may be complex, but G will be assumed real. For large values of R, the phase RG will vary rapidly, and the integrand of (98) will be a highly-oscillatory function. The resulting Figure 6.17 Aerial photograph of ship waves with the angles 19 1 2 ° and 35° superposed. A single nodal line can be detected on each side by the 180° phase shift as in figure 6.16. (From Newman 1970)
+
+Chapter 6
+oscillations of the integrand will tend to cancel out over the range of inte­
+gration, except locally at points of stationary phase where the derivative 
+G′(θ) vanishes.
+Thus the principal contribution(s) to the integral (98) will come from 
+the point(s) of stationary phase, assuming that such points exist in the 
+range of integration. To evaluate the contribution to (98) from the vicinity 
+of such a point, say at θ = θ0, the function G(θ) may be expanded in a Taylor 
+series of the form
+G
+G
+G
+( )
+(
+)
+(
+)
+(
+)
+.
+θ
+θ
+θ
+θ
+θ
+=
++
+−
+′′
++
+
+
+
+
+
+
+(99)
+Here G″ is the second derivative, and the term involving the first derivative 
+has been deleted since, by definition,
+′
+=
+G (
+)
+.
+θ0
+
+(100)
+Substituting (99) in the integral (98), the contribution from the vicinity of 
+this point will be given by
+I
+d F
+iR G
+G
+
+θ
+θ
+θ
+θ
+θ
+θ
+ε
+θ
+ε
+( )exp{
+[ (
+)
+(
+)
+(
+)]}.
+
+
+
+
+
+
+
+
++
+−
+′′
+−
++
+∫
+	
+(101)
+Here ε is a small quantity whose value depends on the variation of F and G 
+but not on R.
+The integral (101) may be simplified by substituting the new variable of 
+integration
+ξ
+θ
+θ
+θ
+=
+−
+′′
+(
+)(
+(
+) )
+.
+/
+
+
+
+
+1 2
+RG
+	
+(102)
+It follows that
+I
+F
+RG
+d
+i RG
+RG
+RG
+
+(
+)
+exp[ (
+)]
+/
+/
+/
+θ
+ξ
+ξ
+ε
+ε
+
+
+
+1 2
+
+
+
+1 2
+
+
+1 2
+′′
+(
+)
+±
+−
+′′
+(
+)
+′′
+(
+)
+∫
+, 	
+(103)
+where the function F has been approximated by its value at θ0, and the 
+± sign is the same as the sign of the second derivative G″(θ0). In the limit 
+R →∞, the last integral can be evaluated using the definite integrals
+sin
+cos
+(
+/ )
+.
+/
+ξ
+ξ
+π
+
+1 2
+
+d
+−∞
+∞
+∫
+=
+	
+(104)

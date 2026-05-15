@@ -1,0 +1,36 @@
+for the dynamic stability of ships, and indeed for other vehicles as well1. From the hydrodynamic standpoint, the stability criterion (80) can be enhanced by increasing the added mass at the stern or by decreasing it else­ where. Thus a ship’s stability will increase as the vessel is trimmed down at the stern (see problem 7). Excessive stability is undesirable in ship design because it impairs the turning ability. Thus a small positive value for the parameter C is optimum.
+
+Chapter 7
+However, a limited degree of instability is often tolerated, particularly for 
+supertankers, with the premise that this can be controlled by a suitable 
+automatic pilot.
+Since the sign of (76) is independent of the magnitude of U1, the for­
+ward velocity is not a factor in determining the directional stability of a 
+ship unless wave effects become significant, requiring a modification of the 
+hydrodynamic force coefficients in table 7.1. The stability of a submarine 
+in the vertical plane is speed-dependent, as noted in problems 8 and 9. 
+This distinction results because the submarine has a hydrostatic restoring 
+moment, independent of the forward velocity, and the relative importance 
+of this and the hydrodynamic forces varies with the forward velocity.
+The characteristic time-scale for maneuvering is inversely proportional 
+to the stability indices; thus it is directly proportional to A/B or l/U1. For 
+constant Froude number, the time scale is proportional to l1/2. This result 
+is fundamental to the simulation of ship maneuvers for training purposes. 
+Human operators can sense the response of a 10 m model with much 
+greater ease than that of a 300m vessel. For this reason attempts to train 
+operators of supertankers with small free-running models have generally 
+been abandoned in favor of computer simulation, involving visual displays 
+and mock-up of the bridge controls, operated in the time-scale of the fullscale vessel.
+Our analysis of ship maneuvering has been based on the slender-body 
+hydrodynamic force coefficients derived in section 7.4. This approach per­
+mits us to derive the most common form of the equations of motion from 
+rational fluid mechanics and to draw qualitatively correct conclusions. For 
+design purposes, greater accuracy is required; it is customary to assume the 
+same equations of motion, but to measure the force coefficients from exper­
+iments where a captive model is forced to oscillate sinusoidally.
+The latter approach to this subject is discussed by Mandel (1967), Abkow­
+itz (1969), and by several authors in Bishop, Parkinson, and Eatock Taylor 
+(1972). The survey by Norrbin (1970) deals with ship maneuvering in open 
+and restricted water. Frank et al. (1976) discuss the more general equations 
+of motion in convolution form, similar to (6.195), emphasizing the relation 
+between these and the simpler equations (52–53).

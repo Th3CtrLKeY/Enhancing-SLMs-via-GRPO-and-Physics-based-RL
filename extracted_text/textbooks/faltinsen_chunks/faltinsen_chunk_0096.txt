@@ -1,0 +1,107 @@
+(1 + 4(—) cos? @)) cos @R dé Since both 9@2/ay and 4 |V@,|? are symmetric about the z-axis and 7, is antisymmetric about the z-axis, it follows that the integral is zero. This is true for any cross-sectional surface that is symmetric about the z-axis. Hence the last term in equation (6.36) is zero. For a ship with circular cross-section we can write the integral over Fig. 6.21. Cross-section of a ship hull and image hull above the free-surface.
+
+200 CURRENT AND WIND LOADS
+
+C(x) in the first term of equation (6.36) as
+ob2 _ _dRX(x) [" 2 _  dR(x) 0
+iz Oe n,ds = i cos’ 6d@ = i 2
+
+By integrating by parts and using the fact that the cross-sectional area is
+zero at the ship ends it follows that
+
+F,=0.5U2 sin 26 [ dx ps R%X(x)=0.5U2 sin 2B Ay (6.38)
+L
+
+This result can be derived in a similar way for other cross-sectional
+shapes. According to slender body theory (strip theory) the added mass
+in surge A, can be neglected relative to the added mass in sway A2.. Our
+result for the Munk moment is therefore consistent with the result in
+equation (6.27). We note that the result is independent of the origin of
+the coordinate system. The reason is that the derivation is based on
+potential theory and that there is no force acting on a body in infinite,
+inviscid and irrotational fluid (D’Alemberts paradox). In our case the
+fluid is not infinite in all directions. However, due to the rigid
+free-surface condition the problem of studying the flow around a ship in
+incident horizontal current is equivalent to studying the flow around a
+double-body in infinite fluid. The double-body consists of the ship hull
+and its mirror image above the free surface.
+
+What we have shown in the derivation above is that the Munk moment
+part of the current yaw moment on a ship is due to the pressure part
+p=—pU,cos B Og/dx where @ is the velocity potential —U, sin B 2
+due to the cross-flow past the ship.
+
+We note from the derivation that the effect of flow separation is
+neglected. Strictly speaking this is incorrect. What we have done is to
+account for flow separation in only one part of the expression of the
+current yaw moment (see equation (6.27)). The reason why this viscous
+part is not sufficient to describe the current yaw moment is that the
+three-dimensional effects are not properly accounted for. The pressure
+part —pU,cos B dg/dx that gives the Munk moment represents a
+three-dimensional effect because it involves the variation of the velocity
+potential @ in the longitudinal x-direction of the ship.
+
+CURRENT LOADS ON OFFSHORE STRUCTURES
+The Munk moment on a general body can be derived from a formula
+presented by Newman (1977). For a body moving with a constant
+translational velocity U=(U,,U,,U3) in an infinite, inviscid and
+irrotational fluid we can express the moment M by
+
+M=~pux |{ onds
+
+Sa
+
+(6.39)
+
+Ee
+E
+k
+é
+
+CURRENT LOADS ON OFFSHORE STRUCTURES 201
+
+(see equation (99) on p. 136 of Newman, 1977). The surface normal
+direction n =(n,, 2,3) on the body surface Sg is assumed positive out
+of the fluid in Newman’s derivation. The velocity potential @ in equation
+(6.39) can be written as
+
+p= > Uidi (6.40)
+where @; satisfies the body boundary condition
+
+Sten, i=1,2,30nSp (6.41)
+By using the fact that the added_mass coefficient Aj can be written
+
+Aj =p i gin; ds (6.42)
+we can now write cquation | 6. 39) as
+
+M=-Ux [> u[> A,e;|| (6.43)
+
+where ¢;, j=1,2,3 are ‘unit_vectors along the x-, y- and Z-axis,
+respectively. By multiplying out out the cross-product we find
+
+3 3
+M= -e,(U; > U;A3; — U3 > UAn)
+i= i=l
+3 3
+—e,(Us > UA — Uy > UAss)
+i=l i=1
+
+3 3
+—e,(Us 3 UAn- U2 >, UAn) (6.44)
+i=l i=]
+For instance, we can apply this formula to current yaw moment on a
+ship. Observed from the ship the translational velocity, U, is the same as
+an incident current velocity. Then we can write U;= U,cosB, U,=
+U, sin B, U; = 0. From equation (6.44) it follows that the yaw moment is
+
+—e,U.’ cos B sin B (Az — Ai) (6.45)
+
+This is the same as the Munk moment part in equation (6.27) if we
+recognize that the x-, y- and z-directions defined here are opposite the
+x-, y- and g-directions used in equation (6.44).
+
+We can apply equation (6.44) to any offshore structure in a current.
+However, we should realize that we have assumed infinite, inviscid-and
+irrotational fluid. As pointed out in the last section this means that there
+is no hydrodynamic force on the body. This is the reason why equation
+(6. 44) does not depend on the position of the origin of the coordinate

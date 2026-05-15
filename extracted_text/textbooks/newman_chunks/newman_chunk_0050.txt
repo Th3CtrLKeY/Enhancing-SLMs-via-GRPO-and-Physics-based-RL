@@ -1,0 +1,184 @@
+Let us consider a general volume integral of the form I t f t d t ( ) ( , ) . ( ) = ∫∫∫ x   (7) Here f is an arbitrary differentiable scalar function of position x and time t to be integrated over a prescribed volume ( )t , which may also vary with time. Therefore the boundary surface S of this volume will change with time, and its normal velocity is denoted by Un.
+
+Chapter 3
+In the usual manner of elementary calculus we consider the difference
+∆
+∆
+∆
+∆
+I
+I t
+t
+I t
+f
+t
+t d
+f
+t d
+t
+t
+t
+=
++
+−
+=
++
+−
++∫∫∫
+∫∫∫
+(
+)
+( )
+( ,
+)
+( , )
+.
+(
+)
+( )
+x
+x
+
+
+
+
+	
+(8)
+Neglecting second-order differences proportional to (Δt)2, we have
+f
+t
+t
+f
+t
+t f
+t
+t
+( ,
+)
+( , )
+( , ).
+x
+x
+x
++
+=
++
+∂
+∂
+∆
+∆
+A similar decomposition can be made for the volume ( )t . Thus (
+)
+t
+t
++ ∆ 
+differs from ( )t  by a thin volume ∆ contained between the adjacent sur­
+faces S(t + Δt) and S(t) and proportional to Δt. From equation (8) it follows 
+that
+∆
+∆
+∆
+∆
+∆
+I
+f
+t f
+t
+d
+f d
+t
+f
+t d
+f d
+O
+=
++
+∂
+∂
+
+
+
+
+−
+=
+∂
+∂
++
++
++∫∫∫
+∫∫∫
+∫∫∫
+∫∫∫
+
+
+
+
+
+
+
+
+
+[(∆t) ],
+
+(9)
+where the last term denotes a second-order error proportional to (Δt)2.
+To evaluate the integral over the volume ∆, we note that this thin 
+region has a thickness equal to the distance between S(t) and S(t + Δt). This 
+thickness is the normal component of the distance traveled by S(t), in the 
+time Δt, which is equal to the product UnΔt. Thus the contribution from 
+the last integral is of first order, or proportional to Δt; to the same degree of 
+accuracy the integrand f may be assumed constant across the thin region in 
+the direction normal to S. Integrating in this direction only, we then have
+∆
+∆
+∆
+∆
+I
+t
+f
+t d
+U
+t f dS
+O
+t
+n
+S
+=
+∂
+∂
++
++
+∫∫∫
+∫∫
+
+
+(
+)
+[(
+) ].
+
+(10)
+Finally, we obtain the desired result by dividing both sides by Δt and 
+taking the limit as this tends to zero; thus
+dI
+dt
+f
+t d
+fU dS
+n
+S
+=
+∂
+∂
++
+∫∫∫
+∫∫
+
+
+. 	
+(11)
+Equation (11) is known as the transport theorem. The surface integral in 
+this equation represents the transport of the quantity of f out of the volume 
+, as a result of the movement of the boundary. In the special case where 
+S is fixed and Un = 0, equation (11) reduces to the simpler form where dif­
+ferentiation under the integral sign is justified.

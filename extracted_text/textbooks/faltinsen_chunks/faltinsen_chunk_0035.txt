@@ -1,0 +1,142 @@
+the vertical excitation loads along the ship causes the total heave excitation force to be small. Since the heave resonance period for a ship at zero forward speed corresponds to a wavelength of the order of the ship length, the heave motion may be rather small at the heave resonance. For semi-submersibles and TLPs, the Froude—Kriloff force and the diffraction force tend to cancel each other at large periods, typically between 15 and 20s. This is evident from Fig. 3.18.
+
+74 LINEAR WAVE-INDUCED MOTIONS
+
+LINEAR WAVE-INDUCED MOTIONS AND
+
+LOADS ON A TENSION LEG PLATFORM (TLP)
+
+IN THE MASS-FORCE DOMAIN
+Fig. 3.18 presents results of calculated linear motions for the ASM600
+platform (Fig. 3.15) in head seas. These calculations are based on
+incident regular waves using the theory described by Faltinsen et al.
+(1982). Here we will only try to explain the essential part of the
+calculations when wave diffraction is of small importance, and focus our
+attention on the heave motion 7; of the centre of gravity of the platform.
+
+g
+0-0: a
+3 4 001
+y ee oo18
+é 88
+£7 a:
+A £ cs
+ge 0-02 82 0010
+bs ea (b)
+=} s 2 Q I
+Tr rd (a) tt ASM600 Pitch
+Rg ASM600 Hea
+% 3 0-01 eave % $0005
+oo 82
+c= tz
+FS eo
+gE pad
+0-00! 0-000. Jt
+00.02 04 06 08 10 12 14 1 0-0 02 04 06086 10 12 14 1:6
+Frequency (rad s~1) Frequency (rad s“1)
+» 20
+
+
+za
+ces
+ce
+c
+
+2 c
+5 z (ce)
+a g ASM600 Surge
+g205
+Fa
+wE
+xr<
+
+0-0
+0-0 02 04 06 08 1012 14 16
+Frequency (rad s-1)
+
+g 0-03 gy 0-03
+
+® fd
+
+an g-
+
+ge bE
+
+S E002 2 € 002
+
+e= (qd) eS (e)
+
+t ASM600 Heave at 2s ASM600 Heave at
+gt Aft Tether 5 He Fore Tether
+230-01 33001
+
+a3 cs
+
+cz Pz
+
+re ra
+
+wE uw &
+
+I< I<
+
+0-00 0-00,
+00 02 0406 06 10 12 1416 00 02 04 06 08 10 12 14 16
+
+Frequency (rad s71) Frequency (rad s~1)
+
+Fig. 3.18. Motion of the TLP presented in Fig. 3.15.
+
+LINEAR WAVE-INDUCED LOADS ON A TLP 75
+
+The undamped equation of motion can be written as
+
+d? EA
+(M+ As) SP + = FO 3.57)
+
+where the dominating restoring coefficient C33 is due to tethers. E is the
+modulus of elasticity, A is the total cross-sectional area and / is the length
+of the tendons.
+
+The frequencies of interest are much lower than the resonance
+frequency in heave. We will therefore neglect the first term on the left
+hand side. A formula for the excitation force F'3(t) has been derived in
+equation (3.41). It was noted that the force is either in-phase or 180°
+out-of-phase with the undisturbed wave elevation at x = 0. Furthermore,
+the excitation force can be zero for certain frequencies. This is also
+evident from Fig. 3.18(a). The force is not exactly zero in the figure
+because wave diffraction was also incorporated in the computer program.
+The small vertical force at the largest period in Fig. 3.18(a) occurs
+because the forces on the columns cancel the force contribution from the
+pontoons.
+
+Computer calculations have shown that the volumetric ratio, R,, of
+columns to pontoons is an important parameter for the dynamic tension
+variation. We can write
+
+ww D
+A, 4B
+
+where D is the draught of the platform. This can partly be seen from
+equations (3.41) and (3.57). The ratio Ay/Ap is a parameter which
+controls the cancellation period of (3.41), and D governs how much wave
+energy there is at the pontoon depth. The spacing between the pontoons,
+which is related to B, will also influence the dynamic tensions according
+to equation (3.57).
+
+The calculation of the pitch and surge responses in Fig. 3.18 can be
+based on a similar procedure to that outlined for heave. In this case the
+columns will also contribute to the wave excitation force. The heave at aft
+or fore tendons can be calculated by properly combining the heave at the
+center of gravity and the pitch motion. Fig. 3.18 indicates that the
+‘design wave approach’ may be dangerous to apply in predicting the
+tendon loads in a survival situation. These loads are sensitive to the
+frequency range of interest. By ‘design wave approach’ we mean that
+we only consider the response due to one regular wave system. Let us say
+we chose a wave period in the vicinity of 15s (w = 0.42 rad/s). We see
+from Fig. 3.18 that the tendon loads are sensitive to what wave period we
+
+select.
+Standard procedures exist for calculating irregular sea effects when the
+
+Ry (3.58)

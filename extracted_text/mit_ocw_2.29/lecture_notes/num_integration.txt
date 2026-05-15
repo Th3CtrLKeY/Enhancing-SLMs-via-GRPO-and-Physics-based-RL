@@ -1,0 +1,174 @@
+[Page 1]
+PR any, . zo
+Merrie s
+
+Numerical Integration
+
+---PAGE BREAK---
+
+[Page 2]
+nr4
+
+Numerical Integration
+
+1. Used to integrate a function that we do not know how it integrate by quadrature. For example, suppose we seek [ = J33 exp(Vz + x3dz
+
+2. Used when we want to determine f° f(x)dx and we have a set of pairs of
+values of [x, f(z)]
+
+
+
+Section Area (m?)
+
+0 40 20 30 40 50 60 70 80 90 100
+
+x (m)
+One approach, which we will not consider in detail here, is to fit a polynomial
+to the integrand and then to integrate the polynomial analytically.
+
+The approach we follow here is to consider integration rules which provide a nu-
+
+merical approximation to the integral in terms of discrete values of the integrand
+for a set of values of x.
+
+Rectangular Rule approximates the function by a set of rectangles and estimates the integral as the sum of the areas of the rectangles.
+
+i 2S wiv ~ vi) f (ai)
+
+f(x)
+
+---PAGE BREAK---
+
+[Page 3]
+VI?
+
+Trapezoidal Rule
+The trapezoidal rule fits a trapezoid to each successive pair of values of |x, f(z)|
+and estimates the integral as the sum of the areas of the trapezoids.
+
+x. 1 Xp X3
+
+l. f(a)dr = Fin — wi) UF (mie + f(s)
+
+t=1
+
+AX), 4)
+
+{K) eee ==
+
+Ax) O.5(f(x;) + F(x; 1)
+
+x,
+
+i
+-}——_—_—_— Xj, , - 3 -—______+ x
+
+i+]
+
+By expanding f(x) in each interval as a Taylor series we find the error in the
+approximate integral, Er is given by:
+h3 n—-1
+
+Er = “tp dX f" (ni)
+
+where 7; is some value of x in the i” interval. Since the number of terms in the
+sum is proportional to 1/h, smaller intervals result in less error.
+
+A(x)
+
+---PAGE BREAK---
+
+[Page 4]
+TRAPEZorPAL Rule Errol
+
+. FA = Sian hee) Bro
+
+x.
+a
+
+T= ‘etal FG). “FG ..) 7s “where Hr nib) = Re)
+
+Fi; ..)=FG.)- WFO) + KE 4 aan
+T= FR) - FOG. =p F'Ce)- 3 ote re EMA )en
+Since aan FEO, | | re
+2 te oni gt eb.) he lede- die Bae
+DH hfG)— B GK) FB Fe) - wep Oe) Hee AY
+
+Evrar in interval X4y te X% is J 6") +o(h")
+
+---PAGE BREAK---
+
+[Page 5]
+Number of jntervalS is C
+tr |e @OlSM in aexek
+
+- h”
+Totel error< BA | 73M + ofh*) |
+
+Total error X (-0 5M +oCh?)/
+
+---PAGE BREAK---
+
+[Page 6]
+nea
+Estimate 3 - Usual Trapezoidal Rule
+
+2 2
+c= 5f"(B) ~t<e<3
+
+Error = h(a) + O(h*)
+
+---PAGE BREAK---
+
+[Page 7]
+Nectang alar Rale AsbreVig tren F(X, ) = (Fz.
+
+= F(x) (%g-4% \ (42) (3-42) # Fs (0-43) + (ne) (hes -Xip)
+
+Trgle Zordql Rale2
+
+Xi kee xy XxX
+, + (BRE) (xs -xy)
+
+tP3xy - Pax t Fy Ay — Fy X3 + FuKxs Fixe + FsXo~Fsty
+
+oo a,
+z Sr CY) + Fa.(X3-x,) £3 (phe) + Fe (hes) +5 (Kea)
+TEL X37 Xn =2 (Xnipa-Xny, ) > eZ aal S Pacing
+DS BATA + Fo. (Xg-42) + Pa (xyes) + RY Ke Me) + SE (Xs Xu)
+
+---PAGE BREAK---
+
+[Page 8]
+AL
+
+Simpson’s Rule
+
+Simpson’s rule fits a parabola ( 2”4 order polynomial) to each interval between
+[x:, f(x;)] and [zi+2, f(xiz2)| and estimates the integral as the sum of the areas
+under the parabolas.
+
+a b
+(a+ b)/2
+
+For Simpson’s Rule, the intervals [z;,; — z;| and [xj42 — 2;4;] must be equal and
+the x-distance interval length is called Az. For three values of 2;; a,a + Az,b
+the integral is
+
+ff Folds = F[f(@) + 4f(a-+ Ax) + £0)
+
+Simpson’s Rule requires that there be an even number of intervals which means
+that there are an odd number of data pairs [z;, f(z;)] Then the integral is approximated by the sum of the areas under the approximating parabolas as
+
+Li41 — Vj
+
+[Pidcn Lf(0s) + Af (esa) + Fleesa)
+
+i=1,3,5,... 3
+
+For the usual case of equal spacing, Az, of all the x;’s, Simpson’s Rule can be
+expressed as:
+
+[P teodes | flay + fee) a4 SS sare Sse)
+
+i=2,4,6,... 4=3,5,7,...

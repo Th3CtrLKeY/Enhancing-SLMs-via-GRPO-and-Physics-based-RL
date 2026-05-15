@@ -1,0 +1,148 @@
+plane y = 0 is of no interest, since this is a constant unrelated to the wave motion. (Moreover, this term is a source of embarrassment in the limit h → ∞!) There­ fore this contribution to (66) is omitted from the subsequent equations. For plane progressive waves in infinite depth, the energy density can be computed using the results of section 6.2. Substituting (19–20) in the last integral in (66) and carrying out this integration over the depth yields
+
+Chapter 6
+Figure 6.10
+Sequence of photographs showing a plane progressive wave system advancing into 
+calm water. The water is darkened with dye, and the lower half of the water depth 
+is not shown. The wave energy is contained within the heavy diagonal lines, and 
+propagates with the group velocity. (The boundaries of the wave group diffuse slowly 
+with time, due to dispersion.) The position of one wave crest is connected in succes­
+sive photographs by the light line, which advances with the phase velocity. Each 
+wave crest moves with the phase velocity, equal to twice the group velocity of the 
+boundaries. Thus each wave crest vanishes at the front end and, after the wavemaker 
+is turned off, arises from calm water at the back. The interval between successive 
+photographs is 0.25s and the wave period is 0.36s. The wavelength is 0.23m and the 
+water depth is 0.11m.
+
+Waves and Wave Effects 
+
+E
+A
+k
+e
+g
+k
+=
++
+ρω
+ρ η
+η
+
+
+
+
+
+
+
+. 	
+(67)
+For small-amplitude waves, the energy density (67) is proportional to the 
+square of the wave amplitude A, and to this order the exponential factor 
+in (67) may be set equal to one. Equivalently, (66) shows that the kinetic 
+energy is O(A2), and the contribution to the last integral between y = 0 and 
+y = η will give a higher-order contribution proportional to A3. Using the 
+dispersion relation (17) in the first term of (67) and substituting (7) for the 
+free-surface elevation we obtain
+E
+gA
+gA
+kx
+t
+=
++
+−
+
+
+
+
+
+
+
+ρ
+ρ
+ω
+cos (
+). 	
+(68)
+The first and second terms on the right side of (68) represent the kinetic 
+and potential energies, respectively. If these are averaged with respect to 
+time over one cycle of the wave motion, their contributions are identical, 
+and the total mean energy density is given by the expression
+E
+gA
+= 1
+
+
+ρ
+, 	
+(69)
+where a bar denotes the time average.
+For finite depth the corresponding relations can be derived with 
+somewhat more effort. The expression for the potential energy in (68) is 
+unchanged, and the mean value of the kinetic energy is identical to the first 
+term in (68). Thus (69) holds in general, along with the conclusion that the 
+mean energy is divided equally between kinetic and potential contributions 
+(see problem 4).
+To analyze the rate of energy flux, we consider the rate of change with 
+respect to time of the total energy (65). Allowing the boundary surface S of 
+the volume  to move with the velocity Un and using the transport theorem 
+(3.11) gives
+dE
+dt
+d
+dt
+V
+gy d
+t
+V
+gy d
+V
+gy
+=
++
+
+
+
+
+=
+∂
+∂
++
+
+
+
+
++
++
+
+∫∫∫
+∫∫∫
+ρ
+ρ
+ρ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+∫∫
+U dS
+n
+S
+.
+	
+(70)
+Since the vertical coordinate y is independent of time, the only contribu­
+tion to the integrand of the last volume integral is from the kinetic energy 
+term, which takes the form

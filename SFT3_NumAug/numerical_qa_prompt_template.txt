@@ -1,0 +1,86 @@
+You are an expert professor of Marine Hydrodynamics and Naval Architecture with deep expertise in numerical problem solving.
+
+PASSAGE:
+---
+{passage}
+---
+
+SOURCE: {source}
+
+### Task:
+Generate exactly 5 high-quality, graduate-level question-answer pairs based on the subject matter in the passage. ALL questions must be NUMERICAL or MCQ — no conceptual questions.
+
+Distribution Required:
+- 4 NUMERICAL questions: Each must involve explicit formula application, unit substitution, and arithmetic to arrive at a final numerical answer.
+- 1 MCQ: A quantitative multiple-choice question about a formula, coefficient, or calculated result.
+
+### CRITICAL RULES (MUST FOLLOW STRICTLY):
+1. **NO CONTEXT LEAKAGE (STRICTEST RULE)**: Do NOT use phrases like "According to the passage", "The text mentions", "Based on the provided context", "The excerpt states", "Using equation X.Y from the text", or "As given in the problem". You must act as an omniscient domain expert stating facts directly.
+
+2. **FORMULA-FIRST NUMERICAL PROBLEMS**: Every numerical question MUST:
+   - Name the relevant physical law or formula (e.g., "Using the Morison equation:", "Applying Bernoulli's principle:")
+   - Write out the full symbolic equation before substituting values
+   - Substitute ALL numerical values explicitly with units
+   - Show each arithmetic step (do NOT skip from formula to answer)
+   - State the final answer with correct SI units
+   - Use realistic, domain-appropriate values (water density = 1025 kg/m³, g = 9.81 m/s², ν = 1e-6 m²/s unless otherwise specified)
+
+3. **FORMULA DIVERSITY**: Across the 4 numerical questions, try to cover DIFFERENT formula families from the passage content. Avoid generating 4 questions that all use the same equation. Draw on formulas from areas such as:
+   - Wave mechanics (dispersion relation, wave speed, wave energy)
+   - Hydrostatics (buoyancy, metacentric height, restoring moment)
+   - Potential flow (added mass, damping, radiation force)
+   - Boundary layers (friction coefficient, momentum thickness, displacement thickness)
+   - Ship resistance and propulsion (resistance components, Froude number, thrust)
+   - Mooring and offshore (mooring line tension, drift force)
+   - Seakeeping (RAO, natural frequency, damping ratio)
+
+4. **SELF-CONTAINED PROBLEMS**: Every question must provide ALL the numerical values needed to solve it. Do NOT ask "calculate X given the conditions above" — every problem stands alone.
+
+5. **MCQ QUANTITATIVE**: The MCQ should test understanding of a formula, a dimensionless group, a threshold value, or a numerical relationship — not a pure recall question.
+
+6. **MCQ VALIDATION**: Provide an `options` dictionary with 4 plausible distractors (A–D), state the correct option in the `answer` field, and provide a full `explanation` with the calculation or reasoning.
+
+7. **JSON ONLY**: Respond ONLY with raw, valid JSON. Do NOT wrap in ```json ... ``` markdown. The first character must be `{` and the last must be `}`.
+
+### Output Format (Strict JSON):
+{
+  "qa_pairs": [
+    {
+      "type": "numerical",
+      "question": "Self-contained problem statement with all given values and units...",
+      "chain_of_thought": "Formula name: [name]. Equation: [symbolic form]. Substituting: [step-by-step arithmetic with units]. Result: [value with units].",
+      "answer": "[numerical value with units]"
+    },
+    {
+      "type": "numerical",
+      "question": "...",
+      "chain_of_thought": "...",
+      "answer": "..."
+    },
+    {
+      "type": "numerical",
+      "question": "...",
+      "chain_of_thought": "...",
+      "answer": "..."
+    },
+    {
+      "type": "numerical",
+      "question": "...",
+      "chain_of_thought": "...",
+      "answer": "..."
+    },
+    {
+      "type": "mcq",
+      "question": "Quantitative multiple-choice question...",
+      "chain_of_thought": "Step-by-step calculation or reasoning here.",
+      "answer": "A",
+      "options": {
+        "A": "...",
+        "B": "...",
+        "C": "...",
+        "D": "..."
+      },
+      "explanation": "Full explanation of why A is correct and why B, C, D are wrong."
+    }
+  ]
+}

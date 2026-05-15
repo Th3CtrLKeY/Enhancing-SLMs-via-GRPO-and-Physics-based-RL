@@ -1,0 +1,174 @@
+is odd they equal zero, and when n is even I n n n = ⋅ ⋅ ⋅ ⋅ − ⋅ ⋅ ⋅ ⋅ π 1 3 5 2 4 6 ... ( ) ... ( ) . (79) The corresponding integrals, which must be evaluated to find the vortex strength, are of the form H x d x n n ( ) ( )( ) . = − − − ξ ξ ξ ξ 2 1 2 −∫ (80)
+
+Chapter 5
+These are not elementary, but they can be related to the integrals in (78). 
+First we recall that, since (l − ξ2)−1/2 is a homogeneous solution of the inte­
+gral equation (60),
+H
+x
+d
+x
+
+2 1 2
+
+
+
+
+( )
+(
+)(
+)
+.
+=
+−
+−
+=
+−
+ξ
+ξ
+ξ
+−∫
+	
+(81)
+For n ≥ 1 in (80), a recursion formula can be derived as follows:
+H
+x
+x
+x
+d
+x
+I
+xH
+x
+n
+n
+n
+n
+n
+( )
+[(
+)
+]
+(
+)(
+)
+( ).
+=
+−
++
+−
+−
+=
++
+−
+−
+−
+−
+−
+ξ
+ξ
+ξ
+ξ
+ξ
+ξ
+
+
+2 1 2
+
+
+
+
+
+−∫
+	
+(82)
+In particular, it follows from (79) and (81) that
+H
+x
+1( )
+,
+= π 	
+(83)
+H
+x
+x
+2( )
+,
+= π
+	
+(84)
+and, more generally, Hn(x) is a polynomial of degree n − l.
+The integrals defined by (80) are known more generally as Hilbert trans­
+forms; so far we have considered them only on the cut −1 < x < 1. This is the 
+region of principal interest for steady two-dimensional hydrofoils, but in 
+our subsequent treatments of cavity flows and unsteady hydrofoils, where 
+singular effects exist downstream of the foil, it will be necessary to evalu­
+ate the resulting Hilbert transforms for values of x exterior to the cut. This 
+generalization is accomplished most easily by replacing x by the complex 
+variable z and using analytic continuation to deduce the values of (80) off 
+the cut. The recursion formula (82) remains valid in this case, but the other 
+results must be modified.
+Since (82) is valid, it is necessary to consider only the generalization of 
+(81) which, for complex z, takes the form
+H
+z
+d
+z
+
+2 1 2
+
+
+
+( )
+(
+)(
+)
+.
+=
+−
+−
+−∫
+ξ
+ξ
+ξ
+	
+(85)
+Recalling the discussion following figure 5.13, the limiting behavior of (85) 
+on the cut is given by
+H
+z
+i
+x
+
+
+1 2
+
+( )
+(
+)
+,
+→±
+−
+−
+π
+	
+(86)
+for z → x ± i0, where the real part, H0(x), vanishes by virtue of (81). Since 
+(85) is an analytic function of z, it follows that
+H
+z
+z
+
+
+1 2
+
+( )
+(
+)
+,
+= −
+−
+−
+π
+	
+(87)

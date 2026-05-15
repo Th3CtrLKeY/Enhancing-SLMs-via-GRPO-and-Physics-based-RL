@@ -1,0 +1,58 @@
+extensions of these relations are given by Wehausen (1971) and New­ man (1976). Vugts (1968) has confirmed (174) from experimental measure­ ments of the damping coefficients and exciting forces. The character of the exciting force and moment as ω → ∞ or λ → 0 can be inferred from a physical argument and confirmed from the Haskind rela­ tions. Physically, if the wavelength is short compared to the body length, several waves will exist simultaneously along the body and cancellation
+
+Waves and Wave Effects 
+
+will occur. Moreover, the exponential decay of (16) with depth will result 
+in a significant effect of the incident waves only in a thin “boundary-layer” 
+region near the free surface. Alternatively, since the damping coefficients 
+vanish in the high-frequency limit, it follows from (173) that the threedimensional exciting force must tend to zero faster than (Vg/k)1/2, or using 
+(17) and (77),6 gives
+X
+o
+i( )
+(
+),
+/
+θ
+ω
+=
+−3 2
+	
+(175)
+as ω → ∞. In two dimensions, it follows from (174) that
+X
+o
+i =
+−
+(
+),
+/
+ω 1 2
+	
+(176)
+as ω → ∞. These estimates are conservative, and more precise high-frequency 
+limits for heave are given in the paper by Davis (1976), and references cited 
+therein. For sway, see problem 15.
+The simplest representation for the exciting force and moment is based 
+on the assumption that the pressure field is not affected by the presence of 
+the body and can be determined from the incident wave potential by itself. 
+In other words, the diffraction potential ϕ7 is neglected completely in the 
+integrals (160–162). This approach was utilized in the earliest theories for 
+ship motions in waves; it is known as the Froude-Krylov hypothesis in honor 
+of the authors of those theories.
+Historically, the Froude-Krylov approach was expedient, but in certain 
+cases it can be justified. For a thin ship, with centerplane z = 0, Peters 
+and Stoker (1957) have shown that the Froude-Krylov exciting force and 
+moment are the leading-order contributions in the vertical plane, i.e., for 
+surge, heave, and pitch (j = 1, 2, 6). A similar result is established for slender 
+bodies in chapter 7. Both proofs are valid only if the wavelength is large 
+compared to the beam.
+To illustrate the Froude-Krylov approach for a thin ship, we start with 
+(162) and restrict our attention to motions in the vertical plane (i = 1, 2, 6). 
+The normal components nx, and ny can be approximated by the slopes 
+∂ζ/∂x and ∂ζ/∂y, respectively, where ζ(x, y) is the local half-beam which is 
+assumed small. From the boundary conditions (120–121), the normal deriv­
+atives ∂ϕi/∂n will be first-order quantities, proportional to the beam. For fol­
+lowing or head waves (θ = 0 or 180°), it follows from the boundary condition 
+(124) that the diffraction potential ϕ7 also will be a small first-order quantity 
+proportional to nx and ny.

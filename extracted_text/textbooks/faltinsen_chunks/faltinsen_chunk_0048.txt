@@ -1,0 +1,62 @@
+the vertical fluid acceleration by d’n_ _1& (3.85) d2 paz (b) Integrate equation (3.85) from z = —A to z = 7 and show that the following linearized equation follows d’n g _ _199 ata ey = 3.86 de tn” h ot (3.86) g=—h (c) Equation (3.86) is like a mass—spring system without damping. The right hand side represents the exciting ‘force’. Show that the natural period T,, of the system is y= 2]! (3.87) g Fig. 3.29. Moonpool dimensions.
+
+: EXERCISES Io!
+100 LINEAR WAVE-INDUCED MOTIONS
+
+(d) Equation (3.87) resembles the natural period for a U-tube (b) Assume head sea waves and show that
+
+tank (see equation (3.77)). Consider a U-tube tank as shown s° ____ S(@o)
+in Fig. 3.23 with constant cross-section. Follow the (@.) = 1+ 2U@/¢g
+
+procedure outlined in (a) and (b) and show that equation ; .
+(3.77) holds. How can the transfer function for heave be determined?
+
+(e) We see that equation (3.86) leaves us with an infinite response (c) Consider a following sea and show that
+
+if the wave period T is equal to T,. It is likely that T will be So =o) + S(@) S(w3)
+= os : enn nS ie Ser 0
+close to T,. For instance if h = 10m we see that T, ~ 6s. In ?-G—4Uo./e) + 4Ua,/e):
+order to predict realistic values at resonance we need to : ; ;
+introduce damping terms. We will assume this is due to when w.U/g <}. It is assumed that w, = |@o — @o U/g\..
+viscous effects and write Illustrate by a figure what the meaning of w;, 2 and a; is.
+a é lb
+a dnld 13 1 What is the result when w,.U/g > 4:
+£84 By |) Fy = (3.88)
+dt dt |dt] Ah h Ot \ea-n
+
+Let us consider an irregular sea described by a sea spectrum
+S(q). In this case the linearization has to be done in a
+stochastic sense (see for instance (3.84) in the discussion on
+non-linear roll damping). The result is
+
+2\3
+K= 2(=) Bpo, (3.89)
+
+where a, is the standard deviation of the maonpool velocity.
+Following the definition of standard deviation applied to a
+mass—spring system we can write
+° S(@) dw
+f (c — mw’) + K*w?
+What do Sp, m, K and c mean in this case?
+
+2—
+0, =
+
+(3.90)
+
+3.7 Steering capability of a ship in following sea
+Consider a ship in regular following waves in a situation where the
+frequency of encounter is zero. Neglect the effect of oscillatory ship |
+motions and diffraction effects of the incident waves. Discuss the steering |
+capability of the ship by discussing the incident velocity to the rudder as {
+a function of the position of the waves relative to the ship. I
+
+3.8 Frequency of encounter spectrum
+Consider incident long-crested waves on a ship with forward speed U.
+The wave spectrum is given as S(w ). Assume the frequency of i
+encounter spectrum 53°(w,) of heave has been determined.
+(a) Explain why the frequency of encounter spectrum S°(,) of i
+the incident waves can be related to the wave spectrum by
+
+S*(We) |\dwe| = S(wo) |dwol |
+when there is a one-to-one relationship between w, and w 9. ;

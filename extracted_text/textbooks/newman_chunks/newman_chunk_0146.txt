@@ -1,0 +1,127 @@
+l d M l l = = ( ) −   −∫ ½ ½ . ρ η ξ ξ ξ 2 2 1 2 (38) The center of pressure xCP is the ratio xCP = M/L. 5.4 Simple Foil Shapes To illustrate these results, we consider first the simplest case of a flat plate, or uncambered foil, with an angle of attack dη/dx = α. Then, it follows from (36) that CL = 2πα, (39) and from (38) that
+
+Lifting Surfaces 
+
+CM = ½
+,
+πα 	
+(40)
+Thus, the lift coefficient of an uncambered foil is 2π times the angle of 
+attack, and the center of pressure is at the quarter-chord point, xCP = l/4. As 
+an indication of the accuracy of the linearized theory, the exact lift coef­
+ficient of a flat plate in the absence of separation is
+CL = 2π
+α
+sin
+	
+(41)
+(see problem 5). Thus, the error associated with the linearized theory is 
+insignificant at realistic angles of attack. Similar conclusions follow from 
+the experimental data shown in figure 2.6, where the curve CL(α) is virtu­
+ally linear for angles of attack less than 12–15 degrees. For larger angles 
+separation or stall occurs, with much greater significance than any errors 
+resulting from the linearization assumption.
+The vortex distribution corresponding to the flat plate can be obtained 
+by integrating (32) with v = −αU. The result is
+γ
+α
+x
+U
+l
+x
+l
+x
+( ) =
++
+−
+
+
+
+
+
+1 2
+½
+½
+, 	
+(42)
+where (81) and (84) have been used. The function (42) is displayed in 
+figure 5.10.
+Figure 5.10
+The vortex distribution for a fiat plate, given by equation (42).
+
+Chapter 5
+Since the linearized pressure jump across the foil is proportional to the 
+local vortex strength, figure 5.10 can be regarded as a graph of the pressure 
+loading on the foil. This loading is concentrated near the leading edge and, 
+in fact, becomes infinite as x
+l
+→½ .
+The severe pressure gradient near the leading edge will cause separation 
+or cavitation as the angle of attack is increased. Nevertheless, the flat-plate 
+mean-camber line represents the lifting problem for all symmetric foils 
+since the thickness distribution does not affect the lift and moment. Thus, 
+these results apply to several cases of practical importance, notably for rud­
+ders, keels, and stabilizing fins, where equal performance is required for 
+positive and negative angles of attack.
+When the foil has a preferred direction of lift, the mean-camber line can 
+be modified to make the loading more uniform. The simplest possibility is 
+a parabolic-arc mean-camber line, with slope
+d
+dx
+x
+η
+α
+β
+=
+−
+. 	
+(43)
+Here α and β are constants; α is the angle of attack of the incoming stream 
+relative to the straight line connecting the leading and trailing edges, and 
+βl2/8 is the elevation of the foil at mid chord above this straight line.
+Since equations (32, 35, 37) for the vortex strength, lift, and moment are 
+linear functions of the slope dη/dx, the two terms in (43) can be integrated 
+separately and the results superposed. The angle-of-attack term will give 
+results identical to the flat plate, whereas the effects of the camber will be 
+independent of the angle of attack. This decomposition of the camber and 
+angle of attack applies not only for the parabolic arc, but for any cambered 
+foil. In particular, the lift coefficient CL(α) can be written in general in the 
+form
+C
+C
+L
+L
+( )
+( )
+,
+α
+πα
+=
++
+
+
+(44)
+where the term CL(0) represents the effects of camber, and the term 2πα 
+represents the effect of the angle of attack. A similar result applies for the 
+moment.
+Proceeding with our analysis of camber for a parabolic arc, we can set 
+the angle of attack equal to zero in (43), in view of the decomposition (44). 
+Evaluating the integrals (32), (35), and (37), we get
+γ
+β
+x
+U
+l
+x
+( ) =
+(
+) −
+
+
+
+
+
+1 2
+½
+, 	
+(45)

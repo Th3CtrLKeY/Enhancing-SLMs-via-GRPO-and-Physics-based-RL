@@ -1,0 +1,38 @@
+scheme for calculating viscous effects, at least for unseparated flows at high Reynolds number; equally important, it gives a rationale for neglecting viscous stresses outside the boundary layer. More­ over, if the body is sufficiently regular in shape, its radii of curvature will be much larger than the boundary-layer thickness, and the local flow within the boundary layer will be effectively plane. Thus, if one imagines looking at the boundary-layer flow, say by enlarging it with a magnifying glass or
+
+The Motion of a Viscous Fluid 
+
+microscope, the details of the flow within this thin region will become vis­
+ible, but the overall shape of the body is lost to view and the boundary of 
+the body will appear practically flat within the region of view.
+This approach leads us to expect that the most important and relevant 
+viscous flow problem is the external flow past a single flat plate. This might 
+be taken to coincide with the plane y = 0, as for the lower wall of the plane 
+Couette flow, but with the fluid occupying the entire upper half-space 
+y > 0. We might hope to obtain the desired result from the solution (27) 
+of the corresponding problem for two plates, situated at y = 0 and y = h, 
+simply by letting the separation distance h tend to infinity while focusing 
+attention on the flow near the lower plate at y = 0. A cursory examination 
+of equation (27) shows that this will not work, however. The solution for 
+Couette flow is linear if driven by the movement of one plate and parabolic 
+if driven by a pressure gradient. In either event the presence of the second 
+boundary affects the flow near the first, and viscous effects persist through­
+out the entire fluid.
+This analogy suggests that for steady laminar flow past a single infinitely 
+long flat plate, viscous effects will persist infinitely far away from the plate 
+in the normal direction. In principle this is correct and should not be sur­
+prising. Viscous effects are diffusive, and in this problem, diffusion has an 
+infinite amount of time to take effect. This is not very useful in our quest 
+for a boundary-layer theory where viscous effects are confined to a thin 
+region, and in some sense we must remove the opportunity for diffusion to 
+occur without limit in time and space.
+Two possible modifications can be imposed to make this problem more 
+realistic physically and to limit the time for viscous diffusion to occur. First, 
+we might consider an unsteady problem where the time is limited by the 
+duration of the motion. Alternatiyely, for steady-state flows, the length of 
+the plate should be finite to limit the elapsed time during which a single 
+particle of fluid is traveling past the plate. The latter problem is the most 
+important and relevant one for us to consider, but it is also the more math­
+ematically complicated. Thus, we shall first solve the unsteady problem for 
+a plate of infinite length, which is not without some practical interest in 
+any event.3

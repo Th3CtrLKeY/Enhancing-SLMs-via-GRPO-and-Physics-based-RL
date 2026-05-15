@@ -1,0 +1,90 @@
+the N-direction can be written as 12 p Fy=-2] > CpbVRlVel dx (5.35) -1/2 2 Here Vp is the relative velocity in the N-direction between a strip of the platform and the incident wave field. It can be written approximately as 273 _ dns _ Vr dt di w (5.36) This results in a longitudinal force ! l ~—+} b b Fig. 5.15, Definition of parameters for calculation of the viscous drift force contribution from the pontoons of a semi-submersible.
+
+[ZH OA ih
+
+Surge (m)
+
+Air gap (m)
+
+156 SECOND-ORDER NON-LINEAR PROBLEMS
+
+where the wave amplitudes A;, wave frequencies w;, random phase
+angles €; and number of wave components N are explained by equation
+(5.25). Further, F,SY, F,SY and FY are respectively x-, y-, and
+z-components of the slow-drift force and F,SY, F;5Y and F,SY are
+moments about the x-, y- and z-axes. The coefficients Ty and T;,'* can
+be interpreted as sécond-order transfer functions for the difference
+frequency loads. The word ‘transfer fuiiction’ implies that Tj and T,,'*
+are independent of the wave amplitudes, but are functions of w,; and
+@,. They can be calculated independently of the sea state. This is similar
+to the familiar transfer functions for linear wave-induced motions and
+loads. There is an ambiguity in defining 7," and T,'*, which is easily
+“~seen if we consider two wave components "and analyse the results in
+equation (5.3). According to equation (5.39) there is one component with
+frequency w2—q@, and one component with frequency @,— @>.
+
+1200 1300 1400 1500 1600 1700 1800 1900
+Time (s)
+
+| !
+ei WANA
+eee
+
+1200 1300 1400 1500 1600 1700 1800 1900
+Time (s)
+
+Fig. 5.17. Illustration of horizontal slow-drift surge motion of a tension leg
+platform. The data are from model tests and show simultaneous
+recording of air gap (i.e. relative vertical motion between the
+underside of platform deck and the waves). The latter has a similar
+dependence as the incident wave field. (Hy =7m, Ty= 12s.)
+
+SLOW DRIFT MOTIONS IN IRREGULAR WAVES 157
+
+However, there is. only one component with frequency w,—q@, in
+equation (5.3) which comes out of the analysis. We are free to divide the
+result into components with frequencies w, — w2 and w2— @}.
+
+In this context we will follow a definition used by Newman (1974), viz.
+
+Ty = Ty, Ty = —T* (5.40)
+
+The mean value of equation (5.39) can be found by noting that the mean
+value over a long period of any oscillating terms in equation (5.39) is
+zero. The only time independent terms occur when k =j. The result is
+
+N
+FSV = >, A?T;'° (5.41)
+i.e. similar to equation (5.27). This means A,77;/" is the mean wave load
+in direction i due to incident regular waves of amplitude A; and circular
+frequency @;.
+
+Figs 5.18 and 5.19 show examples of calculated values of T;,'° and Ty,'*
+as functions of w; and w,. The functional value of Ty along the line
+@; = @, is the same as mean wave load component j divided by wave
+amplitude squared in regular wave component j (or k).
+
+Newman’s approximation ;
+
+Newman (1974) proposed that 7),° and 7° can be approximated by
+T;*, T°, T° and T,,'*. This reduces the computer time significantly.
+Another desirable consequence is that we do not need to calculate the
+second-order velocity potential. The reason why Newman’s approximation often gives satisfactory results is that T;,° and 7;,'* generally do not
+change very much with frequency and that we are interested in the result
+of Trai and Tix when a; is close to w,. A large frequency difference
+@; — @, gives a smaller oscillation period which is further away from the
+resonance period of the structure. This means we can approximate Tye
+and 7;,'* with its values along the line w; = @,. This is obviously less
+good if a 7;,’° shows pronounced maxima or minima in the vicinity of the
+line @;=«@,. Pronounced maxima occur for instance along the line
+@; = @, if @; is close to the natural frequency of heave motion and the
+heave damping is low. The reason for this is that the mean wave force
+T,°C,? depends strongly on the linear wave-induced motions. This was
+discussed earlier in connection with Fig. 5.5. Newman’s approximation
+implies that
+
+Tyai® = Thi = 0.5 (Ty + Tre’) (5.42)
+Tyyi* = Ty =0 (5.43)
+
+The direct summation of equation (5.39) is still relatively time
+consuming. Newman (1974) proposed to approximate equation (5.39)

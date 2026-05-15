@@ -1,0 +1,59 @@
+can be substi­ tuted for the source potential in (76–77) since (71) is valid for the contribu­ tion from the regular function H. Thus, with the Green function defined by (78), we can state that φ φ πφ πφ ∂ ∂ − ∂ ∂     = − −       ∫∫ G n G n dS x y z x y z S ( , , ) ( , , ) , (79)
+
+Chapter 4
+for (x, y, z) outside, on, or inside the closed surface S. The regular function 
+H can be chosen to suit any additional boundary conditions that may be 
+imposed. If a function H can be found with the property that
+∂
+∂
+=
+G
+n
+/
+
+(80)
+on the boundary surfaces of the fluid, the unknown term in the integrand 
+of (79) vanishes. With this choice of the Green function, (79) provides an 
+explicit solution for the potential in terms of the prescribed normal velocity 
+on the boundaries. This Green function corresponds to the velocity poten­
+tial of a source, in the presence of the appropriate fixed boundary surfaces 
+of the problem. Unfortunately, this source potential is not known, except 
+for some very simple body geometries.
+One type of body geometry for which the source potential is known is 
+the thin nonlifting planar surface that can be associated with a symmetrical 
+thin hydrofoil at zero angle of attack and with a ship hull of small beam. For 
+these situations the body surface is to first approximation a flat disc, and 
+the source potential 1/r itself satisfies a condition of zero normal velocity 
+on the disc, provided the source is situated on the disc. Thus, thin bodies of 
+this type can be represented hydrodynamically by a center-plane distribu­
+tion of simple sources, of strength proportional to the normal velocity on 
+the body surface, provided only that the flow is symmetrical with respect 
+to the center plane. This approximation forms the basis for two important 
+topics: the use of a source distribution to represent the thickness effects of 
+thin wings or hydrofoils, and the Michell theory for the wave resistance of 
+thin ships.
+4.12  Hydrodynamic Pressure Forces
+One of the primary reasons for studying the fluid motion past a body is 
+our desire to predict the forces and moments acting on the body due to 
+the dynamic pressure of the fluid. Thus, we wish to consider the six com­
+ponents of the force and moment vectors, which are represented by the 
+integrals of the pressure over the body surface, or
+F
+n
+= ∫∫p
+dS
+SB
+, 	
+(81)
+M
+r
+n
+=
+×
+∫∫p
+dS
+SB
+(
+)
+. 	
+(82)

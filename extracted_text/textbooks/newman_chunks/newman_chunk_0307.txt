@@ -1,0 +1,70 @@
+These complicated higher-order effects largely cancel each other, and to order εl/2 the total force due to heave and the moment due to pitch are correctly given by (106) and (107) respectively. The analysis of Ogilvie and Tuck (1969) does reveal additional contribu­ tions to the cross-coupling coefficients, for the heave force due to pitch and the pitch moment due to heave, involving integrals of (Φ2)2 over the free surface. These are re-derived from an energy analysis by Wang (1976).
+
+Hydrodynamics of Slender Bodies 
+
+Computations have been carried out by Faltinsen (1974), who shows 
+improved agreement of the resulting cross-coupling coefficients with exper­
+iments. The net effect of these additional terms on the pitch and heave 
+motions in waves is not well established.
+In essence, the results (105–107) with the zero-speed two-dimensional 
+added-mass and damping coefficients are relatively simple to use and give 
+useful engineering predictions. The more complete results of Ogilvie and 
+Tuck (1969) are superior from the mathematical standpoint, but their prac­
+tical value is open to debate. The simple approach includes some forwardspeed effects, which are identical to those associated with the lateral force 
+acting on a slender body in an unbounded fluid. The additional forwardspeed effects included by Ogilvie and Tuck (1969) result from the free sur­
+face. Apparently the latter are relatively unimportant, but this hypothesis 
+lacks a rational justification.
+The exciting force and moment can be analyzed with a similar approach, 
+but under more restrictive assumptions. Assuming the forward speed U = 
+O(l), with respect to ε, and the frequency of encounter ω = O(ε−1/2), the only 
+possible estimates for ω0 and k compatible with (93) and the dispersion rela­
+tion k
+g
+= ω0
+2 /
+ are k = O(ε−1/2) and ω0 = O(ε−1/4). Thus the incident wavelength 
+2π/k must be short compared to the ship length, but long compared to the 
+beam.
+The exciting force and moment are determined from the solution of the 
+diffraction problem, where the oscillatory potential consists of the incident 
+wave ϕ0, plus a scattering potential ϕ7, as in (6.123). The contributions to 
+the exciting force from these two potentials can be treated separately. The 
+Froude-Krylov force, associated with the pressure field of the incident wave 
+system, can be obtained directly from (95) in the form
+′ =
+−
++
+−
+∫
+F
+gA
+ikx
+i t
+ky
+ikz
+n dl
+y
+y
+x
+B
+
+ρ
+θ
+ω
+θ
+exp(
+cos
+)
+exp(
+sin )
+.
+( )
+Σ
+	
+(108)
+This integral can be evaluated numerically, for a prescribed section ∑B (x), 
+and no further approximation of the Froude-Krylov force is necessary from 
+the computational standpoint. However, since k = O(ε−1/2), it follows that 
+(ky, kz) = O(ε1/2) on ∑B. Thus it is consistent with assumptions to be made in 
+deriving the total exciting force to expand the integral of (108) in a Taylor 
+series. Integrating the leading terms of this expansion gives

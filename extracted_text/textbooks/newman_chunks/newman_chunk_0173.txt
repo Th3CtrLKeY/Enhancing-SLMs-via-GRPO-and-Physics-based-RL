@@ -1,0 +1,166 @@
+section, by an incre­ ment −πUlαi. Substituting (141) gives an equation for the total circulation in the form Γ Γ Γ ( ) ( ) ( ) ( ) , . z z l z d d d z s z s D s s = + − − < < −∫ ζ ζ ζ ζ − (142) Here Γ2D(z) denotes the two-dimensional circulation of the corresponding section, including the effects of camber and of the geometric angle of attack
+
+Lifting Surfaces 
+
+α, and the last term in (142) represents the change in the circulation due to 
+the induced angle of attack.
+Equation (142) is Prandtl’s lifting-line equation. It is an integrodifferential equation, since the derivative of the unknown Γ appears in the 
+integrand. In this respect, (142) differs from the integral equation (60) that 
+governs the two-dimensional vortex distribution, and the complication is 
+sufficient that (142) cannot be solved for general planforms without resort­
+ing to numerical approximations. Before discussing this matter further, we 
+note that additional end conditions must be imposed to make the solution 
+of (142) unique, as was the case in the two-dimensional situation where the 
+Kutta condition was imposed. The appropriate physical condition requires 
+the circulation to vanish at the tips of the foil, Γ ±(
+) =
+
+
+
+s
+.
+Once again, the Fourier sine series (136) may be used. The induced angle 
+of attack (141) takes the form
+α
+π
+θ
+θ
+θ
+θ
+θ
+θ
+π
+i
+n
+n
+n
+n
+na
+n
+d
+na
+n
+= −
+′
+′
+′ −
+= −
+=
+∞
+=
+∞
+∑
+∫
+∑
+
+
+
+
+cos
+cos
+cos
+sin
+sin
+,
+−
+	
+(143)
+and the lifting-line equation (142) reduces to a system of linear equations 
+for the coefficients an,
+a
+n
+Us
+s
+s l
+s
+na
+n
+n
+n
+D
+n
+sin
+cos
+cos
+sin
+sin
+θ
+θ
+π
+θ
+θ
+=
+∞
+∑
+=
+
+
+
+−
+
+
+
+
+
+
+
+
+
+
+
+
+
+Γ
+θ
+θ
+π
+n=
+∞
+∑
+<
+<
+
+
+,
+.
+	
+(144)
+For an elliptical spanwise loading, an = 0 for n ≥ 2 and the induced angle 
+(143) is constant along the span.
+A specific geometry, where (144) is satisfied by the elliptical loading, is 
+an uncambered lifting surface of elliptical planform,
+l z
+l
+( )
+sin ,
+=
+
+θ 	
+(145)
+where l0 is the chord at mid span. The two-dimensional circulation is given 
+in this case by Γ2D = πUαl, and it follows from (l44) that
+a
+l
+s
+l
+s
+
+
+
+
+
+
+
+=
++
+
+
+
+
+−
+πα
+π
+. 	
+(146)
+For the elliptical planform, the aspect ratio is given by A = 4s/πl0, and thus 
+(146) may be replaced by

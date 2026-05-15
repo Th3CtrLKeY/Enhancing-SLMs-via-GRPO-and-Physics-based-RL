@@ -1,0 +1,304 @@
+be evaluated using Gauss’ theo­ rem for the term involving Φ and (112) for the term involving ϕ1. Since U = ∂Φ/∂x is effectively constant over the length scale of SB, it follows that [ ( ) ] ( ) ( Φ Φ + − = − ∂ ∂ + − − ∀+ ∫∫ ∫∫∫ U U n dS x d m U U m U U x SB B φ ρ ρ   m11 / ). ρ (147)
+
+Chapter 4
+Thus the first term in (146) contributes a force equal to
+m
+dU
+dt
+dU
+dt
+dU
+dt
+
+
+−
+
+
+
++ ∀
+ρ
+.
+Here dU/dt represents the value of ∂
+∂∂
+2Φ( , )/
+x t
+x t at the body.
+The integral over the control surface SC can be divided into three sepa­
+rate contributions, associated respectively with the stream potential Φ, the 
+body potential ϕ1, and cross-terms involving both. Since ∇
+=
+
+
+Φ
+ through­
+out the entire region interior to SC, including the interior of SB, (89) can be 
+applied without SB to show that there is no contribution from the terms 
+involving Φ alone. Moreover, by the argument leading to (94), there is no 
+contribution to the control-surface integral from ϕ1 by itself, and only the 
+cross-terms remain to be considered.
+For the contribution from the cross-terms, a straightforward extension 
+of (89) shows that the control surface SC can be chosen arbitrarily, so long 
+as it is exterior to the body. We shall locate this surface in the far field of the 
+body, where the dipole approximation (123) is valid for the potential. If we 
+use (128) for the dipole moment and consider only the cross-terms, the last 
+integral in (146) takes the form
+(
+)
+(
+/
+U
+U
+n
+x
+x
+n
+n
+dS
+m
+x
+SC
+
+
+
+
+
+
+
+−
+∂
+∂
+∂
+∂
++ ∂
+∂
+∂
+∂
+−
+∇
+⋅∇
+
+
+
+
+=
+∀+
+∫∫
+Φ
+Φ
+Φ
+φ
+φ
+φ
+π
+ρ)(
+)
+U
+U
+n
+x
+r
+x
+n x r
+n
+x
+S
+x
+C
+
+
+
+
+
+
+
+−
+∂
+∂
+∂
+∂
+
+
+
++ ∂
+∂
+∂
+∂∂
+
+
+
+
+
+
+−
+∇
+⋅∇∂
+∂
+∫∫
+Φ
+Φ
+Φ
+r
+dS
+
+
+
+
+
+
+.
+	
+(148)
+The right-hand side of (148) can be expressed in the form
+
+
+
+
+
+
+
+
+
+
+π
+ρ
+(
+/
+)(
+)
+(
+)
+∀+
+−
+∂
+∂
+∂
+∂
+
+
+
+−
+∂
+∂
+∂
+∂
++ ∇×
+⋅
+
+
+
+
+m
+U
+U
+x
+n r
+r
+n
+x
+Φ
+Φ
+A
+n
+= −∀+
+−
+∂
+∂
+
+
+
+
+∫∫
+=
+dS
+m
+U
+U
+x
+S
+r
+C
+(
+/
+)(
+)
+,
+
+
+
+
+
+ρ
+Φ
+	
+(149)
+where the components of the vector A are
+A
+A
+z
+x r
+r
+x z
+x
+z r
+A
+y
+x
+y
+z
+=
+= −∂
+∂
+∂
+∂
+
+
+
++
+∂
+∂∂−∂
+∂
+∂
+∂
+
+
+
+
+= ∂
+∂
+
+
+
+
+
+,
+,
+Φ
+Φ
+Φ
+Φ ∂
+∂
+
+
+
+−
+∂
+∂∂
++ ∂
+∂
+∂
+∂
+
+
+
+
+x r
+r
+x y
+x
+y r
+
+
+
+2Φ
+Φ
+.

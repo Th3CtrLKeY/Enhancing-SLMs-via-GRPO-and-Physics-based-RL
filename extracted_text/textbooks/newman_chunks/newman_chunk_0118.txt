@@ -1,0 +1,132 @@
+Here the summation convention applies, with i = 1, 2, …, 6. Physically, each ϕi represents the velocity potential due to a body motion with unit velocity in the ith mode. Note that the dimensions of ϕ are L2T−1, whereas those of U and Ω are LT−1 and T−1, respectively. Therefore the potentials ϕi in (101) are not dimensionally homogeneous; the units are L and L2, respec­ tively, for i = 1, 2, 3, and i = 4, 5, 6.
+
+Chapter 4
+The potential defined by (101) satisfies the body boundary condition 
+(100), provided each component ϕi satisfies the corresponding condition
+∂
+∂
+=
+=
+φi
+i
+n
+n
+i
+,
+, , ,
+1 2 3 	
+(102)
+∂
+∂
+=
+′ ×
+=
+−
+φi
+i
+n
+i
+(
+)
+,
+, , .
+r
+n
+
+4 5 6 	
+(103)
+The boundary-value problem for each ϕi is completed by the usual require­
+ments that ∇
+=
+
+
+φi
+ in the fluid volume and ϕi = O(r−2), or smaller, as r → ∞. 
+These six potentials, when expressed in body-fixed coordinates, will depend 
+only on the body geometry via the boundary conditions (102) and (103), 
+and do not depend on the velocities Ui or time. Thus, the linear decom­
+position (101) isolates the time dependence of the velocity potential, and 
+substitution in (94) yields the hydrodynamic force expression
+F
+n
+= −
+′
+′
+′
+∫∫
+ρ
+φ
+d
+dt U t
+x x
+x
+dS
+i
+i
+SB
+( )
+(
+,
+,
+)
+.
+
+
+
+(104)
+This last integral will depend on time, because of the effect of body rotation 
+on the vector n. From vector analysis this contribution is
+d
+dt
+n
+n
+=
+×
+W
+, 	
+(105)
+since Ω is the rotational velocity vector of the body-fixed coordinates. From 
+(104) it follows that
+F
+n
+n
+= −
+−
+×
+∫∫
+∫∫
+ρ
+φ
+ρ
+φ
+U
+dS
+U
+dS
+i
+i
+S
+i
+i
+S
+B
+B
+Ω
+. 	
+(106)
+The corresponding result for the moment can be derived from (95) after 
+decomposition of the position vector r in the form
+r
+r
+r
+=
++ ′
+0( )
+.
+t
+	
+(107)
+Here r0 is the vector from the origin of the fixed reference system to the 
+point r' = 0 which moves with the body, and thus dr0/dt = U. On the other 
+hand, (r' × n) is a vector fixed with respect to the body, and thus its timederivative is Ω × (r' × n) as in (105). Substituting (107) in (95) and evaluating 
+the time derivative, the moment can be expressed in the form

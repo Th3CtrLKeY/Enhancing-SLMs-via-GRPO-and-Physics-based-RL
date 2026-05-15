@@ -1,0 +1,204 @@
+The lift-drag ratio is not a satisfactory figure of merit since this can be made arbitrarily large by reducing the angle of attack and resulting lift force. A more appropriate parameter is the nondimensional ratio K AC C U s D L s z z d dz z dz D L = = = ′ − ( ) ∫ ∫ ∫ π π ρ ζ ζ ζ Γ Γ Γ ( ) [ ( )/( )] ( ) . (133)
+
+Lifting Surfaces 
+
+Here A is the aspect ratio, as defined by (1);
+C
+L
+SU
+L = ½ρ
+
+(134)
+And
+C
+D
+SU
+D = ½ρ
+
+(135)
+are the three-dimensional lift and drag coefficients based on the planform 
+area S, and the limits of the integrals in (133) are ± 1
+2 s.
+With the physically relevant assumptions that the total circulation Γ(z) 
+and its derivative Γ′(z) are continuous along the span, and that Γ vanishes 
+at the tips z
+s
+= ± 1
+2 , this function can be expanded in a Fourier series of the 
+form
+Γ
+
+
+
+
+s
+Us
+a
+n
+n
+n
+cos
+sin
+,
+θ
+θ
+
+
+
+=
+=
+∞
+∑
+	
+(136)
+where z
+s
+= 1
+2 cosθ. Using (121) and (134), the lift coefficient is given by
+C
+US
+z dz
+Aa
+L
+s
+s
+=
+=
+−∫
+
+
+
+
+Γ( )
+,
+π
+	
+(137)
+where the aspect ratio A is defined by (1). The drag coefficient (135) can 
+be computed in a similar fashion from (131) by using the Glauert integrals 
+(89), and it follows that
+C
+U S
+z dz
+d
+d
+d
+z
+A
+na
+D
+s
+s
+s
+s
+n
+n
+=
+−
+=
+−
+−
+=
+∞
+∫
+∫
+∑
+
+
+
+
+
+
+
+
+
+π
+ζ
+ζ
+ζ
+ζ
+π
+Γ
+Γ
+( )
+( )
+.
+−
+	
+(138)
+In deriving (137–138), the orthogonality relation
+sin
+sin
+/ ,
+,
+,
+,
+m
+n d
+m
+n
+m
+n
+θ
+θ
+θ
+π
+π
+
+
+
+∫
+=
+=
+≠
+
+has been used, with m and n positive integers.
+Since the lift coefficient (137) depends only on the Fourier coefficient 
+a1. whereas the drag coefficient (138) is a positive-definite sum over all an 
+the optimum spanwise distribution is elliptical, with an = 0 for n ≥ 2; thus
+
+Chapter 5
+Γ( )
+(
+)
+.
+z
+s
+z
+∝
+−
+
+2 1 2
+
+(139)
+In this case the figure of merit K defined by (133) is equal to 1.0. For any 
+other spanwise loading, K will be greater than unity, and the lifting surface 
+will be less efficient.
+5.11  Lifting-Line Theory
+The appropriate representation of a three-dimensional lifting surface, in 
+terms of planar vortex sheets, has been outlined in section 5.9. A quan­
+titative solution for the vortex densities requires a surface-integral repre­
+sentation for the downwash velocity on the foil, in terms of these vortex 
+densities, as in the two-dimensional case (30). For a prescribed foil geom­
+etry, the boundary condition (114) then yields an integral equation for the 
+unknown vortex density. However, the unknown γ(x, z) is now a function 
+of two coordinates, and the corresponding integral equation is a surface 
+integral. Closed-form solutions corresponding to those derived in section 
+5.7 cannot be derived, and further progress in the three-dimensional case 
+requires additional approximations or a numerical solution. This topic is 
+covered by Robinson and Laurmann (1956) and Thwaites (1960).
+Here we shall discuss an approximate technique that adds considerable 
+insight to the understanding of three-dimensional lifting surfaces and per­
+mits relatively simple calculations to be made for hydrofoils of large aspect 
+ratio. A complementary approximation for small aspect ratios will be given 
+in chapter 7, as a special case of slender-body theory.
+If the aspect ratio is very large, the obvious approximation is a twodimensional strip theory, with each section treated as a two-dimensional 
+foil with the same geometry and angle of attack. This approach is limited, 
+however, since trailing vorticity must inevitably be shed and will affect 
+both the lift and drag forces on the foil. To account for these effects appro­
+priately for large aspect ratios, Prandtl developed the lifting-line theory. 
+With boundary-layer theory, this must be regarded as an outstanding exam­
+ple of the use of asymptotic approximations to simplify a more complicated 
+problem. The lifting-line approach of Prandtl can be regarded as a second 
+approximation, correcting the strip-theory approach, in the same sense 
+that boundary-layer theory corrects the assumption of inviscid flow.

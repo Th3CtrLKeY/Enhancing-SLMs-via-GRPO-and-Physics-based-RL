@@ -1,0 +1,101 @@
+physical ‘sloshing’ motion. In the sloshing case the body boundary condition would be Og/dn = 0. However, to get an idea what the irregular frequencies might be we should have the sloshing modes in mind. For a submerged body no irregular frequencies exist. What is happening mathematically at an irregular frequency is that the determinant of the coefficient matrix in the linear equation system for the unknown source densities goes to zero when the number of unknowns goes to infinity.
+
+NUMERICAL METHODS
+
+Lee & Sclavounos (1989) have presented a practical way to
+avoid the problem of irregular frequencies. If no attempts are
+made to get rid of the irregular frequencies, they may be
+difficult to detect if few frequencies are used in the
+calculations. Even if many frequencies are used, the irregular
+frequencies may be difficult to detect in special cases. An
+example of this is calculation of added mass and damping for
+a catamaran. In this case the strong physical interaction
+effects between the hulls can be mixed up with irregular
+frequency behaviour.
+
+. Panelling of the hull surface
+
+The panelling of the hull surface is often done by plane
+quadrilateral elements in three-dimensional problems. Details
+of how to create plane quadrilateral elements mathematically
+have been presented by Hess & Smith (1962). Dependent on
+the body shape the panels may create ‘leaks’ through the body
+surface. The reason is that the panels do not fit together. This
+may disturb a practical maritime person, but has no serious
+consequences for the physical description of the fluid. The
+condition of no flow through the hull surface is satisfied at the
+geometrical area centre of each panel and nothing is required
+about the fluid behaviour at the edges of elements where
+geometrical ‘leaks’ between the elements may appear.
+
+There is no unique way to approximate the hull surface by
+elements. However, one should keep in mind that one
+assumes the source density and the fluid pressure to be
+constant over each element. Therefore one should keep
+smaller elements in areas where the flow changes more
+rapidly. An example of the latter is in the vicinity of sharp
+corners. It should be realized that the numerical solution for
+velocities never is satisfactory on the element closest to a
+sharp corner. The reason is that the potential flow solution
+has a singularity there, and that this is inconsistent with
+assuming the source density and velocity potential to be
+constant over an element. In reality the flow will separate at a
+sharp corner. This effect is not included in the method. In the
+wave zone the element size should be small compared to the
+wavelength. A characteristic length of an element ought to be
+at most 4 of the wavelength. Around a vertical column with a
+circular cross-section there ought to be 15-20 circumferential
+elements at any height. If there is a conflict between these two
+recommendations, the more conservative is required.
+
+The body boundary condition is often satisfied on the
+geometrical mid-point. The elements must not be selected so
+
+SOURCE TECHNIQUE 117
+
+that any element mid-points are very close to the edges of
+another element. The reason is that induced velocities from
+an element are singular at its edges (see similar discussion of
+induced velocity from a source element in two-dimensional
+flow). Problems like this may happen for very thin bodies or
+for small gap problems.
+
+Typical values for the total number of elements may vary
+from 500 to 1500. However, Fig. 4.1 shows an example
+where 12 608 panels were used. This requires iterative
+solutions of the linear equation systems for the source
+densities in order to be within practical limits of CPU time on
+available computer hardware. The best way to find a sufficient
+number of elements, is to do calculations with increasing
+numbers of elements and-check convergence of the results.
+
+The solution procedure that we have set up can be generalized to any
+modes of motion, i.e. to surge, sway, roll, pitch and yaw motion (see for
+instance Faltinsen & Michelsen, 1974). This means we can find the
+added mass and damping matrix. We may also solve the diffraction
+problem by using the body boundary condition d¢/dn = —(ap'/dn)
+where @! is incident wave: potential. This enables us to find the wave
+excitation loads, i.e. wave excitation forces in surge, sway and heave as
+well as wave excitation moments in roll, pitch and yaw. We can then set
+up the equation system for solving motions in six degrees of freedom (see
+equation (3.47)). When the motions are found, we may calculate flow
+details by using the expression for the velocity potential in terms of a
+three-dimensional source distribution. The free-surface elevation can be
+evaluated by using the free-surface condition
+
+a
+e+e wo? (4.31
+
+By Bernoulli’s equation it follows that the dynamic pressure is
+p=—p dp/at at the mean position of the body. When we calculate the
+dynamic pressure at the hull for one particular time instant, we should
+include the hydrostatic pressure —pgz and take into account that 2 is
+changed due to the vertical rigid body motion of the hull. Note,
+however, that it is consistent with linear theory to evaluate Op/9r at the
+mean position in the calculation of the pressure. Care should be shown in
+evaluating velocities close to the body. One reason is that the velocities
+are singular at the edges of the element. Experience has shown that one
+has to be of the order of a characteristic element length outside the body
+in order to always obtain satisfactory estimations of fluid velocities.
+Further, the velocity potential should not be evaluated at places on the
+element other than at the geometrical area centre.

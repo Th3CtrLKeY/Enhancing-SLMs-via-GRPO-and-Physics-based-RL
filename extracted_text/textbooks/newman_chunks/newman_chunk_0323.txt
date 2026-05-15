@@ -1,0 +1,36 @@
+Journal of Fluid Mechanics 39:97–115. Newman, J. N. 1970. Applications of slender-body theory in ship hydrodynamics. Annual Review of Fluid Mechanics 2:67–94. Newman, J. N., and E. O. Tuck. 1964. Current progress in the slender-body theory of ship motions. In Fifth symposium on naval hydrodynamics, eds. J. K. Lunde and S. W. Doroff, pp. 129–166. Washington: U.S. Government Printing Office. Newman, J. N., and T. Y. Wu. 1973. A generalized slender-body theory for fish-like forms. Journal of Fluid Mechanics 57:673–693.
+
+Hydrodynamics of Slender Bodies 
+
+Norrbin, N. H. 1970. Theory and observation of the use of a mathematical model for 
+ship maneuvering in deep and confined waters. In Eighth symposium on naval hydro­
+dynamics, eds. M. S. Plesset, T. Y. Wu, and S. W. Doroff, pp. 807–904. Washington: 
+U.S. Government Printing Office.
+Ogilvie, T. F. 1974. Workshop on slender-body theory, Part 1: free surface effects. Univer­
+sity of Michigan, Department of Naval Architecture and Marine Engineering report 
+162.
+Ogilvie, T. F. 1977. Singular perturbation problems in ship hydrodynamics. Advances 
+in Applied Mechanics 17:92–187.
+Ogilvie, T. F., and E. O. Tuck. 1969. A rational strip theory of ship motions: Part 1. Uni­
+versity of Michigan, Department of Naval Architecture and Marine Engineering 
+report 013.
+Salvesen, N., and W. E. Smith. 1971. Comparison of ship-motion theory and experiment 
+for Mariner hull and a destroyer hull with bow modification. David Taylor Naval Ship 
+Research and Development Center report 3337.
+Salvesen, N., E. O. Tuck, and O. Faltinsen. 1970. Ship motions and sea loads. Society 
+of Naval Architects and Marine Engineers Transactions 78:250–287.
+Tuck, E. O. 1966. Shallow-water flows past slender bodies. Journal of Fluid Mechanics 
+26:89–95.
+Tuck, E. O. 1978. Hydrodynamic problems of ships in restricted waters. Annual 
+Review of Fluid Mechanics 10:33–46.
+Tuck, E. O., and J. N. Newman. 1974. Hydrodynamic interactions between ships. 
+In Tenth symposium on naval hydrodynamics, eds. R. D. Cooper and S. W. Doroff, 
+pp. 35–70. Washington: U.S. Government Printing Office.
+Van Dyke, M. 1975. Perturbation methods in fluid mechanics. 2nd ed. Stanford: Para­
+bolic Press.
+Vugts, J. H. 1970. The hydrodynamic forces and ship motions in waves. Doctoral thesis, 
+Delft Technological University.
+Wang, S. 1976. Dynamical theory of potential flows with a free surface: A classical 
+approach to strip theory of ship motions. J. Ship Res. 20:137–144.
+Yeung, R. W. 1978. On the interactions of slender ships in shallow water. Journal of 
+Fluid Mechanics 85:143–159.

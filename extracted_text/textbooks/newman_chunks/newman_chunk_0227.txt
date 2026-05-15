@@ -1,0 +1,104 @@
+1 2 1 2 1 2 ′′ ( ) ± − ′′ ( ) ′′ ( ) ∫ , (103) where the function F has been approximated by its value at θ0, and the ± sign is the same as the sign of the second derivative G″(θ0). In the limit R →∞, the last integral can be evaluated using the definite integrals sin cos ( / ) . / ξ ξ π 1 2 d −∞ ∞ ∫ = (104)
+
+Waves and Wave Effects 
+
+Substituting (104) in (103) gives the desired asymptotic approximation 
+of (99) in the form
+I
+F
+RG
+i RG
+
+(
+)
+exp[ (
+/ )].
+/
+θ
+π
+π
+
+1 2
+
+
+′′
+
+
+
+
+±
+	
+(105)
+This expression is valid, for sufficiently large values of R, unless G″ = 0.
+If there are multiple points of stationary phase in the domain of integra­
+tion, the contribution from each may be treated separately, according to 
+(105), and added together to give the total contribution from all relevant 
+points. The singular case G″ = 0 occurs if two points of stationary phase 
+coalesce, and here it is necessary to retrace the steps from the Taylor series 
+(99) with the addition of a term involving the third derivative. Further 
+details are given by Lamb (1932) and Stoker (1957).
+Having derived the stationary-phase approximation (105), we return to 
+the ship-wave integral (89). Cartesian coordinates (x, z) are retained, with 
+the understanding that the results are valid for sufficiently large values 
+of the polar radius R = (x2 + z2)1/2. The relevant phase function is
+RG
+g U
+x
+z
+( )
+(
+/
+)( sec
+sec
+sin ),
+θ
+θ
+θ
+θ
+=
++
+
+
+(106)
+and the points of stationary phase are given by (93). Thus the method of 
+stationary phase confirms the analysis of the ship-wave pattern that was 
+based on the group velocity in section 6.10.
+We can now obtain more information regarding the asymptotic form of 
+the free-wave distribution (89), including the amplitude of the waves; from 
+(105) the waves take the form
+η
+θ
+π
+θ
+π
+=
+′′
+
+
+
+
+±
+Re
+( )
+exp{ [
+( )
+]}.
+/
+A
+RG
+i RG
+
+
+1 2
+/
+	
+(107)
+This expression is to be summed over both points of stationary phase 
+defined by (93) and figure 6.14. The second derivative G″ can be computed, 
+and its sign is opposite that of the slope of the curve plotted in figure 6.14. 
+Thus, the plus or minus sign in the phase of (107) corresponds respectively 
+to the transverse and diverging wave systems; a net phase shift of 90° occurs 
+between these as shown in figure 6.15.
+The amplitude of the waves in (107) is proportional to R−1/2. This rate of 
+attenuation could be anticipated since in three dimensions the energy flux 
+(73–74) spreads out radially in the horizontal plane.

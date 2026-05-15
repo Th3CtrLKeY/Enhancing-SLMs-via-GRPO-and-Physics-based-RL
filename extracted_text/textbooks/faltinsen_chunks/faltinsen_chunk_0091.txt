@@ -1,0 +1,76 @@
+6.10. Angular dependence of viscous yaw moment and Munk moment. (B = 0° means current direction towards the stern of the ship.) F O5pUZLD L DRIFT ANGLE B Fig. 6.11. Transverse current force F,° on the ship presented in Table 6.2 and Fig. 6.12. (U, = current velocity, L = ship length, D = draught, £ =current angle relative to the longitudinal direction of the ship. B = 0° means current direction towards the stern.) (Faltinsen et al. , 1979.)
+
+190 CURRENT AND WIND LOADS
+
+Table 6.2. Main particulars of a 130000 DWT (dead weight tonne)
+
+ship
+
+Condition
+Parameter Unit Ballast Loaded
+Length between
+perpendiculars m 285.60 285.60
+Beam m 46.71 46.71
+Depth m 20.35 20.35
+Draught fore m 4.84 13.82
+Draught aft m 7.04 13.82
+Draught mean m 5.94 13.82
+Displacement tonnes 61 754.00 154 980.00
+Centre of gravity,
+longitudinally from
+midships, positive aft m 2.10 6.46
+Centre of gravity,
+vertically from
+baseline m 9.73 11.03
+Metacentric height m 21.50 8.97
+Pitch/yaw radius
+of gyration m 71.40 71.40
+Roll radius of
+gyration m 16.35 16.35
+Natural pitch period = 85, 9.80 9.80
+Natural roll period s 9.40 12.80
+
+moment means the current tends to rotate the ship to a smaller angle B.
+Again we have fitted the ‘theory’, i.e. equation (6.27), to agree with the
+experimental results at 6 = 90°. The angular dependence is now more
+complicated than for the transverse force, but we see a good agreement
+between ‘theory’ and experiments in the vicinity of 90°. The figure
+illustrates that the Munk moment and the viscous yaw moment are of
+equal importance. One way to see this is by noting the magnitude of the
+yaw moment at 6 = 90°. This is only due to viscous drag effects. This can
+be compared with the yaw moment at f = 45°, where the Munk moment
+has its maximum value and the viscous yaw moment is 1/2 times the
+value at B = 90° according to the ‘cross-flow’ principle.
+
+Cp-values for ship sections
+In order to improve the predictions by equations (6.26) and (6.27) we
+need to know more about Cp-values. It is difficult to do this by
+theoretical means only. We will in the following text discuss what are the
+
+CURRENT LOADS ON SHIPS Lt 191
+
+important parameters influencing Cp. Important; parameters are for s
+instance free-surface effects, beam—draught ratio, bilge radius, bilge keel - “
+dimensions, Reynolds number and three-dimensional effects.
+
+Free-surface effects
+The free-surface tends to act as an infinitely long splitter plate. Hoerner
+(1965) refers to Cp-values for bodies with splitter plates of finite. length
+
+in steady incident flow. The splitter plate causes a clear reduction of the
+
+drag coefficient.
+A simple explanation of why the free-surface has an effect on the drag
+
+AP. FP.
+
+BODY PLAN
+
+Body plan of tanker model
+
+Fig. 6.12. Body plan of tanker model described in Table 6.2. F.P. = forward
+perpendicular. A.P. = aft perpendicular. The numbering of sections
+on the bottom part follows a standard numbering of ship crosssections; it starts with section | on the aft part of the ship and ends
+with section 20 on the forward part of the ship. The figure shows
+only half of a cross-section. The other part is symmetric about the
+centre-line.

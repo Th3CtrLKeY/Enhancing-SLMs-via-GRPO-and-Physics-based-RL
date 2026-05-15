@@ -1,0 +1,41 @@
+/ ) ( ). / 1 2 = (3) The constant f(0) is known from mechanics to be 2π and could be measured from a single experiment. Rather than using the period T, we could employ the frequency 1/T or the radian frequency ω = 2π/T. In terms of the latter parameter, the above relations take the form ω π θ π ( / ) / ( ) / ( ). / l g f f 1 2 = (4)
+
+Chapter 2
+2.3  Water Waves
+As our first application of dimensional analysis to a problem in hydrody­
+namics, we shall consider the motion of an oscillatory wave system on the 
+free surface. In some respects this is a complicated problem with which 
+to commence our discussion of fluid motions, but the analogy with the 
+motion of a simple pendulum is useful. Moreover, the remaining problems 
+will involve the interactions of the fluid with a rigid body of some sort, 
+and it is convenient to discuss wave motions before inserting the body into 
+the fluid.
+Figure 2.1 shows a periodic progressive wave system which is charac­
+terized by its amplitude A, wavelength λ, and period T. As in section 2.2, 
+the period T can be replaced by the radian frequency ω = 2π/T. The wave 
+motion propagates through the fluid with a phase velocity Vp such that any 
+prescribed point of constant phase, such as a crest or trough of the wave, 
+will progress a distance λ in time T. Thus
+V
+T
+P =
+=
+λ
+ωλ
+π
+/
+/
+.
+
+(5)
+Like the simple pendulum, this wave motion is the result of a balance 
+between kinetic energy and potential energy. The most important physical 
+parameters are the fluid density ρ, gravity g, and the depth h. Thus, the 
+wave period T must be a function only of the wavelength λ, amplitude A, 
+density ρ, gravitational acceleration g, and depth h. Note that the frequency 
+ω and phase velocity Vp are not included here, since these are not indepen­
+dent and can be substituted for, or replaced by, T and λ.
+Figure 2.1
+Sketch of a periodic progressive wave in a fluid of mean depth h. Note that λ is the 
+wavelength, A the wave amplitude, and the wave translates with phase velocity Vp in 
+the direction shown by this vector.

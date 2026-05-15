@@ -1,0 +1,81 @@
+surface. Our first example of such a problem is the unsteady force acting upon a fixed structure in the presence of waves. For simplicity, we treat only the x-component of this force, but a similar analy­ sis applies for the total force vector. Assuming geometrical similarity, we can describe the structure by a length scale l, which may be the length or the diameter of the body. If we neglect surface tension effects and assume a plane progressive wave system
+
+Chapter 2
+similar to that described in section 2.3, then the magnitude of the unsteady 
+wave force can depend only on the density ρ, gravity g, viscosity υ, depth 
+h, body length l, and time t, as well as the wave amplitude A, wavelength λ, 
+and the angle of incidence β of the waves relative to the body axis. Thus, a 
+total of ten dimensional quantities must be related in the form
+F
+f
+g
+A
+h l t
+=
+( , , ,
+, , , , , ).
+ρ
+ν
+λ β
+	
+(40)
+Alternatively, seven nondimensional parameters can be defined to replace 
+(40); one choice is the force coefficient
+F
+gl
+C
+A
+h
+l
+R
+t
+F
+ρ
+λ
+λ
+λ β
+ω
+3 =
+(
+/
+,
+/
+, /
+, , ,
+). 	
+(41)
+Here we find it convenient to use the wave frequency ω, which is not an 
+additional independent parameter but one related to g, A, and λ by (6).
+In this problem the Reynolds number R should be the ratio Ul/υ where 
+U is a typical velocity scale of the fluid relative to the body. Since the 
+oscillatory displacement of the fluid particles is proportional to the wave 
+amplitude A, the magnitude of the fluid velocity is ωA, and an appropriate 
+Reynolds number can be defined by
+R
+Al
+= ω
+ν
+/ . 	
+(42)
+In principle, there is no difficulty in conducting a model test with the 
+appropriate values of A/λ, h/λ, l/λ, and β. If the resulting wave force is mea­
+sured over one or more cycles, all relevant values of ωt will be included. 
+However, the Reynolds number cannot be scaled properly, since it follows 
+from (6) and (42) that R ∝ l3/2. This situation is essentially analogous to the 
+steady drag force acting on a ship hull.
+To overcome this dilemma, we need a simplifying assumption analogous 
+to Froude’s hypothesis for the drag on a ship hull. For this purpose we esti­
+mate the relative magnitudes of the viscous and inertial forces, as in (37). 
+Here, with U replaced by ωA and the fluid acceleration U by ω2A, it follows 
+that the ratio of viscous forces to inertial forces is proportional to
+U
+Ul
+A l
+2 /
+/ .
+ =
+	
+(43)
+First, we restrict our attention to the case of a large structure or a vessel 
+such as a ship hull where the ratio in (43) is small and viscous effects are 
+negligible. If we assume in addition, that the wave amplitude A is small

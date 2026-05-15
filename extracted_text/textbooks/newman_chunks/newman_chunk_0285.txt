@@ -1,0 +1,63 @@
+downwash velocity equal to UαT, Thus, it makes no difference whether the body terminates at the posi­ tion of maximum span or continues downstream with decreasing span, provided the local angle of attack is constant. For this reason, the low aspect ratio theory holds for uncambered lifting surfaces of more general planform, if the maximum span is used in (48). In this particular case, there is no lift force on the portion of the body downstream of the maximum span.
+
+Hydrodynamics of Slender Bodies 
+
+The extension of slender-body theory to account for the interaction of 
+the afterbody with vortex sheets shed upstream has been carried out by 
+Newman and Wu (1973) in the general case where the local lateral veloc­
+ity of the body differs from the downwash of the trailing vortices. Vortex 
+sheets that occur due to separation are analyzed by Fink and Soh (1974). In 
+both cases, the vorticity along the body is convected with the free-stream 
+velocity U, and “memory” effects will occur in the unsteady case as in the 
+two-dimensional lifting-surface theory.
+7.4  Ship Maneuvering: The Hydrodynamic Forces
+The hydrodynamic forces of significance during a ship maneuver are pri­
+marily the sway force and yaw moment. Anticipating large excursions in 
+the horizontal plane, as in the turning trajectory of a ship, it is customary 
+to employ a coordinate system fixed with respect to the ship. In this frame 
+of reference, the forward velocity is of order one, whereas the sway and yaw 
+velocities are assumed small by comparison. The remaining three modes of 
+rigid-body motion are ignored, on the presumption that changes in the roll 
+angle, heave, and pitch of the ship will be unimportant.
+We shall employ the same coordinates and notation here as in chapter 
+4. The body is assumed rigid, and the (x, y, z) axes are fixed with respect to 
+the ship such that x is positive forward, y upward, and z to starboard. The 
+three nonzero velocity components of the ship are U1 (forward), U3 (sway), 
+and Ω2 (yaw). These are indicated in figure 7.3, together with the sway force 
+F3 and yaw moment M2, as well as the rudder angle δR defined to be positive 
+for a turn to port.
+Figure 7.3
+Horizontal motions of a ship as seen from above.
+
+Chapter 7
+This convention differs from the standard throughout the field of ship 
+maneuvering, where the y-axis is positive to starboard and the z-axis is 
+directed vertically downward. In the standard notation, as described by 
+Mandel (1967), the sway velocity v and force Y are identical to U3 and F3, 
+but the yaw velocity r and moment N differ in sign from Ω2 and M2.
+Ship maneuvers are relatively slow, compared to vertical motions in 
+waves, due to the physical limitations of the control systems involved. Thus 
+it is reasonable to assume that the sway velocity U3 and yaw velocity Ω2 are 
+slowly changing functions of time and small by comparison to the scale 
+of the forward speed. Neglecting wave effects associated with the steady 
+forward velocity, the lateral flow associated with the sway and yaw motions 
+can be analyzed on the basis of the low-frequency limit of the free-surface 
+condition; that is, wave effects are neglected and the free surface is replaced 
+by a rigid horizontal plane. The appropriate image of the ship hull can be 
+inferred from figure 6.21, and for lateral motions it is appropriate to treat 
+the wetted portion of the hull as the lower half of a rigid double body, as 
+shown in figure 7.4.
+In addition, it will be assumed that the fluid motion is ideal, and thus 
+viscous effects can be ignored. Boundary layer phenomena and the related 
+frictional drag are of no significance here, but if the angle of attack between 
+the ship hull and the water becomes large, viscous separation will occur in 
+the cross-flow past the hull. This is a nonlinear phenomenon, beyond the 
+scope of our analysis, which must be regarded as a possible limitation of 
+the theory.
+With these preliminaries, we proceed to analyze the ship hull and its 
+image as a rigid double body, of slender form, which can develop a lateral 
+lift force in accordance with the results of section 3. Since U3 and Ω2 are the 
+sway and yaw velocities defined with respect to the body fixed reference 
+frame, the total lateral velocity is
+Figure 7.4
+Elevation of the ship hull and its double-body image above the free surface.

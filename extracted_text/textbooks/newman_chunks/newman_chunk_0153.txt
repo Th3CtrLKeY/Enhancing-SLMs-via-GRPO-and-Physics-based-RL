@@ -1,0 +1,69 @@
+of the source and vortex distributions. Figure 5.14 indicates the linearized boundary-value problem appropri­ ate to each physical situation. The vertical velocity component v+ denotes the normal velocity on the upper surface of each body, which is assumed known from the boundary conditions (20–21). From the appropriate sym­ metries, v(x, y) is an odd function of y in the thickness problem, and hence in this case v(x, 0) = 0 on the real axis outside the cut. Conversely, for the
+
+Chapter 5
+lifting problem, u(x, y) is an odd function of y which must vanish on the 
+real axis outside the cut.
+Now let us consider the upper half of the two sketches in figure 5.14. 
+Apparently, the source strength can be found directly in the first case 
+because the vertical velocity is given along the entire upper side of the real 
+axis, from minus infinity to plus infinity, and equation (57) gives an appro­
+priate source distribution that will provide this velocity distribution. On the 
+other hand, the lifting problem is a mixed boundary-value problem since 
+the vertical velocity is prescribed only on the cut, with the horizontal veloc­
+ity prescribed elsewhere on the real axis. However, if the complex velocity 
+u − iv in the lifting problem is multiplied by a suitably chosen analytic func­
+tion, such as (1 − z2)1/2, which is real on the cut and pure imaginary on the 
+remainder of the real axis, then the product will be a new analytic function 
+whose imaginary part is known all along the real axis. The square-root func­
+tion (1 − z2)1/2 is clearly not a unique choice, but it is at least a possible one, 
+and the resulting lack of uniqueness must be faced later.
+The procedure for converting the lifting problem into an alternative 
+mathematical problem of the same form as the thickness problem is then 
+as follows. A new pseudo-velocity function is defined as
+
+
+u
+iv
+u
+iv
+z
+−
+=
+−
+−
+(
+)(
+)
+.
+
+2 1 2 	
+(61)
+This new function must satisfy the following boundary conditions, on the 
+upper side of the real axis:
+v
+v
+x
+x
+=
+−
+<
++(
+)
+,
+,
+
+
+2 1 2
+	
+(62)
+v
+x
+=
+>
+
+
+,
+. 	
+(63)
+Figure 5.14
+Boundary values on the cut real axis in the thickness and lifting problems.

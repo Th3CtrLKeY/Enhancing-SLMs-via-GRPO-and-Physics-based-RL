@@ -1,0 +1,95 @@
+water were . performed by Minsaas et al. (1986), based on a quasi-steady assumption. As long as the thruster is not ventilating, this is legitimate, since the wave-induced motions occur with a much lower frequency than the propeller rotation. However, when the propeller is in a transient "ventilating condition, there is also a frequency connected with the development of the ventilated area on the propeller blades. This wave-induced effect cannot be simulated by means of results in calm : water.
+
+274 STATIONKEEPING
+
+The tests in calm water were performed with different propeller axis
+submergences h relative to the free-surface. By the quasi-steady
+assumption one can interpret 4 as the submergence of the instantaneous
+position of the propeller axis below the instantaneous position of the
+wave surface. (see Fig. 8.12). By averaging the propeller thrust and
+moments in time one can find the effect of the wave-induced motions of
+the ship on the thruster characteristics.
+
+Typical model test results from calm water are shown in Fig. 8.13
+where the thrust is presented as a fraction of the thrust for a fully
+immersed propeller:
+
+_ Kx(h/R)
+Bree
+
+and for different immersions and number of revolutions ”. R means the
+
+(8.38)
+
+oO
+
+K1/Kto
+
+LOSS OF
+PROPELLE!
+DISK
+
+LOSS OF
+PROPELLER DISK AREA
+
++
+STEADY WAVE
+GENERATION
+
++
+
+UNSTEADY LIFT
+
+0.5 1.0 H/R
+
+h(t)
+
+Fig. 8.12. Quasi-steady approximation of the effect of waves on propeller
+characteristics when ventilation does not occur. (K7/K-, = the thrust
+as a fraction of the thrust for a fully immersed propeller.)
+
+THRUSTER FORCES 275
+
+propeller radius. -It is observed that the number of revolutions has a
+marked influence on the results. The effect of loss of effective propeller
+area is important. When h/R < 1.0 the ratio of the immersed disk area
+A, and the total disk area of the propeller is:
+
+Bo= a (8.39)
+
+If we assume that the thrust is proportional to A,, Bp» gives the thrust
+reduction for small m-values as illustrated in Fig. 8.13. For large
+n-values we see that the thrust is very low for the small h/R-values.
+This is due to propeller ventilation. Qualitatively it can be explained as
+follows. Increased m means increased loading. This means large suction
+pressures on the propeller. The lower the pressure is, the more likely it is
+that ventilation occurs. For h/R = 1.0-1.5 there is a very rapid variation
+in thrust. This is when ventilation starts. The behaviour of 8 in waves is
+not quasi-steady when the propeller is in a transient ventilating state.
+The maximum thrust is reached later in time than maximum immersion.
+In most of the cases maximum thrust never reaches the same thrust value
+as when the propeller was fully immersed in static conditions.
+
+Minsaas et al. (1986) have tried to apply their experimental results for
+a ducted propeller and bow thruster in regular waves to thrust loss for
+different ships and sea states. An example for a 250m long ship is
+presented in Fig. 8.14. The results will depend on, for instance,
+
+- propeller shaft submergence, propeller diameter, propeller pitch,
+propeller revolution and hull form. The results in Fig. 8.14 show that
+
+even a large ship experiences considerable thrust losses in rough sea.
+
+67 n=5,0 revss*
+
+x fy n=12,.S5 revs ©
+x — fo 4!
+
+-0,5 0 os 10 45 20 WR
+
+Fig. 8.13. Loss of thrust due to reduced immersion of a bow thruster in calm
+water. Model scale. ( 8 = thrust divided by thrust for deeply
+‘ submerged propeller. By (see equation (8.39)), 2 = number of
+propeller revolutions per second, 4 = propeller axis submergence
+relative to the free surface, R = propeller radius.) (Minsaas et al.,
+1986.)

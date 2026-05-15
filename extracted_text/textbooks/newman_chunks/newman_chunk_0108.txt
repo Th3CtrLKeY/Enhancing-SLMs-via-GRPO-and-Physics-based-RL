@@ -1,0 +1,77 @@
+at infinity has a uniform constant velocity. Except for the change in reference frame, these are identical to correspond­ ing problems where the body moves with constant velocity through oth­ erwise undisturbed fluid, provided the relative velocity between the body and the fluid at infinity is the same in both cases. However, the boundary conditions must be changed if the fluid velocity is referred consistently to a fixed reference frame, and the two solutions will differ by the free-stream potential.
+
+The Motion of an Ideal Fluid 
+
+To illustrate this comparison, table 4.2 shows the boundary conditions 
+and velocity potentials for a circle and a sphere when the fluid streams 
+past the fixed body, as well as when the fluid is at rest with the body mov­
+ing. The stream velocity in the former case is + U in the + x-direction; the 
+body velocity in the second case is denoted by the same symbol, with the 
+convention that a positive velocity of the body is in the + x-direction. Thus 
+the relative velocities differ in sign, and for this reason the dipole moments 
+of the corresponding solutions are equal in magnitude, but of opposite 
+signs.
+When the body moves with an unsteady motion, the same kinematic 
+conclusions apply to the velocities of the body and fluid, with U(t) a func­
+tion of time. In this instance, however, the problems in each frame of 
+reference will differ from the dynamic standpoint; this difference will be 
+examined in section 4.17.
+4.11  Green’s Theorem and Distributions of Singularities
+Earlier we showed that certain bodies could be represented by suitable 
+combinations of a source and sink or by a point dipole. Given the effect 
+of these singularities on the surrounding fluid, it seems plausible that a 
+larger number of them could be used to represent more complicated body 
+shapes. In the most general case, one might envisage a continuous volume 
+distribution of singularities within the body, extending out to its surface. 
+Table 4.2
+Comparison of Flows for Circle and Sphere of Radius r0
+Horizontal Streaming Flow Past a Fixed Body
+Circle
+Sphere
+Boundary Condition on Body
+∂ϕ/∂r = 0
+∂ϕ/∂r = 0
+Boundary Condition at Infinity
+ϕ → Ux = Ur cos θ
+ϕ → Ux = Ur cos θ
+Velocity Potential
+ϕ = U(r + r0
+2/r) cos θ
+φ
+θ
+=
++
+U r
+r
+r
+(
+)cos
+
+
+
+
+
+/
+Horizontal Translation of Body with Fluid at Rest at Infinity
+Circle
+Sphere
+Boundary Condition on Body
+∂ϕ/∂r = U cos θ
+∂ϕ/∂r = U cos θ
+Boundary Condition at Infinity
+ϕ → 0
+ϕ → 0
+Velocity Potential
+ϕ = −(Ur0
+2/r) cos θ
+φ
+θ
+= −(
+)cos
+
+
+
+
+
+Ur
+r/

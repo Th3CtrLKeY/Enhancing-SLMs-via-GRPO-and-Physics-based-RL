@@ -1,0 +1,71 @@
+QUASI-STEADY REATTACHMENT (BISTABLE) 2) DIS d) INTERMITTENT SHEDDING | CONTINUOUS os ort WT1&2 CO? , O°? 6 | UHP VORTE OY oR TWO, VORTEX STREETS I A) P \ A, STREET 2 ——SBISABLE & 5 6 x/D eo TWO VORTEX STREETS Fig. 6.24 (a). Regions of flow interference categories, (b) interference flow regimes (schematic). PSA, PSB and PSC are different parts of the area described as PS in (a). WT1, WT2, WSD and WSG are explained in (a). (Zdravkovich, 1985.)
+
+206 CURRENT AND WIND LOADS
+
+potential flow solution around a circular cylinder at the position of the
+other cylinder.
+
+In a tandem arrangement we see that the vortex street behind the
+cylinders is formed from the free-shear layer detached from the first
+cylinder when 1<x/D <1.2-1.8. When 1.2-1.8<x/D <3.4-3.8 the
+free-shear layer that separates from the first cylinder, re-attaches to the
+second cylinder. Fig. 6.25 shows a photo of vortex formation around two
+vertical cylinders in a tandem arrangement in steady incident flow. The
+cylinders were towed in a model basin. The visualization was done by
+placing confetti on the free-surface and taking photographs. The photo
+illustrates that a vortex from the upstream cylinder can be trapped
+between the two cylinders.
+
+Zdravkovich (1985) presented results for mean lift, drag and Strouhal
+number both for the subcritical and supercritical flow regimes. If the
+cylinders are close he shows that the drag may be negative on the second
+cylinder in a tandem position. This may occur if x/D < ~4. The results
+are dependent on the Reynolds number, the roughness ratio and the
+number of cylinders. The minimum drag coefficient that Zdravkovich
+reports is ~—0.6.
+
+Fig. 6.25. Flow visualization of vortex formation around two cylinders in
+tandem arrangement in steady incident flow. The photo illustrates
+that a vortex from the upstream cylinder can be trapped between the
+two cylinders.
+
+VORTEX-INDUCED RESONANCE OSCILLATIONS 207
+
+WIND LOADS .
+Wind loads can be estimated in a similar way to current loads. Empirical
+or experimental data is necessary. For instance, Isherwood (1973) has
+presented drag coefficients for passenger ships, ferries, cargo ships,
+tankers, ore carriers, stern trawlers and tugs, and Aquirre & Boyce
+
+_ (1974) have estimated wind forces on offshore drilling platforms.
+
+VORTEX-INDUCED RESONANCE
+
+OSCILLATIONS
+The oscillatory forces due to vortex. shedding may cause resonance
+problems. This is well known in many fields of engineering. We will
+illustrate vortex-induced oscillations by two. examples.
+
+One case is a moored Toading buoy in a uniform current of velocity U..
+The buoy is a vertical cylinder of length L and diameter D, where
+L/D>>1. The vortex-shedding period T, can be found from the
+
+Strouhal number St, i.e.
+
+1D
+~ St U,
+
+Let us assume the current direction to be parallel to the x-axis, D = 20m
+and U,=1ms7!. The corresponding Reynolds number is ~2 - 10’. This
+means St ~ 0.25 (see Fig. 6.26) and T,= 80s. If T, is in the vicinity of
+the natural period for sway oscillation, the consequence is large vortexinduced sway oscillations and drag-forces. Both the resulting horizontal.
+
+Ty (6.53)
+
+Fig. 6.26. Strouhal number St of rough circular cylinders in steady incident
+flow for different surface roughness values k/D (k = average height
+of surface roughness, D = cylinder diameter, St=f,D/U., fy =
+vortex shedding frequency, U.. incident flow velocity, Rn =
+U.D/v.) ——, smooth; — ++ +—, k/D =7.5 + 10~*; ——, k/D =
+3-103; —-—, k/D =9- 107°; ----, R/D =3- 107. (Achenbach
+& Heinecke, 1981.)

@@ -1,0 +1,55 @@
+will provide an understanding of this and other drag problems to be studied subsequently in this chapter. For moderate Reynolds numbers, the dominant contribution to the drag force is due to separation, which occurs near the midplane of the sphere. Upstream of the separation point viscous effects are confined to a thin boundary layer adjacent to the sphere surface, and the vicinity of the stag­ nation point at the front of the sphere will be a region of relatively high
+
+Chapter 2
+Figure 2.2
+The drag coefficient of a sphere (reproduced from Goldstein 1938). Note the transition from laminar to turbulent flow at a Reynolds number 
+of approximately 3 × 10
+5. Dashed line for R < 10 is a low-Reynolds number theory due to Oseen.
+
+Model Testing 
+
+pressure compared to the free-stream value at infinity. Downstream, within 
+the separated wake, the fluid is relatively stagnant but has a reduced pres­
+sure dictated by the requirement of continuity with the free-stream pres­
+sure outside the separated region. Thus, as a result of separation, there is a 
+substantial pressure difference between the forebody and afterbody; from 
+dimensional considerations it must be on the order of magnitude of ρU2, 
+and the resulting drag coefficient is of order of magnitude unity. This situ­
+ation ensues, in figure 2.2, over the range of Reynolds numbers between 
+103 and 3 × 105. In this regime the viscous flow in the boundary layer on 
+the forebody is laminar.
+At a critical Reynolds number of about 3 × 105, the boundary-layer 
+flow becomes turbulent, and the resulting increase of momentum convec­
+tion postpones separation. Thus, the separated region behind the sphere is 
+diminished, and the drag is reduced in a dramatic fashion that coincides 
+with transition of the upstream boundary-layer flow from the laminar to 
+turbulent regime. The precise point where transition to turbulence occurs, 
+with a resulting decrease in the drag of a bluff body, depends not only on 
+the body shape but also on the ambient turbulence of the flow and on the 
+roughness of the body. The indented surface of a golf ball is intended to 
+stimulate early transition and reduced drag.
+2.5  Viscous Drag on a Flat Plate
+As an example of a highly streamlined body shape, we consider a rectangu­
+lar flat plate of length l, breadth B, and negligible thickness, moving with 
+velocity U in the longitudinal direction parallel to its length dimension. 
+The drag coefficient will depend not only on the Reynolds number but also 
+on the aspect ratio B/l of the plate. In general, we must anticipate a result 
+of the form
+D
+SU
+C
+R B l
+D
+
+
+
+ρ
+=
+( ,
+/ ). 	
+(13)
+Here S is the surface area of the plate; we have chosen this in preference, 
+say, to B2 or l2 because we expect the viscous drag to be roughly propor­
+tional to the surface area over which viscous shear stresses act. This expecta­
+tion is confirmed by the fact that, for Reynolds numbers on the order of 105 
+to 1010, the drag coefficient is relatively insensitive to the ratio B/l. This is

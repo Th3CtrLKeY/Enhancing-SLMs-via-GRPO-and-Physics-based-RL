@@ -1,0 +1,75 @@
+defined to coincide with the direction of wave propagation. Since x′ = x cosθ + z sinθ, the appropriate generalization of (7) is given by η θ θ ω = + − A kx kz t cos( cos sin ), (51) with similar expressions for the velocity potentials (16) and (23). Note that for θ = π, (51) reduces to (50). In the linearized theory, solutions may be superposed without violating the boundary conditions or Laplace’s equation. Thus considerable scope
+
+Chapter 6
+for further generalizations is provided by the superposition of plane-wave 
+solutions. The simplest example is a standing wave formed by adding two 
+identical plane waves moving in opposite directions. The sum of these two 
+wave systems is
+η
+ω
+ω
+ω
+=
+−
++
++
+=
+A
+kx
+t
+A
+kx
+t
+A
+kx
+t
+cos(
+)
+cos(
+)
+cos
+cos
+,
+
+(52)
+and the velocity potential for deep water is
+φ
+ω
+ω
+= −2gA e
+kx
+t
+ky cos
+sin
+. 	
+(53)
+In finite depth the corresponding result is obtained without difficulty 
+from (23).
+The standing wave (52) is sinusoidal in time, for fixed position x, and 
+vice versa. This wave motion is therefore oscillatory but not progressive, 
+as shown in figure 6.7(c); it is typical of the “sloshing” motions in closed 
+containers such as swimming pools, tanks, and the wells of some drilling or 
+research ships. If the container is rectangular of width w, with vertical walls 
+at x = 0 and x = w, the boundary conditions of zero horizontal velocity on 
+Figure 6.6
+View from above of a plane progressive wave system, moving parallel to the x′-axis at 
+an angle θ relative to x. The wave crests are shown by dashed lines.
+
+Waves and Wave Effects 
+
+these walls will be satisfied by (53) if kw = nπ, with n any integer. Therefore 
+a discrete spectrum of eigenfrequencies exist where standing waves are reso­
+nant in such a container.
+Standing waves are also of physical relevance if the plane waves are inci­
+dent upon a perfectly reflecting vertical wall, say at x = 0, and the solution 
+(52–53) corresponds to the two-dimensional case where the wave crests are 
+parallel to the wall. If the fluid domain is x < 0, the first term in (52) is the 
+incident wave and the second term is the reflected wave. For oblique waves, 
+the appropriate generalization follows from (51) in the form
+Figure 6.7
+Particle trajectories in a plane progressive wave (a), a partial reflected wave (b), and a 
+standing wave (c). These correspond respectively to a reflection coefficient of 0, 0.38, 
+and 1.0 in equation (56). Note that the reflection coefficient can be measured from 
+the maximum and minimum of the envelope, using (56). These photographs are 
+based on time exposures, and are reproduced from a more extensive series of observa­
+tions made by Ruellan and Wallet (1950).

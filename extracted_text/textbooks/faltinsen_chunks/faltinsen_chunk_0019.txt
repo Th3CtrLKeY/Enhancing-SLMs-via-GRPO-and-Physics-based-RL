@@ -1,0 +1,104 @@
+state response as A, |H(@,)| sin(ayt + 5(@,) + &) (3.3) Here |H(a,)| is called the transfer function, which is the response amplitude per unit wave amplitude. We note also that there is a phase angle 5(w;) associated with the response. Both |H(@,)| and d(@,) are functions of the frequency of oscillation w;. The response can be any linear wave-induced motion or load on a structure. Having obtained the response due to one wave component we can linearly superpose the
+
+38 LINEAR WAVE-INDUCED MOTIONS
+
+response from the different wave components, i.e. we can write
+N
+2A; |H(@;)| sin(a,t + 5(w;) + 6) (3.4)
+j=
+
+In the limit as N—> © and Aw-—> 0 the variance of the response a,” can
+be found in the same way as for the waves (see the text after equation
+(2.23)). We find
+
+= [ S(w) |H(w)? dw (3.5)
+
+The Rayleigh probability function can be used as a good approximation to find the probability density function for the maxima (peak values)
+of the response R, i.e. we can write
+
+p(R)= Syereane 3.6)
+0, ak a
+Here R may for instance be heave maxima and o, the standard deviation
+of the heave motion.
+The most probable largest value R,,,, during a ‘short-term’ time ¢ is
+then
+
+i
+O; log F (3.7)
+
+This is valid for a given value of the significant wave height H 4 and the
+mean wave period 72, i.e. for a short-term description of the sea.
+Strictly speaking we should have used the mean period for the
+response-variable instead of 7, in equation (3.7). However, for linear
+wave-induced motions and loads this will mean a negligible difference in
+the estimation of Ryax- By combining the Rayleigh distribution with a
+joint frequency table for Hy and the modal wave period (or mean wave
+period, see Table 2.2) we can obtain the long-term probability in a
+similar way to equation (2.39). An important difference is that we have to
+sum over both period and wave height, i.e. we must write
+
+M K
+P(R)=1-> p> exp(—0.5R?/(0,*))px (3.8)
+
+J=lLR=1
+where P(R) is the long term probability that the peak value of the
+response does not exceed R, and o,’* is the standard deviation of the
+response for a mean Hy and modal period in significant wave height
+interval j and modal wave period interval k. Further pj, is the joint
+probability for a significant wave height and a modal wave period to be in
+interval-numbers j and k, respectively. For instance, by referring to
+Table 2.2, the joint probability for the modal (spectral peak) period to be
+
+RESPONSE IN REGULAR WAVES 39
+
+10s and Hy to be between 2 and 3 m is 4456/100 001. The values of M
+and K are respectively 15 and 19. The probability level Q = 1 — P(R)
+and the number of response cycles N are related by Q = 1/N. A return
+period of 100 years corresponds to Q=10~*?. The corresponding
+response amplitude R can then be found from equation (3.8).
+
+RESPONSE IN REGULAR WAVES
+Since it is possible to obtain results in irregular seas by linearly
+superposing results from regular wave components, it is sufficient from a
+hydrodynamical point of view to analyse a structure in incident i regular
+sinusoidal waves of small wave steepness. This will be done in the
+following text. We will assume a steady state condition. This means there
+are no transient effects present due to imitial conditions. It implies that
+
+ve? tre Tinéar dynamic motions and loads on the structure are harmonically
+
+oscillating with the same frequency as the wave loads that excite the
+structure. The hydrodynamic problem in regular waves is normally dealt
+with as two sub-problems namely:
+
+A: The forces and moments on the body when the structure is
+restrained from oscillating and there are incident regular
+waves. The hydrodynamic loads are called wave excitation
+loads and composed of so-called Froude—Kriloff and
+diffraction forces and moments.
+
+B: The forces and moment on the body when the structure is
+forced to oscillate with the wave excitation frequency in any
+
+rigid-body motion mode. There are no incident waves. The
+
+hydrodynamic loads are identified as added mass, damping and
+restoring terms.
+Due to linearity the forces obtained in A and B can be added to give the
+total hydrodynamic forces. This is illustrated in Fig. 3.1.
+
+Before we go into detail and describe the different hydrodynamic
+loads, we will define a coordinate system and the rigid body motion
+modes. A right-handed coordinate system (x,y, 2) fixed with respect to
+the mean position of the body is used, with positive z vertically upwards
+through the centre of gravity of the body and the origin in the plane of
+the undisturbed free-surface. If the body moves with a mean forward
+speed, the coordinate system moves with the same speed. The body is
+normally assumed to have the x—z plane as a plane of symmetry. Let the
+translatory displacements in the x-, y- and z-directions with respect to
+the origin be |, 2 and 73 respectively so that 7, is the surge, 72 is the
+sway and 73 is the heave displacement. Furthermore, let the angular
+displacement of the rotational motion about the x-, y- and z-axis be 74,
+ns and ne respectively so that 7, is the roll, 75 is the pitch and 7¢ is the
+yaw angle. The coordinate system and the translatory and angular
+displacement conventions are shown for the case of a ship in Fig. 3.2.

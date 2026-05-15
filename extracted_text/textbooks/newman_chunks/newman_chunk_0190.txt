@@ -1,0 +1,109 @@
+  + − −∞ − ∫ ∫ ξ ρ ξ ξ γ ξ ξ 1 2 (212) Using (204) to replace the last term, we get M v t t d U x= − = − − ∂ ∂ − + − +     ∫ 2 1 2 ρ ξ ξ ξ ξ ρ ξ ξ ξ ( )( ) ( , ) ( ) v t d ( , ) . ξ ξ −∫ (213)
+
+Chapter 5
+From (213) it is clear that the moment about the quarter-chord point is 
+not affected by memory-dependent downwash from the wake and can be 
+expressed in terms of the instantaneous normal velocity and acceleration 
+of the plate. This is not to say that the moment is independent of the vor­
+tices in the wake, which give a contribution represented by the last term 
+of (212). Since (213) can be calculated directly for any prescribed motion 
+of the foil, it is only necessary to consider the lift force, which can be com­
+bined with (213) to give the moment about any point along the foil.
+5.16  Oscillatory Time Dependence
+The simplest case of unsteady motion is sinusoidal time dependence, with 
+period 2π/ω. In this case the normal velocity of the foil can be expressed in 
+the form
+v
+x t
+v
+x ei t
+
+
+( , )
+Re[
+( )
+],
+=
+ω
+	
+(214)
+and the wake vorticity must be of a similar form,
+γ
+γ
+ω
+(
+)
+Re[
+].
+(
+)
+x
+Ut
+ei
+t kx
++
+=
++
+
+(215)
+Here Re denotes the real part, and k = ω/U is the reduced frequency. This 
+parameter can be interpreted physically as π times the ratio of the chord 
+length to the wavelength of the wake vortices.
+Substitution of (214–215) in (203) gives an equation for the unknown 
+constant γ0 in the form
+γ
+ξ
+ξ
+ξ
+ξ
+ξ
+ξ
+ξ
+ξ
+
+1 2
+
+1 2
+
+
+
+
+
+
+
+
+=
+−
++
+
+
+
+
+−
++
+
+
+
+
+−∞
+−
+−
+∫
+∫
+v
+d
+e
+d
+ik
+( )
+. 	
+(216)
+Postponing consideration of the numerator, which will depend on the pre­
+scribed motion of the foil, we consider the integral in the denominator 
+which depends only on the reduced frequency k. Strictly, this integral is not 
+convergent because the oscillatory motion assumed in (214–215) violates 
+the assumption of an initial state of rest. One technique for avoiding this 
+difficulty is to make ω and k slightly complex, with negative imaginary 
+parts, so that (214) and (215) vanish for t → −∞. An equivalent but simpler 
+approach is to assume that the motion starts abruptly from a state of rest 
+at some time t0 ≪ t. The vorticity (215) is replaced by zero if x < (t0 − t)U,

@@ -1,0 +1,157 @@
+arbitrary orientation. The tetrahedron is assumed to be sufficiently small that the stresses are effec­ tively constant along each face, and since the volume will be negligible compared with the surface area, the surface forces will dominate the body forces. Thus, the forces exerted on the four faces of the tetrahedron by the surface stress components must balance. If n = (nx, ny, nz) denotes the unit normal vector on the oblique face, each of its three components equals the
+
+The Motion of a Viscous Fluid 
+
+ratio of the area of the corresponding face to the area of the oblique face. 
+Thus, for the surface forces to be balanced, the component of the stress on 
+the oblique face, say in the x-direction, must be equal to τxxnx + τxyny + τxznz. 
+In other words, regardless of the angular orientation of a surface element, 
+the stress acting on it in a given direction may be decomposed into three 
+orthogonal components, as if it were a vector. Thus, the stress components 
+can be described in general by a second-order tensor.
+A similar argument regarding the balance of moments can be used to 
+show that the stress tensor is symmetric. Thus, if the cube shown in figure 
+3.1 is sufficiently small so that surface moments dominate body moments 
+and changes in the magnitude of the stress components may be neglected 
+across the cube, then a positive value of τyx on the face shown will cause a 
+counterclockwise moment about the centroid. The moment on the oppo­
+site face will have the same sign, since the normal vector has the opposite 
+sense and hence a positive τyx acts downward. The only source of a balanc­
+ing clockwise moment is the stress τxy acting in the x-direction on the top 
+and bottom faces. From this it follows that τyx = τxy; by similar reasoning, 
+τxz = τzx, τyz = τzy.
+To avoid subsequent unwieldy algebra, we shall denote the Cartesian 
+coordinates by subscripts (1, 2, 3) with the convention that x = x1, y = x2, 
+and z = x3. Similarly, for the velocity components, u = u1, v = u2, and w = u3. 
+Figure 3.1
+Definition of Cartesian coordinates and stress tensor.
+
+Chapter 3
+Both notations will be used. The complete stress tensor may then be written 
+in any of the three following forms:
+τ
+τ
+τ
+τ
+τ
+τ
+τ
+τ
+τ
+τ
+τ
+τ
+τ
+τ
+τ
+τ
+ij
+xx
+xy
+xz
+yx
+yy
+=
+
+
+
+
+
+
+=
+
+
+
+
+
+
+
+
+
+yz
+zx
+zy
+zz
+τ
+τ
+τ
+
+
+
+
+
+
+. 	
+(1)
+Since the stress tensor is symmetric, τij = τji.
+Adopting a similar notation for the unit vector, n = (n1, n2, n3), the stress 
+component in the ith direction, on a surface element with unit normal n, 
+is given by the sum
+τ
+τ
+ij
+j
+ij
+j
+j
+n
+n
+i
+≡
+=
+=∑
+
+
+1 2 3
+,
+, , . 	
+(2)
+It is customary to delete the summation sign, as has been done in the last 
+form of this equation, with the summation convention: any term of an equa­
+tion that contains the same index twice should be summed over that index. 
+It is also customary to assume that an equation such as this is valid for all 
+possible values of a free index, in this case i. Both these conventions are 
+employed hereafter, unless otherwise stated.
+3.2  Conservation of Mass and Momentum
+The conservation laws of physics can be related to a fluid provided we focus 
+our attention on a group of fluid particles or a material volume of fluid so 
+that we always examine the same group of particles. Thus we define a vol­
+ume of fluid ( )t  subject to the above restriction. If the fluid density is 
+denoted by ρ, the total mass of fluid in this volume is given by the integral 
+ρd
+∫∫∫
+. Conservation of mass requires that this integral be constant, or
+d
+dt
+d
+ρ 
+∫∫∫
+= 0. 	
+(3)
+Similarly, the momentum density of a fluid particle is equal to the vec­
+tor ρV, with components ρui. Conservation of momentum requires that the 
+sum of all forces acting on the fluid volume be equal to the rate of change 
+of its momentum, with respect to a Newtonian frame of reference, or
+d
+dt
+u d
+n dS
+F d
+i
+ij
+j
+S
+i
+ρ
+τ
+
+
+
+
+∫∫∫
+∫∫
+∫∫∫
+=
++
+. 	
+(4)

@@ -1,0 +1,37 @@
+such as (222). For exam­ ple, a large resonant response of the body will be of importance if the reso­ nant frequency coincides with the peak of the wave-energy spectrum, and vice versa. Figure 2.16 shows the extreme resonant peak which results for a slender spar buoy, but the spar buoy FLIP, described by Rudnick (1967), is sufficiently large that the natural period in heave (27 seconds) is beyond the range of expected wave excitation. Similarly, a small unrestrained buoy
+
+Chapter 6
+will have a high natural frequency in heave; as such its resonant response 
+will be of little significance. From the corresponding limits (192) and (191) 
+for the transfer function in heave, it is obvious that FLIP will be stable 
+with practically no heave motion, while the small buoy will follow the freesurface elevation. Resonance is not significant in either example for normal 
+conditions.
+As in the case of the ambient waves, the phase of the response (221) is 
+a random variable of no importance. However the relative phase, between 
+the response ξ(t) and the wave η(t), or between two different modes of 
+response such as pitch and heave, may be a quantity of great significance. 
+For example, the relative motion (ξ2 − η) between the body and the free 
+surface determines the probability of submergence or emersion. Thus one 
+may be concerned whether these random variables are in phase or out of 
+phase. Here the argument of the transfer function is relevant, and can be 
+used to determine the correlation between the different random variables 
+noted above. For heave, we recall that for frequencies below the resonant 
+frequency the argument of the transfer function is close to zero, whereas 
+at high frequencies the body and waves move with a phase difference of 
+180°. For floating bodies, as for mechanical systems, coupling between two 
+modes such as heave and pitch will introduce a pair of natural frequencies, 
+both of which must be considered in this context.
+Little has been said here about motions in the horizontal plane, where 
+no resonance exists. It is essentially for the latter reason that these modes 
+are of less importance, but their analysis can be carried through in much 
+the same manner as has been outlined here for heave. Resonant horizon­
+tal motions may result from an elastic mooring, and second-order drift 
+processes in the horizontal plane are of practical importance in some 
+cases. Both subjects are beyond the scope of this text, but references can 
+be found in Bishop and Price (1975). Additional references are noted in 
+section 2.15.
+Problems
+1. For plane progressive waves of height 6 m and length 200 m in deep 
+water, find the phase velocity, the maximum velocity of a fluid particle, 
+and the position where this maximum occurs. How do these change if the 
+fluid depth is 30 m?

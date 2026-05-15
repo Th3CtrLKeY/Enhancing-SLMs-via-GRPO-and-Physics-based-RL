@@ -1,0 +1,91 @@
+is a more representative value. op 2000-19-51 900 -10 700 -107 400 -t0F 5 0.2 210° 4 6 pet 2 4 6 8 10° 2 4 Fig. 6.3. Drag coefficient Cp of rough circular cylinders in steady incident flow for different surface roughness values k/D (k = average height of surface roughness, D = cylinder diameter, Rn = U..D/v, U.= incident flow velocity.) A, R/D = 110- 107°; O, k/D = 450: 107°; O, k/D = 900: 107°; (Achenbach, 1971).
+
+Ba
+pyar rim!
+
+178 , CURRENT AND WIND LOADS
+
+In the figure we note a very distinct drop in Cp-values in a pertain
+Reynolds number range. This is referred to as the critical flow regime
+and is particularly marked for flow around a smooth cylinder. It is
+common practice to divide this dependence on Reynolds number into
+
+t
+
+}
+
+different flow regimes. However, there are many different definitions in {
+
+the literature. We will refer to the following four different flow regimes:
+subcritical flow, critical flow, supercritical flow and transcritical flow.
+For flow around a smooth circular cylinder the subcritical flow regime is
+for Reynolds number less then ~2- 10°. The critical flow _regime is for
+~2-10°<Rn<~5- 10°. The supercritical flow regime is for ~5 - 10°<
+Rn<~3- 10° and the transcritical flow is for Reynolds numbers larger
+than 3- 10°. In the subcritical flow the boundary layer is always laminar,
+while in supercritical and transcritical flow the boundary layer is
+turbulent upstream of the separation point.
+
+BOUNDARY LAYERS
+We will give a short description of boundary layer flow and flow
+separation.
+
+According to the inviscid theory for an ideal fluid we can write the
+tangential velocity around the cylinder surface in the form of equation
+(6.1). For @-values between —s/4 and a/4 and for all Reynolds
+numbers of practical interest this is a good approximation at a small
+distance from the cylinder surface. However, it cannot be valid in the
+immediate vicinity of the body surface. The physical tangential velocity
+has to be zero on the cylinder surface. This means there is 4 boundary
+layer along the cylinder surface. Viscous forces are important in this part
+of the fluid. Let us study the boundary layer in more detail and assume
+the boundary layer to be laminar, i.e. ‘well organized’. As an exercise we
+will first say that the flow does not separate. That means we will assume
+equation (6.1) to be valid outside the boundary layer. If we now solve the
+boundary layer equations (see for instance Schlichting, 1979) we will find
+a tangential velocity distribution within the boundary layer as shown in
+Fig. 6.4. This figure gives information on how thick the boundary layer
+is. However, there are different definitions of boundary layer thickness.
+One definition is. the normal distance from the wall to the point where
+the tangential velocity is 99% of the local free stream velocity. If potential
+flow theory is valid, the local free stream velocity is given by equation
+(6.1). From Fig. 6.4 we see that for 6 = 80° the tangential velocity is 99%
+of the potential flow velocity when
+
+» (Usk)
+R\ v
+
+Here y is a coordinate normal to the body surface with y = 0 at the body.
+
+(6.7)
+
+BOUNDARY LAYERS 179
+
+For Rn = 10° this means that the boundary layer thickness is about 1% of
+the radius.
+
+From the tangential velocity distribution in the boundary layer we can
+determine where the flow separates. Flow separation means that the flow
+breaks strongly away from the body. It occurs at a point S on the
+cylinder surface where there is backflow in the boundary layer on the
+downstream side of S and no backflow on the upstream side of S. This
+means
+
+ou _ (6.8)
+ay
+on the body surface at the separation point. If laminar boundary layer
+flow is assumed and the velocity distribution given by equation (6.1) is
+valid outside the boundary layer, it follows that the flow around a
+circular cylinder will separate at angles approximately equal to +110°
+(Schlichting, 1979). However, this is not what happens in reality for
+
+8=80°
+
+0.5 1.0 u/U,{9)
+
+Fig. 6.4. Example of tangential velocity distribution u inside a steady laminar
+boundary layer flow around a circular cylinder. The results are for
+one angular position @ and are presented as a function of the
+y-coordinate normal to the body surface (y = 0 is at the. body
+surface). U,(@) = tangential potential flow velocity just outside the
+boundary layer at the same angular position 0.

@@ -1,0 +1,53 @@
+histories Faired mea pressure when ‘transducer just immersed 30 | 0.024 0.048 0.060 0.072 u T 02 03 04 05 Sin B (eps) PS Fig. 9.6. Comparison between experimental and theoretical values of Slammin e Pressure D during entry of a circular cylinder with corresponding ia velocity Vv ¢ = time variable with : = 0 corresp g to initial time of impact). Experiments: Campbell & ynberg (1980). (Adapted from Campbell & Weynberg 1980 ) > . 0 O14 13
+
+290 WATER IMPACT AND ENTRY
+
+|x| =(2ViR )i, This is in satisfactory agreement with the maximum pressure value at Vt/R=0.012, but it occurs at the wrong position on
+the cylinder. If we plot C,,,, as a function of time we see that it goes
+to infinity when t->0. One important reason for this is that we have
+neglected compressibility effects in the water. When these are accounted
+for the pressure cannot be higher than
+
+Pac = PceV (9.15)
+This is called the acoustic pressure where c, is the velocity of sound in
+
+Fig. 9.7. Details of the flow at the intersection between the free surface and a
+
+body during impact. (p = hydrodynamic pressure.) (Wagner, 1932.)
+
+SLAMMING 291
+
+the water. With no air content c, varies typically between 1450 ms~! and
+1540 ms~'. In rough seas, air bubbles will be in the water altering the
+speed of sound dramatically (Lundgren, 1969). We can show equation
+(9.15) by a simple analysis. Let us assume a body hits the water with a
+horizontal flat surface A. We neglect all free-surface deformation and
+effects of the air. At the time of contact between the body and the
+free-surface, the fluid will be given a disturbance that will propagate
+with the sound velocity c,. During the time step Az after the impact a
+mass of fluid M=~pc,A At will be accelerated. The acceleration is
+approximately V/At, This means there has to be a force on the body that
+is equal to pc.A AtV/At. The average pressure on the body is therefore
+pV. :
+
+“~The importance of the acoustic pressure is illustrated in Fig. 9.8 where
+pressure results from forcing a vertical cylinder with radius 5 m through
+the free-surface with velocity V=8 ms! are presented. We note that
+the acoustic pressure is about 125 times the atmospheric pressure and is
+‘the maximum pressure occurring close to the centre line of the cylinder.
+When x > ~0.5 m the slamming pressure is determined from Wagner’s
+analysis. As pointed out earlier the slamming pressures are very local in
+
+Ve
+
+oO TEST No 1
+~ 9 2
+4 3
+
+p, 0.1 p, 0.2
+x/R
+Fig. 9.8. Maximum impact pressures on a circular cylinder as a function of
+time after initial impact (V = 8ms~', R =5 m). (Hagiwara '&
+Yuhara, 1976.)
+
+P2 P,

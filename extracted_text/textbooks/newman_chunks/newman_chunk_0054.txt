@@ -1,0 +1,40 @@
+partial differential equations, together with the con­ tinuity equation (15), governs the motion of a viscous fluid subject only to the assumptions of constant density and a Newtonian stress-strain rela­ tionship. The latter is justified for all practical purposes in the case of most fluids, including water and air. The difficulty comes in attempting to solve the Navier-Stokes equations; they form a coupled system of nonlinear partial differential equations and have been solved analytically only for some very simple geometrical
+
+Chapter 3
+configurations, principally those in which the nonlinear convective accel­
+eration terms (V ⋅∇) V can be assumed to vanish. We shall examine some 
+examples of such flows subsequently.
+3.8  Boundary Conditions
+Before attempting to solve the Navier-Stokes equations, it is necessary to 
+impose appropriate physical conditions on the boundaries of the fluid 
+domain. In fact, it is precisely these conditions that distinguish different 
+flow problems.
+The simplest boundary condition is that which must be imposed on a 
+solid boundary, such as the boundary between the fluid and a rigid body. 
+In this case, the fluid velocity equals the velocity of the body, since in a 
+viscous fluid the existence of a shear stress requires both the normal and 
+tangential velocity components of the fluid and the boundary to be equal.
+An alternative physical boundary is a free surface, such as will exist 
+between the surface of the ocean and the atmosphere or between the 
+fluid and vapor domains of a cavitating flow. In these instances the fluid 
+density is so large, by comparison with the neighboring gas, that tangential 
+stresses are negligible; the only stress at such a surface is the normal pres­
+sure, which is generally known and specified (atmospheric pressure or vapor 
+pressure for the two cases cited). This is the dynamic boundary condition 
+at a free surface. In addition, it is necessary to impose the kinematic bound­
+ary condition that the normal velocity of the fluid and of the free surface 
+are equal.
+3.9  Body Forces and Gravity
+In our derivation of the Euler and Navier-Stokes equations, an external 
+body force per unit volume, F, has been included without specification or 
+restriction. The most common and important body force in the context 
+of marine hydrodynamics is the force due to gravity ρg, where g is the 
+gravitational acceleration vector. For all practical purposes g is a constant, 
+acting downward with magnitude 9.8 m/s2 or 32.2 ft/s2. If this is the only 
+body force acting upon the fluid, or more generally if the body force is 
+conservative, it can be represented as the gradient of a scalar function, in 
+the form F
+x
+=
+∇
+ρ Ω( ) where, for gravity, Ω = g∙x. From the Navier-Stokes

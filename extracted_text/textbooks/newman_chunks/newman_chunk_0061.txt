@@ -1,0 +1,94 @@
+be complex, the motion of the plate will increase or decrease exponentially with time, according as Im(ω) is negative or positive, respectively. The only restriction here is that for the condition at y = ∞ to be satisfied, Re(k) must be positive as assumed above. Hence if ω is complex, it must be negative imaginary cor­ responding in (34) to an exponentially growing velocity of the plate. Indeed, this is the only reasonable alternative from the standpoint that the motion
+
+Chapter 3
+is initially at rest at t = −∞. Laplace transforms can then be used to solve 
+more general initial-value problems, including the particular case of a stepfunction plate velocity, which is initially at rest but impulsively accelerated 
+to a constant velocity U.
+There is a simpler way to solve the latter problem, because no character­
+istic time scale is associated with the acceleration of the plate. Thus from 
+dimensional analysis, the unknown velocity u(y, t) must depend on only 
+one nondimensional similarity parameter, which will be taken as
+η
+ν
+=
+y
+t
+
+1 2
+(
+)
+,
+/
+	
+(39)
+with the time t measured from the instant when the plate is accelerated. 
+Using the chain rule to evaluate the derivatives in (31) gives the ordinary 
+differential equation
+d f
+d
+df
+d
+
+
+
+
+η
+η η
++
+=
+	
+(40)
+for the nondimensional velocity f = u/U. The boundary conditions for the 
+function f(η) are that f(0) = 1 and f(∞) = 0. The solution of the differential 
+equation (40) subject to these boundary conditions is
+f
+u
+U
+e
+d
+=
+=
+−
+=
+−√
+−
+∫
+
+
+
+
+
+erf( )
+.
+η
+π
+η
+η
+η
+	
+(41)
+The function erf(η) is known as the error function; its values can be deter­
+mined from various tables (Abramowitz and Stegun 1964). From such a 
+source it is easy to plot the nondimensional velocity profile shown in 
+figure 3.4.
+Let us now try to measure the boundary-layer thickness—that is, the width 
+of the region in which the fluid velocity is affected by the velocity of the 
+plate. Clearly this region extends to infinity, but the attenuation of the 
+velocity with increasing distance from the plate is quite rapid; for example, 
+the nondimensional velocity at a value of y/2(νt)1/2 = η = 2.0 is approximately 
+u/U = 0.005, a very difficult velocity to measure experimentally. A common 
+engineering criterion for the boundary-layer thickness is the distance from 
+the plate where the velocity is reduced to 0.01 of its value on the boundary. 
+This thickness is found from the above tables to be approximately
+δ
+ν
+= 3 64
+1 2
+.
+(
+)
+.
+/
+t
+	
+(42)

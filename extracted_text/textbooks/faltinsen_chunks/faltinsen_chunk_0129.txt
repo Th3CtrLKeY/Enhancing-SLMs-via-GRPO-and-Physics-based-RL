@@ -1,0 +1,102 @@
+—y, cos wid i=1 Here 7}; is the horizontal force from anchor line number i. Its direction is from the attachment point of the anchor line towards the anchor. Further, x; and y; are respectively the x- and y-coordinate of the attachment point of the anchor line to the vessel and wp, is the angle between the anchor line and the x-axis as defined in Fig. 8.5. In order Fig. 8.5. Example of spread mooring system for a drilling platform.
+
+266 STATIONKEEPING
+
+for the moored structure to be in equilibrium, F;", F,™ and F,™ have to
+balance the mean forces due to waves, wind and current. The problem of
+finding the equilibrium position can generally not be solved directly and
+an iteration procedure has to be set up.
+
+If we want to find the linear restoring effect of the anchor lines in the
+equations of motion we can generalize the procedure outlined in
+connection with equation (8.22). We can write
+
+Cy, = >, k; cos” y;
+i=l
+
+Cy = S k; sin? Wi
+t=1
+
+(8.26)
+Coe = >, Ril; sin Yi — Yi COS Y,)
+t=]
+
+Cr = Con = SD Rix; sin wz — y; Cos i) sin Y
+i=l
+
+Here k; is the restoring coefficient for anchor line number 7. It can be
+found as in equation (8.22). The coupling coefficients Cy6, Cory Ci2 and
+Cy are zero if the mooring arrangement is symmetric about the x-z
+plane.
+
+Example. Static analysis of a spread mooring system
+A platform is restrained from moving by two anchors with anchor lines
+of chain (see Fig. 8.6). The length / of the anchor line is 600 m and the ;
+horizontal pre-tension Ty is 300 kN. The weight of the chain in water
+is w = 1000 N m=. Assume static environmental forces on the platform.
+(a) What is the distance between anchors A and B?
+(b) What is the line tension at the platform?
+(c) Find out how large the environmental force on the platform
+has to be to move anchor A.
+
+Fig. 8.6. Vessel moored with two anchor lines.
+
+MOORING SYSTEMS 267
+
+(d) Study the displacement of the platform as a function of the
+
+environmental force on the platform.
+
+Solution:
+
+(a) The distance between anchors A and B is given as 2X + L
+
+ww
+
+where X =1—/,+<x and L is the length of the platform. By
+using equation (8.21) we find that the distance between the
+two anchors is
+
+1060 (m) + LZ
+
+From equation (8.12) it follows that the line tension at the
+platform is
+
+T =Ty+wh =S500KN
+
+and (d) Let us first examine mooring line A. Anchor A
+
+will start moving if J, = 1 = 600 m. From equations (8.16) and
+
+(8.17) we will find the corresponding horizontal tension 7), in
+cable line A and the x-value for attachment point of the cable
+
+line to the platform (see Fig. 8.3).
+
+We find a = 800 m, Ty = 800 KN and
+
+= 300 sinh»(22) =
+
+x = 800 sinh (Ss 555 m
+
+This means the attachment point of the cable line to the
+platform has moved 25 m compared to the original situation.
+In order to find how large the environmental force on the
+platform has to be to move the platform 25 m, we will first
+study the horizontal tension 7, in each cable line as a
+function of displacement. This is illustrated in Fig. 8.7 and
+can be performed in the same way as described for the vessel
+shown in Fig. 8.3. Instead of referring the displacement to
+one of the anchor positions, we use the displacement of the
+vessel relative to the position that the centre of gravity of the
+vessel had when there were no environmental forces acting on
+the vessel, i.e. the situation described in the introduction of
+the example. From Fig. 8.7 we find that the horizontal
+tension in cable line A is 800 KN and the horizontal tension in
+cable line B is 140 KN when the vessel has moved 25 m to left.
+From this we may conclude that the necessary horizontal
+environmental force on the platform in direction A—B to
+move anchor A is 800-140 = 660 kN. We may also use Fig.
+8.7 to study the displacement of the platform as a function of
+the environmental forces on the platform. This may be done
+by giving the platform a displacement 6 and finding the

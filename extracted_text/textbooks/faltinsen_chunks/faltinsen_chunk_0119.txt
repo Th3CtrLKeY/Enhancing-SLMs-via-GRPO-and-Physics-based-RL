@@ -1,0 +1,81 @@
+increased incident flow. The circulation T° of the eddies will be estimated by a quasi-steady approach. Schmidt & Tilman (1972) measured the circulation of eddies as a function of longitudinal distance x from a circular cylinder in Co an 2 © CIRCULAR CYLINDER ° D DIAMOND CYLINDER 15 + FLAT PLATE 10 20 30 40 50 KC Fig. 7.12. The ratio between Cp ata given KC and Cp” at KC = @ (i.e. steady incident flow). (Bearman et al., 1979.)
+
+246 VISCOUS WAVE LOADS AND DAMPING
+
+incident flow with ambient velocity U., along the x-axis (see Fig. 7.13).
+According to this figure the maximum circulation is
+
+T=5U.R
+
+where R is the cylinder radius.
+
+When the eddies have obtained their maximum circulation, their
+strength decreases with distance (see Fig. 7.13). In the quasi-steady
+analysis of the oscillatory flow it is important to account for this effect. It
+
+means that the effective incident flow is a function of the distance the |
+eddies have been convected. In order to quantify this effect we will use ‘
+empirical circulation reduction formulas that are often used in numerical;
+
+studies by the discrete vortex method. We will assume T =I) e7%*®
+
+where Ip is the initial strength of a vortex and s the distance the vortex
+has been convected. Different values of aw have been used in numerical -
+
+studies. We will set a= 0.1 in our example. However, this represents a
+larger decay factor than Fig. 7.13 shows and demonstrates sources of
+
+inaccuracies in our simple model. Since KC = UT/D is proportional to *
+the distances the shed vortices are convected, we may translate s/R into. |
+
+KC. For the eddies that are created at wt = 2/2 and are returning to the
+body at wt = 32/2 we can then write =I) e~°!@K?), This means that
+
+T= 5UyRe 02K (7.29)
+
+where we have set U..= Uy, i.e. the velocity of the ambient flow at :
+
+wt = 2/2. This is valid for a circular cylinder.
+Due to the results in Fig. 7.12 we will assume equation (7.29) has
+
+validity for separated flow past any two-dimensional body shape. We will |
+
+try to quantify the increased incident flow due to the returning eddies.
+
+0 10 20 30 40
+
+Fig. 7.13. Vortex strength versus distance for steady incident flow past a
+circular cylinder (I = circulation of a vortex). (Adapted from
+Schmidt & Tilman, 1972.)
+
+SEPARATED FLOW AT HIGH KC-NUMBERS 247
+
+This will be done by studying the effect of two vortices, shed from
+alternate sides at wt ~ 2/2 (see Fig. 7.14). The inflow due to the vortices
+will vary with time and be dependent on the position relative to the
+cylinder. By inflow we mean the incident velocity when the body is not
+there. This is the reason why we have dotted the cylinder in the lower
+part of the figure. In order to illustrate that we are using a simplified
+model we have drawn the returning vorticity as two discrete vortices.
+The average velocity at the cylinder centre can be estimated from
+
+1 1
+
+ed AN n 2
+w=7 J, dae tk (5-8) +R
+
+where we have used the potential flow solution for the velocity induced
+
+,
+
+wt=n/2
+A
+. eS)
+——>
+B
+wt=371/2
+
+Fig. 7 14, Illustration to show that two returning vortices created half a period
+previously represent an increase in effective incident flow at present
+time. (41 = circulations of vortices, w = circular frequency of
+oscillation.)

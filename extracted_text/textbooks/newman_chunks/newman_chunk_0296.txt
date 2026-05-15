@@ -1,0 +1,40 @@
+wave, Aϕ0eiωt is the corresponding velocity poten­ tial, and Aϕ7eiωt is the scattered potential due to the disturbance of the inci­ dent wave by the body. The incident wave potential is given by (6.16) or (6.23) for infinite or finite water depth, respectively. Since this potential is independent of the body, its order of magnitude with respect to ε is O(1). The remaining poten­ tials ϕj (j = 1, 2, …, 7) are body potentials that will depend on ε.
+
+Chapter 7
+The body potentials can be analyzed in the inner region, near the body 
+section ∑B (x), using a two-dimensional approximation. The relevant length 
+scale is d = O(εl), and since ω2d/g = O(ε), the free-surface condition in the 
+inner problem can be replaced by a rigid boundary condition as in fig­
+ure 6.21. The orders of magnitude of the various components of the body 
+potential, as well as the resulting force components acting on the body, can 
+be estimated as if the body and its image were situated in an infinite fluid. 
+Thus, in general, axial forces will be O(ε4 log ε), whereas lateral forces will 
+be O(ε2).
+In addition to the hydrodynamic pressure forces associated with the 
+body potential, we must consider the forces due to the body mass, the 
+hydrostatic restoring force, and the Froude-Krylov component of the excit­
+ing force due to the pressure field of the incident wave. Thus, for each 
+mode of motion, four different types of force components are estimated, as 
+displayed in table 7.3.
+For a vertical spar buoy, the estimates of the body-induced pressure 
+forces are shown in the first column. Heave induces a hydrodynamic force 
+of order (ε4 log ε), and one can infer from table 4.3 that the correspond­
+ing yaw moment will be proportional to d4, and hence O(ε4). The remain­
+ing motions are lateral with respect to the body axis, and induce forces of 
+order ε2.
+The body-mass forces for a spar buoy can be estimated from (6.182–6.183), 
+and are as shown in the second column of table 7.3. The third column shows 
+the hydrostatic force and moment, with the heave force proportional to the 
+waterplane area O(ε2), and the roll and pitch moments proportional to the 
+moment of inertia of order ε4, as indicated by (6.144–6.149).
+Finally, the Froude-Krylov component of the exciting force can be 
+estimated for a spar buoy from Gauss’ theorem, in a manner similar to 
+(6.165–6.166). The results are as shown in the fourth column of table 7.3. 
+In this case the displaced volume ∀ and waterplane area S are both O(ε2). 
+The contribution to the exciting force from the scattering potential ϕ7 is 
+included in the body-potential contributions listed in column one.
+Similar estimates can be made for the forces on a horizontal body, as 
+shown in table 7.3. In surge, the body-induced force is longitudinal, and 
+hence O(ε4 log ε), while the body-mass force and the Froude-Krylov force 
+are O(ε2). For vertical motions in the inner region, associated with pitch 
+and heave, the two-dimensional flow is source-like since the submerged

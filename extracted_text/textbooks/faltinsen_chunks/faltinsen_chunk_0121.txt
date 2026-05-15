@@ -1,0 +1,104 @@
+number for plane harmonically oscillatory flow past two-dimensional cross-sections. Bearman and Graham have also used a U-tube extensively at Imperial College, London. A U-tube has also been built at the Norwegian Institute of Technology. (Sortland, 1986). The Norwegian U-tube is described in Fig. 7.15. Forces in both *. lift and drag direction on cylinders of different shapes in oscillating flow can be measured. The force measurement system is illustrated in Fig. 7.16. Measurements on different configurations of cylinders like risers
+
+250 VISCOUS WAVE LOADS AND DAMPING
+
+are also possible to achieve. The length of the measuring section can be
+changed in order to look at length-to-diameter ratio effects. The wall
+effect on the hydrodynamic coefficients can be simulated by placing the
+cylinders close to one of the walls. This is for instance important in
+studying sea floor effects on pipelines or slow-drift eddy-making
+coefficients for ship sections. In the latter case the free-surface effect can
+be approximated by a wall.
+
+A drawback with the U-tube tests is‘ scale effects, but this is the
+problem with most model testing of marine structures. Another drawback with U-tube testing is that it is difficult to simulate threedimensional effects. On the other hand U-tube tests have provided and
+will provide a lot of physical insight in understanding vortex shedding in
+
+1, Wave probe
+
+2. Main body in aluminium
+3. Wood stiffener
+
+4, Plexiglass window
+
+5. 2-dim ship section
+
+6. Plexiglass window
+
+7. Haneycomb section
+
+8. Driving fan
+
+9. Wood bed
+
+SSSA
+7 ee 7
+
+* 2.65m —>|
+
+Fig. 7.15. Description of U-tube at Norwegian Institute of Technology.
+(Sortland, 1986.)
+
+measuring section
+
+dummy section
+force transducer
+
+plexiglass window
+
+force transducer
+mounting
+
+Fig. 7.16. Force measurement system in the U-tube. (Sortland, 1986.)
+
+EXPERIMENTAL TOOLS 251
+
+oscillatory flow past bluff bodies. Flow visualization tests which are easy
+to do in the U-tube are also important for numerical calculations.
+Examples of useful flow visualization techniques are the ‘hydrogen
+bubble’, ‘polystyrene particles’ and Laser—-Doppler techniques (Sortland,
+1986).
+
+The determination of Cy and Cp coefficients from U-tube tests is
+based on Morison’s equation. For a circular cylinder this means that the
+in-line force F can be written as
+
+p
+
+pxD?
+
+DLCpU |U| (7.36)
+
+where
+D = diameter
+
+L= length of test section
+U = free-stream velocity
+For oscillatory flow we can write
+. 2a
+U=Us sin (7.37)
+
+According to Keulegan & Carpenter (1958) we can then write
+
+3 ] 20 .
+UmT 1 2x 2nt
+Cu= FID Tptaib h Fa O8 = 9
+
+Here Fy, is the measured force. In practice Cp and Cy will vary from
+cycle to cycle and in same cases one needs to average over 20 cycles to get
+good estimates of Cp and Cy. Fig. 7.17 shows an example of measured
+force signal and estimated force signal based on Morison’s equation.
+Equations (7.38) and (7.39) have been used to determine Cp and Cy to
+
+give an optimum fit between the experiments and results of Morison’s
+
+equation.
+
+In a U-tube the period of oscillation T is constant. This corresponds
+to the natural period of the tank (see chapter 3 on U-tube anti-rolling
+tanks). The parameter we can vary is the velocity amplitude Uy. In a
+U-tube
+
+is a constant for each model. One therefore often sees Cp and Cy
+presented as a function of KC for constant f. The results can easily be
+translated to be a function of both KC and Rn.

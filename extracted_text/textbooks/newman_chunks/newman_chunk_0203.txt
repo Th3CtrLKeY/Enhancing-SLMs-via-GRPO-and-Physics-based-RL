@@ -1,0 +1,67 @@
+h kh kx t = ∂ ∂ = + − φ ω ω sinh ( ) cosh sin( ). (26) Once again there is a phase difference of a quarter period between these two velocity components, but because the magnitudes are unequal, the tra­ jectories of fluid particles will be elliptical. The major axis of these ellipses is horizontal, and the velocity distribution is as shown in figure 6.2. Figure 6.7(a) is a time-exposure photograph that shows these trajectories vividly.
+
+Waves and Wave Effects 
+
+From (8) and (24) the phase velocity for finite depth can be expressed 
+in the form
+V
+k
+g
+k
+kh
+p =
+=
+ω /
+[(
+/ )tanh
+]
+.
+/
+1 2 	
+(27)
+This tends to the deep-water limit (18) for kh ≫ 1. The opposite limit, 
+kh ≪ 1, is the regime of shallow-water waves. In this case (27) can be approx­
+imated using the Taylor series for the hyperbolic tangent, and the leadingorder approximation for the phase velocity is
+V
+gh
+kh
+p 
+≪
+(
+)
+,
+.
+/
+1 2
+
+(28)
+The ratio of the phase velocity (27) to the infinite-depth limit (18) is plot­
+ted in figure 6.3, together with the depth-wavelength ratio h/λ. For a fixed 
+value of ω, it follows from (8) and (9) that Vp/Vp∞ = λ/λ∞. Both ratios increase 
+monotonically from zero to one, with increasing depth. If h > 1
+2 λ, the phase 
+velocity and wavelength are essentially equal to their infinite-depth values. 
+Dimensional plots of the phase velocity, period, and wavelength are given 
+by Wiegel (1964) and Le Méhauté (1976).
+In general, the phase velocity (27) depends on the wavenumber and the 
+wavelength. Thus water waves are dispersive, as noted in section 2.3, with 
+long waves traveling faster than shorter waves. The shallow-water limit (28) 
+is an exception, where the phase velocity depends only on the depth, and 
+the resulting wave motion is nondispersive.
+Figure 6.2
+Velocity field of a plane progressive wave in finite depth. The phase velocity and 
+fluid velocity vectors are to the same scale. This example corresponds to the case 
+A/λ = 1/20 and A/h = 1/5.
+
+Chapter 6
+For a fluid of nonuniform depth, these results can be applied locally, 
+provided the change of depth is small over distances comparable to a wave­
+length. If waves of constant frequency propagate from deep to shallow 
+water, as at a beach, it follows from figure 6.3 that the wavelength and 
+phase velocity will decrease. Figure 6.4 illustrates this phenomenon in a 
+small wave tank.
+6.4  Nonlinear Effects
+In this section we shall consider briefly some of the simpler effects neglected 
+in the linearized theory. First the nonlinear free-surface boundary condition 
+Figure 6.3
+Phase velocity, wavelength, and depth ratios of a plane progressive wave. The deepwater limiting values Vp∞ and λ∞ can be determined from equation (18).

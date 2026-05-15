@@ -1,0 +1,74 @@
+the x-, y- and z-directions defined here are opposite the x-, y- and g-directions used in equation (6.44). We can apply equation (6.44) to any offshore structure in a current. However, we should realize that we have assumed infinite, inviscid-and irrotational fluid. As pointed out in the last section this means that there is no hydrodynamic force on the body. This is the reason why equation (6. 44) does not depend on the position of the origin of the coordinate
+
+202 CURRENT AND WIND LOADS
+
+system. The added mass coefficients in equation (6.44) can for instance
+be calculated by the source technique presented in chapter 4.
+
+Another application of equation (6.44) could be to study the behaviour
+of a submarine in steady forward motion in infinite fluid. This means
+that U, = U;=0 and we find
+
+M= e,U,"A3, —e3 UPAy, (6.46)
+Since a submarine has port—starboard symmetry it follows that A,, =0
+and since A3, is generally non-zero it means that the submarine
+experiences a pitching moment. The sign of the moment depends on the
+sign of the coupled added mass coefficient A3, between heave and surge.
+This effect is also important for SWATH (small water plane area twin
+hulls) ships.
+
+We can generalize the way viscous current loads were calculated for a
+ship (see equations (6.26) and (6.27)) to offshore structures that consist of
+slender structural parts. Examples of the latter are columns and pontoons
+of semi-submersibles and of tension leg platforms (TLP). Other
+examples would be risers or cables. This means we decompose the
+current velocity into one component in the longitudinal direction and one
+component in the cross-flow direction of a slender structural part. We
+assume that the longitudinal current velocity component causes only
+shear forces as shown in equation (6.24) for longitudinal drag forces on a
+ship. The cross-flow component causes flow separation. The force on a
+cross-section (strip) due to flow separation can be calculated in a similar
+way to equation (6.26). Thus, the mean force per unit length can be
+written as (see Fig. 6.22)
+
+Fp= £ CpDUy’ (6.47)
+
+FL= - C.LDU,’ (6.48)
+
+Here D is a characteristic cross-sectional length such as the diameter for
+a circular cylinder. Further, Fp is the mean force in the same. direction
+
+as the cross-flow component Uy of the current velocity and Fis the.
+
+mean force orthogonal to Fp in the cross-flow plane. Fy is zero for a
+single body in infinite fluid when the body is symmetric about. an_axis
+parallel to the direction of Uy. Based on equations (6.47) and (6.48) we
+can calculate total current force and moment on the structure. This is
+similar to that shown in equations (6.26) and (6.27) for a ship. The drag
+and lift coefficients Cp and C;, have to be empirically determined.
+Important parameters influencing Cp and Cy are discussed in the section
+on current loads on ships. In addition it should be noted that there may
+
+CURRENT LOADS ON OFFSHORE STRUCTURES 203
+
+be hydrodynamic interaction between structural parts. For instance, if a
+cylinder is placed in the wake behind another cylinder it will experience
+a smaller incident velocity and therefore a smaller drag coefficient if the
+free stream is used to normalize the drag coefficient. This can be
+illustrated by using a theoretical expression for the wake velocities far
+behind a two-dimensional body. According to Schlichting (1979: pp.
+742-3), we can write. the mean wake velocity component u in the
+
+direction of the incident velocity as
+
+taj- a -? 6.49
+Gn} 0.95(—*5) e (6.49)
+where
+71 =3(0.0222CpDx)-? (6.50)
+
+Here U., is the incident velocity.
+
+Un
+
+Fig. 6.22. Definition of force components on a cross-section of a slender
+structural member. (U, = incident current velocity.)

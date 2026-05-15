@@ -1,0 +1,69 @@
+moving along the x-axis with velocity Vp secθ. The restriction (87) can be used to eliminate one of the variables of inte­ gration in (86). Retaining the wave angle θ, and noting that (87–88) require that cosθ > 0, we can replace (86) by the single integral η θ θ θ θ θ π π ( , ) Re ( )exp[ ( )( cos sin )]; / / x z d A ik x z = − + −∫ (89)
+
+Waves and Wave Effects 
+
+for the deep-water case, from (17) and (87),
+k
+g U
+( )
+/
+cos
+.
+θ
+θ
+=
+
+
+(90)
+The corresponding expression for finite depth follows from (24), in combi­
+nation with (87). In either case, the velocity potential corresponding to (89) 
+is of the same general form and can be inferred from (16) or (23).
+The expression (89) is known as the free-wave distribution of a given ship. 
+This is characterized by the amplitude and phase of the complex function 
+A(θ); here A(θ) takes a role analogous to that of the constant A in section 
+6.9. Thus energy arguments can be used to express the wave resistance in 
+terms of the function A(θ), which depends on the shape of the ship hull 
+and its forward velocity. This reduction will be deferred to section 6.12.
+If the distance downstream from the position of the ship is very large, 
+the integral (89) can be simplified and the classical ship-wave pattern will 
+be obtained, as derived by Kelvin in 1887. Strictly speaking this asymptotic 
+approximation should be based upon the stationary-phase approximation 
+of section 6.11. However, the Kelvin wave pattern is of sufficient interest 
+that a heuristic argument will be used in the interim, based on the concept 
+of the group velocity.
+We recall from section 6.7 that in two dimensions wave groups travel 
+with the group velocity Vg = dω/dk. Since the free-wave distribution (89) 
+appears locally as a slowly varying two-dimensional wave system, the 
+same result should hold here. Thus if x′ is a local coordinate, normal to 
+the wave crests as in figure 6.6 and defined with respect to a fixed refer­
+ence frame, the significant waves will travel in groups such that x′/t = Vg is 
+determined by
+d
+dk kx
+t
+(
+)
+.
+′ −
+=
+ω
+
+(91)
+If this expression for the derivative of the phase of the local waves is trans­
+formed into the frame of reference of (89), the significant waves will satisfy 
+the equation
+d
+dk k
+x
+z
+[ ( )( cos
+sin )]
+.
+θ
+θ
+θ
++
+= 0 	
+(92)
+Since k and θ are related by (90), the vanishing of (92) is equivalent to 
+the condition

@@ -1,0 +1,213 @@
+to the case where the ampli­ tude A and direction θ are functions of the position (x, z), if the changes in these quantities are small over distances comparable to a wavelength. The diverging and transverse components of the Kelvin ship-wave sys­ tem are slowly varying in this sense, provided the distance downstream from the ship is large compared to the wavelength. With this caveat, (108) can be used to determine the energy flux of the diverging and transverse waves.
+
+Waves and Wave Effects 
+
+Since the distance downstream is large, the stationary-phase approxima­
+tion (107) can be used to determine the wave amplitude in the form
+A
+A
+RG
+=
+′′
+( ) (
+)
+.
+/
+θ
+π
+
+1 2
+/
+	
+(109)
+With (63) and (88), the group velocity is given by
+V
+V
+U
+g
+p
+=
+=
+
+
+
+
+cos .
+θ 	
+(110)
+Combining these results and setting (108) equal to the negative of the work 
+DU as in (81) yields
+D
+g
+dz
+A
+RG
+=
+(
+)
+′′
+−
+−∞
+∞
+∫
+πρ
+θ
+θ
+θ
+( )
+( )
+cos
+.
+
+
+
+
+
+(111)
+For each lateral position z, the two corresponding wave angles θ of the Kel­
+vin wave system must be determined from (95), and the contribution from 
+each component must be included in (111).
+The coordinate z can be eliminated in (111) by transforming the variable 
+of integration from z to the wave angle θ. Using the relation (94) with x 
+held fixed, we can derive dz/dθ from
+x d
+d
+z d
+d
+dz
+d
+θ
+θ
+θ
+θ
+θ
+θ
+θ
+θ
+θ
+(sec
+sin )
+[sec
+(
+sin
+)]
+[sec
+(
+sin
+)]
+
+
+
+
+
+
+
++
++
+= −
++
+. 	
+(112)
+On the other hand, (106) is to be evaluated with the position (x, z) fixed, 
+and this gives the relation
+RG
+g U
+x d
+d
+z d
+d
+′′
+=
++
++
+{
+}
+( )
+(
+/
+)
+[sec
+sin ]
+[sec
+(
+sin
+)] .
+θ
+θ
+θ
+θ
+θ
+θ
+θ
+
+
+
+
+
+(113)
+Equations (112) and (113) are combined, so that the derivative relating the 
+two variables of integration can be written as
+dz
+d
+RG
+g U
+U
+g
+RG
+θ
+θ
+θ
+θ
+θ
+=
+′′
++
+=
+′′
+−
+(
+/
+)sec
+(
+sin
+)
+cos
+(
+cos
+) .
+
+
+
+
+
+
+
+
+(114)
+Using the last result, we can recast (111) in the relatively simple form3
+D
+U
+A
+d
+=
+−∫
+
+
+
+
+
+
+
+πρ
+θ
+θ θ
+π
+π
+( ) cos
+.
+/
+/
+	
+(115)
+Equation (115) expresses the wave resistance of a moving vessel as the 
+weighted integral of the square of the wave amplitude. The factor cos3θ

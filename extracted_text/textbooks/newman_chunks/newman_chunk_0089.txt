@@ -1,0 +1,91 @@
+on the three space coordinates xi and time t. Replac­ ing the velocity by its potential may at first seem an unnecessary com­ plication, since we can envisage the velocity and measure it with suitable instruments in the laboratory, whereas the velocity potential is no more than a mathematical abstraction. However, the velocity is a vector quantity with three unknown scalar components, whereas the velocity potential is a single scalar unknown from which all three velocity components may be computed.
+
+The Motion of an Ideal Fluid 
+
+Before proceeding to exploit the velocity potential, we must prove first 
+that it is indeed a valid representation of the unknown velocity vector. Our 
+proof will display clearly the importance of assuming that the motion is 
+irrotational. In particular, let us consider the definite integral
+φ( , )
+,
+x
+x
+x
+t
+u dx
+i
+i
+= ∫
+
+(13)
+where the lower limit is some arbitrary constant position x0 and the upper 
+limit is the point x = (x1, x2, x3). This integral is independent of the particu­
+lar path of integration between the points x0 and x, since the difference in 
+the value of any two integrals, between the same two points, is equal to the 
+circulation around the closed path from x0 to x along one path and back to 
+x0 along the other path, which is equal to zero if the fluid motion is irro­
+tational. Thus, the integration in (13) can be performed along any desired 
+path. If we choose a path that approaches the point x along a straight line 
+parallel to the x1-axis, then along this final portion of the path of integra­
+tion uidxi = u1dx1 so that
+∂
+∂
+= ∂
+∂
+=
+∫
+φ
+x
+x
+u dx
+u
+
+
+
+
+
+
+x
+x
+. 	
+(14)
+The remaining portion of the integral, being a constant, does not contrib­
+ute to the derivative. Applying a similar argument for the other two coordi­
+nates, we have in general that
+u
+x
+i
+i
+= ∂
+∂
+φ /
+, 	
+(15)
+or
+V = ∇φ. 	
+(15a)
+Thus, one can assume the existence of a velocity potential, subject only to 
+the requirement that the fluid motion is irrotational.
+If (15) is substituted for the velocity vector in the continuity equation 
+(1), it follows that
+∂
+∂
+∂
+∂
+=
+∂
+∂∂
+=
+x
+x
+x x
+i
+i
+i
+i
+φ
+φ
+
+0, 	
+(16)
+or

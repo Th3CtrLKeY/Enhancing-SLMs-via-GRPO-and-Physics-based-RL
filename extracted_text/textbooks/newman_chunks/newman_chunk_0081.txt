@@ -1,0 +1,75 @@
+/ / 7 8 7 9 0 09 1 7 1 7 72δ. (118) Then from (108) and (117), it follows that δ must satisfy the differential equation 0 0972 0 0227 1 4 . . ( / ) . / d dx U δ δ ν = − (119) Multiplying both sides by δ1/4, and integrating, we have δ ν 5 4 1 4 0 292 / / . ( / ) , = + U x C (120)
+
+Chapter 3
+where the constant of integration must be determined from the initial 
+thickness δ at the point of transition from laminar to turbulent flow. If the 
+Reynolds number is sufficiently high, or if turbulence is induced near the 
+leading edge by studs or other devices, then we can set C = 0 in (120) and 
+obtain the relations
+δ =
+−
+0 373
+1 5
+.
+,
+/
+x Rx
+	
+(121)
+θ =
+−
+0 0363
+1 5
+.
+,
+/
+x Rx
+	
+(122)
+τ
+ρ
+
+
+1 5
+0 0290
+=
+−
+.
+,
+/
+U Rx
+	
+(123)
+δ*
+.
+.
+/
+=
+−
+0 0467
+1 5
+x Rx
+	
+(124)
+Here Rx = Ux/ν, and the last result for the displacement thickness δ* follows 
+from a straightforward integration from 0 to δ using (55).
+By comparison with the laminar boundary layer, which increases in 
+thickness with distance downstream at a rate proportional to x1/2, the turbu­
+lent boundary layer has a faster rate of growth, proportional to x4/5 accord­
+ing to the 1/7-th power assumption.
+3.20  Roughness Effects on Turbulent Boundary Layers
+So far we have assumed that the flat plate is hydraulically smooth. Marine 
+vessels may be roughened either by features of their fabrication, such as 
+welding seams or rivet heads, or by the inevitable marine fouling that accu­
+mulates in service. Thus, it is appropriate to discuss the effects of roughness 
+and the extent to which a distinction can be made between rough and 
+smooth surfaces.
+To introduce roughness into the boundary-layer theory, we must define 
+a scale of roughness, say the height k of the roughness elements. The sig­
+nificance of the roughness can be estimated then in terms of the magnitude 
+of k relative to the dimensions of the boundary layer. If k is small compared 
+to the height of the viscous sublayer, the plate is effectively smooth and the 
+frictional drag independent of k. In the other extreme, if k is large compared 
+to δ, the boundary layer will be unimportant by comparison to the form 
+drag resulting from the roughness elements, which in turn will be essen­
+tially independent of the Reynolds number.

@@ -1,0 +1,105 @@
+b a a b O = +     πρ log ( ) . Compare this approximation with the exact result shown in figure 4.8. 4. Following the approach outlined in problem 3, estimate the heave added mass of the spar buoy shown in figure 2.16 with (1) the rigid free-surface approximation and (2) the infinite-frequency approximation as illustrated in figure 6.22. Compare these results with each other and with the observed shift in resonance in figure 2.16.
+
+Chapter 7
+5. Show that the pitch and roll motions of a slender spar buoy are resonant 
+unless the centers of gravity and buoyancy coincide.
+6. Explain the distinction between maneuverability and stability. In what 
+sense do these conflict?
+7. Assume that a ship has elliptical sections and that the planform is a quad­
+rilateral with draft T(x) = T0 − αx and vertical ends. Estimate the change in 
+the derivatives in table 7.2 due to a small trim angle α and the effect of 
+this trim angle on the stability parameter C. If xG = 0, CB = 0.7, T/L = 0.05 
+and B/T = 2.5, show that the ship will be stable if the bow-up trim angle is 
+greater than 0.7 degrees.
+8. Using the same assumptions as in the derivation of equations (60–61) 
+derive the linearized equations of motion for a submarine in the vertical 
+plane. Include a static stabilizing moment kθ where θ is the pitch angle. 
+Show that the analogue of (72) for the stability roots is
+A
+B
+C
+k m
+F
+U
+k
+F
+U
+σ
+σ
+σ
+
+
+
+
+
+
++
++
++
+−∂
+∂
+−
+∂
+∂
+[
+(
+/
+)]
+(
+/
+).
+
+Show that the submarine will be stable at all speeds if C > 0, and at low 
+speeds if C < 0.
+9. Using the hydrodynamic derivatives for a streamlined body of revolution 
+with fore-and-aft symmetry without lifting surfaces, show that the critical 
+speed for a submarine to become unstable is
+U
+k m
+m
+m
+m
+m
+m
+g y
+y
+crit
+B
+G
+=
++
+−
++
+
+
+
+
+−
+(
+)
+(
+)(
+)
+[
+(
+)]
+/
+/
+
+
+
+
+1 2
+1 2
+
+where the approximation is valid if the body is slender.
+10. Develop the linearized equations of motion for roll, pitch, surge, and 
+sway for an oceanographic research buoy falling with constant vertical 
+velocity U2, assuming that it is symmetrical about the x, y, and z axes, 
+except for the center of gravity which is at a position yG below the centroid. 
+What is the maximum terminal velocity for stability of the vessel in this 
+orientation, assuming m11 = m33 > m22?
+11. Calculate the relative error incurred by the approximation (109) of the 
+Froude-Krylov force for a rectangular and triangular section in head seas of 
+various wavelengths. Confirm the statement following (109) regarding the 
+magnitude of this error.

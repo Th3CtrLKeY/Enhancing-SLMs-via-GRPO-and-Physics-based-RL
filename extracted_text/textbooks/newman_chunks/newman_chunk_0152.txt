@@ -1,0 +1,67 @@
+veloc­ ity on or near the real axis will come from the immediate vicinity of the source. Near this point, the net outward flux away from the real axis must equal the source strength, in agreement with (57). On the other hand, the source will induce a horizontal velocity all along the real axis, of magni­ tude inversely proportional to the distance x − ξ and thus a distribution of sources will give a total horizontal velocity consistent with (56).
+
+Lifting Surfaces 
+
+For the vortex distribution (55), the velocity components on the cut are 
+given by
+u
+x
+x
+±
+=
+( )
+( ),
+∓1
+2 γ
+	
+(59)
+v
+x
+d
+x
+±
+−
+= −
+−
+( )
+( )
+.
+
+
+
+
+π
+γ ξ
+ξ
+ξ
+−∫
+	
+(60)
+The same pair of equations was derived earlier (29–30) using real vari­
+ables. The conjugate nature of these results is apparent, relative to (56–57). 
+In particular, the velocity components (u, v) of a source distribution are 
+identical to the conjugate pair (v, −u) of the vortex distribution, except for 
+the change in notation of the singularity strength. Thus, in the lifting prob­
+lem, the local vortex strength γ can be related to the jump in tangential 
+velocity at the same point on the mean-camber line, but not to the normal 
+velocity.
+5.7  Singular Integral Equations
+To solve the lifting problem with prescribed foil geometry or a given v(x) on 
+the cut, it is necessary to determine the vortex strength γ from the integral 
+equation (60). Physically, each vortex element along the cut contributes to 
+the net vertical velocity at any other point on the cut, and the problem is to 
+find the appropriate distribution of vortices that induce a prescribed value 
+of v(x). Equation (60) is a singular integral equation because the kernel, or 
+known part of the integrand, is singular.
+The literature on the solution of singular integral equations is extensive; 
+see, for example, the monograph of Muskhelishvili (1953) and a section 
+in the text by Carrier, Krook, and Pearson (1966). Here we shall construct 
+the solution in a manner that exploits our physical understanding of the 
+thickness problem and the conjugate nature of the source and vortex 
+distributions.
+Figure 5.14 indicates the linearized boundary-value problem appropri­
+ate to each physical situation. The vertical velocity component v+ denotes 
+the normal velocity on the upper surface of each body, which is assumed 
+known from the boundary conditions (20–21). From the appropriate sym­
+metries, v(x, y) is an odd function of y in the thickness problem, and hence 
+in this case v(x, 0) = 0 on the real axis outside the cut. Conversely, for the

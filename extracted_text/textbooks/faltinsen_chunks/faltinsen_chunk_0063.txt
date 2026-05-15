@@ -1,0 +1,103 @@
+systems, analysis of offshore loading systems, evaluation of towing of large gravity platforms from the fabrication site to the operation site, added resistance of ships in waves, performance of submarines close to the free-surface and analysis of slowly oscillating heave, pitch and roll of large-volume structures with low waterplane area. Sum frequency forces can excite resonant oscillations of TLPs in heave, pitch and roll. This is referred to as ‘springing’ in the literature and can contribute to fatigue of tethers.
+
+132 SECOND-ORDER NON-LINEAR PROBLEMS
+
+The order of magnitude of mean wave forces relative to linear
+first-order wave forces can be exemplified by results presented by Zhao
+ét al. (1988) for a hemisphere floating in the free-surface. Incident
+regular waves with wave amplitude €, were studied in a limited
+frequency range. By translating the results to a full-scale diameter of
+50 m we find the linear wave excitation forces to be about 10*f, (KN)
+while the horizontal drift force is about 10?€,? (kN). For a wave
+amplitude of 1 m the linear wave excitation forces are 100 times larger,
+and for a wave amplitude of 10m the first-order force is about 10 times
+larger, than the mean wave forces. Since mean wave forces and moments
+are small, a high degree of accuracy is needed both in the calculations
+and i in the experiments. The results are sensitive to wave heading, ‘body
+form,. body motion, wavelength and wave height. In irregular seas the
+second-order loads are also sensitive to the width of the wave spectrum,
+i.e. the wave frequency range with significant wave energy.
+
+ability to cause waves. The consequence of this is that drift forces we
+
+small in a potential flow model when mass forces dominate. This occurs
+for semi-submersibles. However, viscous effects may also contribute to
+drift forces. This is a third-order effect that will briefly be discussed later
+in the chapter. Let us try to give a simple explanation of why we get a
+mean wave force on a structure in regular incident harmonically
+oscillating waves. For a surface piercing body a major contribution to the
+horizontal mean wave force is due to the relative vertical motion between
+the structure and the waves. This causes some of the body surface to be
+part of the time in the water and part of the time out of the water.
+Examining the pressure in one of the points in this surface zone, it is
+obvious from Fig. 5.1 that the result is a non-zero mean pressure even in
+regular harmonically oscillating waves. If the relative vertical motion
+differs around the waterline, the result is a non-zero mean force. This
+occurs for large-volume structures where the incident waves are modified
+by the structure. However, there are also other contributions. We get
+one of them by averaging the quadratic term in Bernoulli’s equation.
+
+Pressure
+
+Partly in
+or out
+of water Non-zero
+=> mean force
+—_—P il
+Gut of the"?
+water
+
+Fig. 5.1. Horizontal mean wave force contribution due to pressure forces on
+the free-surface zone of a structure.
+
+SECOND-ORDER NON-LINEAR PROBLEMS 133
+
+A simple way to illustrate the presence of non-linear wave effects is to
+consider the quadratic velocity term in Bernoulli’s equation for the fluid
+pressure. We can write this term as
+
+-Evp+V2+V3)= —F iver (1)
+
+where V=(V,, V2, V3) is the fluid velocity vector. We emphasize that
+equation (5.1) provides only one of the non-linear effects. Other
+contributions may be equally important.
+
+Consider an idealized sea state consisting of two wave components of
+circular frequencies w, and w2. An approximation for the x-component
+of the velocity'can be written formally as
+
+V, =A, cos(w,t + €;) + Az cos(@2t + €2) (5.2)
+
+By algebra it now follows that
+
+A,’
++—) cos(2@ t + 2€,)
+
+_e 2= 2 (4r Ay
+M1 27272
+
+A 2
+
++ > cos(2w.2t + 2€)
+
++A,A; cos[(@; — @2)t + €; — €2)
+
++ A,A, cos[(@, + w2)t + €, + el] (5.3)
+
+This means that we have the presence of a constant term represented by
+—0.5p (A;?/2 + A,?/2) and a pressure term which oscillates with the
+difference frequency @, — @2. For a more realistic representation of the
+seaway, and considering the wave as the sum of N components of
+different circular frequencies w,, we will find pressure terms with
+difference frequencies w;— w,, (k,j =1,N). These non-linear interaction terms produce. slowly-varying. excitation forces and moments which
+may cause resonance - oscillations in the surge, sway, and yaw motions of
+a moored structure. Typical resonance periods are 1—2 minutes.
+
+Equation (5.3) also tells us that non-linear effects can create excitation
+forces with frequencies higher than the dominant frequency components
+in a wave spectrum, This is due to terms oscillating with frequencies
+2a, 2w, and (w,+@.). These may be important for exciting the
+resonance oscillations in the heave, pitch and roll for TLPs. Typical
+resonance periods are 2~4s. The restoring forces for the TLP are due to
+the tethers and the mass forces due to the structure. In the following text
+we will start by discussing mean wave loads.

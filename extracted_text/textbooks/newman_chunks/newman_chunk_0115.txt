@@ -1,0 +1,88 @@
+SC plus the rate of flux of momentum across SC. Thus F F n n B C S t S n dS d dt d d dt dS t d C B + + ∂ ∂∇ = − ∇ = − − ∂ ∂ ∫∫ ∫∫∫ ∫∫ ρ φ φ ρ φ ρ φ ρ φ  ( ) S SC∫∫ . (91) If Bernoulli’s equation is used as in (83) to evaluate FC, (90) follows directly. Similarly, the relation
+
+The Motion of an Ideal Fluid 
+
+∇×
+=
+×
+∫∫∫
+∫∫
+Q
+n
+Q
+d
+dS
+
+(
+)
+	
+(92)
+can be used to derive from (84) an alternative expression for the moment 
+in the form
+M
+r
+n
+r
+n
+= −
+×
+−
+× ∂
+∂∇−
+∇⋅∇
+
+
+
+
+∫∫
+∫∫
+ρ
+φ
+ρ
+φ
+φ
+φ
+φ
+d
+dt
+dS
+n
+dS
+S
+S
+B
+C
+(
+)
+.
+
+
+(93)
+Equations (90) and (93) express the hydrodynamic pressure force and 
+moment acting on the body surface SB in an alternative form to the direct 
+pressure integrals (83–84). By comparison with the latter, (90) and (93) 
+involve a simpler integral over the body surface but an additional integral 
+over the control surface surrounding the body. At first glance, the advan­
+tage of the new equations is not apparent—indeed they might appear more 
+complicated. In practice, however, the flexibility afforded by the freedom 
+to choose the control surface in an optimum manner often simplifies the 
+computation of the force and moment. This is the principal justification for 
+the analysis required to derive (90) and (93).
+By virtue of (89), the control surface SC could be placed within the body, 
+in deriving (90) from (88), and similarly in (93). The only restriction here 
+is that SC must remain exterior to any singularities within the body, but it 
+may be arbitrarily close to these singularities. On this basis one can derive 
+the Lagally theorem for the force and moment, in terms of products of the 
+singularity strengths and gradients of the velocity potential at the points of 
+location of the singularities. Details are given by Cummins (1957), and by 
+Landweber and Yih (1956), and reviewed by Milne-Thomson (1968).
+Conversely, the evaluation of the integrals over SC may be simplified by 
+removing this control surface to the far field, where the details of the flow 
+past the body are unimportant. This procedure will be followed in the next 
+section, where we analyze the case of a rigid body moving in an otherwise 
+infinite and unbounded fluid. For this particular problem, the integrals 
+over SC are simplified to the ultimate extent where they vanish!
+4.13  Force on a Moving Body in an Unbounded Fluid
+Now let us consider the hydrodynamic force and moment acting on a rigid 
+body, which moves in an arbitrary manner in an otherwise unbounded 
+fluid. In this case the contributions from the integrals over the control

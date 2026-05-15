@@ -1,0 +1,95 @@
+than its infinite-depth limit, at an intermediate depth where h/λ is about 0.2. That individual waves move faster than the group implies that in a wave system with a front, propagating into otherwise calm water, the individual waves will overtake the front and vanish. This phenomenon can be observed in a wave tank by starting the wavemaker from rest at a Figure 6.9 Phase velocity and group velocity ratios for a plane progressive wave as a function of the depth.
+
+Waves and Wave Effects 
+
+given frequency so that a group of waves will propagate down the tank as 
+shown in figure 6.10. The front of the group moves at a slower velocity 
+than the individual wave crests behind it, and these crests appear to vanish 
+as they approach the front. After the wavemaker is turned off, the “back” 
+of the wave system moves with the group velocity; thus “new” waves that 
+move with the phase velocity must arise from calm water at the back. At 
+first glance it appears that the energy within the wave system is destroyed 
+in some sense, contrary to the principal of conservation of energy. In 
+fact, there is no contradiction, since the wave energy moves not with 
+the phase velocity but with the group velocity. To confirm this statement 
+requires an analysis of the wave energy and an alternative approach to the 
+group velocity based upon the rate of energy flux in a plane progressive 
+wave system.
+6.8  Wave Energy
+Water waves are the result of a balance between kinetic and potential energy 
+in the fluid, and the total energy is the sum of these two components. Thus, 
+in a prescribed volume , the total energy is given by the integral
+KE
+PE
+V
+gy d
++
+=
++
+
+
+
+
+∫∫∫
+ρ
+
+
+
+
+
+. 	
+(65)
+First, we will focus attention on a vertical column, extending throughout 
+the depth of the fluid and bounded above by the free surface; the energy 
+density E, per unit area of the mean free surface above this column, is 
+given by
+E
+V
+gy dy
+V dy
+g
+h
+h
+h
+=
++
+
+
+
+
+=
++
+−
+−
+−
+∫
+∫
+ρ
+ρ
+ρ
+η
+η
+η
+
+
+
+
+
+
+
+
+
+
+(
+). 	
+(66)
+The potential energy −1
+
+
+ρgh  of the fluid below the equilibrium plane 
+y = 0 is of no interest, since this is a constant unrelated to the wave motion. 
+(Moreover, this term is a source of embarrassment in the limit h → ∞!) There­
+fore this contribution to (66) is omitted from the subsequent equations.
+For plane progressive waves in infinite depth, the energy density can be 
+computed using the results of section 6.2. Substituting (19–20) in the last 
+integral in (66) and carrying out this integration over the depth yields

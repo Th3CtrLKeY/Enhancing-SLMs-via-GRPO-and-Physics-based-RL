@@ -1,0 +1,54 @@
+You are an expert professor of Marine Hydrodynamics and Naval Architecture.
+
+PASSAGE:
+---
+{passage}
+---
+
+SOURCE: {source}
+
+### Task:
+Generate exactly 5 high-quality, graduate-level question-answer pairs based on the subject matter in the passage.
+
+Distribution Required:
+- 2 CONCEPTUAL questions (explain a concept, derive a relationship, or describe physical intuition).
+- 2 NUMERICAL questions (calculate a value, apply a formula, or solve a quantitative problem).
+- 1 MCQ (multiple-choice question with 4 options A–D, indicate the correct answer).
+
+### CRITICAL RULES (MUST FOLLOW STRICTLY):
+1. **NO CONTEXT LEAKAGE (STRICTEST RULE)**: Do NOT use phrases like "According to the passage", "The text mentions", "Based on the provided context", or "The excerpt states". You must act as an omniscient domain expert stating facts directly.
+2. **NUMERICAL VALIDATION**: The `chain_of_thought` MUST contain explicit mathematical calculations, the exact formulas used, and step-by-step arithmetic. If the passage provides a formula but no numbers, you MUST invent realistic, domain-appropriate numerical values to create a fully solvable problem. NEVER generate a problem that lacks sufficient data to solve.
+3. **MCQ VALIDATION**: You MUST provide an `options` dictionary with plausible distractors, state the correct option clearly in the `answer` field, and provide a full `explanation` justifying why it is correct.
+4. **SELF-CONTAINED**: Questions must be entirely self-contained. All variables, acronyms, and constants must be explicitly defined within the question prompt.
+5. **JSON ONLY**: Respond ONLY with raw, valid JSON. Do NOT wrap your response in ```json ... ``` markdown tags. The first character of your output must be `{` and the last must be `}`. No conversational filler.
+
+### Output Format (Strict JSON):
+{
+  "qa_pairs": [
+    {
+      "type": "numerical",
+      "question": "...",
+      "chain_of_thought": "Explicit mathematical calculations and exact formulas here. NO context leakage.",
+      "answer": "..."
+    },
+    {
+      "type": "conceptual",
+      "question": "...",
+      "chain_of_thought": "Step-by-step physical reasoning here. NO context leakage.",
+      "answer": "..."
+    },
+    {
+      "type": "mcq",
+      "question": "...",
+      "chain_of_thought": "Step-by-step reasoning here. NO context leakage.",
+      "answer": "...",
+      "options": {
+        "A": "...",
+        "B": "...",
+        "C": "...",
+        "D": "..."
+      },
+      "explanation": "..."
+    }
+  ]
+}

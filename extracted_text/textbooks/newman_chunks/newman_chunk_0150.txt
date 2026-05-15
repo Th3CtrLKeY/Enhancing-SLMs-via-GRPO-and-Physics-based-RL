@@ -1,0 +1,114 @@
+in section 4.7, with z = x + iy. The complex potential of a source is given in table 4.1, and that of a vortex by (23). The combination of these two singularities, situated at the point (ξ, 0), is φ ψ π γ ξ + = − − i q i z 2 ( )log( ). (50) Here q is the source strength and γ is the vortex strength. Differentiation with respect to z gives the corresponding complex velocity
+
+Lifting Surfaces 
+
+u z
+iv z
+q
+i
+z
+( )
+( )
+(
+)
+.
+−
+= −
+−
+−
+
+
+
+π
+γ ξ
+	
+(51)
+If (51) is rewritten in polar coordinates, centered at the singular point (ξ, 0), 
+then q is the rate of flux of fluid passing radially outward through a circle of 
+constant radius, and γ is the circulation around the contour.
+To represent a two-dimensional hydrofoil, these singularities are distrib­
+uted continuously along the cut −l/2 < x < l/2 of the x-axis, with an arbi­
+trary source strength q(ξ) and vortex strength γ(ξ). To simplify the following 
+equations, the coordinates will be nondimensionalized so that l = 2. Then 
+the complex velocity of this distribution is
+u z
+iv z
+q
+i
+d
+z
+( )
+( )
+[ ( )
+( )]
+.
+−
+= −
+−
+−
+−∫
+
+
+
+
+π
+ξ
+γ ξ
+ξ
+ξ
+	
+(52)
+If the point z = x + iy is close to the boundary y = 0, the values of u and 
+v on the foil surface can be calculated. For this purpose we let z → x ± i0, 
+corresponding to the limiting values on the upper and lower surfaces of 
+the foil. Since there is a pole at the point z = ξ. some care is necessary. The 
+point z may approach the real axis from above or below if the contour of 
+integration in (52) is deformed to remain on the original side of the pole, 
+as shown in figure 5.13. Then, from the calculus of residues, the integral 
+is equal to a principal-value integral along the real axis, plus or minus one 
+half of the residue at the singular point ξ = x (see Hildebrand 1976, section 
+10.15). Thus the limiting values of the velocity components on the upper 
+or lower surfaces of the cut are given by
+u
+x
+iv
+x
+q
+i
+d
+x
+i q x
+i
+x
+±
+±
+−
+−
+= −
+−
+−
+−
+( )
+( )
+[ ( )
+( )]
+[ ( )
+( )],
+
+
+
+
+
+
+π
+ξ
+γ ξ
+ξ
+ξ
+γ
+∓
+−∫
+	
+(53)
+Figure 5.13
+Equivalent contours of integration as the point z approaches the real axis.

@@ -1,0 +1,102 @@
+By a Taylor expansion we can write 2b _ oo & 2,2 : Bz Bz leg az? long * OV *? Lahn -Further, for slamming to have any practical meaning n,;<n; and ~ —1. This means the boundary condition is approximately ag Be Von z=0 when Ve/c(t) is small. The boundary-value problem that we have to Ly WATER Fig. 9.4. Deformation of the free-surface and formation of an air pocket during entry of a body with a horizontal flat bottom.
+
+286 WATER IMPACT AND ENTRY
+
+solve at every time instant is illustrated in Fig. 9.5. A solution to this
+problem may be found in many text-books (see for instance Newman,
+1977 on p. 122). We can write the velocity potential on the body as
+
+p=-V(cer-x)t, |x| <c(t) (9.1)
+
+The pressure on the body follows from Bernoulli’s equation. However,
+we have to be consistent. In formulating the body boundary condition we
+neglected terms because V¢/c(t) is small. The same has to be done when
+evaluating the pressure p. The pressure can be written as
+
+ap p
+=—-—p—— pgz-=V°V+C
+p PO pee — 5
+where C is a constant. The slamming occurs over a small time instant.
+This means the rate of change of @ with time is generally larger than the
+rate of change of @ with respect to x and z. We may therefore neglect
+
+_Py.y= ~2 ((22)' + (2))
+2Y M 2 \\ dx dz
+relative to —p O/dt. Further, since the submergence of the body is
+
+small we may also neglect the hydrostatic pressure term — pez telative to.
+—p d@/at. We may therefore approximately write the hydrodynamic
+
+pressure
+
+__,9¢_ oy, _¢ de 9.2
+p=~P ar PY ax dt 0.2)
+
+The corresponding vertical force on the body is
+de
+
+© © dx = ( a *)
+= =pVe | ~~ =v—(p= 9.3
+Ps=[ pax pve | ao Var \P2° (9.3)
+
+We note that p(z/2)c” is the added mass in heave of the flat plate when :
+‘@=>, This is half the added mass for the flat plate in infinite fluid. We ..
+will now illustrate how we can find the wetted body length (~2c(¢)) fora °
+
+circular cylinder and a wedge.
+
+q
+
+(c(t),0)
+
+Fig. 9.5. Boundary value problem in simplified analysis of impact between a
+two-dimensional body and water.
+
+SLAMMING 287
+
+Case 1. Circular cylinder
+We will assume the wetted length can be measured from the calm water
+level. By geometry it follows that
+
+c(t) = 2VtR — V2? (9.4)
+
+where R is the cylinder radius. By using equations (9.3) and (9.4) and a
+definition of a slamming coefficient C,, it follows that
+
+C =—f3 =
+*4pV?2R (9.5)
+
+at the initial time of impact. It is well known that C, is larger in
+experiments. For instance, Campbell & Weynberg’s (1980) experimental
+value of C, is 5.15 at the time of impact. If equation (9.3) for the force is
+correct, it indicates that the wetted ul
+analyse this by following Wagner’s (1932) approach. The previous
+approach is referred to as von Karman’s (1929) solution.
+
+The first step is to find an expression for the free-surface elevation.
+From the solution of the boundary-value problem illustrated in Fig. 9:5
+it follows that
+
+op Vx
+ae Vey © M204 > cw) O (9.6)
+
+: The free-surface elevation 7 relative to the bottom of the cylinder can
+»- then be written as
+
+‘ Vx
+1 j Ver omy (9.7)
+
+This has to be equal to v(x) which is the vertical coordinate of a point
+on the cylinder relative to the bottom of the cylinder (see Fig. 9.3). This
+means
+
+=f —#O
+Nyx) = ; Vie — cD] dc (9.8)
+
+M(c) = V dt/de (9.9)
+
+We do not know u(c). Equation (9.8) is therefore an integral equation
+that determines y(c). When y(c) is found we can use equation (9.9) to
+find c as a function of time. We will try to find an approximate solution
+
+Here Ay and A, are unknown constants. By integrating the right hand

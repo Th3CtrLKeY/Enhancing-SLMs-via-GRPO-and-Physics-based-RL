@@ -1,0 +1,97 @@
+x S x d dx z h l l = − ′ ′ − ∫ ∫ ρ π ξ ξ ξ 2 1 2 ( ) [ ( )] ( )log . / (150) In the supercritical case, (142) can be substituted directly in (147–148), and thus for Fh > 1, F U h F B x S x dx y h l = − − ′ ∫ ρ 1 2 ( ) ( ) ( ) , / (151)
+
+Chapter 7
+M
+U
+h F
+B x S x xdx
+z
+h
+l
+= −
+−
+′
+∫
+ρ
+
+
+1 2
+
+
+(
+)
+( ) ( )
+.
+/
+	
+(152)
+The “sinkage” and “trim” of a ship moving in shallow water can be com­
+puted by equating the vertical force and pitch moment to the hydrostatic 
+restoring force and moment (6.144) and (6.149). The resulting calculations 
+are of practical importance in predicting the “squat” of a ship, and ulti­
+mately the occurrence of grounding due to increased draft. A comparison of 
+these calculations with experiments is given by Tuck (1966) and reproduced 
+in figure 7.10. The theory is invalid near the critical Froude number Fh = 1, 
+but in other respects it agrees fairly well with the experiments. For typical 
+ships the vertical “sinkage” is the dominant effect in the subcritical regime, 
+whereas “trim” is dominant in the supercritical regime. These conclusions 
+follow immediately if one assumes fore-and-aft symmetry (see problem 15).
+Figure 7.10
+Sinkage and trim of a ship in shallow water vs. the Froude number (127). The solid 
+lines are experimental values, and the dashed lines are theoretical predictions ob­
+tained from (149–152). (From Tuck 1966)
+
+Hydrodynamics of Slender Bodies 
+
+Various generalizations have been made of the original treatment by 
+Tuck (1966). For example, Beck, Newman, and Tuck (1975) treat the case of 
+a ship in a “dredged channel,” bounded on the sides by shallow water. An 
+interesting special case occurs when the flow in the channel is subcritical 
+while the flow in the shallow regions is supercritical. Other related prob­
+lems are discussed by Beck (1977) and Tuck (1978), and in references cited 
+in these papers.
+In the transcritical regime Fh ≃ 1, the linearized shallow-water approx­
+imation (125–126) is invalid. An appropriate nonlinear theory has been 
+developed by Lea and Feldman (1972), and generalized by Mei (1976) to 
+include dispersion as well as nonlinearities.
+Problems
+1. Derive from (26) the form of the outer potential at large distances from 
+a body in longitudinal motion. Compare this result with (4.123) and show 
+that the longitudinal added-mass coefficient is small compared to the dis­
+placed mass of the body.
+2. Using the strip-theory results (40–42), compute the added mass and 
+added moment of inertia for a slender spheroid of length 2a and maximum 
+diameter 2b. Compare the results with figure 4.8, and find the values of a/b 
+where these approximations are in error by 10 percent of the exact value. 
+Does a spheroid satisfy the restrictions on the behavior of the sectional-area 
+curve at the two ends that have been assumed in deriving the slender-body 
+theory?
+3. Using (35), derive an integral representation for the longitudinal added 
+mass of a slender spheroid. Show that as b/a → 0, the dominant term in this 
+expression is equal to
+m
+b
+a
+a
+b
+O
+
+
+
+
+
+=
++
+
+
+
+
+πρ
+log
+( ) .
+Compare this approximation with the exact result shown in figure 4.8.
+4. Following the approach outlined in problem 3, estimate the heave added 
+mass of the spar buoy shown in figure 2.16 with (1) the rigid free-surface 
+approximation and (2) the infinite-frequency approximation as illustrated 
+in figure 6.22. Compare these results with each other and with the observed 
+shift in resonance in figure 2.16.

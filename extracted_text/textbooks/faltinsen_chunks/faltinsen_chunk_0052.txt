@@ -1,0 +1,114 @@
+on the segment from positive values. We translate this information to equation Oz distribution | \+— single Source approxi mation 4.900 a + \ \ \ \ —L 0.0 -2.000 i + \ \ \ \ \ \ z 11000 -2500 0.0 2.000 4000 Fig. 4.3. z-variation of the vertical velocity 9¢/dz induced at y = 3 due toa line distribution of two-dimensional sources of constant strength 27 distributed between y = 0 and y = 1 on the y-axis.
+
+108 NUMERICAL METHODS
+
+(4.8) by considering the coordinate system used in equation (4.14) as a
+local coordinate system for each element. This means that the normal
+velocity on an element induced by the element itself is equal to z.
+Another way of saying this is that the diagonal terms A; in equation
+system (4.9) are all equal to z.
+
+From equation (4.15) we note that d6/dy—> © at the end points (0, 0)
+and (0,1) of the segment. This is not a physical phenomenon. It is a
+consequence of approximating the body by straight line elements and
+assuming that the source density is constant over each element.
+However, it illustrates that care should be shown when evaluating fluid
+behaviour in the vicinity of the body.
+
+Symmetry and antisymmetry properties
+
+It is possible to reduce the equation system (4.8) by considering
+symmetry properties of the source density. The source density is
+symmetric about the z-axis because the body is symmetric about the
+z-axis and is forced to oscillate in heave. This can be shown by noting
+that the flow is symmetric about the z-axis, i.e. that the y-components of
+the velocities induced by two sources symmetric about the z-axis have to
+cancel each other along the z-axis.
+
+Equation system (4.8) can be further reduced by using the fact that the
+source density is antisymmetric about the y-axis. The reason is that the
+body is symmetric about the y-axis and is forced to oscillate in heave.
+Along the y-axis there is only a vertical velocity component. This means
+the velocity potential is a constant along the y-axis. By setting this
+constant equal to zero, we see from (4.8) that the source density has to be
+antisymmetric about the y-axis in order for the velocity potential to be
+zero along the y-axis.
+
+By using symmetry and antisymmetry properties we have been able to
+reduce equation system (4.8) from a 16 x 16 system to a 4 x 4 equation
+system. Even if we only satisfy the boundary condition for four points,
+we must remember to calculate the influence of all 16 segments on each
+of the four points when we set up the equation system.
+
+In the problem studied above it is not necessary to use a source
+technique. The velocity potential is well known and can be written as
+
+R?
+¢ =|n3| @ cos aot cos 8 (4.17)
+
+However, analytical solutions cannot be found for general body shapes
+and numerical methods are then necessary.
+
+One may wonder how equations (4.5) and (4.17) could represent the
+same solution. For instance, when r—>, @—>0 according to equation
+(4.17). It is not evident that equation (4.5) has a similar behaviour.
+However, this can be shown by using the fact that the source density is
+
+SOURCE TECHNIQUE 109
+
+antisymmetric about the y-axis and that the distance away from the body
+is large compared with the cylinder radius. Let us show this by
+considering two source elements on a body that is symmetric about the
+y-axis. We can write their contribution to the velocity potential as
+
+q(s) ds[log((y — (s)’ +(e — &(s)))
+— log((y — n(s)) + (2 + &(s)))2] (4.18)
+
+The term in brackets can be expanded in a Taylor expansion about
+n=0, € =0 by considering the field point (y, 2) to be fixed and n and €
+to be variables. We find the following expression
+
+[log(y? + 2”)3 — log(y? + 2”)2]
+
+~~ ~y 8% z
++m] en zeal dss real
++...=-226/(y?+27)4+...
+
+Since r = (y? + 2”) is assumed large and € is small relative to 7, the rest
+of the terms in the Taylor expansion are negligible relative to
+—226/(y? + 2”). By-using z = —r cos @, we find that (4.18) can be written
+
+cos @
+
+20(s)q(s) ds
+
+r
+
+This is of the same form as (4.17).
+
+Three-dimensional source technique with wave effects
+We will show how source technique can be used to analyse linear
+wave-induced motions and loads on large-volume structures. A ship will
+be used as an example, and we will start out showing how to find the
+added mass and damping in heave. It is assumed that the ship has zero
+forward speed.
+The velocity potential @ is determined from the following equations:
+
+ap vo ap _,_ in the fluid domain
+
+=> + =0 4.19
+Ox? * oy? Az? onz=0 (4.19)
+og outside the mean position
+
+-w? —= 4.20
+wore oz 0 of the ship surface ( )
+
+og =n dn; on the mean position (4.21)
+
+on dt of the ship surface
+
+op
+
+De =0 on s=-—h for finite water depth (4.22)
+
+[Vo|—0 when z—--~© for infinite water depth

@@ -1,0 +1,1168 @@
+[Page 1]
+Lecture 17 
+- Marine Hydrodynamics 
+Lecture 17 
+4.6 Laminar Boundary Layers 
+Uo 
+L 
+u, v viscous flow 
+δ 
+y 
+x 
+U potential flow 
+4.6.1 Assumptions 
+∂ 
+• 2D ﬂow: w, 
+≡ 0 and u (x, y) , v  (x, y) , p  (x, y) , U  (x, y).
+∂z 
+∂ 
+• Steady ﬂow: 
+≡ 0. 
+∂t 
+• For δ <<  L, use local (body) coordinates x, y, with x tangential to the body 
+and y normal to the body. 
+• u ≡ tangential and v ≡ normal to the body, viscous ﬂow velocities (used inside 
+the boundary layer). 
+• U, V ≡ potential ﬂow velocities (used outside the boundary layer). 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+ 
+ 
+ 
+ 
+4.6.2 Governing Equations 
+• Continuity 
+∂u 
+∂v 
++ 
+= 0 
+(1)
+∂x 
+∂y 
+• Navier-Stokes: 
+∂u 
+∂u 
+1 ∂p 
+∂2u
+∂2u 
+u 
++ v 
+= − 
++ ν 
++ 
+(2)
+∂x
+∂y 
+ρ ∂x  
+∂x2 
+∂y2 
+∂v 
+∂v 
+1 ∂p 
+∂2v
+∂2v 
+u 
++ v 
+= − 
++ ν 
++ 
+(3)
+∂x
+∂y 
+ρ ∂y  
+∂x2 
+∂y2 
+4.6.3 Boundary Conditions 
+• KBC 
+Inside the boundary layer: 
+No-slip u(x, y = 0) = 0  
+No-ﬂux v(x, y = 0) = 0  
+Outside the boundary layer the velocity has to match the P-Flow solution. 
+Let y⋆ ≡y/δ, y ∗ ≡y/L, and x ∗ ≡x/L. Outside the boundary layer y⋆ →∞ 
+∗
+but y →0. We can write for the tangential and normal velocities 
+u(x ∗ , y⋆ →∞) =  U(x ∗ , y  ∗ →0) ⇒u(x ∗ , y⋆ →∞) =  U(x ∗ , 0), 
+and v(x ∗ , y⋆ →∞) =  V (x ∗ , y  ∗ →0) ⇒v(x ∗ , y⋆ →∞) =  V (x ∗ , 0) = 0 
+No-ﬂux 
+P-Flow 
+In short: 
+u(x, y ⋆ →∞) =  U(x, 0) 
+v(x, y ⋆ →∞) = 0  
+• DBC 
+As y⋆ →∞, the pressure has to match the P-Flow solution. The x-momentum 
+∗
+equation at y = 0 gives 
+∂U 
+∂U 
+1 dp 
+∂2U
+ dp
+ 
+∂U
+ 
+U 
++ V 
+= − 
++ ν 
+⇒ 
+= −ρU 
+∂x 
+↓ ∂y 
+ρ dx  
+↓ ∂y2 
+dx 
+∂x
+
+---PAGE BREAK---
+
+[Page 3]
+	
+ 
+ 
+	
+ 
+ 
+ 
+ 
+ 
+4.6.4 Boundary Layer Approximation 
+Assume that ReL >> 1, then (u, v) is conﬁned to a thin layer of thickness δ (x) << L. 
+For ﬂows within this boundary layer, the appropriate order-of-magnitude scaling / 
+normalization is: 
+Variable Scale Normalization 
+u 
+U 
+u = Uu ∗ 
+x
+L
+x = Lx∗ 
+y
+δ 
+y = δy∗ 
+v 
+V =? 
+v = Vv ∗ 
+• Non-dimensionalize the continuity, Equation (1), to relate V to U 
+
+∗ 
+
+∗ 
+
+ 
+U 
+∂u 
+V 
+∂v 
+δ 
++ 
+= 0 =⇒V  = O  
+U 
+L
+∂x
+ 
+δ
+∂y
+ 
+L 
+• Non-dimensionalize the x-momentum, Equation (2), to compare δ with L 
+⎡
+⎤ 
+∗ 
+U2  ∂u ∗ 
+UV  ∂u ∗ 
+1 ∂p 
+νU ⎢⎢ δ2  ∂2u 
+ ∂2u ∗⎥⎥ 
+u 
++ 
+v 
+= − 
++ 
+⎢ 
++ 
+⎥ 
+L
+ ∂x
+ 
+δ
+ ∂y
+ 
+ρ ∂x  
+δ2 ⎣L2 
+∂x2 
+∂y2 
+⎦ 
+O(U2/L) 
+ignore 
+The inertial eﬀects are of comparable magnitude to the viscous eﬀects when: 
+U2 
+νU 
+δ
+ν 
+
+∼ 
+=⇒
+∼ 
+= 
+<< 1 
+L
+δ2 
+L 
+UL
+ReL 
+The pressure gradient ∂p must be of comparable magnitude to the inertial eﬀects 
+∂x 
+∂p 
+U2 
+= O
+ρ 
+∂x 
+L
+
+---PAGE BREAK---
+
+[Page 4]
+ 
+ 
+ 
+ 
+ 
+ 
+• Non-dimensionalize the y-momentum, Equation (3), to compare ∂p to ∂p 
+∂y 
+∂x 
+
+∗ 
+
+∗ 
+
+∗ 
+
+∗ 
+UV 
+∂v 
+V2 
+∂v 
+1 ∂p 
+νV 
+∂2v
+νV 
+∂2v 
+u 
++ 
+v 
+= − 
++
++ 
+L
+ ∂x
+ δ
+ ∂y
+ ρ ∂y
+ L2 
+∂x2 
+δ2 
+∂y2 
+	
+ 
+	
+ 
+	
+ 
+	
+ 
+O( U2 δ 
+O( U2 δ 
+O( U2 δ3 
+U 2 δ 
+L L ) 
+L L ) 
+L L3 ) 
+O( L L ) 
+The pressure gradient ∂p must be of comparable magnitude to the inertial eﬀects 
+∂y 
+∂p 
+U2 δ 
+= O
+ρ 
+∂y 
+L L 
+Comparing the magnitude of ∂p to ∂p we observe 
+∂x 
+∂y 
+∂p 
+U2 δ 
+∂p 
+U2 
+= 
+O
+ρ 
+while 
+= O
+ρ 
+=⇒ 
+∂y 
+L L 
+∂x
+L 
+∂p
+∂p 
+∂p
+<< 
+=⇒
+≈ 0
+=⇒ 
+∂y
+∂x 
+∂y 
+p 
+= 
+p(x) 
+• Note: 
+- From continuity it was shown that V/U ∼ O(δ/L) ⇒ v <<  u, inside the 
+boundary layer. 
+- It was shown that ∂p = 0,  p = p(x) inside the boundary layer. This means that 
+∂y 
+the pressure across the boundary layer is constant and equal to the pressure 
+outside the boundary layer imposed by the external P-Flow.
+
+---PAGE BREAK---
+
+[Page 5]
+ 	
+   
+ 
+	
+ 
+ 
+  
+ 
+
+ 
+ 
+4.6.5 Summary of Dimensional BVP 
+Governing equations for 2D, steady, laminar boundary layer 
+∂u 
+∂v
+Continuity :
+ +
+= 0
+ 
+∂x 
+∂y 
+∂u 
+∂u 
+1 dp 
+∂2u 
+x-momentum : u 
++ v 
+= 
+− 
++ν 
+∂x
+∂y 
+ρ dx  
+∂y2 
+UdU/dx, y=0 
+∂p 
+y - momentum :
+ = 0
+ 
+∂y 
+Boundary Conditions 
+KBC 
+At y=0 
+: u(x, 0) = 0 
+v(x, 0) = 0 
+At y/δ →∞ : u(x, y/δ →∞) =  U(x, 0) 
+v(x, y/δ →∞) = 0  
+DBC 
+dp 
+∂U 
+IN the b.l. 
+
+= −ρU 
+or p(x) =  C − ρU 2(x, 0)
+dx 
+∂x 
+
+Bernoulli for the P-Flow at y =0 
+4.6.6 Deﬁnitions 
+∞ 
+Displacement thickness δ ∗ ≡ 
+1 − u dy
+U 
+
+∞ 
+u
+u 
+Momentum thickness 
+θ ≡ 
+1 − 
+dy
+U
+U
+
+---PAGE BREAK---
+
+[Page 6]
+o 
+Physical Meaning of δ∗ and θ 
+Assume a 2D steady ﬂow over a ﬂat plate. 
+Recall for steady ﬂow over ﬂat plate dp = 0 and pressure p = const. 
+dx 
+Choose a control volume ([0, x] × [0, y/δ  →∞]) as shown in the ﬁgure below. 
+y /δ →∞ 
+CV
+Q 
+U o 
+o 
+U 
+U 
+u(y) 
+
+x 
+Layer 
+Boundary 
+Flow 
+P 
+
+
+
+
+CV for steady ﬂow over a ﬂat plate. 
+Control Volume ‘book-keeping’ 
+Surface 
+ˆn 
+⃗v 
+⃗v · ˆn 
+⃗v(⃗v · ˆn) 
+−pˆn 
+1⃝ 
+−ˆi 
+Uo ˆi 
+−Uo 
+−U 2 
+o ˆi 
+pˆi 
+2⃝ 
+−ˆj 
+
+
+
+pˆj 
+3⃝ 
+ˆi 
+u(x, y)ˆi + v(x, y)ˆj
+u(x, y) u2(x, y)ˆi + u(x, y)v(x, y)ˆj 
+−pˆi 
+4⃝ 
+ˆj 
+Uo ˆi + v(x, y)ˆj 
+v(x, y) 
+v(x, y)Uo ˆi + v2(x, y)ˆj 
+−pˆj
+
+---PAGE BREAK---
+
+[Page 7]
+
+ 	
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 	
+  
+ 
+ 
+
+ 	
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 	
+  
+Conservation of mass, for steady CV 
+∞
+∞ 
+x 
+⃗v · ndS = 0  ⇒− 
+Uody′ + 
+u(x, y ′)dy′ + 
+v(x ′ 
+ˆ 
+, y)dx′ = 0  ⇒ 
+
+
+
+
+Q 
+ ∞ 
+ ∞ 
+ ∞ 
+ ∞ 
+ 
+Q = U0δ ∗ 
+
+
+
+
+Uo 
+Q = 
+Uody′ − 
+udy′ =
+(Uo −u)dy′ = Uo 
+1 − u 
+dy′ ⇒ 
+δ∗ 
+where ()′ are the dummy variables. 
+Conservation of momentum in x, for steady CV 
+u(⃗v n
+· ˆ)dS = 
+Fx ⇒ 
+
+ ∞ 
+ ∞ 
+ x 
+ ∞ 
+ ∞ 
+ 
+−Uo 
+2dy′ + 
+u 2(x, y ′)dy′ + 
+v(x ′ , y)Uodx′ = 
+pdy′ − 
+pdy′ + 
+Fx,friction ⇒ 
+
+
+
+
+
+ ∞ 
+ ∞ 
+ x 
+ 
+−Uo 
+2dy′ + 
+u 2(x, y ′)dy′ + Uo 
+v(x ′ , y)dx′ = 
+Fx,friction ⇒ 
+
+
+
+Q 
+ ∞ 
+ ∞ 
+ ∞ 
+ 
+−Uo 
+2dy′ + 
+u 2(x, y ′)dy′ + Uo 
+(Uo −u)dy′ = 
+Fx,friction ⇒ 
+
+
+
+ ∞  
+
+ 
+−Uo 
+2 + u 2 + Uo 
+2 −Uou dy′ = 
+Fx,friction ⇒ 
+
+∞  u2 
+u 
+ 
+Uo 
+
+
+Uo 
+2 − Uo 
+dy′ = 
+Fx,friction ⇒ 
+∞ 
+Fx,friction = −Uo 
+
+u 
+1 − u 
+dy′ ⇒ 
+Fx,friction = −Uo 
+2θ 
+
+Uo 
+Uo 
+θ
+
+---PAGE BREAK---
+
+[Page 8]
+
+ 	
+ 
+ 
+ 
+ 
+ 
+ 
+4.7 Steady Flow over a Flat Plate: Blasius’ Laminar Boundary 
+Layer 
+y
+x
+L 
+Uo 
+Steady ﬂow over a ﬂat plate: BLBL 
+4.7.1 Derivation of BLBL 
+dp 
+• Assumptions Steady, 2D ﬂow. Flow over ﬂat plate → U = U0, V  = 0, 
+= 0  
+dx 
+• LBL governing equations 
+∂u 
+∂v 
++
+ = 0
+ 
+∂x 
+∂y 
+∂u
+∂u 
+∂2u 
+u 
++ v 
+= ν 
+∂x
+∂y 
+∂y2 
+• Boundary conditions 
+u = v = 0  on  y = 0  
+y 
+v → V = 0, u  → Uo outside the BL, i.e., 
+>> 1 
+δ 
+• Solution Mathematical solution in terms of similarity parameters. 
+u
+Uo 
+y
+η 
+νx 
+and 
+η ≡ y 
+⇔ 
+= √
+⇔ y = η 
+U 
+νx
+x 
+Rx 
+Uo 
+Similarity solution must have the form 
+u (x, y) = F (η)
+Uo 
+self similar solution
+
+---PAGE BREAK---
+
+[Page 9]
+	
+ 
+ 
+ 
+	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 	
+   
+We can obtain a PDE for F by substituting into the governing equations. The 
+PDE has no-known analytical solution. However, Blasius provided a numerical 
+solution. Once again, once the velocity proﬁle is evaluated we know everything 
+about the ﬂow. 
+4.7.2 Summary of BLBL Properties: δ, δ0.99, δ∗, θ, τo, D, Cf 
+u (x, y) 
+Uo 
+νx
+y 
+η 
+y ≡ η 
+F 
+(η) ;  η = y 
+; 
+; 
+= 
+= 
+Uo 
+νx 
+Uo 
+x
+Rx
+evaluated 
+numerically 
+local R# 
+νx
+δ ≡ 
+Uo 
+, i.e., η.99 = 4.9 
+⎫ 
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪ 
+∼ 
+νx 
+= 4.9 
+√ 
+δ ∝ 
+x, δ ∝ 1 
+Uo 
+δ .99 
+Uo 
+⎬ 
+νx 
+δ
+ν 
+
+∝ 
+= √ 
+x
+Uox
+Rx 
+∼
+δ ∗ = 1.72
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪
+⎪ 
+η ∗ 
+, i.e., 
+= 1.72 
+Uo 
+θ ∼ 
+νx 
+= 0.664 
+Uo 
+⎭
+⎫ 
+Uox −1/2 ⎪
+⎪
+⎪
+⎪
+⎪
+⎬ 
+τo ≡ τw ∼= 0.332ρU 2 
+o 
+
+τo ∝√
+ν 
+x 
+= 0.332 ρU 2 R
+o 
+−1/2 
+x 
+⎪
+⎪
+⎪
+⎪
+⎪
+⎭ τo ∝ Uo 
+3/2 
+local R#
+
+---PAGE BREAK---
+
+[Page 10]
+Total drag on plate L x B 
+L 
+
+−1/2 
+D = B
+τodx ∼= 0.664 
+ 
+ρUo 
+2  
+(BL) UoL 
+⇒ D ∝
+√ 
+L, 
+D ∝ U 3/2 
+	
+ 
+ν 
+width 0 
+ 
+	
+ 
+ 
+−1/2
+ReL 
+Friction (drag) coeﬃcient: 
+D 
+1.328 
+
+
+∼
+Cf =
+=  
+⇒ Cf ∝√ ,
+Cf ∝√
+1 (ρU 2) (BL) 
+ReL 
+L
+U
+
+o 
+C f 
+Layer 
+Boundary
+Laminar
+Blasius 
+L 
+f 
+C 
+Re 
+
+.1
+≅ 
+Layer 
+Boundary
+Turbulent 
+L 
+Re 
+
+.0
+
+
+
+
+3× 
+⎧ 
+2.3)
+(JNN
+plate
+flat
+for 
+Layer 
+Boundary
+Turbulent 
+
+f 
+C 
+⎪Rex ~ 3×10 
+Transition at ⎨ 
+⎪Re ~ 600
+⎩ 
+δ 
+Skin friction coeﬃcient as a function of Re. 
+A look ahead: Turbulent Boundary Layers 
+Observe form the previous ﬁgure that the function Cf, laminar(Re) for a laminar 
+boundary layer is diﬀerent from the function Cf, turbulent(Re) for a turbulent boundary 
+layer for ﬂow over a ﬂat plate. 
+Turbulent boundary layers will be discussed in proceeding Lecture.
+
+---PAGE BREAK---
+
+[Page 11]
+4.8 Laminar Boundary Layers for Flow Over a Body of General 
+Geometry 
+The velocity proﬁle given in BLBL is the exact velocity proﬁle for a steady, laminar ﬂow 
+over a ﬂat plate. What is the velocity proﬁle for a ﬂow over any arbitrary body? In general 
+it is dp/dx ̸= 0 and the boundary layer governing equations cannot be easily solved as was 
+the case for the BLBL. In this paragraph we will describe a typical approximative procedure 
+used to solve the problem of ﬂow over a body of general geometry. 
+1. Solve P-Flow outside B ≡ B0 
+2. Solve boundary layer equations 
+(with ∇P term) → get δ∗(x) 
+3. From B0 + δ∗ → B 
+4. Repeat steps (1) to (3) until no 
+change 
+U 
+y 
+x 
+L 
+.
+const
+U 
+
+P 
+≠ 
+≠
+∇ 
+B0 
+• von Karman’s zeroth moment integral equation 
+τ0 
+d 
+ 
+dU 
+= 
+U 2(x)θ(x) + δ ∗ (x)U(x) 
+(4)
+ρ
+ dx
+ 
+dx
+ 
+• Approximate solution method due to Polthausen for general geometry 
+(dp/dx ̸= 0)  using von Karman’s momentum integrals. 
+The basic idea is the following: we assume an approximate velocity proﬁle (e.g. linear, 
+4th order polynomial, . . .) in terms of an unknown parameter δ(x). From the velocity 
+proﬁle we can immediately calculate δ∗, θ  and τo as functions of δ(x) and the P-Flow 
+velocity U(x). 
+Independently from the boundary layer approximation, we obtain the P-Flow solution 
+outside the boundary layer U(x), dU .
+dx 
+dU
+Upon substitution of δ∗, θ, τo, U(x), dx in von Karman’s moment integral equation(s) 
+we form an ODE for δ in terms of x.
+
+---PAGE BREAK---
+
+[Page 12]
+ 
+ 
+ 
+
+	
+  
+ 
+ 
+ 
+• Example for a 4th order polynomial Polthausen velocity proﬁle 
+Polthausen proﬁles - a family of proﬁles as a function of a single parameter Λ(x) 
+(shape function factor). 
+ Assume an approximate velocity proﬁle, say a 4th order polynomial: 
+u (x, y) 
+y 
+ y 2 
+ y 3 
+ y 4 
+= a (x)
++ b (x)
++ c (x)
++ d (x) 
+(5)
+U (x, 0) 
+δ
+δ
+δ 
+δ 
+There can be no constant term in (5) for the no-slip BC to be satisﬁed y = 0,  
+i.e, u(x, 0) = 0. 
+We use three BC’s at y = δ 
+u
+ ∂u
+ ∂2u 
+= 1, 
+= 0, 
+= 0, at y = δ 
+(6)
+U
+ ∂y
+ ∂y2 
+From (6) in (5), we re-write the coeﬃcients a(x), b(x), c(x) and d(x) in terms 
+of Λ(x) 
+a = 2 + Λ/6, b  = −Λ/2, c  = −2 + Λ/2, d  = 1  − Λ/6 
+ To specify the approximate velocity proﬁle u(x,y) in terms of a single unknown 
+U(x,0) 
+parameter δ we use the x-momentum equation at y = 0, where u = v = 0  
+∂u
+∂u 
+∂U
+∂2u 
+
+dU δ2 
+dU δ2(x) 
+u 
++ v 
+= U 
++ ν 
+ 
+⇒ b = −
+⇒ Λ(x) =  
+↓ ∂x 
+↓ ∂y 
+∂x
+∂y2 
+
+dx ν 
+dx 
+ν 
+ 	
+   
+y=0
+
+
+− 1 dp 
+ν 2bU
+ρ dx  
+δ2 
+dU 
+Λ > 0 : favorable pressure gradient 
+Observe: Λ ∝
+⇒ 
+dx 
+Λ < 0 : adverse pressure gradient 
+Putting everything together: 
+u (x, y) 
+y 
+y 3 
+y 4 
+=
+
+ − 2
++ 
++ 
+U (x, 0) 
+δ 
+δ
+δ 
+dU δ2 1y  
+1y 2 
+1y 3 
+1y 4 
++ 
+− 
++ 
+− 
+dx ν 6 δ 
+2 δ 
+2 δ 
+6 δ
+
+---PAGE BREAK---
+
+[Page 13]
+
+ 
+ 
+ 
+ 
+ 
+u(x,y)
+ Once the approximate velocity proﬁle U(x,0) is given in terms of a single unknown 
+parameter δ(x), then δ∗ , θ and τo are evaluated 
+∞ 
+ 
+ 
+ 
+u  
+
+1 dU δ2  
+δ ∗ =
+1 − 
+dy = δ 
+− 
+U 
+
+120 dx ν 
+
+δ 
+u  
+u  
+
+1 dU δ2  
+1 dU δ2 2 
+θ =
+1 − 
+dy = δ 
+−
+− 
+U
+U 
+
+945 dx ν 
+9072 dx ν 
+
+∂u 
+μU 
+1dU δ2  
+τo = μ 
+ 
+= 
+2 +  
+∂y  
+y=0 
+δ 
+6 dx ν 
+Notes: 
+- Incipient ﬂow (τo = 0) for Λ = −12. However, recall that once the ﬂow is 
+separated the boundary layer theory is no longer valid. 
+- For  dU = 0 → Λ = 0 Pohlhausen proﬁle diﬀers from Blasius LBL only by a 
+dx 
+few percent. 
+ After we solve the P-Flow and determine U(x), dU we substitute everything into 
+dx 
+von Karman’s momentum integral equation (4) to obtain 
+dδ 
+1 dU 
+d2U/dx2 
+= 
+g(δ) +  
+h(δ)
+dx 
+U dx 
+dU/dx 
+where g, h are known rational polynomial functions of δ. 
+This is an ODE for δ = δ(x) where U, dU , d2U are speciﬁed from the P-Flow 
+dx 
+dx2 
+solution. 
+General procedure: 
+1. Make a reasonable approximation in the form of (5), 
+2. Apply suﬃcient BC’s at y = δ, and the x-momentum at y = 0 to reduce (5) 
+as a function a single unknown δ, 
+3. Determine U(x) from P-Flow, and 
+4. Finally substitute into Von Karman’s equation to form an ODE for δ(x). 
+Solve either analytically or numerically to determine the boundary layer 
+growth as a function of x.

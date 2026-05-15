@@ -1,0 +1,122 @@
+om (9.50) (c) Show that the vertical hydrodynamic force F;? per unit length can be written as -_(4_y2 dn FM = — (= -U a (4:2) 2) + peA(x) (9.51) where A(x) is the submerged cross-sectional area. (d) How would you propose to generalize the formula by including the effect of incident waves and pitch motion. (Hint: See equations (9.19) and (9.43)). Fig. 9.18. Use of momentum equation to calculate wave loads on bow-flare sections of ships (see exercise 9.4.)
+
+REFERENCES
+
+Aarsnes, J. V. (1984). Current forces on ships. Dr. ing. thesis, Report
+UR-84-39, Dept. of Marine Technology, Nor. Inst. Technol, Trondheim.
+
+Aarsnes, J. V., Faltinsen, O. M. & Pettersen, B. (1985). Application of a vortex
+tracking method to current forces on ships. Proc. Conf. Separated Flow Around
+Marine Structures, pp. 309-46, Trondheim: Nor. Inst. Technol.
+
+Abramowitz, M. & Stegun, I. A. (1964). Handbook of Mathematical Functions
+with Formulas, Graphs and Mathematical Tables, 1046 pp., New York: Dover
+Publications Inc.
+
+Abramson, H. N., Bass, R. L., Faltinsen, O. M. & Olsen, H. A. (1974). Liquid
+Slosh in LNG Carriers. In Proc. Tenth Symp. on Naval Hydrodynamics, ed. R.
+D. Copper & S. W. Doroff, pp. 371-88, Arlington, Va.: Office of Naval
+Research — Department of the Navy.
+
+Achenbach, E. (1968). Distribution of local pressure around a circular cylinder
+in cross flow up to Re=5- 10°. 7. Fluid Mech., 34, 625~39.
+
+Achenbach, E. (1971). Influence of surface roughness on the cross-flow around a
+circular cylinder. 7. Fluid Mech., 46, 321-35.
+
+Achenbach, E. & Heinecke, E. (1981). On vortex shedding from smooth and
+rough cylinders in the range of Reynolds numbers 8 - 10? to 5: 10°, 7. Fluid
+Mech., 109, 239-51.
+
+Aquirre, J. E. & Boyce, T. R. (1974). Estimation of wind forces on offshore
+drilling platforms. Trans. Royal Inst. Nav. Arch. (RINA), 116, 93-109.
+
+Armand, J. L. & Cointe, R. (1986). Hydrodynamic impact analysis of a cylinder.
+In Proc, Fifth Int. Offshore Mech. and Arctic Engng. Symp. (OMAE), Tokyo,
+Japan, vol. 1, pp. 609-34. New York: The American Society of Mechanical
+Engineering.
+
+Bai, K. J. & Yeung, R. W. (1974). Numerical solutions to free surface problems.
+In Proc. Tenth Symp. on Naval Hydrodynamics, ed. R. D. Cooper & S. W.
+
+Doroff, pp. 609-34, Arlington, Va.: Office of Naval Research —- Department of °
+
+the Navy.
+Batchelor, G. K. (1970). An Introduction to Fluid Dynamics. Cambridge:
+Cambridge University Press.
+
+Bearman, P. W. (1985). Vortex trajectories in oscillatory flow. In Proc. Separated
+Flow around Marine Structures, pp. 133-54, Trondheim: Nor. Inst. Technol.
+Bearman, P. W. (1988). Wave loading experiments on circular cylinders at large
+scale. In Proc. Int. Conf. Behaviour of Offshore Struct., (BOSS ’88), ed. T.
+Moan, N. Janbu & O. Faltinsen, vol. 2, pp. 471-87. Trondheim: Tapir
+
+Publishers.
+
+REFERENCES 317
+
+Bearman, P. W., Graham, J. M. R. & Sing, S. (1979). Forces on cylinders in
+harmonically oscillating flow. In Proc. Mechanics of Wave-Induced Forces on
+Cylinders, ed. T. L. Shaw, pp. 437-49, London: Pitman.
+
+Bearman, P. W., Graham, J. M. R., Naylor, P. & Obasaju, E. D. (1981). The
+role of vortices in oscillatory flow about bluff cylinders. In Proc. Int. Symp. on
+Hydrodynamics in Ocean Engng, vol. 2, pp. 621-35. Trondheim: Nor. Inst.
+Technol.
+
+Bearman, P. W., Graham, J. M. R., Obasaju, E. D. & Drossopoulos, G. H.
+(1984a). The influence of corner radius on the forces experienced by
+cylindrical bluff bodies in oscillatory flow. Appl. Ocean Res., 6, 2, 83-9.
+
+Bearman, P. W., Graham, J. M.R., Obasaju, E.D. (1984b). A model
+equation for the transverse force on cylinders in oscillatory flows. Appl.
+Ocean Res., 6, 3, 166-72.
+
+Blevins, R. D. (1977). Flow-Induced Vibration, New York: Van Nostrand
+Reinhold Company.
+
+Brown, C. E. & Michael, W. H. (1955). On slender delta wings with leading
+edge separation. Nat. Adv. Comm. Aero Tech, Note 3430.
+
+Bgrresen, R. (1984). The unified theory of ship motions in water of finite depth.
+Dr. ing. thesis, Div. Marine Hydrodynamics, Nor. Inst. Technol.,
+Trondheim.
+
+Campbell, I. M. C. & Weynberg, P. A. (1980). Measurement of parameters
+affecting slamming. Final Report, Rep. No. 440, Technology Reports Centre No.
+OT-R-8042. Southampton University: Wolfson Unit for Marine Technology.
+
+Chaplin, J. R. (1984). Nonlinear forces on a horizontal cylinder beneath waves,
+J. Fluid Mech., 147, 449-64.
+
+Chaplin, J. R. (1988). Nonlinear forces on horizontal cylinders in the Inertia
+Regime in Waves at High Reynolds numbers. In Proc. Int. Conf. Behaviour of
+Offshore Struct., (BOSS ’88), ed. T. Moan, N. Janbu & O. Faltinsen, vol. 2,
+pp. 505-18. Trondheim: Tapir Publishers.
+
+Chislett, M. S. & Bjgrheden, O. (1966). Influence of Ship Speed on the
+Effectiveness of a Lateral-Thrust-Unit. Report No. Hy-8, Lyngby: Hydro- og
+Aerodynamisk Laboratorium.
+
+Chorin, A. J. (1973), Numerical study of slightly viscous flow, 7. Fluid Mech.,
+57, 785-96,
+
+Davenport, A. G. (1978). The prediction of the response of structure to gusty
+wind. In Safety of Structures under Dynamic Loading, ed. 1. Holand, D. Kavlie,
+G. Moe & R. Sigbjgrnsen, vol. 1, pp. 257-84. Trondheim: Tapir Publishers.
+
+Delany, N. K. & Sorensen, N. E. (1953). Low-speed Drag of Cylinders of Various
+Shapes. Washington: NACA Technical Note 3038.
+
+Dommermuth, D. G., Yue, D. K. P., Lin, W. M., Rapp, R. J., Chan, E. S. &
+Melville, W. K. (1988). Deep water plunging breakers: A comparison between
+potential theory and experiments, 7. Fluid Mech., 189, 423-42.
+
+Fage, A. & Johansen, F. C. (1928). The structure of vortex sheets. Aeronautical
+Research Council R and M 1143 also Phil. Mag., 5, 114-42.
+
+Fage, A. & Warsap, J. H., (1929). The Effects of Turbulence and Surface
+Roughness on the Drag of Circular Cylinders. A.R.C. Rep. and Memo No. 1283.
+
+Faltinsen, O. M. (1972). Wave forces on a restrained ship in head-sea waves. In
+Proc. Ninth Symp. on Naval Hydrodynamics, ed. R. Brard and A. Castera, vol.

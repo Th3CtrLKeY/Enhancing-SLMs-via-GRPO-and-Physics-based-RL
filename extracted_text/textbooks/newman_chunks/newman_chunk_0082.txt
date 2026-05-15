@@ -1,0 +1,58 @@
+then in terms of the magnitude of k relative to the dimensions of the boundary layer. If k is small compared to the height of the viscous sublayer, the plate is effectively smooth and the frictional drag independent of k. In the other extreme, if k is large compared to δ, the boundary layer will be unimportant by comparison to the form drag resulting from the roughness elements, which in turn will be essen­ tially independent of the Reynolds number.
+
+The Motion of a Viscous Fluid 
+
+For a fixed scale of roughness, in terms of the characteristic length l of 
+the plate, k/l = constant. In this case the frictional drag is identical to that of 
+a smooth plate below a Reynolds number which depends on the roughness 
+ratio; above this point, the frictional drag is effectively constant, as shown 
+in figure 3.12. From this result we can infer that smoothness of a full-scale 
+ship hull is much more important than smoothness of its model, for if the 
+two had the same relative roughness or equal values of k/l, the effects of the 
+roughness would increase with Reynolds number.
+On the other hand, for constant values of the Reynolds number based 
+on the roughness scale, Uk/v, corresponding to k/δ = constant, there is a 
+family of curves approximately parallel to the smooth curve. The latter are 
+more representative of the ship roughness, insofar as the roughness scale of 
+ship hulls of different lengths is effectively independent of the length. In 
+this sense a roughness allowance can be approximated by a constant additive 
+resistance coefficient such as 0.0004, as discussed in chapter 2.
+Figure 3.12
+Resistance formula of sand-roughened plate; coefficient of total skin friction. (From 
+Schlichting 1968)
+
+Chapter 3
+3.21  Turbulent Boundary Layers: Closing Remarks
+Semiempirical methods have been developed for analyzing the effects of a 
+pressure gradient. A critique of this subject is given by Thompson (1967). 
+Qualitatively, the effects of the pressure gradient are analogous to the case 
+of a laminar boundary layer. In particular, negative and positive values of 
+the pressure gradient in a streamwise direction along the body surface are 
+respectively favorable and unfavorable for the stability of a thin boundary 
+layer, as compared with the occurrence of separation. Turbulence serves the 
+useful role of convecting more momentum from the free stream into the 
+boundary layer, by comparison with the laminar case, and thus the separa­
+tion point is delayed. In this connection, we recall the drag coefficient of 
+a sphere, shown in figure 2.2, which is decreased by the effects of turbu­
+lence at the transition Reynolds number of approximately 400,000. Similar 
+remarks apply to the development of separation or stall on lifting surfaces; 
+even in the normal regime of small angles of attack, the pressure gradient 
+can significantly affect the turbulent boundary layer.
+Semiempirical extensions of the turbulent boundary-layer theory have 
+been developed to account for the presence of external pressure gradients 
+and of three-dimensional effects. Extensive discussion of these topics is 
+given in the monograph by Cebeci and Smith (1974). Applications to the 
+calculation of the viscous drag on a ship hull are discussed by Huang and 
+von Kerczek (1972) and Kux (1974).
+Problems
+1. The Couette flow shown in figure 3.3 is a rough model for the flow in a 
+lubricated bearing. Find the bearing friction per unit area, in terms of the 
+viscosity of the lubricant and the gap width of the bearing. How does the 
+bearing friction change if there is a pressure gradient in the direction of 
+motion?
+2. The simplest equation of motion for the spar buoy shown in figure 2.16 
+is mÿ + ρgS0(y − A cos ωt) = 0 where y(t) is the heave amplitude, S0 is the 
+waterplane area, and A is the wave amplitude. Use the solution in section 
+3.13 for sinusoidal motion of a flat plate to derive a linear damping coef­
+ficient proportional to the submerged area of the cylindrical portion of the 
+spar buoy. Using this estimate of the damping coefficient, find the resonant

@@ -1,0 +1,166 @@
+[Page 1]
+Challenge Problem 3 (OPTIONAL) 
+Name: ____________________  
+1. Consider a real fluid (Q v 0 ) of constant density. Use the Navier-Stokes Equations to 
+show that 
+K 
+V d  l  =
+×
+×V )¸ndS  + 
+Q
+¸
+¸ 
+(Z 
+ˆ 
+V d  l  
+(1) 
+d* = d ¨v
+JK 
+K 
+¨¨
+ 
+K
+K 
+¨v
+2 K 
+C
+A 
+C
+dt 
+dt 
+where C is a closed curve fixed in space and A is any surface bounded by C.
+K 
+K
+K
+K 
+K K
+Z
+V 
+¸
+Hint: Use the identity (V ¸)V =
+×
++( 1 V
+ 
+V
+ 
+) .
+
+2. A real, constant density fluid flows over a thin flat plate placed in a free stream of 
+K 
+velocity V =Ui
+ 
+ˆ , creating a boundary layer. Assume that the flow is steady. Consider a 
+rectangular curve fixed with respect to the plate and boundary layer as shown: 
+y 
+h 
+U 
+x 
+0p 
+curve C 
+boundary 
+layer 
+1p 
+2p 
+1x 
+2x
+,
+s 
+s
+x
+p
+ 
+The point x at the leading edge of the plate is a stagnation point where the stagnation
+s 
+pressure is ps. The pressure at point x  is p1 . Point x  is assumed to be far enough 
+
+
+downstream in the boundary layer that p2  equals the free stream pressure p0 . 
+(a) Use equation (1) in Problem 1 to show that 
+p 
+h
+h 
+= 
+(
+)
+ dy
+ 
+ 
+(
+)
+ dy
+ 
+(2)
+
+u] 
+u]
+x
+x
+ 
+x
+x
+ 
+p 
+¨ 0 
+= 2 
+¨0 
+= 1 
+
+K
+K
+where V = ui
+ 
+ˆ +v
+ 
+j
+ 
+ˆ and Z
+] kˆ  for two-dimensional flow.
+= 
+Hint: Evaluate the Navier-Stokes equations at y = 0 on the plate to obtain a relationship 
+between the pressure gradient and velocity gradient. Use this relation to evaluate the line 
+integral.
+
+---PAGE BREAK---
+
+[Page 2]
+Note that the right-hand side term in equation (2) represents the net flux of vorticity 
+transported or convected in the horizontal direction through the vertical sections at x1
+and x  by the velocity component u.
+
+(b) Now move the left side of the rectangular curve C to the leading edge of the plate so 
+that x = x , and leave x2  fixed.
+
+s 
+(i) Show that equation (2) becomes 
+h
+U 2 
+= 
+(
+)
+ dy
+ 
+(3)
+u] x
+x
+ 
+¨0 
+= 2
+
+(ii) If x  is any point in the region of the boundary layer where p = p (in other words,
+
+
+
+where dp / dx = 0 ), what can you say about the convection of vorticity through any 
+vertical section in this region? 
+(c) Now imagine that x  is downstream of the leading edge and near x , so that
+
+
+p = p = p .
+
+
+
+(i) Write equation (2) for this case. 
+(ii) What is the net convection of vorticity through any two vertical sections in the region 
+of the boundary layer where dp / dx = 0 ? 
+(d) Based on your answers to (b) and (c), what can you conclude about where vorticity is 
+introduced into a flat-plate boundary layer?

@@ -1,0 +1,107 @@
+where p is the mass density of the water, Cp is a drag coefficient, and A is the frontal area of the submerged structure against the motion. The problem of finding Cp will be addressed in Slow drift motion a a, aa Cars | le) 2501-0 5002:0 7503-0 10004-0 Time (s) > Fig. 5.23. Identical simulations of slow-drift motions of a moored twodimensional body. The differences in the results are due to random selection of phase angles and wave amplitudes.
+
+i
+t
+
+166 SECOND-ORDER NON-LINEAR PROBLEMS
+
+chapter 7. We have excluded the relative velocity between the slow-drift
+motion and the linear relative motion. This could influence the result.
+
+The slow-drift sway is not strictly Gaussian; however, by assuming a
+Gaussian response, we can write an equivalent damping B* as (see Price
+& Bishop, 1974)
+
+40;
+B°=By—% ;
+>On (6.52)
+We can use equation (5.48) to find that
+2x)!
+n 2S n. = fy’ n. 20a) .
+= Un Sp oar Be Hy Seu )8C,Byo; (5.53)
+This means
+_(.2 a(2n)} )
+05 = (Ha?Se(in) gop (5.54)
+
+where 0; ~ [,0y.
+
+This equation shows that the standard deviation in sway is proportional to Bp~3, where Bp is like a drag force damping coefficient. This
+implies low sensitivity between o, and Bp. A 100% increase in Bp
+means only a 20% reduction in o,. In equation (5.54) it is only the
+slow-drift spectrum in sway that depends on the significant wave height.
+This means the standard deviation of slow-drift sway motion is
+proportional to Hy}.
+
+SLOWLY-VARYING OSCILLATIONS DUE TO
+WIND
+Wind can also produce slowly-varying oscillations of marine structures
+with high natural periods. This is caused by wind gusts with significant
+energy at periods of the order of magnitude of a minute. In chapter 2 we
+discussed how to evaluate the gust spectral density S(f) of horizontal
+wind speeds (f = frequency in hertz).
+
+In calculating the response to the wind gusts we need first to find an
+expression for the wind gust force spectrum. We will follow Davenport’s
+(1978) description. We will first consider a structure of frontal area A
+against the wind, and assume that the structure is sufficiently small so
+that there is no important variation in the wind over the structure. We
+can write the horizontal force on the body in the wind direction as
+
+Fo= PusCP Ayr) (5.55)
+
+The mass density of the air fyi is 1.21kgm7* at 20°C. Further,
+U(t)=U +u' where U is the mean wind velocity and u' is the gust
+
+SLOWLY-VARYING OSCILLATIONS DUE TO WIND 167
+
+velocity. The mean drag force is
+- Cc
+Fy = Pare Patt’? AU? (5.56)
+
+Mean wind loads may be of equal importance as the mean wave-drift
+force. By ignoring terms of order (u'/U)’ the fluctuating drag forces can
+be written as
+
+Fp'(t) = CpA Pair Uu'(0) (5.57)
+
+We note that the fluctuating drag force is linearly dependent on the gust
+velocity. The power spectrum of Fp’(¢) is then related to the gust
+velocity spectrum by
+
+Sef) = (CpApairU YSU) (5.58)
+
+If the size of the structure is not small from a wind field point of view,
+Davenport introduces an ‘aerodynamic admittance function’ as a correction of the result. (For more details see Davenport, 1978).
+
+In analysing the response of the structure we can now proceed as we
+did for the slow-drift oscillations caused by waves. For instance, if we
+consider head wind the mean square value of the surge motion is
+
+2°, aia
+0, = Sr (On) 55 (5.59)
+
+The index W means wind. The relation between gust spectrum expressed respectively by circular frequency w and frequency f in hertz is
+
+Se(w)dw=Sf\df, w= 2af.
+
+This means
+
+Ww) =—
+Sp (@) mK (5.60)
+
+The relation between the standard deviation o, of the slowly varying
+oscillations due to wind gust and the mean offset x due to steady wind
+can be expressed in a simple way by equations (5.59) and (5.56). By
+using the Harris wind spectrum (see equation (2.40)), we find
+
+Ox _ (0.038fn)* 038 fx)! 1
+
+x thee ‘Vp
+
+Here fy= fm 1800/0 19 (with dimensions given in meters and seconds),
+
+Ui=U and p is the fraction between the damping 6} and critical
+
+damping 2m@y (see equation (5.48)). If for instance U,.=40ms"',"
+
+(5.61)

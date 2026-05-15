@@ -1,0 +1,117 @@
+model: Theory and experiment. In Ninth symposium on naval hydrody­ namics, eds. R. Brard and A. Castera, pp. 1963–2010. Washington: U.S. Government Printing Office. Kux, J. 1974. Three-dimensional turbulent boundary layers. In Tenth symposium on naval hydrodynamics, eds. R. D. Cooper and S. W. Doroff, pp. 685–703. Washington: U.S. Government Printing Office. Landau, L. D., and E. M. Lifshitz. 1959. Fluid mechanics. English translation. London: Pergamon. Lumley, J. L. 1969. Drag reduction by additives. Annual Review of Fluid Mechanics 1:367–384.
+
+The Motion of a Viscous Fluid 
+
+Matheson, N., and P. N. Joubert. 1974. A note on the resistance of bodies of revolu­
+tion and ship forms. J. Ship Res. 18:153–168.
+Monin, A. S., and A. M. Yaglom. 1971. Statistical fluid mechanics. English translation. 
+Cambridge, Mass.: The MIT Press.
+Schlichting, H. 1968. Boundary layer theory. English translation. 6th ed. New York: 
+McGraw-Hill.
+Thompson, B. G. J. 1967. A critical review of existing methods of calculating the turbulent 
+boundary layer. Ministry of Aviation, Aeronautical Research Council Reports and 
+Memoranda 3447.
+White, F. M. 1974. Viscous fluid flow. New York: McGraw-Hill.
+Yih, C. S. 1969. Fluid mechanics. New York: McGraw-HilI.
+
+4  The Motion of an Ideal Fluid
+Chapter 
+
+The 
+Motion 
+of 
+an 
+Ideal 
+Fluid
+© Massachusetts Institute of TechnologyAll Rights Reserved
+Having obtained an understanding of viscous effects, we can justify their 
+neglect in certain circumstances. Thus, when the boundary layer is thin, 
+the bulk of the fluid is effectively inviscid or ideal and can be analyzed from 
+the Navier-Stokes equations with the viscous stress tensor deleted. At first 
+glance the resulting simplification of these equations is less apparent than 
+might be expected from physical considerations. Ultimately, the mathe­
+matical simplifications are considerable, and a wide variety of inviscid flow 
+problems are amenable to solution.
+The fundamental equations are the continuity equation and Euler’s 
+equations, derived in chapter 3. Thus, the velocity vector V = (u1, u2, u3) 
+must satisfy the equations
+∂
+∂
+=
+u
+x
+i
+i
+/
+,
+
+(1)
+and
+∂
+∂
++
+∂
+∂
+= −
+∂
+∂
++
+=
+u
+t
+u
+u
+x
+p
+x
+F
+i
+i
+j
+i
+j
+i
+i
+
+
+1 2 3
+ρ
+ρ
+,
+, , . 	
+(2)
+In the second equation only the normal pressure stress is included, on the 
+assumption that the fluid is inviscid.
+Hereafter, the external force field Fi will be assumed to consist only of 
+the gravitational force ρg which acts vertically downward. If x2 is the verti­
+cal coordinate and is positive in the upward direction, then Fi = (0, −ρg, 0). 
+Under these circumstances equation (2) can be written as
+∂
+∂
++
+∂
+∂
+= −
+∂
+∂
++
+u
+t
+u
+u
+x
+x
+p
+gx
+i
+j
+i
+j
+i
+
+
+ρ
+ρ
+(
+). 	
+(3)

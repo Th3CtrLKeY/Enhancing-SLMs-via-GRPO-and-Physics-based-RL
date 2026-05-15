@@ -1,0 +1,202 @@
+edge, as in the case shown in figure 5.4, differing from the correct solution in figure 5.2 by the appropri­ ate circulation. In general, the vortex strength γ, and hence the horizontal velocity com­ ponent on the foil, will be infinite both at the leading and trailing edges as a result of the square-root infinities in (32). This can be avoided at the trail­ ing edge only if Γ is chosen so that the quantity in braces in (32) vanishes
+
+Chapter 5
+at x
+l
+= −½ . Imposing the Kutta condition results in the following integral for 
+the circulation:
+Γ = −
+(
+)
+−
++
+
+
+
+
+−∫
+
+
+1 2
+
+
+v
+l
+l
+d
+l
+l
+ξ
+ξ
+ξ
+ξ
+,
+½
+½
+. 	
+(34)
+This is a particularly useful result because the lift is given by (15), in terms 
+of the circulation, and substituting (34) in (15) gives an equation for the 
+lift as
+L
+U
+d
+d
+l
+l
+d
+l
+l
+=
+−
++
+
+
+
+
+−∫
+
+
+1 2
+
+
+ρ
+η
+ξ
+ξ
+ξ
+ξ
+½
+½
+. 	
+(35)
+Here the boundary condition (22) has been utilized to substitute the slope 
+of the mean camber line for the vertical velocity component. Alternatively, 
+the nondimensional lift coefficient is
+C
+L
+U l
+l
+d
+d
+l
+l
+d
+L
+l
+l
+=
+=
+−
++
+
+
+
+
+−
+½
+½
+½
+.
+ρ
+η
+ξ
+ξ
+ξ
+ξ
+
+1 2
+
+
+4 −∫
+	
+(36)
+The moment acting on the foil can be determined similarly from (16), 
+(29), and (32). Neglecting the details of the integration, we get as the final 
+result
+M
+U
+x xdx
+U
+d
+d
+l
+d
+l
+l
+l
+l
+=
+( )
+=
+(
+) −
+
+
+−
+−
+∫
+∫
+ρ
+γ
+ρ
+η
+ξ
+ξ
+ξ
+
+
+
+
+
+1 2
+
+
+
+½
+, 	
+(37)
+and the nondimensional moment coefficient corresponding to (36) is
+C
+M
+U l
+l
+d
+d
+l
+d
+M
+l
+l
+=
+=
+(
+) −
+
+
+−∫
+½
+½
+.
+ρ
+η
+ξ
+ξ
+ξ
+2 2
+
+
+
+1 2
+
+
+
+(38)
+The center of pressure xCP is the ratio xCP = M/L.
+5.4  Simple Foil Shapes
+To illustrate these results, we consider first the simplest case of a flat plate, 
+or uncambered foil, with an angle of attack dη/dx = α. Then, it follows from 
+(36) that
+CL = 2πα, 	
+(39)
+and from (38) that

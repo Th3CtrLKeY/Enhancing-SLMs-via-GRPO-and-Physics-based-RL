@@ -1,0 +1,76 @@
+in the plane of the wave propagation direction, there exist different possibilities for formulations. Let us illustrate this using a submerged horizontal circular cylinder in waves where the wave propagation direction is orthogonal to the cylinder axis. A straightforward generalization of Morison’s equation would be to write the horizontal and vertical force on a strip of length dy as dF, = pw Cua, + £CpD dy u(u? + w)S (7.3) dF; = pw Cua +£cpD dy w(u2 + w)! (7.4)
+
+226 VISCOUS WAVE LOADS AND DAMPING
+
+Here w and az are vertical undisturbed fluid velocity and acceleration
+components at the midpoint of the strip. Chaplin (1988) has shown that
+improved correlation with experiments can be obtained if different Cy
+and Cp coefficients are assigned to the horizontal and_ vertical
+components.
+
+When waves and currents are acting simultaneously, the combined
+effect should be considered. The normal approach is to add vectorially
+the wave-induced velocity and the current velocity in the velocity term of
+the Morison’s equation. As mentioned in the beginning of the chapter,
+one should be aware that Cy- and Cp-values are also influenced by the
+presence of a current.
+
+The design wave approach is often used in combination with
+Morison’s equation. This means one analyses the load effect of a regular
+wave system. Often non-linear wave theories are used. A short termstatistical approach may also be applied (Vinje, 1980). However, more
+has to be learned about Cy- and Cp-values in this context. For instance,
+is it right to use just one Cy- and one Cp-value to represent a sea state?
+If so, is it then sufficient to use a characteristic Keulegan—Carpenter
+number, Reynolds number, roughness ratio etc. to estimate the Cy- and
+Cp-value? The answer is probably yes if the characteristic KC-number
+is large and the flow is not in a critical flow regime. What we mean by a
+large characteristic KC-number has to be precisely defined. In the case
+of extreme wave loads on a strip of a vertical circular cylinder close to the
+free surface #H,,,/D is a characteristic KC-number, where Hmnax is the
+most probable largest wave height. If 7H,.,/D > ~40 we could consider
+the KC-number to be large. A typical Cp-value for a smooth surface is
+then 0.7. It is of course easy to criticize Morison’s equation. However,
+there is nothing better from a practical point of view. The reason for this
+is the very complicated flow picture that occurs for separated flow around
+marine structures.
+
+Many attempts have been made to solve separated flow around marine
+structures numerically. Examples of methods used are
+
+(a) Single vortex method (Brown & Michael, 1955; Faltinsen &
+Sortland, 1987)
+
+(b) Vortex sheet model (Faltinsen & Pettersen, 1987)
+
+(c) Discrete vortex method (Sarpkaya & Shoaff, 1979)
+
+(d) Combination of Chorin’s method and vortex-in-cell method
+(Chorin, 1973; Smith & Stansby, 1988)
+
+(e) Navier—Stokes solvers (Lecointe & Piquet, 1985) —
+
+A general description of the state of the art is that the methods are
+generally limited to two-dimensional flow, that the methods have
+documented satisfactory agreement in some cases, but that they are
+presently not robust enough to be applied with confidence in completely
+new problems, where there is no guidance from experiments. Due to
+
+MORISON’S EQUATION 227
+
+lack of proper turbulence modelling of wakes it is difficult to simulate the
+flow around a cylinder in the near-wake of another cylinder. Except for
+the single vortex method, the methods are often time consuming to apply
+to practical problems. One can end up spending a lot of computer time
+with numerical prediction methods for separated flow around offshore
+structures without gaining further knowledge. The single vortex method
+is limited to small KC-flow around bodies with sharp corners. The other
+methods have more general applicability.
+
+An example of the simulated wake picture by the vortex sheet model of
+Faltinsen & Pettersen (1987) is presented in Fig. 7.1. The figure shows
+
+Fig. 7.1. Free shear layer positions at different times for oscillatory crossflow
+past a flat plate. KC = UmT/H = a (Uy = velocity amplitude of the
+ambient flow, T = oscillation period, H = half the height of the
+plate). Uyt/H = 0.784, 1.584, 1.984, 2.384, 3.184, 3.984, 4.784,
+5.584, 6.384, 6.984 (Faltinsen & Pettersen, 1987.)

@@ -1,0 +1,95 @@
+and ds is an element of C. The integration curve C has to be closed, intersect the separation point and otherwise be outside the analysed vortex sheet and not intersect other vortex sheets. This is illustrated in Fig. 6.8, where we for simplicity have assumed that the vortex sheet (free-shear layer) is infinitely thin. The integration direction in equation (6.13) is in the counter-clockwise direction. Then for the vortex sheets leaving the two separation points A and B in Fig.
+
+184 CURRENT AND WIND LOADS
+
+6.8 we can write
+
+op 72 8” (6.14)
+ar
+“py Uae’ (6.15)
+
+The circulation in a sheet leaving points A and B follows from an
+integration of equations (6.14) and (6.15), respectively, with respect to
+time. In a flow which starts from rest and with no initial vorticity in the
+flow both I’, and I, are initially zero.
+
+It should be noted that the circulation around a curve that circumscribes the cylinder and does not intersect the vortex sheets, has to
+be zero according to Kelvin’s theorem (Newman, 1977).
+
+Free-shear layers easily become unstable and turbulent. If the flow is
+laminar at the separation point, it will take only a short distance from the
+separation point before it becomes unstable and turbulent. This means
+wakes are turbulent even if the boundary layer flow is laminar.
+
+VORTEX SHEDDING
+In the starting process of separated flow around a circular cylinder a
+symmetric wake picture develops, but due to instabilities asymmetry will
+soon occur. The consequence is that vortices are alternatively shed from
+each side of the cylinder.
+Von Karman (see Lamb, 1945: pp. 224~9) has studied the stability of
+
+Separation point
+
+Free shear
+layer
+
+UX Integration curve
+
+N eo for calculating
+
+~~ circulation Ts in
+free shear layer
+leaving separation
+point B
+
+Fig. 6.8. Example of a curve used to calculate the circulation F of a free shear
+
+layer leaving a separation point.
+
+VORTEX SHEDDING : 185
+
+idealized vortex streets. He investigated the stability of certain geometrical configurations of the eddies created behind a two-dimensional bluff
+body: Each eddy was mathematically represented as a point vortex of
+strength magnitude |I'|. The eddies were situated in two parallel rows.
+The directions of rotation of the eddies in one row are uniform and
+opposite to the rotation in the other row. Von Karman found that only
+two different arrangements are possible. The eddies in one row are either
+placed exactly opposite those of the other row or they are symmetrically
+staggered (Fig. 6.9). The stability investigation lead to the result that the
+first arrangement is unstable, The second arrangement is generally
+unstable, but become stable for a very definite ratio between the vortex
+street width hand distance 1 between two adjacent vortices in the same
+
+row, i, e.
+
+=~ cosh™ 'V2= * 0.28 (6.16)
+
+If we use a . coordinate system fixed to the body, the vortices will move
+with a velocity
+
+he
+
+val
+
+T
+U.- Ws
+NB
+Here U., is ‘the incident velocity far upstream.
+We can use von Karman’s idealized vortex street to get an estimate of
+the vortex shedding period T,. From Fig. 6.9 we find
+
+It should be noted T° and 1 cannot be estimated from von Karman’s
+theory. The reason is that there is_no. body geometry involved. Von
+Karman’s theory is not limited to a a circular cylinder. For simplicity let
+us set h = D where D is the cylinder diameter and let us approximate the
+ocities by U,...We may write
+
+T,U.= zs (6.19)
+
+(6.17)
+
+0.28
+
+The non-dimensional vortex shedding frequency may be represented by
+
+Fig. 6.9. Arrangement of vortices in a von Karman vortex street.

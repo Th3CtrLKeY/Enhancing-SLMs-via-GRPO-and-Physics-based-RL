@@ -1,0 +1,245 @@
+[Page 1]
+Numerical Integration of Differential Equations
+
+---PAGE BREAK---
+
+[Page 2]
+deja
+
+Numerical Integration of Differential equations
+
+
+>
+
+
+-10
+Oo 1 2 3 4 5 6 7 8 9 10
+
+d
+Consider the differential equation: A = f(z,y) subject to y(a) = b
+x
+The condition y(a) = 6 is called an initial condition. a and b are known numbers.
+
+The approach to integrate the differential equation numerically is to start at
+x = a where we know the solution, y = b. Then we move to x = a+Az. The
+solution at that point is: y= a+ fayeAx, where faye is the average value of ae
+over the interval from a to a+ Az. Then we proceed in the same way to obtain
+y(a + 2Az). The accuracy of the numerical solution depends of the accuracy of
+the estimate of faye. The various ways of making this estimate are called rules or
+methods. We will index the points at which y is determined by 7 so the computed
+values are yo, Y1, 2, --- at values of x: x9, 21, £2, .... The simplest method is Euler’s
+Method.
+
+---PAGE BREAK---
+
+[Page 3]
+Euler’s Method In Euler’s method, to estimate y;11, fave is approximated by
+its value at (x;, y;) or its value at (2;41, y;) The former case is called the forward
+Euler Method and the latter case is called the backward Euler Method.
+
+For the forward Euler Method: Yier © Yit f (xi, Yi) (Zi41—-7:)
+Expanding y in a Taylor series about 2, gives:
+
+(x _ ao)” ”
+
+y(z) = y(xo) + (x — x0)y"(z0) + 5 OY (zo) +...
+
+The error,e, for one step in the solution by the Euler Method can be obtained
+from the first omitted term in the above Taylor series:
+
+_ (a@- xo)? d*y
+
+~ 2 dx?
+The meaning of the error depends on the value of x for which fy is evaluated.
+There is one point in the interval for which the computed error is exact. However,
+the location of that point is not known. If we take the absolute value of the
+maximum value of ay in the interval, the result is an upper bound on the error.
+€ is called the local error for the interval. The total error for the entire interval is
+called the global error. The sum of the values of ¢ for all the intervals is an upper
+bound on the global error. For demonstration purposes, if we have a differential
+equation that can be solved analytically, the exact global error can be calculated.
+It can be shown that the global error diminishes as the step (interval) size, Az,
+is made smaller.
+
+Modified Euler’s Method
+
+The forward Euler method uses the derivative at the initial point of the interval.
+The backward Euler method uses the derivative close to the end point of the
+interval. A numerical solution with improved accuracy is obtained by using the
+average of the derivative at the initially computed end points.
+
+Yin © Yi <r {y' (xi, Yi) + y [riv1, Yi + (Xi41 _ Zi) y (xi, yi) |}
+
+---PAGE BREAK---
+
+[Page 4]
+Vv 3
+
+Modified Euler’s Method (continued)
+
+For each successive interval, the steps are:
+
+oe -F& Ww Wb
+
+. Evaluate the slope [y/(z;, y;)| at the start of the interval.
+
+. Estimate y;,; at the end of the interval using Euler’s Method.
+
+. Evaluate the slope, y'|[ri+1, yit (Gi41 —2i)y’ (zi, y:)|, at the end of the interval.
+. Calculate the average of the two slopes,y/,,,. from steps 1 and 3.
+
+. Calculate a revised value of y;,; using the average slope,
+
+Yior = Yi + (Liga — Li) Yh re
+
+---PAGE BREAK---
+
+[Page 5]
+Fourth Order Runge Kutta Method
+
+h( S4+ 25+ 283+ S4)/6
+
+X%
+
++ h/2 +N = X44
+
+The fourth order Runge Kutta method estimates the average value of f = fu in
+
+an interval of length h in terms of values of f at four locations in (2, y) space. If
+the initial point of the interval is (z;, y;), one derivative is evaluated there, one
+is at x = z; + h and two are at x = 2; + h/2, for two different values of y. If ou
+depends only on x and not on y, the two intermediate values of f are the same.
+
+The four slopes are:
+
+81 = f (zi, yi)
+
+So = f(x; + 0.5h, y; + 0.5h3;)
+
+sa = f(xit h, yi + hss)
+Then the value of y at the end of the interval is estimated as:
+h
+Yi = Yr race + 2s9 + 283 + Sq)
+
+---PAGE BREAK---
+
+[Page 6]
+DELS
+
+Predictor-Corrector Methods
+
+Two difficulties with high order Runge Kutta methods are the computation time
+required to compute several values of the derivative at each time step and the
+exact error is unknown. Predictor-corrector methods allow fewer computations
+if the number of corrector steps is limited and allow iterations of the corrector
+step converging to a very accurate solution if the required computation time is
+available.
+
+The approach with a predictor-corrector method involves two steps. The first is
+a prediction step using any integration method and the second is the correction
+step which improves upon the prediction. The process is explained here using
+the simplest rules: the Forward Euler Method for the prediction step and the
+trapezoidal rule for the correction step. The equation to be solved is: uw =
+f(x,y). Consider the interval from index 7 to index 1+1 with z;,; —z; = h. The
+prediction step is:
+Yi41,0 = Vix + hfijs
+
+The second subscript on the left hand side, 0 indicates that there have been zero
+correction steps (or trials). The second subscripts, *, on the right hand side
+means that the subscripted quantities are for the final step; in this case for the
+i" integration step.
+
+Now we use the trapezoidal rule to correct the estimate of y;41.
+
+h
+Yi411 = Yaw + 2 [ Fin + fi+10]
+
+The rightmost term can be evaluated since we know 4410 from the previous
+prediction step. We can refine the estimate, using the value of y;,; from the
+prior correction step.
+
+h
+Yit1j = Yix + 2 [fi,s + fitij-1]
+
+This process can be continued until y converges. The converged result is the exact
+solution to the numerical problem as posed, but is not necessarily the solution to
+the actual continuous mathematics solution. In this case, the numerical problem
+is based on the average derivative over the interval being the average of its value
+at the two ends. This is not exactly correct for differential equations in general.
+
+---PAGE BREAK---
+
+[Page 7]
+D ere
+
+Higher Order Differential Equations
+a d
+Consider the equation: a + fi (cy) + fo(z,y)y = 9(z,y)
+
+dy
+Let: —=
+e da Zz
+
+Then: a =—fi(z,y)z—- fo(z,y)y+9(z,y)
+
+When we use an integration rule, at each step it is applied to the two equations
+above and everything else proceeds as it does for a first order differential equation.
+
+The same approach can be used for equations of higher order. For example:
+
+d°y d?y dy _
+at fo(a, "a2 + filt,y)—- + folx,y)y = 9(2,y)
+
+Make the following definitions:
+dy _
+dx °
+dz d’y
+
+dx dx?
+
+In this case, the integration rule is applied to three equations at each step.
+
+---PAGE BREAK---
+
+[Page 8]
+bEZ?
+
+Review and Extension
+
+Simple Example
+
+d*y dy
+
+Suppose: qe t fly, t)s- + 9(y,t)y = hy, t)
+d*y dy
+
+e fy, a g(y,t)y + hy, t)
+
+dy
+
+Let: q(y,t) = 7)
+
+a, =f lut)a—gyt)y + h(yt)
+Consider the simplest integration rule: Forward Euler Integration
+q(t + dt) = q(t) + |-f(y(@),t) a(t) — g(y(t), t) y(@) + A(y(E), €)] ot
+y(t + dt) = y(t) + g(t) dt
+
+Slightly More Complicated Example
+
+O7y (x,t
+
+Oy(z, t)
+at
+
++ g(x,y, t)y(x,t)m = h(z, y,t)
+
+Follow the above procedure for each (fixed) value of x.
+
+Oy (x,t) Oy (x, t)
+Let: g(x, y,t) = Cutest)
+Oq(z,y,t)
+
+Now we do the numerical integration by the Euler Method. Any other method can also be used.
+q(x, y,t +t) = g(x,y, t) +[-f(z, y(z, t), t) a(z, y(z, t), t) — g(x, y(z, t), t) y(a, t) + h(x, y(c, t), t)] ot
+
+y(x,t + dt) = y(x,t) + q(a,y,t) ot

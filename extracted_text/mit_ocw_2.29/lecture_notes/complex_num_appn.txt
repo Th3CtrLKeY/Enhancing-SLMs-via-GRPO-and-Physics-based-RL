@@ -1,0 +1,298 @@
+[Page 1]
+An Application Using Complex Numbers
+
+---PAGE BREAK---
+
+[Page 2]
+Example of Programming with Complex Numbers
+
+Conformal Mapping of a Circle into an Airfoil
+
+2D Flow: ¢ is velocity potential, ~ is stream function.
+
+Op OW Op Ow
+u=>- => v= > =-p-
+
+~ Ox Oy ~ ay Ox
+Complex Numbers
+d®
+zZ=ax2+ty @=¢+w — =u-—ww
+Simple Example
+y
+U
+Qa
+X
+u=Ucosa v=Usina
+¢ = Uxrcosa+ Uysina wy = Uycosa — Ursina
+
+®@= 6+ ip = Uxcosa+ Uysina+ Wycosa —iUxsina
+
+O®
+
+— =—Ucosa—w sina =u-—iv
+Ox
+
+Cvle
+
+---PAGE BREAK---
+
+[Page 3]
+CVUIb
+Now we map a circle in the z-plane to an airfoil in the ¢-plane.
+Streamlines in z-plane map into streamlines in ¢-plane.
+
+The circle is a streamline in the z-plane and the airfoil is a streamline in
+the ¢-plane.
+
+db d/dz_ (u—w),
+
+(ue = GE = ade ~ dh de
+
+The Karman-Trefftz mapping function is:
+
+_ (z +a) +(z-—a)
+@+a—@—ay
+
+A and a are real numbers and A > 1.
+
+¢
+
+a yyoa(z—aMe tay
+dz 4 [(z +a) —(z—apP?
+
+For large z,
+
+(24 + ar2* 1} +...) + (24 —ar2* 1 +...)
+
+= \g TOM ed TONE)
+¢ “GX + adz>-1 + 1.) — (24 — adz*-1 +...)
+C= Na2z* +... a4
+~~ Dxr-la +i. ™
+
+Far field flow in z-plane is equal to far field flow in ¢-plane.
+
+d¢/dz = 0 at z =a and at z = —a. Tf either of these points are in the flow
+field, w — iv must equal zero there to avoid infinite velocity in ¢-plane.
+
+Approach
+
+Locate circle so that z = —a is inside it.
+
+Locate circle so that z = a is on circle and u — iv there is zero. z = a
+maps into the trailing edge of the airfoil and since d¢ /dz = 0 there it can
+be sharp. _
+
+---PAGE BREAK---
+
+[Page 4]
+GVie
+
+a=
+
+i
+Hi
+
+[S}
+if
+al
+
+a
+ai
+
+kN
+=
+
+oh AT
+i
+
+_ Flow around a circle with zero circulation. The center of the circle is located
+at r = —.3,y = 0.4. The circle passes through x =a =1.0. The flow angle of attack is
+10 degrees. :
+
+The inflow angle is a = 10 degrees, the circle radius is rp = V 1.32 + 0.42 =
+1.3602 and the flow is:
+
+u=Ucosa—U (*) cos(20 — a)
+
+v=Usina—U (*:) sin(20 — a)
+
+This flow is not zero at z= a.
+
+---PAGE BREAK---
+
+[Page 5]
+To make the flow zero at z = a add circulation [
+
+[ = 4rr,U sin(—G — a) 6B =sin7 Ye
+. r
+
+; Cc
+
+Then:
+Te\? r..
+u=Ucosa—U (“) cos(20 — a) — —— sin®
+r 2ar
+
+; Te\? r
+v=Usina—U (=) sin(20 — a) + — cos6
+r 2ur
+
+“Flow around a circle with circulation. The center of the circle is located at
+xz = —.3,y = 0.4. The circle passes through x = a = 1.0. Note that the rear stagnation
+
+point has moved to x = a.
+
+cure
+
+---PAGE BREAK---
+
+[Page 6]
+Culie
+
+| PATA ET
+
+| MMA
+Oy 3
+
+IN| ANT
+LE || ANN
+LE | tL.
+foment} ee
+fF
+
+ate
+
+—
+
+OS ES BE ASWE AALS A OO BS SE EN RUD N
+oO
+
+\ NE “
+NED
+
+ANBAR
+
+The circle maps into an airfoil shape. The included angle , 7 (in degrees)
+
+at the tail is:
+
+r = 180(2— 2)
+
+The Pressure Distribution
+
+uw +"
+
+g
+
+2 4. 9
+pU 54
+P—P,
+1/2U?
+
+---PAGE BREAK---
+
+[Page 7]
+on
+
+Procedure to Compute Pressure Coefficient
+
+1. Make a sequence of points on the circle.
+2. Determine value of z for each point.
+
+3. Use complex number programming to determine the value of z and
+d¢/dz for each point.
+
+4. (u—iv)¢ = (u—iv),/F.
+5. g@? = (u—tv)c (ut ive.
+6. Cp = 1—(q/U)?.
+
+---PAGE BREAK---
+
+[Page 8]
+“-" S 5
+
+cpl
+% cpl in matlab
+
+a=1.0;
+alpha=0.1745;
+lambda=1. 8611;
+
+xc = -0.3;
+yc =0.4;
+UU=1.0;
+amma=- 7.779695;
+pr=180- /pi;
+rc = rtc(1. O-xc) .A2 + yc -A2);
+fid = fopenC' cpt. dat','w');
+degv = (1:1:360);
+
+angv=degv sydpr)
+
+XC + ‘ rc .* cos(angv));
+
+yy yc + ( rc * sin(Cangv));
+
+ZV XV + i*yv;
+
+zetav=lambda*a* ((zv + a) .A lambda + (zv-a) .Alambda) ./ .
+(zv+a) .A lambda - (zv- a) .A lambda);
+
+Im = lambda - 1.0;
+
+dzetadzv = 4.0 * lambda A2 * a A2 * (zv-a) .A Im .*(zv+a) .Alm ./ ...
+
+_C Gv + a) * lambda - (zv -a) .A lambda) .A 2);
+(uU*cos(alpha)) - UU*cos (2. 0 .* angv - alpha) -
+“(gamma / (2.0*pi*rc)) * sinCangv) ;
+(UU * sin(alpha)) - UU*sin(2.0*angv - alpha) +...
+~(gamma/(2. O*pi*rc)) .* cos(Cangv);
+WZ = UV -1*VV;
+wzeta = wz ./(dzetadzv + eps);
+a. = _Wzeta. *Cconj (wzeta)) ;
+= 1.0 -q/ (uu .A2);
+cpm = -Cp;
+for m = 1:360
+fprintf(fid,'%7.3f %7.3f %7.3f %7.3F 47.3Ff %7.3fF %7.3f\n'
+
+real(zetav(m)), sya czetay(m)) cpm(m), real(zv(m)), imag(2v(in))
+
+end, real (wz(m)) , imag(wz(m)
+fclose(fid) F
+
+Page 1
+
+---PAGE BREAK---
+
+[Page 9]
+1.5
+
+0.5
+
+-2
+
+-2.5
+
+-2.5
+
+-2
+
+-1.5
+
+“1
+
+0.5
+
+1.5 2
+
+---PAGE BREAK---
+
+[Page 10]
+-5
+-2.5
+
+0.5
+
+1.5
+
+KT PROG S

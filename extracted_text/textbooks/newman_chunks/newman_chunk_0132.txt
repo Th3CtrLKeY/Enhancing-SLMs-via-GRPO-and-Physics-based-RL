@@ -1,0 +1,66 @@
+because the flow associated with the image dipole will distort the streamlines moving past the first dipole, but this effect will be small if the ratio a/b is small. The corresponding result for a pair of spheres, or for a single sphere moving near a wall, is readily obtained. This procedure can be extended to a body or source situated between two parallel walls, say at y b = ± 1 2 . In this case, to satisfy the boundary
+
+The Motion of an Ideal Fluid 
+
+conditions on both walls simultaneously, it is necessary to use an infinite 
+row of images, at y = ± b, ± 2b, ± 3b, … . In two-dimensional problems, the 
+resulting infinite series for sources and dipoles can be summed in closed 
+form, or the solutions can be guessed by noting that these must be peri­
+odic functions of y with period b. Thus, the complex source potential is 
+given by
+F
+m
+z
+b
+= 2π
+π
+logsinh
+, 	
+(155)
+and the flow past a (distorted) circle is given by the superposition of a free 
+stream and dipole, in the form
+F
+Uz
+U a
+b
+z b
+=
++ π
+π
+(
+/ )coth
+/ .
+
+(156)
+These problems are discussed by Lamb (1932), who notes that the distor­
+tion of the circle is negligible provided its diameter is less than half of the 
+space between the walls.
+The problem of a vertical flat plate, situated midway between two par­
+allel horizontal walls, can be solved in closed form, as outlined by Sedov 
+(1965). The added-mass coefficient in this case is given by the expression
+m
+b
+a
+b
+
+
+
+= −ρ π
+π
+logcos
+, 	
+(157)
+where 2a is the breadth of the plate. This result is exact, and the two limit­
+ing cases are a single flat plate in an infinite fluid when a/b → 0 and a com­
+pletely blocked channel with infinite added mass when a/b → 1/2. Similar 
+results for rectangular profiles are given in numerica1 form by Flagg and 
+Newman (1971).
+Wall corrections for wind tunnels and water tunnels can be derived in 
+this manner. For three-dimensional motion in a rectangular tunnel, a dou­
+bly infinite array of image bodies or singularities is required.
+Problems
+1. Show that the velocity potentials defined by the real parts of the complex 
+potentials in figures 4.4 and 4.5 satisfy the correct boundary conditions on 
+the boundaries of each flow. Assuming each of these flows is steady, what 
+is the corresponding expression for the pressure throughout the fluid and 
+along the boundaries?

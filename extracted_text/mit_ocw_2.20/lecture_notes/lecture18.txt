@@ -1,0 +1,379 @@
+[Page 1]
+ 
+ 
+′ 
+¯ ′ 
+′ 
+′ 
+′ 
+Lecture 18 
+- Marine Hydrodynamics 
+Lecture 18 
+4.9 Turbulent Flow – Reynolds Stress 
+Assume a ﬂow  ⃗v with a time scale T. Let τ denote a time scale τ << T. We can then 
+write for each component of the velocity 
+ui = u¯ i + ui 
+(1) 
+where by deﬁnition 
+1  τ 
+u¯ i = 
+uidt 
+τ 
+
+It immediately follows that 
+∂
+ ∂ui 
+u = ui − u¯ i = u¯ i − u¯ i = 0, also 
+u¯ i 
+etc. 
+= 
+i 
+∂x 
+∂x 
+Substitute Eq. (1) into continuity and average over τ, i.e., take (
+)
+ 
++ ∂ui = 0, 
+=⇒ 
+∂ui 
+∂u¯ i 
+∂u¯ i = 0
+ 
+∂xi 
+= 
+∂xi 
+∂xi 
+∂xi 
+↓ 
+
+∂ui 
+∂u¯ i 
+∂ui , 
+=⇒ ∂ui = 0
+ 
+∂xi 
+but 
+= 0 = 
++ 
+∂xi 
+∂xi 
+∂xi 
+↓ 
+0 , just shown 
+
+2.20 - Marine Hydrodynamics, Spring 2005
+2.20
+
+---PAGE BREAK---
+
+[Page 2]
+′ 
+ 
+′
+
+ 
+ 
+′ 
+′ 
+′ 
+′ 
+′ 
+′
+′ 
+ 
+′
+′ 
+
+ 
+  
+′
+′ 
+′
+′ 
+Substitute Eq. (1) into the momentum equations and take ( ) 
+∂ui 
+∂ui 
+1 ∂τij 
+1 ∂p 
+
++ uj 
+=
+= − 
++ ν∇ ui
+∂t 
+∂xj 
+ρ ∂xj 
+ρ ∂xi 
+⎧ ν∇2 
+= ν∇2
+ui 
+ui
+⎨ 
+∂ui 
+∂u¯ i 
+∂ui ; similarly 
++ 
+= 
+∂t 
+∂t 
+∂t 
+⎩ ∂p = ∂ (¯p + p′) = ∂p¯ 
+∂xi 
+∂xi
+
+etc. 
+∂xi 
+∂ui +uj
+∂xj 
+∂xj 
+∂ui 
+∂
+ ∂u¯ i 
+∂u¯ i 
+∂ ui
++ uj
+∂xj 
+∂xj 
+′
+(¯ +
+u
+u
+i
+i
+∂xj 
+∂xj 
+′
+¯ + u
+j
+j 
+) =  u¯ j 
++ u¯ j
+uj 
+= u 
+    
+   
+
+
+but from continuity we have 
+′uj 
+∂u
+jui −ui
+∂xj 
+∂xj 
+0→by continuity 
+ui 
+∂ 
+∂ 
+j
+′ 
+iu = 
+u 
+∂xj 
+and thus we ﬁnally obtain 
+∂u¯ i 
+∂u¯ i 
+1 ∂p 
+∂ 
++ ¯uj 
+= − 
++ ν∇2 u¯ i − 
+uj 
+∂u¯ i 
+∂u¯ i 
+1 ∂ 
+ 
++ ¯uj 
+= 
+τij −ρuiuj
+∂t 
+∂xj 
+ρ ∂xj 
+∂t 
+∂xj 
+ρ ∂xi 
+∂xj 
+
+∂ 
+ρ ∂xj τij 
+Reynolds averaged N-S equation: 
+Reynolds stress: τRij ≡−ρuiuj
+
+---PAGE BREAK---
+
+[Page 3]
+4.10 Turbulent Boundary Layer Over a Smooth Flat Plate 
+We have already seen that the function of the friction coeﬃcient Cf (ReL ) diﬀers for laminar 
+and turbulent ﬂows. In this paragraph we will discuss the case of a turbulent boundary 
+layer. 
+Following a procedure similar to that for ﬂow past a body of general geometry, we will 
+use an approximate velocity proﬁle, obtain the P-Flow solution and eventually substitute 
+everything into von Karman’s momentum integral equation. The velocity proﬁles used in 
+practice are either empirical ((1/7)th power) or semi-empirical (logarithmic) laws. 
+δ 
+y
+Uo 
+u 
+U 
+δ 
+y
+log 
+1/7 
+o
+U 
+u
+log 
+4.10.1 (1/7)th Power Velocity Proﬁle Law 
+Let the velocity proﬁle be determined by the following empirical law 
+¯u 
+ y 1/7 
+= 
+(2)
+Uo 
+δ 
+where δ = δ(x) is to be determined. 
+From equation (2) we can obtain directly δ∗and θ 
+δ 
+δ ∗ = 8 
+7 δ ∼
+θ = 
+= 0.0972 δ 
+
+However, we need to use an additional empirical law to determine the skin friction. 
+From Blasius’ law of friction for pipes we obtain an expression for τo 
+τo 
+ Uo
+−1/4
+δ 
+= 0.0227 
+ρU 2 
+ν
+o
+
+---PAGE BREAK---
+
+[Page 4]
+From P-Flow for ﬂow past a ﬂat plate we have U(x) =  U0 = const, and dp/dx = 0  
+Substituting δ∗, θ, τo, Uo into von Karman’s moment equation 
+τo 
+d 
+ Uoδ −1/4 
+7 dδ 
+=
+(θ) =⇒ 0.0227 
+= 
+ρU 2 
+dx 
+ν 
+72 dx
+o 
+This is a 1st order ODE for δ. One BC is required. We assume that the the ﬂow is 
+tripped at x = 0, i.e., at x = 0 the ﬂow is already turbulent. Further on, we assume 
+that the turbulent boundary layer starts at x = 0, i.e., δ(0) = 0. It follows that 
+δ (x) ∼ 
+ Uox −1/5 
+δ ∼
+= 0.373x 
+=⇒ 
+= 0.373R−1/5 
+ν
+x 
+ex 
+Compare: 
+Laminar Boundary Layer Turbulent Boundary Layer (1/7th power law) 
+√ 
+δ (x) ∝ 
+x
+δ (x) ∝ x4/5 
+δ∗ ∼ 
+ νx 
+δ∗ ∼ 
+ 
+νx4 1/5 
+= 1.72 
+= 0.047
+Uo 
+Uo 
+Once the proﬁle has been determined we can evaluate the friction drag 
+D = 0.036 ρU 2 BL R−1/5 
+o 
+eL 
+Thus, the friction coeﬃcient for turbulent (tripped and/or ReL > 5 × 105) ﬂow over 
+a ﬂat plate is 
+Cf = 
+D 
+= 0.073R−1/5 
+1ρU 2BL 
+eL 
+o
+
+4.10.2 Logarithmic Velocity Proﬁle Law 
+If the velocity proﬁle is determined by the semi-empirical logarithmic velocity pro­
+ﬁle law, following an approach similar to that for the 1/7th power law, we obtain 
+Schoenherr’s formula for the friction coeﬃcient 
+0.242 
+ 
+= log10 (ReL Cf )
+Cf
+
+---PAGE BREAK---
+
+[Page 5]
+4.10.3 Summary of Boundary Layer Over a Flat Plate 
+Laminar BL (Blasius) 
+Turbulent BL (1/7th power law) 
+δ 
+x ∝ R−1/2 
+ex 
+δ ∗ = 1.72xR−1/2 
+ex 
+∝ √ x 
+δ 
+x ∝ R−1/5 
+ex 
+δ ∗ = 0.047xR−1/5 
+ex 
+∝ x 4/5 
+τo = 0.332ρU 2 
+o R−1/2 
+ex 
+τo = 0.0227ρU 2 
+o R−1/4 
+eδ 
+τo = 0.02297ρU 2 
+o R−1/5 
+ex 
+D = 0.664ρU 2 
+0 (BL)R−1/2 
+eL 
+D = 0.03625ρU 2 
+0 (BL)R−1/5 
+eL 
+Cf ≡ 
+D 
+ρU 2 
+o (BL) = 1.328R−1/2 
+eL 
+Cf ≡ 
+D 
+ρU 2 
+o (BL) = 0.0725R−1/5 
+eL 
+For τo, the cross-over is at Rex ∼ 3.4 x 103, i.e., 
+(τo)laminar > (τo)turbulent for Rex < 3.4 × 103 
+Cf 
+(τo)laminar ∼ (τo)turbulent for Rex ∼ 3.4 × 103 
+(τo)laminar < (τo)turbulent for Rex > 3.4 × 103 
+C fL ~ RL 
+− 
+C f ~ RL 
+− 5 
+
+T 
+~ 0.01 
+Therefore, for most prototype scales: 
+
+
+ln (RL) 
+(Cf )turbulent > (Cf )laminar 
+RL ~ 1.6 x 104 
+(τo)turbulent > (τo)laminar

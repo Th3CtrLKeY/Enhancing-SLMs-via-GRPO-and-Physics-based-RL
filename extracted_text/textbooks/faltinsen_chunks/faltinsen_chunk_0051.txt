@@ -1,0 +1,126 @@
++...4+ G16) — [ Jds als, >, } F162 16 “6 on Si6 F626 = cos 6 lyreet6 - The brackets in the integrals are log((y — n(s))? + ( — &(s))?)2 and the normal derivative 0/dn is the same as 0/dr. When we ha -2y2) (Y,3 2,5) Yq 25) (¥, .2,) Fig. 4.2. Approximation of a circular cross-section by straight line segments to be used in numerical solutions with the source technique. (9:5 2) = midpoints of segment S;).
+
+NUMERICAL METHODS
+
+differentiate with respect to n, we should realize that it is y
+and z that are variables. It means that n = n(y, 2) or that
+3/On = nz 6/dy + nz 0/dz. Here n and ns are the y- and
+z-components of the normal vector n to the body surface. In
+the case of a circular cylinder n= sin 0, n; = —cos @ (see
+Fig. 3.3). Equation (4.8) means we have to solve an equation
+system of the form
+
+Aya = B; (4.9)
+
+where both i andj run from 1 to 16. The coefficient matrix in
+equation (4.9) consists of what we can call influence
+components. That means if element) has source density 1, it
+will induce a normal velocity equal to Ay in the midpoint of
+element 7. The total normal velocity at this point is the sum of
+contributions from each element, and can be expressed by
+
+j21 AyG;- In order to satisfy the boundary conditions this
+sum shall be equal to the prescribed normal velocity B; at
+element i.
+
+. Anormalized velocity potential ¢ defined by
+
+= —¢ |Ns| @ cos wt (4.10)
+
+can now be determined from (4.6), (4.7) and the solution g,,
+j =1, 16 found from (4.8).
+
+. The pressure part that determines the added mass can be
+
+found from calculating
+
+fo) p=—p <= —p9 In| a? sin ot (4.11)
+
+. The resulting vertical force can be found from
+
+~[ pms ds~~{p > il 6 cos 6 ds |}? nl sin wt
+S j= Ls;
+(4.12)
+
+By using the definition of added mass and damping (see
+equation (3.11)) it follows that the two-dimensional added
+mass in heave can be written as
+
+Ag??? = —p >> | [ @ cos 6 ds| (4.13)
+Sy
+
+d=1
+
+and B33? = 0 in the infinite domain case.
+The integrals in (4.6) and (4.8) can be analytically
+
+‘determined. We will show how this can be done by studying
+
+the influence from a source distribution along a segment of
+
+SOURCE TECHNIQUE 107
+
+the y-axis between 0 and 1. That means that we study
+
+o052)= | logy - nF +23 dn (4.14)
+
+The corresponding velocity can be written
+24 2
+99 _ f O-m dn wl iog 2 t* (4.15)
+wy bb w-nyt2e? 2 “(y-l+z
+ap _f) adn _
+
+z
+=| ———; = arct — arctg — >| (4.16)
+2 yp Gone te “ial as i
+
+The vertical velocity O¢/dz is plotted in Fig. 4.3 along the line y = 7
+
+Far away from the segment we see that the behaviour is similar to a
+source singularity in (0, 3). However, close to the segment the behaviour
+differs, and we see that 9¢/9z— a when 2 is approaching a point on the
+segment from positive values. We translate this information to equation
+
+Oz
+
+distribution
+
+|
+
+\+— single Source approxi mation
+
+4.900
+
+a
++
+
+\
+
+\
+\
+\
+
+—L
+
+0.0
+
+-2.000
+
+i
+
++
+
+\
+
+\
+\
+\
+
+\
+\ z
+
+11000 -2500 0.0 2.000 4000
+
+Fig. 4.3. z-variation of the vertical velocity 9¢/dz induced at y = 3 due toa
+line distribution of two-dimensional sources of constant strength 27
+distributed between y = 0 and y = 1 on the y-axis.
